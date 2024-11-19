@@ -1,0 +1,13 @@
+.nazwaContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nazwaHeroImg{
+    width: 75%;
+    display: block;
+margin: 0 auto;
+}
+.nazwaHeroBtn{
+    margin: 0 auto;
+    display: block !important;
+}

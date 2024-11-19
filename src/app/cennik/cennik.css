@@ -1,0 +1,152 @@
+.heading-style {
+  font-size: 43px;
+  font-weight: 500;
+}
+
+.subheading {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+
+.card-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-subheading {
+  font-size: 18px;
+}
+
+.card-narrow {
+  width: 85%;
+  margin: auto;
+}
+
+.btn-text {
+  font-size: 18px;
+}
+
+.btns_container {
+  padding: 30px;
+}
+
+.selectInputStyle {
+  border-radius: 100px;
+  width: 75%;
+  border: '1px solid rgb(201, 201, 201)';
+  padding: 8px 12px;
+}
+
+.cennikBtn {
+  padding: 8px 16px;
+  background: var(--brand-blue);
+  font-size: 18px;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 6px 0px var(--brand-blue-hover);
+  margin: 10px auto 20px;
+}
+
+.cennikBtn:hover {
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-out;
+}
+
+/* additional input */
+.additional-input-container {
+  display: flex;
+  margin: auto;
+  padding: 20px 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.additional-input-container h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 18px;
+}
+
+.additional-input-container input {
+  padding: 8px 16px;
+  outline-color: var(--brand-blue);
+  border: none;
+  border-color: hsl(0, 0%, 80%);
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+}
+
+.po_card_custom {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15), 0 0 0 #ffffff,
+    2px 2px 2px #ffffff inset, -2px -2px 2px #c7c7c7 inset;
+  border-radius: 30px;
+  padding: 36px 0;
+  background-color: rgba(247, 247, 247, 1);
+  width: 75%;
+  width: 60%;
+  margin: auto;
+}
+.cennik_description{
+  display: block;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .BtnStyle {
+    width: 100%;
+    text-align: left;
+  }
+
+  .cennikFormCard {
+    width: 100% !important;
+  }
+
+  .btns_container {
+    padding: 10px 10px 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btns_container {
+    padding: 10px 10px 10px 5px;
+  }
+
+  .heading-style {
+    font-size: 30px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .form1Modal {
+    width: 100% !important;
+    inset: 0;
+    padding: 30px 20px !important;
+  }
+  .cennik-modal-content div {
+    display: block;
+  }
+  .cennik-modal-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .cennik-modal-title {
+    font-size: 24px;
+  }
+  .cennik-modal-content p {
+    font-size: 16px;
+  }
+  .additional-input-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

@@ -1,0 +1,50 @@
+.review_container {
+  display: flex;
+  width: 60rem;
+  margin: 0 auto;
+  gap: 50px;
+  background-color: white;
+}
+
+.rc_rating_container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.rc_video_container {
+  width: 125px;
+}
+
+.rc_review {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+  margin: 32px 0;
+}
+
+.reviewer_image_container img {
+  width: 250px;
+}
+
+.review_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rc_rating_container img {
+  width: 100px;
+  height: 28px;
+}
+
+.reviewer_name {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.reviewer_company {
+  line-height: 1;
+  font-size: 14px;
+}

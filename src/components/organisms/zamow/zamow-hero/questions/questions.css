@@ -1,0 +1,524 @@
+.zh_question {
+  padding: 70px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.zh_question h2 {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 40px;
+  line-height: 40px;
+}
+.zh_question h2 span {
+  font-weight: 600;
+}
+
+.zh_question textarea {
+  border: none;
+  border-bottom: 2px solid #d21e00;
+  background-color: transparent;
+  padding: 8px 8px 0;
+  width: 100%;
+  resize: none;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 55px;
+  color: #d2200093;
+  height: auto;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+.zh_question textarea:active,
+.zh_question textarea:focus {
+  outline: none;
+}
+.zh_question textarea::placeholder {
+  color: #d2200066;
+  font-style: italic;
+}
+.zh_question input:focus {
+  outline: none;
+}
+
+.zh_next_btn_container {
+  text-align: left;
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+}
+.zh_next_btn_container p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.zh_next_btn {
+  padding: 10px 20px;
+  border-radius: 28px;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  background-color: var(--brand-blue);
+  box-shadow: 0 0 0 0 var(--brand-blue-hover), 0 4px 0 0 var(--brand-blue-hover);
+  border: 2px solid var(--brand-blue);
+}
+.zh_next_btn:hover {
+  box-shadow: none;
+}
+.question_container {
+  width: 90%;
+  padding-bottom: 60px !important;
+}
+.question_container p {
+  text-align: left;
+}
+.range_container {
+  width: 100%;
+}
+.range_container h2 {
+  text-align: center;
+  margin: 0 0 15px;
+}
+.range_container p {
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+p.range_description {
+  font-size: 18px !important;
+  margin: 0 0 60px !important;
+}
+.list_p p {
+  margin: 0px 0 10px !important;
+  text-align: left;
+}
+.list_p {
+  margin: 0px 0 50px;
+}
+.question_description {
+  text-align: left;
+}
+.Thanks h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.Thanks p {
+  text-align: center;
+}
+.Thanks .zh_next_btn_container {
+  text-align: left;
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+  justify-content: center;
+}
+.input_bottom_content {
+  font-size: 16px !important;
+  text-align: left;
+}
+
+/* input.income_show {
+  width: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+} */
+
+.income_show {
+  width: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  background-color: white;
+}
+
+input[type='range'] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+
+  /* New additions */
+  height: 6px;
+  background: #ccc;
+}
+
+/* Thumb: webkit */
+input[type='range']::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  height: 35px;
+  width: 35px;
+  background-color: #f50;
+  border-radius: 50%;
+  border: none;
+  margin: -3px 0 0;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type='range']::-moz-range-thumb {
+  height: 35px;
+  width: 35px;
+  background-color: #f50;
+  border-radius: 50%;
+  border: none;
+  margin: -3px 0 0;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type='range']::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+}
+input[type='range']:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+input[type='range']:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type='range']::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+}
+input[type='range']:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+input[type='range']:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+}
+input.income_range::-webkit-slider-runnable-track {
+  height: 25px;
+  background: #d8d8d8;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-radius: 50px;
+}
+input[type='range']::-webkit-slider-thumb::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: calc((100% - 20px) * 50%);
+  background-color: #3498db; /* Fill color */
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+}
+
+.range_container .zh_next_btn_container {
+  justify-content: center;
+  margin: 50px 0 0;
+}
+.range_container .zh_next_btn_container p {
+  font-size: 17px;
+}
+.zh_marketing_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.zh_marketing_container h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.zh_marketing_container p {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+/* ----------question 8------------------ */
+.checkbox.style-d {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: white;
+  border-radius: 100px;
+  padding: 11px 30px;
+  width: 100%;
+  text-align: left;
+  margin: 0 0 20px;
+  box-shadow: 0 5px 5px lightgreen;
+}
+.checkbox.style-d input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox.style-d input:checked ~ .checkbox__checkmark {
+  background-color: #1eb454;
+}
+.checkbox.style-d input:hover ~ .checkbox__checkmark:after {
+  opacity: 1;
+}
+.checkbox.style-d input:checked ~ .checkbox__checkmark:after {
+  opacity: 1;
+}
+.checkbox.style-d:hover input ~ .checkbox__checkmark {
+  background-color: #1eb454;
+}
+.checkbox.style-d:hover input:checked ~ .checkbox__checkmark {
+  background-color: #1eb454;
+}
+.checkbox.style-d:hover input ~ .checkbox__body {
+  color: #333;
+}
+/* .checkbox.style-d:hover{
+  background: #dfffeb;
+} */
+.checkbox.style-d .checkbox__checkmark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 32px;
+  width: 32px;
+  background-color: #d7d7d7;
+  transition: background-color 0.25s ease;
+  border-radius: 31px;
+}
+.checkbox.style-d .checkbox__checkmark:after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 10px;
+  height: 20px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.checkbox.style-d .checkbox__body {
+  font-size: 20px;
+  transition: color 0.25s ease;
+  font-weight: 300;
+  margin: 0 0 0 30px;
+}
+.checkBOxContainer {
+  width: 800px;
+  margin: 0 auto;
+}
+/* -------------------------------question 9---------------------- */
+.goal_description {
+  margin: 0 0 40px !important;
+}
+.range_container {
+  position: relative;
+}
+.tri_arrow {
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+}
+/* ----------------question 10------------------ */
+
+.working_container p {
+  text-align: left;
+}
+.input_description {
+  font-size: 18px !important;
+}
+.working_container {
+  width: 100%;
+}
+.working_container textarea {
+  width: 60%;
+  text-align: left;
+  display: block;
+  margin-bottom: 20px;
+}
+/* --------------------------------question 11---------------------------- */
+.zh_marketing_container h2 span {
+  font-weight: 700;
+}
+.zh_marketing_container h2 {
+  margin: 0 0 40px;
+}
+/* ----------------------question 14--------------------- */
+.question_14 {
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.question_14 h2 {
+  font-size: 80px;
+  margin: 0 0 30px;
+}
+.question_14 p {
+  font-size: 25px;
+}
+.question_14 h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.question_14 h6 span {
+  font-weight: 500;
+  color: green;
+}
+.marketing_book {
+  margin: 0px 0 50px 0;
+}
+.marketing_book img {
+  width: 90%;
+  margin: 0px 0 0 0;
+}
+.marketing_book h3 {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 45px;
+  margin: 100px 0 40px;
+}
+button.zh_preview_btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: var(--brand-blue);
+  border: 2px solid var(--brand-blue);
+  background: transparent;
+  font-weight: 500;
+}
+/* --------thank you!-------- */
+.zamow-hero .marketing_book {
+  width: 1100px;
+  margin: 0 auto 0 -150px;
+}
+@media only screen and (max-width: 1024px) {
+  .checkBOxContainer {
+    width: 100%;
+  }
+  .zh_marketing_container {
+    padding: 0px 0;
+  }
+  .zh_question {
+    padding: 0px 0;
+  }
+  .tri_arrow {
+    left: -10px;
+    bottom: -10px;
+  }
+  .accordion-heading {
+    font-size: 50px !important;
+  }
+  .question h4 {
+    font-size: 30px !important;
+  }
+  .question header {
+    padding: 0 !important;
+  }
+  .zh_question,
+  .working_container textarea {
+    width: 90%;
+  }
+  .question_14 {
+    padding: 70px 0 0;
+  }
+  .zamow-hero .marketing_book {
+    width: 90%;
+    margin: 0 auto 0;
+  }
+  .marketing_book h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .zamow-hero.col {
+    max-width: 95%;
+  }
+  .zh_question {
+    padding: 0px 0px;
+  }
+  .zh_question textarea {
+    font-size: 20px;
+    line-height: 43px;
+  }
+  .zh_next_btn {
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+  .zh_question h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .zh_next_btn_container {
+    align-items: baseline;
+  }
+  .tri_arrow {
+    display: none;
+  }
+  input[type='range'] {
+    width: 100%;
+  }
+  .checkBOxContainer {
+    padding: 0 20px;
+  }
+  .marketing_book {
+    padding: 0 20px;
+  }
+  .marketing_book h3 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .question_14 {
+    margin: 0 auto;
+    padding: 0px 0;
+  }
+  .question_14 h2 {
+    font-size: 50px;
+  }
+  .results-card {
+    min-height: 200px !important;
+  }
+  .results-card p {
+    font-size: 18px !important;
+  }
+  .marketing_book button.zh_preview_btn,
+  .marketing_book .zh_next_btn {
+    font-size: 11px;
+  }
+}
+
+/* congrats gif */
+.congrats_gif {
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+.OurClients_Slide_Title {
+  font-size: 34.28px;
+  font-weight: 800;
+  line-height: 39.936px;
+  padding-block: 30px;
+}
+
+.OurClients_Slide:hover .OurClients_Slide_Image img {
+  filter: grayscale(0%) !important;
+}
+
+.cartAnimation {
+  margin: -390px 0 0 -320px;
+}
+
+.cartAnimation img {
+  width: 350px;
+}
+
+.OurClients_Slide_Media_Video {
+  width: 150px;
+}
+
+.OurClients_Slide_Media_Video img {
+  width: 150px;
+}
+
+@media (max-width:768px) {
+
+  .rating_image {
+    margin-inline: auto;
+    display: block;
+    margin-bottom: 25px;
+  }
+  .OurClients_Card_Two_Content{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .mobile-mt{
+    margin-top: 8rem !important;
+  }
+}

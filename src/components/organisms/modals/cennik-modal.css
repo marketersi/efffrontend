@@ -1,0 +1,43 @@
+.cennik-modal-close {
+  position: absolute !important;
+  top: 10px !important;
+  right: 20px !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 25px !important;
+  color: white !important;
+}
+
+.cennik-modal-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cennik-modal-content p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cennik-modal-content div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cennik-modal-btn {
+  padding: 10px 0px;
+  border-radius: 24px;
+  font-size: 20px;
+  background-color: transparent;
+  border-color: red;
+  color: white;
+  width: 45%;
+}
+
+.cennik-modal-btn a {
+  text-decoration: none;
+  color: white;
+}
