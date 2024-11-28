@@ -21,6 +21,9 @@ export function* priceListScreenSaga() {
       API_ENDPOINTS.PRICE_LIST_SCREEN
     );
 
+    console.log(responseData);
+    
+
     if (responseData) {
       console.log("Price list screen data saga ==>", responseData.data);
       yield put(fetchPriceListScreenSuccess({ response: responseData.data }));
@@ -34,8 +37,9 @@ export function* priceListScreenSaga() {
 }
 
 export function* cennikMenuStorSaga(action) {
+  
   const payload = action.payload;
-  console.log("Inside Price list screen saga post", payload);
+  console.log("Inside Price list screen saga post", payload , "--------");
 
   try {
     yield put(isMenuSubmitStarted());
@@ -55,6 +59,8 @@ export function* cennikMenuStorSaga(action) {
       yield put(isMenuSubmitFail());
     }
   } catch (error) {
+    console.log(error);
+
     console.log("menu submit failed catch saga");
     yield put(isMenuSubmitFail());
     toast.error("something went wrong");

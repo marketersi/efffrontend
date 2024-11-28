@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <div>
-      <ReactPlayer
+      {/* <ReactPlayer
         url={heroSection?.background_video}
         playing={true}
         loop={true}
@@ -23,7 +23,7 @@ const Hero = () => {
         muted={true}
         pip={false}
         playsinline
-      />
+      /> */}
 
       <div className={style.hero}>
         <Container>

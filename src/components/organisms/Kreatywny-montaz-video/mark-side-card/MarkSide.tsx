@@ -2,7 +2,7 @@
 
 import React from 'react';
 import style from './mark.module.css';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image, Container } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 import Link from 'next/link';
 import { Variants, motion } from 'framer-motion';
@@ -55,6 +55,7 @@ const MarkSide = () => {
 
   return (
     <div>
+      <Container>
       <Row className="m-0">
         <Col lg={4}>
           <div className={style.mark}>
@@ -94,6 +95,7 @@ const MarkSide = () => {
           </div>
         </Col>
       </Row>
+      </Container>
     </div>
   );
 };

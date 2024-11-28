@@ -95,7 +95,7 @@ const Header = () => {
 
                 <div className={style.headerDrop1} onMouseLeave={handleCloseDropdown}>
                   <div className={style.dropBtn} onMouseEnter={handleOpenDropdown}>
-                    Usługi i <br /> realizacje <span></span>
+                    Usługi i  realizacje <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
                   </div>
                   {isDropdownOpen && (
@@ -107,7 +107,7 @@ const Header = () => {
 
                 <div className={style.headerDrop1} onMouseLeave={handleCloseDropdown}>
                   <div className={style.dropBtn} onMouseEnter={handleOpenDropdown}>
-                    Przydatne <br /> rzeczy <span></span>
+                    Przydatne  rzeczy <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
                   </div>
                   {isDropdownOpen && (

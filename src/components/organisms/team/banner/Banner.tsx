@@ -17,7 +17,7 @@ const  osClass = useOsClass();
     <div className={style.banner}>
       <div className={style.zespolVideo}>
         <div className={osClass}>
-        <ReactPlayer
+        {/* <ReactPlayer
           url={herosection?.background_video}
           playing={true}
           loop={true}
@@ -26,7 +26,7 @@ const  osClass = useOsClass();
           height="auto"
           playsinline
           className={style.bannerVideo}
-        />
+        /> */}
         </div>
       </div>
       <div className={style.overlay}></div>

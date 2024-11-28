@@ -223,7 +223,7 @@ contact-inputs textarea {
   letter-spacing: -0.01em;
   line-height: 40px;
   font-family: 'RobotoLight';
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .copywriter-ikony-theme {
@@ -249,7 +249,7 @@ contact-inputs textarea {
 .copywriter-custom-img-text-sm {
   letter-spacing: -0.01em;
   font-size: 36px;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .copywriter-bg-10 .copywriter-fotel {
@@ -486,7 +486,7 @@ contact-inputs textarea {
   line-height: 82px;
   color: #353434;
   margin-bottom: 50px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -524,7 +524,7 @@ contact-inputs textarea {
 }
 
 .copywriter-reading-container {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .copywriter-standard-pb-80 {
@@ -559,7 +559,7 @@ contact-inputs textarea {
   font-weight: 600;
   font-family: 'Playfair Display', serif;
   margin-inline: auto;
-  max-width: 800px;
+  max-width: 900px;
   margin-top: 50px;
 }
 
@@ -571,7 +571,7 @@ contact-inputs textarea {
   margin-top: 70px;
   margin-bottom: 70px;
   font-style: italic;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
   font-weight: 400;
 }

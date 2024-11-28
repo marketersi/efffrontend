@@ -1,29 +1,28 @@
 .hero {
   background: transparent;
-  padding: 50px 0 168px;
+  padding: 100px 0 168px;
   /* position: relative; */
   overflow: hidden;
   max-height: 685px;
 }
 
+
 .hero h1 {
   text-align: center;
-  font-size: 5.4rem;
-  font-weight: 900;
+  font-size: 4.5rem;
+  font-weight: 700;
   line-height: 80px;
   margin: 0 0 30px;
   color: white;
-
-  /* mods after api */
-  width: 68%;
   margin: 0 auto;
+  width: 80%;
 }
 
 .hero h6 {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 36px;
   margin: 30px 0 20px;
   color: white;
 }
@@ -35,7 +34,7 @@
   line-height: 30px;
   margin: 0 0 40px;
   color: white;
-  max-width: 320px;
+  
   margin-inline: auto;
 }
 
@@ -53,13 +52,20 @@
   font-size: 18px;
   font-weight: 700;
   color: white;
-  background: transparent;
+  background: #00bfff;
   width: 100%;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 
 
 .heroBtn button:hover {
-  background: #00bfff;
+  background: #fff;
+  color:#00bfff;
+  border: 3px solid #fff;
 }
 
 .heroBtn a {
@@ -131,7 +137,7 @@
 }
 
 .subtitleContainer {
-  width: 42%;
+  width: 55%;
   margin: 10px auto 0 auto;
 }
 .heroVideo:before {
@@ -153,6 +159,26 @@
   border-radius: 50px;
   padding: 10px 20px;
   font-size: 18px !important;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.heroBtn .umow:hover{
+  background-color: #00bfff;
+}
+
+.heroVideo:after{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 5px);
+  background-color: rgba(0, 0, 0, 0.25);
+  content: "";
 }
 /* ----------------------------------media screen------------------------------------ */
 @media screen and (max-width: 1520px) {
@@ -260,6 +286,7 @@
 
   .hero {
     max-height: 540px;
+    padding: 30px 0 50px;
   }
 
   .hero h1 {
@@ -280,6 +307,7 @@
 
   .hero p {
     font-size: 20px;
+    margin-bottom: 15px;
   }
 
   .heroBtn {

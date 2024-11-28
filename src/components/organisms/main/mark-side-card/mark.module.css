@@ -1,12 +1,26 @@
 .markCard{
     background: #f6f6f6;
-    width: 420px;
-    padding: 30px;
-    margin: 65px auto 30px;
+   min-height: 520px;
+    padding: 100px 30px 30px;
+    margin: -65px 30px 70px;
     border-radius: 20px;
-    box-shadow: 4px 0px 10px lightgray;
+    
+    
 }
-
+.gapRow{
+    display: flex;
+    justify-content: space-between;
+}
+.midColumn{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.midColumn .markCard{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .markCard h3{
     font-size: 50px;
     text-align: center;

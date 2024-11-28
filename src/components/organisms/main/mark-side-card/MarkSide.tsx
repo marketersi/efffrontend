@@ -2,12 +2,13 @@
 
 import React, { useEffect, useState } from 'react';
 import style from './mark.module.css';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image, Container } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 import Link from 'next/link';
 import { Variants, motion } from 'framer-motion';
 import { useSelector } from 'react-redux';
 import useOsClass from '@/components/molecules/useOsClass';
+
 
 const MarkSide = () => {
   const { screenData } = useSelector((state) => state.home);
@@ -63,8 +64,9 @@ const MarkSide = () => {
 
   return (
     <div>
-      <Row className="m-0">
-        <Col lg={4} className={osClass}>
+    <Container fluid>
+    <Row className={style.gapRow}>
+        <Col md={4} className={osClass}>
           
             
             <ReactPlayer
@@ -81,7 +83,7 @@ const MarkSide = () => {
             <Card data={companyCard[0]} links={links1} />
           
         </Col>
-        <Col lg={4} >
+        <Col md={4} className={style.midColumn}>
         <div className={style.mark}>
         <Image
             className={osClass}
@@ -94,7 +96,7 @@ const MarkSide = () => {
             </div>
           <Card data={companyCard[1]} links={links2} />
         </Col>
-        <Col lg={4}>
+        <Col md={4}>
           <div className={style.mark}>
             <Image
               src={companySection?.image_3}
@@ -106,6 +108,7 @@ const MarkSide = () => {
           </div>
         </Col>
       </Row>
+    </Container>
     </div>
   );
 };

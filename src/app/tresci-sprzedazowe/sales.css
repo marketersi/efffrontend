@@ -130,7 +130,7 @@ section.sales_banner {
 /* ==============================sales banner-bottom-text========================== */
 .copywriter-page .copyuwriter-custom-push-1 {
   margin-top: 24px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .copywriter-custom-margin-1 {
@@ -425,7 +425,7 @@ strong {
   line-height: 70px;
   font-weight: 900;
   margin-bottom: 25px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -498,7 +498,7 @@ strong {
 }
 
 .copywriter-whatwedo-container {
-  max-width: 800px;
+  max-width: 900px;
   margin-bottom: 80px;
 }
 
@@ -561,7 +561,7 @@ img.copywriter-owocni {
   font-weight: 900;
   margin-bottom: 30px;
   line-height: 89px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -569,7 +569,7 @@ img.copywriter-owocni {
   font-family: 'Playfair Display';
   font-size: 40px;
   letter-spacing: -0.01em;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -595,7 +595,7 @@ img.copywriter-owocni {
 }
 
 .custom-container2 {
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -946,7 +946,7 @@ section#sec1 {
   }
 
   .faqContainer {
-    max-width: 500px;
+    max-width: 700px;
   }
 
   .copywriter-custom-container-2 {
