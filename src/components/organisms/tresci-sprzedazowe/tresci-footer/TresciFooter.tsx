@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./TesciFooter.css";
 import { usePathname } from "next/navigation";
 import Modal from "react-modal";
-import Form from "../../tresci-sprzedazowe/form/Form";
+import Form from "../form/Form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { motion, Variants } from "framer-motion";
