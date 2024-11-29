@@ -256,6 +256,15 @@ body {
   font-weight: 600;
   line-height: 29.952px;
 }
+.btns_container .BtnStyle:hover{
+  background-color: #00bbff!important;
+  color:#fff!important;
+  transform: scale(1.02);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
 
 /* Carousel */
 .embla {
