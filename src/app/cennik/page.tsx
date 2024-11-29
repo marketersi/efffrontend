@@ -65,7 +65,6 @@ const PriceListScreen = () => {
   };
 
   const buttonStyle = {
-    margin: "5px",
     padding: "10px 25px 10px 25px",
     borderRadius: "100px",
     backgroundColor: "rgb(255, 255, 255)",
@@ -73,7 +72,8 @@ const PriceListScreen = () => {
     fontSize: "18px",
     textTransform: "capitalize",
     color: "black",
-    minWidth: "300px",
+    width:"100%",
+    transiction: "all 0.3s"
   };
 
   return (
@@ -110,8 +110,8 @@ const PriceListScreen = () => {
                       <div className="btns_container">
                         <div className="row">
                           <div
-                            className="col-lg-6"
-                            style={{ textAlign: "right" }}
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
                             onClick={() => handleBtnClick(1)}
                           >
                             <button
@@ -136,8 +136,8 @@ const PriceListScreen = () => {
                             </button>
                           </div>
                           <div
-                            className="col-lg-6"
-                            style={{ textAlign: "left" }}
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
                             onClick={() => handleBtnClick(2)}
                           >
                             <button
@@ -162,33 +162,9 @@ const PriceListScreen = () => {
                         </div>
 
                         <div className="row mt-lg-3">
-                          <div
-                            className="col-lg-6"
-                            style={{ textAlign: "right" }}
-                            onClick={() => handleBtnClick(5)}
-                          >
-                            <button
-                              className="BtnStyle"
-                              style={{
-                                ...buttonStyle,
-                                backgroundColor:
-                                  isRed === 5
-                                    ? "#00BFFF"
-                                    : buttonStyle.backgroundColor,
-                                color:
-                                  isRed === 5 ? "white" : buttonStyle.color,
-                                border:
-                                  isRed === 5
-                                    ? "1px solid #00BFFF"
-                                    : buttonStyle.border,
-                              }}
-                            >
-                              {cardMenu?.menuFifth?.menu_title}
-                            </button>
-                          </div>
-                          <div
-                            className="col-lg-6"
-                            style={{ textAlign: "left" }}
+                        <div
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
                             onClick={() => handleBtnClick(6)}
                           >
                             <button
@@ -210,12 +186,37 @@ const PriceListScreen = () => {
                               {cardMenu?.menuSixth?.menu_title}
                             </button>
                           </div>
+                          <div
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
+                            onClick={() => handleBtnClick(5)}
+                          >
+                            <button
+                              className="BtnStyle"
+                              style={{
+                                ...buttonStyle,
+                                backgroundColor:
+                                  isRed === 5
+                                    ? "#00BFFF"
+                                    : buttonStyle.backgroundColor,
+                                color:
+                                  isRed === 5 ? "white" : buttonStyle.color,
+                                border:
+                                  isRed === 5
+                                    ? "1px solid #00BFFF"
+                                    : buttonStyle.border,
+                              }}
+                            >
+                              {cardMenu?.menuFifth?.menu_title}
+                            </button>
+                          </div>
+                          
                         </div>
 
                         <div className="row mt-lg-3">
                           <div
-                            className="col-lg-6"
-                            style={{ textAlign: "right" }}
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
                             onClick={() => handleBtnClick(3)}
                           >
                             <button
@@ -238,8 +239,8 @@ const PriceListScreen = () => {
                             </button>
                           </div>
                           <div
-                            className="col-lg-6"
-                            style={{ textAlign: "left" }}
+                            className="col-md-6 col-sm-12"
+                            style={{ textAlign: "center" }}
                             onClick={() => handleBtnClick(4)}
                           >
                             <button
