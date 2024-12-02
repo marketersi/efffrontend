@@ -4,7 +4,7 @@
 }
 
 .Content {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .Content h2 {
-  font-size: 72px;
+  font-size: 90px;
   text-align: center;
   font-weight: 800;
   color: #333333;
@@ -94,7 +94,11 @@
 
 .gradientBG {
   font-weight: 600;
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   padding: 0 10px;
   border-radius: 100px;
   display: inline-block;
@@ -130,10 +134,9 @@
 img.hardImg {
   margin: 0 0 50px;
 }
-.helmetVideo{
+.helmetVideo {
   margin: 0 auto;
 }
-
 
 /* ================================================== order================================= */
 .order {

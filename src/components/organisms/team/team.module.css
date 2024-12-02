@@ -9,7 +9,7 @@
 .bannerContent {
   margin-top: -60px;
 }
-.zespolVideo{
+.zespolVideo {
   min-height: 650px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .teamContent {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0px auto 50px;
 }
 
@@ -72,7 +72,11 @@
 }
 
 .bannerBottomContent h2 span {
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   border-radius: 20px;
   padding: 0 10px 0 0;
   display: inline-block;
@@ -143,7 +147,11 @@
 
 .personalCard h6 span {
   font-weight: 800;
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   padding: 0 10px 0 0;
   border-radius: 20px;
 }
@@ -174,7 +182,11 @@
 .mainHeading h2 span,
 .teamContent h2 span {
   font-weight: 800;
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   padding: 0 10px 0 0;
   border-radius: 20px;
   display: inline-block;
@@ -249,7 +261,11 @@
 
 .teamContent h2 span {
   font-weight: 800;
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   padding: 0 10px 0 0;
   border-radius: 20px;
   display: inline-block;
@@ -372,7 +388,11 @@
   font-weight: 800;
   padding: 0 0 0 10px;
   border-radius: 20px;
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
 }
 
 .cultureImg {
@@ -495,7 +515,7 @@
 .peopleVideoContent .scheduleBtn:hover {
   background: var(--brand-blue);
   border-radius: 100px;
-  color:#fff;
+  color: #fff;
 }
 
 .peopleVideoContent .scheduleBtn div {
@@ -533,7 +553,7 @@
 /* -------------------------------------media screen -------------------------------- */
 @media only screen and (max-width: 1360px) {
   .bannerBottomContent img {
-    margin:  0;
+    margin: 0;
     width: 100%;
   }
 
@@ -686,12 +706,12 @@
   }
   .zespolVideo {
     min-height: 500px;
-}
+  }
 }
 @media only screen and (max-width: 900px) {
   .zespolVideo {
     min-height: 400px;
-}
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -713,7 +733,7 @@
   }
 
   .bannerBottomContent img {
-    margin:  auto;
+    margin: auto;
     width: 100%;
     display: block;
     top: 0;
@@ -776,8 +796,8 @@
   }
   .zespolVideo {
     min-height: 350px;
-}
-  .OurClients{
+  }
+  .OurClients {
     margin-bottom: 80px;
   }
 
@@ -924,7 +944,6 @@
   .zespolVideo {
     width: 100% !important;
     overflow: hidden;
-    
   }
 
   .creativePara {
@@ -942,5 +961,5 @@
 @media only screen and (max-width: 450px) {
   .zespolVideo {
     min-height: 250px;
-}
+  }
 }

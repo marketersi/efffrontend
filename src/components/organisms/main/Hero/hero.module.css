@@ -1,28 +1,29 @@
 .hero {
   background: transparent;
-  padding: 100px 0 168px;
+  padding: 50px 0 168px;
   /* position: relative; */
   overflow: hidden;
   max-height: 685px;
 }
 
-
 .hero h1 {
   text-align: center;
-  font-size: 4.5rem;
-  font-weight: 700;
+  font-size: 5.4rem;
+  font-weight: 900;
   line-height: 80px;
   margin: 0 0 30px;
   color: white;
+
+  /* mods after api */
+  width: 68%;
   margin: 0 auto;
-  width: 80%;
 }
 
 .hero h6 {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 30px;
   margin: 30px 0 20px;
   color: white;
 }
@@ -34,7 +35,7 @@
   line-height: 30px;
   margin: 0 0 40px;
   color: white;
-  
+  max-width: 320px;
   margin-inline: auto;
 }
 
@@ -52,20 +53,12 @@
   font-size: 18px;
   font-weight: 700;
   color: white;
-  background: #00bfff;
+  background: transparent;
   width: 100%;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
 }
 
-
 .heroBtn button:hover {
-  background: #fff;
-  color:#00bfff;
-  border: 3px solid #fff;
+  background: #00bfff;
 }
 
 .heroBtn a {
@@ -137,7 +130,7 @@
 }
 
 .subtitleContainer {
-  width: 55%;
+  width: 42%;
   margin: 10px auto 0 auto;
 }
 .heroVideo:before {
@@ -145,13 +138,13 @@
   background: #00b3ee;
   width: 100%;
   height: 99%;
-  content: '';
+  content: "";
   position: absolute;
   z-index: 0;
   /* background: url('https://images.prismic.io/marketersi/ZvZp-bVsGrYSwD_H_heroimg.png?auto=format,compress') no-repeat center;
     background-size: cover; */
 }
-.mobile{
+.mobile {
   display: none;
 }
 .heroBtn .umow {
@@ -159,26 +152,6 @@
   border-radius: 50px;
   padding: 10px 20px;
   font-size: 18px !important;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-}
-.heroBtn .umow:hover{
-  background-color: #00bfff;
-}
-
-.heroVideo:after{
-  position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom: 0;
-  width: 100%;
-  height: calc(100% - 5px);
-  background-color: rgba(0, 0, 0, 0.25);
-  content: "";
 }
 /* ----------------------------------media screen------------------------------------ */
 @media screen and (max-width: 1520px) {
@@ -255,7 +228,7 @@
     margin: 0 auto;
     width: 300px;
   }
-  .heroBtn button{
+  .heroBtn button {
     padding: 10px 40px;
     font-size: 16px;
   }
@@ -271,22 +244,22 @@
 }
 
 @media screen and (max-width: 767px) {
-  .desktop{
+  .desktop {
     display: none;
   }
-  .mobile{
+  .mobile {
     display: block;
   }
   .heroVideo {
     padding: 180px 0 250px;
     top: -180px;
-    background: url('https://images.prismic.io/marketersi/ZvZp-bVsGrYSwD_H_heroimg.png?auto=format,compress') no-repeat center;
+    background: url("https://images.prismic.io/marketersi/ZvZp-bVsGrYSwD_H_heroimg.png?auto=format,compress")
+      no-repeat center;
     background-size: cover;
   }
 
   .hero {
     max-height: 540px;
-    padding: 30px 0 50px;
   }
 
   .hero h1 {
@@ -307,7 +280,6 @@
 
   .hero p {
     font-size: 20px;
-    margin-bottom: 15px;
   }
 
   .heroBtn {

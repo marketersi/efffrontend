@@ -25,14 +25,14 @@
 }
 
 .contact-form-2020 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .contact-form-2020 .header-text {
   font-size: 30px;
   line-height: 34px;
   letter-spacing: -0.025em;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #0d0701;
   text-align: left;
@@ -173,7 +173,7 @@ contact-inputs textarea {
   width: 30px;
   height: 30px;
   background: url(https://form2020.owocni.pl/img/check.svg) no-repeat;
-  content: '';
+  content: "";
   background-size: 100%;
 }
 
@@ -192,7 +192,7 @@ contact-inputs textarea {
 }
 
 .projects-client-opinion-p {
-  font-family: 'Arial';
+  font-family: "Arial";
   color: #e3e3e3;
   font-size: 30px;
   margin-bottom: 30px;
@@ -222,7 +222,7 @@ contact-inputs textarea {
   font-size: 36px;
   letter-spacing: -0.01em;
   line-height: 40px;
-  font-family: 'RobotoLight';
+  font-family: "RobotoLight";
   max-width: 700px;
 }
 
@@ -231,7 +231,7 @@ contact-inputs textarea {
   letter-spacing: -0.01em;
   line-height: 76px;
   margin-bottom: 30px;
-  font-family: 'RobotoLight';
+  font-family: "RobotoLight";
   text-align: center;
 }
 
@@ -242,7 +242,7 @@ contact-inputs textarea {
 .copywriter-custom-img-text {
   letter-spacing: -0.01em;
   font-size: 99px;
-  font-family: 'RobotoLight';
+  font-family: "RobotoLight";
   line-height: 99px;
 }
 
@@ -278,13 +278,13 @@ contact-inputs textarea {
 }
 
 .copywriter-custom-text-akuku {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 69px;
   line-height: 77px;
 }
 
 .copywriter-custom-subtext-akuku {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-style: italic;
   font-size: 50px;
   line-height: 50px;
@@ -303,7 +303,7 @@ contact-inputs textarea {
 }
 
 .copywriter-custom-text-akuku-2 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 57px;
   line-height: 55px;
   text-align: right;
@@ -311,7 +311,7 @@ contact-inputs textarea {
 }
 
 .copywriter-custom-subtext-akuku-2 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-style: italic;
   font-size: 31px;
   line-height: 34px;
@@ -342,7 +342,7 @@ contact-inputs textarea {
   padding-top: 400px;
   color: #373737;
   font-size: 85px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   line-height: 90px;
   letter-spacing: -0.025em;
   max-width: 570px;
@@ -361,7 +361,7 @@ contact-inputs textarea {
 .copywriter-custom-text-turbokids-1 {
   color: #373737;
   text-align: right;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-size: 47px;
   letter-spacing: -0.025em;
   line-height: 56px;
@@ -371,7 +371,7 @@ contact-inputs textarea {
 .copywriter-custom-subtext-turbokids-1 {
   color: #373737;
   text-align: right;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-size: 30px;
   letter-spacing: -0.025em;
   line-height: 36px;
@@ -430,7 +430,7 @@ contact-inputs textarea {
   font-size: 45px;
   line-height: 49px;
   letter-spacing: -0.01em;
-  font-family: 'Georgia';
+  font-family: "Georgia";
 }
 
 .copywriter-after-img-2 {
@@ -440,7 +440,7 @@ contact-inputs textarea {
 }
 
 .copywriter-custom-text-4 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-style: italic;
   font-size: 58px;
   color: #373737;
@@ -480,13 +480,13 @@ contact-inputs textarea {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .copywriter-custom-header-3 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 78px;
   letter-spacing: -0.01em;
   line-height: 82px;
   color: #353434;
   margin-bottom: 50px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
@@ -502,7 +502,7 @@ contact-inputs textarea {
 
 /* =============Ink book============== */
 .copywriter-custom-header-4 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 88px;
   letter-spacing: -0.01em;
   line-height: 74px;
@@ -514,7 +514,7 @@ contact-inputs textarea {
 }
 
 .copywriter-custom-subheader-4 {
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 61px;
   letter-spacing: -0.01em;
   line-height: 74px;
@@ -524,7 +524,7 @@ contact-inputs textarea {
 }
 
 .copywriter-reading-container {
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .copywriter-standard-pb-80 {
@@ -557,9 +557,9 @@ contact-inputs textarea {
   font-size: 60px;
   line-height: 60px;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-inline: auto;
-  max-width: 900px;
+  max-width: 800px;
   margin-top: 50px;
 }
 
@@ -571,7 +571,7 @@ contact-inputs textarea {
   margin-top: 70px;
   margin-bottom: 70px;
   font-style: italic;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
   font-weight: 400;
 }
@@ -597,7 +597,7 @@ section.profit-sec {
 
 .copywriter-ending-1 {
   font-size: 129px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   line-height: 123px;
   letter-spacing: -0.025em;
@@ -688,7 +688,7 @@ section.black-sec-form {
 }
 
 .sendQuote h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 40px;

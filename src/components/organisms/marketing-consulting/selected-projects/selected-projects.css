@@ -5,7 +5,7 @@
   font-size: 100px;
   text-align: center;
   font-weight: 700;
-  max-width: 900px;
+  max-width: 800px;
   margin: 100px auto 30px;
 }
 .sp_header p {
@@ -35,43 +35,43 @@
 img.left-card-img {
   width: 100%;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .sp_header h2 {
     font-size: 70px;
     max-width: 100%;
     margin: 70px auto 30px;
+  }
+  .sp_header p {
+    font-size: 28px;
+    padding: 0;
+  }
+  .sp_card_container {
+    margin: 70px 0;
+  }
+  .sp_card_left {
+    margin-right: 0;
+    width: 85%;
+  }
+  .sp_card_right {
+    width: 85%;
+    margin-left: 0;
+  }
 }
-.sp_header p {
-  font-size: 28px;
-  padding: 0;
-}
-.sp_card_container {
-  margin: 70px 0;
-}
-.sp_card_left {
-  margin-right: 0;
-  width: 85%;
-}
-.sp_card_right {
-  width: 85%;
-  margin-left: 0;
-}
-}
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .sp_header h2 {
     font-size: 50px;
-}
-.sp_header p {
-  font-size: 22px;
-}
-.sp_card_left {
-  width: 100%;
-  padding: 20px;
-}
-.left-card-img{
-  width: 100%;
-}
-.sp_card_right {
-  width: 100%;
-}
+  }
+  .sp_header p {
+    font-size: 22px;
+  }
+  .sp_card_left {
+    width: 100%;
+    padding: 20px;
+  }
+  .left-card-img {
+    width: 100%;
+  }
+  .sp_card_right {
+    width: 100%;
+  }
 }

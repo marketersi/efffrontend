@@ -14,8 +14,7 @@ import {
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import LottieAnimation from "../../molecules/LottieAnimation";
-import {usePathname} from 'next/navigation';
-
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,18 +22,15 @@ const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const pathname = usePathname(); // Hook to get the current path
-  console.log('pathname ===>', pathname);
+  console.log("pathname ===>", pathname);
 
   // switch - if-else condition to check the screen name from path
   const screenName = pathname.split("/").pop();
-  console.log('screenName ===>', screenName);
+  console.log("screenName ===>", screenName);
 
-  const specialScreens = ['', 'Zespol',]; 
+  const specialScreens = ["", "Zespol"];
 
   const specialPage = specialScreens.includes(screenName);
-
-
-
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -74,12 +70,9 @@ const Header = () => {
     handleCloseDropdown();
   };
 
-
- 
-
   return (
     <>
-     <header
+      <header
         className={`${style.navbar} ${specialPage ? style.blackMenu : ""} `}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -93,25 +86,43 @@ const Header = () => {
                   <Link href="/cennik">Cennik</Link>
                 </Button>
 
-                <div className={style.headerDrop1} onMouseLeave={handleCloseDropdown}>
-                  <div className={style.dropBtn} onMouseEnter={handleOpenDropdown}>
-                    Usługi i  realizacje <span></span>
+                <div
+                  className={style.headerDrop1}
+                  onMouseLeave={handleCloseDropdown}
+                >
+                  <div
+                    className={style.dropBtn}
+                    onMouseEnter={handleOpenDropdown}
+                  >
+                    Usługi i <br /> realizacje <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
                   </div>
                   {isDropdownOpen && (
-                    <div className={style.dropMenu} onClick={handleCloseDropdown}>
+                    <div
+                      className={style.dropMenu}
+                      onClick={handleCloseDropdown}
+                    >
                       <HeaderDropDown1 />
                     </div>
                   )}
                 </div>
 
-                <div className={style.headerDrop1} onMouseLeave={handleCloseDropdown}>
-                  <div className={style.dropBtn} onMouseEnter={handleOpenDropdown}>
-                    Przydatne  rzeczy <span></span>
+                <div
+                  className={style.headerDrop1}
+                  onMouseLeave={handleCloseDropdown}
+                >
+                  <div
+                    className={style.dropBtn}
+                    onMouseEnter={handleOpenDropdown}
+                  >
+                    Przydatne <br /> rzeczy <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
                   </div>
                   {isDropdownOpen && (
-                    <div className={style.dropMenu} onClick={handleCloseDropdown}>
+                    <div
+                      className={style.dropMenu}
+                      onClick={handleCloseDropdown}
+                    >
                       <HeaderDropDown2 />
                     </div>
                   )}
@@ -143,7 +154,11 @@ const Header = () => {
       </header>
 
       {/* --------------------------------mobile header-------------------------- */}
-      <div className={`${style.mobileHeader} ${specialPage ? style.blackMenu : ""}`}>
+      <div
+        className={`${style.mobileHeader} ${
+          specialPage ? style.blackMenu : ""
+        }`}
+      >
         <header className={style.header}>
           <Button className={style.mobileLeftBtn}>
             <Link onClick={handleMenuItemClick} href="/cennik">
@@ -209,7 +224,7 @@ const Header = () => {
                           onClick={handleMenuItemClick}
                           href="/tresci-sprzedazowe"
                         >
-                         Treści i hasła sprzedażowe
+                          Treści i hasła sprzedażowe
                         </Link>
                       </div>
                       <div className={style.menuItem}>
@@ -238,15 +253,14 @@ const Header = () => {
 
                       <div className={style.menuItem}>
                         <Link onClick={handleMenuItemClick} href="/konsultacje">
-                        Konsultacja marketingu
+                          Konsultacja marketingu
                         </Link>
                       </div>
                       <div className={style.menuItem}>
                         <Link onClick={handleMenuItemClick} href="/">
-                        Marketing międzynarodowy
+                          Marketing międzynarodowy
                         </Link>
                       </div>
-                     
                     </div>
                   )}
                 </div>

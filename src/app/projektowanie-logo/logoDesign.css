@@ -47,7 +47,7 @@ h6 {
   margin: 20px 0px;
   line-height: 67px;
   font-size: 75px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   letter-spacing: -0.025em;
 }
@@ -82,7 +82,7 @@ img.projects-main-image-logop {
 .top-banner-long-text {
   display: block;
   color: #818181;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   line-height: 45px;
   font-size: 40px;
   font-weight: 300;
@@ -195,7 +195,7 @@ img.projects-main-image-logop {
   padding-bottom: 35px;
   font-size: 60px;
   line-height: 1.2;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -215,7 +215,7 @@ img.projects-main-image-logop {
 .theme-desc {
   margin-bottom: 40px;
   color: #515151;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 26px;
   line-height: 33px;
   letter-spacing: -0.025em;
@@ -228,7 +228,7 @@ img.projects-main-image-logop {
 .img-background-logop {
   display: block;
   margin: 50px auto 0;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .custom-container1 {
@@ -277,7 +277,7 @@ img.projects-main-image-logop {
 }
 
 .opinion-box {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   padding: 15px 0px;
   position: relative;
 }
@@ -359,7 +359,7 @@ img.projects-main-image-logop {
 
 .opinion-box-text {
   font-size: 40px;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   color: rgb(81, 81, 81);
   line-height: 1.25;
   text-align: center;
@@ -375,7 +375,7 @@ img.projects-main-image-logop {
   padding: 0 45px;
   padding-bottom: 50px;
   font-size: 80px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -399,7 +399,7 @@ img.projects-main-image-logop {
 .projets-custom-theme-desc {
   margin-bottom: 40px;
   color: #373737;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 40px;
   line-height: 45px;
   letter-spacing: -0.025em;
@@ -460,7 +460,7 @@ img.projects-main-image-logop {
   font-size: 179px;
   letter-spacing: -0.025em;
   line-height: 179px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
 }
 
@@ -468,7 +468,7 @@ img.projects-main-image-logop {
   font-size: 60px;
   letter-spacing: -0.025em;
   line-height: 60px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 50px;
   font-weight: 900;
 }
@@ -490,7 +490,7 @@ img.projects-main-image-logop {
 }
 
 .copywriter-intro-bg-5-label {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 80px;
   font-weight: 900;
   margin-bottom: 25px;
@@ -500,7 +500,7 @@ img.projects-main-image-logop {
 .projects-theme-title3 {
   padding: 0 15px;
   font-size: 60px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -538,7 +538,7 @@ img.projects-main-image-logop {
 
 .projects-container-textright {
   text-align: right;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -546,7 +546,7 @@ img.projects-main-image-logop {
 
 .projects-custom-h5 {
   color: #818181;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
   line-height: 42px;
   font-size: 40px;
@@ -565,7 +565,7 @@ img.projects-main-image-logop {
   margin-bottom: 45px;
   font-size: 40px;
   letter-spacing: -0.025em;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   line-height: 38px;
   color: #373737;
 }
@@ -589,12 +589,12 @@ img.projects-main-image-logop {
 }
 
 .galleryDecPara {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto 40px;
 }
 
 .galeriaImageContainer {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -605,7 +605,7 @@ img.projects-main-image-logop {
 .projects-galeria-theme {
   font-size: 194px;
   line-height: 194px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   margin-bottom: 50px;
 }
@@ -650,7 +650,7 @@ img.projects-main-image-logop {
   padding: 0 15px;
   padding-bottom: 100px;
   font-size: 98px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -661,24 +661,24 @@ img.projects-main-image-logop {
   line-height: 93px;
   padding-top: 50px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .projects-under-big-header3 {
   margin-bottom: 10px;
   font-size: 47px;
   letter-spacing: -0.025em;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   line-height: 52px;
   margin-bottom: 20px;
   color: #373737;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .projects-clients-theme-subtitle {
   text-align: left;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-style: normal;
   padding-left: 15px;
   margin-bottom: 0px;
@@ -693,7 +693,7 @@ img.projects-main-image-logop {
 .theme-subtitle {
   display: block;
   color: #818181;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
   line-height: 1.3;
   font-size: 34px;
@@ -707,7 +707,7 @@ img.projects-main-image-logop {
 
 .projects-theme-title-2 {
   color: #252424;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 50px;
   line-height: 1.4;
   font-weight: 900;
@@ -729,33 +729,33 @@ img.projects-main-image-logop {
 }
 
 .signed-quote-image {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: Italic;
   letter-spacing: -0.025em;
 }
 
 .signed-quote {
   margin: 24px 0px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 .theme-quote {
   font-size: 60px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #000000;
   font-weight: 400;
   font-style: italic;
   text-align: center;
   margin: 24px 0 66px;
   letter-spacing: -0.03em;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
 .signature {
   text-align: center;
   margin-bottom: 70px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: Italic;
   font-size: 19px;
   margin-top: -10px;
@@ -807,7 +807,7 @@ img.projects-main-image-logop {
   background: var(--brand-blue);
   width: 350px;
   height: 10px;
-  content: '';
+  content: "";
   position: absolute;
   left: calc(50% - 175px);
   bottom: -50px;
@@ -815,7 +815,7 @@ img.projects-main-image-logop {
 
 .projects-clients-theme-subtitle {
   text-align: left;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-style: normal;
   padding-left: 15px;
   margin-bottom: 0px;
@@ -904,7 +904,7 @@ img.projects-main-image-logop {
   color: white;
   text-align: center;
   margin-top: 86px;
-  font-family: 'Georgia';
+  font-family: "Georgia";
 }
 
 .projects-blue-video-desc2 {
@@ -935,7 +935,7 @@ img.projects-main-image-logop {
 
 .copywriter-ending-main-theme {
   font-size: 100px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   line-height: 101px;
   letter-spacing: -0.025em;
@@ -943,14 +943,14 @@ img.projects-main-image-logop {
   margin-top: 250px;
   padding-left: 5px;
   padding-right: 5px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
 .copywriting-ending-text {
   font-size: 28px;
   line-height: 35px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   letter-spacing: 0;
   margin-top: 125px;
 }
@@ -970,7 +970,7 @@ img.projects-main-image-logop {
   margin-top: 60px;
   font-size: 28px;
   line-height: 35px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   letter-spacing: 0;
 }
 
@@ -991,28 +991,28 @@ img.projects-main-image-logop {
 
 .copywriter-ending-3 {
   font-size: 28px;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   line-height: 36px;
   letter-spacing: -0.025em;
   margin-bottom: 60px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
 .projects-custom-typed-text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   min-height: 50px;
   color: white;
   margin-top: 30px;
   margin-bottom: 80px;
   font-size: 38px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 
 .copywriter-ending-1 {
   font-size: 129px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
   line-height: 123px;
   letter-spacing: -0.025em;
@@ -1038,7 +1038,7 @@ img.projects-main-image-logop {
   font-size: 30px;
   line-height: 34px;
   letter-spacing: -0.025em;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #0d0701;
   text-align: left;
@@ -1050,7 +1050,7 @@ img.projects-main-image-logop {
 .contact-form-2020 .contact-inputs,
 .contact-form-2020,
 .form-container {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .contact-inputs {
@@ -1177,7 +1177,7 @@ contact-inputs textarea {
   width: 30px;
   height: 30px;
   background: url(/assets/images/logo-design/check.svg) no-repeat;
-  content: '';
+  content: "";
   background-size: 100%;
 }
 
@@ -1220,7 +1220,7 @@ contact-inputs textarea {
 }
 
 div#sec2 {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .shopImage {

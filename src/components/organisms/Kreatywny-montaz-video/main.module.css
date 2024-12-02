@@ -4,7 +4,7 @@
 }
 
 .Content {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -342,7 +342,7 @@ img.hardImg {
     font-size: 28px;
     text-align: center !important;
   }
-  .Content p{
+  .Content p {
     font-size: 22px;
     line-height: 40px;
   }
@@ -355,5 +355,4 @@ img.hardImg {
   .enter {
     padding: 0px 0 50px;
   }
-
 }

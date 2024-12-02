@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap'); */
-@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
   background-color: #f4f4f4 !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 * {
@@ -105,7 +105,11 @@ body {
   transform: matrix(1, 0, 0, 1, 38.4, 0);
 }
 .YellowMark {
-  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), var(--brand-blue));
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 198, 2, 0),
+    var(--brand-blue)
+  );
   border-radius: 10.0147px;
   display: inline-block;
   font-size: 38.4px;
@@ -126,7 +130,7 @@ body {
   z-index: -10;
   opacity: 0.8;
 }
-.OurClients_Marquee.full.mobile{
+.OurClients_Marquee.full.mobile {
   margin-top: -100px;
   margin-bottom: 100px;
 }
@@ -256,9 +260,9 @@ body {
   font-weight: 600;
   line-height: 29.952px;
 }
-.btns_container .BtnStyle:hover{
-  background-color: #00bbff!important;
-  color:#fff!important;
+.btns_container .BtnStyle:hover {
+  background-color: #00bbff !important;
+  color: #fff !important;
   transform: scale(1.02);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.02);
@@ -375,11 +379,11 @@ body {
 
 /* -------------------------Accordion------------------------ */
 .copywriter-intro-bg-5-label {
-  font-family: 'Playfair Display';
-  font-size: 72px;
+  font-family: "Playfair Display";
+  font-size: 90px;
   font-weight: 900;
   margin-bottom: 25px;
-  max-width: 900px;
+  max-width: 800px;
   line-height: 70px;
   margin-inline: auto;
 }
@@ -497,7 +501,7 @@ body {
   .OurClients_Marquee.full.mobile {
     margin-top: -100px;
     margin-bottom: 140px;
-}
+  }
 }
 
 /* Brand Carousal Button */
@@ -541,7 +545,7 @@ video {
   -webkit-filter: contrast(0.979);
   filter: contrast(0.979);
 }
-.win video{
+.win video {
   -webkit-filter: contrast(0.999);
   filter: contrast(0.999);
 }
@@ -607,11 +611,11 @@ video {
   .OurClients_Slide {
     padding-inline: 30px;
   }
-  .android video{
+  .android video {
     -webkit-filter: contrast(0.999);
     filter: contrast(0.999);
   }
-  
+
   .iphone video {
     /* -webkit-filter: contrast(0.979); */
     filter: contrast(0.999);

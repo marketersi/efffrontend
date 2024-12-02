@@ -1,13 +1,10 @@
 .navbar {
-  padding: 15px 50px 10px;
+  padding: 20px 50px;
   background: transparent;
+  -webkit-transition: background 2s;
+  transition: background 2s;
   display: block;
-  width: 100%;
-  position: relative;
-  transition: all 0.3s ease;
-  
 }
-
 
 .navbar:hover {
   background: rgb(255, 255, 255);
@@ -19,32 +16,17 @@
   align-items: center;
 }
 
-.navigation {
-  padding: 15px 20px; /* Add padding for better spacing */
-}
-
-.scrolled .navigation {
-  padding: 10px 20px;
-}
-
 .headerLeftBtn {
   border-radius: 50px;
   padding: 5px 30px;
   background: transparent;
   color: white;
-  box-shadow: 0px 4px 0px var(--brand-blue);
+  /* box-shadow: 0px 4px 0px var(--brand-blue); */
   border: 2px solid var(--brand-blue);
   font-weight: 500;
   font-size: 16px;
-  transition: all 0.1s;
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  -ms-transition: all 0.1s;
-  -o-transition: all 0.1s;
 }
-.headerLeftBtn:hover{
-  box-shadow: none;
-}
+
 .headerLeftBtn a {
   text-decoration: none;
   color: black;
@@ -74,7 +56,7 @@
   line-height: 24px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 8px;
   position: relative;
   font-weight: 500;
 }
@@ -100,45 +82,34 @@
 .navbar:hover .dropBtn {
   color: rgb(0, 0, 0);
 }
-.dropMenu {
-  display: none;
-  position: absolute; /* Ensure it's layered properly */
-}
-
-.dropMenu.show {
-  display: block;
-}
 
 .headerRightBtn {
   border-radius: 50px;
-  padding: 12px 20px;
+  padding: 5px 20px;
   background: #00bfff;
-  color: #fff;
+  color: rgb(1, 1, 1);
   font-weight: 500;
   font-size: 15px;
   border: none;
-  box-shadow: 0px 8px 0px #000;
   transition: transform 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s,
     box-shadow 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s,
     border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s;
-  
 }
 
 .headerRightBtn a {
   text-decoration: none;
-  color: #fff;
-  
+  color: #262626;
 }
 
-
+.headerRightBtn:hover a,
+.navbar:hover a {
+  color: rgb(0, 0, 0);
+}
 
 .navbar:hover .headerRightBtn {
-  
+  box-shadow: 0px 3px 0px #181818;
   background: #00bfff;
-  color: #fff;
-}
-.navbar:hover .headerRightBtn a{
-  color: #fff;
+  color: black;
 }
 
 .headerRightBtn:hover {
@@ -371,10 +342,10 @@
   display: none;
 }
 
-.callButton{
+.callButton {
   background-color: var(--brand-blue) !important;
 }
-.callButton a{
+.callButton a {
   color: white !important;
   text-align: center;
   margin: 0 auto;
@@ -384,19 +355,19 @@
   gap: 5px;
 }
 /* ---------------------------------new menu css-------------------------- */
-.blackMenu .headerLeftBtn{
+.blackMenu .headerLeftBtn {
   border-color: var(--brand-blue);
 }
-.blackMenu .headerLeftBtn a{
+.blackMenu .headerLeftBtn a {
   color: white;
 }
-.blackMenu .dropBtn{
+.blackMenu .dropBtn {
   color: white;
 }
-.blackMenu .navRightMenu a{
+.blackMenu .navRightMenu a {
   color: white;
 }
-.blackMenu:hover .headerLeftBtn a{
+.blackMenu:hover .headerLeftBtn a {
   color: black;
 }
 /* ------------------------------------media screen-------------------------------------------------------- */
@@ -407,10 +378,10 @@
   .navRightMenu {
     font-size: 14px;
   }
-  .dropBtn{
+  .dropBtn {
     font-size: 14px;
   }
-  .headerLeftBtn{
+  .headerLeftBtn {
     font-size: 14px;
   }
 }
@@ -462,17 +433,12 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  
-
   .dropBtn {
     color: rgb(22, 22, 22);
     display: flex;
     justify-content: space-between;
   }
 
- 
-
- 
   .mobileLeftBtn {
     /* box-shadow: 0px 3px 0px var(--brand-blue); */
     border: 2px solid var(--brand-blue);
@@ -483,10 +449,10 @@
   .nav {
     top: 80px;
   }
-  .blackMenu .mobileLeftBtn a{
-color: white;
+  .blackMenu .mobileLeftBtn a {
+    color: white;
   }
-  .blackMenu .header{
-color: white;
+  .blackMenu .header {
+    color: white;
   }
 }

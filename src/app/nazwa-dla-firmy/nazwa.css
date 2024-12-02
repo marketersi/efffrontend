@@ -22,7 +22,7 @@
   margin: 20px 0px;
   line-height: 67px;
   font-size: 85px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   letter-spacing: -0.025em;
 }
@@ -34,7 +34,7 @@
   margin-top: 30px;
 }
 .pnazw-page .catalog-submit-button .download-catalog-button {
-  font-family: 'Arial';
+  font-family: "Arial";
   font-weight: 500;
   letter-spacing: -0.025em;
   font-size: 20px;
@@ -63,7 +63,7 @@
   padding: 0 15px;
   padding-bottom: 50px;
   font-size: 51px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -76,7 +76,7 @@
   font-size: 84px;
   padding: 40px 5px;
   line-height: 80px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 .top-section.desktop {
@@ -85,11 +85,11 @@
 .theme-desc {
   margin-bottom: 40px;
   color: #515151;
-  font-family: 'Georgia';
+  font-family: "Georgia";
   font-size: 24px;
   line-height: 33px;
   letter-spacing: -0.025em;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 img.names-custom-image {
@@ -119,7 +119,7 @@ img.names-custom-image {
   padding: 0 15px;
   padding-bottom: 50px;
   font-size: 65px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   font-weight: 900;
   text-align: center;
@@ -137,7 +137,7 @@ img.names-custom-image {
 .projects-theme-subtitle1 {
   display: block;
   color: #818181;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
   line-height: 42px;
   font-size: 40px;
@@ -147,7 +147,7 @@ img.names-custom-image {
   margin-left: -15px;
   margin-right: -15px;
   letter-spacing: -0.025em;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 .pnazw-page .naming-project-includes {
@@ -161,7 +161,7 @@ img.names-custom-image {
   color: black;
 }
 .pnazw-page .names-list-info {
-  font-family: 'Arial';
+  font-family: "Arial";
 }
 
 .names-list-info {
@@ -195,7 +195,7 @@ img.names-custom-image {
 }
 
 .names-client-desc {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 900 !important;
   letter-spacing: -0.025em;
@@ -216,7 +216,7 @@ img.names-custom-image {
 .names-container-Litery:after {
   /* to be deleted hence display none*/
   display: none;
-  content: '';
+  content: "";
   background-image: url(https://cdn.owocni.pl/img/projektowanie-nazw-img/Litery.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -257,7 +257,7 @@ img.names-custom-image {
 
 .projects-gray-section-custom-font {
   font-size: 45px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
 }
 .pnazw-page .new-wierzymy .img-wierzymy {
@@ -297,7 +297,7 @@ img.names-custom-image {
   margin-top: 35px;
 }
 .iglarki-section-main-header {
-  font-family: 'Playfair Display Black', serif;
+  font-family: "Playfair Display Black", serif;
   line-height: 85px;
   margin-top: 150px;
   margin-bottom: 50px;
@@ -308,13 +308,13 @@ img.names-custom-image {
   line-height: 80px;
   padding: 0 15px;
   padding-bottom: 50px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #373737;
   text-align: center;
   position: relative;
   letter-spacing: -0.025em;
   margin-top: 40px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 .pnazw-page .names-client-name {
@@ -334,7 +334,7 @@ img.names-custom-image {
   padding-bottom: 60px;
 }
 .names-client-name {
-  font-family: 'Arial';
+  font-family: "Arial";
   font-size: 30px;
   font-weight: 900;
   padding-bottom: 20px;
@@ -347,20 +347,20 @@ img.names-custom-image {
   background: var(--brand-blue);
   width: 168px;
   height: 10px;
-  content: '';
+  content: "";
   position: absolute;
   left: calc(50% - 84px);
   bottom: 15px;
   top: 75px;
 }
 .names-client-desc {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 900 !important;
   letter-spacing: -0.025em;
   margin-bottom: 50px;
   line-height: 45px;
-  max-width: 900px;
+  max-width: 800px;
   margin-inline: auto;
 }
 .names-client-iglarki {
@@ -395,7 +395,7 @@ img.names-custom-image {
   position: relative;
 }
 .custom-after-top-line::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: calc(50% - 84px);
@@ -653,7 +653,7 @@ section.projects-gray-opinion-4 {
   .theme-desc {
     margin-bottom: 40px;
     color: #515151;
-    font-family: 'Georgia';
+    font-family: "Georgia";
     font-size: 22px;
     line-height: 30px;
   }
