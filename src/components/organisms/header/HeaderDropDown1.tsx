@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container, Col, Row, Image, Nav } from 'react-bootstrap';
-import style from './header.module.css';
-import Link from 'next/link';
+import React from "react";
+import { Container, Col, Row, Image, Nav } from "react-bootstrap";
+import style from "./header.module.css";
+import Link from "next/link";
 
 const HeaderDropDown1 = () => {
   return (
@@ -12,20 +12,23 @@ const HeaderDropDown1 = () => {
             <Col sm={4}>
               <div className={style.headerMenu}>
                 <h3>BĄDŹ widoczny</h3>
-                <Link href="/projektowanie-ux">Tworzenie stron i design UX</Link>
+                <Link href="/projektowanie-ux">
+                  Tworzenie stron i design UX
+                </Link>
                 <Link href="/profesjonalne-nagrywanie-filmow">
-                  Profesjonalne nagrywanie filmów
+                  Video marketing
                 </Link>
                 <Link href="/Kreatywny-montaz-video">
                   Kreatywny montaż video
                 </Link>
-               
               </div>
             </Col>
             <Col sm={4}>
               <div className={style.headerMenu}>
                 <h3>ZOSTAŃ zapamiętany</h3>
-                <Link href="/tresci-sprzedazowe">Treści i hasła sprzedażowe</Link>
+                <Link href="/tresci-sprzedazowe">
+                  Treści i hasła sprzedażowe
+                </Link>
                 <Link href="/projektowanie-logo">Projektowanie logo</Link>
                 <Link href="/nazwa-dla-firmy">Nazwa dla firmy</Link>
               </div>
@@ -37,9 +40,7 @@ const HeaderDropDown1 = () => {
                   Strategia marketingowa
                 </Link>
                 <Link href="/konsultacje">Konsultacja marketingu</Link>
-                <Link href="/">
-                Marketing międzynarodowy
-                </Link>
+                <Link href="/">Marketing międzynarodowy</Link>
               </div>
             </Col>
           </Row>

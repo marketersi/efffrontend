@@ -1,68 +1,74 @@
 "use client";
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import { Variants, motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 import style from "./video.module.css";
 import { useSelector } from "react-redux";
 import useOsClass from "@/components/molecules/useOsClass";
+import { useRef } from "react";
 
 const Video = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
   const { brandSection } = screenData;
-
-  const slideAnimationTop: Variants = {
-    offscreen: {
-      scale: 0.7,
-      rotate: -10,
-      transition: {
-        type: "ease",
-        damping: 25,
-        stiffness: 70,
-        duration: 3,
-      },
-    },
-    onscreen: {
-      scale: 1,
-      rotate: 0,
-      transition: {
-        type: "ease",
-        damping: 25,
-        stiffness: 70,
-        duration: 3,
-      },
-    },
-  };
   const [isPopupOpen, setPopupOpen] = useState(false);
-
-  const openPopup = () => {
-    setPopupOpen(true);
-  };
-
-  const closePopup = () => {
-    setPopupOpen(false);
-  };
   const osClass = useOsClass();
+  const videoRef = useRef(null);
+
+  const controls = useAnimation(); // Controls animation
+  const isInView = useInView(videoRef, { margin: "0px 0px -200px 0px" }); // Trigger animation when in view
+
+  // Animation control based on inView status
+  React.useEffect(() => {
+    if (isInView) {
+      controls.start({
+        transform: "translate3d(0, 0, 0) skewY(0deg) rotate(0deg) scale(0.9)", // Scale up when in view
+        transition: {
+          duration: 1,
+          ease: [0.68, -0.55, 0.27, 0.55], // easeIn for start and easeOut for end (cubic bezier)
+        },
+      });
+    } else {
+      controls.start({
+        transform:
+          "translate3d(0, 0, 0) skewY(-10deg) rotate(-5deg) scale(0.5)", // Scale down when out of view
+        transition: {
+          duration: 1,
+          ease: [0.68, -0.55, 0.27, 0.55], // easeIn for start and easeOut for end (cubic bezier)
+        },
+      });
+    }
+  }, [isInView, controls]);
+
+  const openPopup = () => setPopupOpen(true);
+  const closePopup = () => setPopupOpen(false);
+
   return (
     <>
       <motion.div
         className={style.mainVideoDiv}
-        initial="offscreen"
-        whileInView="onscreen"
-        variants={slideAnimationTop}
+        ref={videoRef}
+        animate={controls}
+        initial={{
+          transform:
+            "translate3d(0, 0, 0) skewY(-10deg) rotate(-5deg) scale(0.5)", // Start state (when out of view)
+        }}
+        style={{
+          transform:
+            "translate3d(0, 0, 0) skewY(-10deg) rotate(-5deg) scale(0.5)", // Start transform
+        }}
       >
-        
         <div className={osClass}>
-        <ReactPlayer
-          url={brandSection?.banner_video}
-          playing={true}
-          loop={true}
-          muted={true}
-          width="100%"
-          height="auto"
-          pip={false}
-          playsinline
-        />
-              </div>
+          <ReactPlayer
+            url={brandSection?.banner_video}
+            playing={true}
+            loop={true}
+            muted={true}
+            width="100%"
+            height="auto"
+            pip={false}
+            playsinline
+          />
+        </div>
         <div className={style.youtubeIcon} onClick={openPopup}>
           <svg
             className="h-[60%] w-full"
@@ -96,6 +102,7 @@ const Video = () => {
           </div>
         </div>
       )}
+
       <style jsx>{`
         .popup-overlay {
           position: fixed;

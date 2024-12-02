@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import React from 'react';
-import style from '../main.module.css';
-import ReactPlayer from 'react-player';
-import { Container, Image, Row, Col } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
-import useOsClass from '@/components/molecules/useOsClass';
+import React from "react";
+import style from "../main.module.css";
+import ReactPlayer from "react-player";
+import { Container, Image, Row, Col } from "react-bootstrap";
+import { useSelector } from "react-redux";
+import useOsClass from "@/components/molecules/useOsClass";
 
 const Entrepreneur = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
   const imageswithdescription = screenData?.imageswithdescription;
   const { section4, section5, section6, section7 } =
     imageswithdescription || {};
-    const osClass = useOsClass();
+  const osClass = useOsClass();
   return (
     <div>
       <Container>
@@ -26,8 +26,8 @@ const Entrepreneur = () => {
           </div>
 
           <Row className="mb-5">
-            <Col lg={12} >
-              <h4>{section5?.quote}</h4>
+            <Col lg={12}>
+              <h4 dangerouslySetInnerHTML={{ __html: section5?.quote }} />
             </Col>
             <Col lg={12} className={osClass}>
               <ReactPlayer
@@ -39,7 +39,7 @@ const Entrepreneur = () => {
                 muted={true}
                 pip={false}
                 playsinline
-                style={{margin:"0 auto"}}
+                style={{ margin: "0 auto" }}
               />
             </Col>
           </Row>
@@ -59,11 +59,11 @@ const Entrepreneur = () => {
                 pip={false}
                 playsinline
                 className="helmetVideo"
-                style={{margin: "0 auto"}}
+                style={{ margin: "0 auto" }}
               />
             </Col>
             <Col lg={12}>
-              <h4 >{section6?.quote}</h4>
+              <h4>{section6?.quote}</h4>
             </Col>
           </Row>
 
@@ -75,18 +75,17 @@ const Entrepreneur = () => {
             <p>{section6?.paragraph_2}</p>
             <p>{section6?.paragraph_3}</p>
             <div className={osClass}>
-            <ReactPlayer
-              url={section7?.video_url_1}
-              // url="https://marketersi.cdn.prismic.io/marketersi/Zulk2bVsGrYSvbNp_ZjIQfEMTzAJOCdrt_MariaBilal2-1-.webm"
-              playing={true}
-              loop={true}
-              width="100%"
-              height="auto"
-              muted={true}
-              pip={false}
-              playsinline
-            />
-            
+              <ReactPlayer
+                url={section7?.video_url_1}
+                // url="https://marketersi.cdn.prismic.io/marketersi/Zulk2bVsGrYSvbNp_ZjIQfEMTzAJOCdrt_MariaBilal2-1-.webm"
+                playing={true}
+                loop={true}
+                width="100%"
+                height="auto"
+                muted={true}
+                pip={false}
+                playsinline
+              />
             </div>
             <h2 className={style.brandingHeading}>{section7?.title}</h2>
             <p>{section7?.paragraph_1}</p>
@@ -146,7 +145,6 @@ const Entrepreneur = () => {
           </div>
         </div>
       </Container>
-      
     </div>
   );
 };

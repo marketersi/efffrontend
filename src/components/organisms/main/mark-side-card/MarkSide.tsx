@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState } from 'react';
-import style from './mark.module.css';
-import { Row, Col, Image, Container } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
-import Link from 'next/link';
-import { Variants, motion } from 'framer-motion';
-import { useSelector } from 'react-redux';
-import useOsClass from '@/components/molecules/useOsClass';
+import React, { useRef } from "react";
+import { Row, Col, Image, Container } from "react-bootstrap";
+import ReactPlayer from "react-player";
+import Link from "next/link";
+import { useSelector } from "react-redux";
+import useOsClass from "@/components/molecules/useOsClass";
+import { motion, useScroll, useTransform } from "framer-motion";
+import style from "./mark.module.css";
 
-
+// Main MarkSide Component
 const MarkSide = () => {
   const { screenData } = useSelector((state) => state.home);
   const companySection = screenData.companySection || {};
@@ -18,148 +18,111 @@ const MarkSide = () => {
   const osClass = useOsClass();
 
   const links1 = [
-    {
-      label: 'Tworzenia stron i design UX',
-      path: '/projektowanie-ux',
-    },
-    {
-      label: 'Profesjonalne nagrywanie filmów',
-      path: '/profesjonalne-nagrywanie-filmow',
-    },
-    {
-      label: 'Kreatywny montaż video',
-      path: '/Kreatywny-montaz-video',
-    },
+    { label: "Tworzenie stron i design UX", path: "/projektowanie-ux" },
+    { label: "Video marketing", path: "/profesjonalne-nagrywanie-filmow" },
+    { label: "Kreatywny montaż video", path: "/Kreatywny-montaz-video" },
   ];
   const links2 = [
-    {
-      label: 'Treści i hasła sprzedażowe',
-      path: '/tresci-sprzedazowe',
-    },
-    {
-      label: 'Projektowanie logo',
-      path: '/projektowanie-logo',
-    },
-    {
-      label: 'Nazwa dla firmy',
-      path: '/nazwa-dla-firmy',
-    },
-
+    { label: "Treści i hasła sprzedażowe", path: "/tresci-sprzedazowe" },
+    { label: "Projektowanie logo", path: "/projektowanie-logo" },
+    { label: "Nazwa dla firmy", path: "/nazwa-dla-firmy" },
   ];
   const links3 = [
-    {
-      label: 'Strategia marketingowa',
-      path: '/strategia-marketingowa',
-    },
-
-    {
-      label: 'Konsultacja marketingu',
-      path: '/konsultacje',
-    },
-    {
-      label: 'Marketing międzynarodowy',
-      path: '/',
-    },
+    { label: "Strategia marketingowa", path: "/strategia-marketingowa" },
+    { label: "Konsultacja marketingu", path: "/konsultacje" },
+    { label: "Marketing międzynarodowy", path: "/" },
   ];
 
   return (
     <div>
-    <Container fluid>
-    <Row className={style.gapRow}>
-        <Col md={4} className={osClass}>
-          
-            
+      <Container fluid>
+        <Row className={style.gapRow}>
+          <Col md={4} className={osClass}>
             <ReactPlayer
-            url={companySection?.image_2}
-            playing={true}
-            loop={true}
-            width="auto"
-            height="auto"
-            className={style.markVideo}
-            muted={true}
-            pip={false}
-            playsinline={true}
-          />
+              url={companySection?.image_2}
+              playing={true}
+              loop={true}
+              width="auto"
+              height="auto"
+              className={style.markVideo}
+              muted={true}
+              pip={false}
+              playsinline={true}
+            />
             <Card data={companyCard[0]} links={links1} />
-          
-        </Col>
-        <Col md={4} className={style.midColumn}>
-        <div className={style.mark}>
-        <Image
-            className={osClass}
-              src={companySection?.image_1}
-              alt="rating image"
-              width="auto"
-              height="auto"
-              // className={style.markImg1}
-            />
+          </Col>
+          <Col md={4} className={style.midColumn}>
+            <div className={style.mark}>
+              <Image
+                className={osClass}
+                src={companySection?.image_1}
+                alt="rating image"
+                width="auto"
+                height="auto"
+              />
             </div>
-          <Card data={companyCard[1]} links={links2} />
-        </Col>
-        <Col md={4}>
-          <div className={style.mark}>
-            <Image
-              src={companySection?.image_3}
-              alt="rating image"
-              width="auto"
-              height="auto"
-            />
-            <Card data={companyCard[2]} links={links3} />
-          </div>
-        </Col>
-      </Row>
-    </Container>
+            <Card data={companyCard[1]} links={links2} />
+          </Col>
+          <Col md={4}>
+            <div className={style.mark}>
+              <Image
+                src={companySection?.image_3}
+                alt="rating image"
+                width="auto"
+                height="auto"
+              />
+              <Card data={companyCard[2]} links={links3} />
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
 
-export default MarkSide;
-
+// Card Component with Framer Motion Scroll Animation
 const Card = ({ data, links }) => {
-  const slideAnimationTop: Variants = {
-    offscreen: {
-      y: 100,
-      opacity: 0,
-    },
-    onscreen: {
-      y: 0,
-      opacity: 1,
-      transition: {
-        type: 'ease',
-        bounce: 0.4,
-        duration: 2,
-      },
-    },
-  };
+  const cardRef = useRef(null);
+
+  // Use the useScroll hook to track the scroll position
+  const { scrollYProgress } = useScroll({
+    target: cardRef,
+    offset: ["start end", "end start"], // when the card enters and leaves the viewport
+  });
+
+  // Use useTransform to map scrollYProgress to vertical movement
+  const y = useTransform(scrollYProgress, [0, 1], [0, -80]);
 
   return (
-    <>
-      <motion.div
-        className={style.markCard}
-        initial="offscreen"
-        whileInView="onscreen"
-        variants={slideAnimationTop}
-      >
-        <h3>{data?.main_title}</h3>
-        <p>{data?.subtitle}</p>
-        <ul>
-          {links.map((e, i) => {
-            return (
-              <li key={i}>
-                <Link href={e.path}>{e.label}</Link>
-                <div className={style.playIcon}>
-                  <Image
-                    src="/assets/images/play_arrow.svg"
-                    alt="rating image"
-                    width="auto"
-                    height="auto"
-                  />
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-      </motion.div>
-    </>
+    <motion.div
+      ref={cardRef}
+      className={style.markCard}
+      style={{
+        transition: "transform 0.3s ease-out", // Smooth transition for transform changes
+        y, // Bind the y to the transformed scroll progress
+      }}
+    >
+      <h3>{data?.main_title}</h3>
+      <p>{data?.subtitle}</p>
+      <ul>
+        {links.map((e, i) => {
+          return (
+            <li key={i}>
+              <Link href={e.path}>{e.label}</Link>
+              <div className={style.playIcon}>
+                <Image
+                  src="/assets/images/play_arrow.svg"
+                  alt="rating image"
+                  width="auto"
+                  height="auto"
+                />
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    </motion.div>
   );
 };
+
+export default MarkSide;

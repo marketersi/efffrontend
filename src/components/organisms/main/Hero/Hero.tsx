@@ -71,7 +71,7 @@ const Hero = () => {
           </div>
           <div className={style.heroBtn}>
             <Link href="/cennik">
-              <button>Wyceń projekt</button>
+              <button>Wyceń usługę</button>
             </Link>
             <Link href="/konsultacje" className={style.umow}>
               <span>Umów konsultację</span>

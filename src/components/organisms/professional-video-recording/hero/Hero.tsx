@@ -1,12 +1,12 @@
-'use client';
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
-import Link from 'next/link';
-import { useSelector } from 'react-redux';
-import Image from 'next/image';
-import style from './hero.module.css';
-import useOsClass from '@/components/molecules/useOsClass';
+"use client";
+import React from "react";
+import { Container } from "react-bootstrap";
+import ReactPlayer from "react-player";
+import Link from "next/link";
+import { useSelector } from "react-redux";
+import Image from "next/image";
+import style from "./hero.module.css";
+import useOsClass from "@/components/molecules/useOsClass";
 
 const Hero = () => {
   const { screenData } = useSelector((state) => state.videoRecording);
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
           <div className={style.heroBtn}>
             <Link href="/cennik">
-              <button>Wyceń projekt</button>
+              <button>Wyceń usługę</button>
             </Link>
             <div className={style.heroBtn2}>
               <Link href="/konsultacje">

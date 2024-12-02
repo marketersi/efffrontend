@@ -94,7 +94,7 @@ const Header = () => {
                     className={style.dropBtn}
                     onMouseEnter={handleOpenDropdown}
                   >
-                    Usługi i <br /> realizacje <span></span>
+                    Oferta i<br /> realizacje <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
                   </div>
                   {isDropdownOpen && (
@@ -138,7 +138,9 @@ const Header = () => {
               <div className={style.rightNav}>
                 <Nav>
                   <Nav.Link className={style.navRightMenu}>
-                    <Link href="/Zespol">Zespół</Link>
+                    <Link href="/Zespol">
+                      Kim <br /> jesteśmy
+                    </Link>
                   </Nav.Link>
                   <Nav.Link className={style.navRightMenu}>
                     <Link href="/kontakt-marketersi">Kontakt</Link>
@@ -184,7 +186,7 @@ const Header = () => {
                     onClick={toggleDropdown}
                     className={style.MobileDropdownBtn}
                   >
-                    Usługi
+                    Oferta
                     <span>
                       {isOpen ? (
                         <FontAwesomeIcon icon={faAngleDown} />
@@ -208,7 +210,7 @@ const Header = () => {
                           onClick={handleMenuItemClick}
                           href="/profesjonalne-nagrywanie-filmow"
                         >
-                          Profesjonalne nagrywanie filmów
+                          Video marketing
                         </Link>
                       </div>
                       <div className={style.menuItem}>
@@ -267,7 +269,8 @@ const Header = () => {
               </li>
               <li onClick={handleMenuItemClick}>
                 <Link onClick={handleMenuItemClick} href="/Zespol">
-                  Zespół{" "}
+                  Kim <br />
+                  jesteśmy{" "}
                 </Link>
               </li>
               <li onClick={handleMenuItemClick}>
