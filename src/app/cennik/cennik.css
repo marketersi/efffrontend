@@ -121,11 +121,17 @@
   .btns_container {
     padding: 10px 10px 10px 5px;
   }
+  .btns_container .col-sm-12{
+    margin-bottom: 12px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .btns_container {
     padding: 10px 10px 10px 5px;
+  }
+  .btns_container .col-sm-12{
+    margin-bottom: 12px;
   }
 
   .heading-style {

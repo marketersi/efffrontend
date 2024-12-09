@@ -28,13 +28,13 @@
 }
 
 .cennik-modal-btn {
-  padding: 10px 0px;
+  padding: 10px 15px;
   border-radius: 24px;
   font-size: 20px;
   background-color: transparent;
-  border-color: red;
+  border-color: #00BFFF;
   color: white;
-  width: 45%;
+  
 }
 
 .cennik-modal-btn a {

@@ -16,7 +16,7 @@
   font-size: 20px;
 }
 
-.slider_section p {
+/* .slider_section p {
   font-size: 18px;
   background: rgb(121, 97, 111);
   padding: 3px 32px;
@@ -24,7 +24,7 @@
   border-radius: 4px;
   width: fit-content;
   margin: 25px auto 0;
-}
+} */
 .slider_section {
   padding: 0 30px;
 }
@@ -269,7 +269,7 @@ input[type='range']:focus::-webkit-slider-thumb {
   max-width: 80%;
   height: auto;
   max-height: 80vh;
-  padding: 50px 50px;
+  padding: 50px 80px;
   box-sizing: border-box;
   border-radius: 30px;
   color: white;
@@ -297,7 +297,7 @@ input[type='range']:focus::-webkit-slider-thumb {
 .cenikBtnDiv button {
   padding: 7px 28px;
   border-radius: 18px;
-  border-color: #d21e00;
+  border-color:#00BFFF;
   background-color: transparent;
   color: white;
   font-size: 18px;
@@ -310,7 +310,47 @@ input[type='range']:focus::-webkit-slider-thumb {
   font-size: 40px;
   cursor: pointer;
 }
+.radio-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.radio-container label {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  margin: 10px 0;
+  justify-content: start;
+    gap: 8px;
+    width: 49%;
+    
+}
+.checked-radio {
+  background-color: lightgreen; /* light green background when checked */
+  border-color: lightgreen; /* light green border when checked */
+}
+.radio-boxdiv{
+  display: flex;
+      flex-direction: column;
+      align-items:center;
+}
+.radio-boxdiv p{
+  
+}
+.radio-container input[type="radio"] {
+  margin-right: 10px;
+  width: 26px;
+  height: 26px;
+  
+}
 
+.radio-section p {
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0;
+}
 /* --------------------contact-------------------- */
 .componentThree_section {
   position: relative;

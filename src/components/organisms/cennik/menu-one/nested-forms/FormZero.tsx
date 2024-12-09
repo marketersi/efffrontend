@@ -42,7 +42,7 @@ const FormZero = ({ setCurrentComponent, form }) => {
       selectedOption &&
       selectedOption.value === form.dropdown[form.dropdown.length - 1].value
     ) {
-      setIsModalOpen(true);
+      setIsModalOpen(false);
     }
   };
 
@@ -117,9 +117,9 @@ const FormZero = ({ setCurrentComponent, form }) => {
         />
       </div>
 
-      {selectedOption && selectedOption.value === form.dropdown[0].value && (
+      {selectedOption && selectedOption.value !== form.dropdown[0].value && (
         <div className="additional-input-container">
-          <h2>Podaj adres strony:</h2>
+          <h2>Wpisz adres strony : </h2>
           <input type="text" />
         </div>
       )}
