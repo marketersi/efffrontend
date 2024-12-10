@@ -42,7 +42,7 @@ const FormTwo = ({ setCurrentComponent, form }) => {
       ></textarea>
       <div className="">
         <button className="cennikBtn" onClick={handleNext}>
-          Ostatnie pytanie
+          Ostatni krok
         </button>
       </div>
 

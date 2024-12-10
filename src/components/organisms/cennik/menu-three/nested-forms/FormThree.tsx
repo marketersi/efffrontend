@@ -28,7 +28,7 @@ const UserDetailsSection = () => {
       tbl_thirdpricecard_dropdwonoption_id: formData.formZeroDropdownValueOne,
       tbl_third_price_range_id: formData.formOneSelectedRangeValue,
       section3_textarea: formData.formTwoTextAreaValue,
-      section3_inputbox: formData.formTwoInputValue,
+      tbl_thirdpricecardsecond_dropdwonoption_id: formData.formTwoDropdownValue,
       section4_name: name,
       section4_email: email,
       section4_phone: phone,
@@ -55,7 +55,7 @@ const UserDetailsSection = () => {
 
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return emailRegex.test(email);
+    return true;
   };
 
   return (
@@ -86,9 +86,17 @@ const UserDetailsSection = () => {
               outline: name && "1px solid #effeeb",
             }}
           />
+          
           <input
             type="text"
-            placeholder="Email:"
+            placeholder="Nr. telefonu:"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+
+<input
+            type="text"
+            placeholder="Adres email:"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -96,12 +104,6 @@ const UserDetailsSection = () => {
               outline: email && isValidEmail(email) ? "1px solid #effeeb" : "",
             }}
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          />
-          <input
-            type="text:"
-            placeholder="Tel: (Opcjonalnie)"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
           />
         </div>
         <div>

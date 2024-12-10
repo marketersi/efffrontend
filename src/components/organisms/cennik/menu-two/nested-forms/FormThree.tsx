@@ -6,14 +6,14 @@ import { SUBMIT_MENU_STOR_FORM } from "@/redux/cennik/pricelistAction";
 import { clearPriceListFormData } from "@/redux/cennik/pricelistSlice";
 
 const FormThree = ({ form }) => {
-  const { formData, isMenuSubmitSuccess } = useSelector(
+  const { formData, isMenuSubmitSuccess, isMenuSubmitFail } = useSelector(
     (state) => state.priceList
   );
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [website, setWebsite] = useState("");
+  
   const dispatch = useDispatch();
   const router = useRouter();
 
@@ -30,17 +30,17 @@ const FormThree = ({ form }) => {
       section4_name: name,
       section4_email: email,
       section4_phone: phone,
-      section4_website: website,
+      
     };
 
     console.log("menu 2 payload", payload);
 
-    if (name && email && phone && website) {
+    if (name && email && phone) {
       dispatch({ type: SUBMIT_MENU_STOR_FORM, payload });
       setName("");
       setEmail("");
       setPhone("");
-      setWebsite("");
+      
     } else {
       setTimeout(() => {
         setIsButtonClicked(false);
@@ -53,25 +53,26 @@ const FormThree = ({ form }) => {
       router.push("/dziekujemy");
       dispatch(clearPriceListFormData());
     }
-  }, [isMenuSubmitSuccess]);
+  }, [isMenuSubmitSuccess, isMenuSubmitFail]);
 
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return emailRegex.test(email);
+    return true;
   };
+  
 
   return (
     <div className="componentThree_section">
       <h2
         className={
-          isButtonClicked && (!name || !email || !phone || !website)
+          isButtonClicked && (!name || !email || !phone)
             ? "red-title"
             : ""
         }
       >
         {form?.section_4_title}
       </h2>
-      <p style={{fontSize: "20px"}}>Komu mamy je wysłać?</p>
+      <p style={{fontSize: "20px"}}>Podaj swoje dane, abyśmy mogli przesłać ofertę dopasowaną do Ciebie.</p>
       <div className="componentThree_input-container">
         <form onSubmit={handleSubmit}>
           <input
@@ -85,8 +86,14 @@ const FormThree = ({ form }) => {
             }}
           />
           <input
+            type="text"
+            placeholder="Nr. telefonu:"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <input
             type="email"
-            placeholder="Email:"
+            placeholder="Adres email:"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -95,12 +102,7 @@ const FormThree = ({ form }) => {
             }}
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
           />
-          <input
-            type="text"
-            placeholder="Nr. telefonu: (opcjonalnie)"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-          />
+          
           {/* <input
             type="text"
             placeholder="Strona internetowa"
@@ -113,7 +115,7 @@ const FormThree = ({ form }) => {
           /> */}
           <div>
             <button className="cennikBtn" type="submit">
-            Wyślijcie mi 3 propozycje cenowe
+            Wyślijcie mi wycenę
             </button>
           </div>
         </form>

@@ -22,23 +22,33 @@ const FeedbackForm = ({ setCurrentComponent, formThree }) => {
 
   const handleNext = (e) => {
     e.preventDefault();
-    const payload = {
-      formTwoTextAreaValue: textAreaValue,
-      formTwoInputValue: inputValue,
-    };
 
-    if (textAreaValue && inputValue) {
-      dispatch(savePriceListFormData(payload));
-      setCurrentComponent(3);
-    } else {
+    // Count the number of letters (excluding spaces) in the textarea and input field
+    const textAreaLetterCount = textAreaValue.replace(/\s+/g, '').length;
+    const inputLetterCount = inputValue.replace(/\s+/g, '').length;
+
+    // If letter counts are below the minimum required, show error
+    if (textAreaLetterCount < 50 || inputLetterCount < 10) {
       setIsModalOpen(true);
+    } else {
+      const payload = {
+        formTwoTextAreaValue: textAreaValue,
+        formTwoInputValue: inputValue,
+      };
+
+      dispatch(savePriceListFormData(payload));
+      setCurrentComponent(3); // Proceed to next component
     }
   };
 
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-        <h2>{formThree?.section3_title}</h2>
+      <h2
+  dangerouslySetInnerHTML={{
+    __html: formThree?.section3_title || "Default Title",
+  }}
+></h2>
         <p className="mt-3 mb-4">{formThree?.section3_subtitle1}</p>
         <textarea
           rows="5"
@@ -51,7 +61,11 @@ const FeedbackForm = ({ setCurrentComponent, formThree }) => {
             outline: textAreaValue.length > 10 ? "none" : "",
           }}
         ></textarea>
-        <p className="mt-4 mb-4">{formThree?.section3_textareaTitle}</p>
+        <p
+  className="mt-4 mb-4"
+  dangerouslySetInnerHTML={{ __html: formThree?.section3_textareaTitle }}
+></p>
+
         <input
           type="text"
           className="fs_input"
@@ -63,7 +77,7 @@ const FeedbackForm = ({ setCurrentComponent, formThree }) => {
           }}
         />
         <button type="submit" className="cennikBtn">
-          Ostatnie pytanie
+        Ostatni krok
         </button>
       </form>
 

@@ -51,17 +51,14 @@ export function* cennikMenuStorSaga(action) {
     );
 
     if (responseData) {
-      console.log("menu submit success saga");
 
       yield put(isMenuSubmitSuccess());
     } else {
-      console.log("menu submit failed saga");
       yield put(isMenuSubmitFail());
     }
   } catch (error) {
-    console.log(error);
-
-    console.log("menu submit failed catch saga");
+    
+console.log(error)
     yield put(isMenuSubmitFail());
     toast.error("something went wrong");
   }

@@ -32,7 +32,7 @@ const FormOne = ({ setCurrentComponent, form }) => {
       selectedOption &&
       selectedOption.value === optionsTwo[0].value
     ) {
-      setIsModalOpen(true);
+      setIsModalOpen(false);
     }
   };
   const closeModal = () => {
@@ -147,9 +147,9 @@ const FormOne = ({ setCurrentComponent, form }) => {
         >
           {form?.section_2_title_2}
         </h2>
-        {/* <p className={isButtonClicked && !selectedOption2 ? "red-title" : ""}>
+         <p className={isButtonClicked && !selectedOption2 ? "red-title" : ""}>
           {form?.section_2_subtitle}
-        </p> */}
+        </p> 
         <div style={{ textAlign: "left" }} className="select-input">
           <Select
             options={optionsTwo}
@@ -195,7 +195,7 @@ const FormOne = ({ setCurrentComponent, form }) => {
           whileHover={{ translateY: 5 }}
           onClick={handleButtonClick}
         >
-          Dalej (Prawie koniec)
+          Kontynuuj (prawie gotowe)
         </motion.button>
       </div>
     </>

@@ -169,7 +169,7 @@ const FormZero = ({ setCurrentComponent, form }) => {
         whileHover={{ translateY: 5 }}
         onClick={handleButtonClick}
       >
-        Rozpocznij kalkulację
+        Rozpocznij wycenę
       </motion.button>
     </div>
   );

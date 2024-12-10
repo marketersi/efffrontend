@@ -2,7 +2,10 @@
   width: 75%;
   margin: 0 auto;
 }
-
+.select-input2{
+  width: 90%;
+  margin: 0 auto;
+}
 .slider_Section {
 }
 
@@ -15,7 +18,12 @@
   font-weight: 700;
   font-size: 20px;
 }
-
+.css-1jqq78o-placeholder{
+  text-align: left;
+}
+.radio-container p strong{
+margin-right: 5px;
+}
 /* .slider_section p {
   font-size: 18px;
   background: rgb(121, 97, 111);
@@ -94,7 +102,9 @@
 .user-details_section p {
   font-size: 18px;
   color: rgb(45, 45, 45);
-  margin: 20px 0 30px;
+  margin: 20px auto 30px;
+  width: 70%;
+
 }
 
 .uds_input-container {
@@ -336,7 +346,10 @@ input[type='range']:focus::-webkit-slider-thumb {
       align-items:center;
 }
 .radio-boxdiv p{
-  
+  text-align: left;
+}
+.radio-boxdiv p strong{
+  margin-right: 5px;
 }
 .radio-container input[type="radio"] {
   margin-right: 10px;
@@ -344,7 +357,10 @@ input[type='range']:focus::-webkit-slider-thumb {
   height: 26px;
   
 }
-
+.cennikFormCard .componentThree_section p{
+  width:70%;
+  margin: auto;
+}
 .radio-section p {
   padding: 10px;
   border-radius: 5px;
@@ -362,6 +378,7 @@ input[type='range']:focus::-webkit-slider-thumb {
   top: -50px;
   right: -204px;
   width: 230px;
+  z-index: -22;
 }
 
 .contact .whiteBox {
@@ -373,6 +390,40 @@ input[type='range']:focus::-webkit-slider-thumb {
   margin-right: 10px;
 }
 
+/* Custom radio button styles */
+.custom-radio {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.radio-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #d1d1d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.radio-circle.selected {
+  border-color: #d1d1d1;
+  background-color: #fff;
+}
+
+.inner-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #00c56a;
+}
+
+.radio-label {
+  display: inline-block;
+  margin-left: 10px;
+}
 .contact h5 {
   font-size: 18px;
   font-weight: 500;

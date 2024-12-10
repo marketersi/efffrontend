@@ -4,14 +4,16 @@ import { useDispatch, useSelector } from "react-redux";
 import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import Select, { components } from "react-select";
+import Image from "next/image";
 
 const FeedbackSection = ({ setCurrentComponent }) => {
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { formThree } = screenData?.cardMenu?.menuThree || "";
   const { modalInfo } = formThree?.metadata || "";
-
   const [textAreaValue, setTextAreaValue] = useState("");
-  const [inputValue, setInputValue] = useState("");
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const dispatch = useDispatch();
@@ -20,20 +22,51 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     setIsModalOpen(false);
   };
 
+  const DropdownIndicator = (props) => {
+    const { selectProps } = props;
+    const { value } = selectProps;
+
+    return (
+      <components.DropdownIndicator {...props}>
+        {value ? (
+          <Image
+            src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+            alt="arrow"
+            width={30}
+            height={30}
+          />
+        ) : (
+          <Image
+            src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
+            alt="arrow"
+            width={30}
+            height={30}
+          />
+        )}
+      </components.DropdownIndicator>
+    );
+  };
+
+  const handleSelectChange = (option) => {
+    setSelectedOption(option);
+  };
+
   const handleNext = (e) => {
     e.preventDefault();
-    const payload = {
-      formTwoTextAreaValue: textAreaValue,
-      formTwoInputValue: inputValue,
-    };
 
-    if (textAreaValue && inputValue) {
+    if (textAreaValue && selectedOption) {
+      const payload = {
+        formTwoTextAreaValue: textAreaValue,
+        formTwoDropdownValue: selectedOption.value,
+      };
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
     } else {
       setIsModalOpen(true);
     }
   };
+
+
 
   return (
     <div className="feedback_section">
@@ -51,17 +84,51 @@ const FeedbackSection = ({ setCurrentComponent }) => {
             outline: textAreaValue.length > 10 ? "none" : "",
           }}
         ></textarea>
-        <h2 className="mt-4 mb-4">{formThree?.form3_inputTitle}</h2>
-        <input
-          type="text"
-          className="fs_input"
-          onChange={(e) => setInputValue(e.target.value)}
-          value={inputValue}
-          style={{
-            backgroundColor: inputValue.length > 10 ? "#effeeb" : "",
-            outline: inputValue.length > 10 ? "none" : "",
-          }}
-        />
+        {/* Dropdown Component */}
+        <div className="mt-4">
+        <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
+        {formThree?.form3_inputTitle}
+      </h2>
+      {/* <p className={`card-subheading ${isButtonClicked ? "red-title" : ""}`}>
+        {formThree?.form3_inputTitle}
+      </p> */}
+        <div className="select-input mb-4">
+          <Select
+            options={formThree?.dropdown || []}
+            placeholder="Wybierz kategorię"
+            isSearchable={false}
+            components={{ DropdownIndicator }}
+            onChange={handleSelectChange}
+            styles={{
+              clearIndicator: (baseStyles) => ({
+                ...baseStyles,
+                display: "none",
+              }),
+              indicatorSeparator: (baseStyles) => ({
+                ...baseStyles,
+                display: "none",
+              }),
+              control: (baseStyles) => ({
+                ...baseStyles,
+                paddingLeft: "10px",
+                borderRadius: "20px",
+                paddingBlock: "3px",
+                backgroundColor: selectedOption ? "#effeeb" : baseStyles.backgroundColor,
+                outline: selectedOption ? "2px solid #effeeb" : "none",
+              }),
+              dropdownIndicator: (provided) => ({
+                ...provided,
+                padding: "0 3px",
+              }),
+              menu: (provided) => ({
+                ...provided,
+                backgroundColor: selectedOption ? "#effeeb" : "#fff",
+              }),
+            }}
+          />
+        </div>
+        </div>
+        
         <button type="submit" className="cennikBtn">
           {formThree?.form3_buttonText}
         </button>

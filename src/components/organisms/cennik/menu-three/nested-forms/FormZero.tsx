@@ -112,8 +112,8 @@ const FormZero = ({ setCurrentComponent }) => {
       {selectedOption && selectedOption.value === dropdown[1].value && (
         <div className="additional-input-container">
           <div>
-          <h2>Podaj adres strony:</h2>
-          <p>Lub wpisz jej nazwę</p>
+          <h2>Wpisz adres strony:</h2>
+          <p>Lub nazwę:</p>
           </div>
           <input type="text" />
         </div>

@@ -5,11 +5,11 @@ import Select, { components } from "react-select";
 import Image from "next/image";
 
 const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
-  const [currentSection, setCurrentSection] = useState(0);
+  const [currentSection, setCurrentSection] = useState(null);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isButtonClicked, setIsButtonClicked] = useState(false);
 
-  const { rangeArray, dropdown } = formTwo || [];
+  const { rangeArray, dropdown2 } = formTwo || [];
 
   const handleRadioChange = (index: number) => {
     setCurrentSection(index);
@@ -43,33 +43,41 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
   const handleSelectChange = (selectedOption) => {
     setSelectedOption(selectedOption);
   };
+  
 
   const dispatch = useDispatch();
 
   const handleNext = () => {
-    const payload = {
-      formOneSelectedRangeValue: rangeArray[currentSection]?.description,
-      formTwoDropdownValue: selectedOption?.value,
-    };
-    dispatch(savePriceListFormData(payload));
-    setCurrentComponent(2);
+    setIsButtonClicked(true); // Trigger validation styling
+
+    if (selectedOption && currentSection !== null) {
+      const payload = {
+        formOneSelectedRangeValue: rangeArray[currentSection]?.description,
+        formOneDropdownValueTwo: selectedOption?.value,
+      };
+      dispatch(savePriceListFormData(payload));
+      setCurrentComponent(2);
+    } else {
+      setTimeout(() => {
+        setIsButtonClicked(false); // Reset the red styling after a brief moment
+      }, 500);
+    }
   };
+
+  console.log(formTwo);
 
   return (
     <div className="slider_section">
       <div>
-      <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
-        {formTwo?.section1_title}
+      <h2 className={`card-heading ${isButtonClicked && !selectedOption ? "red-title" : ""}`}>
+        {formTwo?.section2_title}
       </h2>
-      <p className={`card-subheading ${isButtonClicked ? "red-title" : ""}`}>
-        {formTwo?.section1_subtitle}
-      </p>
       </div>
 
       <div style={{ textAlign: "left" }} className="select-input mb-md-5 mb-sm-3">
         <Select
           options={formTwo?.dropdown2}
-          placeholder="Wybierz"
+          placeholder="kategorię„ Wybierz"
           isSearchable={false}
           components={{ DropdownIndicator }}
           onChange={handleSelectChange}
@@ -105,22 +113,34 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
       </div>
 
       <div>
-        <h2>{formTwo?.section2_title}</h2>
+      <h2
+          className={`card-heading ${isButtonClicked && currentSection === null ? "red-title" : ""}`}
+        >
+          {formTwo?.section2_title2}
+        </h2>
+        <p className={`card-subheading ${isButtonClicked && currentSection === null ? "red-title" : ""}`}>
+          {formTwo?.section2_subtitle}
+        </p>
         <div className="radio-container">
           {rangeArray.map((range, index) => (
-            <label key={index}>
+            <label key={index} className="custom-radio">
               <input
                 type="radio"
                 name="rangeSelection"
                 value={index}
                 checked={currentSection === index}
                 onChange={() => handleRadioChange(index)}
-                style={{ marginRight: "10px" }}
-                className={currentSection === index ? "checked-radio" : ""}
+                style={{ display: "none" }}  // Hide default radio button
+                
               />
-              <div className="radio-boxdiv">
-                <strong>{range.label}</strong>
-                <p style={{ margin: "5px 0 0 0", fontSize: "16px", color: "#555" }}>
+               <div
+        className={`radio-circle ${currentSection === index ? "selected" : ""}`}
+      >
+        {currentSection === index && <div className="inner-circle" />}
+      </div>
+              <div className="radio-boxdiv radio-label">
+              <p style={{ margin: "5px 0 0 0", fontSize: "16px", color: "#555" }}> <strong>{range.label}</strong>
+                
                   {range.description}
                 </p>
               </div>

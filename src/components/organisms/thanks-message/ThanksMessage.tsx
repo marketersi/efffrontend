@@ -9,6 +9,9 @@ const ThanksMessage = () => {
   const handleGoBack = () => {
     router.back(); // This will navigate to the previous page
   };
+  const handleGoToOpinie = () => {
+    router.push("/marketersi-opinie"); // Navigate to the desired page
+  };
 
   return (
     <div className={style.thanks}>
@@ -23,24 +26,21 @@ const ThanksMessage = () => {
           src="https://www.owocni.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMarta-owocni.08d79858.png&w=128&q=75"
           alt=""
         />
-        <h2>Dzięki za wiadomość</h2>
+        <h2>Dziękujemy za Twoje zgłoszenie.</h2>
         <h4>
-          Hej tu Marta. O ile nie jest to weekend i jest przed godziną 16,
-          odpiszę na Twoją wiadomość jeszcze dziś.
+        Właśnie zaczynamy działać, by przygotować dla Ciebie coś wyjątkowego. Skontaktujemy się z Tobą w ciągu 24 godzin w dni robocze (poniedziałek - piątek)
         </h4>
-        <div className={style.likeButton}>
+        {/* <div className={style.likeButton}>
           <img src="/assets/images/Thanks/FEppCFCt76d.png" alt="" />
           <p>Obserwuj</p>
-        </div>
+        </div> */}
         <h5>
-          <span>Tymczasem kliknij “lubię to”.</span>
-          Warto mieć fajne towarzystwo na fejsie.
+          <span>W międzyczasie…</span>
+          Zobacz, jak pomogliśmy innym.
         </h5>
-        <p>
-          11 tys. użytkowników obserwuje to. <br />
-          Wyprzedź swoich znajomych i obserwuj to.
-        </p>
-        <button onClick={handleGoBack}>Wróć na poprzednią stronę</button>
+        <h5>"I jakie efekty osiągnęli dzięki współpracy z nami</h5>
+        
+        <button onClick={handleGoToOpinie}>Poznaj opinie klientów</button>
       </div>
     </div>
   );

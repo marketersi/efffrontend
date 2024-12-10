@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const UserInfoForm = ({ formFour }) => {
-  const { formData, isMenuSubmitSuccess } = useSelector(
+  const { formData, isMenuSubmitSuccess , isMenuSubmitFail} = useSelector(
     (state) => state.priceList
   );
   // const { formFour } = screenData?.cardMenu?.menuOne || "";
@@ -24,12 +24,14 @@ const UserInfoForm = ({ formFour }) => {
       type: 1,
       tbl_firstpricecard_dropdwonoption_id: formData.formZeroDropdownValueOne,
       tbl_first_price_range_id: formData.formOneSelectedRangeValue,
+      tbl_firstpricecardsecond_dropdownoption_id: formData.formOneDropdownValueTwo,
       section3_textarea: formData.formTwoTextAreaValue,
       section3_inputbox: formData.formTwoInputValue,
       section4_name: name,
       section4_email: email,
       section4_phone: phone,
     };
+    
 
     if (name && email && phone) {
       dispatch({ type: SUBMIT_MENU_STOR_FORM, payload });
@@ -48,27 +50,30 @@ const UserInfoForm = ({ formFour }) => {
       router.push("/dziekujemy");
       dispatch(clearPriceListFormData());
     }
-  }, [isMenuSubmitSuccess]);
+  }, [isMenuSubmitSuccess, isMenuSubmitFail]);
 
   const isValidEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    return emailRegex.test(email);
+    return true;
   };
 
+ 
+
+  
+  const isFormInvalid = !name || !email || !phone;
+  
   return (
     <div className="user-details_section">
       <form onSubmit={handleSubmit}>
-        <h2
+      <h2
           className={
-            isButtonClicked && (!name || !email || !phone) ? "red-title" : ""
+            isButtonClicked && isFormInvalid ? "red-title" : ""
           }
         >
           {formFour?.section4_title}
         </h2>
         <p
-          className={
-            `"mt-4 mb-4"  ${isButtonClicked && (!name || !email || !phone) ? "red-title" : ""}`
-          }
+          className={`mt-4 mb-4 w-50 ${isButtonClicked && isFormInvalid ? "red-title" : ""}`}
         >
           {formFour?.section4_subtitle}
         </p>
@@ -83,9 +88,21 @@ const UserInfoForm = ({ formFour }) => {
               outline: name && "1px solid #effeeb",
             }}
           />
+         
           <input
+            type="text"
+            placeholder="Nr. telefonu"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            
+            style={{
+              backgroundColor: phone  ? "#effeeb" : "",
+              outline: phone  ? "1px solid #effeeb" : "",
+            }}
+          />
+           <input
             type="email"
-            placeholder="Email:"
+            placeholder="Adres email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -93,12 +110,6 @@ const UserInfoForm = ({ formFour }) => {
               outline: email && isValidEmail(email) ? "1px solid #effeeb" : "",
             }}
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          />
-          <input
-            type="text"
-            placeholder="Nr. telefonu: (opcjonalnie)"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
           />
         </div>
         <div>

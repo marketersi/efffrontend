@@ -5,14 +5,21 @@ import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import Select, { components } from "react-select";
+import Image from "next/image";
+
+
+
+
 
 const FeedbackSection = ({ setCurrentComponent }) => {
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { formThree } = screenData?.cardMenu?.menuFour || "";
-  const { modalInfo } = formThree || "";
-
+  const { modalInfo} = formThree || {};
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
   const [textAreaValue, setTextAreaValue] = useState("");
-  const [inputValue, setInputValue] = useState("");
+  const [dropdownValue, setDropdownValue] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const dispatch = useDispatch();
@@ -20,15 +27,42 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  const DropdownIndicator = (props) => {
+    const { selectProps } = props;
+    const { value } = selectProps;
+
+    return (
+      <components.DropdownIndicator {...props}>
+        {value ? (
+          <Image
+            src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+            alt="arrow"
+            width={30}
+            height={30}
+          />
+        ) : (
+          <Image
+            src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
+            alt="arrow"
+            width={30}
+            height={30}
+          />
+        )}
+      </components.DropdownIndicator>
+    );
+  };
+  const handleSelectChange = (option) => {
+    setSelectedOption(option);
+  };
 
   const handleNext = (e) => {
     e.preventDefault();
-    const payload = {
-      formTwoTextAreaValue: textAreaValue,
-      formTwoInputValue: inputValue,
-    };
 
-    if (textAreaValue && inputValue) {
+    if (textAreaValue && selectedOption) {
+      const payload = {
+        formTwoTextAreaValue: textAreaValue,
+        formTwoDropdownValue: selectedOption.value,
+      };
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
     } else {
@@ -36,9 +70,11 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     }
   };
 
+  
+
   return (
-    <div className="feedback_section">
-      <form onSubmit={handleNext}>
+    <div className="feedback_section mb-md-5 mb-sm-3">
+       <form onSubmit={handleNext}>
         <h2>{formThree?.section3_title_1}</h2>
         <p>{formThree?.section3_subtitle1}</p>
         <textarea
@@ -52,18 +88,48 @@ const FeedbackSection = ({ setCurrentComponent }) => {
             outline: textAreaValue.length > 10 ? "none" : "",
           }}
         ></textarea>
-        <h2 className="mt-3">{formThree?.section3_title_2}</h2>
-        <p className="mt-2">{formThree?.section3_subtitle2}</p>
-        <input
-          type="text"
-          className="fs_input"
-          onChange={(e) => setInputValue(e.target.value)}
-          value={inputValue}
-          style={{
-            backgroundColor: inputValue.length > 10 ? "#effeeb" : "",
-            outline: inputValue.length > 10 ? "none" : "",
-          }}
-        />
+        <div className="select-form mt-5">
+        <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
+        {formThree?.section3_title_2}
+      </h2>
+        
+        <p className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>{formThree?.section3_subtitle2}</p>
+        <div className="select-input mb-4">
+          <Select
+            options={formThree?.dropdown || []}
+            placeholder="Wybierz kategorię"
+            isSearchable={false}
+            components={{ DropdownIndicator }}
+            onChange={handleSelectChange}
+            styles={{
+              clearIndicator: (baseStyles) => ({
+                ...baseStyles,
+                display: "none",
+              }),
+              indicatorSeparator: (baseStyles) => ({
+                ...baseStyles,
+                display: "none",
+              }),
+              control: (baseStyles) => ({
+                ...baseStyles,
+                paddingLeft: "10px",
+                borderRadius: "20px",
+                paddingBlock: "3px",
+                backgroundColor: selectedOption ? "#effeeb" : baseStyles.backgroundColor,
+                outline: selectedOption ? "2px solid #effeeb" : "none",
+              }),
+              dropdownIndicator: (provided) => ({
+                ...provided,
+                padding: "0 3px",
+              }),
+              menu: (provided) => ({
+                ...provided,
+                backgroundColor: selectedOption ? "#effeeb" : "#fff",
+              }),
+            }}
+          />
+        </div>
+        </div>
         <button type="submit" className="cennikBtn">
           Ostatnie pytanie
         </button>
