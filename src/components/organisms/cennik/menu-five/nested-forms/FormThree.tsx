@@ -85,9 +85,16 @@ const UserDetailsSection = () => {
               outline: name && "1px solid #effeeb",
             }}
           />
+          
           <input
             type="text"
-            placeholder="Email:"
+            placeholder="Nr. telefonu:"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Adres email:"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -95,12 +102,6 @@ const UserDetailsSection = () => {
               outline: email && isValidEmail(email) ? "1px solid #effeeb" : "",
             }}
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          />
-          <input
-            type="text"
-            placeholder="Tel: (Opcjonalnie)"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
           />
         </div>
         <div>

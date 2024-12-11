@@ -7,7 +7,7 @@ const SliderSection = ({ setCurrentComponent }) => {
   const { formTwo } = screenData?.cardMenu?.menuFour || "";
   const { rangeArray } = screenData?.cardMenu?.menuFour?.formTwo || {};
 
-  const [currentSection, setCurrentSection] = useState(0);
+  const [currentSection, setCurrentSection] = useState(null);
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const dispatch = useDispatch();
   const handleRadioChange = (index) => {

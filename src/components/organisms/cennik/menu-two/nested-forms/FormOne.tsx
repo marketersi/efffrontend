@@ -48,7 +48,7 @@ const FormOne = ({ setCurrentComponent, form }) => {
       <components.DropdownIndicator {...props}>
         {value ? (
           <Image
-            src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+            src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
             alt="arrow"
             width={30}
             height={30}

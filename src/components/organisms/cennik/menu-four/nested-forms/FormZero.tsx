@@ -24,7 +24,7 @@ const FormZero = ({ setCurrentComponent }) => {
         {value ? (
           <span role="img" aria-label="selected-emoji">
             <Image
-              src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+              src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
               alt="arrow"
               width={30}
               height={30}

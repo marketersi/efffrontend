@@ -35,7 +35,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
       <components.DropdownIndicator {...props}>
         {value ? (
           <Image
-            src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+            src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
             alt="arrow"
             width={30}
             height={30}
@@ -76,7 +76,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     <div className="feedback_section mb-md-5 mb-sm-3">
        <form onSubmit={handleNext}>
         <h2>{formThree?.section3_title_1}</h2>
-        <p>{formThree?.section3_subtitle1}</p>
+         <p>{formThree?.section3_subtitle1}</p> 
         <textarea
           rows="5"
           cols="50"
@@ -93,7 +93,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         {formThree?.section3_title_2}
       </h2>
         
-        <p className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>{formThree?.section3_subtitle2}</p>
+        {/* <p className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>{formThree?.section3_subtitle2}</p> */}
         <div className="select-input mb-4">
           <Select
             options={formThree?.dropdown || []}
@@ -131,7 +131,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         </div>
         </div>
         <button type="submit" className="cennikBtn">
-          Ostatnie pytanie
+        Ostatni krok
         </button>
       </form>
 

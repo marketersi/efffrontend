@@ -39,8 +39,9 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-        <h2>{formThree?.section3_title_1}</h2>
-        <p>{formThree?.section3_subtitle1}</p>
+      <p>{formThree?.section3_subtitle1}</p>
+        <h2>{formThree?.section3_title1_second}</h2>
+        
         <textarea
           rows="5"
           cols="50"
@@ -65,7 +66,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
           }}
         />
         <button type="submit" className="cennikBtn">
-          Ostatnie pytanie
+        Ostatni krok
         </button>
       </form>
 

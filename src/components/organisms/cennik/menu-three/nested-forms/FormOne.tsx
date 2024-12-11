@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const SliderForm = ({ setCurrentComponent }) => {
-  const [currentSection, setCurrentSection] = useState(0);
+  const [currentSection, setCurrentSection] = useState(null);
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { formTwo } = screenData?.cardMenu?.menuThree || "";

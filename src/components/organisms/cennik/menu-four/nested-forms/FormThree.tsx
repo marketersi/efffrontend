@@ -27,7 +27,7 @@ const UserDetailsSection = () => {
       tbl_fourthpricecard_dropdwonoption_id: formData.formZeroDropdownValueOne,
       tbl_fourth_price_range_id: formData.formOneSelectedRangeValue,
       section3_textarea: formData.formTwoTextAreaValue,
-      section3_inputbox: formData.formTwoInputValue,
+      tbl_fourthpricecardsecond_dropdwonoption_id: formData.formTwoDropdownValue,
       section4_name: name,
       section4_email: email,
       section4_phone: phone,
@@ -87,7 +87,13 @@ const UserDetailsSection = () => {
           />
           <input
             type="text"
-            placeholder="Email:"
+            placeholder="Nr. telefonu:"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Adres email:"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -96,12 +102,7 @@ const UserDetailsSection = () => {
             }}
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
           />
-          <input
-            type="text"
-            placeholder="Tel: (Opcjonalnie)"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-          />
+          
         </div>
         <div>
           <button type="submit" className="cennikBtn ">

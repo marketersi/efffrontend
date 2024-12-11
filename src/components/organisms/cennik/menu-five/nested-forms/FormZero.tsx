@@ -24,7 +24,7 @@ const FormZero = ({ setCurrentComponent }) => {
         {value ? (
           <span role="img" aria-label="selected-emoji">
             <Image
-              src={"https://images.prismic.io/marketersi/ZufV4LVsGrYSvYfY_dropdownok.png?auto=format,compress"}
+              src={"https://images.prismic.io/marketersi/ZufUa7VsGrYSvYfJ_dropdownarrow.png?auto=format,compress"}
               alt="arrow"
               width={30}
               height={30}
@@ -48,7 +48,7 @@ const FormZero = ({ setCurrentComponent }) => {
       selectedOption &&
       selectedOption.value === dropdown[dropdown.length - 1].value
     ) {
-      setIsModalOpen(true);
+      setIsModalOpen(false);
     }
   };
 
@@ -124,7 +124,7 @@ const FormZero = ({ setCurrentComponent }) => {
           }}
         />
       </div>
-      {selectedOption && selectedOption.value === dropdown[1].value && (
+      {/* {selectedOption && selectedOption.value === dropdown[1].value && (
         <div className="additional-input-container">
           <div>
           <h2>Podaj adres strony:</h2>
@@ -132,7 +132,7 @@ const FormZero = ({ setCurrentComponent }) => {
           </div>
           <input type="text" />
         </div>
-      )}
+      )} */}
       <motion.button
         className="cennikBtn"
         whileHover={{ translateY: 5 }}
