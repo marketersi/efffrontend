@@ -32,7 +32,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
     } else {
-      setIsModalOpen(true);
+      setIsModalOpen(false);
     }
   };
 
