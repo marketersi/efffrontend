@@ -133,8 +133,8 @@ const FormZero = ({ setCurrentComponent, form }) => {
 
       {selectedOption && selectedOption.value !== form.dropdown[0].value && (
         <div className="additional-input-container">
-          <h2 className={`card-heading ${!isInputValid && "red-title"}`}>
-            Wpisz adres strony :
+          <h2 className={`card-heading`}>
+            Wpisz adres strony:
           </h2>
           <input type="text" 
           value={inputValue}

@@ -42,7 +42,9 @@ const SliderSection = ({ setCurrentComponent }) => {
         <h2 className={`card-heading ${isButtonClicked && currentSection === null ? "red-title" : ""}`}>
         Dla jakiej firmy i jakiego montażu potrzebujesz?
         </h2>
-        
+        <p className={`card-subheading2 ${isButtonClicked ? "red-title" : ""}`}>
+        Zaznacz jedną opcję:
+      </p>
       </div>
 
       
@@ -64,14 +66,10 @@ const SliderSection = ({ setCurrentComponent }) => {
               {currentSection === index && <div className="inner-circle" />}
             </div>
             <div className="radio-label">
-              <p
-                style={{
-                  margin: "5px 0 0 0",
-                  fontSize: "16px",
-                  color: "#555",
-                }}
-              >
-                <strong>{range.label}</strong>
+              <h5>{range.label}</h5>
+              <h5>{range.backgroundColor}</h5>
+              <p>
+                
                 {range.description}
               </p>
             </div>

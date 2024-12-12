@@ -77,11 +77,9 @@ const FormZero = ({ setCurrentComponent }) => {
   return (
     <div>
       <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
-        {formOne?.section1_title}
+      {formOne?.section1_subtitle}
       </h2>
-      <p className={`card-subheading ${isButtonClicked ? "red-title" : ""}`}>
-        {formOne?.section1_subtitle}
-      </p>
+      
       <p className={`card-subheading2 ${isButtonClicked ? "red-title" : ""}`}>
         {formOne?.section1_subtitle2}
       </p>

@@ -32,15 +32,15 @@ const FeedbackSection = ({ setCurrentComponent }) => {
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
     } else {
-      setIsModalOpen(false);
+      setIsModalOpen(true);
     }
   };
 
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-      <p>{formThree?.section3_subtitle1}</p>
         <h2>{formThree?.section3_title1_second}</h2>
+      <p>{formThree?.section3_subtitle1}</p>
         
         <textarea
           rows="5"
@@ -65,12 +65,32 @@ const FeedbackSection = ({ setCurrentComponent }) => {
             outline: inputValue.length > 10 ? "none" : "",
           }}
         />
-        <button type="submit" className="cennikBtn">
+        <button type="submit"  onClick={handleNext} className="cennikBtn">
         Ostatni krok
         </button>
       </form>
 
+
       <Modal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        contentLabel="Example Modal"
+        className="CenikModal"
+        overlayClassName="Overlay"
+      >
+        <p>
+        {modalInfo?.modal_info}
+        </p>
+        <div className="cenikBtnDiv">
+          <button onClick={closeModal}>{modalInfo?.modal_button1Text}</button>
+        </div>
+
+        <div className="close" onClick={closeModal}>
+          <FontAwesomeIcon icon={faXmark} />
+        </div>
+      </Modal>
+
+      {/* <Modal
         isOpen={isModalOpen}
         onRequestClose={closeModal}
         contentLabel="Example Modal"
@@ -101,7 +121,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         <div className="close" onClick={closeModal}>
           <FontAwesomeIcon icon={faXmark} />
         </div>
-      </Modal>
+      </Modal> */}
     </div>
   );
 };

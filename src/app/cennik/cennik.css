@@ -1,6 +1,7 @@
 .heading-style {
-  font-size: 43px;
+  font-size: 46px;
   font-weight: 500;
+  line-height: 51px;
 }
 
 .subheading {
@@ -21,6 +22,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 15px;
+  line-height: 24px;
 }
 
 .card-subheading {
@@ -52,15 +54,17 @@
 }
 
 .cennikBtn {
-  padding: 8px 16px;
+  padding: 12px 16px;
   background: var(--brand-blue);
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 50px;
   color: white;
   border: none;
   font-weight: 500;
   box-shadow: 0 6px 0px var(--brand-blue-hover);
-  margin: 10px auto 20px;
+  margin: 40px auto 20px;
+  line-height: 20px;
+ 
 }
 
 .cennikBtn:hover {
@@ -72,9 +76,10 @@
 .additional-input-container {
   display: flex;
   margin: auto;
-  padding: 20px 20px 0;
+  width: 75%;
+  padding: 20px 0px 0;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .additional-input-container h2 {
@@ -92,6 +97,7 @@
   font-weight: 300;
   border-radius: 30px;
   border: 1px solid lightgray;
+  width: 57%;
 }
 
 .po_card_custom {
@@ -136,6 +142,7 @@
 
   .heading-style {
     font-size: 30px;
+    line-height: 36px;
   }
 
   .subheading {
@@ -149,6 +156,12 @@
   }
   .cennik-modal-content div {
     display: block;
+  }
+  .additional-input-container{
+    width: 100%;
+  }
+  .additional-input-container input{
+    width: 92%;
   }
   .cennik-modal-btn {
     display: block;

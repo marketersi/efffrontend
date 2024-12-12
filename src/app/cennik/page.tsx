@@ -70,7 +70,7 @@ const PriceListScreen = () => {
     backgroundColor: "rgb(255, 255, 255)",
     border: "1px solid rgb(201, 201, 201)",
     fontSize: "18px",
-    textTransform: "capitalize",
+    
     color: "black",
     width:"100%",
     transiction: "all 0.3s"

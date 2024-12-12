@@ -11,7 +11,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* color constant */
 :root {
   --brand-blue: #00bbff;

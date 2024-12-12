@@ -76,13 +76,13 @@ const FormZero = ({ setCurrentComponent }) => {
 
   return (
     <div>
-      <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
+      {/* <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
         {formOne?.menu_title}
-      </h2>
+      </h2> */}
 
-      <p className={`card-subheading ${isButtonClicked ? "red-title" : ""}`}>
+      <h2 className={`card-heading ${isButtonClicked ? "red-title" : ""}`}>
         {formOne?.section1_title}
-      </p>
+      </h2>
       <p className={`card-subheading ${isButtonClicked ? "red-title" : ""}`}>
         {formOne?.section1_subtitle}
       </p>

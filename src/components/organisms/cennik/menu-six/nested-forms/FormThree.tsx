@@ -77,7 +77,7 @@ const UserDetailsSection = () => {
         <div className="uds_input-container">
           <input
             type="text"
-            placeholder="Imię:"
+            placeholder="Imię"
             value={name}
             onChange={(e) => setName(e.target.value)}
             style={{

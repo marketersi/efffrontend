@@ -77,7 +77,7 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
       <div style={{ textAlign: "left" }} className="select-input mb-md-5 mb-sm-3">
         <Select
           options={formTwo?.dropdown2}
-          placeholder="kategorię„ Wybierz"
+          placeholder="Wybierz kategorię"
           isSearchable={false}
           components={{ DropdownIndicator }}
           onChange={handleSelectChange}
@@ -139,10 +139,11 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
         {currentSection === index && <div className="inner-circle" />}
       </div>
               <div className="radio-boxdiv radio-label">
-              <p style={{ margin: "5px 0 0 0", fontSize: "16px", color: "#555" }}> <strong>{range.label}</strong>
+              <h3> <strong>{range.label}</strong>
                 
                   {range.description}
-                </p>
+                </h3>
+                <p>{range.backgroundColor}</p>
               </div>
             </label>
           ))}

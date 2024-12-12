@@ -72,12 +72,12 @@ const FormThree = ({ form }) => {
       >
         {form?.section_4_title}
       </h2>
-      <p style={{fontSize: "20px"}}>Podaj swoje dane, abyśmy mogli przesłać ofertę dopasowaną do Ciebie.</p>
+      <p style={{fontSize: "20px"}}>Podaj dane, aby otrzymać dopasowaną ofertę.</p>
       <div className="componentThree_input-container">
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Imię:"
+            placeholder="Imię"
             value={name}
             onChange={(e) => setName(e.target.value)}
             style={{

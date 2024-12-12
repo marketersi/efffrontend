@@ -73,14 +73,14 @@ const UserInfoForm = ({ formFour }) => {
           {formFour?.section4_title}
         </h2>
         <p
-          className={`mt-4 mb-4 w-50 ${isButtonClicked && isFormInvalid ? "red-title" : ""}`}
+          className={`mt-1 mb-4 ${isButtonClicked && isFormInvalid ? "red-title" : ""}`}
         >
           {formFour?.section4_subtitle}
         </p>
         <div className="uds_input-container">
           <input
             type="text"
-            placeholder="Imię:"
+            placeholder="Imię"
             value={name}
             onChange={(e) => setName(e.target.value)}
             style={{
@@ -119,13 +119,17 @@ const UserInfoForm = ({ formFour }) => {
         </div>
       </form>
       <div className="contact">
+        <div className="top-part">
         <h5>{formFour?.contact?.contact_title}</h5>
         <p>{formFour?.contact?.contact_info}</p>
+        </div>
 
         <img src={formFour?.contact?.contact_image} alt="" />
         <div className="whiteBox"></div>
+        <div className="bottom-part">
         <h5>{formFour?.contact?.contact_contactText}</h5>
         <a href="tel:+48660970980">{formFour?.contact?.contact_tel}</a>
+        </div>
       </div>
     </div>
   );
