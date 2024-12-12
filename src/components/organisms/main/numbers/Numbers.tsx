@@ -44,19 +44,33 @@ const Entrepreneur = () => {
             <p>
               {section2?.paragraph_4}
             </p>
-            <div className={osClass}>
+            
+            
+          </div>
+
+
+        <div className={style.videoContainer}>
+        <div className={osClass}>
             <ReactPlayer
               url={section3?.video_url}
               playing={true}
               loop={true}
               width="100%"
               height="auto"
+              margin="auto"
               muted={true}
               className={style.numberVideo}
               pip={false}
               playsinline
             />
               </div>
+        </div>
+
+
+
+
+          <div className={style.Content}>
+            
             <p>
               {section3?.paragraph_1}
             </p>

@@ -61,7 +61,7 @@ const RatingCaption = () => {
             src={brandSection?.brand_logo2}
             alt="rating image"
             width="auto"
-            height="auto"
+            height="auto"-
           /> */}
         </div>
         <div className={style.ratingCOntent}>

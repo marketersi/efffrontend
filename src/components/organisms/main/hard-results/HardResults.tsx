@@ -19,7 +19,7 @@ const Entrepreneur = () => {
         <div className={style.hardResult}>
           <div className={style.Content}>
             <h2 className={style.hardMB}>{section4?.title}</h2>
-            <h3 className={style.gradientBG}>- {section4?.subtitle}</h3>
+            <h3 className={style.gradientBG}> {section4?.subtitle}</h3>
             {/* <img src={section4?.image_url} alt="" className={style.hardImg} /> */}
             <p>{section4?.paragraph_1}</p>
             <p>{section4?.paragraph_2}</p>
@@ -34,7 +34,7 @@ const Entrepreneur = () => {
                 url={section5?.video_url}
                 playing={true}
                 loop={true}
-                width="75%"
+                width="100%"
                 height="auto"
                 muted={true}
                 pip={false}
@@ -53,7 +53,7 @@ const Entrepreneur = () => {
                 url={section6?.video_url}
                 playing={true}
                 loop={true}
-                width="75%"
+                width="100%"
                 height="auto"
                 muted={true}
                 pip={false}
@@ -74,7 +74,11 @@ const Entrepreneur = () => {
             </p>
             <p>{section6?.paragraph_2}</p>
             <p>{section6?.paragraph_3}</p>
-            <div className={osClass}>
+            
+            
+          </div>
+          <div className={style.videoContainer}>
+          <div className={osClass}>
               <ReactPlayer
                 url={section7?.video_url_1}
                 // url="https://marketersi.cdn.prismic.io/marketersi/Zulk2bVsGrYSvbNp_ZjIQfEMTzAJOCdrt_MariaBilal2-1-.webm"
@@ -87,20 +91,36 @@ const Entrepreneur = () => {
                 playsinline
               />
             </div>
-            <h2 className={style.brandingHeading}>{section7?.title}</h2>
-            <p>{section7?.paragraph_1}</p>
-            {/* <ReactPlayer
-              url={section7?.video_url_3}
-              playing={true}
-              loop={true}
-              width="100%"
-              height="auto"
-              muted={true}
-              pip={false}
-              playsinline
-            /> */}
-            {/* to be added an image and the above video to be removed */}
-            <img src={section7?.video_url_3} className={style.girlImage} />
+          </div>
+
+          <div className={style.Content}>
+           
+           <h2 className={style.brandingHeading}>{section7?.title}</h2>
+           <p>{section7?.paragraph_1}</p>
+           {/* <ReactPlayer
+             url={section7?.video_url_3}
+             playing={true}
+             loop={true}
+             width="100%"
+             height="auto"
+             muted={true}
+             pip={false}
+             playsinline
+           /> */}
+           {/* to be added an image and the above video to be removed */}
+           
+           
+         </div>
+
+         <div className={style.videoContainer}>
+         <img src={section7?.video_url_3} className={style.girlImage} />
+         </div>
+
+
+
+         <div className={style.Content}>
+         
+            
             <p>{section7?.paragraph_2}</p>
             <p>{section7?.paragraph_3}</p>
             {/* <ReactPlayer
@@ -143,6 +163,12 @@ const Entrepreneur = () => {
               /> */}
             </div>
           </div>
+
+
+
+
+
+          
         </div>
       </Container>
     </div>

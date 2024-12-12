@@ -70,6 +70,10 @@
 .numbers {
   padding: 0px 0 100px;
 }
+.videoContainer{
+  width:82%;
+  margin: auto;
+}
 
 .numbers h2 span {
   font-weight: 800;
@@ -235,9 +239,10 @@ img.hardImg {
 }
 
 .socialVideo video {
-  width: 800px !important;
+  /* width: 800px !important; */
   margin: 0 auto;
   display: block;
+  width: 80%!important;
 }
 
 .brandingHeading {
@@ -247,6 +252,7 @@ img.hardImg {
 .girlImage {
   width: 100%;
   height: auto;
+  
 }
 
 /* -------------------------------media screen---------------------- */
