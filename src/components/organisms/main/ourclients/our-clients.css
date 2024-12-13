@@ -2,7 +2,7 @@
   font-size: 26px;
   font-weight: 600;
   line-height: 39.936px;
-  padding-block: 30px;
+  padding-block: 0px;
 }
 
 .OurClients_Slide:hover .OurClients_Slide_Image img {
@@ -23,6 +23,7 @@
 
 .OurClients_Slide_Media_Video img {
   width: 150px;
+  margin-top: 20px;
 }
 
 @media (max-width:768px) {

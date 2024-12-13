@@ -181,8 +181,8 @@ body{
   align-items: center;
 }
 .OurClients_Slide_Media {
-  display: grid;
-  grid-template-columns: 40% 1fr;
+  /* display: grid;
+  grid-template-columns: 40% 1fr; */
 }
 .OurClients_Slide_Button {
   align-self: end;
@@ -202,7 +202,7 @@ body{
   padding-block: 30px;
 }
 .OurClients_Slide_Media_Rating {
-  margin-left: -50px;
+  margin: 10px 0 15px;
   display: flex;
   gap: 10px;
 }
@@ -399,6 +399,7 @@ body{
 }
 .OurClients_Slide_Title.desktop_title {
   display: block;
+  margin-bottom: 30px;
 }
 .mobile {
   display: none;
@@ -459,7 +460,7 @@ body{
   }
   .OurClients_Slide_Media_Rating {
     display: block !important;
-    margin: 20px auto !important;
+    margin: 0px auto 20px !important;
   }
   .OurClients_Card_Two {
     display: block !important;

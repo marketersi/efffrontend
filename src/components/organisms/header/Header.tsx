@@ -218,7 +218,7 @@ const Header = () => {
                           onClick={handleMenuItemClick}
                           href="/Kreatywny-montaz-video"
                         >
-                          Kreatywny montaż video
+                          Kreatywny montaż wideo
                         </Link>
                       </div>
                       <div className={style.menuItem}>
@@ -269,7 +269,7 @@ const Header = () => {
               </li>
               <li onClick={handleMenuItemClick}>
                 <Link onClick={handleMenuItemClick} href="/Zespol">
-                  Kim <br />
+                  Kim 
                   jesteśmy{" "}
                 </Link>
               </li>

@@ -55,7 +55,7 @@ const Footer = () => {
                       Treści i hasła sprzedażowe
                     </Link>
                     <Link href="/nazwa-dla-firmy">Nazwa dla firmy</Link>
-                    <Link href="/projektowanie">Projektowanie logo</Link>
+                    <Link href="/projektowanie-logo">Projektowanie logo</Link>
                   </div>
                 </Col>
                 <Col sm={4} xs={6}>
@@ -97,15 +97,15 @@ const Footer = () => {
           <div className={style.copyright}>
             <div className={style.copyrightText}>
               <p>
-                &copy; {currentYear} - marketersi.pl | Tak się robi marketing!
+                &copy; {currentYear} - marketersi.pl | Marketing, który działa! Regulamin | Polityka prywatności.
               </p>
             </div>
-            <div className={style.copyrightMenu}>
+            {/* <div className={style.copyrightMenu}>
               <p>
                 <Link href="/#">Regulamin |</Link>
                 <Link href="/#"> Polityka prywatnosci </Link>
               </p>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

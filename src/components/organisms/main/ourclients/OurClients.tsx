@@ -262,8 +262,8 @@ export const SlideOne = (props) => {
             />
           </div>
           <div className="OurClients_Slide_Content">
-            <div className="OurClients_Slide_Title desktop_title">{review}</div>
             <div className="OurClients_Slide_Media">
+            
               <div className="OurClients_Slide_Media_Video">
                 {/* <ReactPlayer
                   url={video_url}
@@ -279,6 +279,9 @@ export const SlideOne = (props) => {
                 <img className="ourClientImg" src={video_url} alt=""/>
               </div>
               <div className="OurClients_Slide_Media_Rating">
+              <div className="OurClients_Slide_Star_Rating">
+                  <Stars rating={rating} />
+                </div>
                 <div>
                   <div className="OurClients_Slide_Star_Reviewer">
                     {client_name}
@@ -287,12 +290,12 @@ export const SlideOne = (props) => {
                     {client_designation}
                   </div>
                 </div>
-                <div className="OurClients_Slide_Star_Rating">
-                  <Stars rating={rating} />
-                </div>
+                
               </div>
             </div>
+            <div className="OurClients_Slide_Title desktop_title">{review}</div>
           </div>
+          
         </div>
         <div className="OurClients_Slide_Button">
           <div className="OurClients_Slide_Button_Text">Następna</div>
