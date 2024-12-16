@@ -228,7 +228,7 @@ img.projects-main-image-logop {
 .img-background-logop {
   display: block;
   margin: 50px auto 0;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .custom-container1 {
@@ -538,7 +538,7 @@ img.projects-main-image-logop {
 
 .projects-container-textright {
   text-align: right;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -589,12 +589,12 @@ img.projects-main-image-logop {
 }
 
 .galleryDecPara {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto 40px;
 }
 
 .galeriaImageContainer {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -661,7 +661,7 @@ img.projects-main-image-logop {
   line-height: 93px;
   padding-top: 50px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .projects-under-big-header3 {
@@ -672,7 +672,7 @@ img.projects-main-image-logop {
   line-height: 52px;
   margin-bottom: 20px;
   color: #373737;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -748,7 +748,7 @@ img.projects-main-image-logop {
   text-align: center;
   margin: 24px 0 66px;
   letter-spacing: -0.03em;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -943,7 +943,7 @@ img.projects-main-image-logop {
   margin-top: 250px;
   padding-left: 5px;
   padding-right: 5px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -995,7 +995,7 @@ img.projects-main-image-logop {
   line-height: 36px;
   letter-spacing: -0.025em;
   margin-bottom: 60px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -1006,7 +1006,7 @@ img.projects-main-image-logop {
   margin-top: 30px;
   margin-bottom: 80px;
   font-size: 38px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -1220,7 +1220,7 @@ contact-inputs textarea {
 }
 
 div#sec2 {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .shopImage {

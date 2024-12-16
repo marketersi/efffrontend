@@ -25,7 +25,7 @@ const Entrepreneur = () => {
             <p>{section4?.paragraph_2}</p>
           </div>
 
-          <Row className="mb-5">
+          <Row className="mb-3">
             <Col lg={12}>
               <h4 dangerouslySetInnerHTML={{ __html: section5?.quote }} />
             </Col>
@@ -47,7 +47,7 @@ const Entrepreneur = () => {
             <p>{section5?.paragraph_1}</p>
             <p>{section5?.paragraph_2}</p>
           </div>
-          <Row className="mt-5 pt-5 mb-5 pb-5 helmet">
+          <Row className="helmet mb-md-5 mb-sm-2">
             <Col lg={12} className={osClass}>
               <ReactPlayer
                 url={section6?.video_url}
@@ -144,11 +144,13 @@ const Entrepreneur = () => {
               pip={false}
               playsinline
             /> */}
-            <h3>{section7?.bottom_title}</h3>
+            <h6 className={style.fontSmall}>
+              {section7?.bottom_title}
+              </h6>
             <h4 className={style.hardBottomContent}>
               {section7?.quoted_title}
             </h4>
-            <div className={`mb-5 pb-5  ${style.ratingLogoImg}`}>
+            <div className={`${style.ratingLogoImg}`}>
               <Image
                 src={section7?.image_url_1}
                 alt="rating image"

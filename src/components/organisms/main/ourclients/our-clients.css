@@ -1,7 +1,7 @@
 .OurClients_Slide_Title {
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 600;
-  line-height: 39.936px;
+  line-height: 44px;
   padding-block: 0px;
 }
 
@@ -23,7 +23,7 @@
 
 .OurClients_Slide_Media_Video img {
   width: 150px;
-  margin-top: 20px;
+  
 }
 
 @media (max-width:768px) {
@@ -32,6 +32,7 @@
     margin-inline: auto;
     display: block;
     margin-bottom: 25px;
+    object-fit: cover;
   }
   .OurClients_Card_Two_Content{
     margin-bottom: 20px;

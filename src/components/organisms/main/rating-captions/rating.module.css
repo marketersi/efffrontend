@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 40px 0 0px;
+  margin: 0px 0 0px;
 }
 .ratingLogoImg img {
   width: 65%;
@@ -35,7 +35,7 @@
 .ratingMainImg img {
   width: 100%;
   height: auto;
-  margin: -320px auto -70px;
+  margin: -290px auto -70px;
   display: block;
 }
 
@@ -57,12 +57,12 @@
 }
 
 .ratingCOntent h2 {
-  font-size: 65px;
+  font-size: 85px;
   text-align: center;
   font-weight: 600;
   color: #333333;
-  line-height: 60px;
-  max-width: 1000px;
+  line-height: 77px;
+ 
   margin: 0 auto 40px;
 }
 
@@ -81,7 +81,7 @@
   color: #333333;
   line-height: 50px;
   margin: 0 auto 40px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .ratingCOntent p span {

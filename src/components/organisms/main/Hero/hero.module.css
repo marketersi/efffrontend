@@ -50,11 +50,12 @@
   border: 3px solid #00bfff;
   padding: 12px 45px;
   border-radius: 100px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 500;
   color: white;
   background: transparent;
   width: 100%;
+  line-height: 34px;
 }
 
 .heroBtn button:hover {
@@ -74,9 +75,9 @@
 } */
 
 .heroBtn a span {
-  font-size: 20px;
+  font-size: 28px;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0px 0 0px;
 }
 

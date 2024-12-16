@@ -5,7 +5,7 @@
 .mainVideoDiv video {
   position: absolute;
   left: 12%;
-  top: -10px;
+  top: 40px;
   border-radius: 50px;
   width: 75% !important;
   z-index: 0;
@@ -18,7 +18,7 @@
   border-radius: 18px;
   position: absolute;
   left: 48%;
-  top: 150px;
+  top: 250px;
 }
 
 .youtubeIcon svg {
@@ -42,7 +42,7 @@
 .popup-content {
   background: white;
   padding: 20px;
-  max-width: 800px;
+  max-width: 900px;
   max-height: 80%;
   overflow: auto;
 }

@@ -34,7 +34,7 @@ body{
 
 /* 16. OurClients */
 .OurClients {
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 .OurClients_Title {
   color: #333333;
@@ -53,16 +53,16 @@ body{
   margin-bottom: -20px;
 }
 .OurClients_Card_One_Title {
-  font-size: 38.4px;
+  font-size: 43px;
   font-weight: 600;
-  line-height: 46.08px;
+  line-height: 52px;
   text-align: center;
   margin-bottom: 30px;
 }
 .OurClients_Card_One_Content {
-  font-size: 25.6px;
+  font-size: 29px;
   font-weight: 300;
-  line-height: 30.72px;
+  line-height: 35px;
   padding-inline: 40px;
   text-align: center;
   margin-bottom: 30px;
@@ -76,9 +76,9 @@ body{
   border-radius: 256px;
   background-color: var(--brand-blue);
   color: black;
-  font-size: 25.6px;
-  font-weight: 700;
-  line-height: 30.72px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
   text-align: center;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -179,6 +179,7 @@ body{
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-bottom: 40px;
 }
 .OurClients_Slide_Media {
   /* display: grid;
@@ -251,7 +252,7 @@ body{
   text-align: center;
 }
 .OurClients_Slide_Last {
-  padding-inline: 180px;
+  padding-inline: 150px;
   padding-block: 110px;
 }
 .YellowMarkSlide {
@@ -385,7 +386,7 @@ body{
   font-size: 90px;
   font-weight: 900;
   margin-bottom: 25px;
-  max-width: 800px;
+  max-width: 900px;
   line-height: 70px;
   margin-inline: auto;
 }
@@ -399,7 +400,7 @@ body{
 }
 .OurClients_Slide_Title.desktop_title {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .mobile {
   display: none;
@@ -473,7 +474,7 @@ body{
     width: 150px !important;
   }
   .OurClients_Slide_Title {
-    font-size: 25px !important;
+    font-size: 24px !important;
     line-height: 30px !important;
     padding-top: 0 !important;
   }
@@ -612,7 +613,7 @@ video {
     padding: 20px;
   }
   .OurClients_Slide {
-    padding-inline: 30px;
+    padding-inline: 25px;
   }
   .android video {
     -webkit-filter: contrast(0.999);

@@ -110,10 +110,11 @@ const Header = () => {
                 <div
                   className={style.headerDrop1}
                   onMouseLeave={handleCloseDropdown}
+                  onMouseEnter={handleOpenDropdown}
+
                 >
                   <div
                     className={style.dropBtn}
-                    onMouseEnter={handleOpenDropdown}
                   >
                     Przydatne <br /> rzeczy <span></span>
                     <FontAwesomeIcon icon={faAngleDown} />
@@ -136,7 +137,7 @@ const Header = () => {
             </Col>
             <Col sm={4}>
               <div className={style.rightNav}>
-                <Nav>
+                <Nav className="d-flex align-items-center">
                   <Nav.Link className={style.navRightMenu}>
                     <Link href="/Zespol">
                       Kim <br /> jesteśmy

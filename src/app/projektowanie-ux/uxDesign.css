@@ -169,7 +169,7 @@ h6 {
 
 #messagesSection .text2 {
   padding-top: 50px;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -1215,7 +1215,7 @@ h6 {
 #maciej .contentText {
   z-index: 2;
   margin-top: 30px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 #maciej .contentText h2 {
@@ -1999,7 +1999,7 @@ section.arrowContainer {
 
 #stage .stageD > div {
   width: 95vw;
-  max-width: 800px;
+  max-width: 900px;
   margin: 50px 0;
   padding: 15px;
 }
@@ -2246,7 +2246,7 @@ section.arrowContainer {
   position: relative;
   left: 190px;
   z-index: -1;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 #highResult p {
@@ -2275,7 +2275,7 @@ section.arrowContainer {
 /* -------------------- FAQ section --------------- */
 .header__top__left {
   font-family: "Playfair Display", serif;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
 }
 

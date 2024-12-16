@@ -4,7 +4,7 @@
 }
 
 .Content {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -14,11 +14,12 @@
 }
 
 .Content h2 {
-  font-size: 90px;
+  font-size: 85px;
   text-align: center;
   font-weight: 800;
   color: #333333;
   margin: 0 0 40px 0px;
+  line-height: 77px;
 }
 
 .Content h3 {
@@ -30,11 +31,13 @@
 }
 
 .Content h4 {
-  font-size: 35px;
+  font-size: 28px;
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
   color: #333333;
-  margin: 0 0 50px 0px;
+  margin: 0 0 40px 0px;
+  line-height: 50px;
+  
 }
 
 .Content h4 span {
@@ -84,7 +87,7 @@
 }
 
 .numberMB {
-  margin-bottom: 15px !important;
+  margin-bottom: 7px !important;
 }
 
 /* ================================================== hard Result================================= */
@@ -113,13 +116,16 @@
 }
 
 .hardResult h4 {
-  font-size: 45px;
+  font-size: 14px;
   text-align: center;
-  font-weight: 500;
-  color: #808080;
+  font-weight: 700;
+  
 
-  line-height: 50px;
-  margin: 0 auto 50px;
+  line-height: 22px;
+  margin: 0 auto 0px;
+}
+.hardResult .helmet{
+  padding: 0 0 40px;
 }
 
 .hardResult h4 span {
@@ -246,13 +252,23 @@ img.hardImg {
 }
 
 .brandingHeading {
-  font-size: 55px !important;
+  font-size: 35px !important;
+  line-height: 47px!important;
+  font-weight: 300!important;
+  
 }
 
 .girlImage {
   width: 100%;
   height: auto;
   
+}
+.fontSmall{
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 /* -------------------------------media screen---------------------- */
@@ -275,7 +291,7 @@ img.hardImg {
 
   .hardResult h4 {
     font-size: 40px;
-    margin: 30px 0 0;
+    margin: 0px 0 0;
   }
 
   .ratingLogoImg img {
@@ -306,10 +322,13 @@ img.hardImg {
     font-size: 35px !important;
     margin: 20px 0 10px 0px;
   }
+  .Content h4{
+    font-weight: 700;
+  }
 
   .Content h3 {
     font-size: 20px;
-    margin: 0 0 40px 0px;
+    margin: 0 0 20px 0px;
   }
 
   img.hardImg {
@@ -323,8 +342,8 @@ img.hardImg {
 
   .ratingLogoImg img {
     display: block;
-    width: 70%;
-    margin: 0 auto 30px;
+    width: 100%;
+    margin: 0 auto 0px;
   }
 
   .order .orderContent h2 {
@@ -361,7 +380,11 @@ img.hardImg {
   }
   .Content p {
     font-size: 22px;
-    line-height: 40px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  .Content p:first-child{
+    margin-top: 20px;
   }
   .hardBottomContent {
     font-size: 35px !important;
@@ -371,5 +394,8 @@ img.hardImg {
   }
   .enter {
     padding: 0px 0 0px;
+  }
+  .pinkBG{
+    padding-top: 0;
   }
 }
