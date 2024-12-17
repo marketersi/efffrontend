@@ -252,15 +252,15 @@ export const SlideOne = (props) => {
       <div className="OurClients_Slide">
         <div className="OurClients_Slide_Title mobile_title">{review}</div>
         <div className="OurClients_Slide_Container">
-          <div className="OurClients_Slide_Image">
+          
             <Image
               src={image_url}
               alt="OurClientsImage1"
-              width={190}
-              height={275}
-              style={{ filter: "grayscale(100%)" }}
+              width={400}
+              height={600}
+              className="OurClients_Slide_Image"
             />
-          </div>
+          
           <div className="OurClients_Slide_Content">
             <div className="OurClients_Slide_Media">
             
@@ -294,15 +294,16 @@ export const SlideOne = (props) => {
               </div>
             </div>
             <div className="OurClients_Slide_Title desktop_title">{review}</div>
-          </div>
-          
-        </div>
-        <div className="OurClients_Slide_Button">
+            <div className="OurClients_Slide_Button">
           <div className="OurClients_Slide_Button_Text">Następna</div>
           <div className="ArrowButton" onClick={handleNext}>
             <span className="ArrowButton_Arrow">&gt;</span>
           </div>
         </div>
+          </div>
+          
+        </div>
+        
       </div>
     </>
   );

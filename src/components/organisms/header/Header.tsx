@@ -137,7 +137,7 @@ const Header = () => {
             </Col>
             <Col sm={4}>
               <div className={style.rightNav}>
-                <Nav className="d-flex align-items-center">
+                <Nav className="d-flex align-items-center flex-nowrap">
                   <Nav.Link className={style.navRightMenu}>
                     <Link href="/Zespol">
                       Kim <br /> jesteśmy

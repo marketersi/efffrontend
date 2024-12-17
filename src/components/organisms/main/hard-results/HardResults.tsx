@@ -63,7 +63,7 @@ const Entrepreneur = () => {
               />
             </Col>
             <Col lg={12}>
-              <h4>{section6?.quote}</h4>
+              <h4 className={style.contentFont}>{section6?.quote}</h4>
             </Col>
           </Row>
 

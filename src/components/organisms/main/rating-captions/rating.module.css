@@ -1,5 +1,5 @@
 .rating {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .ratingImg {
@@ -45,8 +45,9 @@
 }
 
 .ratingMainImg p span {
-  background: #6d7278;
-  color: #ffc600;
+  /* background: #6d7278; */
+  background: #00bfff4a;
+  color: #00bfff;
   text-align: center;
   padding: 5px 20px;
   border-radius: 40px;
@@ -62,7 +63,7 @@
   font-weight: 600;
   color: #333333;
   line-height: 77px;
- 
+ max-width: 900px;
   margin: 0 auto 40px;
 }
 

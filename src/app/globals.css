@@ -140,7 +140,7 @@ body{
 /* * */
 .content {
   --gap: clamp(1rem, 6vw, 3rem);
-  --content: min(77ch, 100% - var(--gap) * 2);
+  --content: min(85ch, 100% - var(--gap) * 2);
   --popout: minmax(0, 2rem);
   --feature: minmax(0, 5rem);
   --full: minmax(var(--gap), 1fr);
@@ -172,14 +172,14 @@ body{
   display: flex;
   flex-direction: column;
   padding-inline: 50px;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .OurClients_Slide_Container {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
-  margin-bottom: 40px;
+  
 }
 .OurClients_Slide_Media {
   /* display: grid;
@@ -189,12 +189,14 @@ body{
   align-self: end;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
   cursor: pointer;
   font-size: 25.6px;
   font-weight: 600;
   line-height: 34.432px;
   text-align: center;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
 .OurClients_Slide_Title {
   font-size: 33.28px;
@@ -407,6 +409,30 @@ body{
 }
 .desktop {
   display: block;
+}
+.buttonux{
+  border-radius: 50px;
+    padding: 9px 20px;
+    background: #00bfff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    transition: transform 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s, box-shadow 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s, border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.buttonux a{
+  text-decoration: none;
+  
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.buttonux:hover{
+  box-shadow: 0px 3px 0px #181818;
+    background: #00bfff;
+    color: black;
 }
 
 /* ------------------media screen ---------------------------------------------------- */

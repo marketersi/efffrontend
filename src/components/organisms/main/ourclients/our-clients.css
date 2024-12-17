@@ -4,8 +4,18 @@
   line-height: 44px;
   padding-block: 0px;
 }
+.OurClients_Slide_Image {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  
+ flex:1;
+  object-fit: contain;
+}
+.OurClients_Slide_Content{
+  flex: 1;
+}
 
-.OurClients_Slide:hover .OurClients_Slide_Image img {
+.OurClients_Slide:hover .OurClients_Slide_Image {
   filter: grayscale(0%) !important;
 }
 

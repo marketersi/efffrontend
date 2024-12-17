@@ -384,7 +384,7 @@
 }
 /* ------------------------------------media screen-------------------------------------------------------- */
 @media screen and (max-width: 1450px) {
-  .headerRightBtn {
+  /* .headerRightBtn {
     font-size: 14px;
   }
   .navRightMenu {
@@ -395,10 +395,20 @@
   }
   .headerLeftBtn {
     font-size: 14px;
-  }
+  } */
+   .navbar{
+    padding: 20px 0px 20px 20px;
+   }
+   .headerRightBtn{
+    white-space: nowrap;
+    padding: 7px 10px;
+   }
+   .navRightMenu{
+    padding-right: 7px;
+   }
 }
 @media screen and (max-width: 1360px) {
-  .logo img {
+  /* .logo img {
     margin-left: auto;
     display: block;
     width: 200px;
@@ -420,7 +430,7 @@
   .headerRightBtn {
     padding: 10px 10px;
     font-size: 13px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {

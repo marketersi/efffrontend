@@ -5,7 +5,7 @@
 .mainVideoDiv video {
   position: absolute;
   left: 12%;
-  top: 40px;
+  top: -10px;
   border-radius: 50px;
   width: 75% !important;
   z-index: 0;
@@ -18,7 +18,7 @@
   border-radius: 18px;
   position: absolute;
   left: 48%;
-  top: 250px;
+  top: 150px;
 }
 
 .youtubeIcon svg {
@@ -54,10 +54,11 @@
 /* ---------------------media screen ------------ */
 @media screen and (max-width: 1500px) {
   .mainVideoDiv video {
-    left: 22%;
+    left: 20%;
     top: -60px;
     width: 60% !important;
   }
+  
 }
 
 @media screen and (max-width: 1024px) {

@@ -48,7 +48,7 @@ const RatingCaption = () => {
             width={500}
             height={300}
           />
-          <p>{brandSection?.banner_text}</p>
+          <p><span>{brandSection?.banner_text}</span></p>
         </div>
         <div className={style.ratingLogoImg}>
           <Image

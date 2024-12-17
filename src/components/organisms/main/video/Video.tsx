@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import ReactPlayer from "react-player";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { Variants, motion } from "framer-motion";
 import style from "./video.module.css";
 import { useSelector } from "react-redux";
 import useOsClass from "@/components/molecules/useOsClass";
@@ -9,83 +9,76 @@ import useOsClass from "@/components/molecules/useOsClass";
 const Video = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
   const { brandSection } = screenData;
+  const slideAnimationTop: Variants = {
+    offscreen: {
+      scale: 0.7,
+      rotate: -10,
+      transition: {
+        type: "ease",
+        damping: 25,
+        stiffness: 70,
+        duration: 3,
+      },
+    },
+    onscreen: {
+      scale: 1,
+      rotate: 0,
+      transition: {
+        type: "ease",
+        damping: 25,
+        stiffness: 70,
+        duration: 3,
+      },
+    },
+  };
   const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const openPopup = () => {
+    setPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false);
+  };
   const osClass = useOsClass();
-  const videoRef = useRef(null);
 
-  
-  const { scrollYProgress } = useScroll();
 
-  const scale = useTransform(scrollYProgress, [0, 0.1], [0.5, 1.0]);
 
-  console.log("this is scale value", scale);
-  useEffect(() => {
-    return scrollYProgress.onChange((latest) => {
-      console.log("scrollYProgress value:", latest * 100); 
-    });
-  }, [scrollYProgress]);
-  const yOffset = useTransform(scrollYProgress, [0.0, 0.2], [0, 200]); 
-
-  const initialTilt = useTransform(
-    scrollYProgress,
-    [0.0, 0.1],
-    ["skewY(-7deg)", "skewY(0deg)"]
-  );
-  const openPopup = () => setPopupOpen(true);
-  const closePopup = () => setPopupOpen(false);
 
   return (
     <>
-      <motion.div
+       <motion.div
         className={style.mainVideoDiv}
-        ref={videoRef}
-        style={{
-          y: yOffset,
-          scale: scale,
-          
-        }}
+        initial="offscreen"
+        whileInView="onscreen"
+        variants={slideAnimationTop}
       >
-        <motion.div
-          style={{
-            transform: initialTilt,
-            backgroundColor: "red", 
-          }}
-        >
-          <div className={osClass}>
-            <ReactPlayer
-              url={brandSection?.banner_video}
-              playing={true}
-              loop={true}
-              muted={true}
-              width="100%"
-              height="auto"
-              pip={false}
-              playsinline
-            />
-          </div>
-        </motion.div>
-
-        <motion.div>
-          <motion.div
-            style={{
-              transform: initialTilt,
-            }}
-            className={style.youtubeIcon}
-            onClick={openPopup}
+        
+        <div className={osClass}>
+        <ReactPlayer
+          url={brandSection?.banner_video}
+          playing={true}
+          loop={true}
+          muted={true}
+          width="100%"
+          height="auto"
+          pip={false}
+          playsinline
+        />
+              </div>
+        <div className={style.youtubeIcon} onClick={openPopup}>
+          <svg
+            className="h-[60%] w-full"
+            viewBox="0 0 256 256"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="h-[60%] w-full"
-              viewBox="0 0 256 256"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M240 128C240.007 130.716 239.31 133.388 237.978 135.756C236.647 138.123 234.725 140.105 232.4 141.51L88.32 229.65C85.8909 231.138 83.1087 231.95 80.2608 232.002C77.4129 232.055 74.6025 231.347 72.12 229.95C69.6611 228.575 67.6128 226.57 66.1856 224.141C64.7585 221.712 64.0041 218.947 64 216.13V39.8701C64.0041 37.053 64.7585 34.2877 66.1856 31.8588C67.6128 29.4299 69.6611 27.4249 72.12 26.0501C74.6025 24.6536 77.4129 23.9451 80.2608 23.9979C83.1087 24.0506 85.8909 24.8626 88.32 26.3501L232.4 114.49C234.725 115.895 236.647 117.877 237.978 120.245C239.31 122.612 240.007 125.284 240 128Z"
-                fill="white"
-              ></path>
-            </svg>
-          </motion.div>
-        </motion.div>
+            <path
+              d="M240 128C240.007 130.716 239.31 133.388 237.978 135.756C236.647 138.123 234.725 140.105 232.4 141.51L88.32 229.65C85.8909 231.138 83.1087 231.95 80.2608 232.002C77.4129 232.055 74.6025 231.347 72.12 229.95C69.6611 228.575 67.6128 226.57 66.1856 224.141C64.7585 221.712 64.0041 218.947 64 216.13V39.8701C64.0041 37.053 64.7585 34.2877 66.1856 31.8588C67.6128 29.4299 69.6611 27.4249 72.12 26.0501C74.6025 24.6536 77.4129 23.9451 80.2608 23.9979C83.1087 24.0506 85.8909 24.8626 88.32 26.3501L232.4 114.49C234.725 115.895 236.647 117.877 237.978 120.245C239.31 122.612 240.007 125.284 240 128Z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
       </motion.div>
 
       {isPopupOpen && (

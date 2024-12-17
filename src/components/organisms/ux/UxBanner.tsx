@@ -24,6 +24,7 @@ const UxBanner = () => {
               <p className="subitle">{HeroSection.description1}</p>
               <p className="subitle mt-4">{HeroSection.description2} </p>
               <p className="subitle"></p>
+              <button className='buttonux'><a href="/">Brzmi świetnie. Wyślijcie mi ofertę.</a></button>
               {/* <span className="underLine underLine2">
                 <span>u</span>
                 <span>p</span>
