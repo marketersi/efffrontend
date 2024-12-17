@@ -95,7 +95,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         <div className="select-input mb-4">
           <Select
             options={formThree?.dropdown || []}
-            placeholder="Wybierz kategorię"
+            placeholder="Wybierz"
             isSearchable={false}
             components={{ DropdownIndicator }}
             onChange={handleSelectChange}
@@ -115,6 +115,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
                 paddingBlock: "3px",
                 backgroundColor: selectedOption ? "#effeeb" : baseStyles.backgroundColor,
                 outline: selectedOption ? "2px solid #effeeb" : "none",
+                textAlign: "left"
               }),
               dropdownIndicator: (provided) => ({
                 ...provided,

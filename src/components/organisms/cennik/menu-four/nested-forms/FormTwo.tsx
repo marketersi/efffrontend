@@ -97,7 +97,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         <div className="select-input mb-4">
           <Select
             options={formThree?.dropdown || []}
-            placeholder="Wybierz kategorię"
+            placeholder="Wybierz"
             isSearchable={false}
             components={{ DropdownIndicator }}
             onChange={handleSelectChange}

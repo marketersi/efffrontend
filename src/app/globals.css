@@ -166,6 +166,9 @@ body{
 .full {
   grid-column: full;
 }
+.css-zaip1u-menu{
+  text-align: left;
+}
 
 /* *** */
 .OurClients_Slide {
@@ -178,7 +181,7 @@ body{
 .OurClients_Slide_Container {
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: flex-start;
   
 }
 .OurClients_Slide_Media {
@@ -196,7 +199,8 @@ body{
   line-height: 34.432px;
   text-align: center;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-right: -30px;
 }
 .OurClients_Slide_Title {
   font-size: 33.28px;
@@ -424,7 +428,7 @@ body{
 }
 .buttonux a{
   text-decoration: none;
-  
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   
@@ -574,6 +578,10 @@ body{
 video {
   -webkit-filter: contrast(0.979);
   filter: contrast(0.979);
+}
+ .additional-class{
+  height: 353px;
+  object-fit: cover;
 }
 .win video {
   -webkit-filter: contrast(0.999);

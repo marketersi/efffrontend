@@ -3,16 +3,16 @@
   font-weight: 600;
   line-height: 44px;
   padding-block: 0px;
+  font-family: Georgia, serif;
 }
 .OurClients_Slide_Image {
   filter: grayscale(1);
-  -webkit-filter: grayscale(1);
-  
- flex:1;
-  object-fit: contain;
+  -webkit-filter: grayscale(1); 
+ width: auto;
+  object-fit: inherit;
 }
 .OurClients_Slide_Content{
-  flex: 1;
+  
 }
 
 .OurClients_Slide:hover .OurClients_Slide_Image {

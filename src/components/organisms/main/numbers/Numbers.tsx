@@ -35,7 +35,7 @@ const Entrepreneur = () => {
             <p className={style.numberMB}>
               {section2?.line_2}
             </p>
-            <p>
+            <p className={style.numberMB}>
               {section2?.line_3}
             </p>
             <p>

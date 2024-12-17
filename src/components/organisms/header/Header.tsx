@@ -140,7 +140,7 @@ const Header = () => {
                 <Nav className="d-flex align-items-center flex-nowrap">
                   <Nav.Link className={style.navRightMenu}>
                     <Link href="/Zespol">
-                      Kim <br /> jesteśmy
+                      Kim <br /> jesteśmy?
                     </Link>
                   </Nav.Link>
                   <Nav.Link className={style.navRightMenu}>

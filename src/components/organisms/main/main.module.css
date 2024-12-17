@@ -6,6 +6,7 @@
 .Content {
   max-width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .enter img {
@@ -88,6 +89,7 @@
 
 .numberMB {
   margin-bottom: 7px !important;
+  margin-top: 10px!important;
 }
 
 /* ================================================== hard Result================================= */
@@ -116,12 +118,10 @@
 }
 
 .hardResult h4 {
-  font-size: 15px;
+  font-size: 45px;
   text-align: center;
-  font-weight: 400;
-  
-
-  line-height: 22px;
+  font-weight: 500;
+  line-height: 52px;
   margin: 0 auto 0px;
 }
 .contentFont{
@@ -260,7 +260,7 @@ img.hardImg {
 .brandingHeading {
   font-size: 35px !important;
   line-height: 47px!important;
-  font-weight: 300!important;
+  font-weight: 700!important;
   
 }
 

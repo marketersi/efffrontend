@@ -87,7 +87,7 @@ const UserDetailsSection = () => {
           />
           <input
             type="text"
-            placeholder="Nr. telefonu:"
+            placeholder="Nr telefonu:"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />

@@ -45,9 +45,9 @@
 }
 
 .ratingMainImg p span {
-  /* background: #6d7278; */
-  background: #00bfff4a;
-  color: #00bfff;
+   background: #6d7278; 
+  
+  color: #ffc600;
   text-align: center;
   padding: 5px 20px;
   border-radius: 40px;

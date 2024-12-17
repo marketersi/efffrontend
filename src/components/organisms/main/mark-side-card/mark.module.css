@@ -55,6 +55,9 @@
   margin: 3px auto;
   display: block;
 }
+.midColumn{
+  margin-top: 100px;
+}
 .mark img {
   width: 100%;
   margin: 0 auto;
@@ -63,9 +66,11 @@
 .markVideo video {
   width: 100% !important;
   margin-inline: auto;
-  margin-top: 30px;
+  
   display: block;
+  height: 353px!important;
 }
+
 .win-player video {
   -webkit-filter: contrast(0.999);
   filter: contrast(0.999);

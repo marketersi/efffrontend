@@ -54,7 +54,7 @@ const MarkSide = () => {
           <Col md={4} className={style.midColumn}>
             <div className={style.mark}>
               <Image
-                className={osClass}
+                className={`${osClass} additional-class`}
                 src={companySection?.image_1}
                 alt="rating image"
                 width="auto"
@@ -70,6 +70,7 @@ const MarkSide = () => {
                 alt="rating image"
                 width="auto"
                 height="auto"
+                className={`${osClass} additional-class`}
               />
               <Card data={companyCard[2]} links={links3} />
             </div>

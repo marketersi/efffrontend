@@ -6,6 +6,7 @@
 .Content {
   max-width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .enter img {
@@ -99,6 +100,8 @@
   padding: 0 10px;
   border-radius: 100px;
   display: inline-block;
+  width: 77%;
+  margin: 20px auto 0!important;
 }
 
 .hardMB {

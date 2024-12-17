@@ -23,7 +23,7 @@ const Numbers = () => {
             <h4>{section2?.subtitle}</h4>
             <p className={style.numberMB}>{section2?.line_1}</p>
             <p className={style.numberMB}>{section2?.line_2}</p>
-            <p>{section2?.line_3}</p>
+            <p className={style.numberMB}>{section2?.line_3}</p>
             <p>{section2?.paragraph_3}</p>
             <p>{section2?.paragraph_4}</p>
             <div className={osClass}>
