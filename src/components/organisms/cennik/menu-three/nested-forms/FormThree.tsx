@@ -89,14 +89,14 @@ const UserDetailsSection = () => {
           
           <input
             type="text"
-            placeholder="Nr telefonu:"
+            placeholder="Nr telefonu"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
 
 <input
             type="text"
-            placeholder="Adres email:"
+            placeholder="Adres email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{

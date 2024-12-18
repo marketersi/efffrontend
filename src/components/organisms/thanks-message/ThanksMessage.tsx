@@ -61,9 +61,9 @@ const ThanksMessage = () => {
           <p>Obserwuj</p>
         </div> */}
         <h5>
-          <span>W międzyczasie…</span>
+          W międzyczasie…
           Zobacz, jak pomogliśmy innym. I jakie efekty osiągnęli dzięki
-          współpracy z nami
+          współpracy z nami.
         </h5>
 
         <button onClick={handleGoToOpinie}>Poznaj opinie klientów</button>

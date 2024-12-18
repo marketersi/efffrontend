@@ -385,7 +385,12 @@ body{
 .select-input {
   width: 75%;
 }
-
+.componentThree_input-container .cennikBtn{
+  width: 60%;
+}
+.css-1dimb5e-singleValue{
+  text-align: left;
+}
 /* -------------------------Accordion------------------------ */
 .copywriter-intro-bg-5-label {
   font-family: "Playfair Display";

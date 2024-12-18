@@ -74,7 +74,7 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
       </h2>
       </div>
 
-      <div style={{ textAlign: "left" }} className="select-input mb-md-5 mb-sm-3">
+      <div style={{ textAlign: "left" }} className="select-input">
         <Select
           options={formTwo?.dropdown2}
           placeholder="Wybierz kategorię"

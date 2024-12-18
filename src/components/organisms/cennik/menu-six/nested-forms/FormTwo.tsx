@@ -5,6 +5,7 @@ import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import { color } from "framer-motion";
 
 const FeedbackSection = ({ setCurrentComponent }) => {
   const { isLoading, screenData } = useSelector((state) => state.priceList);
@@ -39,7 +40,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-        <h2>{formThree?.section3_title1_second}</h2>
+        <h2><span style={{ color: '#00bbff' }}>Napisz w kilku słowach</span> czym zajmuje się Twój biznes i co jest dla Ciebie ważne?</h2>
       <p>{formThree?.section3_subtitle1}</p>
         
         <textarea

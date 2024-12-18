@@ -75,7 +75,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   return (
     <div className="feedback_section mb-md-5 mb-sm-3">
        <form onSubmit={handleNext}>
-        <h2>{formThree?.section3_title_1}</h2>
+       <h2><span style={{ color: '#00bbff' }}>Napisz w kilku słowach</span> czym zajmuje się Twój biznes i co jest dla Ciebie ważne?</h2>
          <p>{formThree?.section3_subtitle1}</p> 
         <textarea
           rows="5"
@@ -143,22 +143,16 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         overlayClassName="Overlay"
       >
         <div className="cennik-modal-content">
-          <h2 className="cennik-modal-title">
-            {modalInfo?.modal_title}
-          </h2>
+          
           <p>
           {modalInfo?.modal_info}
           </p>
-          <p>
-          {modalInfo?.modal_info_2}
-          </p>
+          
           <div>
             <button className="cennik-modal-btn">
               <Link href="/">{modalInfo?.modal_button1Text}</Link>
             </button>
-            <button className="cennik-modal-btn" onClick={closeModal}>
-            {modalInfo?.modal_button2Text}
-            </button>
+            
           </div>
         </div>
         

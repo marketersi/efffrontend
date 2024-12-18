@@ -9,7 +9,7 @@
 .thanksContainer .maiImg {
   margin: 0 auto;
   display: block;
-  width: 12%;
+  width: 10%;
 }
 .thanksContainer .profileImg {
   margin: -30px auto 20px;
@@ -82,20 +82,27 @@
 }
 @media only screen and (max-width: 1024px) {
   .thanksContainer .maiImg {
-    width: 100%;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 767px) {
   .thanksContainer .maiImg {
-    width: 100%;
+    width: 40%;
   }
   .thanksContainer h2 {
     font-size: 40px;
+    padding: 0 15px;
   }
   .thanksContainer h4 {
     font-size: 22px;
+    padding: 0 15px;
   }
   .thanksContainer h5 {
     font-size: 20px;
+    padding: 0 15px;
+  }
+  .thanksContainer .profileImg{
+    width: 100px;
+    height: 100px;
   }
 }
