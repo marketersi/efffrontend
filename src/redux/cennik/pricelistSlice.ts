@@ -5,7 +5,6 @@ const priceListSlice = createSlice({
   initialState: {
     isLoading: false,
     screenData: {},
-
     isMenuSubmit: false,
     isMenuSubmitSuccess: false,
     formData: {},

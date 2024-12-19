@@ -1,31 +1,30 @@
-import React, {useState} from 'react';
-import { useSelector } from 'react-redux';
-import ReactPlayer from 'react-player';
-import useOsClass from '@/components/molecules/useOsClass';
-import CardOne from '@/components/organisms/cennik/menu-one/CardOne';
-
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import ReactPlayer from "react-player";
+import useOsClass from "@/components/molecules/useOsClass";
+import ProjectuxModal from "../modals/ProjectuxModal";
+import { useDispatch } from "react-redux";
+import { savePriceListFormData } from "@/redux/cennik/pricelistSlice";
 
 const UxBanner = () => {
   const uxScreenData = useSelector((state) => state.ux.screenData);
-  const priceListData = useSelector((state) => state.priceList.screenData);
 
   const HeroSection = uxScreenData?.HeroSection || {};
-  const { formOne, formTwo, formThree, formFour } = priceListData?.cardMenu?.menuOne || {}; // Using priceListData here
+  // Using priceListData here
 
   const osClass = useOsClass();
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
-  console.log(priceListData, "pricelist")
-  
+
   return (
     <>
       <section>
         <div id="header" className="UXBannerContainer">
           <div className="row m-0">
             <div className="col-md-6">
-               {/* <h1 className="titleHead">
+              {/* <h1 className="titleHead">
                 <span>
                   {HeroSection?.title1}
                   
@@ -34,18 +33,20 @@ const UxBanner = () => {
                 {HeroSection?.title2}
               </h1>  */}
               <h1 className="titleHead">
-               <span>Tworzenie stron i </span>
-               <span>design UX</span>
-               <span>z Marketersi.</span>
+                <span>Tworzenie stron i </span>
+                <span>design UX</span>
+                <span>z Marketersi.</span>
               </h1>
               {/* <p className="subitle">{HeroSection.description1}</p> */}
-              <p className="subitle">Tworzymy strony i design UX, które <br /> <span>przekładają się na sukces.</span></p>
+              <p className="subitle">
+                Tworzymy strony i design UX, które <br />{" "}
+                <span>przekładają się na sukces.</span>
+              </p>
               <p className="subitle">{HeroSection.description2} </p>
-              
+
               <button className="buttonux" onClick={openModal}>
                 Brzmi świetnie. Wyślijcie mi ofertę.
               </button>
-              
             </div>
             <div className={`col-md-6 ${osClass}`}>
               <ReactPlayer
@@ -63,53 +64,7 @@ const UxBanner = () => {
         </div>
       </section>
 
-
-       {/* Modal */}
-       {isModalOpen && (
-        <div className="modal-backdrop">
-          <div className="modal-content">
-            <button className="modal-close" onClick={closeModal}>
-              ×
-            </button>
-            <CardOne screenData={priceListData} closeModal={closeModal} /> {/* Passing the correct screenData here */}
-            
-          </div>
-        </div>
-      )}
-
-      {/* Styles for modal */}
-      <style jsx>{`
-        .modal-backdrop {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.8);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 1000;
-        }
-        .modal-content {
-          background: #fff;
-          padding: 40px;
-          border-radius: 8px;
-          max-width: 600px;
-          width: 90%;
-          text-align: center;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .modal-close {
-          position: absolute;
-          top: 10px;
-          right: 10px;
-          background: none;
-          border: none;
-          font-size: 24px;
-          cursor: pointer;
-        }
-      `}</style>
+      <ProjectuxModal isOpen={isModalOpen} onRequestClose={closeModal} />
     </>
   );
 };

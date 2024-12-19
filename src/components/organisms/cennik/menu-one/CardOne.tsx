@@ -11,6 +11,7 @@ const CardOne = () => {
   const { screenData } = useSelector((state) => state.priceList);
   const { formOne, formTwo, formThree, formFour } =
     screenData?.cardMenu?.menuOne || "";
+  console.log(screenData, "Data received by CardOne");
 
   return (
     <>
