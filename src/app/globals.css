@@ -391,6 +391,9 @@ body{
 .css-1dimb5e-singleValue{
   text-align: left;
 }
+.underlineText{
+  text-decoration: underline;
+}
 /* -------------------------Accordion------------------------ */
 .copywriter-intro-bg-5-label {
   font-family: "Playfair Display";
@@ -421,30 +424,31 @@ body{
 }
 .buttonux{
   border-radius: 50px;
-    padding: 9px 20px;
-    background: #00bfff;
-    color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    border: none;
-    transition: transform 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s, box-shadow 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s, border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7) 0s;
-    margin-left: 100px;
+    padding: 12px 30px;
+    border: 3px solid #00bbff;
+    
+    margin-left: 200px;
     margin-bottom: 50px;
-}
-.buttonux a{
-  text-decoration: none;
-  color: #fff;
+    margin-top: 30px;
+    text-decoration: none;
+ color: #333333;
   font-size: 20px;
   font-weight: 600;
-  
-}
-.buttonux:hover{
-  box-shadow: 0px 3px 0px #181818;
-    background: #00bfff;
-    color: black;
+  font-family: "Georgia", serif;
 }
 
+
+
+
 /* ------------------media screen ---------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 1450px) {
+  .buttonux{
+    margin-left: 140px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .OurClients_Slide {
     padding-top: 40px !important;
@@ -501,6 +505,17 @@ body{
   .OurClients_Card_Two {
     display: block !important;
     margin-top: 100px;
+  }
+  .buttonux{
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .buttonux a{
+    font-size: 19px;
+  }
+  #header > div{
+    flex-direction: column-reverse;
+    gap: 40px;
   }
   .cartAnimation {
     margin: -500px 0 0 -50px !important;
@@ -664,3 +679,5 @@ video {
     filter: contrast(0.999);
   }
 }
+
+

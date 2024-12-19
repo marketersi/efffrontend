@@ -18,6 +18,7 @@ import { useDispatch } from "react-redux";
 import { FETCH_UX_SCREEN_DATA } from "@/redux/ux/uxDesignAction";
 import Process from "@/components/organisms/ux/Process";
 
+
 const UXDesignScreen = () => {
   const dispatch = useDispatch();
   useEffect(() => {

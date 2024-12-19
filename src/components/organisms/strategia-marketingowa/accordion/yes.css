@@ -46,40 +46,23 @@
   transition: width 0.3s ease-in-out;
 }
 
-.faqContainer a > span > span {
-  background: white;
-  padding: 30px;
-  margin: 3px;
-  border-radius: 60px;
-  color: #333;
-  text-decoration: none;
-  font-size: min(3.5vw, 30px);
-  font-family: arial;
-  font-weight: bold;
-}
+
 .faqContainer a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 100px;
-  text-decoration: none;
-  border-radius: 60px;
-  background: #fff;
-  background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
-  display: inline-flex;
+  margin-top: 0px;
+    text-decoration: none;
+    border-radius: 60px;
+    border: 3px solid #00bfff;
+    padding: 12px 30px;
+    display: inline-flex
+;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
 }
-.faqContainer a > span {
-  transform: translate(-10px, -10px);
-  transition: transform 0.5s;
-  border-radius: 60px;
-  background: #fff;
-  background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
-  padding: 2px 2px;
-  display: inline-flex;
-}
-.faqContainer a > span:hover {
-  transform: translate(0px, 0px);
-}
+
 h2.textAnimation {
   font-size: 50px;
   font-weight: 600;

@@ -40,11 +40,20 @@ h6 {
   letter-spacing: -1px;
   padding-left: 40px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+#header .titleHead  span{
+  display: block;
 }
 
-#header > div div .titleHead > span {
-  margin-left: -40px;
+#header .titleHead  span:nth-child(1) {
+  margin-left: 0px;
+}
+#header .titleHead  span:nth-child(2) {
+  margin-left: 40px;
+}
+#header .titleHead  span:nth-child(3) {
+  margin-left: 80px;
 }
 
 #header > div div .titleHead .UX {
@@ -64,19 +73,22 @@ h6 {
   font-size: min(5vw, 32px);
   line-height: 1.2;
   font-family: "Georgia", serif;
-  margin-left: 70px;
+  margin-left: 160px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
 }
+#header .subitle span{
+  margin-left: 20px;
+}
 
-#header > div div .subitle > span {
+/* #header > div div .subitle > span {
   font-weight: 700;
   font-size: min(5.6vw, 47px);
   display: inline-flex;
   margin: 0 10px;
   color: #e3e3e3;
-}
+} */
 
 #header > div div .subitle > span .space {
   display: block;
@@ -92,7 +104,9 @@ h6 {
 
 #header > div div .subitle:nth-child(3) {
   padding-left: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+  margin-top: 30px;
 }
 
 #header > div div .subitle:nth-child(4) {
@@ -136,8 +150,8 @@ h6 {
 #messagesSection {
   text-align: center;
   position: relative;
-  padding-top: 200px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 #messagesSection h2 {
@@ -148,7 +162,7 @@ h6 {
   color: #333;
   position: relative;
   top: 20px;
-  max-width: 650px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -1175,11 +1189,10 @@ h6 {
 #maciej {
   display: flex;
   position: relative;
-  height: 1100px;
-  max-width: 1160px;
-  margin: auto;
+  max-width: 1200px;
+  
   justify-content: center;
-  margin-top: 10px;
+  margin: 100px auto;
 }
 
 #maciej .imgs {
@@ -1214,7 +1227,7 @@ h6 {
 
 #maciej .contentText {
   z-index: 2;
-  margin-top: 30px;
+  margin-top: 0px;
   max-width: 900px;
 }
 
@@ -1228,7 +1241,7 @@ h6 {
 }
 
 #maciej .contentText p {
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
   color: #373737;
   font-size: clamp(22px, 35px, 40px);
@@ -1237,7 +1250,7 @@ h6 {
 
 #maciej .contentText .btn-neon {
   width: fit-content;
-  border: 2px solid #373737;
+  border: 2px solid #00bfff;
   box-shadow: none;
   border-radius: 50px;
   color: #373737;
@@ -1248,10 +1261,10 @@ h6 {
   padding: 15px 15px;
   line-height: 40px;
   text-align: center;
-  margin: 50px auto;
+  margin: 70px auto;
   cursor: pointer;
   display: block;
-  margin: 150px auto;
+  
   position: relative;
   text-decoration: none;
 }
@@ -1265,7 +1278,7 @@ h6 {
   top: 50%;
 }
 
-#maciej .contentText .btn-neon .light:after {
+/* #maciej .contentText .btn-neon .light:after {
   background-image: url("https://propozycje.owocni.pl/ux/CTA-Makieta-UX-Swiatlo.dde9f5cf.png");
   content: "";
   width: 916px;
@@ -1275,12 +1288,11 @@ h6 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  /* background: red; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 #maciej .contentText > img,
 #maciej .contentText > picture {
@@ -1304,7 +1316,7 @@ h6 {
   font-size: min(4.5vw, 35px);
   font-family: "Georgia", serif;
   line-height: 1.1;
-  margin-top: 100px;
+  margin-top: -110px;
 }
 
 #textArrow p > span {
@@ -1327,7 +1339,8 @@ h6 {
 }
 
 section.arrowContainer {
-  padding: 0 100px;
+  margin: auto;
+  max-width: 1200px;
 }
 
 #textArrow h2 {
@@ -1385,7 +1398,7 @@ section.arrowContainer {
 #guaranteeWrapper {
   max-width: 100vw;
   overflow: hidden;
-  padding-bottom: 250px;
+  padding-bottom: 0px;
 }
 
 #guarantee {
@@ -1398,6 +1411,7 @@ section.arrowContainer {
   margin: auto;
   margin-top: 90px;
   margin-bottom: 50px;
+  display: flex;
 }
 
 #guarantee .mobileImg {
@@ -1407,17 +1421,18 @@ section.arrowContainer {
 #guarantee > img {
   margin: auto;
   display: block;
-  margin-bottom: 200px;
-  max-width: 65vw;
+  
+  max-width: 50%;
 }
 
 #guarantee .rowD {
-  margin-top: -67px;
+  margin-top: 0px;
   display: flex;
   z-index: 2;
   position: relative;
-  padding: 0 60px 0 0;
-  max-width: 100%;
+  padding: 0 0px 0 0;
+  max-width: 50%;
+  width: 50%;
 }
 
 #guarantee .rowD h2 {
@@ -1427,15 +1442,17 @@ section.arrowContainer {
 }
 
 #guarantee .rowD p {
-  margin-top: 50px;
+  margin: 30px 0 0;
   font-size: min(4vw, 24px);
   max-width: 700px;
 }
 
 #guarantee .rowD p b {
-  font-size: min(4.5vw, 38px);
-  margin-bottom: 100px;
-  line-height: 2;
+  font-size: min(4.5vw, 32px);
+  line-height: 1.3;
+  padding-bottom: 30px;
+  display: block;
+  
 }
 
 #guarantee .rowD .imgs {
@@ -1464,7 +1481,7 @@ section.arrowContainer {
 
 /* ------------------Video Section--------------- */
 .uxvideoImg {
-  width: 50%;
+  width: 100%;
 }
 #videoSection {
   padding: 0 0 0px 0;
@@ -1485,7 +1502,7 @@ section.arrowContainer {
 
 #videoSection > :nth-child(1) h2 {
   font-size: clamp(50px, 100px, 120px);
-  padding: 100px 0 50px 0;
+  padding: 20px 0 40px 0;
   letter-spacing: -1px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -1495,7 +1512,7 @@ section.arrowContainer {
 }
 
 #videoSection > :nth-child(1) p {
-  padding: 0 0 30px;
+  padding: 0 0 0px;
   font-size: clamp(30px, 40px, 50px);
   letter-spacing: -0.5px;
   line-height: 1.33;
@@ -1711,31 +1728,38 @@ section.arrowContainer {
 
 /* ------------What Get Section----------- */
 
+.img-block{
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
 #WhatGet {
   font-family: "Georgia", serif;
   color: #333;
-  text-align: center;
   max-width: 1000px;
   margin-inline: auto;
 }
 
 #WhatGet p {
-  font-size: min(3.5vw, 40px);
+  font-size: min(3.5vw, 36px);
   margin: 30px 0;
   color: #333;
+  text-align: left;
 }
 
 #WhatGet a {
-  margin-top: 150px;
-  margin-top: 200px;
+  margin-top: 0px;
   text-decoration: none;
   border-radius: 60px;
-  background: #ffc700;
-  background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
+ border: 3px solid #00bfff;
+  padding: 12px 30px;
   display: inline-flex;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-#WhatGet a > span {
+/* #WhatGet a > span {
   transform: translate(-10px, -10px);
   transition: transform 0.5s;
   border-radius: 60px;
@@ -1743,13 +1767,13 @@ section.arrowContainer {
   background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
   padding: 2px 2px;
   display: inline-flex;
-}
+} */
 
 #WhatGet a > span:hover {
   transform: translate(0px, 0px);
 }
 
-#WhatGet a > span > span {
+/* #WhatGet a > span > span {
   background: white;
   padding: 30px;
   margin: 3px;
@@ -1759,7 +1783,7 @@ section.arrowContainer {
   font-size: min(4vw, 30px);
   font-family: arial;
   font-weight: bold;
-}
+} */
 
 @keyframes isFloating {
   0% {
@@ -2184,7 +2208,7 @@ section.arrowContainer {
 /* -----------------HighResult Section----------------- */
 
 #highResult {
-  margin-top: 420px;
+  margin-top: 100px;
   max-width: 1100px;
   margin-inline: auto;
 }
@@ -2234,7 +2258,7 @@ section.arrowContainer {
   max-width: 1120px;
   margin: auto;
   position: relative;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 #highResult .row div:nth-child(1) {
@@ -2254,23 +2278,10 @@ section.arrowContainer {
   font-family: Georgia;
   color: #373737;
   margin: 30px 0;
+  text-align: center;
 }
 
-.paraResult p:nth-child(1) {
-  max-width: 700px;
-}
 
-.paraResult p:nth-child(2) {
-  max-width: 600px;
-}
-
-.paraResult p:nth-child(3) {
-  max-width: 450px;
-}
-
-.paraResult p:nth-child(4) {
-  max-width: 400px;
-}
 
 /* -------------------- FAQ section --------------- */
 .header__top__left {
@@ -2494,7 +2505,7 @@ section.arrowContainer {
 }
 
 .numberContainer {
-  padding: 0 50px;
+  padding: 100px 50px 0;
 }
 
 /* --------------- */
@@ -2570,6 +2581,19 @@ section.dCard {
 
 video.mobileVideo {
   display: none;
+}
+
+@media only screen and (max-width: 1450px){
+  #header > div div .titleHead{
+    font-size: min(12vw, 80px);
+    padding-left: 0;
+  }
+  #header > div div .subitle {
+    
+    margin-left: 100px;
+    
+  }
+ 
 }
 
 /* ----------------------------------media screen ----------------------- */
@@ -2680,9 +2704,7 @@ video.mobileVideo {
     margin-top: 0px;
   }
 
-  #maciej {
-    height: 810px;
-  }
+  
 
   #textArrow h2 {
     line-height: 70px;
@@ -2767,8 +2789,8 @@ video.mobileVideo {
   }
 
   #WhatGet a {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   #highResult {
@@ -2804,6 +2826,29 @@ video.mobileVideo {
     width: 100%;
     margin-left: 80px;
   }
+  .img-block{
+    max-width: 1200px;
+    margin: 10px auto;
+  }
+  .img-block .row{
+    flex-direction: column-reverse;
+  }
+  #header .titleHead  span{
+    display: inline-block;
+  }
+  
+  #header .titleHead  span:nth-child(1) {
+    margin-left: 0px;
+  }
+  #header .titleHead  span:nth-child(2) {
+    margin-left: 0px;
+  }
+  #header .titleHead  span:nth-child(3) {
+    margin-left: 0px;
+  }
+  #header > div div .titleHead{
+    font-size: min(10vw, 100px);
+  }
   #guarantee > img {
     max-width: 90%;
     margin-inline: 0px;
@@ -2813,7 +2858,12 @@ video.mobileVideo {
     display: block;
     width: 100%;
   }
-
+  #header > div div .subitle:nth-child(3){
+    margin-top: 20px;
+  }
+  #WhatGet a{
+    font-size: 19px;
+  }
   #messagesSection h2 {
     font-size: 40px;
   }
@@ -2838,7 +2888,7 @@ video.mobileVideo {
   }
 
   #messagesSection {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-inline: 20px;
   }
 
@@ -2862,6 +2912,12 @@ video.mobileVideo {
   }
   .UXheroVideo {
     width: 100% !important;
+  }
+  #WhatGet p {
+    font-size: min(3.5vw, 36px);
+    margin: 15px 0;
+    color: #333;
+    text-align: left;
   }
 }
 
@@ -2973,13 +3029,15 @@ section.goodProcess {
 }
 
 .two .number {
-  margin-top: 300px;
-  margin-left: 50px;
+  margin-top: 166px;
+  margin-left: 109px;
+  padding-bottom: 101px;
 }
 
 .three .number {
-  margin-top: 300px;
+  margin-top: 150px;
   margin-left: 50px;
+  padding-bottom: 101px;
 }
 
 .imgs img {
@@ -3002,19 +3060,19 @@ section.goodProcess {
 
 .process3 {
   margin-top: 200px;
-  margin-bottom: 800px;
+  margin-bottom: 50px;
   max-width: 650px;
-  margin-left: 150px;
+  margin-left: 0px;
 }
 
 /* -------------------animated text---------------- */
-.UXBannerContainer span:not(:nth-child(1)) {
+/* .UXBannerContainer span:not(:nth-child(1)) {
   font-weight: 700;
   font-size: 56px;
   display: inline-flex;
   margin: 0 10px;
   color: #37ba9e;
-}
+} */
 
 .underLine span {
   animation: isFloating 4.6s ease-in-out infinite;
@@ -3028,9 +3086,27 @@ section.goodProcess {
   color: #37ba9e;
 }
 .uxVideoTitle {
-  font-size: 85px;
-  margin-top: 50px;
+  font-size: clamp(50px, 100px, 120px);
+  padding: 80px 0 100px 0;
+  letter-spacing: -1px;
+  font-family: "Playfair Display", serif;
   font-weight: 900;
+  max-width: 1000px;
+  margin-inline: auto;
+  line-height: clamp(50px, 100px, 120px);
+  text-align: center;
+}
+.uxVideoPara{
+  font-size: min(3.5vw, 36px);
+    margin: 30px 0 80px;
+    color: #333;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+@media screen and (max-width:1450px){
+  #header > div div .subitle{
+    font-size: min(5vw, 28px);
+  }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -3133,7 +3209,17 @@ section.goodProcess {
 
 @media only screen and (max-width: 768px) {
   .uxVideoTitle {
-    font-size: 45px;
+    font-size: 34px;
+        padding: 0;
+        line-height: 1.3;
+        margin-top: 50px;
+  }
+  .uxVideoPara{
+    padding: 20px 15px ;
+    margin: 0;
+  }
+  #guarantee{
+    flex-direction: column-reverse;
   }
   #WhatGet {
     padding-inline: 30px;
@@ -3144,8 +3230,9 @@ section.goodProcess {
   section.goodProcess {
     padding: 0 1rem;
     row-gap: 0;
+    margin-block: 0;
   }
-
+  
   #videoSection > :nth-child(1) h2 {
     font-size: 34px;
     padding: 0;
@@ -3159,7 +3246,7 @@ section.goodProcess {
   }
 
   #guarantee .rowD h2 {
-    margin-top: 40px !important;
+    margin-top: 0px !important;
   }
 
   #maciej .contentText .btn-neon {
@@ -3168,6 +3255,7 @@ section.goodProcess {
 
   #maciej .contentText p {
     font-size: 20px;
+    margin-top: 40px;
   }
 
   #videoSection > :nth-child(1) p {
@@ -3210,6 +3298,7 @@ section.goodProcess {
 
   #guarantee .rowD {
     padding: 0 20px;
+    width: 100%;
   }
 
   #guarantee .rowD h2 {
@@ -3248,4 +3337,5 @@ section.goodProcess {
   .uxvideoImg {
     width: 100%;
   }
+ 
 }

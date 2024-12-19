@@ -8,7 +8,8 @@ const Executive = () => {
   return (
     <section>
       <div id="highResult">
-        <h2>{executive.title}</h2>
+        <h2>Makieta UX
+          <br/>Klucz do Twojego Sukcesu</h2>
         <div className="row">
           <div className="paraResult">
             <p>{executive.paragraph_1}</p>

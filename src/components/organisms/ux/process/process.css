@@ -5,7 +5,7 @@
     align-items: flex-start;
     /* Ensures the circles start from the top */
     width: 98vw;
-    margin-top: 340px;
+    margin-top: 0px;
 }
 
 .line {
@@ -26,7 +26,7 @@
 }
 .bottomImg {
     position: absolute;
-    top: calc(100% - -5420px);
+    top: calc(100% - -4740px);
     transform: rotate(210deg);
     width: calc(5% + 100px);
     left: calc(55% - 150px);

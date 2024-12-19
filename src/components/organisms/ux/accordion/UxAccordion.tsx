@@ -54,13 +54,20 @@ const UXAccordion = () => {
                 )}
               </div>
               {index === activeIndex && (
-                <div className="accordion-content">{item.answer}</div>
+                <div className="accordion-content" dangerouslySetInnerHTML={{ __html: item.answer }}></div>
+                
               )}
             </div>
+
+ 
+
+
+
+
           ))}
         <a className="send-offer-button js--triggerAnimation">
           <span>
-            <span onClick={() => setIsModal(true)}>OK Wyślijcie mi niezobowiązującą ofertę </span>
+            <span onClick={() => setIsModal(true)}>Brzmi świetnie. Wyślijcie mi ofertę </span>
           </span>
         </a>
       </div>

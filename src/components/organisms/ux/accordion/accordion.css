@@ -1,11 +1,11 @@
 .faqContainer {
   /* max-width: 900px; */
   margin: 0 auto;
-  padding: 70px 70px;
+  padding: 70px 0px;
 }
 .accordion-item {
   /* border-bottom: 2px solid #b9b9b9;git */
-  padding: 42px 24px 42px 24px;
+  
 }
 .accordion-title {
   display: flex;
@@ -14,13 +14,33 @@
 .accordion-title {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .accordion-content {
   padding: 24px;
 }
+.accordion-content h3{
+font-weight: 600;
+color: #000;
+margin-bottom: 15px;
+}
+.accordion-content p{
+font-size: 20px;
+margin-bottom: 20px;
+font-weight: 400;
+line-height: 34px;
+}
+.accordion-content a{
+  color: #00bfff;
+  font-weight: 500;
+}
+.accordion-content p:last-child{
+ 
+  margin-bottom: 20px;
+ 
+  }
 
 .faqContainer .accordion-item {
   position: relative;
@@ -39,7 +59,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #ffffff;
+  background-color: #00c0fe;
   pointer-events: none;
   z-index: -1;
   -webkit-transition: width 0.3s ease-in-out;
@@ -48,40 +68,23 @@
 }
 
 /* unwanted css */
-.faqContainer a > span > span {
-  background: white;
-  padding: 30px;
-  margin: 3px;
-  border-radius: 60px;
-  color: #333;
-  text-decoration: none;
-  font-size: min(3.5vw, 24px);
-  font-family: arial;
-  font-weight: bold;
-}
+
 .faqContainer a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 100px;
-  text-decoration: none;
-  border-radius: 60px;
-  background: #ffc700;
-  background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
-  display: inline-flex;
+  margin-top: 70px;
+    text-decoration: none;
+    border-radius: 60px;
+    border: 3px solid #00bfff;
+    padding: 12px 30px;
+    display: inline-flex
+;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
 }
-.faqContainer a > span {
-  transform: translate(-10px, -10px);
-  transition: transform 0.5s;
-  border-radius: 60px;
-  background: #ffc700;
-  background: linear-gradient(90deg, #ffc700 0%, #ee8aa1 50%, #1ec19b 100%);
-  padding: 2px 2px;
-  display: inline-flex;
-}
-.faqContainer a > span:hover {
-  transform: translate(0px, 0px);
-}
+
 h2.textAnimation {
   font-size: 50px;
   font-weight: 600;

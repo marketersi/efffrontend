@@ -1,11 +1,11 @@
 .card {
     perspective: 1000px;
-    width: 270px;
-    /* height: 300px; */
-    margin: 20px;
+    max-width: 300px;
+    
+    margin: 20px 0 0;
     border: none;
     background-color: transparent;
-    padding: 0;
+    padding: 0 30px;
     align-items: center;
     justify-content: center;
 }
@@ -128,7 +128,7 @@
     line-height: 1.4;
 }
 .flipCardContainer{
-    margin-top: 0px;
+    margin-top: 80px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -157,4 +157,13 @@
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  @media screen and (max-width:767px){
+    .flipCardContainer{
+        margin-top: 40px;
+      }
+      .card{
+        max-width: 50%;
+      }
   }

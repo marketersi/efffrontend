@@ -18,7 +18,7 @@ const FormZero = ({ setCurrentComponent, form }) => {
   };
 
   const handleValidation = () => {
-    if (inputValue.trim() === "") {
+    if (inputValue.trim() === "") {-
       setIsInputValid(false); // Mark as invalid if input is blank
     } else {
       setIsInputValid(true); // Valid input

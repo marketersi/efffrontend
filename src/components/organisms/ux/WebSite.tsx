@@ -37,9 +37,9 @@ const WebSite = () => {
   return (
     <>
       <section>
-        <div id="ImageSection">
+        {/* <div id="ImageSection">
           <div>
-            <h2>{websites?.title}</h2>
+            
             <div
               style={{
                 clipPath: "polygon(0px 100%, 100% 100%, 100% 0px, 0px 0px)",
@@ -59,7 +59,7 @@ const WebSite = () => {
               </picture>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

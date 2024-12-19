@@ -19,8 +19,11 @@ const CoverFlowSlider = () => {
     centerPadding: "0",
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
     speed: 500,
     dots: false,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
     beforeChange: (current, next) => setSlideIndex(next),
     responsive: [
       {
@@ -43,7 +46,7 @@ const CoverFlowSlider = () => {
 
   return (
     <div className="slider-container">
-      <div className="UxBtn">
+      {/* <div className="UxBtn">
         <button
           onClick={() => carousel?.current?.slickPrev()}
           className="leftBtn"
@@ -56,7 +59,7 @@ const CoverFlowSlider = () => {
         >
           dalej »
         </button>
-      </div>
+      </div> */}
       <Slider {...settings} className="UxSlider" ref={carousel}>
         {slider?.images?.map((e, index) => {
           return (

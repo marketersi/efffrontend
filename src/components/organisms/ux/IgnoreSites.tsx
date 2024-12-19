@@ -33,7 +33,7 @@ const IgnoreSites = () => {
               className="btn-neon send-offer-button js--triggerAnimation"
               onClick={() => setIsModal(true)}
             >
-              Zapytaj o makietę dla siebie
+              Brzmi świetnie. Wyślijcie mi ofertę.
               <div
                 className="light"
                 style={{ transform: "rotate(120deg) scale(0.7, 0.7)" }}

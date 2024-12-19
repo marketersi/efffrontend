@@ -612,20 +612,33 @@ section.black-sec-form {
 
 /* ===================================faq==================================== */
 
-.accordion-item {
-  margin-bottom: 5px;
-}
+
 
 .accordion-title {
-  padding: 15px 0px;
+  padding: 25px 25px;
   cursor: pointer;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
-  font-weight: 500;
-  border-bottom: 2px solid lightgray;
+  gap: 40px;
+  
+  
+}
+.accordion-title.active{
+  border-bottom: 1px solid lightgray;
+}
+.accordion-title svg{
+  
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+.accordion-title:first-child{
+  border-top: 1px solid lightgray;
 }
 
 .accordion-title.active {
@@ -636,13 +649,13 @@ section.black-sec-form {
   padding: 20px 0;
   font-size: 14px;
   background: transparent;
-  border-top: 1px solid lightgray;
+  
   line-height: 25px;
   font-weight: 300;
 }
 
 .faqContainer {
-  max-width: 700px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
