@@ -10,7 +10,7 @@ const Process = () => {
     console.log(pathLength);
 
     const spacing = 20;
-    const numberOfCircles = Math.floor(pathLength / spacing) - 36;
+    const numberOfCircles = Math.floor(pathLength / spacing) - 50;
     const leftOffset = 780 - 430.62;
 
     let positions = [];
@@ -28,8 +28,8 @@ const Process = () => {
       <svg
         className="line"
         width="723"
-        height="4900"
-        viewBox="0 0 723 4900"
+        height="4730"
+        viewBox="0 0 723 4730"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

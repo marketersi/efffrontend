@@ -424,7 +424,7 @@ body{
 }
 .buttonux{
   border-radius: 50px;
-    padding: 12px 30px;
+    padding: 8px 20px;
     border: 3px solid #00bbff;
     
     margin-left: 200px;
@@ -432,9 +432,10 @@ body{
     margin-top: 30px;
     text-decoration: none;
  color: #333333;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: "Georgia", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+ 
 }
 
 

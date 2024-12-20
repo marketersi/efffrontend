@@ -121,11 +121,11 @@
 
 .typingEffect{
     font-size: 18px;
-    font-weight: normal;
-    color: gray;
+    font-weight: 400;
+    color: #333;
     text-transform: inherit;
     margin-top: 20px;
-    line-height: 1.4;
+    line-height: 27px;
 }
 .flipCardContainer{
     margin-top: 80px;

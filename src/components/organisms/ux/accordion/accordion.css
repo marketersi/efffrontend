@@ -16,6 +16,7 @@
   justify-content: space-between;
   font-size: 24px;
   font-weight: 400;
+  line-height: 36px;
 }
 
 .accordion-content {
@@ -77,20 +78,21 @@ line-height: 34px;
     text-decoration: none;
     border-radius: 60px;
     border: 3px solid #00bfff;
-    padding: 12px 30px;
+    padding: 8px 12px;
     display: inline-flex;
     color: #333333;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Georgia", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
     cursor: pointer;
 }
 
 h2.textAnimation {
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 84px;
+  font-weight: 500;
   text-align: center;
   margin: 0 0 50px;
+  line-height: 84px;
 }
 .accordion-item {
   max-width: 1000px;

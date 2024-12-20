@@ -65,8 +65,9 @@ const UxVideo = () => {
       <section className="img-block">
       <div className="row">
       <div id="WhatGet" className="col-md-6">
-          <p className="textAnimation">{UXVideo?.paragraph_3}</p>
-          <p className="textAnimation underlineText">{UXVideo?.paragraph_4}</p>
+          <p className="textAnimation">Obiecujemy nie tylko piękno formy, ale przede wszystkim <span style={{fontStyle: "italic", display: "block"}}>rezultaty.</span></p>
+          {/* <p className="textAnimation underlineText">{UXVideo?.paragraph_4}</p> */}
+          <p className="textAnimation underlineText"><span style={{fontStyle: "italic"}}>Jeśli Twoja strona nie przyniesie oczekiwanych wyników</span>  <span style={{fontWeight: "bold"}}>– zwrócimy Ci 100% inwestycji.</span></p>
           <p className="textAnimation">{UXVideo?.paragraph_5}</p>
           <a className="send-offer-button js--triggerAnimation">
             <span>
