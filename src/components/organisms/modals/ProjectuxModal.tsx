@@ -14,21 +14,17 @@ const CustomModal = ({ isOpen, onRequestClose }) => {
       isOpen={isOpen}
       onRequestClose={onRequestClose}
       contentLabel="Modal for Last Option"
-      className="form2Modal"
+      className="form2Modal cennikFormCard1 mt-4"
       style={{
         overlay: {
           backgroundColor: "rgba(0, 0, 0, 0.8)",
         },
+        
         content: {
-          color: "white",
           borderRadius: "30px",
           border: "none",
-          width: "50%",
           margin: "50px auto",
-          maxHeight: "550px",
-          padding: " 60px 50px",
-
-          overflow: "hidden",
+          
         },
       }}
     >

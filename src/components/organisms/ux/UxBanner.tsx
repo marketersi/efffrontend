@@ -3,8 +3,7 @@ import { useSelector } from "react-redux";
 import ReactPlayer from "react-player";
 import useOsClass from "@/components/molecules/useOsClass";
 import ProjectuxModal from "../modals/ProjectuxModal";
-import { useDispatch } from "react-redux";
-import { savePriceListFormData } from "@/redux/cennik/pricelistSlice";
+
 
 const UxBanner = () => {
   const uxScreenData = useSelector((state) => state.ux.screenData);

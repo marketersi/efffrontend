@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { ModalForm } from "../tresci-sprzedazowe/ModalForm";
+import ProjectuxModal from "../modals/ProjectuxModal";
 
 const IgnoreSitesData = {
   image:
@@ -14,11 +14,10 @@ const IgnoreSitesData = {
 const IgnoreSites = () => {
   const { screenData } = useSelector((state) => state.ux);
   const IgnoreSites = screenData.IgnoreSites || {};
-  const [isModal, setIsModal] = useState(false);
+  const [isModalOpen, setModalOpen] = useState(false);
 
-  const handleModalClose = () => {
-    setIsModal(!isModal);
-  };
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
 
   return (
     <>
@@ -29,21 +28,26 @@ const IgnoreSites = () => {
             <h2>{IgnoreSites.title}</h2>
             <p>{IgnoreSites.descript1}</p>
             <p>{IgnoreSites.descript2}</p>
-            <a
+             <a
               className="btn-neon send-offer-button js--triggerAnimation"
-              onClick={() => setIsModal(true)}
+              onClick={openModal}
             >
               Brzmi świetnie. Wyślijcie mi ofertę.
               <div
                 className="light"
                 style={{ transform: "rotate(120deg) scale(0.7, 0.7)" }}
               ></div>
-            </a>
+            </a> 
+
+{/* <button className="buttonux" onClick={openModal}>
+                Brzmi świetnie. Wyślijcie mi ofertę.
+              </button> */}
             
           </div>
         </div>
       </section>
-      <ModalForm isOpen={isModal} onClose={handleModalClose} />
+      {/* <ModalForm isOpen={isModal} onClose={handleModalClose} /> */}
+      <ProjectuxModal isOpen={isModalOpen} onRequestClose={closeModal} />
     </>
   );
 };

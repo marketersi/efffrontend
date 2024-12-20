@@ -112,7 +112,7 @@ const UserInfoForm = ({ formFour }) => {
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
           />
         </div>
-        <div>
+        <div className="buttonBox">
           <button type="submit" className="cennikBtn form4Btn">
             <span>{formFour?.section4_buttonText}</span>
           </button>

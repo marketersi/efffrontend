@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 import "./accordion.css";
 import { useSelector } from "react-redux";
-import { ModalForm } from "../../tresci-sprzedazowe/ModalForm";
+import ProjectuxModal from "../../modals/ProjectuxModal";
+// import { ModalForm } from "../../tresci-sprzedazowe/ModalForm";
+
 
 const UXAccordion = () => {
   const { screenData } = useSelector((state) => state.ux);
@@ -16,11 +18,16 @@ const UXAccordion = () => {
   };
 
   
-  const [isModal, setIsModal] = useState(false);
+  // const [isModal, setIsModal] = useState(false);
 
-  const handleModalClose = () => {
-    setIsModal(!isModal);
-  };
+  // const handleModalClose = () => {
+  //   setIsModal(!isModal);
+  // };
+
+   const [isModalOpen, setModalOpen] = useState(false);
+  
+    const openModal = () => setModalOpen(true);
+    const closeModal = () => setModalOpen(false);
 
 
   return (
@@ -65,13 +72,14 @@ const UXAccordion = () => {
 
 
           ))}
-        <a className="send-offer-button js--triggerAnimation">
-          <span>
-            <span onClick={() => setIsModal(true)}>Brzmi świetnie. Wyślijcie mi ofertę </span>
-          </span>
+        <a className="send-offer-button js--triggerAnimation" onClick={openModal}>
+          
+            Brzmi świetnie. Wyślijcie mi ofertę 
+          
         </a>
       </div>
-            <ModalForm isOpen={isModal} onClose={handleModalClose} />
+            {/* <ModalForm isOpen={isModal} onClose={handleModalClose} /> */}
+            <ProjectuxModal isOpen={isModalOpen} onRequestClose={closeModal}/>
     </>
   );
 };

@@ -41,3 +41,56 @@
   text-decoration: none;
   color: white;
 }
+.cennikFormCard1{
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 15px, rgb(255, 255, 255) 0px 0px 0px, rgb(255, 255, 255) 2px 2px 2px inset, rgb(199, 199, 199) -2px -2px 2px inset;
+  border-radius: 30px;
+  padding: 50px 30px;
+  background-color: rgb(247, 247, 247);
+  width: 35%;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ReactModal__Overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 24px;
+  text-align: center;
+}
+.card-subheading {
+  font-size: 18px;
+  margin-top: 2px;
+  text-align: center;
+}
+.cennik-modal-content1 h2, .cennik-modal-content1 h3, .cennik-modal-content1 h1, .cennik-modal-content1 h4, .cennik-modal-content1 h5, .cennik-modal-content1 h6, .cennik-modal-content1 p{
+  text-align: center;
+}
+.cennik-modal-content1 form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cennik-modal-content1 .uds_input-container{
+  width: 100%;
+}
+.cennik-modal-content1 .uds_input-container input{
+  width: 70%;
+}
+.cennik-modal-content1 .user-details_section .cennikBtn {
+  width: 70%;
+}
+.cennik-modal-content1 .select-input{
+  width: 100%;
+}
+.cennik-modal-content1 .buttonBox{
+  width: 100%;
+}
