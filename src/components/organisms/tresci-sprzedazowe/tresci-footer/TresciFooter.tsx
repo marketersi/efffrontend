@@ -50,7 +50,7 @@ const TresciFooter = () => {
             className="tersci_footer_bottom_btn"
             onClick={() => setIsModal(true)}
           >
-            Zdobądź wycenę
+            Otrzymaj ofertę
           </button>
         </div>
 

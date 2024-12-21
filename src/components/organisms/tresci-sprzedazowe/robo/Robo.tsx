@@ -16,7 +16,7 @@ const Robo = () => {
           alt=""
         /> */}
 
-        <div className="container custom-container2">
+        <div className="container custom-container2 cutom-margibgs">
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="names-client-name copywriter-black copywriter-green-underline copywriter-cname">
@@ -67,11 +67,12 @@ const Robo = () => {
 
         <div className="container custom-container2 copywriter-standard-mt-80">
           <div className="row">
-            <div className="col-md-12 copywriter-standard-mb-m100 new-mb">
-              <div className="copywriter-custom-text-turbokids-1 pl-20">
-                {projectSection6?.quote_1}
+            <div className="col-md-12 copywriter-standard-mb-m100 new-mb p-0">
+              <div className="copywriter-custom-text-turbokids-1">
+                {/* {projectSection6?.quote_1} */}
+                <b>Zszywanki, które cieszą</b><br/>wyjątkowe kolekcje dla wyjątkowych brzdąców.
               </div>
-              <div className="copywriter-custom-subtext-turbokids-1 pl-20 mb-5">
+              <div className="copywriter-custom-subtext-turbokids-1">
                 {projectSection6?.quote_1_desc}
               </div>
             </div>
@@ -87,26 +88,10 @@ const Robo = () => {
           />
         </div> */}
 
-        <div className="container custom-container2 copywriter-after-img-1 ">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="copywriter-custom-text-turbokids-1 copywriter-text-left pr-20">
-                {projectSection6?.quote_2}
-              </div>
-              <div className="copywriter-custom-subtext-turbokids-1 copywriter-text-left pr-20">
-                {projectSection6?.quote_2_desc}
-              </div>
+        
 
-              {/* <div className="copywriter-text-center roboafter-rwd">
-                <img
-                  src={projectSection6?.quote_2_image}
-                  title="Przykład w jaki sposób Owocni realizują usługi copywriterskie"
-                  alt="Teksty reklamowe dla klienta Owocnych"
-                />
-              </div> */}
-            </div>
-          </div>
-        </div>
+
+        
         {/* 
         <img
           src="https://cdn.owocni.pl/img/single-copywriter/luk.png"

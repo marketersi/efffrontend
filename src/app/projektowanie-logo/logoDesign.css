@@ -82,7 +82,8 @@ img.projects-main-image-logop {
 .top-banner-long-text {
   display: block;
   color: #818181;
-  font-family: "Georgia", serif;
+  text-indent: -20px; /* Negative indent for the first line */
+  padding-left: 20px; /* Padding to align the rest of the lines */
   line-height: 45px;
   font-size: 40px;
   font-weight: 300;
@@ -333,7 +334,7 @@ img.projects-main-image-logop {
   width: 55%;
   background-color: white;
   float: right;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 0px 0px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
@@ -405,10 +406,7 @@ img.projects-main-image-logop {
   letter-spacing: -0.025em;
 }
 
-.custom-container2 {
-  max-width: 810px;
-  margin: auto;
-}
+
 
 .projects-theme-desc-p {
   margin-right: 0px;
@@ -489,13 +487,7 @@ img.projects-main-image-logop {
   margin-bottom: 30px;
 }
 
-.copywriter-intro-bg-5-label {
-  font-family: "Playfair Display";
-  font-size: 80px;
-  font-weight: 900;
-  margin-bottom: 25px;
-  line-height: 90px;
-}
+
 
 .projects-theme-title3 {
   padding: 0 15px;

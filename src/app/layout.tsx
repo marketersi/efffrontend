@@ -8,6 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "@/components/organisms/footer/Footer";
 import { Provider } from "react-redux";
 import store from "@/store/store";
+import { useEffect, useState } from "react";
+import Loader from "@/components/organisms/animation/Loader";
 //import { ReactLenis } from "@studio-freight/react-lenis";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,24 +24,32 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading delay
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer); // Cleanup timeout
+  }, []);
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <Provider store={store}>
-        {/* <ReactLenis 
-        root options={{ 
-          duration:0.5,
-          smoothWheel:true,
-          }}> */}
-
-         {children} 
-        {/* </ReactLenis> */}
-          
-          
+    <body className={inter.className}>
+      {loading ? (
+        <Loader/>// Display Loader while loading
+      ) : (
+        <>
+          <Header />
+          <Provider store={store}>
+            {children}
           </Provider>
-        <Footer />
-      </body>
-    </html>
+          <Footer />
+        </>
+      )}
+    </body>
+  </html>
   );
 }

@@ -181,7 +181,7 @@ img.names-custom-image {
   text-align: left;
 }
 .custom-container1 {
-  max-width: 810px;
+  max-width: 900px;
   margin: auto;
 }
 .names-container-Litery {
@@ -198,8 +198,8 @@ img.names-custom-image {
   font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 900 !important;
-  letter-spacing: -0.025em;
   margin-bottom: 50px;
+  line-height: 62px;
 }
 
 .names-client-desc-litery {
@@ -324,7 +324,7 @@ img.names-custom-image {
   padding-bottom: 95px;
 }
 .copywriter-cname {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .names-iglarki-name {
@@ -339,9 +339,9 @@ img.names-custom-image {
   font-weight: 900;
   padding-bottom: 20px;
   margin-top: 50px;
-  letter-spacing: -0.025em;
   color: #fff;
   margin-bottom: 50px;
+  line-height: 39px;
 }
 .names-client-name.iglarki-cname:after {
   background: var(--brand-blue);

@@ -27,8 +27,8 @@ const LogoFooter = ({ openModal }) => {
               className={activeButton === button.id ? 'activeLink' : ''}
               onClick={() => handleButtonClick(button.id)}
             >
-              <button>{button.label}</button>
-              {activeButton === button.id && <span>{button.content}</span>}
+              <button>Jak to wygląda?</button>
+              {activeButton === button.id && <span>Przykładowe realizacje</span>}
             </Link>
           ))}
         </div>
@@ -41,7 +41,7 @@ const LogoFooter = ({ openModal }) => {
           </a> */}
 
           <button className="nazwa_footer_bottom_Offer" onClick={openModal}>
-            Otrzymaj ofertę
+          Otrzymaj ofertę
           </button>
         </div>
       </div>

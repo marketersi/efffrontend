@@ -160,7 +160,7 @@ const Concept366 = () => {
 
         <div className="container custom-container2 copywriter-standard-mtb-40">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 p-0">
               <div className="copywriter-custom-text-akuku copywriter-standard-mtb-40">
                 {projectSection5?.bannar_title}
               </div>

@@ -32,23 +32,26 @@ const OptionBox2 = ({ optionBox2 }) => {
                 </div>
                 <div className="opinion-box-content projects-opinion-2 copywriter-prawo-text">
                   <p className="theme-desc projects-client-opinion-p text-center">
-                    {title}
+                    {/* {title} */}
+                    <span className='underlineText'>Gwarantowane rezultaty</span> albo zwrot pieniędzy
                   </p>
                   <div className="opinion-box-text copywriter-opinion-box-text">
-                    {description}
+                    {/* {description} */}
+                    Nie obiecujemy Ci tylko słów - obiecujemy <span className="underlineText">rezultaty</span>. Gwarantujemy, że nasze treści przyniosą wymierne efekty, albo zwrócimy Ci <span className="underlineText">100% inwestycji</span>. Tak, jesteśmy aż tak pewni skuteczności naszych tekstów.
                   </div>
                   <button
                     onClick={() => setIsModal(true)}
                     className="download-catalog-button projects-opinion-button copywriter-blue-background copywriter-new-btn copywriter-standard-mt-10 send-offer-button js--triggerAnimation"
                     type="button"
                   >
-                    <strong>{btn_title}</strong>
+                    {/* <strong>{btn_title}</strong> */}
+                    Brzmi świetnie. Wyślijcie mi ofertę.
                   </button>
                 </div>
                 <div className="clearfix"></div>
               </div>
             </div>
-            <div className="col-md-12 projects-empty-opinion-box"></div>
+           
           </div>
         </div>
       </section>

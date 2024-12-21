@@ -12,7 +12,8 @@ const BusinessTools = () => {
           <div className="row">
             <div className="col-md-12 text-center copywriter-cmargin-2">
               <h1 className="copywriter-big-header-2">
-                {buisnessToolsSection?.title}
+                {/* {buisnessToolsSection?.title} */}
+                Skupiamy Się Na Wynikach, <br/> Nie Na Ilości Znaków
               </h1>
             </div>
           </div>
@@ -21,7 +22,8 @@ const BusinessTools = () => {
           <div className="copywriter-image-box">
             <div className="copywriter-image-box-1">
               <div className="copywriter-image-label">
-                <strong>{buisnessToolsSection?.img_1_text}</strong>
+                {/* <strong>{buisnessToolsSection?.img_1_text}</strong> */}
+                <strong>Treści <br/>sprzedażowe</strong>
               </div>
               <img
                 src={buisnessToolsSection?.image_1}
@@ -35,7 +37,8 @@ const BusinessTools = () => {
           <div className="copywriter-image-box">
             <div className="copywriter-image-box-2">
               <div className="copywriter-image-label">
-                <strong>{buisnessToolsSection?.img_2_text}</strong>
+                {/* <strong>{buisnessToolsSection?.img_2_text}</strong> */}
+                <strong>Treści <br/> na stronę</strong>
               </div>
               <img
                 src={buisnessToolsSection?.image_2}
@@ -63,7 +66,8 @@ const BusinessTools = () => {
           <div className="copywriter-image-box">
             <div className="copywriter-image-box-4">
               <div className="copywriter-image-label">
-                <strong>{buisnessToolsSection?.img_4_text}</strong>
+                {/* <strong>{buisnessToolsSection?.img_4_text}</strong> */}
+                <strong>Unikalne <br/> artykuły</strong>
               </div>
               <img
                 src={buisnessToolsSection?.image_4}

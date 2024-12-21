@@ -13,7 +13,7 @@ import Motus from "@/components/organisms/tresci-sprzedazowe/motus/Motus";
 import OptionBox2 from "@/components/organisms/tresci-sprzedazowe/options-box2/OptionBox2";
 import Orange from "@/components/organisms/tresci-sprzedazowe/orange/Orange";
 import PriceList from "@/components/organisms/tresci-sprzedazowe/price-list/PriceList";
-import Profit from "@/components/organisms/tresci-sprzedazowe/profit-slider/Profit";
+// import Profit from "@/components/organisms/tresci-sprzedazowe/profit-slider/Profit";
 import Robo from "@/components/organisms/tresci-sprzedazowe/robo/Robo";
 import SalesBanner from "@/components/organisms/tresci-sprzedazowe/sales_banner/SalesBanner";
 import Section5 from "@/components/organisms/tresci-sprzedazowe/section5/Section5";
@@ -43,11 +43,13 @@ const Sales = () => {
           <div className="row">
             <div className="col-md-12 text-center copywriter-custom-margin-1">
               <h1 className="copywriter-big-header">
-                {heroSection?.title}
+                {/* {heroSection?.title} */}
+                W Marketersi wiemy, że dobrze dobrane słowa nie tylko przyciągają uwagę, ale też potrafią skutecznie zmieniać zainteresowanie w konkretne, mierzalne <span className="underlineText">wyniki</span>.
               </h1>
 
               <span className="copywriter-big-subheader copywriter-cmargin-1">
-                {heroSection?.description}
+                {/* {heroSection?.description} */}
+                Nasze treści sprzedażowe nie tylko informują, ale przede wszystkim inspirują Twoich odbiorców do działania – od zapytania ofertowego, przez zakup, po długoterminowe <span className="underlineText">zaangażowanie</span>.
               </span>
             </div>
           </div>
@@ -78,7 +80,8 @@ const Sales = () => {
       <Mako />
       <OptionBox2 optionBox2={customerReview4} />
       <InkBook />
-      <Profit />
+      <OptionBox2 optionBox2={customerReview} />
+      {/* <Profit /> */}
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
           Zróbmy razem <br />

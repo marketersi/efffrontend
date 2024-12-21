@@ -67,35 +67,34 @@ const Form = () => {
     <>
       <div className="sendQuote">
         <h2>
-          Napisz kilka słów o swoim projekcie i otrzymaj niezobowiązującą
-          ofertę.
+        Wypełnij i otrzymaj ofertę dopasowaną do Ciebie. Całkowicie bez zobowiązań.
         </h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="inputLayout">
             <input
               required
-              placeholder="Imię"
+              placeholder="Twoje imię"
               {...register('name', { required: true })}
             />
             <input
               required
-              placeholder="Mail"
+              placeholder="Email"
               type="email"
               {...register('email', { required: true })}
             />
             <input
-              placeholder="Tel."
+              placeholder="Telefon"
               pattern="\d{7,15}"
               {...register('phone')}
             />
           </div>
           <textarea
             {...register('message')}
-            placeholder="Napisz kilka słów o swoim projekcie"
+            placeholder="Opowiedz nam o swoim projekcie. Czego potrzebujesz? Zajmiemy się resztą!"
           />
 
           <div className="quoteBtn">
-            <button type="submit">Wyślijcie mi niezobowiązującą ofertę</button>
+            <button type="submit">Prześlijcie mi niezobowiązującą ofertę</button>
             <img
               src="https://images.prismic.io/marketersi/ZfL0JUmNsf2sHk-N_Group1.png?auto=format,compress"
               alt=""

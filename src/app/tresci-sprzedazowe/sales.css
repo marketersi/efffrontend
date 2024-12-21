@@ -27,9 +27,6 @@ section.sales_banner {
   margin-left: -75px;
 }
 
-.names-top-banner-container {
-  width: 680px;
-}
 
 .copywriter-page section.page-top .projects-top-banner-text {
   margin-top: 86px;
@@ -41,13 +38,11 @@ section.sales_banner {
 
 .top-banner-title {
   display: block;
-  font-weight: 900;
   margin: 20px 0px;
-  line-height: normal;
   font-size: 85px;
-  font-family: "Playfair Display", serif;
-  color: #373737;
-  letter-spacing: -0.025em;
+  font-weight: 500;
+  line-height: 85px;
+
 }
 
 .copywriter-big {
@@ -64,30 +59,19 @@ section.sales_banner {
 }
 
 .copywriter-page .copywriter-top-banner-long-text {
-  font-family: "Georgia", serif;
+  
 }
 
 .top-banner-long-text {
   display: block;
-  color: #818181;
-  font-family: "Georgia", serif;
-  line-height: 45px;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: -0.025em;
-  color: #373737;
+  line-height: 44px;
+  font-size: 29px;
+  font-weight: 300;
+  text-indent: -20px; /* Negative indent for the first line */
+  padding-left: 50px; /* Padding to align the rest of the lines */
 }
 
-.top-banner-long-text {
-  display: block;
-  color: #818181;
-  font-family: "Georgia", serif;
-  line-height: 45px;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: -0.025em;
-  color: #373737;
-}
+
 
 .copywriter-page .part-sec {
   margin-top: 20px;
@@ -99,9 +83,11 @@ section.sales_banner {
   border-color: var(--brand-blue);
   box-shadow: 0 4px 0 0 var(--brand-blue-hover);
   color: #fff;
-  padding: 10px 20px;
-  font-size: 22px;
-  font-weight: 500;
+  padding: 8px 20px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-left: 70px;
 }
 
 .copywriter-page .old-btn a.btn {
@@ -129,31 +115,29 @@ section.sales_banner {
 
 /* ==============================sales banner-bottom-text========================== */
 .copywriter-page .copyuwriter-custom-push-1 {
-  margin-top: 24px;
-  max-width: 900px;
+  margin: auto;
+  max-width: 1100px;
 }
 
 .copywriter-custom-margin-1 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  
 }
 
 .copywriter-big-header {
-  font-family: "Playfair Display", serif;
-  font-size: 77px;
-  font-weight: 900;
-  line-height: 77px;
-  letter-spacing: -0.01em;
-  margin-bottom: 25px;
+ 
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 47px;
+  margin-bottom: 70px;
+margin-top: 20px;
 }
 
 .copywriter-page .copywriter-big-subheader {
-  font-family: "Playfair Display", serif;
-  font-size: 32px;
-  line-height: 33px;
-  margin-top: 25px;
-  letter-spacing: -0.01em;
-  color: #3e3e3e;
+  
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
+  
 }
 
 /* ==============================sales option box========================== */
@@ -166,8 +150,6 @@ section.sales_option_box {
 }
 
 .opinion-box {
-  font-family: "Open Sans";
-  padding: 15px 0px;
   position: relative;
 }
 
@@ -201,7 +183,7 @@ section.sales_option_box {
   width: 55%;
   background-color: white;
   float: right;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 0px 0px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
@@ -212,36 +194,36 @@ section.sales_option_box {
 }
 
 .opinion-box-text {
-  font-size: 32px;
+  font-size: 35px;
   font-family: "Georgia";
-  color: rgb(81, 81, 81);
-  line-height: 1.25;
+  color: #333;
+  line-height: 44px;
   text-align: center;
   margin-bottom: 40px;
-  letter-spacing: -0.025em;
+  font-weight: 400;
+  
 }
 
 /* ==============================sales business tools========================== */
 section.business_tools {
-  max-width: 1000px;
+  max-width: 1100px;
   margin-inline: auto;
 }
 
-.copywriter-cmargin-2 {
-  margin-top: 30px;
-}
+
 
 .copywriter-big-header-2 {
-  font-family: "Playfair Display", serif;
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: -0.01em;
-  margin-bottom: 30px;
+  
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+ margin-top: 0px;
+  margin-bottom: 100px;
 }
 
-.copywriter-custom-container-1 {
-  margin-bottom: 40px;
+.copywriter-custom-container-1{
+  display: flex;
+  gap: 40px;
 }
 
 .copywriter-image-box {
@@ -252,8 +234,8 @@ section.business_tools {
 
 .copywriter-image-label {
   font-size: 22px;
-  line-height: 30px;
-  font-family: "Arial";
+  line-height: 20px;
+  
 }
 
 .copywriter-image-box-2,
@@ -266,21 +248,16 @@ section.business_tools {
 }
 
 .copywriter-cmargin-3 {
-  margin: 35px 0px;
+  margin: 35px 0px 0;
 }
 
-.copywriter-custom-text-1,
-.copywriter-custom-text-2 {
-  /* font-size: 44px;
-  font-family: 'Playfair Display';
-  margin-bottom: 30px; */
-
-  font-family: "Playfair Display", serif;
-  font-size: 32px;
-  line-height: 33px;
-  margin-bottom: 25px;
-  letter-spacing: -0.01em;
-  color: #3e3e3e;
+.copywriter-custom-text-1{
+  
+  font-size: 28px;
+  line-height: 50px;
+  margin-bottom: 70px;
+  color: #333;
+  font-weight: 300;
 }
 
 .copywriter-custom-text-2 {
@@ -295,23 +272,19 @@ section.business_tools {
 }
 
 /* ==============================sales section5========================== */
-.copywriter-standard-mtb-40 {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
+
 
 .copywriter-custom-gray-header-1 {
-  color: #cacaca;
-  font-size: 90px;
-  line-height: 1.3;
-  font-family: "Playfair Display", Serif;
-  font-weight: 900;
+  
+  font-size: 85px;
+  line-height: 77px;
+  
+  font-weight: 700;
   /* margin: 60px 0; */
+  margin-bottom: 70px;
 }
 
-.copywriter-standard-mb-40 {
-  margin-bottom: 60px;
-}
+
 
 .copywriter-text-center img,
 .copywriter-text-left,
@@ -320,13 +293,13 @@ section.business_tools {
 }
 
 .copywriter-custom-text-2 {
-  font-size: 37px;
-  font-family: "Playfair Display";
+  font-size: 35px;
+  line-height: 47px;
+  font-weight: 300;
+  margin-bottom: 70px;
 }
 
-.copywriter-intro-whatwedo-container {
-  margin-top: 30px;
-}
+
 
 .copywriter-text-right {
   max-width: 100%;
@@ -335,74 +308,93 @@ section.business_tools {
 .copywriter-text-right {
   text-align: right;
 }
-
+.copywriter-intro-whatwedo-container .row{
+  margin-bottom: 70px;
+}
+.copywriter-intro-whatwedo-container .row>div:nth-child(1){
+  padding-right:40px!important;
+}
+.copywriter-intro-whatwedo-container .row>div:nth-child(2){
+  padding-left:40px!important;
+}
 .copywriter-intro-box {
   min-height: 269px;
+  align-content: center;
 }
 
 .copywriter-intro-header-right {
-  font-size: 25px;
-  font-family: Arial;
-  margin-bottom: 10px;
-  margin-top: 50px;
+  font-size: 29px;
+  line-height: 29px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 .copywriter-intro-header-right strong {
   display: block;
+  font-size: 58px;
+  line-height: 86px;
+  margin-bottom: 20px;
 }
 
 .copywriter-intro-description-right {
-  font-size: 18px;
-  font-family: Arial;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 400;
 }
 
 .copywriter-intro-header-left {
-  font-size: 25px;
-  font-family: Arial;
-  margin-bottom: 10px;
+  font-size: 29px;
+  line-height: 29px;
+  font-weight: 500;
+  margin-bottom: 20px;
   text-align: right;
-  margin-top: 50px;
 }
 
 strong {
   font-weight: 700;
 }
+.copywriter-intro-header-left strong {
+  display: block;
+  font-size: 58px;
+  line-height: 86px;
+  margin-bottom: 20px;
+}
 
 .copywriter-intro-description-left {
-  font-size: 18px;
-  font-family: Arial;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 400;
   text-align: right;
 }
 
 .copywriter-container-custom {
-  margin-top: 150px;
-  margin-bottom: 75px;
-  max-width: 900px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  max-width: 1100px;
 }
 
 .copywriting-white-text-cont {
-  max-width: 404px;
+  align-content: center;
   text-align: center;
   display: inline-block;
 }
 
 .copywriting-bg-white-header {
   font-size: 37px;
-  letter-spacing: -0.01em;
+  
   line-height: 37px;
-  font-family: "Playfair Display";
+  
   margin-bottom: 30px;
 }
 
 .copywriting-bg-white-subheader {
-  font-family: "Georgia";
   font-size: 26px;
-  letter-spacing: -0em;
+  font-weight: 400;
   line-height: 36px;
   margin-bottom: 30px;
 }
 
 .copywriting-bg-white-subheader-link {
-  color: #438d07;
+  color: #00bbff;
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
@@ -410,49 +402,42 @@ strong {
   text-decoration: none;
 }
 
-.copywriting-bg-white-subheader-link:hover {
-  color: #316605;
-}
+
 
 .copywriter-ksiazka-img {
-  margin-top: -200px;
-  max-width: 50%;
+  width: 100%;
 }
 
 .copywriter-intro-bg-5-label {
-  font-family: "Playfair Display";
-  font-size: 90px;
-  line-height: 70px;
-  font-weight: 900;
+  
+  font-size: 84px;
+  line-height: 84px;
+  font-weight: 500;
   margin-bottom: 25px;
-  max-width: 900px;
+  max-width: 1000px;
   margin-inline: auto;
 }
 
 .copywriter-custom-container-2 {
-  max-width: 900px;
+  max-width: 1100px;
   background-color: white;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   margin-top: 70px;
   padding: 20px 50px;
 }
 
-.copywriter-custom-header {
-  font-family: "Playfair Display";
-  font-size: 60px;
-  letter-spacing: -0.01em;
-  font-weight: 900;
-}
+
 .teeTitle {
   font-size: 60px;
 }
 .teeDescription {
   font-size: 24px;
 }
-.teePara {
-  font-size: 20px;
-  max-width: 600px;
-  margin-inline: auto;
+.copywriter-custom-headerOne{
+  font-size: 85px;
+    line-height: 77px;
+    font-weight: 700;
+    margin-bottom: 70px;
 }
 
 .copywriter-custom-push-2 {
@@ -461,57 +446,66 @@ strong {
 
 .theme-desc {
   margin-bottom: 40px;
-  color: #515151;
-  font-family: "Georgia";
+  color: #333;
   font-size: 26px;
   line-height: 33px;
-  letter-spacing: -0.025em;
+  font-weight: 400;
 }
-
-.copywriter-small-text {
-  font-family: "Arial";
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.theme-desc {
+.theme-desc1 {
   margin-bottom: 40px;
-  color: #515151;
-  font-family: "Georgia";
-  font-size: 26px;
-  line-height: 33px;
-  letter-spacing: -0.025em;
+  color: #333;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
 }
+.theme-desc2 {
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+
+
 
 .copywriter-custom-header {
-  font-family: "Playfair Display";
-  font-size: 90px;
-  letter-spacing: -0.01em;
+  
+  font-size: 72px;
+  line-height: 94px;
   font-weight: 900;
 }
 
 .copywriter-custom-subheader {
-  font-family: "Playfair Display";
-  font-size: 41px;
-  letter-spacing: -0.01em;
+  
+  font-size: 35px;
+  line-height: 47px;
   margin-bottom: 10px;
+  font-weight:300;
+
 }
 
 .copywriter-whatwedo-container {
-  max-width: 900px;
+  max-width: 1100px;
   margin-bottom: 80px;
 }
 
 .copywriter-what-we-do {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
+}
+.copywriter-what-we-do:nth-child(1){
+  padding-right: 15px;
+}
+.copywriter-what-we-do:nth-child(2){
+  padding-left: 15px;
 }
 
 .copywriter-intro-sm-text {
-  font-family: Arial;
-  font-size: 20px;
-  letter-spacing: -0.01em;
-  line-height: 29px;
+  
+  font-size: 18px;
+ font-weight: 400;
+  line-height: 27px;
 }
 
 /* .copywriter-intro-sm-mright {
@@ -519,18 +513,11 @@ strong {
   margin-left: -50px;
 } */
 .custom-container1 {
-  max-width: 810px;
+  max-width: 1100px;
   margin: auto;
 }
 
-.theme-desc {
-  margin-bottom: 40px;
-  color: #515151;
-  font-family: "Georgia";
-  font-size: 26px;
-  line-height: 33px;
-  letter-spacing: -0.025em;
-}
+
 
 img.copywriter-owocni {
   position: relative;
@@ -550,26 +537,25 @@ img.copywriter-owocni {
   top: -130px;
 }
 
-.copywriter-cmargin-4 {
-  margin-top: 150px;
-}
+
 
 .copywriter-custom-header-2 {
-  font-family: "Playfair Display";
-  font-size: 91px;
-  letter-spacing: -0.01em;
-  font-weight: 900;
+  
+  font-size: 85px;
+  font-weight: 700;
   margin-bottom: 30px;
-  line-height: 89px;
-  max-width: 900px;
-  margin-inline: auto;
+  line-height: 77px;
+  max-width: 1100px;
+  
+  margin: 70px auto 60px;
 }
 
 .copywriter-custom-subheader-2 {
-  font-family: "Playfair Display";
-  font-size: 40px;
-  letter-spacing: -0.01em;
-  max-width: 900px;
+  
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
+  max-width: 1100px;
   margin-inline: auto;
 }
 
@@ -595,12 +581,17 @@ img.copywriter-owocni {
 }
 
 .custom-container2 {
-  max-width: 900px;
+  max-width: 1100px;
   margin-inline: auto;
 }
-
+.cutom-margibgs{
+  margin-top: 0px;
+}
+.thematic-section{
+  margin-top: 30px;
+}
 .copywriter-cname {
-  margin-top: 40px;
+  margin-top: 0px;
   padding-bottom: 55px;
 }
 
@@ -618,7 +609,7 @@ img.copywriter-owocni {
   font-weight: 900;
   padding-bottom: 100px;
   margin-top: 50px;
-  letter-spacing: -0.025em;
+  line-height: 39px;
   color: #fff;
   position: relative;
 }
@@ -640,7 +631,6 @@ img.copywriter-owocni {
   font-family: "Playfair Display";
   font-size: 50px;
   font-weight: 900 !important;
-  letter-spacing: -0.025em;
   margin-bottom: 50px;
   line-height: 60px;
 }
@@ -649,9 +639,7 @@ img.copywriter-owocni {
   color: #4e3c01;
 }
 
-.copywriter-custom-mright {
-  margin-right: -15px;
-}
+
 
 .copywriter-cname:after {
   top: 91px;
@@ -686,7 +674,7 @@ img.copywriter-owocni {
 } */
 
 .copywriter-cname {
-  margin-top: 40px;
+  margin-top: 0px;
   padding-bottom: 55px;
 }
 
@@ -759,10 +747,7 @@ img.copywriter-owocni {
   display: none;
 }
 
-.copywriter-cname {
-  margin-top: 40px;
-  padding-bottom: 55px;
-}
+
 
 .copywriter-black {
   color: black;
@@ -796,22 +781,22 @@ img.copywriter-owocni {
 }
 
 .download-catalog-button {
-  width: 415px;
+  
   background: var(--brand-blue);
   border: transparent;
-  padding: 16px 3px;
+  padding: 10px 15px;
   color: black;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 30px;
   bottom: 4px;
   left: 0;
   z-index: 10;
   display: inline;
-  letter-spacing: -0.025em;
+  line-height: 40px;
 }
 
 section#sec1 {
-  max-width: 900px;
+  
   margin-inline: auto;
 }
 
@@ -946,7 +931,7 @@ section#sec1 {
   }
 
   .faqContainer {
-    max-width: 1100px;
+    max-width: 1000px;
   }
 
   .copywriter-custom-container-2 {
@@ -1488,7 +1473,7 @@ section#sec1 {
     height: 400px;
   }
   .copywriter-standard-mt-80 {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .copywriter-custom-header-4 {
     font-size: 35px;

@@ -54,9 +54,11 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
               )}
             </div>
             {index === activeIndex && (
-              <div className="accordion-content">{item.faq_ans}</div>
+              <div className="accordion-content" dangerouslySetInnerHTML={{ __html: item.faq_ans }}></div>
+              
             )}
           </div>
+          
         ))}
       </div>
     </div>

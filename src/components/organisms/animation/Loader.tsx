@@ -1,17 +1,18 @@
 import React from "react";
-import { DNA } from "react-loader-spinner";
+import { Blocks, DNA } from "react-loader-spinner";
 
 const Loader = () => {
   return (
     <div className="loader_container">
-      <DNA
-        visible={true}
-        height="120"
-        width="120"
-        ariaLabel="dna-loading"
-        wrapperStyle={{}}
-        wrapperClass="dna-wrapper"
-      />
+        <Blocks
+  height="80"
+  width="80"
+  color="#4fa94d"
+  ariaLabel="blocks-loading"
+  wrapperStyle={{}}
+  wrapperClass="blocks-wrapper"
+  visible={true}
+  />
     </div>
   );
 };

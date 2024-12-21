@@ -16,29 +16,29 @@ const Mako = () => {
           alt=""
         /> */}
 
-        <div className="copywriter-text-center copywriter-standard-mt-80">
+        {/* <div className="copywriter-text-center copywriter-standard-mt-80">
           <img
             src={projectSection7?.logo_image}
             title="Copywriting cennik i przykłady stworzonych haseł"
             alt="Marketing Owocnych zrealizowane przykłady"
           />
-        </div>
+        </div> */}
 
         <div className="container custom-container2">
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="names-client-name copywriter-black copywriter-green-underline copywriter-cname">
-                {projectSection7?.underlined_label}
+              Piaseczno
               </div>
 
               <div className="names-client-desc copywriter-client-desc-margin">
-                {projectSection7?.title_1}
+              Luksus w słowach: Jak „Rytuał Urody” podbił serca klientek?
               </div>
             </div>
 
             <div className="col-md-12">
               <p className="theme-desc copywriter-custom-mright">
-                {projectSection7?.description}
+              Pani Kamila pragnęła, by jej salon wyróżniał się na tle konkurencji jako miejsce, gdzie elegancja spotyka się z perfekcją. Powierzyła nam misję stworzenia tekstów, które nie tylko opiszą usługi, ale staną się ich przedłużeniem – pełnym luksusu i niezapomnianych emocji. Efekt? Wyjątkowe treści, które podkreśliły prestiż marki, przyciągnęły nowe klientki i na nowo zdefiniowały pojęcie holistycznego piękna. Rytuał Urody stał się nie tylko salonem, ale symbolem doświadczenia, które pozostaje w pamięci na długo.
               </p>
             </div>
           </div>
@@ -53,21 +53,21 @@ const Mako = () => {
           />
         </div>
 
-        <div className="copywriter-border-870">
+        {/* <div className="copywriter-border-870">
           <span className="copywriter-custom-text-3 text-center">
             {projectSection7?.text_btwn_borders}
           </span>
-        </div>
+        </div> */}
 
         <div className="container custom-container2 copywriter-after-img-2">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 p-0">
               <div className="copywriter-custom-text-4">
-                {projectSection7?.quote}
+              Rytuał Urody — luksus, który czuje się w każdej chwili.
               </div>
-              <div className="copywriter-custom-subtext-4">
+              {/* <div className="copywriter-custom-subtext-4">
                 {projectSection7?.info}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -81,7 +81,8 @@ const Mako = () => {
         </div> */}
 
         <div className="copywriter-custom-header-3 text-center copywriter-rwd-mtb-40">
-          {projectSection7?.bannar_img_title_2}
+          {/* {projectSection7?.bannar_img_title_2} */}
+          Daj sobie chwilę, która podkreśli to, co w Tobie najpiękniejsze.
         </div>
 
         {/* <div className="copywriter-text-center copywriter-standard-mtb-40">
