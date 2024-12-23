@@ -57,7 +57,7 @@ const SliderForm = ({ setCurrentComponent }) => {
               {currentSection === index && <div className="inner-circle" />}
             </div>
             <div className="radio-boxdiv radio-label">
-              <p style={{ margin: "5px 0 0 0", fontSize: "16px", color: "#555" }}>
+              <p style={{ margin: "5px 0 0 0", fontSize: "16px" }}>
                 <strong>{range.label}</strong>
                 {range.description}
               </p>

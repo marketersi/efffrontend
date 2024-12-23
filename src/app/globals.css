@@ -622,8 +622,14 @@ video {
   filter: contrast(0.979);
 }
  .additional-class{
-  height: 353px;
-  object-fit: cover;
+  height: 250px;
+  object-fit:contain;
+}
+.custom-height{
+  min-height: 65px;
+}
+.text-default-color{
+  color: #00bbff;
 }
 .win video {
   -webkit-filter: contrast(0.999);

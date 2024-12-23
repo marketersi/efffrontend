@@ -363,17 +363,25 @@ input[type='range']:focus::-webkit-slider-thumb {
 }
 .radio-boxdiv h3{
   text-align: left;
-  font-size: 18px;
-  color: #2d2d2d;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  font-weight: 400;
   margin: 15px 0 2px;
 }
 .radio-boxdiv p{
   text-align: left;
-  color: #2d2d2d;
-  font-size: 18px;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  font-weight: 400;;
 }
 .radio-boxdiv h3 strong{
   margin-right: 5px;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  font-weight: 400;
 }
 .radio-container input[type="radio"] {
   margin-right: 10px;
@@ -462,16 +470,16 @@ input[type='range']:focus::-webkit-slider-thumb {
 .radio-label {
   display: inline-block;
   margin-left: 10px;
-}
-.radio-label p{
   text-align: left;
-  font-size: 18px;
 }
+
 .radio-label h5{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 3px;
-  text-align: center;
+  text-align: left;
+  display: inline;
+  margin-right: 5px;
 }
 
 .contact h5 {

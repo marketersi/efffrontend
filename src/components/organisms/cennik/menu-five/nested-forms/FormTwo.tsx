@@ -39,7 +39,8 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-        <h2 className="">{formThree?.section3_title1_second}</h2>
+        {/* <h2 className="">{formThree?.section3_title1_second}</h2> */}
+        <h2 className=""><span className="text-default-color">Napisz w kilku słowach</span> czym zajmuje się Twój biznes i co jest dla Ciebie ważne?</h2>
         <p>{formThree?.section3_subtitle1}</p>
         <textarea
           rows="5"

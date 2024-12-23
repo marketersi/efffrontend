@@ -56,7 +56,7 @@
   display: block;
 }
 .midColumn{
-  margin-top: 100px;
+  
 }
 .mark img {
   width: 100%;
@@ -68,7 +68,7 @@
   margin-inline: auto;
   
   display: block;
-  height: 353px!important;
+  height: 250px!important;
 }
 
 .win-player video {

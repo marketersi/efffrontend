@@ -42,10 +42,8 @@
   margin: 0 0 30px;
 }
 .thanksContainer h5 span {
-  font-size: 20px;
-  text-align: center;
-  font-weight: 600;
   display: block;
+  margin-bottom: 10px;
 }
 .thanksContainer p {
   font-size: 16px;

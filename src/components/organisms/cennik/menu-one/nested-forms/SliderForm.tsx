@@ -139,7 +139,7 @@ const SliderForm = ({ setCurrentComponent, formTwo }: any) => {
         {currentSection === index && <div className="inner-circle" />}
       </div>
               <div className="radio-boxdiv radio-label">
-              <h3> <strong>{range.label}</strong>
+              <h3 className="custom-height"> <strong>{range.label}</strong>
                 
                   {range.description}
                 </h3>
