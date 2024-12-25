@@ -44,12 +44,14 @@ const LogoAccordion: React.FC<AccordionProps> = ({ items, title, image }) => {
               </div>
               {index === activeIndex && (
                 <div className="accordion-content">
-                  {item?.content.split('\\n\\n').map((para, idx) => (
-                    <div key={idx} style={{ margin: '10px 0' }}>
-                      {para}
-                    </div>
-                  ))}
-                </div>
+                {item?.content.split('\\n\\n').map((para, idx) => (
+                  <div
+                    key={idx}
+                    style={{ margin: '10px 0' }}
+                    dangerouslySetInnerHTML={{ __html: para }}
+                  />
+                ))}
+              </div>
               )}
             </div>
           ))}

@@ -19,36 +19,17 @@ h6 {
 }
 
 .LogoBannerContainer {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.projects-top-banner-container {
-  max-width: 600px;
-}
-
-.projects-top-banner-text {
-  padding: 0px 0;
-}
-
-.top-banner-text {
-  float: left;
-  padding: 0px 0px 40px 0;
-  line-height: 1.3;
-}
-
-.projects-top-title-mright {
-  margin-right: -83px;
+  align-items: center;
 }
 
 .top-banner-title {
   display: block;
-  font-weight: 900;
+  font-weight: 500;
   margin: 20px 0px;
-  line-height: 67px;
-  font-size: 75px;
-  font-family: "Playfair Display", serif;
-  color: #373737;
+  line-height: 85px;
+  font-size: 85px;
+
+  color: #333;
   letter-spacing: -0.025em;
 }
 
@@ -56,12 +37,6 @@ h6 {
   position: relative;
   z-index: 2;
   text-shadow: none;
-}
-
-img.projects-main-image-logop {
-  max-width: 50%;
-  margin: 80px 0 0 auto;
-  display: block;
 }
 
 /* .orange-big-underline:after {
@@ -81,22 +56,23 @@ img.projects-main-image-logop {
 
 .top-banner-long-text {
   display: block;
-  color: #818181;
   text-indent: -20px; /* Negative indent for the first line */
-  padding-left: 20px; /* Padding to align the rest of the lines */
-  line-height: 45px;
-  font-size: 40px;
+  padding-left: 80px; /* Padding to align the rest of the lines */
+  line-height: 44px;
+  font-size: 29px;
   font-weight: 300;
-  letter-spacing: -0.025em;
-  color: #373737;
+  padding-right: 50px;
 }
 
-.projects-under-top-banner-text p {
-  font-size: 22px;
-  color: #767676;
-  letter-spacing: -0.025em;
-  clear: both;
+.top-banner-text p {
+  line-height: 44px;
+  font-size: 29px;
+  font-weight: 300;
   padding-right: 50px;
+  clear: both;
+  padding-left: 100px;
+
+  margin-top: 20px;
 }
 
 .projects-under-top-banner-text {
@@ -106,45 +82,31 @@ img.projects-main-image-logop {
 
 .projects-catalog-submit-buttom {
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .catalog-submit-button {
-  position: relative;
-  width: 100%;
-  height: 66px;
-  margin-top: -30px;
 }
 
 .download-catalog-button-2 {
-  width: 100%;
   /* background: #f2c22f; */
   background: var(--brand-blue);
   border: transparent;
-  padding: 16px 3px;
+  padding: 8px 20px;
   /* color: black; */
   color: #fff;
-  font-weight: 500;
-  font-size: 22px;
-  bottom: 4px;
-  left: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
   z-index: 10;
   display: inline;
-  letter-spacing: -0.025em;
 }
-
-.projects-top-section-banner,
-.projects-top-section.mobile {
-  background: none !important;
-  background-position: -1px 0px;
+.top-banner-text .download-catalog-button-2 {
+  margin-left: 120px;
 }
-
-.top-section-banner {
-  background: none;
-  top: 170px;
-  right: 120px;
-  position: absolute;
-  z-index: -1;
+.projects-fix-top-pos img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .logo-home img,
@@ -186,63 +148,63 @@ img.projects-main-image-logop {
 /* ---------------------Dobry section--------------- */
 
 .projects-big-header {
-  font-size: 84px;
-  padding: 40px 5px;
-  line-height: 80px;
 }
 
 .theme-title1 {
-  padding: 0 15px;
-  padding-bottom: 35px;
-  font-size: 60px;
-  line-height: 1.2;
-  font-family: "Playfair Display", serif;
-  color: #373737;
-  font-weight: 900;
+  padding-bottom: 70px;
+  font-size: 85px;
+  line-height: 77px;
+  color: #333;
+  font-weight: 700;
   text-align: center;
   position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
 .projects-under-big-header {
-  max-width: 690px;
+  max-width: 1100px;
   margin: 0 auto;
+}
+p.projects-under-big-header{
+font-size: 28px;
+line-height: 50px;
+font-weight: 300;
+}
+.projects-mq-book-fix{
+  font-size: 28px;
+line-height: 50px;
+font-weight: 300;
+}
+.blue-eyes{
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 .theme-desc {
-  margin-bottom: 40px;
-  color: #515151;
-  font-family: "Georgia";
-  font-size: 26px;
-  line-height: 33px;
-  letter-spacing: -0.025em;
+  
+  
 }
 
 .projects-under-big-header strong {
-  color: #373737;
+  color: #333;
+}
+.ajsdkljaskdjlas {
+  margin-top: 70px;
 }
 
 .img-background-logop {
   display: block;
-  margin: 50px auto 0;
-  max-width: 900px;
+
+  max-width: 1100px;
 }
 
 .custom-container1 {
-  max-width: 810px;
+  max-width: 1100px;
   margin: auto;
 }
 
-.projects-push-content-top {
-  margin-top: 90px;
-}
-
 .projects-lprasa-container {
-  text-align: right;
+  text-align: center;
 }
 
 .projects-custom-margin {
@@ -250,26 +212,24 @@ img.projects-main-image-logop {
 }
 
 .projects-custom-lineheight {
-  line-height: 33px;
-}
-
-.pGuid {
-  max-width: 450px;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
 }
 
 .orange-link {
-  color: #e0ab06;
-  border-bottom: 2px #e0ab06 solid;
+  color: #009ad2;
+  border-bottom: 2px #009ad2 solid;
   cursor: pointer;
+  margin-top: 30px;
+}
+.projects-custom-lineheight a {
+  display: block;
+  margin-top: 30px;
 }
 
 .logo_image {
   width: 100%;
-}
-
-.orange_clickable {
-  color: #e0ab06;
-  cursor: pointer;
 }
 
 .projects-gray-opinion-1 {
@@ -359,13 +319,12 @@ img.projects-main-image-logop {
 }
 
 .opinion-box-text {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Georgia";
-  color: rgb(81, 81, 81);
-  line-height: 1.25;
+  
+  line-height: 44px;
   text-align: center;
-  margin-bottom: 40px;
-  letter-spacing: -0.025em;
+  font-weight: 400;
 }
 
 .opinion-box-content-left {
@@ -373,49 +332,49 @@ img.projects-main-image-logop {
 }
 
 .projects-co-otrzymasz {
-  padding: 0 45px;
-  padding-bottom: 50px;
-  font-size: 80px;
-  font-family: "Playfair Display", serif;
-  color: #373737;
-  font-weight: 900;
+  font-size: 85px;
+  font-weight: 700;
   text-align: center;
   position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  line-height: 77px;
+  margin-bottom: 70px;
 }
 
 .projects-margin-b-60 {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+}
+.mid-space-container {
+  max-width: 1100px;
+  margin: auto;
 }
 
 .projects-co-otrzymasz-sub2 {
   font-size: 40px;
   line-height: 40px;
-  margin-top: 20px;
 }
 
 .projets-custom-theme-desc {
-  margin-bottom: 40px;
-  color: #373737;
-  font-family: "Georgia";
-  font-size: 40px;
-  line-height: 45px;
-  letter-spacing: -0.025em;
+  font-size: 35px;
+  line-height: 47px;
+font-weight: 300;
 }
 
-
-
 .projects-theme-desc-p {
-  margin-right: 0px;
-  margin-left: 0;
+  margin: 40px 0;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  
 }
 
 .valuePara {
-  max-width: 400px;
-  margin-left: auto;
+  padding: 40px 0 0;
+  margin-bottom: 40px;
+}
+.projects-custom-container3 .projects-theme-desc-p{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
 }
 
 .projects-includes-ul {
@@ -423,20 +382,23 @@ img.projects-main-image-logop {
 }
 
 .projects-includes-li {
-  font-size: 18px;
+  font-size: 28px;
   padding-bottom: 20px;
-  letter-spacing: -0.025em;
+  font-weight: 300;
+  line-height: 50px;
+}
+.projects-includes-li:nth-child(6) {
+  padding-bottom: 0px;
 }
 
 .projects-oferta-veggo-cont {
   display: flex;
   position: relative;
-  max-width: 762px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .projects-includes {
-  padding-left: 6%;
 }
 
 .projects-oferta-veggo-bg {
@@ -448,65 +410,69 @@ img.projects-main-image-logop {
 .projects-custom-white-container {
   background-color: white;
   height: auto;
-  max-width: 889px;
+  max-width: 1100px;
   padding: 35px 64px;
   margin-bottom: 80px;
   margin-top: 0px;
 }
 
 .projects-big-100 {
-  font-size: 179px;
-  letter-spacing: -0.025em;
-  line-height: 179px;
-  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  
+  line-height: 94px;
   font-weight: 900;
 }
 
 .projects-big-sub100 {
-  font-size: 60px;
-  letter-spacing: -0.025em;
-  line-height: 60px;
-  font-family: "Playfair Display", serif;
-  margin-bottom: 50px;
+  font-size: 72px;
+  
+  line-height: 94px;
   font-weight: 900;
+  margin-bottom: 50px;
+  
 }
 
 .projects-big-text100 {
-  font-size: 18px;
-  letter-spacing: -0.025em;
-  line-height: 22px;
+  font-size: 26px;
+  line-height: 33px;
   margin-bottom: 50px;
+  font-weight: 400;
 }
-
-.projects-download-catalog-button {
-  font-size: 25px;
-  max-width: 550px;
+#sec2 .copywriter-intro-bg-5-label{
+  font-size: 84px;
+  line-height: 84px;
+  font-weight: 500;
 }
-
+#sec2 .accordion-content p{
+font-size: 24px;
+line-height: 36px;
+font-weight: 400;
+margin-bottom: 20px;
+}
 .projects-button-margin {
   margin-bottom: 30px;
 }
-
-
-
+.theme-desc.projects-theme-desc-p.projects-custom-margin-left{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .projects-theme-title3 {
-  padding: 0 15px;
-  font-size: 60px;
-  font-family: "Playfair Display", serif;
-  color: #373737;
-  font-weight: 900;
+  font-size: 85px;
+
+  font-weight: 700;
   text-align: center;
   position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-  line-height: 68px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  line-height: 77px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .projects-custom-margin-left {
-  margin-left: 60px !important;
+  text-align: center;
 }
 
 .projects-gray-background {
@@ -514,7 +480,7 @@ img.projects-main-image-logop {
 
 .projects-wierzymy-container {
   position: relative;
-  max-width: 805px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -523,13 +489,13 @@ img.projects-main-image-logop {
 }
 
 .projects-custom-container3 {
-  margin-top: 100px;
+  margin-top: 40px;
   position: relative;
   z-index: 2;
 }
 
 .projects-container-textright {
-  text-align: right;
+  text-align: center;
   max-width: 900px;
   margin: 0 auto;
   position: relative;
@@ -537,20 +503,11 @@ img.projects-main-image-logop {
 }
 
 .projects-custom-h5 {
-  color: #818181;
-  font-family: "Georgia", serif;
-  font-style: italic;
-  line-height: 42px;
-  font-size: 40px;
-  font-weight: 400;
-  margin-bottom: 40px;
-  color: #515151;
-  max-width: 700px;
-  margin-left: auto;
-}
-
-.projects-happy-clients-margin {
-  margin-top: 250px;
+  
+  
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 .projects-co-otrzymasz-sub {
@@ -559,14 +516,14 @@ img.projects-main-image-logop {
   letter-spacing: -0.025em;
   font-family: "Playfair Display";
   line-height: 38px;
-  color: #373737;
+  color: #333;
+}
+.projects-wierzymy {
+  margin: 40px 0;
 }
 
 .projects-wierzymy-img {
-  position: absolute;
-  right: 0;
-  left: -200px;
-  max-width: 550px;
+  max-width: 100%;
 }
 
 .logo-button-box {
@@ -604,6 +561,7 @@ img.projects-main-image-logop {
 
 .projects-custom-container1 {
   padding-bottom: 0px;
+  padding-top: 100px;
 }
 
 .projects-logotyp {
@@ -614,101 +572,69 @@ img.projects-main-image-logop {
   max-height: initial !important;
 }
 
-.logo-button-box button {
-  width: auto;
-  padding: 23px 27px;
-  max-width: inherit;
-  font-size: 26px;
-}
-
 .download-catalog-button {
-  width: 415px;
+  
   /* background: #f2c22f; */
   background-color: var(--brand-blue);
   border: transparent;
-  padding: 16px 3px;
+  padding: 8px 20px;
   /* color: black; */
   color: #fff;
-  font-weight: 500;
-  font-size: 22px;
-  bottom: 4px;
-  left: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
   z-index: 10;
   display: inline;
-  letter-spacing: -0.025em;
 }
 
 .projects-krok-po-kroku {
-  padding: 0 15px;
-  padding-bottom: 100px;
-  font-size: 98px;
-  font-family: "Playfair Display", serif;
-  color: #373737;
-  font-weight: 900;
+  padding-bottom: 70px;
+  font-size: 85px;
+
+  color: #333;
+  font-weight: 700;
   text-align: center;
   position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-  line-height: 93px;
-  padding-top: 50px;
+
+  line-height: 77px;
+
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .projects-under-big-header3 {
   margin-bottom: 10px;
-  font-size: 47px;
-  letter-spacing: -0.025em;
-  font-family: "Playfair Display";
-  line-height: 52px;
+  font-size: 28px;
+  line-height: 50px;
   margin-bottom: 20px;
-  color: #373737;
-  max-width: 900px;
+font-weight: 300;
   margin: 0 auto;
 }
 
 .projects-clients-theme-subtitle {
-  text-align: left;
   font-family: "Arial";
   font-style: normal;
-  padding-left: 15px;
-  margin-bottom: 0px;
   position: relative;
-  color: white;
-  line-height: 48px;
-  font-size: 48px;
+  color: #000;
+  line-height: 39px;
+  font-size: 30px;
   text-align: center;
-  margin-top: 100px;
+  font-weight: 900;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
-.theme-subtitle {
-  display: block;
-  color: #818181;
-  font-family: "Georgia", serif;
-  font-style: italic;
-  line-height: 1.3;
-  font-size: 34px;
-  font-weight: 400;
-  margin-bottom: 66px;
-  text-align: center;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-}
+
 
 .projects-theme-title-2 {
-  color: #252424;
-  font-family: "Playfair Display";
-  font-size: 50px;
-  line-height: 1.4;
+  font-size: 48px;
+  line-height: 62px;
   font-weight: 900;
-  padding-top: 35px;
-  letter-spacing: -0.025em;
   text-align: center !important;
-  line-height: 52px;
   position: relative;
   margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+  padding: 0 50px;
 }
 
 .z-index-2 {
@@ -730,40 +656,40 @@ img.projects-main-image-logop {
   margin: 24px 0px;
   font-family: "Georgia", serif;
 }
+.image-810{
+  width: 85%;
+  margin: auto;
+}
 
 .theme-quote {
-  font-size: 60px;
-  font-family: "Playfair Display", serif;
+  font-size: 41px;
+  font-family: "Georgia", serif;
   color: #000000;
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  margin: 24px 0 66px;
-  letter-spacing: -0.03em;
+  margin: 40px 0;
+  line-height: 45px;
   max-width: 900px;
   margin-inline: auto;
 }
 
 .signature {
   text-align: center;
-  margin-bottom: 70px;
+  font-weight: 400;
   font-family: "Georgia", serif;
   font-style: Italic;
   font-size: 19px;
-  margin-top: -10px;
-  letter-spacing: -0.01em;
+  line-height: 25px-;
 }
 
 .image-810-container {
   overflow: hidden;
   width: 100%;
-  margin: 20px 0 0px;
+  max-width: 1100px;
+  margin: 20px auto 0px;
 }
 
-.image-810 {
-  width: 810px;
-  margin: auto;
-}
 .image-810 img {
   width: 100%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -780,19 +706,22 @@ img.projects-main-image-logop {
   margin-top: 0px;
 }
 
-.projects-custom-margin-2 {
-  margin-right: -55px;
-}
-
 .projects-custom-push-top-td {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
 .custom-container1-image {
-  max-width: 810px;
+  max-width: 1100px;
   text-align: center;
-  margin: 0 auto 50px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 0px;
+}
+.custom-container2{
+  max-width: 1100px;
+  margin: auto;
+}
+.projects-custom-container1{
+  max-width: 1100px;
+  margin: auto;
 }
 
 .projects-theme-title-2:after {
@@ -802,36 +731,18 @@ img.projects-main-image-logop {
   content: "";
   position: absolute;
   left: calc(50% - 175px);
-  bottom: -50px;
+  bottom: -40px;
 }
 
-.projects-clients-theme-subtitle {
-  text-align: left;
-  font-family: "Arial";
-  font-style: normal;
-  padding-left: 15px;
-  margin-bottom: 0px;
-  position: relative;
-  color: white;
-  line-height: 48px;
-  font-size: 48px;
-  text-align: center;
-  margin-top: 100px;
-  max-width: 400px;
-  margin-inline: auto;
-}
 
-.ErupaSubTItle {
-  max-width: 600px;
-  margin-inline: auto;
-}
 
 .projects-mb-30 {
   margin-bottom: 30px;
 }
 
 .projects-image-810-container {
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 1100px;
 }
 
 .park-img {
@@ -842,7 +753,7 @@ img.projects-main-image-logop {
 
 @media (min-width: 1115px) {
   .projects-thematic-section-blue {
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
 
@@ -926,16 +837,16 @@ img.projects-main-image-logop {
 }
 
 .copywriter-ending-main-theme {
-  font-size: 100px;
+  font-size: 85px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
   line-height: 101px;
   letter-spacing: -0.025em;
   margin-bottom: 30px;
-  margin-top: 250px;
+  margin-top: 50px;
   padding-left: 5px;
   padding-right: 5px;
-  max-width: 900px;
+  max-width: 1100px;
   margin-inline: auto;
 }
 
@@ -1182,8 +1093,8 @@ contact-inputs textarea {
 }
 
 .orange-link:hover {
-  color: #e0ab06;
-  border-bottom: 2px #e0ab06 dotted;
+  color: #009ad2;
+  border-bottom: 2px #009ad2 dotted;
   cursor: pointer;
 }
 
@@ -1212,7 +1123,7 @@ contact-inputs textarea {
 }
 
 div#sec2 {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .shopImage {
@@ -1223,8 +1134,13 @@ img.zooImage.position-relative {
 }
 
 .projects-ksiazka-projektowanie-logo {
-  width: 60%;
+  width: 100%;
   height: auto;
+  margin: auto;
+}
+.additional-gap {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* -------------------------------------------------media screen ---------------------------------------------------- */
@@ -1238,10 +1154,6 @@ img.zooImage.position-relative {
 
   .opinion-box {
     display: block;
-  }
-
-  img.projects-main-image-logop {
-    max-width: 80%;
   }
 
   .projects-top-banner-container {
@@ -1384,11 +1296,6 @@ img.zooImage.position-relative {
     margin-right: 0px;
   }
 
-  .LogoBannerContainer {
-    max-width: 90%;
-    margin-left: auto;
-  }
-
   .theme-title1 {
     font-size: 70px;
   }
@@ -1477,7 +1384,7 @@ img.zooImage.position-relative {
   }
 
   .projects-thematic-section-blue {
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
 
@@ -1500,7 +1407,6 @@ img.zooImage.position-relative {
 
   .projects-download-catalog-button {
     font-size: 16px;
-    max-width: 90% !important;
   }
 
   .theme-desc {

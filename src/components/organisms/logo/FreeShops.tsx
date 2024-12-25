@@ -15,8 +15,9 @@ const FreeShops = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-              <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd projects-custom-mtop-0">
-                {title && title}
+              <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd">
+                {/* {title && title} */}
+                BUDMAN <br/> KRAKÓW
               </h5>
               <h3 className="projects-theme-title-2 text-left ErupaSubTItle">
                 {subtitle && subtitle}
@@ -35,22 +36,34 @@ const FreeShops = () => {
         </div>
 
         <div className="custom-container1-image">
-          <img
+          <div className="mb-4 image-810">
+            <img
           className="w-100"
             src={FreeShopsData?.mainImage}
             alt="Projektowanie logo przez profesjonalnego grafika"
             title="Projektowanie logo - grafik powinien się tym zająć"
           />
+          </div>
         </div>
 
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
-                {FreeShopsData?.bannerImageTextAbove1}
+                {/* {FreeShopsData?.bannerImageTextAbove1} */}
+                Kształt domu w logo jasno nawiązuje do budownictwa, zapewniając natychmiastową rozpoznawalność.
               </p>
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
-                {FreeShopsData?.bannerImageTextAbove2}
+                {/* {FreeShopsData?.bannerImageTextAbove2} */}
+                Przemyślany i prosty design sprawia, że logo jest niezapomniane i od razu wpada w oko.
+              </p>
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top">
+                {/* {FreeShopsData?.bannerImageTextBelow1} */}
+                Każde logo, które tworzymy, buduje zaufanie już od pierwszego spojrzenia, wyróżniając markę klienta.
+              </p>
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+                {/* {FreeShopsData?.bannerImageTextBelow2} */}
+                Projektując logo, tworzymy coś więcej niż znak – <span className="underlineText">budujemy fundamenty sukcesu</span> Twojej marki.
               </p>
             </div>
           </div>
@@ -68,16 +81,14 @@ const FreeShops = () => {
           </div>
         </div> */}
 
-        <div className="container custom-container1">
-          <div className="row">
-            <div className="col-md-12">
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top">
-                {FreeShopsData?.bannerImageTextBelow1}
-              </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
-                {FreeShopsData?.bannerImageTextBelow2}
-              </p>
-            </div>
+        
+        <div className="container">
+          <div className="col-md-12">
+            <h5 className="theme-quote signed-quote signed-quote-image">
+            „Projekt logo doskonale odzwierciedla naszą wizję – solidność, innowacyjność i nowoczesne podejście do budownictwa. To znak, który budzi zaufanie i od razu kojarzy się z najwyższą jakością.”
+            </h5>
+            <p className="signature">–  Jan Bitner, właściciel firmy
+            </p>
           </div>
         </div>
       </section>

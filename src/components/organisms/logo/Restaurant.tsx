@@ -14,7 +14,7 @@ const Restaurant = () => {
             <div className="col-md-12 projects-custom-espace"></div>
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle">
-                {RestaurantData?.title}
+              EKOWITA <br/> ŁÓDŹ
               </h5>
 
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">

@@ -26,7 +26,10 @@ const StepByStep = () => {
           <div className="row">
             <div className="col-md-12">
               <h3 className="projects-krok-po-kroku no-after p-bottom-10">
-                {title && title}
+                {/* {title && title} */}
+                Galeria realizacji. <span className="underlineText">
+                Tworzymy to, co zapada w pamięć
+                </span>
               </h3>
 
               <p className="theme-desc text-center p-0 projects-under-big-header3">
@@ -38,7 +41,7 @@ const StepByStep = () => {
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle">
-                {imageTitle && imageTitle}
+              PRIMADENT<br/> MILANÓWEK
               </h5>
             </div>
           </div>
@@ -84,51 +87,20 @@ const StepByStep = () => {
               </p>
             </div>
 
-            {/* <div
-              className="col-md-12 projects-custom-text-inside-img-2 projects-appetime-hide-img z-index-2"
-              style={{ marginBottom: "-430px" }}
-            >
-              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74">
-              
-                {bannerImageTitle && bannerImageTitle}
-              </h5>
-
-              <p className="signature projects-rwd-push">
-                {bannerImageSubtitle && bannerImageSubtitle}
-              </p>
-            </div> */}
+           
+          </div>
+          <div className="container">
+          <div className="col-md-12">
+            <h5 className="theme-quote signed-quote signed-quote-image">
+            „Logo stworzone dla nas to kwintesencja profesjonalizmu i dbałości o detale. Subtelne, nowoczesne i eleganckie – dokładnie tak, jak chcemy być postrzegani przez naszych pacjentów. Jesteśmy zachwyceni!”
+            </h5>
+            <p className="signature">– Kaja Barciś, właścicielka gabinetu
+            </p>
           </div>
         </div>
-
-        <div
-          className="image-810-container"
-          style={{ zIndex: 1, marginTop: 0 }}
-        >
-          {/* <div className="image-810">
-       
-            {bannerImage && (
-              <img
-                src={bannerImage}
-                className="desktop-810 position-relative appeImg"
-                alt="Tworzenie identyfikacji wizualnej i wizytówki"
-                title="Jak stworzyć własne logo na przykładzie Appetime"
-                style={{
-                  position: "relative",
-                  left: "-450px",
-                  maxWidth: "none",
-                }}
-              />
-            )}
-            <img
-              src="/assets/images/logo-design/Wlasne-logo-Appetime-MOB.jpg.webp"
-              className="mobile-810"
-              alt="Tworzenie identyfikacji wizualnej i wizytówki"
-              title="Jak stworzyć własne logo na przykładzie Appetime"
-            />
-          </div> */}
         </div>
 
-        <div className="clearfix"></div>
+        
       </section>
     </>
   );

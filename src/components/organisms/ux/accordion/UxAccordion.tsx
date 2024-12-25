@@ -64,6 +64,7 @@ const UXAccordion = () => {
                 <div className="accordion-content" dangerouslySetInnerHTML={{ __html: item.answer }}></div>
                 
               )}
+
             </div>
 
  

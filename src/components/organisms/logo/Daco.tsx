@@ -13,7 +13,7 @@ const Daco = () => {
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd">
-               {DacoData?.title}
+              PIEKUTKA <br/>KATOWICE
               </h5>
 
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">

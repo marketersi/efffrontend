@@ -17,7 +17,7 @@ const GoodBusiness = () => {
   return (
     <>
       <section>
-        <div className="container projects-custom-container1 mt-5">
+        <div className="container projects-custom-container1">
           <div className="row">
             <div className="col-md-12">
               
@@ -25,16 +25,21 @@ const GoodBusiness = () => {
                 {title && title}
               </h1>
               <p className="theme-desc text-center p-0 projects-under-big-header">
-                <strong>{subtitle && subtitle}</strong> <br />
-                {text && text}
+                {subtitle && subtitle}
+                
               </p>
+              <p className="theme-desc text-center p-0 projects-under-big-header">
+              {text && text}
+                
+              </p>
+
             </div>
           </div>
         </div>
         {image && (
           <img
             src={image}
-            className="img-background-logop"
+            className="img-background-logop blue-eyes"
             alt="Obrazek przedstawiający anatomię projektowania logo"
             title="Projektowanie logo firmy - przekrź działań"
           />

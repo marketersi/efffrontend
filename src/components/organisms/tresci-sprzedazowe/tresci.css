@@ -334,7 +334,7 @@ font-weight: 400;
 
 .copywriter-inside-img-text {
   padding-top: 400px;
-  color: #373737;
+  color: #333;
   font-size: 85px;
   
   line-height: 90px;
@@ -361,7 +361,7 @@ font-weight: 400;
 }
 
 .copywriter-custom-subtext-turbokids-1 {
-  color: #373737;
+  color: #333;
   text-align: left;
   
   font-size: 47px;
@@ -408,8 +408,8 @@ font-weight: 400;
 } */
 
 .copywriter-border-870 {
-  border-top: 2px solid #373737;
-  border-bottom: 2px solid #373737;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
   max-width: 870px;
   margin: 0 auto;
   padding-top: 15px;
@@ -442,7 +442,7 @@ font-weight: 400;
 }
 
 .copywriter-custom-subtext-4 {
-  color: #373737;
+  color: #333;
   font-size: 25px;
   line-height: 33px;
   letter-spacing: -0.01em;
@@ -597,10 +597,7 @@ section.profit-sec {
   margin-bottom: 50px;
 }
 
-section.black-sec-form {
-  /* background: black; */
-  padding: 100px 0;
-}
+
 
 /* ===================================faq==================================== */
 
@@ -631,9 +628,7 @@ section.black-sec-form {
     line-height: 20px;
 
 }
-.accordion-title:first-child{
-  border-top: 1px solid lightgray;
-}
+
 
 .accordion-title.active {
   background-color: transparent;

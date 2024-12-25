@@ -39,7 +39,7 @@ const PDFCopy = () => {
         </div>
 
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center additional-gap">
             <div className="col-xl-6 projects-lprasa-container">
               {image && (
                 <img
@@ -51,7 +51,7 @@ const PDFCopy = () => {
               )}
             </div>
             <div className="col-xl-6">
-              <p className="theme-desc projects-custom-lineheight projects-custom-margin pGuid">
+              <p className="theme-desc projects-custom-lineheight pGuid">
                 {imageTitle && imageTitle}
               </p>
               <p className="projects-custom-lineheight projects-prasa-margin">
@@ -64,7 +64,7 @@ const PDFCopy = () => {
               </p>
               <p className="theme-desc projects-custom-lineheight">
                 {/* to be deleted */}
-                {imageSubtitle && imageSubtitle} <br />
+                {imageSubtitle && imageSubtitle}
                 {imageLink && imageLinkText && (
                   <a
                     // href="https://drive.google.com/uc?authuser=0&id=1bU_jwyc1R4WqXkZDaDmuMPj-U30pZUwm&export"

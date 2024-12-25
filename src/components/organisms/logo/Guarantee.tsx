@@ -20,7 +20,7 @@ const Guarantee = ({ openModal }) => {
             fdprocessedid="jeqyl"
             onClick={openModal}
           >
-            <strong>{buttontext && buttontext}</strong>
+            Brzmi świetnie. Wyślijcie mi ofertę
           </button>
         </div>
       </section>

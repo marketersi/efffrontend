@@ -13,7 +13,8 @@ const ZooGarden = () => {
             <div className="col-md-12 projects-custom-espace"></div>
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd">
-                {ZooGardenData?.title}
+                {/* {ZooGardenData?.title} */}
+                RYTUAŁ URODY <br/> PIASECZNO
               </h5>
 
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
@@ -76,6 +77,15 @@ const ZooGarden = () => {
                 {ZooGardenData?.text7}
               </p>
             </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="col-md-12">
+            <h5 className="theme-quote signed-quote signed-quote-image">
+            „Ten projekt nie tylko spełnił nasze oczekiwania, ale przerósł je, oddając wyjątkowość naszej oferty w sposób, który zachwyca. To była wyjątkowa współpraca, a efekt idealnie oddaje charakter naszego salonu. Dziękujemy!”
+            </h5>
+            <p className="signature">– Kamila Pawłowska, właścicielka salonu
+            </p>
           </div>
         </div>
       </section>

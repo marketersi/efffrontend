@@ -55,13 +55,11 @@ const ProjectsValue = () => {
           <div className="projects-container-textright projects-rwd-tcenter">
             <h5 className="projects-custom-h5">{imageTitle && imageTitle}</h5>
 
-            <p className="theme-desc projects-theme-desc-p valuePara">
+            <p className="theme-desc projects-theme-desc-p">
               {imageSubtitle && imageSubtitle}
             </p>
 
-            <p className="theme-desc text-center projects-co-otrzymasz-sub projects-happy-clients-margin">
-              {/* {galleryTitle && galleryTitle} */}
-            </p>
+            
           </div>
         </div>
         {/* {galleryImage && (

@@ -216,7 +216,7 @@
 }
 
 .Strategy_Card_Title {
-  color: #373737;
+  color: #333;
   font-size: 30px;
   line-height: 49.5px;
   text-align: center;
@@ -334,7 +334,7 @@ img.strategyImg {
 }
 
 .Analysis_Card_Content_Title {
-  color: #373737;
+  color: #333;
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 25px;
@@ -396,7 +396,7 @@ img.strategyImg {
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-  color: #373737;
+  color: #333;
   background-color: #00fe04;
   border: 2px solid #00fe04;
   width: fit-content;
@@ -878,7 +878,7 @@ img.strategyImg {
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-  color: #373737;
+  color: #333;
   background-color: #00fe04;
   border: 2px solid #00fe04;
   width: fit-content;

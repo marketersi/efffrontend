@@ -14,7 +14,7 @@ const Enexo = () => {
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle">
-                {EnexoData?.title}
+              LINGUSFERA <br/> WARSZAWA
               </h5>
 
               <h3 className="projects-theme-title-2 text-left">

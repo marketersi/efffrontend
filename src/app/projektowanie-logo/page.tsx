@@ -30,6 +30,7 @@ import { FETCH_LOGO_SCREEN_DATA } from '@/redux/projektowanie-logo/logoAction';
 import { FETCH_SALES_SCREEN_DATA } from '@/redux/tresci/salescontentAction';
 import { ModalForm } from '@/components/organisms/tresci-sprzedazowe/ModalForm';
 import BounceLoader from 'react-spinners/BounceLoader';
+import Lex from '@/components/organisms/logo/Lex';
 
 const LogoDesignScreen = () => {
   const { isLoading, screenData } = useSelector((state) => state.logo);
@@ -85,12 +86,12 @@ const LogoDesignScreen = () => {
       <Construction />
       <Restaurant />
       <Park />
-      <GPN />
+      <Lex />
+      {/* <GPN /> */}
       <NewCompany />
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-          Zróbmy razem <br />
-          coś fajnego
+        Stwórzmy coś, <br/> co robi wrażenie.
         </div>
         <Form />
       </section>

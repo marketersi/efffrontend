@@ -29,17 +29,17 @@ const NewCompany = () => {
     <>
       {/* <div className="halfc-bottom"></div> */}
       <section className="names-thematic-section-black names-thematic-section-black-fix">
-        <div className="copywriter-ending-main-theme text-center">
+        {/* <div className="copywriter-ending-main-theme text-center">
           {title && title}
-        </div>
+        </div> */}
 
-        {subtitle && (
+        {/* {subtitle && (
           <div className="copywriter-ending-3 text-center copywriter-ending-a copywriting-ending-text">
             {subtitle}
           </div>
-        )}
+        )} */}
 
-        <div className="TypeMe typeme1 text-center projects-custom-typed-text">
+        {/* <div className="TypeMe typeme1 text-center projects-custom-typed-text">
           {words.map((word, index) => (
             <span
               key={index}
@@ -53,7 +53,7 @@ const NewCompany = () => {
               {word.substring(0, currentLetterIndex)}|
             </span>
           ))}
-        </div>
+        </div> */}
 
         <div className="copywriter-ending-3 text-center copywriter-ending-a-italic"></div>
 
