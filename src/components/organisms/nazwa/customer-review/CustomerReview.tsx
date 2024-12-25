@@ -40,7 +40,7 @@ const CustomerReview = () => {
                   type="button"
                   onClick={() => setIsModal(true)}
                 >
-                  <strong>{example1?.review_buttonText}</strong>
+                  Brzmi świetnie. Wyślijcie mi ofertę
                 </button>
               </div>
               <div className="clearfix"></div>

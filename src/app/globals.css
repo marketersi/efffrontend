@@ -394,7 +394,15 @@ body{
 .underlineText{
   text-decoration: underline;
 }
+.UXBannerContainer {
+  width: 95%;
+  margin-inline: auto;
+  padding-block: 50px 0;
+}
 /* -------------------------Accordion------------------------ */
+.additional-gap2{
+  margin-bottom: 130px;
+}
 
 .img-background-logop {
   display: block;

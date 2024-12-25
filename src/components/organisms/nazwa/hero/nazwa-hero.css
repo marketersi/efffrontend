@@ -1,13 +1,6 @@
-.nazwaContainer{
-    max-width: 1000px;
-    margin: 0 auto;
-}
+
 .nazwaHeroImg{
-    width: 75%;
+    width: 100%;
     display: block;
 margin: 0 auto;
-}
-.nazwaHeroBtn{
-    margin: 0 auto;
-    display: block !important;
 }

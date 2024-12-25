@@ -783,4 +783,10 @@ button.formModalCloseBtn {
     right: 4%;
     color: black;
   }
+  .accordion-content {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
 }

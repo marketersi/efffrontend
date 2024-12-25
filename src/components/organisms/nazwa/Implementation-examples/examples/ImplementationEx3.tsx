@@ -8,7 +8,7 @@ const ImplementationEx3 = () => {
   return (
     <section className="projects-thematic-section-gray">
       {
-  example2?.map((item, index) => {
+  example2?.slice(0, 1).map((item, index) => {
     return (
       <div className="container names-custom-container" key={index}>
         <div className="row">
@@ -19,6 +19,18 @@ const ImplementationEx3 = () => {
             <div className="names-client-desc">
               {item?.subtitle}
             </div>
+            <div className="container custom-container1 text-left">
+          <div className="row">
+            <div className="col-md-12">
+              <p className="theme-desc text-left">
+                {item?.para_1}
+              </p>
+              <p className="theme-desc text-left">
+                {item?.para_2}
+              </p>
+            </div>
+          </div>
+        </div>
           </div>
         </div>
       
@@ -30,8 +42,9 @@ const ImplementationEx3 = () => {
             alt="Hasła reklamowe są dobre dla Nevel"
           />
         </div>
+        
       
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-quote signed-quote signed-quote-image names-quote-fsize pnazw-names-quote-margin">
@@ -40,20 +53,9 @@ const ImplementationEx3 = () => {
               <p className="signature newsignmargin">{item?.quote_name}</p>
             </div>
           </div>
-        </div>
+        </div> */}
       
-        <div className="container custom-container1">
-          <div className="row">
-            <div className="col-md-12">
-              <p className="theme-desc">
-                {item?.para_1}
-              </p>
-              <p className="theme-desc">
-                {item?.para_2}
-              </p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     );
   })

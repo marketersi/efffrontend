@@ -9,7 +9,7 @@ import Footer from "@/components/organisms/footer/Footer";
 import { Provider } from "react-redux";
 import store from "@/store/store";
 import { useEffect, useState } from "react";
-import Loader from "@/components/organisms/animation/Loader";
+import BounceLoader from 'react-spinners/BounceLoader';
 //import { ReactLenis } from "@studio-freight/react-lenis";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -39,7 +39,9 @@ export default function RootLayout({
     <html lang="en">
     <body className={inter.className}>
       {loading ? (
-        <Loader/>// Display Loader while loading
+        <div className="loader-container">
+        <BounceLoader color="#00bfff" size={50} />
+      </div>
       ) : (
         <>
           <Header />

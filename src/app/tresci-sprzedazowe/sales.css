@@ -168,6 +168,7 @@ section.sales_option_box {
 
 .opinion-box-inside-image {
   height: auto;
+  width: 100%;
 }
 
 .opinion-box:nth-child(odd) .opinion-box-content {

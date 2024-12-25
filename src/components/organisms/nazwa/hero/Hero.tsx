@@ -15,19 +15,53 @@ const NazwaHero = () => {
   };
   return (
     <section className="pnazw-page">
-      <div className="nazwaContainer ">
-        <div className="top-section-banner-text">
+      <div className="nazwaContainer">
+        <div className="top-section-banner-text container-fluid1 UXBannerContainer">
           <div className="row">
-            <div className="col-lg-12 order-2">
+            <div className="col-md-6">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
+                {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
+                Nazwij Swoją <span className="indent-20">
+                Przyszłość z</span> 
+                <span className="indent-40">
+                Marketersi:</span> <span className="indent-60">
+                Nazwy, Które</span> <span className="indent-80">
+                Definiują</span> 
+                <span className="underlineText indent-100">
+                Sukces
+                </span>
+                </h1> */}
                 <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
-                  {heroSection?.title}
+                Nazwij Swoją 
+                <span className="indent-20">
+                Przyszłość z
+                </span>
+                
+                <span className="indent-40">
+                Marketersi: 
+                Nazwy,
+                </span> 
+                <span className="indent-60">
+                Które
+                Definiują
+                </span>
+                <span className="indent-80">Sukces</span>
+                
+                
                 </h1>
-                <h2 className="top-banner-long-text names-top-banner-long-text text-center">
-                  {heroSection?.subtitle1}
+                <h2 className="top-banner-long-text names-top-banner-long-text ">
+                Nasze nazwy nie tylko przyciągają uwagę, ale <span className="indent-20">
+                 pozostają w pamięci na lata. Tworzymy nazwy, </span> 
+                <span className="indent-40">
+                które opowiadają Twoją historię, budują zaufanie</span> 
+                <span className="indent-60">
+                 i otwierają drzwi do sukcesu.
+                </span>
                 </h2>
-                <h2 className="top-banner-long-text names-top-banner-long-text pnazw-second-maintext text-center">
-                  {heroSection?.subtitle2}
+                <h2 className="top-banner-long-text names-top-banner-long-text pnazw-second-maintext">
+                Gwarantujemy 100% satysfakcji – tworzymy, aż Cię <span className="underlineText">
+                zachwycimy
+                </span>
                 </h2>
               </div>
               <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
@@ -36,11 +70,11 @@ const NazwaHero = () => {
                   type="button"
                   onClick={() => setIsModal(true)}
                 >
-                  <strong>Wyślijcie mi niezobowiązującą ofertę</strong>
+                  Brzmi świetnie. Wyślijcie mi ofertę
                 </button>
               </div>
             </div>
-            <div className="col-lg-12  order-1">
+            <div className="col-md-6">
               {/* <ReactPlayer
                 url={heroSection?.background_video}
                 playing={true}

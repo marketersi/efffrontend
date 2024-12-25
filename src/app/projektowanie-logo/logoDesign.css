@@ -180,10 +180,7 @@ font-weight: 300;
   margin-bottom: 30px;
 }
 
-.theme-desc {
-  
-  
-}
+
 
 .projects-under-big-header strong {
   color: #333;
@@ -273,6 +270,7 @@ font-weight: 300;
 
 .opinion-box-inside-image {
   height: auto;
+  width: 100%;
 }
 
 .opinion-box:nth-child(odd) .opinion-box-content {
@@ -624,7 +622,20 @@ font-weight: 300;
   margin-bottom: 30px;
 }
 
+.indent-20 {
+  text-indent: 20px;
+  display: block;
+}
 
+.indent-40 {
+  text-indent: 40px;
+  display: block;
+}
+
+.indent-60 {
+  text-indent: 60px;
+  display: block;
+}
 
 .projects-theme-title-2 {
   font-size: 48px;
@@ -722,6 +733,9 @@ font-weight: 300;
 .projects-custom-container1{
   max-width: 1100px;
   margin: auto;
+}
+.black-sec-form{
+  margin-bottom: 70px;
 }
 
 .projects-theme-title-2:after {
@@ -1216,7 +1230,7 @@ img.zooImage.position-relative {
   }
 
   .projects-co-otrzymasz {
-    padding: 0 25px;
+   
     padding-bottom: 30px;
     font-size: 75px;
     line-height: 1.3;
@@ -1247,7 +1261,7 @@ img.zooImage.position-relative {
   }
 
   .img-background-logop {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .projects-galeria-theme {
@@ -1313,14 +1327,11 @@ img.zooImage.position-relative {
   }
 
   .projets-custom-theme-desc {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
-  .projects-big-100 {
-    font-size: 150px;
-    line-height: 150px;
-  }
+  
 
   .projects-big-sub100 {
     font-size: 50px;
@@ -1344,17 +1355,11 @@ img.zooImage.position-relative {
     line-height: 40px;
   }
 
-  .projects-clients-theme-subtitle {
-    font-size: 40px;
-  }
+  
 
-  .projects-theme-title-2 {
-    font-size: 42px;
-  }
+  
 
-  .theme-quote {
-    font-size: 50px;
-  }
+  
 
   .park-img {
     margin-bottom: -174px;
@@ -1392,21 +1397,75 @@ img.zooImage.position-relative {
 
 @media only screen and (max-width: 768px) {
   .top-banner-title {
-    line-height: 47px;
-    font-size: 45px;
+    line-height: 62px;
+    font-size: 48px;
+    text-align: left;
   }
-
+  .top-banner-long-text {
+    line-height: 26px;
+    font-size: 20px;
+    text-indent: 0;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  .top-banner-text p{
+    line-height: 26px;
+    font-size: 20px;
+    text-indent: 0;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  .top-banner-text .download-catalog-button-2 {
+    margin-left: 0;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+  .indent-20 {
+    text-indent: 0px;
+    display: block;
+  }
+  
+  .indent-40 {
+    text-indent: 0px;
+    display: block;
+  }
+  
+  .indent-60 {
+    text-indent: 0px;
+    display: block;
+  }
+  #sec2 .copywriter-intro-bg-5-label {
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 500;
+}
+.projects-custom-container1{
+  padding-top: 0px;
+}
+.theme-title1{
+  padding-bottom: 50px;
+}
+p.projects-under-big-header{
+  font-size: 20px;
+  line-height: 32px;
+}
   .projects-under-top-banner-text p {
     padding-inline: 10px;
+  }
+  .LogoBannerContainer{
+    margin-bottom: 50px;
   }
 
   .top-section-banner {
     left: auto;
     right: auto;
   }
+  
 
   .projects-download-catalog-button {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .theme-desc {
@@ -1415,26 +1474,37 @@ img.zooImage.position-relative {
   }
 
   .projects-push-content-top {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .projects-theme-title-2 {
-    font-size: 35px;
+    font-size: 32px;
     line-height: 40px;
+    margin-bottom: 40px;
+    padding: 0;
   }
-
+  .projects-theme-desc-p{
+    margin: 20px 0;
+  }
   .theme-quote {
-    font-size: 35px;
+    font-size: 32px;
+    line-height: 36px;
   }
-
-  .projects-clients-theme-subtitle {
-    font-size: 35px;
-    line-height: 38px;
-  }
-
+  .blue-eyes {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+  
+  #sec2 .accordion-content p{
+    font-size: 16px;
+    line-height: 24px;
+   
+    margin-bottom: 20px;
+    }
   .opinion-box {
     margin-top: 50px !important;
     display: block;
+    margin-bottom: 20px!important;
   }
 
   .copywriter-ending-1 {
@@ -1447,29 +1517,44 @@ img.zooImage.position-relative {
   }
 
   .receive {
-    padding: 50px 0 70px !important;
+    padding: 0px 0 50px !important;
   }
 
   .projets-custom-theme-desc {
-    font-size: 26px;
-    line-height: 33px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .projects-big-sub100 {
     font-size: 45px;
-    line-height: 45px;
+    line-height: 62px;
   }
-
+  .projects-margin-b-60 {
+    margin-bottom: 30px;
+}
   .projects-theme-desc-p {
     margin-right: 0;
     margin-left: 0 !important;
   }
+  .projects-includes-li {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    line-height: 33px;
+}
 
   .projects-custom-h5 {
-    font-size: 26px !important;
-    padding-inline: 20px;
+    font-size: 20px !important;
+    line-height:36px ;
     text-align: center;
   }
+  .ajsdkljaskdjlas {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.projects-clients-theme-subtitle{
+  margin-top: 50px;
+}
 
   .valuePara {
     max-width: 100%;
@@ -1483,7 +1568,8 @@ img.zooImage.position-relative {
   }
 
   img.projects-ksiazka-projektowanie-logo {
-    width: 80%;
+    width: 100%;
+    margin-bottom: 40px;
   }
 
   img.projects-top-logo {
@@ -1512,14 +1598,23 @@ img.zooImage.position-relative {
   }
 
   .projects-big-100 {
-    font-size: 100px;
-    line-height: 150px;
-  }
+    font-size: 54px;
+    line-height: 78px;
+    font-weight: 900;
+}
 
   .projects-custom-white-container {
-    padding: 35px 30px;
+    padding: 30px 20px;
   }
-
+  .projects-big-text100 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.projects-button-margin {
+  margin-bottom: 0;
+}
   .copywriter-intro-bg-5-label {
     font-size: 45px;
     line-height: 45px;
@@ -1528,6 +1623,7 @@ img.zooImage.position-relative {
   .projects-theme-title3 {
     font-size: 45px;
     line-height: 45px;
+   margin: 50px 0;
   }
 
   .projects-custom-h5 {
@@ -1645,10 +1741,7 @@ img.zooImage.position-relative {
     margin-bottom: 0px;
   }
 
-  .top-banner-long-text {
-    line-height: 35px;
-    font-size: 30px;
-  }
+ 
 
   .nazwa_footer_bottom_left {
     display: none !important;
@@ -1668,9 +1761,7 @@ img.zooImage.position-relative {
     margin: 180px 0 0 0px;
   }
 
-  .projects-clients-theme-subtitle {
-    margin-top: 10px;
-  }
+ 
   .shopImage {
     left: -180px !important;
   }
@@ -1683,5 +1774,9 @@ img.zooImage.position-relative {
   }
   img.projects-main-image-logop {
     max-width: 100%;
+  }
+  .theme-desc.projects-theme-desc-p.projects-custom-margin-left{
+    width: auto;
+    line-height: 36px;
   }
 }

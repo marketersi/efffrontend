@@ -22,17 +22,26 @@ const ImplementationExamples = () => {
 
       <ImplementationExample2 />
 
+      <section className='additonal-gap2'>
       <CustomerReview />
+      </section>
 
       <ImplementationEx3 />
+      <section className="additional-gap2">
+      <CustomerReview />
+      </section>
 
+      <section className="additional-gap2">
       <CustomerReview2 />
+      </section>
 
       <ImplementationEx4 />
 
       <ImplementationEx5 />
 
+      <section className="additional-gap2">
       <CustomerReview3 />
+      </section>
 
       {/* <ImplementationEx6 /> */}
 

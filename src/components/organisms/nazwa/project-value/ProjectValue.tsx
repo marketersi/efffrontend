@@ -14,7 +14,7 @@ const ProjectValue = () => {
                 className="projects-custom-container-gray menu-target"
                 id="sec2"
               >
-                <h1 className="theme-title1 projects-big-header names-big-header naming-padding-valuation pnazw-custom-header">
+                <h1 className="projects-big-header names-big-header naming-padding-valuation pnazw-custom-header">
                   {project_value?.title}
                 </h1>
               </div>
@@ -50,9 +50,7 @@ const ProjectValue = () => {
           </div>
         </div>
 
-        <div className="formulage">
-          <img src="form.png" alt="" />
-        </div>
+      
       </section>
     </div>
   );

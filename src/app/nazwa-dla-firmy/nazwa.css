@@ -11,39 +11,61 @@
 .heroVideo {
   margin-top: 40px;
 }
-.pnazw-page .pnazw-topbanner-title {
-  font-size: 85px;
-  line-height: 70px;
-  text-align: center;
-}
+
 .top-banner-title {
   display: block;
-  font-weight: 900;
-  margin: 20px 0px;
-  line-height: 67px;
+  font-weight: 500;
+  margin: 0px 0px 20px;
+  line-height: 85px;
   font-size: 85px;
-  font-family: "Playfair Display", serif;
   color: #333;
-  letter-spacing: -0.025em;
+ 
 }
+.indent-20 {
+  text-indent: 20px;
+  display: block;
+}
+
+.indent-40 {
+  text-indent: 40px;
+  display: block;
+}
+
+.indent-60 {
+  text-indent: 60px;
+  display: block;
+}
+.indent-80 {
+  text-indent: 80px;
+  display: block;
+}
+
+.indent-100 {
+  text-indent: 100px;
+  display: block;
+}
+
+
 .pnazw-page .names-top-banner-long-text {
-  color: #515151;
+  
   font-style: normal;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 29px;
+  line-height: 44px;
   margin-top: 30px;
+  font-weight: 300;
+  text-align: left;
+ margin-left: 100px;
+  
 }
 .pnazw-page .catalog-submit-button .download-catalog-button {
-  font-family: "Arial";
-  font-weight: 500;
-  letter-spacing: -0.025em;
-  font-size: 20px;
-  line-height: 25px;
-  padding: 23px 40px;
+ 
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 8px 20px;
   width: auto;
-  border: 1px solid var(--brand-blue);
   background-color: var(--brand-blue);
-  margin-top: 0px;
+  margin-top: 20px;
   color: white;
 }
 
@@ -52,15 +74,13 @@
 .projects-over-hid {
   overflow: hidden;
 }
-.projects-custom-container1 {
-  padding-bottom: 0px;
-}
+
 .pnazw-page .custom-projects-margin-top {
   margin-top: 0px;
 }
 
 .theme-title1 {
-  padding: 0 15px;
+  
   padding-bottom: 50px;
   font-size: 51px;
   font-family: "Playfair Display", serif;
@@ -73,11 +93,12 @@
   letter-spacing: -0.025em;
 }
 .projects-big-header {
-  font-size: 84px;
-  padding: 40px 5px;
-  line-height: 80px;
-  max-width: 900px;
+  font-size: 85px;
+  text-align: center;
+  line-height: 77px;
+  font-weight: 700;
   margin-inline: auto;
+  margin-bottom: 70px;
 }
 .top-section.desktop {
   padding: 50px 0;
@@ -88,9 +109,12 @@
   font-family: "Georgia";
   font-size: 24px;
   line-height: 33px;
-  letter-spacing: -0.025em;
-  max-width: 900px;
   margin-inline: auto;
+}
+.custom-container-4{
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
 }
 img.names-custom-image {
   margin-bottom: 30px;
@@ -110,24 +134,26 @@ img.names-custom-image {
   letter-spacing: -0.025em;
 }
 .projects-custom-container1 {
-  padding: 100px 0 0;
+  margin: 70px auto;
+  max-width: 1100px;
+  width: 100%;
 }
 .naming-what-you-get-header {
   font-size: 55px;
 }
+.projects-custom-container-second-prasa{
+  margin-top: 30px;
+}
 .projects-theme-title2 {
-  padding: 0 15px;
-  padding-bottom: 50px;
-  font-size: 65px;
-  font-family: "Playfair Display", serif;
+  
+  padding-bottom: 70px;
+  font-size: 85px;
+  line-height: 77px;
   color: #333;
-  font-weight: 900;
+  font-weight:700;
   text-align: center;
   position: relative;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
-  line-height: 93px;
+padding-top: 10px;
 }
 .pnazw-page .projects-theme-subtitle1 {
   font-size: 35px;
@@ -179,9 +205,14 @@ img.names-custom-image {
   margin-left: 0px;
   margin-right: 0px;
   text-align: left;
+  margin-bottom: 0;
+}
+.custom-container-4 .row{
+  align-items: center;
+  margin: 20px 0;
 }
 .custom-container1 {
-  max-width: 900px;
+  max-width: 1100px;
   margin: auto;
 }
 .names-container-Litery {
@@ -197,8 +228,8 @@ img.names-custom-image {
 .names-client-desc {
   font-family: "Playfair Display";
   font-size: 48px;
-  font-weight: 900 !important;
-  margin-bottom: 50px;
+  font-weight: 1100 !important;
+  margin-bottom: 40px;
   line-height: 62px;
 }
 
@@ -212,6 +243,13 @@ img.names-custom-image {
 /* .pnazw-page .names-container-Litery:after {
   background-image: url(https://cdn.owocni.pl/img/single-projektowanie-nazw/seo-images/litery-tworzenie-nazw-dla-firm.jpg);
 } */
+.img-wierzymy{
+  width: 100%;
+  margin-top: 40px;
+}
+.container.custom-container1 .row{
+  justify-content: center;
+}
 
 .names-container-Litery:after {
   /* to be deleted hence display none*/
@@ -234,22 +272,12 @@ img.names-custom-image {
 .naming-answers-title {
   font-size: 80px;
 }
+#sec2{
+  margin-top: 70px;
+}
 
-.names-big-header {
-  padding-top: 126px;
-  padding-bottom: 10px;
-  font-size: 60px;
-}
-.projects-big-header {
-  font-size: 74px;
-  padding: 40px 5px;
-  line-height: 80px;
-}
-.projects-thematic-section-background-index {
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
-}
+
+
 
 .projecs-big-wierzymy-label {
   font-size: 45px !important;
@@ -260,18 +288,11 @@ img.names-custom-image {
   font-family: "Georgia", serif;
   font-style: italic;
 }
-.pnazw-page .new-wierzymy .img-wierzymy {
-  /* position: absolute;
-  right: -170px; */
 
-  position: absolute;
-  right: -245px;
-  width: 700px;
-}
 .projects-gray-section-valuation {
-  text-align: left !important;
-  max-width: 450px;
-  margin: 35px auto 180px 0;
+  
+ 
+  margin: 40px auto 40px 0;
   line-height: 45px;
   color: black;
 }
@@ -279,43 +300,46 @@ img.names-custom-image {
   z-index: 1;
   position: relative;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }
 
 .new-wierzymy {
   position: relative;
-  height: 510px;
   max-width: 783px;
   margin: 0 auto;
   overflow: visible;
 }
 .projects-thematic-section-gray {
+
+}
+.additonal-gap2{
+  margin-bottom: 130px;
 }
 .iglarki-section-submain {
   font-size: 45px;
   line-height: 48px;
-  margin-top: 35px;
+  margin-top: 70px;
 }
-.iglarki-section-main-header {
-  font-family: "Playfair Display Black", serif;
-  line-height: 85px;
-  margin-top: 150px;
-  margin-bottom: 50px;
+.text-left{
+  text-align: left;
 }
 
+
 .iglarki-section-main-header {
-  font-size: 90px;
-  line-height: 80px;
-  padding: 0 15px;
-  padding-bottom: 50px;
-  font-family: "Playfair Display", serif;
+  font-size: 85px;
+  line-height: 77px;
+  
+  padding-bottom: 70px;
+ 
   color: #333;
   text-align: center;
   position: relative;
-  letter-spacing: -0.025em;
-  margin-top: 40px;
-  max-width: 900px;
+  margin-top: 70px;
+  max-width: 1100px;
   margin-inline: auto;
+}
+.iglarki-section-main-header span{
+  margin-bottom: 70px;
 }
 .pnazw-page .names-client-name {
   position: relative;
@@ -337,10 +361,10 @@ img.names-custom-image {
   font-family: "Arial";
   font-size: 30px;
   font-weight: 900;
-  padding-bottom: 20px;
-  margin-top: 50px;
-  color: #fff;
-  margin-bottom: 50px;
+  padding-bottom: 40px;
+  
+  color: #000;
+  margin-bottom: 40px;
   line-height: 39px;
 }
 .names-client-name.iglarki-cname:after {
@@ -368,19 +392,31 @@ img.names-custom-image {
 }
 
 /* ----------------new------------------ */
-.nazwaContainer {
-  padding: 0 100px;
-}
+
 .projects-under-big-header2 {
-  font-size: 35px;
-  max-width: 850px;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
   margin-inline: auto;
+  margin-bottom: 30px;
 }
 .projects-under-big-header {
-  max-width: 750px;
+  font-size: 28px;
+  line-height: 50px;
+  font-weight: 300;
+  margin-inline: auto;
+  margin-bottom: 0;
 }
+#sec0{
+  margin: 70px 0 0;
+}
+.projects-opinion-box-container .opinion-box{
+  margin-bottom: 0;
+}
+
+
 .stats-image-cont img {
-  width: 50%;
+  width: 100%;
 }
 .pnazw-ctext-size {
   font-size: 26px;
@@ -469,7 +505,7 @@ section.projects-gray-opinion-4 {
     margin-top: 40px;
   }
   .projects-custom-container1 {
-    padding: 50px 0 0;
+    margin: 50px auto;
   }
   .projects-big-header {
     font-size: 50px;
@@ -517,15 +553,7 @@ section.projects-gray-opinion-4 {
   .custom-container1 {
     max-width: 100%;
   }
-  .pnazw-page .new-wierzymy .img-wierzymy {
-    /* right: 0px;
-    top: 100px;
-    width: 100%; */
-
-    right: 100px;
-    top: 125px;
-    width: 65%;
-  }
+ 
   .projects-gray-section-valuation {
     max-width: 90%;
     margin: 19px auto 180px 0;
@@ -552,7 +580,7 @@ section.projects-gray-opinion-4 {
     padding: 0 50px;
   }
   .names-custom-container {
-    max-width: 90%;
+    max-width: 100%;
   }
   .names-thematic-section-black {
     padding: 0 50px;
@@ -587,14 +615,7 @@ section.projects-gray-opinion-4 {
 }
 
 @media only screen and (max-width: 767px) {
-  .pnazw-page .new-wierzymy .img-wierzymy {
-    right: inherit;
-    top: inherit;
-    position: relative;
-    width: 70%;
-    display: block;
-    margin-inline: auto;
-  }
+  
   img.owocnych-nazw-text {
     width: 90%;
   }
@@ -645,7 +666,7 @@ section.projects-gray-opinion-4 {
     line-height: 35px;
   }
   .projects-custom-container1 {
-    padding: 30px 0 0;
+    margin: 40px auto;
   }
   .projects-under-big-header2 {
     font-size: 25px;
@@ -733,9 +754,7 @@ section.projects-gray-opinion-4 {
     bottom: 5px;
     border-bottom: 5px solid #aa2e2d;
   }
-  .names-new-btn {
-    padding: 23px 20px;
-  }
+  
   .projects-bow-1 {
     margin-bottom: -7px;
   }

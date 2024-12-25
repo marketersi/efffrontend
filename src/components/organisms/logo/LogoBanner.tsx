@@ -18,16 +18,12 @@ const LogoBanner = ({ openModal }) => {
           <div className="col-md-7 projects-top-banner-container">
             <div className="top-banner-text projects-top-banner-text">
             
- <h1 className="top-banner-title projects-top-banner-title projects-top-title-mright">
- Tworzymy 
- Logo,
-  <span style={{ textIndent: '20px', display: 'block' }}> Które 
-  Zapada w  </span> 
-  <span style={{ textIndent: '40px', display: 'block' }}>Pamięć i 
-  Buduje </span> 
-  <span style={{ textIndent: '60px', display: 'block' }}>Zaufanie  </span> 
-  
-</h1> 
+            <h1 className="top-banner-title projects-top-banner-title projects-top-title-mright">
+  Tworzymy
+  <span className="indent-20">Które Zapada w</span>
+  <span className="indent-40">Pamięć i Buduje</span>
+  <span className="indent-60">Zaufanie</span>
+</h1>
 
 
               <h2 className="top-banner-long-text projects-top-banner-long-text">

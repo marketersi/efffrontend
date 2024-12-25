@@ -29,12 +29,7 @@ const NazwaDlaFirmy = () => {
     dispatch({ type: FETCH_SALES_SCREEN_DATA });
   }, [dispatch]);
 
-  if (isLoading)
-    return (
-      <div className="loader-container">
-        <BounceLoader color="#00bfff" size={50} />
-      </div>
-    );
+  
 
   return (
     <>

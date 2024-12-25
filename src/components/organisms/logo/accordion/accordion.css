@@ -1,8 +1,5 @@
 
-.accordion-item {
-    /* border-bottom: 2px solid #b9b9b9; */
-    padding: 10px 20px 0px 0 !important;
-}
+
 
 .accordion-title {
     display: flex;
@@ -26,5 +23,7 @@
       }
       .accordion-title {
         font-size: 16px !important;
+        line-height: 24px!important;
+        padding: 15px 10px!important;
 }
 }
