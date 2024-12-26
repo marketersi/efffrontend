@@ -29,7 +29,7 @@ const CustomerReview2 = () => {
                 />
               </div>
 
-              <div className="opinion-box-content projects-opinion-4 projects-opinion-1-new naming-opinion-text">
+              <div className="opinion-box-content projects-opinion-4 naming-opinion-text">
                 <p className="theme-desc projects-client-opinion-p text-center">
                   <strong>{customer_review?.customer_quote}</strong>
                 </p>
@@ -42,7 +42,7 @@ const CustomerReview2 = () => {
                   type="button"
                   onClick={() => setIsModal(true)}
                 >
-                  <strong>{customer_review?.review_buttonText}</strong>
+                  {customer_review?.review_buttonText}
                 </button>
               </div>
               <div className="clearfix"></div>

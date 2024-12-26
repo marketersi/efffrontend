@@ -6,8 +6,8 @@ const ImplementationEx4 = () => {
   const { implementation } = screenData || {};
   const { example3 } = implementation || {};
   return (
-    <section className="projects-gray-opinion-5">
-      {example3?.map((item, index) => {
+    <section className="projects-gray-opinion-5 projects-push-content-top">
+      {example3?.slice(0, 6).map((item, index) => {
         return (
           <div key={index} className="container names-custom-container">
             <div className="row">

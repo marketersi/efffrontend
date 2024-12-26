@@ -1,14 +1,14 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-const ImplementationEx3 = () => {
+const ImplementationEx302 = () => {
   const {  screenData } = useSelector((state) => state.anatomy);
   const { implementation } = screenData || {};
   const { example2 } = implementation || {};
   return (
     <section className="projects-thematic-section-gray">
       {
-  example2?.slice(0, 1).map((item, index) => {
+  example2?.slice(2, 3).map((item, index) => {
     return (
       <div className="container names-custom-container projects-push-content-top" key={index}>
         <div className="row">
@@ -37,14 +37,14 @@ const ImplementationEx3 = () => {
         <div className="naming-seo-img">
           <img
             className="custom-image-margin"
-            src={item?.image_1}
+            src={item?.image}
             title="Przykład logo i hasła reklamowego dla firmy Nevel"
             alt="Hasła reklamowe są dobre dla Nevel"
           />
         </div>
         
       
-      <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-quote signed-quote signed-quote-image names-quote-fsize pnazw-names-quote-margin">
@@ -53,7 +53,7 @@ const ImplementationEx3 = () => {
               <p className="signature newsignmargin">{item?.quote_name}</p>
             </div>
           </div>
-        </div>
+        </div> */}
       
         
       </div>
@@ -66,4 +66,4 @@ const ImplementationEx3 = () => {
   );
 };
 
-export default ImplementationEx3;
+export default ImplementationEx302;

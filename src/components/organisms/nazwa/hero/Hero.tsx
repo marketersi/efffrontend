@@ -32,9 +32,9 @@ const NazwaHero = () => {
                 </span>
                 </h1> */}
                 <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
-                Nazwij Swoją 
-                <span className="indent-20">
-                Przyszłość z
+                Nazwij Swoją  
+                 <span className="indent-20">
+                 Przyszłość z
                 </span>
                 
                 <span className="indent-40">
@@ -49,7 +49,7 @@ const NazwaHero = () => {
                 
                 
                 </h1>
-                <h2 className="top-banner-long-text names-top-banner-long-text ">
+                <h2 className="names-top-banner-long-text ">
                 Nasze nazwy nie tylko przyciągają uwagę, ale <span className="indent-20">
                  pozostają w pamięci na lata. Tworzymy nazwy, </span> 
                 <span className="indent-40">

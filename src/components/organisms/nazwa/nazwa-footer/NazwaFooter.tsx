@@ -28,7 +28,7 @@ const NazwaFooter = () => {
           className={isSelected == 1 ? "activeLink" : ""}
           onClick={() => setIsSelected(1)}
         >
-          Co otrzymam?
+          Co zyskam?
         </Link>
 
         <Link
@@ -36,18 +36,18 @@ const NazwaFooter = () => {
           className={isSelected == 2 ? "activeLink" : ""}
           onClick={() => setIsSelected(2)}
         >
-          Jak to działa?
+          Jak to wygląda?
         </Link>
         <Link
           href="#sec3"
           className={isSelected == 3 ? "activeLink" : ""}
           onClick={() => setIsSelected(3)}
         >
-          Przykłady realizacji
+          Przykładowe realizacje
         </Link>
       </div>
       <div className="nazwa_footer_bottom_right">
-        <button className="nazwa_footer_bottom_btn" onClick={() => setIsModal(true)}>Zdobądź wycenę</button>
+        <button className="nazwa_footer_bottom_btn" onClick={() => setIsModal(true)}>Otrzymaj ofertę</button>
         <a href="tel:570964200" className="nazwa_footer_Time_btn">Zadzwoń(8 <sup>00</sup> - 16 <sup>00</sup> ) </a>
       </div>
       <ModalForm isOpen={isModal} onClose={handleModalClose} />

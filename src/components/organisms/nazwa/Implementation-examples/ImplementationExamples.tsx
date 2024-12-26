@@ -14,6 +14,9 @@ import Profit from '../../tresci-sprzedazowe/profit-slider/Profit';
 import Form from '../../tresci-sprzedazowe/form/Form';
 import './examples.css';
 import NazwaSlider from '../NazwaSlider';
+import ImplementationEx301 from './examples/implementationEx301';
+import ImplementationEx302 from './examples/implementationEx302';
+import CustomerReview4 from '../customer-review/CustomerReview4';
 
 const ImplementationExamples = () => {
   return (
@@ -28,8 +31,16 @@ const ImplementationExamples = () => {
 
       <ImplementationEx3 />
       <section className="additional-gap2">
-      <CustomerReview />
+      <CustomerReview4 />
       </section>
+
+      <ImplementationEx301 />
+      {/* <section className="additional-gap2">
+      <CustomerReview />
+      </section> */}
+
+      <ImplementationEx302 />
+      
 
       <section className="additional-gap2">
       <CustomerReview2 />
@@ -37,11 +48,11 @@ const ImplementationExamples = () => {
 
       <ImplementationEx4 />
 
-      <ImplementationEx5 />
+      {/* <ImplementationEx5 /> 
 
-      <section className="additional-gap2">
+      {/* <section className="additional-gap2">
       <CustomerReview3 />
-      </section>
+      </section> */}
 
       {/* <ImplementationEx6 /> */}
 
@@ -52,7 +63,7 @@ const ImplementationExamples = () => {
         alt=""
       ></img> */}
 
-      <ImplementationEx7 />
+      {/* <ImplementationEx7 /> */}
       {/* <img
         src="https://cdn.owocni.pl/img/single-projektowanie-nazw/luk-black.png"
         className="projects-bow-1 names-bow-bgcolor-purple"
@@ -60,15 +71,14 @@ const ImplementationExamples = () => {
         alt=""
       ></img> */}
 
-      <ImplementationEx8 />
+      {/* <ImplementationEx8 /> */}
 
       {/* to be deleted */}
       {/* <NazwaSlider /> */}
 
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-          Zróbmy razem <br />
-          coś fajnego
+        Stwórzmy coś, <br/>co robi wrażenie
         </div>
         <Form />
       </section>

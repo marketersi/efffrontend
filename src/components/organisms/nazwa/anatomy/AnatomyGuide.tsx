@@ -6,15 +6,7 @@ const AnatomyGuide = () => {
   const { anatomy_guide } = screenData || {};
   return (
     <section id="sec0">
-      <div className="container custom-container1">
-        <div className="row">
-          <div className="col-md-12 projects-push-content-top">
-            <p className="theme-desc projects-theme-desc-p projects-mq-book-fix">
-              {anatomy_guide?.paragraph1}
-            </p>
-          </div>
-        </div>
-      </div>
+      
 
       <div className="container custom-container-4 custom-margin-bottom-30">
         <div className="row">
@@ -61,13 +53,13 @@ const AnatomyGuide = () => {
                   />
                   {/* to be deleted */}
                   <p className="projects-mq-book-fix projects-custom-gray-text projects-hide-810 text-center PDF-d-book">
-                    Jeśli chcesz możesz pobrać darmowy egzemplarz.
+                  
                     <a
                       href="https://marketersi.cdn.prismic.io/marketersi/ZufO-bVsGrYSvYd5_Zabezpieczony-MARKETERSI-EbookYoutube.pdf"
                       className="red-link d-block"
                       target="_blank"
                     >
-                      Kliknij tutaj (PDF)
+                    Pobierz darmowy egzemplarz – kliknij tutaj.
                     </a>
                   </p>
                 </div>

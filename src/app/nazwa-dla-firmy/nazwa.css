@@ -57,6 +57,11 @@
  margin-left: 100px;
   
 }
+.pnazw-page  .pnazw-second-maintext{
+  margin-left: 180px;
+  text-indent: -20px;
+  padding-left: 20px;
+}
 .pnazw-page .catalog-submit-button .download-catalog-button {
  
   font-weight: 400;
@@ -67,6 +72,7 @@
   background-color: var(--brand-blue);
   margin-top: 20px;
   color: white;
+  margin-left: 220px;
 }
 
 /* section 2 */
@@ -93,10 +99,10 @@
   letter-spacing: -0.025em;
 }
 .projects-big-header {
-  font-size: 85px;
+  font-size: 80px;
   text-align: center;
-  line-height: 77px;
-  font-weight: 700;
+  line-height: 74px;
+  font-weight: 900;
   margin-inline: auto;
   margin-bottom: 70px;
 }
@@ -105,10 +111,10 @@
 }
 .theme-desc {
   margin-bottom: 40px;
-  color: #515151;
-  font-family: "Georgia";
-  font-size: 24px;
-  line-height: 33px;
+
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 50px;
   margin-inline: auto;
 }
 .custom-container-4{
@@ -126,8 +132,21 @@ img.names-custom-image {
   text-align: right;
 }
 .red-link {
-  color: #aa2e2d;
-  text-decoration: none;
+  color:#00bbff;
+  text-decoration: underline;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.optonsahgasds{
+  font-size: 32px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.red-link :hover{
+  text-decoration: dotted;
 }
 .projects-custom-gray-text {
   color: #848484;
@@ -162,17 +181,11 @@ padding-top: 10px;
 }
 .projects-theme-subtitle1 {
   display: block;
-  color: #818181;
-  font-family: "Georgia", serif;
-  font-style: italic;
-  line-height: 42px;
-  font-size: 40px;
-  font-weight: 400;
+  line-height: 47px;
+  font-size: 35px;
+  font-weight: 300;
   margin-bottom: 66px;
   text-align: center;
-  margin-left: -15px;
-  margin-right: -15px;
-  letter-spacing: -0.025em;
   max-width: 900px;
   margin-inline: auto;
 }
@@ -218,19 +231,27 @@ padding-top: 10px;
 .names-container-Litery {
   background-color: #fff;
   position: relative;
-  padding-top: 95px;
   text-align: center;
-  margin-top: 42px;
-  padding: 70px 10px 40px 10px;
-  margin-bottom: 80px;
+ 
+  padding: 60px 30px 60px 30px;
+  
 }
 
 .names-client-desc {
   font-family: "Playfair Display";
   font-size: 48px;
-  font-weight: 1100 !important;
+  margin: auto;
+  max-width: 1100px;
   margin-bottom: 40px;
   line-height: 62px;
+  
+}
+.projects-push-content-top .theme-desc{
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  margin-inline: auto;
 }
 
 .names-client-desc-litery {
@@ -239,6 +260,10 @@ padding-top: 10px;
 }
 .pnazw-page .names-client-desc-litery {
   margin-bottom: 20px;
+  font-size: 72px;
+  font-weight:900;
+  line-height: 94px;
+
 }
 /* .pnazw-page .names-container-Litery:after {
   background-image: url(https://cdn.owocni.pl/img/single-projektowanie-nazw/seo-images/litery-tworzenie-nazw-dla-firm.jpg);
@@ -266,9 +291,7 @@ padding-top: 10px;
   left: 0;
   margin: 0 auto;
 }
-.pnazw-page .names-client-desc-litery {
-  margin-bottom: 20px;
-}
+
 .naming-answers-title {
   font-size: 80px;
 }
@@ -276,17 +299,10 @@ padding-top: 10px;
   margin-top: 70px;
 }
 
-
-
-
-.projecs-big-wierzymy-label {
-  font-size: 45px !important;
-}
-
 .projects-gray-section-custom-font {
-  font-size: 45px;
-  font-family: "Georgia", serif;
-  font-style: italic;
+  font-size: 28px;
+  font-weight: 300;
+  line-height:50px;
 }
 
 .projects-gray-section-valuation {
@@ -313,12 +329,13 @@ padding-top: 10px;
 
 }
 .additonal-gap2{
-  margin-bottom: 130px;
+  margin-bottom: 50px;
 }
 .iglarki-section-submain {
-  font-size: 45px;
-  line-height: 48px;
+  font-size: 28px;
+  line-height: 50px;
   margin-top: 70px;
+  font-weight: 300;
 }
 .text-left{
   text-align: left;
@@ -377,32 +394,23 @@ padding-top: 10px;
   bottom: 15px;
   top: 75px;
 }
-.names-client-desc {
-  font-family: "Playfair Display";
-  font-size: 48px;
-  font-weight: 900 !important;
-  letter-spacing: -0.025em;
-  margin-bottom: 50px;
-  line-height: 45px;
-  max-width: 900px;
-  margin-inline: auto;
-}
+
 .names-client-iglarki {
   text-align: center;
 }
 
 /* ----------------new------------------ */
 
-.projects-under-big-header2 {
-  font-size: 28px;
-  line-height: 50px;
+.second-section .projects-under-big-header2 {
+  font-size: 35px;
+  line-height: 47px;
   font-weight: 300;
   margin-inline: auto;
   margin-bottom: 30px;
 }
-.projects-under-big-header {
-  font-size: 28px;
-  line-height: 50px;
+.second-section .projects-under-big-header {
+  font-size: 35px;
+  line-height: 47px;
   font-weight: 300;
   margin-inline: auto;
   margin-bottom: 0;
@@ -412,6 +420,10 @@ padding-top: 10px;
 }
 .projects-opinion-box-container .opinion-box{
   margin-bottom: 0;
+  margin-top: 0;
+}
+.projects-push-content-top img{
+  margin-bottom: 40px;
 }
 
 
@@ -420,12 +432,24 @@ padding-top: 10px;
 }
 .pnazw-ctext-size {
   font-size: 26px;
+  line-height: 33px;
 }
-.theme-quote {
-  font-size: 35px;
+#sec2 .copywriter-intro-bg-5-label{
+  font-size: 84px;
+  line-height: 84px;
+  font-weight: 500;
+  max-width: 900px;
+  margin: auto;
 }
+.pnazw-custom-header{
+  font-size: 85px;
+  line-height: 77px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
 .signature {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .custom-after-top-line {
   position: relative;
@@ -492,15 +516,15 @@ section.projects-gray-opinion-4 {
     padding: 0 50px;
   }
   .pnazw-page .pnazw-topbanner-title {
-    font-size: 75px;
+    font-size: 64px;
     line-height: 70px;
     text-align: center;
   }
   .pnazw-page .names-top-banner-long-text {
-    text-align: center;
+    text-align: left;
   }
   .pnazw-page .catalog-submit-button .download-catalog-button {
-    margin-inline: auto;
+    margin-inline: 0;
     display: block;
     margin-top: 40px;
   }
@@ -573,9 +597,7 @@ section.projects-gray-opinion-4 {
     font-size: 40px;
     line-height: 40px;
   }
-  .theme-quote {
-    font-size: 30px;
-  }
+  
   .projects-thematic-section-gray {
     padding: 0 50px;
   }
@@ -617,10 +639,10 @@ section.projects-gray-opinion-4 {
 @media only screen and (max-width: 767px) {
   
   img.owocnych-nazw-text {
-    width: 90%;
+    width: 100%;
   }
   img.projects-logotypy-prasa {
-    width: 90%;
+    width: 100%;
   }
   .opinion-box-image {
     width: 100%;
@@ -649,43 +671,65 @@ section.projects-gray-opinion-4 {
     padding: 0 20px;
   }
   .pnazw-page .pnazw-topbanner-title {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
   }
   .pnazw-page .names-top-banner-long-text {
     font-size: 18px;
     line-height: 20px;
+    margin-left: 0;
   }
   .pnazw-page .catalog-submit-button .download-catalog-button {
-    font-size: 16px;
-    line-height: 20px;
-    padding: 15px 10px;
+    font-size: 20px;
+    line-height: 30px;
+    
   }
   .projects-big-header {
-    font-size: 35px;
+    font-size: 28px;
     line-height: 35px;
+    margin-bottom: 30px;
   }
+  .second-section .projects-under-big-header2, .second-section .projects-under-big-header{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
   .projects-custom-container1 {
-    margin: 40px auto;
+    margin: 40px auto 0;
+    padding: 0;
   }
   .projects-under-big-header2 {
     font-size: 25px;
   }
   .theme-desc {
-    margin-bottom: 40px;
-    color: #515151;
-    font-family: "Georgia";
-    font-size: 22px;
-    line-height: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 34px;
   }
+  .custom-container-4{
+    padding: 0;
+  }
+  .custom-container1 {
+    padding: 0;
+}
+.projects-custom-container-second-prasa{
+  padding: 0;
+}
+.projects-custom-container-second-prasa .col-lg-6{
+  padding: 0;
+}
   section#sec0 {
-    padding: 50px 10px;
+    padding: 0;
+    margin-top: 0;
   }
   .opinion-box {
     margin-top: 0px;
   }
   .opinion-box-text {
     font-size: 22px;
+    line-height: 34px;
+    margin: 20px 0 10px;
   }
   .download-catalog-button {
     font-size: 16px;
@@ -693,16 +737,19 @@ section.projects-gray-opinion-4 {
   .projects-theme-title2 {
     font-size: 40px;
     line-height: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 0;
   }
   .projects-theme-subtitle1 {
     font-size: 25px;
     line-height: 32px;
+    margin-bottom: 30px;
   }
   .projects-over-hid {
-    padding: 0 10px;
+    padding: 0;
   }
   section.projects-gray-opinion-2 {
-    padding: 0 10px;
+    padding: 0px;
   }
   .names-client-desc {
     font-size: 30px;
@@ -716,7 +763,7 @@ section.projects-gray-opinion-4 {
     line-height: 40px;
   }
   .projects-thematic-section-gray {
-    padding: 0 10px;
+    padding: 0;
   }
   .projects-gray-section-valuation {
     max-width: 100%;
@@ -730,29 +777,38 @@ section.projects-gray-opinion-4 {
   .iglarki-section-main-header {
     font-size: 35px;
     line-height: 40px;
+    padding-bottom: 40px;
   }
   .iglarki-section-submain {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 28px;
   }
+  .custom-after-top-line::after{
+    bottom: 35px;
+  }
   .names-client-name {
-    font-size: 25px;
+    font-size: 24px;
+    margin-bottom: 0;
   }
   .names-client-name.iglarki-cname:after {
     height: 5px;
     top: 45px;
   }
-  .theme-quote {
-    font-size: 25px;
-    line-height: initial;
-  }
+  .projects-push-content-top .theme-desc {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-inline: auto;
+}
+  
   .names-custom-container {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0;
   }
   .underline-down:after {
-    bottom: 5px;
-    border-bottom: 5px solid #aa2e2d;
+    bottom: 35px;
+    
   }
   
   .projects-bow-1 {
@@ -823,6 +879,79 @@ section.projects-gray-opinion-4 {
     gap: 10px;
   }
   .names-container-Litery {
-    padding: 50px 10px 1px 10px;
+    padding: 20px;
+    margin-top: 30px;
   }
+  .indent-20 {
+    text-indent: 0px;
+    display: inline;
+    margin-right: 8px;
+  }
+  .pnazw-page .names-client-desc-litery {
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 62px;
+    
+}
+#sec2 {
+  margin-top: 30px;
+}
+#sec2 .copywriter-intro-bg-5-label {
+  font-size: 48px;
+  line-height: 52px;
+}
+  
+  .indent-40 {
+    text-indent: 0px;
+    display: inline;
+    margin-right: 8px;
+  }
+  
+  .indent-60 {
+    text-indent: 0px;
+    display: inline;
+    margin-right: 8px;
+  }
+  .indent-80 {
+    text-indent: 0px;
+    display: inline;
+    margin-right: 8px;
+  }
+  
+  .indent-100 {
+    text-indent: 0px;
+    display: inline;
+    margin-right: 8px;
+  }
+  .nazwaContainer {
+    padding: 0 0px;
+}
+.pnazw-page .pnazw-second-maintext{
+  padding-left: 0;
+  text-indent: 0;
+}
+.pnazw-custom-header {
+  font-size: 48px;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+.UXBannerContainer {
+  width: 100%;
+  margin-inline: auto;
+  padding-block: 20px 0;
+}
+.container-4 .row {
+  align-items: center;
+  margin: 0px 0;
+}
+.stats-image-cont img {
+  margin-bottom: 10px;
+  margin-inline: auto;
+  display: block;
+  width: 70%;
+}
+#sec0 .projects-mq-book-fix{
+  padding: 0 10px;
+}
 }

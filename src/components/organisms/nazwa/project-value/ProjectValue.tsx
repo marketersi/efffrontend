@@ -14,7 +14,7 @@ const ProjectValue = () => {
                 className="projects-custom-container-gray menu-target"
                 id="sec2"
               >
-                <h1 className="projects-big-header names-big-header naming-padding-valuation pnazw-custom-header">
+                <h1 className="names-big-header naming-padding-valuation pnazw-custom-header">
                   {project_value?.title}
                 </h1>
               </div>
@@ -38,11 +38,10 @@ const ProjectValue = () => {
           </p>
         </div>
 
-        <div className="opinion-box-image projects-thematic-section-gray-background"></div>
 
         <div className="container custom-container1">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-9">
               <p className="theme-desc projects-theme-desc-p names-left-padding projects-thematic-section-background-index d-sm-block d-none">
                 {project_value?.bottom_description}
               </p>

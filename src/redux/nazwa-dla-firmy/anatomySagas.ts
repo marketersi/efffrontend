@@ -16,6 +16,8 @@ export function* anatomyScreenSaga() {
       axiosInstance.get,
       API_ENDPOINTS.ANATOMY_SCREEN
     );
+    console.log(responseData);
+    
 
     if (responseData) {
       console.log("anatomy screen data saga ==>", responseData.data);

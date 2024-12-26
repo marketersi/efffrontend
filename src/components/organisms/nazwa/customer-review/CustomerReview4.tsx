@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { ModalForm } from "../../tresci-sprzedazowe/ModalForm";
 
-const CustomerReview = () => {
+const CustomerReview4 = () => {
   const {  screenData } = useSelector((state) => state.anatomy);
   const { implementation } = screenData || {};
-  const { example1 } = implementation || {};
+  const { example2 } = implementation || {};
   console.log(implementation);
   
 
@@ -23,18 +23,18 @@ const CustomerReview = () => {
               <div className="opinion-box-image opinion-box-image-right right-image-opinion-fix custom-text-align-right">
                 <img
                   className="opinion-box-inside-image"
-                  src={example1?.image_4}
+                  src={example2?.[0].customer_image}
                   title="Kobieta zadowolona z efektu tworzenia nazwy dla firm"
                   alt="Klientka zadowolona z procesu jakim jest tworzenie nazw"
                 />
               </div>
              
-              <div className="opinion-box-content opinion-box-content-left projects-opinion-1 naming-opinion-text">
+              <div className="opinion-box-content opinion-box-content-left projects-opinion-2 naming-opinion-text">
                 <p className="theme-desc projects-client-opinion-p text-center">
-                  <strong>{example1?.customer_quote}</strong>
+                  <strong>{example2?.[0].customer_quote}</strong>
                 </p>
                 <div className="opinion-box-text">
-                  {example1?.customer_description}
+                  {example2?.[0].customer_description}
                 </div>
 
                 <button
@@ -56,6 +56,6 @@ const CustomerReview = () => {
   );
 };
 
-export default CustomerReview;
+export default CustomerReview4;
 
 

@@ -55,10 +55,10 @@ const LaunchEssentials = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="names-container-Litery">
-              <div className="names-client-desc names-client-desc-litery">
+              <div className="names-client-desc-litery">
                 {launch_essentials?.policy_title}
               </div>
-              <p className="theme-desc pnazw-ctext-size">
+              <p className="pnazw-ctext-size">
                 {launch_essentials?.policy_description}
               </p>
             </div>

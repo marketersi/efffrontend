@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 
 const Anatomy = () => {
   const { isLoading, screenData } = useSelector((state) => state.anatomy);
-  const { anatomy } = screenData || {};
+  const { anatomy, anatomy_guide } = screenData || {};
   return (
-    <section className="top-section-ending projects-over-hid">
+    <section className="top-section-ending projects-over-hid second-section">
       <div className="container projects-custom-container1">
         <div className="row">
           <div className="col-md-12">
@@ -20,7 +20,7 @@ const Anatomy = () => {
             </p>
 
             <p className="text-center p-0 projects-under-big-header">
-              {anatomy?.description2}
+            {anatomy_guide?.paragraph1}
             </p>
 
             {/* to be deleted */}

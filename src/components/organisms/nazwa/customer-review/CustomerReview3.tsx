@@ -39,7 +39,7 @@ const CustomerReview3 = () => {
                   type="button"
                   onClick={() => setIsModal(true)}
                 >
-                  <strong>{customer_review?.review_buttonText}</strong>
+                  {customer_review?.review_buttonText}
                 </button>
               </div>
               <div className="clearfix"></div>
