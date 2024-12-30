@@ -7,6 +7,7 @@ const LogoBanner = ({ openModal }) => {
   const { isLoading, screenData } = useSelector((state) => state.logo);
   const { LogoBannerData } = screenData || {};
   const { image, title, subtitle, text, buttontext } = LogoBannerData || {};
+  
 
   return (
     <>

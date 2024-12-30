@@ -7,7 +7,8 @@ export default function MainContentTwo() {
   const { MainContentTwo } = screenData.MainContent || {};
 
   return (
-    <div className="MainContentTwo content">
+    <div className="MainContentTwo">
+    <div className="WidthContent">
       <div className="MainContentTwo_Container">
         <p>
           {MainContentTwo?.paragraph_1}
@@ -23,6 +24,7 @@ export default function MainContentTwo() {
         </p>
         <p>{MainContentTwo?.paragraph_5}</p>
       </div>
+    </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function InviteCustomer() {
   const {quoteOne } = screenData;
 
   return (
-    <div className="InviteCustomer content">
+    <div className="InviteCustomer WidthContent">
       <div className="InviteCustomer_Title feature">
         {quoteOne?.title}
       </div>

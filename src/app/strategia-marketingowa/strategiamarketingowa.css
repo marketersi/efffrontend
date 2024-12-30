@@ -1,46 +1,67 @@
 /* 1. MainHeading */
 .MainHeading {
-  margin-bottom: 40px;
+  margin:50px 60px;
+  
 }
 
 .MainHeading_Container {
   display: flex;
   justify-content: center;
   padding-inline: 50px;
+  align-items: center;
 }
-
+.indent-20 {
+  text-indent: 20px;
+  display: block;
+}
 .MainHeading_Title {
-  font-size: 120px;
-  font-weight: 700;
-  line-height: 110px;
+  font-size: 85px;
+  font-weight: 500;
+  line-height: 85px;
   text-align: left;
 }
-
+.MainHeading_Image img{
+  width: 100%;
+  height: auto;
+}
 .MainHeading_Title span {
-  background-image: linear-gradient(90deg, #b13a34, #e9a16d);
+  background-image: linear-gradient(90deg, #00bfff, #00bfff1f);
   background-repeat: no-repeat;
   background-size: 100% 28px;
-  background-position: 0px 100px;
+  background-position: 0px 75px;
 }
 
 .MainHeading_SecondTitle {
-  font-size: 75px;
-  font-weight: 700;
-  line-height: 76.5px;
-  margin-bottom: 30px;
+  font-size: 85px;
+  font-weight: 500;
+  line-height: 85px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .MainHeading_Content {
-  font-size: 32px;
+  font-size: 29px;
   font-weight: 300;
-  line-height: 60.8px;
-  width: 600px;
+  line-height: 44px;
+  
+  margin-left: 60px;
+}
+.MainHeading button{
+  padding: 8px 20px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+  background-color: #00bfff;
+  border: none;
+  box-shadow: none;
+  margin: 20px 0 20px 80px;
+
 }
 
-.MainHeading_Image {
-  margin-left: -150px;
-  z-index: -2;
-}
+
+
 
 @media screen and (max-width: 799px) {
   .MainHeading_Container {
@@ -50,15 +71,25 @@
 
 /* 2. MainContentOne */
 .MainContentOne {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .MainContentOne_Container {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 53.2px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
+  
+  text-align: center;
 }
-
+.MainContentOne .extra-text{
+  
+  font-size: 35px;
+  font-weight:300;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 47px;
+  margin-bottom: 0;
+}
 /* 3. MainNumber */
 .MainNumber {
   margin-bottom: 60px;
@@ -89,37 +120,54 @@
 }
 
 .MainNumber_Two_Content {
-  font-size: 18px;
-  line-height: 24.75px;
+  font-size: 24px;
+  line-height: 33px;
   text-align: center;
-  color: #515151;
+  font-weight: 400;
+  
 }
-
+.MainNumber_Two img{
+  width: 30%!important;
+  margin: auto;
+}
+.MainNumber_image_box{
+  display: flex;
+  justify-content: center;
+}
 /* 4. MainContentTwo */
 .MainContentTwo {
   margin-bottom: 80px;
   background-image: url(https://images.prismic.io/marketersi/Zo0UOR5LeNNTw7vb_Untitleddesign-1-.png?auto=format,compress);
-  background-position: 500px 320px;
+  background-position: 136% 83%;
   background-repeat: no-repeat;
   background-size: 1000px;
 }
-
+@media screen and (min-width:1500px) and (max-width:1750px){
+  .MainContentTwo{
+    background-position: 110% 88%;
+  }
+}
+@media screen and (min-width:1751px) and (max-width:1950px){
+  .MainContentTwo{
+    background-position: 110% 83%;
+  }
+}
 .MainContentTwo_Container p {
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   margin: 0 0 30px;
 }
 
 .MainNumber_Two_Footer {
   display: flex;
   gap: 10px;
-  margin-left: auto;
   font-weight: 300;
   line-height: 12px;
   font-size: 12px;
   color: #515151;
-  text-align: left;
+  text-align:center;
+  justify-content: center;
 }
 .MainContentTwo_Container p:nth-child(4) {
   max-width: 700px;
@@ -131,24 +179,25 @@
 }
 
 .ResultTable_Title {
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .ResultTable_Table {
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.52) 0px 0px 28px 0px;
-  max-width: 1152px;
+  
   padding: 40px 40px 20px;
 }
 
 .ResultTable_Table_Row {
   padding-inline: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 0px 20px;
 }
@@ -166,20 +215,21 @@
 .ResultTable_Table_Row_Content {
   font-size: 24px;
   line-height: 27px;
-  max-width: 17ch;
-  color: #515151;
+  max-width: 24ch;
+  
 }
 
 .ResultTable_Table_Row_Button {
   cursor: pointer;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 40px;
   padding: 10px 30px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   background-color: white;
   border: 2px solid black;
   text-align: center;
+  font-size: 30px;
 }
 
 .ResultTable_Table_Row_Button:hover {
@@ -194,12 +244,12 @@
 }
 
 .Strategy_Title {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   color: #333333;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .Strategy_Cards {
@@ -217,9 +267,10 @@
 
 .Strategy_Card_Title {
   color: #333;
-  font-size: 30px;
-  line-height: 49.5px;
+  font-size: 33px;
+  line-height: 37px;
   text-align: center;
+  font-weight: 400;
 }
 
 .Strategy_Card_Title_Number {
@@ -234,21 +285,22 @@ img.strategyImg {
 }
 
 .Strategy_Card_Content_One {
-  color: #515151;
-  font-weight: 500;
-  line-height: 24px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .Strategy_Card_Content_Two {
-  color: #515151;
-  line-height: 24px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
 }
 
 /* 7. Testimonial */
 .Testimonial {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 
 .Testimonial_Card {
@@ -268,7 +320,7 @@ img.strategyImg {
   color: #010101;
   font-family: Georgia;
   font-size: 35px;
-  line-height: 1.4;
+  line-height: 44px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -289,7 +341,7 @@ img.strategyImg {
 
 /* 8. ResultMax */
 .ResultMax {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .ResultMax_Title {
@@ -298,7 +350,7 @@ img.strategyImg {
   font-weight: 700;
   line-height: 55.8px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .ResultMax_Content_One {
@@ -307,7 +359,7 @@ img.strategyImg {
   font-style: italic;
   line-height: 28.8px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .ResultMax_Content_Two {
@@ -320,17 +372,20 @@ img.strategyImg {
 /* 9. Analysis */
 .Analysis {
   margin-bottom: 60px;
-  padding: 0 100px;
+  padding: 0;
 }
 
 .Analysis_Card {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
+  
+  margin-bottom: 70px;
 }
 
 .Analysis_Card_Content_Odd {
   text-align: right;
+}
+.Analysis_Card img{
+  width: 100%;
+  object-fit: cover;
 }
 
 .Analysis_Card_Content_Title {
@@ -413,6 +468,10 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
 }
 
 .Analysis1_Dropdown_Image {
@@ -425,7 +484,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
 }
 
@@ -435,7 +494,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
-  max-width: 900px;
+ 
   text-align: left;
   margin-bottom: 30px;
   width: 100%;
@@ -446,7 +505,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -455,7 +514,7 @@ img.strategyImg {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-width: 900px;
+  
 }
 .AnalysisCardDes {
   margin: 0 0 20px;
@@ -463,28 +522,28 @@ img.strategyImg {
 
 .Analysis1_GridItem1 {
   flex: 0 0 calc(50% - 10px);
-  background-color: #feaf4a;
+  background-color: #00bfff;
   padding: 75px;
   color: white;
 }
 
 .Analysis1_GridItem2 {
   flex: 0 0 calc(50% - 10px);
-  background-color: #f78061;
+  background-color: #00bfff;
   padding: 75px;
   color: white;
 }
 
 .Analysis1_GridItem3 {
   flex: 0 0 calc(50% - 10px);
-  background-color: #57becb;
+  background-color: #00bfff;
   padding: 75px;
   color: white;
 }
 
 .Analysis1_GridItem4 {
   flex: 0 0 calc(50% - 10px);
-  background-color: #8e86ad;
+  background-color: #00bfff;
   padding: 75px;
   color: white;
 }
@@ -493,6 +552,10 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
 }
 
 .Analysis2_Dropdown_Text1 {
@@ -500,7 +563,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+ 
   margin-bottom: 30px;
 }
 
@@ -509,7 +572,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+ 
   margin-bottom: 30px;
 }
 
@@ -518,7 +581,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
 }
 
@@ -527,7 +590,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
 }
 
@@ -547,6 +610,10 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
 }
 
 .Analysis3_Dropdown_Text1 {
@@ -554,7 +621,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
 }
 
@@ -563,7 +630,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+  
   margin-bottom: 30px;
 }
 
@@ -572,7 +639,7 @@ img.strategyImg {
   font-size: 18px;
   font-weight: 300;
   line-height: 27px;
-  max-width: 900px;
+
   margin-bottom: 30px;
 }
 
@@ -638,7 +705,10 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-inline: 30px;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
 }
 
 .Analysis4_Panel {
@@ -701,6 +771,7 @@ img.strategyImg {
   font-weight: 300;
   line-height: 53.2px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .WhatRecieve_Title_Two {
@@ -879,8 +950,8 @@ img.strategyImg {
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0) 0px 0px 0px 0px;
   color: #333;
-  background-color: #00fe04;
-  border: 2px solid #00fe04;
+  background-color: #00bfff;
+  border: 2px solid #00bfff;
   width: fit-content;
 }
 
@@ -888,6 +959,7 @@ img.strategyImg {
   background-color: #00bfff;
   color: #fff;
   width: fit-content;
+  border-color: #00bfff;
 }
 
 .ImageAdvantage_Dropdown {
@@ -911,7 +983,7 @@ img.strategyImg {
 
 /* 12. InviteCustomer */
 .InviteCustomer {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .InviteCustomer_Title {
@@ -920,7 +992,7 @@ img.strategyImg {
   font-weight: 700;
   line-height: 55.8px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .InviteCustomer_Content {
@@ -989,7 +1061,7 @@ img.strategyImg {
 
 /* 15. QuoteTwo */
 .QuoteTwo {
-  margin-bottom: 140px;
+  margin-bottom: 80px;
 }
 
 .QuoteTwo_Title {
@@ -1027,13 +1099,14 @@ img.strategyImg {
   font-size: 55px;
   text-align: center;
   font-weight: 600;
-  margin: 70px 0 0;
+  margin: 80px 0 0;
 }
 /* 16. OurClients */
 
 /* 17. Price */
 .Price {
   margin-bottom: 100px;
+  margin-top: 530px;
 }
 
 .Price_Title {
@@ -1294,11 +1367,10 @@ img.strategyImg {
 /* Modal */
 .Modal {
   position: absolute;
-  top: 10px;
-  left: 40px;
-  right: 40px;
-  bottom: 20px;
+  width: 650px;
   background-color: #161616;
+  border: none;
+  outline: none;
 }
 
 .Overlay {
@@ -1327,8 +1399,9 @@ img.strategyImg {
   font-weight: 300;
   line-height: 30px;
   text-align: center;
-  padding-inline: 100px;
-  margin-top: -80px;
+  margin: 20px 0;
+  padding-inline: 50px;
+ 
 }
 .ModalCard p {
   text-align: center;
@@ -1337,7 +1410,7 @@ img.strategyImg {
 .component-two_section textarea {
   border-radius: 20px;
   border-color: #cecece;
-  width: 90%;
+  width: 100%;
   padding: 12px;
   outline: none;
   margin: 0 auto;
@@ -1351,20 +1424,23 @@ img.strategyImg {
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 15px 0px, #ffffff 0px 0px 0px 0px,
     #ffffff 2px 2px 2px 0px inset, #c7c7c7 -2px -2px 2px 0px inset;
-  padding: 20px;
-  padding-bottom: 0px;
-  padding-top: 40px;
-  margin-top: -50px;
+  padding: 40px 100px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.component-two_section {
-  margin-bottom: -50px;
+.ModalCard>div{
+  width: 100%;
 }
+.ModalCard .componentThree_input-container{
+  padding: 20px 0 0;
+}
+
 .formTwo {
-  margin-bottom: -50px;
+  margin-bottom:0px;
+  width: 100%;
 }
 .componentThree_section h2 {
   text-align: center;
@@ -1378,7 +1454,7 @@ img.strategyImg {
   text-align: center;
 }
 .contact {
-  right: -250px;
+  right: -290px;
 }
 .contact h5 {
   color: white;
@@ -1403,6 +1479,9 @@ img.strategyImg {
 
 .ModalDropdown {
   margin-bottom: 10px;
+}
+.ModalCard .componentThree_input-container input, .ModalCard .componentThree_input-container .cennikBtn, .ModalCard .select-input{
+  width: 100%;
 }
 
 .ModalSubmitButton {
@@ -1463,8 +1542,7 @@ img.strategyImg {
 }
 
 .OurClients_Slide_Media {
-  display: grid;
-  grid-template-columns: 40% 1fr;
+  
 }
 
 .OurClients_Slide_Title {
@@ -1475,9 +1553,17 @@ img.strategyImg {
 }
 
 .OurClients_Slide_Media_Rating {
-  margin-left: -50px;
+  
   display: flex;
   gap: 10px;
+}
+.OurClients{
+  position: relative;
+  margin-bottom: 80px;
+}
+.OurClients .OurClients_Marquee{
+  position: absolute;
+  bottom: 0;
 }
 
 .OurClients_Slide_Star_Reviewer {

@@ -20,7 +20,7 @@ export default function Price() {
   ];
 
   return (
-    <div className="Price content">
+    <div className="Price WidthContent">
       <div className="Price_Title popout">{priceSection?.title}</div>
       <div className="Price_Container full">
         <div className="Price_Card_Container">

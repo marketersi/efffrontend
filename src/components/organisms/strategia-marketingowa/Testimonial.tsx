@@ -22,7 +22,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <div className="Testimonial content">
+    <div className="Testimonial WidthContent">
       <div className="Testimonial_Card feature">
         <div>
           <img
@@ -41,7 +41,7 @@ export default function Testimonial() {
               className="Testimonial_Card_Content_Button"
               onClick={handleOpenModal}
             >
-              {testimonial?.button_text}
+              Brzmi świetnie. Wyślijcie mi ofertę
             </button>
           </div>
         </div>

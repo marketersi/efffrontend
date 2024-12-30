@@ -6,7 +6,7 @@ export default function QuoteOne() {
   const { quoteOne } = screenData;
 
   return (
-    <div className="QuoteOne content">
+    <div className="QuoteOne WidthContent">
       {/* to be deleted: display none for now */}
       <div className="QuoteOne_Image full" style={{ display: 'none' }}>
         <img src={quoteOne?.image} alt="QuoteOneImage" />

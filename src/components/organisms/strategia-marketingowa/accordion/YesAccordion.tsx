@@ -36,43 +36,45 @@ const YesAccordion = () => {
   };
 
   return (
-    <>
-      <div className="faqContainer">
-        <div className="header__top__left"></div>
-        {FAQsection?.FAQcard.map((item, index) => (
-          <div key={index} className="accordion-item">
-            <div
-              className={`accordion-title ${
-                index === activeIndex ? "active" : ""
-              }`}
-              onClick={() => handleClick(index)}
-            >
-              <div style={{ flex: 1 }}>{item.question}</div>
+    <div className="faqContainer">
+    <div className="header__top__left"></div>
+    {FAQsection?.FAQcard.map((item, index) => (
+      <div key={index} className="accordion-item">
+        <div
+          className={`accordion-title ${
+            index === activeIndex ? "active" : ""
+          }`}
+          onClick={() => handleClick(index)}
+        >
+          <div style={{ flex: 1 }}>{item.question}</div>
 
-              <motion.div
-                className="yes_accordion_animated_text"
-                initial="offscreen"
-                whileInView="onscreen"
-                variants={slideAnimationTop}
-              >
-                <span>T</span>
-                <span>A</span>
-                <span>K</span>
-              </motion.div>
+          <motion.div
+            className="yes_accordion_animated_text"
+            initial="offscreen"
+            whileInView="onscreen"
+            variants={slideAnimationTop}
+          >
+            <span>T</span>
+            <span>A</span>
+            <span>K</span>
+          </motion.div>
 
-              {index === activeIndex ? (
-                <FontAwesomeIcon icon={faMinus} className="icon" />
-              ) : (
-                <FontAwesomeIcon icon={faPlus} className="icon" />
-              )}
-            </div>
-            {index === activeIndex && (
-              <div className="accordion-content">{item.answer}</div>
-            )}
-          </div>
-        ))}
+          {index === activeIndex ? (
+            <FontAwesomeIcon icon={faMinus} className="icon" />
+          ) : (
+            <FontAwesomeIcon icon={faPlus} className="icon" />
+          )}
+        </div>
+        {index === activeIndex && (
+          <div
+            className="accordion-content"
+            dangerouslySetInnerHTML={{ __html: item.answer }}
+          ></div>
+        )}
       </div>
-    </>
+    ))}
+  </div>
+  
   );
 };
 

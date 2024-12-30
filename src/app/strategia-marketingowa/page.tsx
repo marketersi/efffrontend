@@ -1,4 +1,5 @@
 'use client';
+import React, { useState } from 'react';
 import Analysis from '../../components/organisms/strategia-marketingowa/Analysis';
 import AnswerAll from '../../components/organisms/strategia-marketingowa/AnswerAll';
 import Branding from '../../components/organisms/strategia-marketingowa/Branding';
@@ -27,9 +28,11 @@ import './strategiamarketingowa.css';
 import { FETCH_HOME_SCREEN_DATA } from '@/redux/home/homeAction';
 import { FETCH_PRICELIST_SCREEN_DATA } from '@/redux/cennik/pricelistAction';
 import BounceLoader from 'react-spinners/BounceLoader';
+import { FETCH_SALES_SCREEN_DATA } from '@/redux/tresci/salescontentAction';
+
 
 const StrategiaMarketingowa = () => {
-  const { isLoading } = useSelector((state) => state.strategy);
+  const { isLoading, screenData } = useSelector((state) => state.strategy);
 
   const dispatch = useDispatch();
 
@@ -37,7 +40,11 @@ const StrategiaMarketingowa = () => {
     dispatch({ type: FETCH_STRATEGY_SCREEN_DATA });
     dispatch({ type: FETCH_HOME_SCREEN_DATA });
     dispatch({ type: FETCH_PRICELIST_SCREEN_DATA });
+    dispatch({ type: FETCH_SALES_SCREEN_DATA });
   }, [dispatch]);
+
+   
+
 
   if (isLoading)
     return (
@@ -49,7 +56,7 @@ const StrategiaMarketingowa = () => {
   return (
     <>
       <div>
-        <MainHeading />
+        <MainHeading/>
 
         <MainContentOne />
 
@@ -75,7 +82,7 @@ const StrategiaMarketingowa = () => {
 
         <QuoteOne />
 
-        <Branding />
+        
 
         <QuoteTwo />
 

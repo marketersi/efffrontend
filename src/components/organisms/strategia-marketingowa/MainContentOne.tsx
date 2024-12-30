@@ -7,10 +7,14 @@ export default function MainContentOne() {
   const { MainContentOne } = screenData.MainContent || {};
 
   return (
-    <div className="MainContentOne content">
+    <div className="MainContentOne WidthContent">
       <div className="MainContentOne_Container">
-        {MainContentOne?.description}
+        {/* {MainContentOne?.description} */}
+        Tworzymy skuteczne strategie, które przyciągają klientów i przynoszą zyski.
       </div>
+      <p className="extra-text">
+      Z nami Twój biznes rośnie, a Ty możesz cieszyć się realnymi efektami i trwałą przewagą na rynku!
+      </p>
     </div>
   );
 }

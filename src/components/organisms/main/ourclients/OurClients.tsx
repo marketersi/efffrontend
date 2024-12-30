@@ -34,7 +34,7 @@ export default function OurClients() {
   // };
 
   return (
-    <div className="OurClients content mt-5 mobile-mt">
+    <div className="OurClients WidthContent mobile-mt">
       <div className="OurClients_Marquee full mobile">
         <Marquee autoFill speed={175}>
           {row1?.map((e, i) => {

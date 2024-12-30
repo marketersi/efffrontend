@@ -7,7 +7,7 @@ export default function StrategyAction() {
   const { StrategyAction } = screenData;
 
   return (
-    <div className="StrategyAction content">
+    <div className="StrategyAction WidthContent">
       <div className="StrategyAction_Container full">
         <div className="StrategyAction_Content_Container">
           <div className="StrategyAction_Content_Title">

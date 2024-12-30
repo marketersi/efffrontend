@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SurveyModal from "./SurveyModal";
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -14,6 +14,24 @@ export default function ResultTable() {
   const handleCloseModal = () => {
     setShowModal(false);
   };
+
+// Prevent browser back button when modal is open
+useEffect(() => {
+  if (showModal) {
+    const handleBackButton = (event) => {
+      event.preventDefault();
+      window.history.pushState(null, null, window.location.href);
+    };
+
+    window.history.pushState(null, null, window.location.href); // Add a new history state
+    window.addEventListener("popstate", handleBackButton);
+
+    return () => {
+      window.removeEventListener("popstate", handleBackButton); // Clean up on modal close
+    };
+  }
+}, [showModal]);
+
   const options = [
     { value: "chocolate", label: "Chocolate" },
     { value: "strawberry", label: "Strawberry" },
@@ -21,7 +39,7 @@ export default function ResultTable() {
   ];
 
   return (
-    <div className="ResultTable content">
+    <div className="ResultTable WidthContent">
       <div className="ResultTable_Title">{ResultTable?.title}</div>
       <div className="ResultTable_Table feature">
         {ResultTable?.resultCard.map((item) => (
@@ -42,7 +60,7 @@ export default function ResultTable() {
                 className="ResultTable_Table_Row_Button"
                 onClick={() => handleOpenModal(item.id)}
               >
-                Zapytaj o szczegóły (Case study)
+                Poznaj ofertę
               </div>
             </div>
           </div>

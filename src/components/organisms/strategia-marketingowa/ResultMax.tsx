@@ -5,7 +5,7 @@ export default function ResultMax() {
   const { resultMax } = screenData;
 
   return (
-    <div className="ResultMax content">
+    <div className="ResultMax WidthContent">
       <div className="ResultMax_Title feature">{resultMax?.title}</div>
       <div className="ResultMax_Content_One feature">{resultMax?.subtitle}</div>
       <div className="ResultMax_Content_Two">{resultMax?.description}</div>

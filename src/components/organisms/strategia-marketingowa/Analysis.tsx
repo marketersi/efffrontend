@@ -14,10 +14,10 @@ export default function Analysis() {
   const [Analysis4_Dropdown_Show, setAnalysis4_Dropdown_Show] = useState(true);
 
   return (
-    <div className="Analysis content">
+    <div className="Analysis WidthContent">
       {/* Card 1 */}
-      <div className="Analysis_Card full">
-        <div className="Analysis_Card_Content">
+      <div className="Analysis_Card full row">
+        <div className="Analysis_Card_Content col-md-6">
           <div className="Analysis_Card_Content_Title">{Card1?.title}</div>
           <div className="Analysis_Card_Content_Text">{Card1?.subtitle}</div>
           <div className="Analysis_Card_Content_Table">
@@ -49,7 +49,7 @@ export default function Analysis() {
           </div>
         </div>
 
-        <div className="Analysis_Card_img_order">
+        <div className="Analysis_Card_img_order col-md-6">
           <Image
             src={Card1?.main_image}
             alt="AnalysisImage1"
@@ -122,8 +122,8 @@ export default function Analysis() {
       </div>
 
       {/* Card 2 */}
-      <div className="Analysis_Card full">
-        <div className="analysis_card_img2">
+      <div className="Analysis_Card full row">
+        <div className="analysis_card_img2 col-md-6">
           <Image
             src={Card2?.main_image}
             alt="AnalysisImage2"
@@ -131,7 +131,7 @@ export default function Analysis() {
             width={652}
           />
         </div>
-        <div className="Analysis_Card_Content_Odd">
+        <div className="Analysis_Card_Content_Odd col-md-6">
           <div className="Analysis_Card_Content_Title">{Card2?.title}</div>
           <div className="Analysis_Card_Content_Text">{Card2?.subtitle}</div>
           <div className="Analysis_Card_Content_Table_Odd">
@@ -198,8 +198,8 @@ export default function Analysis() {
       </div>
 
       {/* Card 3 */}
-      <div className="Analysis_Card full">
-        <div className="Analysis_Card_Content">
+      <div className="Analysis_Card full row">
+        <div className="Analysis_Card_Content col-md-6">
           <div className="Analysis_Card_Content_Title">{Card3?.title}</div>
           <div className="Analysis_Card_Content_Text">{Card3?.subtitle}</div>
           <div className="Analysis_Card_Content_Table">
@@ -230,7 +230,7 @@ export default function Analysis() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="col-md-6">
           <Image
             src={Card3?.main_image}
             alt="AnalysisImage3"
@@ -274,15 +274,15 @@ export default function Analysis() {
       </div>
 
       {/* Card 4 */}
-      <div className="Analysis_Card full mt-5">
-        <div>
+      <div className="Analysis_Card full row">
+        <div className="col-md-6">
           <img
             src={Card4?.main_image}
             alt="AnalysisImage4"
             style={{ width: '600px', height: 'auto' }}
           />
         </div>
-        <div className="Analysis_Card_Content_Odd">
+        <div className="Analysis_Card_Content_Odd col-md-6">
           <div className="Analysis_Card_Content_Title">{Card4?.title}</div>
           <div className="Analysis_Card_Content_Text">{Card4?.subtitle}</div>
           <div className="Analysis_Card_Content_Table_Odd">

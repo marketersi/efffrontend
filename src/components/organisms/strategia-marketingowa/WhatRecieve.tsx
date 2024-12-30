@@ -10,7 +10,7 @@ export default function WhatRecieve() {
     useState(true);
 
   return (
-    <div className="WhatRecieve content">
+    <div className="WhatRecieve WidthContent">
       {/* One */}
       <div className="WhatRecieve_Title_One">{WhatReceive?.title}</div>
       <div className="WhatRecieve_Content_One">
@@ -22,7 +22,7 @@ export default function WhatRecieve() {
         {WhatReceive?.description_2}
       </div>
       {/* Table */}
-      <div className="WhatRecieve_Table">
+      {/* <div className="WhatRecieve_Table">
         <div className="WhatRecieve_Table_Column">
           <div>{WhatReceive?.info_1}</div>
           <div>{WhatReceive?.info_2}</div>
@@ -35,9 +35,9 @@ export default function WhatRecieve() {
           <div>{WhatReceive?.info_5}</div>
           <div>{WhatReceive?.info_6}</div>
         </div>
-      </div>
+      </div> */}
       {/* Image 1 */}
-      <div
+      {/* <div
         className="full WhatRecieveImage1"
         style={{ marginBottom: '30px', textAlign: 'center' }}
       >
@@ -47,7 +47,7 @@ export default function WhatRecieve() {
           height={435}
           width={1200}
         />
-      </div>
+      </div> */}
       {/* Three */}
       <div className="WhatRecieve_Title_Three">
         {WhatReceive?.description_3}

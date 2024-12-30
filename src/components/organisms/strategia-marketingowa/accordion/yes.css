@@ -1,7 +1,7 @@
 .faqContainer {
-  max-width: 690px;
+  
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 .faqContainer .svg-inline--fa {
   height: 14px;
@@ -11,15 +11,10 @@
   border-radius: 100%;
 }
 .accordion-item {
-  padding: 15px 20px 15px 20px;
+  
   border-bottom: 1px solid #cecece;
 }
-.accordion-title {
-  display: flex;
-  align-items: center;
-  font-size: 22px;
-  font-weight: 400;
-}
+
 
 .faqContainer .accordion-item {
   position: relative;
@@ -38,7 +33,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #00bfff;
   pointer-events: none;
   z-index: -1;
   -webkit-transition: width 0.3s ease-in-out;

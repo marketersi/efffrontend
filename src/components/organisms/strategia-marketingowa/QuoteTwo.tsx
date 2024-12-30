@@ -6,7 +6,7 @@ export default function QuoteTwo() {
   const { quoteTwo } = screenData;
 
   return (
-    <div className="QuoteTwo content">
+    <div className="QuoteTwo WidthContent">
       <div className="QuoteTwo_Title feature">{quoteTwo?.title_1}</div>
       <div className="QuoteTwo_TextOne">{quoteTwo?.description_1}</div>
       <div className="QuoteTwo_TextTwo">{quoteTwo?.description_2}</div>

@@ -16,7 +16,7 @@ export default function SurveyModal(props) {
     <ReactModal
       isOpen={props.showModal}
       contentLabel="Form Modal"
-      className="Modal content"
+      className="Modal"
       overlayClassName="Overlay"
     >
       <div className="ModalTitle">

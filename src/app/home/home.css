@@ -33,10 +33,7 @@
 /* Modal */
 .Modal {
   position: absolute;
-  top: 10px;
-  left: 40px;
-  right: 40px;
-  bottom: 20px;
+  
   background-color: #161616;
 }
 .Overlay {
@@ -64,7 +61,7 @@
   line-height: 30px;
   text-align: center;
   padding-inline: 100px;
-  margin-top: -60px;
+  
 }
 .ModalCard {
   max-width: 1280px;
