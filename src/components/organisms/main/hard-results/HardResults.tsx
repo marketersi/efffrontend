@@ -34,12 +34,12 @@ const Entrepreneur = () => {
                 url={section5?.video_url}
                 playing={true}
                 loop={true}
-                width="100%"
+                width="80%"
                 height="auto"
                 muted={true}
                 pip={false}
                 playsinline
-                style={{ margin: "0 auto" }}
+                style={{ margin: "20px auto 0" }}
               />
             </Col>
           </Row>

@@ -309,11 +309,12 @@ img.strategyImg {
 
 .Testimonial_Card_Content {
   background-color: white;
-  padding: 30px;
+  padding: 40px;
   margin-left: -150px;
-  margin-block: 50px;
+  margin-block: 110px;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.38) 0px 0px 50px 0px;
+    height: fit-content;
 }
 
 .Testimonial_Card_Content_Title {
@@ -329,11 +330,11 @@ img.strategyImg {
   background-color: var(--brand-blue);
   color: #2b2b2b;
   cursor: pointer;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
   text-align: center;
-  padding: 25px 20px;
+  padding: 8px 20px;
   border: none;
   margin: 0 auto;
   display: block;
@@ -346,18 +347,18 @@ img.strategyImg {
 
 .ResultMax_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 100px;
 }
 
 .ResultMax_Content_One {
   color: #333333;
-  font-size: 32px;
-  font-style: italic;
-  line-height: 28.8px;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 47px;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -366,7 +367,8 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
+  text-align: center;
 }
 
 /* 9. Analysis */
@@ -376,7 +378,7 @@ img.strategyImg {
 }
 
 .Analysis_Card {
-  
+  align-items: center;
   margin-bottom: 70px;
 }
 
@@ -390,16 +392,18 @@ img.strategyImg {
 
 .Analysis_Card_Content_Title {
   color: #333;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 58px;
+  line-height: 86px;
   margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .Analysis_Card_Content_Text {
-  color: #515151;
-  font-size: 26px;
-  line-height: 38px;
+ 
+  font-size: 29px;
+  line-height: 29px;
   margin-bottom: 25px;
+  font-weight: 500;
 }
 
 .Analysis_Card_Content_Table {
@@ -420,16 +424,16 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color: #515151;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 21px;
+  
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .Analysis_Card_Content_Button {
   cursor: pointer;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 40px;
   padding: 10px 20px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -440,22 +444,26 @@ img.strategyImg {
   text-align: center;
   width: fit-content;
   margin: 0 auto;
+  font-size: 30px;
 }
 
 .Analysis_Card_Content_Button_Clicked {
   cursor: pointer;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 40px;
   padding: 10px 20px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0) 0px 0px 0px 0px;
   color: #333;
-  background-color: #00fe04;
-  border: 2px solid #00fe04;
+  background-color: #00bfff;
+  border: 2px solid #00bfff;
   width: fit-content;
   margin: 0 auto;
+  font-size: 30px;
+  border: none;
+  outline: none;
 }
 
 .Analysis_Card_Content_Button:hover {
@@ -481,9 +489,9 @@ img.strategyImg {
 
 .Analysis1_Dropdown_Text1 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
 }
@@ -491,9 +499,9 @@ img.strategyImg {
 .Analysis1_Dropdown_Text2 {
   color: #333333;
   display: inline;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 50px;
  
   text-align: left;
   margin-bottom: 30px;
@@ -502,9 +510,9 @@ img.strategyImg {
 
 .Analysis1_Dropdown_Text3 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
   margin-bottom: 30px;
@@ -518,33 +526,36 @@ img.strategyImg {
 }
 .AnalysisCardDes {
   margin: 0 0 20px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
 }
 
 .Analysis1_GridItem1 {
   flex: 0 0 calc(50% - 10px);
   background-color: #00bfff;
-  padding: 75px;
+  padding: 40px;
   color: white;
 }
 
 .Analysis1_GridItem2 {
   flex: 0 0 calc(50% - 10px);
   background-color: #00bfff;
-  padding: 75px;
+  padding: 40px;
   color: white;
 }
 
 .Analysis1_GridItem3 {
   flex: 0 0 calc(50% - 10px);
   background-color: #00bfff;
-  padding: 75px;
+  padding: 40px;
   color: white;
 }
 
 .Analysis1_GridItem4 {
   flex: 0 0 calc(50% - 10px);
   background-color: #00bfff;
-  padding: 75px;
+  padding: 40px;
   color: white;
 }
 
@@ -560,36 +571,36 @@ img.strategyImg {
 
 .Analysis2_Dropdown_Text1 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
  
   margin-bottom: 30px;
 }
 
 .Analysis2_Dropdown_Text2 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
  
   margin-bottom: 30px;
 }
 
 .Analysis2_Dropdown_Text3 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
 }
 
 .Analysis2_Dropdown_Text4 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
 }
@@ -618,27 +629,27 @@ img.strategyImg {
 
 .Analysis3_Dropdown_Text1 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
 }
 
 .Analysis3_Dropdown_Text2 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   
   margin-bottom: 30px;
 }
 
 .Analysis3_Dropdown_Text3 {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
 
   margin-bottom: 30px;
 }
@@ -651,7 +662,7 @@ img.strategyImg {
 
 .Analysis3_Grid {
   display: grid;
-  gap: 30px;
+  gap: 0px;
   flex-wrap: wrap;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -686,18 +697,18 @@ img.strategyImg {
 
 .Analysis3_GridItemTitle {
   color: #333333;
-  font-size: 28px;
-  line-height: 53.2px;
-  max-width: 1088px;
+  font-size: 33px;
+  line-height: 37px;
+  font-weight: 400;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .Analysis3_GridItemContent {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   max-width: 400px;
 }
 
@@ -709,6 +720,7 @@ img.strategyImg {
   margin: 20px 0 50px;
   border-top: 1px solid gray;
   border-bottom: 1px solid grey;
+  gap: 50px;
 }
 
 .Analysis4_Panel {
@@ -732,23 +744,22 @@ img.strategyImg {
   font-weight: 700;
   line-height: 60.8px;
   max-width: 1088px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .Analysis4_PanelTextContent {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   max-width: 1088px;
   margin-bottom: 20px;
 }
 .card4Img {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-left: auto;
   display: block;
-  margin-top: 30px;
 }
 
 /* 10. WhatRecieve */
@@ -758,9 +769,9 @@ img.strategyImg {
 
 .WhatRecieve_Title_One {
   color: #333333;
-  font-size: 105px;
-  font-weight: 700;
-  line-height: 103.5px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -769,17 +780,18 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   margin-bottom: 60px;
   text-align: center;
 }
 
 .WhatRecieve_Title_Two {
   color: #333333;
-  font-size: 32px;
-  line-height: 60.8px;
+  font-size: 74px;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 900;
 }
 
 .WhatRecieve_Content_Two {
@@ -793,9 +805,9 @@ img.strategyImg {
 
 .WhatRecieve_Title_Three {
   color: #333333;
-  font-size: 30px;
-  font-style: italic;
-  line-height: 45px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -804,7 +816,7 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   margin-bottom: 60px;
 }
 
@@ -812,7 +824,7 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   margin-bottom: 60px;
 }
 
@@ -844,35 +856,35 @@ img.strategyImg {
 
 .WhatRecieve_Dropdown_TitleOne {
   color: #333333;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 27px;
-  padding-inline: 50px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+ 
   margin-bottom: 50px;
 }
 
 .WhatRecieve_Dropdown_TitleTwo {
   color: #333333;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 27px;
-  padding-inline: 50px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  
   margin-bottom: 50px;
 }
 
 .WhatRecieve_Dropdown_ContentOne {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   margin-bottom: 50px;
 }
 
 .WhatRecieve_Dropdown_ContentTwo {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   margin-bottom: 50px;
 }
 
@@ -911,11 +923,10 @@ img.strategyImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 6px;
-  color: #515151;
-  font-size: 14px;
+  gap: 10px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 21px;
+  line-height: 50px;
 }
 
 .ImageAdvantage_Button_Container {
@@ -928,8 +939,8 @@ img.strategyImg {
 
 .ImageAdvantage_Button {
   cursor: pointer;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 40px;
   padding: 10px 20px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -938,12 +949,17 @@ img.strategyImg {
   background-color: transparent;
   border: 2px solid black;
   width: fit-content;
+  font-size: 30px;
+}
+.Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column{
+  align-items: end;
+  text-align: right;
 }
 
 .ImageAdvantage_Button_Clicked {
   cursor: pointer;
-  font-weight: 700;
-  line-height: 24px;
+  font-weight: 400;
+  line-height: 40px;
   padding: 10px 20px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -953,6 +969,7 @@ img.strategyImg {
   background-color: #00bfff;
   border: 2px solid #00bfff;
   width: fit-content;
+  font-size: 30px;
 }
 
 .ImageAdvantage_Button:hover {
@@ -963,22 +980,25 @@ img.strategyImg {
 }
 
 .ImageAdvantage_Dropdown {
-  margin-top: 20px;
+  margin: 30px 0;
+  padding: 25px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .ImageAdvantage_Dropdown_ContentOne {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   margin-bottom: 50px;
 }
 
 .ImageAdvantage_Dropdown_ContentTwo {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
 }
 
 /* 12. InviteCustomer */
@@ -988,9 +1008,9 @@ img.strategyImg {
 
 .InviteCustomer_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -999,7 +1019,7 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -1015,11 +1035,11 @@ img.strategyImg {
 
 .QuoteOne_Text {
   color: #454545;
-  font-size: 62px;
+  font-size: 35px;
   font-style: italic;
-  line-height: 55.8px;
+  line-height: 47px;
   text-align: center;
-  font-family: Georgia;
+  
 }
 
 /* 14. Branding */
@@ -1066,9 +1086,9 @@ img.strategyImg {
 
 .QuoteTwo_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -1077,7 +1097,7 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
   margin-bottom: 40px;
 }
 
@@ -1085,7 +1105,7 @@ img.strategyImg {
   color: #333333;
   font-size: 28px;
   font-weight: 300;
-  line-height: 53.2px;
+  line-height: 50px;
 }
 
 .QuoteTwo_Image {
@@ -1096,10 +1116,11 @@ img.strategyImg {
   justify-content: center;
 }
 .clientReviewHeading h2 {
-  font-size: 55px;
+  font-size: 35px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 300;
   margin: 80px 0 0;
+  line-height: 47px;
 }
 /* 16. OurClients */
 
@@ -1111,21 +1132,21 @@ img.strategyImg {
 
 .Price_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 1.4;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 35px;
 }
 
 .Price_Container {
-  padding-inline: 40px;
+  padding-inline: 0px;
 }
 
 .Price_Card_Container {
   display: flex;
-  justify-content: center;
-  gap: 45px;
+  justify-content: space-between;
+  
 }
 
 .Price_Card {
@@ -1134,7 +1155,7 @@ img.strategyImg {
   flex-shrink: 1;
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 385px;
 }
 
 .Price_Card_Number {
@@ -1158,23 +1179,23 @@ img.strategyImg {
 
 .Price_Card_Main_Title {
   color: #333333;
-  font-size: 30px;
+  font-size: 58px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 86px;
   text-align: center;
   margin-bottom: 30px;
 }
 
 .Price_Card_Main_TextOne {
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 25.5px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .Price_Card_Main_ContentOne {
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 300;
   line-height: 25.5px;
   text-align: center;
@@ -1182,25 +1203,25 @@ img.strategyImg {
 }
 
 .Price_Card_Main_TextTwo {
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 25.5px;
+  line-height: 22px;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .Price_Card_Main_ContentTwo {
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 25.5px;
+  line-height: 22px;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .Price_Card_Main_Footer {
-  font-size: 11px;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 15.125px;
+  line-height: 22px;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -1215,10 +1236,13 @@ img.strategyImg {
   font-weight: 700;
   line-height: 24px;
   opacity: 0.8;
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-align: center;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
 /* 18. StrategyAction */
@@ -1230,42 +1254,39 @@ img.strategyImg {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding-inline: 60px;
-  max-width: 1300px;
-  margin: 0 auto;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 }
 
 .StrategyAction_Content_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
   text-align: left;
   margin-bottom: 40px;
 }
 
 .StrategyAction_Content_TextOne {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
   margin-bottom: 40px;
 }
 
 .StrategyAction_Content_TextTwo {
   color: #333333;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 50px;
 }
 
 /* 19. AnswerAll */
 .AnswerAll_Title {
   color: #333333;
-  font-size: 62px;
-  font-weight: 700;
-  line-height: 55.8px;
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 84px;
   text-align: center;
   margin-bottom: 35px;
 }
