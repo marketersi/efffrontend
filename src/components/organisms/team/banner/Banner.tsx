@@ -17,28 +17,28 @@ const  osClass = useOsClass();
     <div className={style.banner}>
       <div className={style.zespolVideo}>
         <div className={osClass}>
-        {/* <ReactPlayer
+         <ReactPlayer
           url={herosection?.background_video}
           playing={true}
           loop={true}
           muted={true}
           width="100%"
           height="auto"
-          playsinline
+          playsinline-
           className={style.bannerVideo}
-        /> */}
+        /> 
         </div>
       </div>
       <div className={style.overlay}></div>
 
-      <Container>
+      <Container className='WidthContent'>
         <div className={style.bannerHeading}>
           <h1>{herosection?.main_title}</h1>
         </div>
         {/* <div className={style.img20}>
           <img src={herosection?.left_image} alt="" />
         </div> */}
-        <div className={style.bannerBottomContent}>
+        <div className={`${style.bannerBottomContent} display-block`}>
           <Row>
             <Col xxl={6} lg={7} className="order-lg-1 order-2">
               <div className={style.BannerBotHeading}>
@@ -58,6 +58,29 @@ const  osClass = useOsClass();
             <p>{herosection?.para_one}</p>
             <p>{herosection?.para_two}</p>
           </div>
+        </div>
+
+
+        <div className={`${style.bannerBottomContent1} mobile-block`}>
+          <Row>
+            <Col xxl={12} lg={12} className="order-lg-1 order-2">
+              <div className={style.BannerBotHeading}>
+                <h4>{herosection?.sub_title}</h4>
+                <div className={style.BannerBotImg}>
+                {/* <img src={herosection?.right_image} alt="" /> */}
+                <img src={herosection?.left_image} alt="" />
+              </div>
+                <h2>{herosection?.title_2}</h2>
+              </div>
+            </Col>
+            {/* to be deleted */}
+            
+          </Row>
+          <div className={`${style.teamContent} ${style.bannerContent}`}>
+            <p>{herosection?.para_one}</p>
+            <p>{herosection?.para_two}</p>
+          </div>
+          
         </div>
       </Container>
     </div>

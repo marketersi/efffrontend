@@ -31,7 +31,7 @@ const Caring = () => {
 
   return (
     <>
-      <div className={style.caring}>
+      <div className={`${style.caring} WidthContent`}>
         {/* <img
           src={section6?.image_6}
           className={style.caringImg}

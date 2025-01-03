@@ -26,9 +26,10 @@ const People = () => {
 
   return (
     <>
-      <div className={style.teamContent}>
+     <section className="WidthContent">
+     <div className={`${style.teamContent}`}>
         <h2 className={style.peopleTitle}>{section10?.section10_title}</h2>
-        <p className={style.peoplePara}>{section10?.section10_subtitle}</p>
+        <p className={`${style.peoplePara} text-center`}>{section10?.section10_subtitle}</p>
       </div>
       <div className={style.peopleCard}>
         <h3>{section10?.section10_card_text}</h3>
@@ -89,13 +90,12 @@ const People = () => {
             }}
             href="#"
           >
-            {section11?.section11_button_text2}
-            <div>
-              <img src="/assets/images/play_arrow.svg" alt="" />
-            </div>
+            Umów bezpłatną konsultację.
+            
           </a>
         </div>
       </div>
+     </section>
     </>
   );
 };

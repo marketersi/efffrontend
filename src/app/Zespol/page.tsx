@@ -35,8 +35,8 @@ const Team = () => {
       {/* to be deleted */}
       {/* <TeamComponents.ImageSlider /> */}
       <OurClients />
-      <section className={style.Customers}>
-        <div className={`${style.teamContent} mb-sm-5`}>
+      <section className={`{style.Customers} WidthContent`}>
+        <div className={`${style.teamContent}`}>
           <p className={style.customersPara}>
             <span>{section3?.section_three_header}</span>
             {section3?.section_three_subheader}
@@ -44,7 +44,7 @@ const Team = () => {
         </div>
         <TeamComponents.PersonalCard {...card2} />
         <div className={style.teamContent}>
-          <p className={style.customersPara}>{section4?.section_four_para}</p>
+          <p className={style.customersPara1}><strong className={style.FontWieght}>To wytrwałość,</strong> a nie przypadek kreuje efekty – każdy detal ma znaczenie, a my dbamy o każdy z nich.</p>
         </div>
       </section>
       <TeamComponents.Creative />

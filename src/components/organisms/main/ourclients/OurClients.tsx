@@ -34,6 +34,10 @@ export default function OurClients() {
   // };
 
   return (
+    <>
+    <section className="WidthContent">
+      <h2 className="ClinetsHead">Jak wygląda współpraca z Marketersi?</h2>
+      <p className="ClinetsPara">Zapytaliśmy setkę naszych klientów i oto, co usłyszeliśmy:</p>
     <div className="OurClients WidthContent mobile-mt">
       <div className="OurClients_Marquee full mobile">
         <Marquee autoFill speed={175}>
@@ -232,6 +236,8 @@ export default function OurClients() {
         <img src={RatingCard?.left_animated_image} alt="" />
       </motion.div> */}
     </div>
+    </section>
+    </>
   );
 }
 

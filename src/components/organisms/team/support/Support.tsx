@@ -9,17 +9,20 @@ const Support = () => {
 
   return (
     <>
-      <div className={style.Support}  style={{ backgroundImage: `url(${section2?.section_two_image})` }}>
+      <section className="WidthContent">
+      <div className={style.Support}>
         <div className={style.teamContent}>
           <h4>
           {section2?.section_two_title}
           </h4>
-          <p style={{marginTop: '100px'}}>
-            <span>{section2?.section_two_subtitle}</span>
-           {section2?.section_two_para}
-          </p>
+          
+        </div>
+        <div className={style.imagebox}>
+          <img src={section2?.section_two_image} alt="" />
+
         </div>
       </div>
+      </section>
     </>
   );
 };

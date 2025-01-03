@@ -20,8 +20,9 @@ const GoodTime = () => {
 
   return (
     <>
-      <div className={style.teamContent}>
-        <h2 className={style.goodHeadingMain}>
+      <section className="WidthContent">
+      <div className={`${style.teamContent}`}>
+        <h1 className={style.goodHeadingMain}>
           {section8?.section8_title?.split(" ").slice(0, 2).join(" ")}{" "}
           <div className="d-inline-block mx-2 ">
             {time.toLocaleTimeString([], {
@@ -31,7 +32,7 @@ const GoodTime = () => {
             })}
           </div>
           {section8?.section8_title?.split(" ").slice(2).join(" ")}
-        </h2>
+        </h1>
         <p>{section8?.section8_discription_1}</p>
         <p>{section8?.section8_discription_2}</p>
       </div>
@@ -69,9 +70,10 @@ const GoodTime = () => {
           <p>{section8?.section8_discription_7}</p>
         </div>
       </div>
-      <div className={style.cardDataSpace}>
+      <div className={style.cardDataSpace1}>
         <PersonalCard {...card5} />
       </div>
+      </section>
     </>
   );
 };

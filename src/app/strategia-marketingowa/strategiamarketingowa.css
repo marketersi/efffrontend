@@ -1652,7 +1652,10 @@ img.strategyImg {
     border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7);
   border: 0.1em solid #000000;
 }
-
+.AnswerAll_Image img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .ArrowButton:hover {
   /* update */
   /* transform: translateY(0.3em); */
@@ -1937,17 +1940,31 @@ img.strategyImg {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:768px) {
   .MainHeading_Image img {
     width: 100%;
     height: auto;
   }
-
+  .MainHeading button {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px auto 10px;
+}
+.MainHeading {
+  margin: 0px 0px 30px;
+}
   .MainHeading_Title {
-    font-size: 50px;
+    margin-top: 30px;
+    font-size: 44px;
     line-height: 50px;
   }
-
+  .MainHeading_Content{
+    margin: 0px auto 0px;
+  }
+.during-page-offer{
+  display: flex;
+  justify-content: center;
+}
   .MainHeading_Title span {
     background-size: 100% 0.15em;
     background-position: 0 1lh;
@@ -1966,40 +1983,91 @@ img.strategyImg {
   }
 
   .MainContentOne_Container {
-    font-size: 22px;
-    line-height: 40.2px;
-    text-align: center;
+    font-size: 44px;
+    line-height: 48px;
+    
   }
+  .MainContentOne .extra-text {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 25px;
+    line-height: 36px;
+   
+}
+.MainNumber_Two_Content {
+  font-size: 20px;
+  line-height: 30px;
+margin: 30px 0;
+}
+.WidthContent{
+  margin: 0 10px;
+}
+body{
+  overflow-x: hidden;
+}
 
   .MainNumber_Container {
     flex-direction: column;
   }
+  .MainContentTwo_Container{
+    margin-top: 30px;
+  }
 
   .MainContentTwo_Container p {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
     text-align: left;
   }
 
   .ResultTable_Title {
-    font-size: 45px;
-    margin-bottom: 50px;
+    font-size: 44px;
+    margin-bottom: 30px;
+    line-height: 48px;
   }
 
   .MainContentTwo {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 400px;
   }
-
+  .MainContentTwo {
+    background-position: 82% 94%;
+    background-size: 800px;
+}
   .ResultTable_Table_Row {
-    grid-template-columns: 1fr;
-    gap: 30px;
+   flex-direction: column;
+    gap: 20px;
   }
 
   .Strategy_Title {
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 90px;
+    margin-top: 40px;
   }
-
+  .Strategy_Card_Content_One {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.Strategy_Card_Content_Two{
+  font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+}
+  .ResultTable_Table_Row_Content{
+    text-align: center;
+  }
+  .ResultTable_Table_Row_Button {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 8px 20px;
+  }
+  .ResultTable_Table {
+    padding: 30px 20px;
+  }
+  
   .feature img {
     height: auto;
     width: 100% !important;
@@ -2011,6 +2079,7 @@ img.strategyImg {
 
   .Testimonial_Card_Content_Title {
     font-size: 26px;
+    line-height: 34px;
   }
 
   .Testimonial_Card_Content_Button {
@@ -2018,13 +2087,15 @@ img.strategyImg {
   }
 
   .ResultMax_Title {
-    font-size: 30px;
+    font-size: 44px;
     word-wrap: break-word;
-    line-height: 35px;
+    line-height: 48px;
+    margin-bottom: 40px;
   }
 
   .ResultMax_Content_One {
     font-size: 24px;
+    margin-bottom: 20px;
   }
 
   .ResultMax_Content_Two {
@@ -2043,29 +2114,61 @@ img.strategyImg {
   }
 
   .Analysis_Card_Content_Title {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
     text-align: left;
+    margin-top: 30px;
   }
 
   .Analysis_Card_Content_Text {
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 33px;
     text-align: left;
   }
 
   .Analysis_Card_Content_Table {
     flex-direction: column;
   }
-
+  .Analysis_Card_Content_Table_Column{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Analysis_Card {
+    padding: 30px 0px 0px;
+    margin-bottom: 0;
+}
+.analysis_card_img2 img {
+  margin: 0px 0;
+}
+.Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column{
+  text-align: left;
+  align-items: flex-start;
+}
+.ImageAdvantage_Button_Clicked{
+  font-size: 20px;
+  line-height: 30px;
+}
+.float-right {
+  float: left;
+}
+  .ImageAdvantage_Button{
+    font-size: 20px;
+    line-height: 30px;
+  }
   .Analysis1_Dropdown_Text1 {
     font-size: 18px;
     text-align: left;
+    line-height: 34px;
   }
 
   .Analysis1_Dropdown_Text3 {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 34px;
+    text-align: left;
+  }
+  .Analysis1_Dropdown_Text2{
+    font-size: 18px;
+    line-height: 34px;
     text-align: left;
   }
 
@@ -2078,9 +2181,15 @@ img.strategyImg {
   .Analysis1_GridItem2,
   .Analysis1_GridItem3,
   .Analysis1_GridItem4 {
-    flex-basis: calc(90% - 10px);
-    padding: 25px;
+    flex-basis: 100%;
+    padding: 20px;
   }
+  .AnalysisCardDes {
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+}
 
   .analysis_card_img2 img {
     width: 100%;
@@ -2089,6 +2198,19 @@ img.strategyImg {
 
   .Analysis_Card_Content_Table_Odd {
     flex-direction: column;
+  }
+  .Analysis2_Dropdown_Container{
+    padding: 20px 0;
+    margin: 20px 0 20px;
+  }
+  .Analysis4_Dropdown_Container{
+    padding: 20px 0;
+    margin: 20px 0 20px;
+    gap: 0;
+  }
+  .Analysis4_Dropdown_Container{
+    padding: 20px 0;
+    margin: 20px 0 20px;
   }
 
   .Analysis2_Dropdown_Text1,
@@ -2099,6 +2221,10 @@ img.strategyImg {
   .Analysis3_Dropdown_Text2,
   .Analysis3_Dropdown_Text3 {
     text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 20px;
   }
 
   .Analysis2_Dropdown_Image1 img,
@@ -2115,7 +2241,10 @@ img.strategyImg {
 
   .Analysis3_GridItemContent,
   .Analysis4_PanelTextContent {
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
   }
 
   .Analysis4_PanelImage img {
@@ -2128,18 +2257,22 @@ img.strategyImg {
   }
 
   .WhatRecieve_Title_One {
-    font-size: 45px;
-    line-height: 53.5px;
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .WhatRecieve_Content_One {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
     text-align: center;
   }
 
   .WhatRecieve_Title_Two {
-    line-height: 40.8px;
+    line-height: 48px;
+    font-size: 44px;
+    margin-bottom: 30px;
   }
 
   .WhatRecieve_Table {
@@ -2154,29 +2287,41 @@ img.strategyImg {
   }
 
   .WhatRecieve_Title_Three {
-    font-size: 26px;
-    line-height: 40px;
+    line-height: 48px;
+    font-size: 44px;
+    margin-bottom: 30px;
   }
 
   .WhatRecieve_Content_Three_One,
   .WhatRecieve_Content_Three_Tow {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
     text-align: center;
+  }
+  .Analysis_Card_Content_Button{
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .ImageAdvantage_Title {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height:48px;
+    margin-bottom: 40px;
   }
 
   .ImageAdvantage_Content {
-    font-size: 22px;
-    line-height: 40.8px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .ImageAdvantage_Table_Column{
+    font-size: 18px;
+    line-height: 34px;
   }
 
   .Testimonial {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 
   .Analysis3_GridItemTitle {
@@ -2185,7 +2330,7 @@ img.strategyImg {
   }
 
   .WhatRecieve {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 
   .ImageAdvantage_Table {
@@ -2193,19 +2338,21 @@ img.strategyImg {
   }
 
   .InviteCustomer_Title {
-    font-size: 40px;
-    line-height: 50.8px;
-    margin-bottom: 70px;
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
 
   .InviteCustomer_Content {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
   }
 
   .QuoteOne_Text {
-    font-size: 36px;
-    line-height: 50.8px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 30px 0;
   }
 
   .Branding_Container {
@@ -2228,19 +2375,20 @@ img.strategyImg {
   }
 
   .QuoteTwo_Title {
-    font-size: 45px;
-    line-height: 50.8px;
-    margin-bottom: 50px;
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
   }
 
   .QuoteTwo_TextOne {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
   }
 
   .QuoteTwo_TextTwo {
-    font-size: 22px;
-    line-height: 40.2px;
+    font-size: 18px;
+    line-height: 34px;
   }
 
   .QuoteTwo_Image img {
@@ -2249,27 +2397,40 @@ img.strategyImg {
   }
 
   .Price_Title {
-    font-size: 40px;
-    line-height: 1.4;
+    font-size: 44px;
+    line-height: 48px;
   }
 
   .Price_Container {
     padding-inline: 15px;
   }
+  .Price_Card_Main_Button{
+    font-size: 20px;
+    line-height: 30px;
+  }
 
   .StrategyAction_Container {
-    padding: 0px 20px;
+  padding: 0;
     grid-template-columns: 100%;
   }
 
   .StrategyAction_Content_Title {
-    font-size: 35px;
-    line-height: 1.3;
+    font-size: 44px;
+    line-height:48px;
+    margin-top: 40px;
+  }
+  .StrategyAction_Content_TextOne, .StrategyAction_Content_TextTwo{
+    font-size: 18px;
+    line-height: 34px;
   }
 
   .StrategyActionImage img {
     width: 100%;
     height: auto;
+    margin-top: 30px;
+  }
+  .AnswerAll_Image img{
+    margin: 0;
   }
 
   .AnswerAll_Title {
@@ -2286,7 +2447,7 @@ img.strategyImg {
   }
 
   .Analysis {
-    padding: 0 20px;
+    padding: 0 0px;
   }
 
   .Analysis4_Dropdown_Container {
@@ -2294,13 +2455,15 @@ img.strategyImg {
   }
 
   .ImageAdvantage_Table {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .WhatRecieve_Dropdown_TitleTwo {
     padding-inline: 0px;
   }
-
+  .yes_accordion_animated_text{
+    display: none;
+  }
   .WhatRecieve_Dropdown_TitleOne {
     color: #333333;
     font-size: 18px;
@@ -2338,15 +2501,21 @@ img.strategyImg {
     padding: 5px 30px;
   }
   .clientReviewHeading h2 {
-    font-size: 40px;
+    font-size: 22px;
+    margin: 40px 0 0;
+    line-height: 32px;
+
   }
   .WhatRecieve_Content_Two {
     font-size: 22px;
     line-height: 33.2px;
   }
+  .faqContainer{
+    padding: 0!important;
+  }
+  .accordion-title{
+    padding: 20px 10px!important;
+  }
 }
 
-.AnswerAll_Image img {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+

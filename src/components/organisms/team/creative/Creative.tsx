@@ -11,7 +11,7 @@ const Creative = () => {
 
   return (
     <>
-      <section className={style.creative}>
+      <section className={`${style.creative} WidthContent`}>
         <div className={style.teamContent}>
           <h2>{section5?.section_five_title}</h2>
           {/* to be deleted */}
@@ -56,13 +56,14 @@ const Creative = () => {
             alt=""
           /> */}
 
-          <p className={style.creativePara}>
+          <p className={style.customersPara2}>
             {section5?.section_five_para}
             <span style={{ display: "inline", margin: "100px 0" }}>
               {" "}
-              {section5?.section_five_paratwo}
+              
             </span>
           </p>
+          <h2>{section5?.section_five_paratwo}</h2>
         </div>
       </section>
     </>

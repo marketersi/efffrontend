@@ -5,27 +5,38 @@
   top: 0;
   overflow: hidden;
 }
+.WidthContent{
+  max-width:1200px;
+  margin: 0 auto;;
+}
 
 .bannerContent {
-  margin-top: -60px;
+  
 }
 .zespolVideo {
-  min-height: 650px;
+  min-height: 100vh;
+}
+.bannerHeading{
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-.bannerHeading {
-  padding: 100px 100px 100px;
-}
 
 .bannerHeading h1 {
-  font-size: 100px;
-  font-weight: 900;
-  color: #3e3e3e;
+  font-size: 85px;
+  font-weight: 700;
+ line-height: 77px;
   text-align: center;
 }
-
+.MainTitle{
+  font-size: 85px;
+  font-weight: 700;
+ line-height: 77px;
+  text-align: center;
+  margin-bottom: 70px;
+}
 .BannerBotHeading {
-  padding-left: 50px;
+  
 }
 
 .img20 img {
@@ -37,19 +48,25 @@
 }
 
 .teamContent {
-  max-width: 900px;
-  margin: 0px auto 50px;
+  
+  margin: 70px auto;
+}
+.teamContent1 {
+  
+  margin: 40px auto;
+}
+.imagebox{
+  width: 46%;
 }
 
-.bannerBottomContent {
-  padding: 0 0 70px;
-}
+
 
 .bannerBottomContent h4 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: normal;
   margin: 25px 0;
-  color: #3e3e3e;
+  line-height: 27px;
+  
 }
 
 .BannerBotImg {
@@ -65,10 +82,10 @@
 }
 
 .bannerBottomContent h2 {
-  font-size: 60px;
-  font-weight: 800;
-  color: #3e3e3e;
-  margin: 0 0 50px;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 72px;
+  margin: 0 0px;
 }
 
 .bannerBottomContent h2 span {
@@ -83,11 +100,14 @@
 }
 
 .teamContent p {
+  
+}
+.textContent{
   font-size: 28px;
   font-weight: 300;
-  color: #3e3e3e;
-  margin: 0 0 50px;
+  margin: 0 0 0px;
   line-height: 50px;
+  text-align: center;
 }
 
 .bannerP {
@@ -95,7 +115,7 @@
 }
 
 .overlay {
-  height: 856px;
+  height: 100%;
   width: 100%;
   position: absolute;
   background-color: #00000026;
@@ -110,8 +130,14 @@
   border-radius: 30px;
   box-shadow: 4px 4px 15px 0px #f6f6f6, 0px 0px 0px 0px #fff,
     2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
-  margin: 0 auto 50px;
-  width: 1090px;
+  margin: 0 auto 0px;
+  max-width: 1200px;
+
+  
+}
+
+.personalCard .row{
+  align-items: center;
 }
 
 .personalCard img {
@@ -141,8 +167,7 @@
 .personalCard h6 {
   font-size: 40px;
   font-weight: 500;
-  color: #0a0a0a;
-  line-height: 55px;
+  line-height: 52px;
 }
 
 .personalCard h6 span {
@@ -158,18 +183,24 @@
 
 /* ====================free space============ */
 .free {
-  padding: 100px 0;
+  
   background-repeat: no-repeat;
   background-position: -680px 0px;
 }
-
+.customersPara2{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
 .teamContent p span {
   font-weight: 500;
   display: block;
 }
 
 .mainHeading {
-  margin: 100px 0 0;
+  margin:70px 0 0;
 }
 
 .mainHeading h2,
@@ -196,15 +227,17 @@
   border: 3px solid var(--brand-blue);
   padding: 10px 50px;
   border-radius: 100px;
-  font-size: 23px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   color: black;
   background: var(--brand-blue);
   margin: 50px auto 0;
   display: block;
+  line-height: 30px;
   box-shadow: 0 0 0 0 black, 0em 0.2em 0 0 black;
   border: 2px solid black;
 }
+
 
 .mainHeading button:hover {
   box-shadow: none;
@@ -214,28 +247,30 @@
 .mainHeading a {
   text-decoration: none;
 }
+.WidthContent .additionalSpace{
+  margin: 40px 0!important;
+}
 
 /* ==================support===================== */
 .Support {
-  /* padding: 0 0 100px;
-  background-image: url(https://owocni.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwierzymy.06ee3ca4.jpg&w=1080&q=75);
-  background-repeat: no-repeat;
-  background-position: 670px 0; */
-
-  padding: 0 0 100px;
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
+ 
+display: flex;
+flex: 1 1 0;
+align-items: center;
+  padding: 0 0 70px;
+ 
 }
 
 .Support h4 {
   font-size: 50px;
   line-height: 70px;
   font-weight: normal;
-  margin: 0 0 0 -50px;
-  max-width: 610px;
-}
+ 
 
+}
+.Support img{
+  width: 100%;
+}
 .Support p {
   max-width: 700px;
 }
@@ -254,9 +289,11 @@
 }
 
 .teamContent h2 {
-  font-size: 60px;
+  font-size: 85px;
+  font-weight: 700;
+ line-height: 77px;
   text-align: center;
-  font-weight: 800;
+  
 }
 
 .teamContent h2 span {
@@ -279,9 +316,7 @@
   overflow: hidden;
 }
 
-.creative h2 {
-  font-size: 80px;
-}
+
 
 .CreativeOnar {
   margin: -550px 0 0 270px;
@@ -305,7 +340,7 @@
 } */
 
 .caring {
-  padding: 0 0 150px;
+  padding: 0 0 0px;
   width: 100%;
   overflow: hidden;
 }
@@ -316,7 +351,7 @@
   width: 300px;
   border-radius: 20px;
   padding: 30px;
-  margin: 50px auto 50px;
+  margin: 50px auto 0px;
   background: white;
 }
 
@@ -330,10 +365,11 @@
   font-size: 21px;
   font-weight: normal;
   text-align: center;
-  color: #3e3e3e;
+  color: rgb(159, 159, 159);
   font-style: italic;
   font-family: Georgia;
   margin: 15px 0 0;
+  line-height: 21px;
 }
 
 .cartTop {
@@ -351,7 +387,7 @@
 }
 
 .creativePara {
-  margin: 100px 0 !important;
+  margin: 70px 0 !important;
 }
 
 /* ===================Culture==================== */
@@ -359,10 +395,16 @@
   box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px #fff,
     2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
   width: 1000px;
-  margin: 200px auto 100px;
+  margin: 100px auto 70px;
   background: #f6f6f6;
   border-radius: 30px;
-  padding: 30px;
+  padding: 40px 80px;
+}
+.culturedContent p{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 30px;
 }
 
 .culturedContent {
@@ -376,12 +418,26 @@
 }
 
 .cultureCard h2 {
-  font-size: 45px;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  
+  margin: 0 auto 0px;
+}
+.cultureCard h3 {
+  font-size: 40px;
   font-weight: 600;
   text-align: center;
-  margin: 0 0 30px;
-  max-width: 600px;
-  margin: 0 auto 30px;
+  line-height: 56px;
+  
+  margin: 0 auto 0px;
+}
+.goodHeadingMain{
+  font-size: 74px;
+  line-height: 80px;
+font-weight: 900;
+text-align: center;
 }
 
 .cultureCard h2 span {
@@ -394,25 +450,29 @@
     var(--brand-blue)
   );
 }
-
+.teamContent p{
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+}
 .cultureImg {
   margin: -600px 0 0 -250px;
 }
 
 /* =======================Good Time===================== */
 .goodHeadingMain {
-  margin: 100px 0 70px;
+  margin: 70px 0;
 }
 
 .cardDataSpace {
-  margin: 100px 0 80px;
+  margin: 70px 0;
 }
 
 .cardCup {
   /* background-image: url(https://owocni.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkubek.0bdf398c.jpg&w=640&q=75); */
   background-repeat: no-repeat;
   background-position: 135% 0px;
-  padding: 150px 0 100px;
+  
 }
 
 .hardWorkBG {
@@ -421,13 +481,16 @@
   background-position: -250px 160px;
   padding: 0px 0 2px;
 }
+.personalCard .row{
+  align-items: center;
+}
 
 /* ===============================people============================= */
 .peopleCard {
   box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px #fff,
     2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
   width: 980px;
-  margin: 100px auto 100px;
+  margin: 70px auto;
   background: #f6f6f6;
   border-radius: 30px;
   padding: 70px;
@@ -438,8 +501,7 @@
   text-align: center;
   line-height: 70px;
   font-weight: 600;
-  color: #3e3e3e;
-  margin: 0 0 200px;
+  margin: 0 ;
 }
 
 .dogImg {
@@ -477,7 +539,7 @@
   /* background: #00000069; */
   /* padding: 25% 0 0; */
   z-index: 0;
-  padding: 30px 0 60px;
+  padding: 0px 0 60px;
 }
 
 .peopleVideoContent .projectBtn {
@@ -486,63 +548,49 @@
   padding: 10px 20px;
   text-decoration: none;
   display: block;
-  width: 250px;
-  font-size: 20px;
-  font-weight: 600;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
   text-align: center;
   color: #000;
   margin: 0 auto;
 }
-
+.bannerBottomContent1{
+  display: none;
+}
 .peopleVideoContent .projectBtn:hover {
   background: var(--brand-blue);
   color: #fff;
 }
 
 .peopleVideoContent .scheduleBtn {
-  display: grid;
-  gap: 10px;
-  padding: 0 10px;
-  width: 250px;
-  margin: 30px auto;
+  border: 4px solid var(--brand-blue);
+  border-radius: 50px;
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 20px;
-  grid-template-columns: 85% 15%;
-  font-weight: 600;
+  display: block;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
   color: #000;
+  margin: 20px auto 0;
 }
 
 .peopleVideoContent .scheduleBtn:hover {
   background: var(--brand-blue);
-  border-radius: 100px;
   color: #fff;
 }
 
-.peopleVideoContent .scheduleBtn div {
-  padding: 2px;
-  background-color: var(--brand-blue);
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-}
-
-.peopleVideoContent .scheduleBtn img {
-  width: 20px;
-  margin: 4px auto;
-  display: block;
-}
-
-.peopleTitle {
-  margin: 0 0 50px;
-  font-size: 90px !important;
-}
 
 .peoplePara {
   margin: 0 0 0px;
 }
 
 .freePara {
-  margin: 150px 0 0px !important;
+  margin: 70px 0 0px !important;
 }
 
 .banner {
@@ -716,11 +764,13 @@
 
 @media only screen and (max-width: 767px) {
   .bannerHeading {
-    padding: 0px 20px 20px;
+    padding: 0px 15px 0px;
+    margin: 0px 0 30px;
   }
 
   .bannerHeading h1 {
-    font-size: 35px;
+    font-size: 44px;
+    line-height: 48px;
   }
 
   .img20 img {
@@ -728,30 +778,41 @@
   }
 
   .teamContent {
-    padding: 0 20px;
-    margin: 40px auto 0;
+    padding: 0 0px;
+    margin: 40px auto 40px;
+  }
+  .bannerBottomContent1{
+    display: block;
+  }
+  .bannerBottomContent{
+    display: none;
   }
 
-  .bannerBottomContent img {
+  .bannerBottomContent1 img {
     margin: auto;
-    width: 100%;
+    width: 80%;
     display: block;
     top: 0;
   }
+  
 
-  .bannerBottomContent h4 {
-    font-size: 28px;
+  .bannerBottomContent1 h4 {
+    font-size: 20px;
+    margin-bottom: 40px;
   }
 
-  .bannerBottomContent h2 {
-    font-size: 35px;
+  .bannerBottomContent1 h2 {
+    font-size: 40px;
+    line-height: 40px;
     word-wrap: break-word;
+    text-align: center;
+    margin-top: 40px;
   }
 
   .teamContent p {
-    font-size: 22px;
-    line-height: 40px;
-    margin: 0;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 20px;
   }
 
   .personalCard {
@@ -764,8 +825,13 @@
   }
 
   .personalCard h6 {
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .MainTitle{
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
   }
 
   .free {
@@ -779,15 +845,27 @@
   }
 
   .teamContent h2 {
-    font-size: 35px;
+    font-size: 44px;
     word-wrap: break-word;
+    line-height: 48px;
+    margin-top: 40px;
+    text-align: center!important;
   }
 
   .Support {
-    padding: 00 20px 0px;
+    padding: 0 20px 0px;
     background-position: 10px 200px;
     background-size: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+  .mainHeading button{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+  .Support img{
+    width: 100%;
   }
 
   .Support p {
@@ -821,7 +899,7 @@
   }
 
   .caringCard {
-    width: 70%;
+    width: 80%;
   }
 
   .caringCard h4 {
@@ -853,7 +931,12 @@
   }
 
   .cultureCard h2 {
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .cultureCard h3 {
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .peopleCard h3 {
@@ -880,11 +963,18 @@
   }
 
   .peopleVideoContent .projectBtn {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .peopleVideoContent .scheduleBtn{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .cultureCard{
+    padding: 30px 20px;
   }
 
   .peopleVideoContent {
-    padding: 10% 0 0;
+    padding: 0% 0 0;
   }
 
   .cardDataSpace {
@@ -893,6 +983,11 @@
 
   .hardWorkBG {
     background-image: none !important;
+  }
+  .goodHeadingMain{
+    font-size: 40px;
+    line-height: 46px;
+    margin: 40px 0;
   }
 
   .caring {
@@ -917,7 +1012,7 @@
   }
 
   .freePara {
-    margin: 130px 0 0px !important;
+    margin: 40px 0 0px !important;
   }
 
   .mainHeading {

@@ -131,6 +131,7 @@ body{
 .OurClients_Marquee {
   z-index: -10;
   opacity: 0.8;
+  position: relative;
 }
 .OurClients_Marquee.full.mobile {
   margin-top: -100px;
@@ -542,6 +543,11 @@ body{
     display: block !important;
     margin-top: 100px;
   }
+  .OurClients.WidthContent .OurClients_Card_Two{
+padding-inline: 30px;
+padding-block: 15px;
+margin-bottom: 40px;
+  }
   .buttonux{
     margin-left: 0;
     margin-top: 0;
@@ -719,6 +725,9 @@ video {
   .iphone video {
     /* -webkit-filter: contrast(0.979); */
     filter: contrast(0.999);
+  }
+  .WidthContent{
+    margin: 0 10px;
   }
 }
 

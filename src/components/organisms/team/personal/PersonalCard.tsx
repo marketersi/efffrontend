@@ -10,7 +10,7 @@ const PersonalCard = (props) => {
       <Row>
         <Col>
           <div className={style.personalCard}>
-            <Row>
+            <Row className='align-items-center'>
               <Col lg={3}>
                 <img src={image} alt={name} />
                 <h4>{name}</h4>

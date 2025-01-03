@@ -14,6 +14,19 @@
 .OurClients_Slide_Content{
   
 }
+.ClinetsHead{
+font-size: 62px;
+line-height: 56px;
+font-weight: 700;
+margin-bottom: 40px;
+text-align: center;
+}
+.ClinetsPara{
+font-size: 22px;
+text-align: center;
+line-height: 42px;
+margin-bottom: 40px;
+}
 
 .OurClients_Slide:hover .OurClients_Slide_Image {
   filter: grayscale(0%) !important;
@@ -51,4 +64,20 @@
   .mobile-mt{
     margin-top: 8rem !important;
   }
+  .OurClients.WidthContent.mobile-mt{
+    margin-top: 15rem !important;
+  }
+  .ClinetsHead{
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .ClinetsPara{
+    font-size: 22px;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 20px;
+    }
 }

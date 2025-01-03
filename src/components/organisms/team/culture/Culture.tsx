@@ -9,16 +9,17 @@ const Culture = () => {
 
   return (
     <>
-      <div className={style.teamContent}>
-        <p>
-          <span>{section6?.sub_title_6}</span>
-          {section6?.sub_title_discription_6}
+     <div className="WidthContent">
+     <div className={`${style.teamContent1} additionalSpace`}>
+        <p className={style.textContent}>
+        Marketersi wybrały firmy, które osiągają sukcesy.
         </p>
       </div>
       <Container>
         <div className={style.cultureCard}>
           <img src={section7?.card7_image_1} alt="" />
-          <h2>{section7?.card_title_7}</h2>
+          <h2>Kiedy branżowe media sięgają po nasze opinie.</h2>
+          <h3>wiemy, że nasze podejście działa.</h3>
         </div>
         {/* <img className={style.cultureImg} src={section7?.card7_image_2} alt="" /> */}
       </Container>
@@ -33,6 +34,7 @@ const Culture = () => {
         </p>
         <p>{section7?.paragraph_3}</p>
       </div>
+     </div>
     </>
   );
 };
