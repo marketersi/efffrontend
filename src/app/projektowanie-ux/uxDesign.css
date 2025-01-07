@@ -33,7 +33,7 @@ h6 {
 #header > div div .titleHead {
   font-size: 85px;
   margin: auto;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 85px;
   color: #333;
   position: relative;
@@ -43,15 +43,7 @@ h6 {
   display: block;
 }
 
-#header .titleHead  span:nth-child(1) {
-  margin-left: 0px;
-}
-#header .titleHead  span:nth-child(2) {
-  margin-left: 40px;
-}
-#header .titleHead  span:nth-child(3) {
-  margin-left: 80px;
-}
+
 
 #header > div div .titleHead .UX {
   color: #fff;
@@ -69,8 +61,6 @@ h6 {
   color: #333;
   font-size: 29px;
   line-height: 44px;
-  
-  margin-left: 160px;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
@@ -100,9 +90,9 @@ h6 {
 }
 
 #header > div div .subitle:nth-child(3) {
-  padding-left: 30px;
+  padding-left: 0px;
   padding-bottom: 0px;
-  text-decoration: underline;
+ 
   margin-top: 30px;
 }
 
@@ -150,6 +140,9 @@ font-weight: 400;
   position: relative;
   padding-top: 100px;
   padding-bottom: 0px;
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
 }
 
 #messagesSection h2 {
@@ -159,25 +152,18 @@ font-weight: 400;
   line-height: 77px;
   color: #333;
   position: relative;
-  top: 20px;
-  max-width: 900px;
-  margin-inline: auto;
+  
 }
 
 #messagesSection h2 span img {
   z-index: -1;
   position: absolute;
-  left: calc(-20% - 250px);
-  bottom: -19px;
+  right: 145px;
+  bottom: -35px;
+  width: 38%;
 }
 
-#messagesSection h2 span {
-  background: #ffc700;
-  background: linear-gradient(211deg, #ffc700 28%, #ee8aa1 55%, #1ec19b 86%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
-}
+
 
 #messagesSection .text2 {
   padding-top: 50px;
@@ -1251,10 +1237,10 @@ margin-bottom: 30px;
 
 #maciej .contentText .btn-neon {
   width: fit-content;
-  border: 3px solid #00bfff;
+  border: 0px solid #00bfff;
   box-shadow: none;
-  border-radius: 50px;
-  color: #333;
+  border-radius: 0px;
+  color: #fff;
   text-shadow: 0 0 0px transparent;
   font-size: 30px;
   transition: 0.2s;
@@ -1268,6 +1254,7 @@ margin-bottom: 30px;
   font-weight: 400;
   padding: 8px 20px;
   line-height: 40px;
+  background-color: #00bfff;
 }
 
 #maciej .contentText .btn-neon .light {
@@ -1312,7 +1299,11 @@ margin-bottom: 30px;
 
 /* --------------------Text Arrow----------------- */
 
-
+#textArrow{
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
 
 #textArrow p > span {
   font-weight: 700;
@@ -1350,11 +1341,7 @@ section.arrowContainer {
   
 }
 
-#textArrow .rowD {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-}
+
 
 #textArrow .rowD .orange {
   color: #ff5000 !important;
@@ -1369,11 +1356,16 @@ section.arrowContainer {
   margin: 0;
 }
 
-#textArrow .rowD > div {
-  margin: 80px 0;
+#textArrow .rowD{
+  margin: 70px 0;
+  
+}
+#textArrow .rowD p{
+  text-align: center;
   font-size: 28px;
-  line-height: 32px;
+  line-height: 50px;
   font-weight: 300;
+  margin-bottom: 60px;
 }
 
 #textArrow .rowD img {
@@ -1385,7 +1377,7 @@ section.arrowContainer {
 #textArrow .one {
   text-align: center;
   font-size: 28px;
-  line-height: 32px;
+  line-height: 50px;
   font-weight: 300;
 }
 
@@ -1423,7 +1415,7 @@ section.arrowContainer {
   margin: auto;
   display: block;
   
-  max-width: 50%;
+  max-width: 55%;
 }
 
 #guarantee .rowD {
@@ -1434,12 +1426,14 @@ section.arrowContainer {
   padding: 0 0px 0 0;
   max-width: 50%;
   width: 50%;
+  align-items: center;
 }
 
 #guarantee .rowD h2 {
   font-size: 54px;
   font-weight: 500;
   line-height: 54px;
+  width: 77%;
 }
 
 #guarantee .rowD p {
@@ -1488,7 +1482,7 @@ section.arrowContainer {
 }
 #videoSection {
   padding: 0 0 0px 0;
-  max-width: 1100px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -1507,18 +1501,18 @@ section.arrowContainer {
   font-size: 85px;
   padding: 20px 0 40px 0;
   
-  
+  text-transform: uppercase;
   font-weight: 700;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
-  line-height: 77px;
+  line-height: 85px;
 }
 
 #videoSection > :nth-child(1) p {
   padding: 0 0 0px;
   font-size: 28px;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 50px;
   margin-bottom: 40px;
 }
 
@@ -1753,15 +1747,16 @@ section.arrowContainer {
 
 #WhatGet p:first-child{
   font-weight: bold;
+  margin-top: 0;
 }
 #WhatGet a {
   margin-top: 0px;
   text-decoration: none;
-  border-radius: 60px;
- border: 3px solid #00bfff;
+  background-color: #00bfff;
+cursor: pointer;
   padding: 8px 20px;
   display: inline-flex;
-  color: #333333;
+  color: #fff;
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
@@ -2505,7 +2500,7 @@ section.arrowContainer {
 .UXBannerContainer {
   width: 95%;
   margin-inline: auto;
-  padding-block: 50px 0;
+  padding-block: 30px 0 50px;
 }
 
 .UXheroVideo video {
@@ -2591,15 +2586,7 @@ video.mobileVideo {
   display: none;
 }
 
-@media only screen and (max-width: 1450px){
-  
-  #header > div div .subitle {
-    
-    margin-left: 100px;
-    
-  }
- 
-}
+
 
 /* ----------------------------------media screen ----------------------- */
 
@@ -2972,6 +2959,10 @@ section.goodProcess {
   row-gap: 100px;
   margin-block: 100px;
   padding: 0 8rem;
+   background-image: url("https://images.prismic.io/marketersi/Z30sWJbqstJ99H4w_NewProject-3-.png?auto=format,compress");
+  background-size: auto;
+    background-repeat: repeat-y;
+    background-position: 63% 100%; 
 }
 
 .goodProcess h3 {
@@ -3018,7 +3009,7 @@ section.goodProcess {
 }
 
 .processVideo {
-  margin-left: -50px;
+  margin-left: -90px;
 }
 
 .number {
@@ -3044,8 +3035,8 @@ section.goodProcess {
 }
 
 .three .number {
-  margin-top: 150px;
-  margin-left: -415px;
+  margin-top: 238px;
+  margin-left: -199px;
   padding-bottom: 101px;
 }
 
@@ -3096,12 +3087,12 @@ section.goodProcess {
 }
 .uxVideoTitle {
   font-size: 85px;
-  padding: 100px 0 100px 0;
+  padding: 90px 0 70px 0;
   
   font-weight: 700;
-  max-width: 1000px;
+  max-width: 900px;
   margin-inline: auto;
-  line-height: 77px;
+  line-height: 85px;
   text-align: center;
 }
 .uxVideoPara{

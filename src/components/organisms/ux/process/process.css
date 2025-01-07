@@ -20,7 +20,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #b6b6b6;
+    background-color:#00bfff;
     position: absolute;
     animation: blinkAndZoom 2s infinite;
 }

@@ -5,14 +5,28 @@
   padding-block: 0px;
   font-family: Georgia, serif;
 }
-.OurClients_Slide_Image {
+.part {
+  display: flex;
+  justify-content: start;
+  
+
+}
+.OurClints_Slide_Image{
+  flex: 4;
+  overflow: hidden;
+}
+.OurClients_Slide_Img {
   filter: grayscale(1);
   -webkit-filter: grayscale(1); 
- width: auto;
-  object-fit: inherit;
+ max-width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 .OurClients_Slide_Content{
-  
+flex-direction: column;
+  flex: 6;
+  align-items: baseline;
+  margin-left: 50px;
 }
 .ClinetsHead{
 font-size: 62px;

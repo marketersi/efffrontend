@@ -49,7 +49,7 @@ const Competitions = () => {
 
             {/* {CompetitionData.compt_description3} */}
           </div>
-          <p className="underlineText">
+          <p className="">
             {CompetitionData.compt_description2}
           </p>
           <p>

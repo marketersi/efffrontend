@@ -16,10 +16,11 @@ const Entrepreneur = () => {
     <div>
       <Container>
         <div className={style.numbers}>
-          <div className={style.Content}>
-            <h2>
+        <h2 className={style.Content_h2}>
               {section2?.title}
             </h2>
+          <div className={style.Content}>
+            
             <p>
               {section2?.paragraph_1}
             </p>

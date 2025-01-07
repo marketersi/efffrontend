@@ -29,6 +29,11 @@
 .full {
   grid-column: full;
 }
+.WidthContetnt{
+  max-width:1100px;
+  width: 100%;
+  margin: auto;
+  }
 
 /* Modal */
 .Modal {

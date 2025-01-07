@@ -17,7 +17,7 @@ const Systemically = () => {
               <div className="colm">
                 <h2>{Systematically.title}</h2>
                 <p>
-                  <b>- {Systematically.subtitle}</b>
+                  <b> {Systematically.subtitle}</b>
                   
                   {Systematically.description}
                 </p>

@@ -132,6 +132,14 @@ margin-right: 5px;
   border: 1px solid rgb(201, 201, 201);
 }
 
+.uds_input-container select {
+  padding: 8px 16px;
+  margin: 0 auto 18px auto;
+  border-radius: 20px;
+  width: 50%;
+  border: 1px solid rgb(201, 201, 201);
+}
+
 .form4Btn {
   width: 50%;
 }
@@ -382,7 +390,7 @@ input[type='range']:focus::-webkit-slider-thumb {
   font-size: 16px;
   color: #333;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .radio-container input[type="radio"] {
   margin-right: 10px;

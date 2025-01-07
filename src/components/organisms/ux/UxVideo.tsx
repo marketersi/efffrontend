@@ -63,11 +63,11 @@ const UxVideo = () => {
         
       </section>
       <section className="img-block">
-      <div className="row">
+      <div className="row align-items-end">
       <div id="WhatGet" className="col-md-6">
           <p className="textAnimation">Obiecujemy nie tylko piękno formy, ale przede wszystkim <span style={{fontStyle: "italic", display: "block"}}>rezultaty.</span></p>
           {/* <p className="textAnimation underlineText">{UXVideo?.paragraph_4}</p> */}
-          <p className="textAnimation underlineText"><span style={{fontStyle: "italic"}}>Jeśli Twoja strona nie przyniesie oczekiwanych wyników</span>  <span style={{fontWeight: "bold"}}>– zwrócimy Ci 100% inwestycji.</span></p>
+          <p className="textAnimation"><span style={{fontStyle: "italic"}}>Jeśli Twoja strona nie przyniesie oczekiwanych wyników</span>  <span style={{fontWeight: "bold"}}>– zwrócimy Ci 100% inwestycji.</span></p>
           <p className="textAnimation">{UXVideo?.paragraph_5}</p>
           <a className="send-offer-button js--triggerAnimation">
             <span>
@@ -86,7 +86,7 @@ const UxVideo = () => {
         
       </div>
       <h2 className="uxVideoTitle ">{GoodProcess.title}</h2>
-          <p className="uxVideoPara">{GoodProcess.paragraph}</p>
+          <p className="uxVideoPara">Jak tworzymy prototyp,<br/> który napędzi wydajność Twojej strony?</p>
       </section>
       <ModalForm isOpen={isModal} onClose={handleModalClose} />
     </>

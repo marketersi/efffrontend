@@ -259,15 +259,17 @@ export const SlideOne = (props) => {
         <div className="OurClients_Slide_Title mobile_title">{review}</div>
         <div className="OurClients_Slide_Container">
           
+            <div className="OurClints_Slide_Image part">
             <Image
               src={image_url}
               alt="OurClientsImage1"
               width={400}
-              height={600}
-              className="OurClients_Slide_Image"
+              height={500}
+              className="OurClients_Slide_Img"
             />
+            </div>
           
-          <div className="OurClients_Slide_Content">
+          <div className="OurClients_Slide_Content part">
             <div className="OurClients_Slide_Media">
             
               <div className="OurClients_Slide_Media_Video">

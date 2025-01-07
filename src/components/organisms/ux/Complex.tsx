@@ -14,28 +14,25 @@ const Complex = () => {
             {complex.title}
           </h2>
           <div className="rowD">
-            <div>
+            
+            
+              <p>
+                {complex.paragraph_2}
+              </p>
               <p>
                 {
                   complex.paragraph_1
                 }
               </p>
-            </div>
-            {/* <img
-              src="https://propozycje.owocni.pl/ux/Strzalka-Grafik-Marketer.f87779c7.jpg"
-              alt=""
-            /> */}
-            <div>
               <p>
-                {complex.paragraph_2}
-              </p>
-            </div>
-          </div>
-          <div className="one">
-            <p>
               {complex.paragraph_3}
             </p>
+            
           </div>
+
+
+
+          
         </div>
       </section>
     </>

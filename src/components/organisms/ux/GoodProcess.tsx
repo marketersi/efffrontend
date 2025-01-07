@@ -13,7 +13,7 @@ const GoodProcess = () => {
     
       <section className="goodProcess">
       <div className="one">
-          <div className="number">1</div>
+          <div className="number"><img src="https://images.prismic.io/marketersi/Z30cjpbqstJ99Hnx_NUMBER1--versionwithoutbackground-.png?auto=format,compress" alt="" /></div>
         </div>
         <div className="process1">
           <div className={`one ${osClass}`}>
@@ -33,7 +33,7 @@ const GoodProcess = () => {
         </div>
         
         <div className="two">
-          <div className="number">2</div>
+          <div className="number"><img src="https://images.prismic.io/marketersi/Z30cjZbqstJ99Hnv_NUMBER2--versionwithoutbackground-.png?auto=format,compress" alt="" /></div>
         </div>
         <div className="process2">
         <div className={`two ${osClass}`}>
@@ -52,7 +52,7 @@ const GoodProcess = () => {
         </div>
         </div>
         <div className="three">
-          <div className="number">3</div>
+          <div className="number"><img src="https://images.prismic.io/marketersi/Z30cj5bqstJ99Hny_NUMBER3-versionwithoutbackground-.png?auto=format,compress" alt="" /></div>
         </div>
         <div className="process3">
         <div className="three order6">

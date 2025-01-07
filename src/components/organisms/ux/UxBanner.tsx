@@ -4,7 +4,6 @@ import ReactPlayer from "react-player";
 import useOsClass from "@/components/molecules/useOsClass";
 import ProjectuxModal from "../modals/ProjectuxModal";
 
-
 const UxBanner = () => {
   const uxScreenData = useSelector((state) => state.ux.screenData);
 
@@ -22,7 +21,7 @@ const UxBanner = () => {
       <section>
         <div id="header" className="UXBannerContainer">
           <div className="row m-0">
-            <div className="col-md-7">
+            <div className="col-md-5">
               {/* <h1 className="titleHead">
                 <span>
                   {HeroSection?.title1}
@@ -32,14 +31,12 @@ const UxBanner = () => {
                 {HeroSection?.title2}
               </h1>  */}
               <h1 className="titleHead">
-                <span>Tworzenie stron </span>
-                <span> i design UX</span>
-                <span> z Marketersi.</span>
+                Tworzenie stron i design UX z Marketersi.
               </h1>
               {/* <p className="subitle">{HeroSection.description1}</p> */}
               <p className="subitle">
-                Tworzymy strony i design UX, które <br />{" "}
-                <span>przekładają się na sukces.</span>
+                Tworzymy strony i design UX, które 
+                przekładają się na sukces.
               </p>
               <p className="subitle">{HeroSection.description2} </p>
 
@@ -47,7 +44,7 @@ const UxBanner = () => {
                 Brzmi świetnie. Wyślijcie mi ofertę.
               </button>
             </div>
-            <div className={`col-md-5 ${osClass}`}>
+            <div className={`col-md-7 ${osClass}`}>
               <ReactPlayer
                 muted={true}
                 playing={true}

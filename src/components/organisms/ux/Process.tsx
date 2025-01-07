@@ -25,17 +25,10 @@ const Process = () => {
 
   return (
     <div className="circleBox">
-      <svg
-        className="line"
-        width="723"
-        height="4730"
-        viewBox="0 0 723 4730"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
         <path
           id="mypath"
-          d="M390.62 0.110352C390.62 363.73 1098.15 885.79 390.62 1789.42C235.19 1981.3 -401.86 2681.68 390.62 3460.72C1139.92 4210.02 382.94 5101.32 390.62 5487"
+          d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
           stroke="black"
           stroke-miterlimit="10"
         ></path>

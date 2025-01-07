@@ -4,7 +4,7 @@
 }
 
 .Content {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -17,12 +17,19 @@
 .Content h2 {
   font-size: 85px;
   text-align: center;
-  font-weight: 800;
+  font-weight: 700;
   color: #333333;
   margin: 40px 0 40px 0px;
   line-height: 77px;
 }
-
+.Content_h2{
+  font-size: 85px;
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+  margin: 40px 0 40px 0px;
+  line-height: 77px;
+}
 .Content h3 {
   font-size: 50px;
   text-align: center;
@@ -255,7 +262,7 @@ img.hardImg {
   margin: 0 auto;
   display: block;
   width: 80%!important;
-  margin-top: 475px;
+  margin-top: 175px;
 }
 
 .brandingHeading {
