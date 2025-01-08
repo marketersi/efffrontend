@@ -46,20 +46,7 @@ const CoverFlowSlider = () => {
 
   return (
     <div className="slider-container">
-      {/* <div className="UxBtn">
-        <button
-          onClick={() => carousel?.current?.slickPrev()}
-          className="leftBtn"
-        >
-          « cofnij
-        </button>
-        <button
-          onClick={() => carousel?.current?.slickNext()}
-          className="rightBtn"
-        >
-          dalej »
-        </button>
-      </div> */}
+      
       <Slider {...settings} className="UxSlider" ref={carousel}>
         {slider?.images?.map((e, index) => {
           return (
@@ -67,7 +54,7 @@ const CoverFlowSlider = () => {
               key={index}
               className={index === slideIndex ? "slide slide-active" : "slide"}
             >
-              <img src={e.Image} alt={`image ${index + 1}`} />
+              <a href={e.image_link} target="blank"><img src={e.Image} alt={`image ${index + 1}`} /></a>
             </div>
           );
         })}
