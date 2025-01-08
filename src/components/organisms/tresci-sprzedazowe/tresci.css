@@ -600,7 +600,9 @@ section.profit-sec {
 
 
 /* ===================================faq==================================== */
-
+.accordion-item.active{
+  background-color: #00bfff;
+}
 
 
 .accordion-title {
@@ -616,8 +618,9 @@ section.profit-sec {
   line-height: 36px;
   
 }
-.accordion-title.active{
+.accordion-title{
   border-bottom: 1px solid lightgray;
+  
 }
 .accordion-title svg{
   
@@ -630,9 +633,7 @@ section.profit-sec {
 }
 
 
-.accordion-title.active {
-  background-color: transparent;
-}
+
 
 .accordion-content {
   padding: 25px 25px;
@@ -647,7 +648,21 @@ section.profit-sec {
   max-width: 1100px;
   margin: 0 auto;
 }
+.faqContainer .mailidys{
+  margin-top: 0;
+  color:#000;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
 
+}
 
 
 /* -----------form------------ */

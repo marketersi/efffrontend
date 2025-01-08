@@ -41,18 +41,21 @@ const UXAccordion = () => {
               transform: "translate(0px, 0px)",
             }}
           >
-            {FAQ?.FAQTitle?.title}
+            Odpowiedź jest <br/> zawsze jedna:
+            {/* {FAQ?.FAQTitle?.title} */}
           </h2>
+          <img src="https://images.prismic.io/marketersi/Z35wjZbqstJ99K0__TAK!-1-.png?auto=format,compress" alt="" className="takImages"/>
         </div>
         {FAQ.FAQCard &&
           FAQ.FAQCard.map((item, index) => (
-            <div key={index} className="accordion-item">
+            <div
+      key={index}
+      className={`accordion-item ${index === activeIndex ? "active" : ""}`}
+    >
               <div
-                className={`accordion-title ${
-                  index === activeIndex ? "active" : ""
-                }`}
-                onClick={() => handleClick(index)}
-              >
+        className="accordion-title"
+        onClick={() => handleClick(index)}
+      >
                 {item.question}
                 {index === activeIndex ? (
                   <FontAwesomeIcon icon={faMinus} className="icon" />

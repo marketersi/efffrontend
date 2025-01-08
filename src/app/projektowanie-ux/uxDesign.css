@@ -1255,6 +1255,11 @@ margin-bottom: 30px;
   padding: 8px 20px;
   line-height: 40px;
   background-color: #00bfff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 #maciej .contentText .btn-neon .light {
@@ -1753,13 +1758,18 @@ section.arrowContainer {
   margin-top: 0px;
   text-decoration: none;
   background-color: #00bfff;
-cursor: pointer;
+  cursor: pointer;
   padding: 8px 20px;
   display: inline-flex;
   color: #fff;
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
+  border-radius:5px ;
+  -webkit-border-radius:5px ;
+  -moz-border-radius:5px ;
+  -ms-border-radius:5px ;
+  -o-border-radius:5px ;
 }
 
 /* #WhatGet a > span {
@@ -2211,8 +2221,8 @@ cursor: pointer;
 /* -----------------HighResult Section----------------- */
 
 #highResult {
-  margin-top: 100px;
-  max-width: 1100px;
+  margin-top: 70px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -2258,10 +2268,10 @@ cursor: pointer;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  max-width: 1120px;
+  
   margin: auto;
   position: relative;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 #highResult .row div:nth-child(1) {
@@ -2291,6 +2301,9 @@ cursor: pointer;
   font-family: "Playfair Display", serif;
   max-width: 900px;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #faq .header__top__left h2 {
@@ -2962,44 +2975,36 @@ section.goodProcess {
    background-image: url("https://images.prismic.io/marketersi/Z30sWJbqstJ99H4w_NewProject-3-.png?auto=format,compress");
   background-size: auto;
     background-repeat: repeat-y;
-    background-position: 63% 100%; 
+    background-position: 57% 88%;
 }
 
 .goodProcess h3 {
   font-size: 58px;
-  margin: 40px 0 -10px;
-  font-weight: 400;
-  line-height: 86px;
   
+  font-weight: 400;
+  line-height:72px;
+  margin-top: 20px;
 }
 
 .goodProcess .subtitle {
   font-size: 29px;
   font-weight: 500;
   line-height: 29px;
-  margin: 40px 0 20px 0;
-  max-width: 400px;
+  margin: 30px 0 40px 0;
+  
 }
 
 .two .subtitle {
-  max-width: 100%;
-  text-align: right;
+  
 }
 
 .three .subtitle {
   max-width: 100%;
 }
 
-.two h3 {
-  text-align: right;
-}
-
-.two p {
-  text-align: right;
-}
 
 .two .processVideo {
-  margin-left: 30px;
+ 
 }
 
 .goodProcess p {
@@ -3013,7 +3018,7 @@ section.goodProcess {
 }
 
 .number {
-  font-size: 300px;
+ 
   text-align: center;
   color: gray;
   position: relative;
@@ -3024,20 +3029,40 @@ section.goodProcess {
 }
 
 .one .number {
-  margin-top: -340px;
-  margin-left: 50px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 40px 0;
+  margin-bottom: 125px;
 }
 
 .two .number {
-  margin-top: 166px;
-  margin-left: 380px;
-  padding-bottom: 101px;
+  margin-top: 150px;
+  margin-left: 293px;
+  padding: 40px 0;
+  margin-bottom: 150px;
+  top: 75px;
+
 }
 
 .three .number {
-  margin-top: 238px;
-  margin-left: -199px;
-  padding-bottom: 101px;
+  margin-left: 29px;
+  padding: 40px 0;
+  margin-bottom: 150px;
+  top: 50px;
+
+}
+.afterImage{
+  width: 463px;
+  font-size: 85px;
+  line-height: 77px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto 0;
+  position: relative;
+  /* top: 126px; */
+  background: #f4f4f4;
+  padding: 50px;
+
 }
 
 .imgs img {
@@ -3046,22 +3071,24 @@ section.goodProcess {
 }
 
 .process1 {
-  margin-top: 200px;
-  max-width: 700px;
-  margin-left: 150px;
+  margin-top: 120px;
+  max-width: 600px;
+  margin-left: 0px;
+  margin-bottom: 120px;
 }
 
 .process2 {
-  margin-top: 200px;
-  max-width: 620px;
+  margin-top: 120px;
+  max-width: 600px;
   margin-left: auto;
-  margin-right: 150px;
+  margin-right: 0px;
+  margin-bottom: 120px;
 }
 
 .process3 {
-  margin-top: 200px;
-  margin-bottom: 250px;
-  max-width: 650px;
+  margin-top:120px;
+  margin-bottom: 120px;
+  max-width: 600px;
   margin-left: 0px;
 }
 
@@ -3102,7 +3129,7 @@ section.goodProcess {
     text-align: center;
     font-weight: 300;
     line-height: 42px;
-    padding-bottom: 180px;
+    padding-bottom: 0px;
 }
 /* @media screen and (max-width:1450px){
   #header > div div .subitle{

@@ -6,6 +6,7 @@
     /* Ensures the circles start from the top */
     width: 98vw;
     margin-top: 0px;
+    display: none;
 }
 
 .line {

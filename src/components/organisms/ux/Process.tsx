@@ -41,7 +41,7 @@ const Process = () => {
         ></div>
       ))}
 
-      <img className="bottomImg" src="/assets/images/monophy.gif" alt="" />
+      {/* <img className="bottomImg" src="/assets/images/monophy.gif" alt="" /> */}
     </div>
   );
 };

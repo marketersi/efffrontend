@@ -46,7 +46,7 @@ const GoodProcess = () => {
             playsinline
           />
 
-          <h3>{stage_2?.title}</h3>
+          <h3>Rozwój i Korzyści</h3>
           <p className="subtitle">{stage_2?.subtitle}</p>
           <p>{stage_2?.description}</p>
         </div>
@@ -71,8 +71,12 @@ const GoodProcess = () => {
           <p>{stage_3?.description}</p>
         </div>
         </div>
+        <h1 className="afterImage">Przykłady
+Realizacji
+</h1>
       
       </section>
+      
     </>
   );
 };
