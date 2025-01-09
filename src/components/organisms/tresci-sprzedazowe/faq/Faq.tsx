@@ -39,11 +39,9 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
       <div className="faqContainer">
       {faqAQ &&
         faqAQ?.map((item, index) => (
-          <div key={index} className="accordion-item">
+          <div key={index} className={`accordion-item ${index === activeIndex ? "active" : ""}`}>
             <div
-              className={`accordion-title ${
-                index === activeIndex ? "active" : ""
-              }`}
+              className="accordion-title"
               onClick={() => handleClick(index)}
             >
               {item.faq_ques}

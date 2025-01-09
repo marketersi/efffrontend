@@ -1,6 +1,6 @@
 /* ==============================sales banner========================== */
 section.sales_banner {
-  padding: 50px 0;
+  padding: 50px;
 }
 
 .top-section.desktop > .container {
@@ -1186,7 +1186,7 @@ section#sec1 {
   }
 
   section.sales_banner {
-    padding: 50px 0 0px;
+    padding: 40px 0 0px;
   }
 
   .copywriter-big-header-2 {

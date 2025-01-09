@@ -28,11 +28,9 @@ const LogoAccordion: React.FC<AccordionProps> = ({ items, title, image }) => {
       <div className="faqContainer">
         {items &&
           items?.map((item, index) => (
-            <div key={index} className="accordion-item">
+            <div key={index} className={`accordion-item ${index === activeIndex ? "active" : ""}`}>
               <div
-                className={`accordion-title ${
-                  index === activeIndex ? 'active' : ''
-                }`}
+                className="accordion-title"
                 onClick={() => handleClick(index)}
               >
                 {item.title}

@@ -39,11 +39,9 @@ const YesAccordion = () => {
     <div className="faqContainer">
     <div className="header__top__left"></div>
     {FAQsection?.FAQcard.map((item, index) => (
-      <div key={index} className="accordion-item">
+      <div key={index} className={`accordion-item ${index === activeIndex ? "active" : ""}`}>
         <div
-          className={`accordion-title ${
-            index === activeIndex ? "active" : ""
-          }`}
+          className="accordion-title" 
           onClick={() => handleClick(index)}
         >
           <div style={{ flex: 1 }}>{item.question}</div>
