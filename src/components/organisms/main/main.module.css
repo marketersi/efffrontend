@@ -82,9 +82,10 @@
   padding: 0px 0 0px;
 }
 .videoContainer{
-  width:82%;
+  width:950px;
   margin: auto;
 }
+
 
 .numbers h2 span {
   font-weight: 800;
@@ -100,6 +101,13 @@
 }
 
 /* ================================================== hard Result================================= */
+
+.hardResult{
+  max-width: 900px;
+  margin: auto;
+}
+
+
 .ratingLogoImg {
   display: flex;
   align-items: center;
@@ -135,7 +143,8 @@
   font-size: 50px!important;
   line-height: 50px!important;
   font-weight:700!important;
-  
+  max-width: 900px;
+  margin: auto;
 }
 .hardResult .helmet{
   padding: 0 0 40px;
@@ -262,7 +271,7 @@ img.hardImg {
   margin: 0 auto;
   display: block;
   width: 80%!important;
-  margin-top: 175px;
+  margin-top: 120px;
 }
 
 .brandingHeading {

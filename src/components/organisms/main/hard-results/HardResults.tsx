@@ -7,6 +7,7 @@ import { Container, Image, Row, Col } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import useOsClass from "@/components/molecules/useOsClass";
 
+
 const Entrepreneur = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
   const imageswithdescription = screenData?.imageswithdescription;
@@ -34,7 +35,7 @@ const Entrepreneur = () => {
                 url={section5?.video_url}
                 playing={true}
                 loop={true}
-                width="80%"
+                width="99%"
                 height="auto"
                 muted={true}
                 pip={false}
@@ -77,7 +78,7 @@ const Entrepreneur = () => {
             
             
           </div>
-          <div className={style.videoContainer}>
+          <div className={`{style.videoContainer}`}>
           <div className={osClass}>
               <ReactPlayer
                 url={section7?.video_url_1}
@@ -89,6 +90,7 @@ const Entrepreneur = () => {
                 muted={true}
                 pip={false}
                 playsinline
+                
               />
             </div>
           </div>

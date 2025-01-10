@@ -34,7 +34,7 @@
   width: 100%;
   margin: auto;
   }
-
+  
 /* Modal */
 .Modal {
   position: absolute;
@@ -139,6 +139,14 @@
   border: none;
   font-size: x-large;
 }
+.bannerVideoMain{
+  position: relative;
+  width: 30vw!important;
+  margin: auto;
+ 
+  
+}
+
 
 /* *** */
 

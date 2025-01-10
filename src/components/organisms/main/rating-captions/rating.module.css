@@ -1,11 +1,12 @@
 .rating {
   padding: 70px 0;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
   width: 100%;
+  position: relative;
 }
 .WidthContetnt{
-  max-width:1100px;
+  max-width:1000px;
   width: 100%;
   margin: auto;
   }
@@ -13,7 +14,11 @@
 .ratingImg {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 50px;
+  position: absolute;
+  width: 100%;
+  top: -120px;
+  z-index: -1;
 }
 
 .ratingImg img {
@@ -44,7 +49,7 @@
 .ratingMainImg img {
   width: 100%;
   height: auto;
-  margin: -290px auto -70px;
+  margin: -190px auto -90px;
   display: block;
 }
 

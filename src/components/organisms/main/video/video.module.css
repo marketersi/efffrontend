@@ -4,11 +4,9 @@
 
 
 .mainVideoDiv video {
-  position: absolute;
-  left: 20%;
-  top: -10px;
+  margin: 0 auto;
   border-radius: 50px;
-  width: 60% !important;
+  width: 100%;
   z-index: 0;
 }
 
@@ -18,9 +16,12 @@
   height: 75px;
   border-radius: 18px;
   position: absolute;
-  left: 48%;
-  top: 150px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
+
 
 .youtubeIcon svg {
   width: 40px;

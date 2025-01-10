@@ -139,7 +139,7 @@ const Header = () => {
               <div className={style.rightNav}>
                 <Nav className="d-flex align-items-center flex-nowrap">
                   <Nav.Link className={style.navRightMenu}>
-                    <Link href="/Zespol">
+                    <Link href="/Kim-jestesmy">
                       Kim <br /> jesteśmy?
                     </Link>
                   </Nav.Link>

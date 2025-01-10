@@ -74,7 +74,7 @@ const Footer = () => {
                   <div className={style.footerRightMenu}>
                     <h3>Marketersi</h3>
                     <div className={style.footerCennik}>
-                      <Link href="/Zespol">Kim jesteśmy?</Link>
+                      <Link href="/Kim-jestesmy">Kim jesteśmy?</Link>
                       <Link href="/kontakt-marketersi">Kontakt</Link>
                       <Link href="/cennik" className={style.CennikBrn}>
                         Cennik

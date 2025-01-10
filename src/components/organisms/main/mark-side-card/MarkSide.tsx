@@ -35,9 +35,9 @@ const MarkSide = () => {
 
   return (
     <div>
-      <Container fluid>
+      <Container>
         <Row className={style.gapRow}>
-          <Col md={4} className={osClass}>
+          <Col md={4} className={style.gapRowCol}>
             <ReactPlayer
               url={companySection?.image_2}
               playing={true}
@@ -63,7 +63,7 @@ const MarkSide = () => {
             </div>
             <Card data={companyCard[1]} links={links2} />
           </Col>
-          <Col md={4}>
+          <Col md={4} className={`${style.gapRowCol}`}>
             <div className={style.mark}>
               <Image
                 src={companySection?.image_3}

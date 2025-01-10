@@ -137,6 +137,9 @@ body{
   margin-top: -100px;
   margin-bottom: 100px;
 }
+.OurClients_Marquee .rfm-marquee-container{
+  overflow-x: visible!important;
+}
 
 /* * */
 .content {
@@ -171,13 +174,14 @@ body{
   text-align: left;
 }
 
+
 /* *** */
 .OurClients_Slide {
   display: flex;
   flex-direction: column;
-  padding-inline: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-inline: 35px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .OurClients_Slide_Container {
   display: flex;
@@ -201,7 +205,7 @@ body{
   text-align: center;
   justify-content: flex-end;
   margin-top: 30px;
-  margin-right: -30px;
+  margin-right: -10px;
 }
 .OurClients_Slide_Title {
   font-size: 33.28px;
@@ -401,7 +405,13 @@ body{
   padding-block: 0px 0 50px;
 }
 .WidthContent{
-  max-width: 1100px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+.WidthContent1{
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 
@@ -430,25 +440,27 @@ body{
   display: block;
 }
 .buttonux{
-  border-radius: 0px;
-  padding: 8px 20px;
-  background-color: #00bbff;
-  border: 0px solid #00bbff;
-  margin-bottom: 50px;
-  margin-top: 30px;
-  text-decoration: none;
-  color: #333333;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+    background-color: var(--brand-blue);
+    border-color: var(--brand-blue);
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+    box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none;
 }
-
+.buttonux:hover{
+  box-shadow: none;
+  outline: none;
+}
 
 .faqContainer .accordion-item {
   position: relative;
@@ -654,6 +666,9 @@ video {
 .win video {
   -webkit-filter: contrast(0.999);
   filter: contrast(0.999);
+}
+.windos video{
+  margin-left: -30px;
 }
 
 .mac video {

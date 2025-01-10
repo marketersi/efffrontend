@@ -71,7 +71,7 @@ const Question14 = () => {
                   {summary?.buttonText_1}
                 </motion.button>
 
-                <Link href="/Zespol">
+                <Link href="/Kim-jestesmy">
                   <motion.button
                     className="zh_preview_btn"
                     whileHover={{ translateY: 5 }}

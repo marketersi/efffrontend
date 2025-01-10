@@ -35,7 +35,7 @@ export default function OurClients() {
 
   return (
     <>
-    <section className="WidthContent">
+    <section className="WidthContent1">
       <h2 className="ClinetsHead">Jak wygląda współpraca z Marketersi?</h2>
       <p className="ClinetsPara">Zapytaliśmy setkę naszych klientów i oto, co usłyszeliśmy:</p>
     <div className="OurClients WidthContent mobile-mt">

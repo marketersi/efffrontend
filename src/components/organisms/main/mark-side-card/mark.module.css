@@ -1,12 +1,19 @@
 .markCard {
   background: #f6f6f6;
-  width: 420px;
-  padding: 40px;
+
+  padding: 25px;
   margin: 15px auto 30px;
   border-radius: 20px;
   box-shadow: 4px 0px 10px lightgray;
 }
-
+.gapRowCol, .midColumn{
+  width: 32.5%;
+  max-width: 32.5%;
+}
+.gapRow{
+  display: flex;
+  justify-content: space-between;
+}
 .markCard h3 {
   font-size: 50px;
   text-align: center;

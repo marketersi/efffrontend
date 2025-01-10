@@ -35,7 +35,7 @@ const Team = () => {
       {/* to be deleted */}
       {/* <TeamComponents.ImageSlider /> */}
       <OurClients />
-      <section className={`{style.Customers} WidthContent`}>
+      <section className={`{style.Customers} WidthContent1`}>
         <div className={`${style.teamContent}`}>
           <p className={style.customersPara}>
             <span>{section3?.section_three_header}</span>

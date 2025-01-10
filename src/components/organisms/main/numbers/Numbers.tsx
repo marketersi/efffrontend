@@ -16,11 +16,11 @@ const Entrepreneur = () => {
     <div>
       <Container>
         <div className={style.numbers}>
-        <h2 className={style.Content_h2}>
+        
+          <div className={style.Content}>
+          <h2 className={style.Content_h2}>
               {section2?.title}
             </h2>
-          <div className={style.Content}>
-            
             <p>
               {section2?.paragraph_1}
             </p>
@@ -50,7 +50,7 @@ const Entrepreneur = () => {
           </div>
 
 
-        <div className={style.videoContainer}>
+        <div className={`${style.videoContainer} windos`}>
         <div className={osClass}>
             <ReactPlayer
               url={section3?.video_url}

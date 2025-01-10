@@ -11,23 +11,22 @@ const Video = () => {
   const { brandSection } = screenData;
   const slideAnimationTop: Variants = {
     offscreen: {
-      scale: 0.7,
-      rotate: -10,
+      scale: 1,
+      skewY: -10,
       transition: {
-        type: "ease",
+        type: "spring",
         damping: 25,
         stiffness: 70,
-        duration: 3,
       },
     },
     onscreen: {
-      scale: 1,
-      rotate: 0,
+      scale: 2.3,
+      skewY: 0,
       transition: {
-        type: "ease",
+        type: "spring",
         damping: 25,
         stiffness: 70,
-        duration: 3,
+        duration: 1.5,
       },
     },
   };
@@ -47,14 +46,16 @@ const Video = () => {
 
   return (
     <>
+       <div className="container">
        <motion.div
         className={style.mainVideoDiv}
         initial="offscreen"
         whileInView="onscreen"
+        viewport={{ once: false, amount: 0.5 }}
         variants={slideAnimationTop}
       >
         
-        <div className={osClass}>
+        <div className={`${osClass} bannerVideoMain`}>
         <ReactPlayer
           url={brandSection?.banner_video}
           playing={true}
@@ -65,7 +66,6 @@ const Video = () => {
           pip={false}
           playsinline
         />
-              </div>
         <div className={style.youtubeIcon} onClick={openPopup}>
           <svg
             className="h-[60%] w-full"
@@ -79,7 +79,10 @@ const Video = () => {
             ></path>
           </svg>
         </div>
+              </div>
+        
       </motion.div>
+       </div>
 
       {isPopupOpen && (
         <div className="popup-overlay" onClick={closePopup}>

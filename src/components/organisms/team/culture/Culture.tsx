@@ -9,16 +9,16 @@ const Culture = () => {
 
   return (
     <>
-     <div className="WidthContent">
+     <div className="WidthContent1">
      <div className={`${style.teamContent1} additionalSpace`}>
-        <p className={style.textContent}>
+        <p className={style.textContentBg}>
         Marketersi wybrały firmy, które osiągają sukcesy.
         </p>
       </div>
       <Container>
         <div className={style.cultureCard}>
           <img src={section7?.card7_image_1} alt="" />
-          <h2>Kiedy branżowe media sięgają po nasze opinie.</h2>
+          <h2>Kiedy branżowe media <br/> sięgają po nasze opinie.</h2>
           <h3>wiemy, że nasze podejście działa.</h3>
         </div>
         {/* <img className={style.cultureImg} src={section7?.card7_image_2} alt="" /> */}

@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 .WidthContent{
-  max-width:1100px;
+  max-width:1000px;
   margin: 0 auto;;
 }
 
@@ -20,13 +20,26 @@
   margin-top: 70px;
   margin-bottom: 70px;
 }
-
+.textContentBg{
+  background: #6d7278;
+  color: #ffc600;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 40px;
+  width: fit-content;
+  margin: auto;
+}
+.peopleTitle{
+  margin-bottom: 60px;
+}
 
 .bannerHeading h1 {
   font-size: 85px;
   font-weight: 700;
  line-height: 77px;
   text-align: center;
+  max-width: 900px;
+  margin: auto;
 }
 .MainTitle{
   font-size: 85px;
@@ -48,7 +61,7 @@
 }
 
 .teamContent {
-  
+  max-width: 900px;
   margin: 70px auto;
 }
 .teamContent1 {
@@ -82,7 +95,7 @@
 }
 
 .bannerBottomContent h2 {
-  font-size: 72px;
+  font-size: 71px;
   font-weight: 500;
   line-height: 72px;
   margin: 0 0px;
@@ -122,16 +135,20 @@
   top: 0;
   z-index: -1;
 }
+.bannerBottomContent{
+  max-width: 1200px;
+  margin: auto;
+}
 
 /* ============personal card============= */
 .personalCard {
   background: #f6f6f6;
-  padding: 80px;
+  padding: 50px;
   border-radius: 30px;
   box-shadow: 4px 4px 15px 0px #f6f6f6, 0px 0px 0px 0px #fff,
     2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
   margin: 0 auto 0px;
-  max-width: 1200px;
+  max-width: 900px;
 
   
 }
@@ -394,11 +411,11 @@ align-items: center;
 .cultureCard {
   box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px #fff,
     2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
-  width: 1000px;
+  width: 900px;
   margin: 100px auto 70px;
   background: #f6f6f6;
   border-radius: 30px;
-  padding: 40px 80px;
+  padding: 40px 50px;
 }
 .culturedContent p{
   font-size: 28px;
@@ -466,6 +483,10 @@ text-align: center;
 
 .cardDataSpace {
   margin: 70px 0;
+}
+.WidthContent1 .container{
+  padding-left: 0!important;
+  padding-right: 0!important;
 }
 
 .cardCup {
