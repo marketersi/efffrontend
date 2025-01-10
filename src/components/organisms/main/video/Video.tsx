@@ -99,6 +99,9 @@ const Video = () => {
               pip={false}
               playsinline
             />
+            <button className="close-btn" onClick={closePopup}>
+              X
+            </button>
           </div>
         </div>
       )}
@@ -119,6 +122,22 @@ const Video = () => {
 
         .popup-content {
           overflow: auto;
+        }
+           .close-btn {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background: #00bfff;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 15px;
+          cursor: pointer;
+          font-weight:900;
+        }
+
+        .close-btn:hover {
+          background: darkred;
         }
       `}</style>
     </>

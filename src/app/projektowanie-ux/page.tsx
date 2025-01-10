@@ -16,7 +16,7 @@ import Executive from "@/components/organisms/ux/Executive";
 import UxAccordion from "@/components/organisms/ux/accordion/UxAccordion";
 import { useDispatch, useSelector } from "react-redux";
 import { FETCH_UX_SCREEN_DATA } from "@/redux/ux/uxDesignAction";
-import Process from "@/components/organisms/ux/Process";
+import Process from "@/components/organisms/ux/ZigZagDots";
 import { clearPriceListFormData } from "@/redux/cennik/pricelistSlice";
 import BounceLoader from "react-spinners/BounceLoader";
 
@@ -46,7 +46,7 @@ const UXDesignScreen = () => {
       <Complex />
       <Systemically />
       <UxVideo />
-      <Process />
+      {/* <Process /> */}
       <GoodProcess />
       <WebSite />
       <Slider />
