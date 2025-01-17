@@ -1,6 +1,6 @@
 /* 1. MainHeading */
 .MainHeading {
-  margin:50px 60px;
+  margin:30px 60px 70px;
   
 }
 
@@ -15,49 +15,63 @@
   display: block;
 }
 .MainHeading_Title {
-  font-size: 85px;
-  font-weight: 500;
-  line-height: 85px;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 110px;
   text-align: left;
 }
 .MainHeading_Image img{
   width: 100%;
   height: auto;
 }
+.mainHeadingContent{
+  padding: 40px 0;
+}
 .MainHeading_Title span {
   background-image: linear-gradient(90deg, #00bfff, #00bfff1f);
   background-repeat: no-repeat;
-  background-size: 100% 28px;
+  background-size: 100% 52px;
   background-position: 0px 75px;
 }
 
 .MainHeading_SecondTitle {
   font-size: 85px;
-  font-weight: 500;
-  line-height: 85px;
+  font-weight: 700;
+  line-height: 77px;
   text-align: left;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin-bottom: 30px;
+  
 }
 
 .MainHeading_Content {
   font-size: 29px;
   font-weight: 300;
   line-height: 44px;
+  margin-bottom: 30px;
   
-  margin-left: 60px;
 }
 .MainHeading button{
-  padding: 8px 20px;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 40px;
-  color: #fff;
-  background-color: #00bfff;
-  border: none;
-  box-shadow: none;
-  margin: 20px 0 20px 80px;
+  background-color: var(--brand-blue);
+    border-color: var(--brand-blue);
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+    box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none;
 
+}
+.MainHeading button:hover{
+  box-shadow: none;
+  outline: none;
 }
 
 
@@ -75,9 +89,9 @@
 }
 
 .MainContentOne_Container {
-  font-size: 74px;
-  font-weight: 900;
-  line-height: 80px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
   
   text-align: center;
 }
@@ -91,8 +105,8 @@
   margin-bottom: 0;
 }
 /* 3. MainNumber */
-.MainNumber {
-  margin-bottom: 60px;
+.MainContentTwo_Container{
+  
 }
 
 .MainNumber_Container {
@@ -127,39 +141,50 @@
   
 }
 .MainNumber_Two img{
-  width: 30%!important;
-  margin: auto;
+  width: 170%!important;
+  margin-left:-120px;
 }
-.MainNumber_image_box{
-  display: flex;
+.main-content-row{
   justify-content: center;
+  padding: 50px 50px 0;
 }
+.imagboxmainhead img{
+ 
+  height: auto;
+}
+
 /* 4. MainContentTwo */
-.MainContentTwo {
+/* .MainContentTwo {
   margin-bottom: 80px;
-  background-image: url(https://images.prismic.io/marketersi/Zo0UOR5LeNNTw7vb_Untitleddesign-1-.png?auto=format,compress);
+  background-image: url(https://images.prismic.io/marketersi/Z4pKlZbqstJ99kIC_Zo0UOR5LeNNTw7vb_Untitleddesign-1-.png?auto=format,compress);
   background-position: 136% 83%;
   background-repeat: no-repeat;
-  background-size: 1000px;
+  background-size: cover;
 }
 @media screen and (min-width:1500px) and (max-width:1750px){
   .MainContentTwo{
-    background-position: 110% 88%;
+    background-position: 208% 88%;
   }
 }
 @media screen and (min-width:1751px) and (max-width:1950px){
   .MainContentTwo{
-    background-position: 110% 83%;
+    background-position: 208% 83%;
   }
-}
-.MainContentTwo_Container p {
+} */
+.MainNumber_Two_Footer p {
   font-size: 28px;
   font-weight: 300;
   line-height: 50px;
   margin: 0 0 30px;
 }
+.MainContentTwo_Container p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 0 0 20px;
+}
 
-.MainNumber_Two_Footer {
+.MainNumber_image_box p {
   display: flex;
   gap: 10px;
   font-weight: 300;
@@ -169,9 +194,7 @@
   text-align:center;
   justify-content: center;
 }
-.MainContentTwo_Container p:nth-child(4) {
-  max-width: 700px;
-}
+
 
 /* 5. ResultTable */
 .ResultTable {
@@ -179,11 +202,12 @@
 }
 
 .ResultTable_Title {
-  font-size: 74px;
-  font-weight: 900;
-  line-height: 80px;
-  margin-bottom: 100px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  margin-bottom: 90px;
   text-align: center;
+  margin-top: 70px;
 }
 
 .ResultTable_Table {
@@ -240,21 +264,26 @@
 /* 6. Strategy */
 
 .Strategy {
+  margin: auto;
   margin-bottom: 100px;
+  max-width: 1200px;
+  
 }
 
 .Strategy_Title {
-  font-size: 74px;
-  font-weight: 900;
-  line-height: 80px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
   text-align: center;
   color: #333333;
+  margin: auto;
   margin-bottom: 120px;
+  max-width: 900px;
 }
 
 .Strategy_Cards {
   display: flex;
-  gap: 5em;
+  gap: 3em;
 }
 
 .Strategy_Card {
@@ -285,22 +314,24 @@ img.strategyImg {
 }
 
 .Strategy_Card_Content_One {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .Strategy_Card_Content_Two {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* 7. Testimonial */
 .Testimonial {
+  margin: auto;
   margin-bottom: 100px;
+  max-width: 1200px;
 }
 
 .Testimonial_Card {
@@ -328,7 +359,7 @@ img.strategyImg {
 
 .Testimonial_Card_Content_Button {
   background-color: var(--brand-blue);
-  color: #2b2b2b;
+  color: #fff;
   cursor: pointer;
   font-size: 30px;
   font-weight: 400;
@@ -336,31 +367,32 @@ img.strategyImg {
   text-align: center;
   padding: 8px 20px;
   border: none;
-  margin: 0 auto;
+  margin:30px auto 15px;
   display: block;
 }
 
 /* 8. ResultMax */
 .ResultMax {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .ResultMax_Title {
   color: #333333;
-  font-size: 74px;
-  font-weight: 900;
-  line-height: 80px;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .ResultMax_Content_One {
   color: #333333;
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 47px;
+  font-style: italic;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .ResultMax_Content_Two {
@@ -372,6 +404,11 @@ img.strategyImg {
 }
 
 /* 9. Analysis */
+.WidthContent2{
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 60px;
+}
 .Analysis {
   margin-bottom: 60px;
   padding: 0;
@@ -387,23 +424,24 @@ img.strategyImg {
 }
 .Analysis_Card img{
   width: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 .Analysis_Card_Content_Title {
   color: #333;
-  font-size: 58px;
-  line-height: 86px;
-  margin-bottom: 25px;
-  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  font-weight: 400;
 }
 
 .Analysis_Card_Content_Text {
  
-  font-size: 29px;
-  line-height: 29px;
+  font-size: 26px;
+  line-height: 28px;
   margin-bottom: 25px;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: Georgia;
 }
 
 .Analysis_Card_Content_Table {
@@ -425,8 +463,8 @@ img.strategyImg {
   flex-direction: column;
   gap: 10px;
   
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 22px;
 }
 
@@ -939,9 +977,9 @@ img.strategyImg {
 
 .ImageAdvantage_Button {
   cursor: pointer;
-  font-weight: 400;
-  line-height: 40px;
-  padding: 10px 20px;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 8px 20px;
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
@@ -949,7 +987,7 @@ img.strategyImg {
   background-color: transparent;
   border: 2px solid black;
   width: fit-content;
-  font-size: 30px;
+  font-size: 17px;
 }
 .Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column{
   align-items: end;

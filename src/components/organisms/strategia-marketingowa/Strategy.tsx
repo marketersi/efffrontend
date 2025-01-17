@@ -6,7 +6,7 @@ export default function Strategy() {
   const { strategy } = screenData;
 
   return (
-    <div className="Strategy WidthContent">
+    <div className="Strategy">
       <p className="Strategy_Title">{strategy?.title}</p>
       <div className="Strategy_Cards feature">
         {strategy?.featureList?.map((item) => (

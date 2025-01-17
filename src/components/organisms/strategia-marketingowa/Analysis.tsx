@@ -14,10 +14,10 @@ export default function Analysis() {
   const [Analysis4_Dropdown_Show, setAnalysis4_Dropdown_Show] = useState(true);
 
   return (
-    <div className="Analysis WidthContent">
+    <div className="Analysis WidthContent2">
       {/* Card 1 */}
       <div className="Analysis_Card full row">
-        <div className="Analysis_Card_Content col-md-6">
+        <div className="Analysis_Card_Content col-md-5">
           <div className="Analysis_Card_Content_Title">{Card1?.title}</div>
           <div className="Analysis_Card_Content_Text">{Card1?.subtitle}</div>
           <div className="Analysis_Card_Content_Table">
@@ -49,7 +49,7 @@ export default function Analysis() {
           </div>
         </div>
 
-        <div className="Analysis_Card_img_order col-md-6">
+        <div className="Analysis_Card_img_order col-md-7">
           <Image
             src={Card1?.main_image}
             alt="AnalysisImage1"

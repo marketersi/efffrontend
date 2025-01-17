@@ -2,100 +2,115 @@ import useOsClass from "@/components/molecules/useOsClass";
 import ReactPlayer from "react-player";
 import { useSelector } from "react-redux";
 import React, { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const GoodProcess = () => {
   const [trail, setTrail] = useState([]);
   const [scrollDir, setScrollDir] = useState("down");
-  const goodProcessRef = useRef(null);
   const { screenData } = useSelector((state) => state.ux);
   const GoodProcess = screenData.GoodProcess || {};
   const { stage_1, stage_2, stage_3 } = screenData.GoodProcess?.Stages || {};
   const osClass = useOsClass();
+  const [lastAddedScroll, setLastAddedScroll] = useState(0);
 
   useEffect(() => {
     let lastScrollY = 0;
-    const section = goodProcessRef.current;
-
-    // Check for section height
-    const sectionHeight = section ? section.offsetHeight : 0;
+    const minDistance = 25;
+    const removalDelay = 10; // Delay in ms for removing dots
+    const trailTimeouts: any[] = [];
+    let removalTimeout: string | number | NodeJS.Timeout | undefined;
 
     const handleScroll = () => {
       const currentScroll = window.scrollY;
+      const direction = currentScroll > lastScrollY ? "down" : "up";
+      setScrollDir(direction);
 
-      // Check if user is within the goodProcess section
-      if (!section) return;
-      const { top, bottom } = section.getBoundingClientRect();
-
-      // Trigger animations only when section is in view
-      if (top < window.innerHeight && bottom > 0) {
-        const direction = currentScroll > lastScrollY ? "down" : "up";
-        setScrollDir(direction);
-
-        // Add a new arrow when scrolling down and the number of arrows is less than max
-        if (direction === "down" && trail.length < Math.floor(sectionHeight / 50)) {
-          setTrail((prevTrail) => [
-            ...prevTrail,
-            {
-              id: Math.random(),
-              x: window.innerWidth / 2 + Math.sin(currentScroll / 100) * 300, // Curved horizontal position
-              y: currentScroll + window.innerHeight / 2, // Vertical position based on scroll
-            },
-          ]);
-        }
-
-        // Remove arrows when scrolling up
-        if (direction === "up" && trail.length > 0) {
-          setTrail((prevTrail) => prevTrail.slice(0, prevTrail.length - 1)); // Remove one arrow on scroll up
-        }
+      if (
+        direction === "down" &&
+        currentScroll - lastAddedScroll > minDistance
+      ) {
+        setTrail((prev) => [
+          ...prev,
+          {
+            id: Math.random(),
+            x: window.innerWidth / 2 + Math.sin(currentScroll / 100) * 150,
+            y: currentScroll + window.innerHeight / 3,
+          },
+        ]);
+        setLastAddedScroll(currentScroll);
+      } else if (direction === "up") {
+        if (removalTimeout) clearTimeout(removalTimeout);
+        removalTimeout = setTimeout(() => {-
+          setTrail((prev) => {
+            if (prev.length > 0) {
+              const removedDot = prev[prev.length - 1];
+              console.log("Removed dot:", removedDot);
+              return prev.slice(0, prev.length - 1);
+            }
+            return prev;
+          });
+        }, removalDelay);
       }
 
       lastScrollY = currentScroll;
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [trail.length]); // Make sure the effect re-runs when `trail.length` changes
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      trailTimeouts.forEach(clearTimeout);
+    };
+  }, [lastAddedScroll, trail]);
 
   const trailVariants = {
-    hidden: { opacity: 0, scale: 0 },
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    initial: { opacity: 1, scale: 0.8 },
+    animate: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    exit: { opacity: 1, scale: 0.8, transition: { duration: 0.8 } },
   };
 
   return (
     <>
-      <section className="goodProcess" ref={goodProcessRef}>
-        {/* Trail dots animation */}
-        {trail.map((item) => (
-          <motion.div
-            key={item.id}
-            className="trail-arrow"
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-            variants={trailVariants}
-            style={{
-              position: "absolute",
-              top: item.y,
-              left: item.x,
-              width: 30,
-              height: 30,
-              pointerEvents: "none",
-              zIndex: 9999,
-              transition: "top 0.2s ease, left 0.2s ease", // Smooth transition for positions
-            }}
-          >
+      <section className="goodProcess" style={{position:"relative"}}>
+        {/* AnimatePresence for trail dots */}
+        <AnimatePresence>
+          {trail
+            .filter(
+              (item) =>
+                item.x >= 0 &&
+                item.x <= window.innerWidth &&
+                item.y >= window.scrollY 
+            )
+            .map((item) => (
+              <motion.div
+                key={item.id}
+                className="trail-dot"
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={trailVariants}
+                style={{
+                  position: "absolute",
+                  top: `${item.y}px`,
+                  left: `${item.x}px`,
+                  width: 20,
+                  height: 20,
+                  pointerEvents: "none",
+                  zIndex: 10,
+                }}
+              >
+                
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill={scrollDir === "down" ? "#00bfff" : "#00bfff00"}
+              fill={scrollDir === "down" ? "#00bfff" : "#00bfff"}
               width="30"
               height="30"
             >
               <path d="M12 21l-9-9h6V3h6v9h6l-9 9z" />
             </svg>
           </motion.div>
-        ))}
+            ))}
+        </AnimatePresence>
 
         {/* GoodProcess Content */}
         <div className="one">
@@ -110,11 +125,11 @@ const GoodProcess = () => {
           <div className={`one ${osClass}`}>
             <ReactPlayer
               url={stage_1?.video_url}
-              playing={true}
-              loop={true}
-              muted={true}
+              playing
+              loop
+              muted
               className="processVideo"
-              playsinline
+              playsInline
             />
             <h3>{stage_1?.title}</h3>
             <p className="subtitle">{stage_1?.subtitle}</p>
@@ -134,13 +149,13 @@ const GoodProcess = () => {
           <div className={`two ${osClass}`}>
             <ReactPlayer
               url={stage_2?.video_url}
-              playing={true}
-              loop={true}
-              muted={true}
+              playing
+              loop
+              muted
               className="processVideo"
-              playsinline
+              playsInline
             />
-            <h3>Rozwój i Korzyści</h3>
+            <h3>{stage_2?.title}</h3>
             <p className="subtitle">{stage_2?.subtitle}</p>
             <p>{stage_2?.description}</p>
           </div>
@@ -165,8 +180,9 @@ const GoodProcess = () => {
       </section>
 
       <style jsx>{`
-        .trail-arrow {
+        .trail-dot {
           pointer-events: none;
+          position: absolute;
         }
       `}</style>
     </>

@@ -22,7 +22,7 @@ export default function Testimonial() {
   ];
 
   return (
-    <div className="Testimonial WidthContent">
+    <div className="Testimonial">
       <div className="Testimonial_Card feature">
         <div>
           <img

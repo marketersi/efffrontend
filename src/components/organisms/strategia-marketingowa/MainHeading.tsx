@@ -18,17 +18,17 @@ const MainHeading = () => {
     <>
     <div className="MainHeading content">
       <div className="MainHeading_Container full row p-0">
-        <div className="mainHeadingContent col-md-7">
+        <div className="mainHeadingContent col-md-6">
           <div className="MainHeading_Title">
             <span>{hero?.title && hero.title.split(" ")[0]}</span>
           </div>
           <div className="MainHeading_SecondTitle">
-          Twój kompas w  <span className="indent-20">świecie sprzedaży</span>
+          Twój kompas <br/>   w świecie <br/>sprzedaży
           </div>
           <div className="MainHeading_Content ">
-          Twoja firma jest ważna, <span className="indent-20">zróbmy ją skuteczniejszą.</span>
+          Twoja firma jest ważna, <span className="">zróbmy ją skuteczniejszą.</span>
           </div>
-          <div className="catalog-submit-button projects-catalog-submit-buttom logo-button-box during-page-offer">
+          <div className="catalog-submit-button projects-catalog-submit-buttom logo-button-box">
           <button
             className="download-catalog-button projects-download-catalog-button send-offer-button rwd-logo-button-box js--triggerAnimation"
             type="button"
@@ -38,7 +38,7 @@ const MainHeading = () => {
           </button>
         </div>
         </div>
-        <div className="MainHeading_Image col-md-5">
+        <div className="MainHeading_Image col-md-6">
           <Image
             src={hero?.image_url}
             alt="MainHeadingImage"

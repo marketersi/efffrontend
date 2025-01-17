@@ -29,10 +29,9 @@ export default function MainNumber() {
           </div>
         </div> */}
         <div className="MainNumber_Two">
-          <div className="MainNumber_Two_Content">
-            {MainNumber?.info_2}
-          </div>
-          <div className="MainNumber_image_box">
+        
+          <div className="row">
+          <div className="MainNumber_image_box col-md-3">
             <Image
               src={MainNumber?.percentage_image_2}
               alt="MainNumberImage2"
@@ -44,12 +43,15 @@ export default function MainNumber() {
                 height: "auto",
               }}
             />
-          </div>
-          <div className="MainNumber_Two_Footer">
-            <div>* </div>
+           
             <div>
-              {MainNumber?.asterisk_text}
+              <p>* {MainNumber?.asterisk_text}</p>
             </div>
+          </div>
+          <div className="MainNumber_Two_Footer col-md-9">
+          <p>{MainNumber?.info_2}</p>
+            
+          </div>
           </div>
         </div>
       </div>

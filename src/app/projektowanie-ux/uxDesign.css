@@ -2984,11 +2984,11 @@ video.mobileVideo {
 
 /* ----------------------------------------goodProcess------------------------------ */
 section.goodProcess {
-  display: grid;
+  display: contents;
   grid-template-columns: 100%;
   margin-block: 100px;
   padding: 0 8vw;
-  
+  position: relative;
 }
 
 .goodProcess h3 {
