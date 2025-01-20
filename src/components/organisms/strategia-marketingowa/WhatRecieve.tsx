@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { useState } from 'react';
-import { useSelector } from 'react-redux';
+import Image from "next/image";
+import { useState } from "react";
+import { useSelector } from "react-redux";
 
 export default function WhatRecieve() {
   const { isLoading, screenData } = useSelector((state) => state.strategy);
@@ -10,19 +10,23 @@ export default function WhatRecieve() {
     useState(true);
 
   return (
-    <div className="WhatRecieve WidthContent">
-      {/* One */}
-      <div className="WhatRecieve_Title_One">{WhatReceive?.title}</div>
-      <div className="WhatRecieve_Content_One">
-        {WhatReceive?.description_1}
-      </div>
-      {/* Two */}
-      <div className="WhatRecieve_Title_Two">{WhatReceive?.subtitle}</div>
-      <div className="WhatRecieve_Content_Two">
-        {WhatReceive?.description_2}
-      </div>
-      {/* Table */}
-      {/* <div className="WhatRecieve_Table">
+    <>
+      <div className="WhatRecieve WidthContent">
+        {/* One */}
+        <div className="WhatRecieve_Title_One">
+          Rozpocznij
+          <br /> Podróż z Marketersi <br />w znane
+        </div>
+        <div className="WhatRecieve_Content_One">
+          {WhatReceive?.description_1}
+        </div>
+        {/* Two */}
+        <div className="WhatRecieve_Title_Two">{WhatReceive?.subtitle}</div>
+        <div className="WhatRecieve_Content_Two">
+          {WhatReceive?.description_2}
+        </div>
+        {/* Table */}
+        {/* <div className="WhatRecieve_Table">
         <div className="WhatRecieve_Table_Column">
           <div>{WhatReceive?.info_1}</div>
           <div>{WhatReceive?.info_2}</div>
@@ -36,8 +40,8 @@ export default function WhatRecieve() {
           <div>{WhatReceive?.info_6}</div>
         </div>
       </div> */}
-      {/* Image 1 */}
-      {/* <div
+        {/* Image 1 */}
+        {/* <div
         className="full WhatRecieveImage1"
         style={{ marginBottom: '30px', textAlign: 'center' }}
       >
@@ -48,57 +52,65 @@ export default function WhatRecieve() {
           width={1200}
         />
       </div> */}
+      </div>
       {/* Three */}
       <div className="WhatRecieve_Title_Three">
-        {WhatReceive?.description_3}
+        Wyobraź sobie, że stoisz <br />
+        na rozstajach dróg
+        <br /> Twojego biznesowego sukcesu.
       </div>
-      <div className="WhatRecieve_Content_Three_One">
-        {WhatReceive?.description_4}
-      </div>
-      <div className="WhatRecieve_Content_Three_Tow">
-        {WhatReceive?.description_5}
-      </div>
-      {/* Button */}
+      <div className="WhatRecieve WidthContent">
+        <div className="WhatRecieve_Content_Three_One">
+          {WhatReceive?.description_4}
+        </div>
+        <div className="WhatRecieve_Content_Three_Tow">
+          {WhatReceive?.description_5}
+        </div>
+        {/* Button */}
 
-      <div className="Analysis_Card_Content_Button_Container">
+        <div className="Analysis_Card_Content_Button_Container">
+          <div
+            className={`${
+              WhatRecieve_Dropdown_Show
+                ? "Analysis_Card_Content_Button"
+                : "Analysis_Card_Content_Button_Clicked"
+            }`}
+            onClick={() => {
+              setWhatRecieve_Dropdown_Show(!WhatRecieve_Dropdown_Show);
+            }}
+          >
+            ▼ {WhatReceive?.button_text}
+          </div>
+        </div>
+
+        {/* WhatRecieve_Dropdown */}
         <div
-          className={`${
-            WhatRecieve_Dropdown_Show
-              ? 'Analysis_Card_Content_Button'
-              : 'Analysis_Card_Content_Button_Clicked'
-          }`}
-          onClick={() => {
-            setWhatRecieve_Dropdown_Show(!WhatRecieve_Dropdown_Show);
-          }}
+          className="WhatRecieve_Dropdown"
+          hidden={WhatRecieve_Dropdown_Show}
         >
-          ▼ {WhatReceive?.button_text}
+          <div className="WhatRecieve_Dropdown_TitleOne">
+            {WhatReceive?.description_6}
+          </div>
+          <div className="WhatRecieve_Dropdown_ContentOne">
+            {WhatReceive?.description_7}
+          </div>
+          <div className="WhatRecieve_Dropdown_TitleTwo">
+            {WhatReceive?.description_8}
+          </div>
+          <div className="WhatRecieve_Dropdown_ContentTwo">
+            {WhatReceive?.description_9}
+          </div>
+        </div>
+        <div className="feature" style={{ textAlign: "center" }}>
+          <Image
+            src={WhatReceive?.image_url_2}
+            alt="WhatRecieveImage2"
+            height={520}
+            width={855}
+            style={{ width: "auto" }}
+          />
         </div>
       </div>
-
-      {/* WhatRecieve_Dropdown */}
-      <div className="WhatRecieve_Dropdown" hidden={WhatRecieve_Dropdown_Show}>
-        <div className="WhatRecieve_Dropdown_TitleOne">
-          {WhatReceive?.description_6}
-        </div>
-        <div className="WhatRecieve_Dropdown_ContentOne">
-          {WhatReceive?.description_7}
-        </div>
-        <div className="WhatRecieve_Dropdown_TitleTwo">
-          {WhatReceive?.description_8}
-        </div>
-        <div className="WhatRecieve_Dropdown_ContentTwo">
-          {WhatReceive?.description_9}
-        </div>
-      </div>
-      <div className="feature" style={{ textAlign: 'center' }}>
-        <Image
-          src={WhatReceive?.image_url_2}
-          alt="WhatRecieveImage2"
-          height={520}
-          width={855}
-          style={{ width: 'auto' }}
-        />
-      </div>
-    </div>
+    </>
   );
 }

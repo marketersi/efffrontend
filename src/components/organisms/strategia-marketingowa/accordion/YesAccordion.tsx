@@ -37,42 +37,30 @@ const YesAccordion = () => {
 
   return (
     <div className="faqContainer">
-    <div className="header__top__left"></div>
-    {FAQsection?.FAQcard.map((item, index) => (
-      <div key={index} className={`accordion-item ${index === activeIndex ? "active" : ""}`}>
+      <div className="header__top__left"></div>
+      {FAQsection?.FAQcard.map((item, index) => (
         <div
-          className="accordion-title" 
-          onClick={() => handleClick(index)}
+          key={index}
+          className={`accordion-item ${index === activeIndex ? "active" : ""}`}
         >
-          <div style={{ flex: 1 }}>{item.question}</div>
+          <div className="accordion-title" onClick={() => handleClick(index)}>
+            <div style={{ flex: 1 }}>{item.question}</div>
 
-          <motion.div
-            className="yes_accordion_animated_text"
-            initial="offscreen"
-            whileInView="onscreen"
-            variants={slideAnimationTop}
-          >
-            <span>T</span>
-            <span>A</span>
-            <span>K</span>
-          </motion.div>
-
-          {index === activeIndex ? (
-            <FontAwesomeIcon icon={faMinus} className="icon" />
-          ) : (
-            <FontAwesomeIcon icon={faPlus} className="icon" />
+            {index === activeIndex ? (
+              <FontAwesomeIcon icon={faMinus} className="icon" />
+            ) : (
+              <FontAwesomeIcon icon={faPlus} className="icon" />
+            )}
+          </div>
+          {index === activeIndex && (
+            <div
+              className="accordion-content"
+              dangerouslySetInnerHTML={{ __html: item.answer }}
+            ></div>
           )}
         </div>
-        {index === activeIndex && (
-          <div
-            className="accordion-content"
-            dangerouslySetInnerHTML={{ __html: item.answer }}
-          ></div>
-        )}
-      </div>
-    ))}
-  </div>
-  
+      ))}
+    </div>
   );
 };
 
