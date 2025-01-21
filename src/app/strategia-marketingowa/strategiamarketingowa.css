@@ -570,21 +570,21 @@ img.strategyImg {
 
 .Analysis1_GridItem2 {
   flex: 0 0 calc(42% - 10px);
-  background-color: #00bfff;
+  background-color: #aee151;
   padding: 30px;
   color: white;
 }
 
 .Analysis1_GridItem3 {
   flex: 0 0 calc(42% - 10px);
-  background-color: #00bfff;
+  background-color: #0fa25d;
   padding: 30px;
   color: white;
 }
 
 .Analysis1_GridItem4 {
   flex: 0 0 calc(42% - 10px);
-  background-color: #00bfff;
+  background-color: #3e5575;
   padding: 30px;
   color: white;
 }

@@ -27,7 +27,6 @@ section.sales_banner {
   margin-left: -75px;
 }
 
-
 .copywriter-page section.page-top .projects-top-banner-text {
   margin-top: 86px;
 }
@@ -40,9 +39,8 @@ section.sales_banner {
   display: block;
   margin: 20px 0px;
   font-size: 85px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 85px;
-
 }
 
 .copywriter-big {
@@ -59,7 +57,6 @@ section.sales_banner {
 }
 
 .copywriter-page .copywriter-top-banner-long-text {
-  
 }
 
 .top-banner-long-text {
@@ -67,11 +64,10 @@ section.sales_banner {
   line-height: 44px;
   font-size: 29px;
   font-weight: 300;
-  text-indent: -20px; /* Negative indent for the first line */
-  padding-left: 50px; /* Padding to align the rest of the lines */
+  /* text-indent: -20px; */
+  /* padding-left: 1.5rem; */
+  /* padding-left: 50px;  */
 }
-
-
 
 .copywriter-page .part-sec {
   margin-top: 20px;
@@ -87,7 +83,7 @@ section.sales_banner {
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .copywriter-page .old-btn a.btn {
@@ -120,24 +116,20 @@ section.sales_banner {
 }
 
 .copywriter-custom-margin-1 {
-  
 }
 
 .copywriter-big-header {
- 
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 47px;
   margin-bottom: 70px;
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .copywriter-page .copywriter-big-subheader {
-  
   font-size: 28px;
   line-height: 50px;
   font-weight: 300;
-  
 }
 
 /* ==============================sales option box========================== */
@@ -202,7 +194,6 @@ section.sales_option_box {
   text-align: center;
   margin-bottom: 40px;
   font-weight: 400;
-  
 }
 
 /* ==============================sales business tools========================== */
@@ -211,18 +202,15 @@ section.business_tools {
   margin-inline: auto;
 }
 
-
-
 .copywriter-big-header-2 {
-  
   font-size: 85px;
   font-weight: 700;
   line-height: 77px;
- margin-top: 0px;
+  margin-top: 0px;
   margin-bottom: 100px;
 }
 
-.copywriter-custom-container-1{
+.copywriter-custom-container-1 {
   display: flex;
   gap: 40px;
 }
@@ -236,7 +224,6 @@ section.business_tools {
 .copywriter-image-label {
   font-size: 22px;
   line-height: 20px;
-  
 }
 
 .copywriter-image-box-2,
@@ -252,8 +239,8 @@ section.business_tools {
   margin: 35px 0px 0;
 }
 
-.copywriter-custom-text-1{
-  
+.copywriter-custom-text-1 {
+  width: 60%;
   font-size: 28px;
   line-height: 50px;
   margin-bottom: 70px;
@@ -274,23 +261,26 @@ section.business_tools {
 
 /* ==============================sales section5========================== */
 
-
 .copywriter-custom-gray-header-1 {
-  
+  width: 85%;
+  margin: auto;
   font-size: 85px;
   line-height: 77px;
-  
   font-weight: 700;
   /* margin: 60px 0; */
   margin-bottom: 70px;
 }
 
-
-
 .copywriter-text-center img,
 .copywriter-text-left,
 .copywriter-text-right {
   max-width: 100%;
+}
+.para-2 {
+  width: 78%;
+}
+.main-title {
+  width: 60.7%;
 }
 
 .copywriter-custom-text-2 {
@@ -300,8 +290,6 @@ section.business_tools {
   margin-bottom: 70px;
 }
 
-
-
 .copywriter-text-right {
   max-width: 100%;
 }
@@ -309,14 +297,14 @@ section.business_tools {
 .copywriter-text-right {
   text-align: right;
 }
-.copywriter-intro-whatwedo-container .row{
+.copywriter-intro-whatwedo-container .row {
   margin-bottom: 70px;
 }
-.copywriter-intro-whatwedo-container .row>div:nth-child(1){
-  padding-right:40px!important;
+.copywriter-intro-whatwedo-container .row > div:nth-child(1) {
+  padding-right: 40px !important;
 }
-.copywriter-intro-whatwedo-container .row>div:nth-child(2){
-  padding-left:40px!important;
+.copywriter-intro-whatwedo-container .row > div:nth-child(2) {
+  padding-left: 40px !important;
 }
 .copywriter-intro-box {
   min-height: 269px;
@@ -327,13 +315,13 @@ section.business_tools {
   font-size: 29px;
   line-height: 29px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .copywriter-intro-header-right strong {
   display: block;
   font-size: 58px;
-  line-height: 86px;
-  margin-bottom: 20px;
+  line-height: 60px;
+  /* margin-bottom: 20px; */
 }
 
 .copywriter-intro-description-right {
@@ -346,7 +334,7 @@ section.business_tools {
   font-size: 29px;
   line-height: 29px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: right;
 }
 
@@ -356,8 +344,8 @@ strong {
 .copywriter-intro-header-left strong {
   display: block;
   font-size: 58px;
-  line-height: 86px;
-  margin-bottom: 20px;
+  line-height: 60px;
+  /* margin-bottom: 20px; */
 }
 
 .copywriter-intro-description-left {
@@ -381,9 +369,9 @@ strong {
 
 .copywriting-bg-white-header {
   font-size: 37px;
-  
+
   line-height: 37px;
-  
+
   margin-bottom: 30px;
 }
 
@@ -403,14 +391,14 @@ strong {
   text-decoration: none;
 }
 
-
-
 .copywriter-ksiazka-img {
   width: 100%;
 }
+.text-change {
+  max-width: 860px !important;
+}
 
 .copywriter-intro-bg-5-label {
-  
   font-size: 84px;
   line-height: 84px;
   font-weight: 500;
@@ -427,18 +415,17 @@ strong {
   padding: 20px 50px;
 }
 
-
 .teeTitle {
   font-size: 60px;
 }
 .teeDescription {
   font-size: 24px;
 }
-.copywriter-custom-headerOne{
+.copywriter-custom-headerOne {
   font-size: 85px;
-    line-height: 77px;
-    font-weight: 700;
-    margin-bottom: 70px;
+  line-height: 77px;
+  font-weight: 700;
+  margin-bottom: 70px;
 }
 
 .copywriter-custom-push-2 {
@@ -451,6 +438,7 @@ strong {
   font-size: 26px;
   line-height: 33px;
   font-weight: 400;
+  font-family: Georgia;
 }
 .theme-desc1 {
   margin-bottom: 40px;
@@ -467,23 +455,17 @@ strong {
   font-weight: 600;
 }
 
-
-
-
 .copywriter-custom-header {
-  
   font-size: 72px;
   line-height: 94px;
   font-weight: 900;
 }
 
 .copywriter-custom-subheader {
-  
   font-size: 35px;
   line-height: 47px;
   margin-bottom: 10px;
-  font-weight:300;
-
+  font-weight: 600;
 }
 
 .copywriter-whatwedo-container {
@@ -495,18 +477,17 @@ strong {
   margin-top: 25px;
   margin-bottom: 0px;
 }
-.copywriter-what-we-do:nth-child(1){
+.copywriter-what-we-do:nth-child(1) {
   padding-right: 15px;
 }
-.copywriter-what-we-do:nth-child(2){
+.copywriter-what-we-do:nth-child(2) {
   padding-left: 15px;
 }
 
 .copywriter-intro-sm-text {
-  
-  font-size: 18px;
- font-weight: 400;
-  line-height: 27px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
 }
 
 /* .copywriter-intro-sm-mright {
@@ -517,8 +498,6 @@ strong {
   max-width: 1100px;
   margin: auto;
 }
-
-
 
 img.copywriter-owocni {
   position: relative;
@@ -538,21 +517,17 @@ img.copywriter-owocni {
   top: -130px;
 }
 
-
-
 .copywriter-custom-header-2 {
-  
   font-size: 85px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 30px;
   line-height: 77px;
   max-width: 1100px;
-  
+
   margin: 70px auto 60px;
 }
 
 .copywriter-custom-subheader-2 {
-  
   font-size: 28px;
   line-height: 50px;
   font-weight: 300;
@@ -585,10 +560,10 @@ img.copywriter-owocni {
   max-width: 1100px;
   margin-inline: auto;
 }
-.cutom-margibgs{
+.cutom-margibgs {
   margin-top: 0px;
 }
-.thematic-section{
+.thematic-section {
   margin-top: 30px;
 }
 .copywriter-cname {
@@ -629,18 +604,26 @@ img.copywriter-owocni {
 }
 
 .names-client-desc {
-  
   font-size: 72px;
   font-weight: 900 !important;
   margin-bottom: 50px;
   line-height: 94px;
 }
-
+.names-client-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+.name-client-text-2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 62px;
+}
 .copywriter-orange-black-text {
   color: #4e3c01;
 }
-
-
 
 .copywriter-cname:after {
   top: 91px;
@@ -686,6 +669,14 @@ img.copywriter-owocni {
 .copywriter-client-desc-margin {
   margin-bottom: 60px;
 }
+.names-client-01 {
+  font-weight: 700 !important;
+  font-size: 48px;
+  line-height: 62px;
+  font-family: "Playfair Display", serif;
+}
+
+/* Playfair Display, weight 700 (regular), size 48px, line-height 62px + bolded */
 
 .copywriter-bg-2 {
   background-image: url(https://cdn.owocni.pl/img/single-copywriter/Motus-fotografia-reklamowa1.jpg);
@@ -748,8 +739,6 @@ img.copywriter-owocni {
   display: none;
 }
 
-
-
 .copywriter-black {
   color: black;
 }
@@ -782,7 +771,6 @@ img.copywriter-owocni {
 }
 
 .download-catalog-button {
-  
   background: var(--brand-blue);
   border: transparent;
   padding: 10px 15px;
@@ -797,7 +785,6 @@ img.copywriter-owocni {
 }
 
 section#sec1 {
-  
   margin-inline: auto;
 }
 

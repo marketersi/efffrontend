@@ -31,7 +31,7 @@ const InkBook = () => {
                 {projectSection8?.underlined_label}
               </div>
 
-              <div className="names-client-desc copywriter-client-desc-margin">
+              <div className="names-client-desc names-client-text copywriter-client-desc-margin">
                 {projectSection8?.title_1}
               </div>
             </div>
@@ -44,9 +44,7 @@ const InkBook = () => {
           </div>
         </div>
 
-        <div className="copywriter-custom-header-3 copywriter-standard-mt-80">
-          {projectSection8?.bannar_image_1_title}
-        </div>
+       
 
         <div className="copywriter-text-center copywriter-standard-mb-80">
           <img
@@ -55,6 +53,13 @@ const InkBook = () => {
             alt="Przykładowe teksty reklamowe dla klienta Owocnych"
             className="lingu"
           />
+        </div>
+
+        <div className="copywriter-custom-header-3 copywriter-standard-mt-80 banner-title">
+          {/* {projectSection8?.bannar_image_1_title} */}
+          <p className='turbokids-text-1'>Lingusfera </p>
+          <p className='turbokids-text-2'>- Twój bilet do międzynarodowej kariery</p>
+
         </div>
 
         <div className="copywriter-custom-header-4 text-center">

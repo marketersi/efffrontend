@@ -1,11 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap'); */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+
+
 body {
   background-color: #f4f4f4 !important;
   font-family: "Poppins", sans-serif !important;
 }
-
+.georgia{
+  font-family: "Georgia", serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
 * {
   margin: 0;
   padding: 0;
@@ -484,6 +494,23 @@ body{
   -o-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
 }
+
+.faqContainer .accordion-item::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00c0fe;
+  pointer-events: none;
+  z-index: -1;
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+
 .loader_container {
   display: flex;
   justify-content: center;

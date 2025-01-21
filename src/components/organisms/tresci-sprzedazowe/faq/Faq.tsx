@@ -26,8 +26,9 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
 
   return (
     <div>
-      <div className="copywriter-intro-bg-5-label text-center">
-        {faq?.main_title}
+      <div className="copywriter-intro-bg-5-label text-center text-change">
+        {/* {faq?.main_title}  */}
+        Odpowiedź jest zawsze jedna
       </div>
       <div className="copywriter-text-center copywriter-standard-mtb-40">
         <img
@@ -36,7 +37,7 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
           alt="Reklama, której powiesz tak"
         />
       </div>
-      <div className="faqContainer">
+      <div className="faqContainer ">
       {faqAQ &&
         faqAQ?.map((item, index) => (
           <div key={index} className={`accordion-item ${index === activeIndex ? "active" : ""}`}>
@@ -52,7 +53,7 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
               )}
             </div>
             {index === activeIndex && (
-              <div className="accordion-content" dangerouslySetInnerHTML={{ __html: item.faq_ans }}></div>
+              <div className="accordion-content faqcontent" dangerouslySetInnerHTML={{ __html: item.faq_ans }}></div>
               
             )}
           </div>

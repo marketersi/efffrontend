@@ -40,6 +40,7 @@ line-height: 34px;
 .accordion-content p:last-child{
  
   margin-bottom: 20px;
+  
  
   }
 
@@ -50,6 +51,10 @@ line-height: 34px;
 .faqContainer .accordion-item:hover:before {
   width: 100%;
 }
+
+
+
+
 .faqContainer .accordion-item:nth-child(1):before {
   background-color: #ffc700;
 }
@@ -68,6 +73,20 @@ line-height: 34px;
   transition: width 0.3s ease-in-out;
 }
 
+.faqContainer .accordion-item::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00c0fe;
+  pointer-events: none;
+  z-index: -1;
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
 /* unwanted css */
 
 .faqContainer .send-offer-button{
@@ -86,6 +105,7 @@ line-height: 34px;
     line-height: 40px;
     cursor: pointer;
     background-color: #00bfff;
+
     -webkit-border-radius:6px ;
     -moz-border-radius:6px ;
     -ms-border-radius:6px ;

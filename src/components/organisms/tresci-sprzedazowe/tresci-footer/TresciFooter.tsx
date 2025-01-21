@@ -34,7 +34,7 @@ const TresciFooter = () => {
             className={isSelected == 1 ? "activeLink" : ""}
             onClick={() => setIsSelected(1)}
           >
-            Jak to działa?
+            Jak to wygląda?
           </Link>
           <Link
             href="#sec2"
@@ -42,7 +42,7 @@ const TresciFooter = () => {
             onClick={() => setIsSelected(2)}
           >
             {" "}
-            Przykłady realizacji
+            Przykładowe realizacje
           </Link>
         </div>
         <div className="nazwa_footer_bottom_right">
@@ -63,7 +63,6 @@ const TresciFooter = () => {
           </a>
         </div>
       </div>
-
 
       <ModalForm isOpen={isModal} onClose={handleModalClose} />
     </>

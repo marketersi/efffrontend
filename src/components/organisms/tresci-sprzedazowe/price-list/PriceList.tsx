@@ -10,8 +10,8 @@ const PriceList = () => {
         <div className="copywriter-custom-headerOne text-center">
           {pricingSection?.title}
         </div>
-        <div className="copywriter-custom-subheader text-center">
-          {pricingSection?.sub_title}
+        <div className="copywriter-custom-subheader text-center font-bold">
+          {pricingSection?.sub_title} 
         </div>
       </div>
       <div className="container copywriter-whatwedo-container">

@@ -43,13 +43,17 @@ const Sales = () => {
           <div className="row">
             <div className="col-md-12 text-center copywriter-custom-margin-1">
               <h1 className="copywriter-big-header">
-                {/* {heroSection?.title} */}
-                W Marketersi wiemy, że dobrze dobrane słowa nie tylko przyciągają uwagę, ale też potrafią skutecznie zmieniać zainteresowanie w konkretne, mierzalne <span className="underlineText">wyniki</span>.
+                {/* {heroSection?.title} */}W Marketersi wiemy, że dobrze
+                dobrane słowa nie tylko przyciągają uwagę, ale też potrafią
+                skutecznie zmieniać zainteresowanie w konkretne, mierzalne
+                wyniki.
               </h1>
 
               <span className="copywriter-big-subheader copywriter-cmargin-1">
                 {/* {heroSection?.description} */}
-                Nasze treści sprzedażowe nie tylko informują, ale przede wszystkim inspirują Twoich odbiorców do działania – od zapytania ofertowego, przez zakup, po długoterminowe <span className="underlineText">zaangażowanie</span>.
+                Nasze treści sprzedażowe nie tylko informują, ale przede
+                wszystkim inspirują Twoich odbiorców do działania – od zapytania
+                ofertowego, przez zakup, po długoterminowe zaangażowanie.
               </span>
             </div>
           </div>
@@ -66,7 +70,9 @@ const Sales = () => {
         className="copywriter-custom-header-2 text-center copywriter-cmargin-4 menu-target"
         id="sec2"
       >
-        {projectSection1?.title}
+        {/* {projectSection1?.title} */}
+        Przykładowe realizacje.
+        <br /> Tworzymy To, <br /> Co Zapada w Pamięć.
       </div>
       <div className="copywriter-custom-subheader-2 text-center">
         {projectSection1?.sub_title}
@@ -84,8 +90,9 @@ const Sales = () => {
       {/* <Profit /> */}
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-          Zróbmy razem <br />
-          coś fajnego
+          {/* Zróbmy razem <br />
+          coś fajnego */}
+          Przekształćmy Twoje wizje <br />w sukcesy!
         </div>
         <Form />
       </section>

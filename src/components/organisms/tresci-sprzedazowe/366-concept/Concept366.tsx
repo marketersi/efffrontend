@@ -137,7 +137,7 @@ const Concept366 = () => {
                 {projectSection5?.underlined_label}
               </div>
 
-              <div className="names-client-desc copywriter-client-desc-margin">
+              <div className="names-client-desc copywriter-client-desc-margin names-client-01">
                 {projectSection5?.title_1}
               </div>
             </div>
@@ -158,13 +158,14 @@ const Concept366 = () => {
           />
         </div>
 
-        <div className="container custom-container2 copywriter-standard-mtb-40">
+        <div className="container custom-container2 copywriter-standard-mtb-40 text-center">
           <div className="row">
             <div className="col-md-12 p-0">
-              <div className="copywriter-custom-text-akuku copywriter-standard-mtb-40">
-                {projectSection5?.bannar_title}
+              <div className="copywriter-custom-text-akuku copywriter-standard-mtb-40 georgia natura-text">
+                {/* {projectSection5?.bannar_title} */}
+                Z Naturą Za Rękę – Każdego Dnia
               </div>
-              <div className="copywriter-custom-subtext-akuku">
+              <div className="copywriter-custom-subtext-akuku banner-subtitle-text">
                 {projectSection5?.bannar_sub_title}
               </div>
             </div>

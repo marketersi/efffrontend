@@ -259,7 +259,7 @@ const PriceListScreen = () => {
                                     : buttonStyle.border,
                               }}
                             >
-                              {cardMenu?.menuFour?.menu_title}
+                              {cardMenu?.menuFour?.menu_title} 
                             </button>
                           </div>
                         </div>

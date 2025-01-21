@@ -90,10 +90,10 @@ text-indent: -20px;
 
 .download-catalog-button-2 {
   /* background: #f2c22f; */
+  /* color: black; */
   background: var(--brand-blue);
   border: transparent;
   padding: 8px 20px;
-  /* color: black; */
   color: #fff;
   font-weight: 400;
   font-size: 30px;
@@ -101,6 +101,7 @@ text-indent: -20px;
   z-index: 10;
   display: inline;
 }
+
 .top-banner-text .download-catalog-button-2 {
   margin-left: 120px;
   margin-bottom: 70px;

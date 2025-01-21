@@ -1,3 +1,11 @@
+.optonsahgasds{
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  line-height: 40px !important;
+  margin-bottom: 30px !important;
+}
+
 .copywriter-page .copywriter-form-div {
   text-align: center;
 }
@@ -278,12 +286,23 @@ font-weight: 400;
   line-height: 48px;
   margin-bottom: 30px;
 }
+.natura-text{
+  font-size: 61px;
+   line-height: 74px;
+}
 
 .copywriter-custom-subtext-akuku {
   font-weight: 400;
   font-size: 44px;
   line-height: 48px;
   line-height: 50px;
+}
+.banner-subtitle-text{
+font-weight: 400;
+font-size: 61px;
+line-height: 74px;
+font-family: 'Georgia', serif;
+font-style: italic;
 }
 
 .copywriter-standard-mb-80 {
@@ -346,18 +365,34 @@ font-weight: 400;
 .copywriter-roboty-img-810 {
   display: none;
   margin-top: 50px;
+} 
+.banner-title{
+  max-width: 1200px !important;
+}
+.turbokids-text-1{
+  font-weight: 400 !important;
+  font-family:Georgia !important;
+  font-size: 61px !important;
+  line-height: 74px !important ;
 }
 
-
+.turbokids-text-2{
+  font-weight: 400 !important;
+  font-family: 'Georgia', serif !important;
+  font-style: italic !important;
+  font-size: 61px !important;
+  line-height: 74px !important;
+}
 
 .copywriter-custom-text-turbokids-1 {
   color: #333;
-  text-align: left;
+  text-align: center;
   margin-top: 70px;
   font-size: 44px;
   font-weight: 400;
   line-height: 48px;
   margin-bottom: 30px;
+
 }
 
 .copywriter-custom-subtext-turbokids-1 {
@@ -430,16 +465,16 @@ font-weight: 400;
   z-index: 2;
   margin-bottom: 70px;
 }
+/* Font: Georgia, weight 400 (bolded), size 61px, line-height 74px */
 
 .copywriter-custom-text-4 {
-  
   font-size: 44px;
   color: #333;
   line-height: 48px;
 font-weight: 400;
-  margin-top: 70px;
-  
+  margin-top: 70px; 
 }
+
 
 .copywriter-custom-subtext-4 {
   color: #333;
@@ -604,7 +639,6 @@ section.profit-sec {
   background-color: #00bfff;
 }
 
-
 .accordion-title {
   padding: 25px 25px;
   cursor: pointer;
@@ -632,18 +666,18 @@ section.profit-sec {
 
 }
 
-
-
-
 .accordion-content {
   padding: 25px 25px;
   font-size: 24px;
   background: transparent;
-  
   line-height: 36px;
   font-weight: 400;
 }
-
+.faqcontent{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
 .faqContainer {
   max-width: 1100px;
   margin: 0 auto;
@@ -664,12 +698,11 @@ section.profit-sec {
 
 }
 
-
 /* -----------form------------ */
 .sendQuote {
-  max-width: 600px;
+  max-width: 610px;
   background: white;
-  padding: 40px;
+  padding: 20px;
   margin-inline: auto;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.15), 0 0 0 0 #fff,
     inset 2px 2px 2px 0 #fff, inset -2px -2px 2px 0 #c7c7c7;
@@ -721,6 +754,11 @@ section.profit-sec {
   /* box-shadow: 0px 4px 0 #295a01; */
   box-shadow: 0px 4px 0 #009ad2;
   border-radius: 10px;
+}
+
+.btn-hover button:hover {
+  transition: 1s;
+  box-shadow: none;
 }
 
 .quoteBtn {

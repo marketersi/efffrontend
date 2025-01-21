@@ -19,7 +19,6 @@
   line-height: 85px;
   font-size: 85px;
   color: #333;
- 
 }
 .indent-20 {
   text-indent: 20px;
@@ -86,7 +85,6 @@
 }
 
 .theme-title1 {
-  
   padding-bottom: 50px;
   font-size: 51px;
   font-family: "Playfair Display", serif;
@@ -139,11 +137,11 @@ img.names-custom-image {
   line-height: 50px;
 }
 .optonsahgasds{
-  font-size: 32px;
-  font-weight: 400;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 40px;
-  margin-bottom: 30px;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  line-height: 40px !important;
+  margin-bottom: 30px !important;
 }
 .red-link :hover{
   text-decoration: dotted;

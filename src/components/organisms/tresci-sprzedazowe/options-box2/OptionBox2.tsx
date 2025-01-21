@@ -31,22 +31,24 @@ const OptionBox2 = ({ optionBox2 }) => {
                   />
                 </div>
                 <div className="opinion-box-content projects-opinion-2 copywriter-prawo-text">
-                  <p className="text-center optonsahgasds">
+                  <p className="text-center optonsahgasds review-card-text">
                     {/* {title} */}
-                    <span className='underlineText'>Gwarantowane rezultaty</span> albo zwrot pieniędzy
-                  </p>
+                    Gwarantowane rezultaty albo zwrot pieniędzy 
+                  </p> 
                   <div className="opinion-box-text copywriter-opinion-box-text">
                     {/* {description} */}
-                    Nie obiecujemy Ci tylko słów - obiecujemy <span className="underlineText">rezultaty</span>. Gwarantujemy, że nasze treści przyniosą wymierne efekty, albo zwrócimy Ci <span className="underlineText">100% inwestycji</span>. Tak, jesteśmy aż tak pewni skuteczności naszych tekstów.
+                    Nie obiecujemy Ci tylko słów - obiecujemy rezultaty. Gwarantujemy, że nasze treści przyniosą wymierne efekty, albo zwrócimy Ci 100% inwestycji. Tak, jesteśmy aż tak pewni skuteczności naszych tekstów.
                   </div>
+                  <div className='quoteBtn btn-hover'>
                   <button
                     onClick={() => setIsModal(true)}
-                    className="download-catalog-button projects-opinion-button copywriter-blue-background copywriter-new-btn copywriter-standard-mt-10 send-offer-button js--triggerAnimation"
+                    className=" download-catalog-button projects-opinion-button copywriter-blue-background copywriter-new-btn copywriter-standard-mt-10 send-offer-button js--triggerAnimation"
                     type="button"
                   >
                     {/* <strong>{btn_title}</strong> */}
                     Brzmi świetnie. Wyślijcie mi ofertę.
                   </button>
+                  </div>
                 </div>
                 <div className="clearfix"></div>
               </div>

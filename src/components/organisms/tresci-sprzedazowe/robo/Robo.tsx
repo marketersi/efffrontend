@@ -23,7 +23,7 @@ const Robo = () => {
                 {projectSection6?.underlined_label}
               </div>
 
-              <div className="names-client-desc copywriter-client-desc-margin copywriter-custom-margin">
+              <div className="names-client-text copywriter-client-desc-margin copywriter-custom-margin ">
                 {projectSection6?.title_1}
               </div>
             </div>
@@ -70,11 +70,15 @@ const Robo = () => {
             <div className="col-md-12 copywriter-standard-mb-m100 new-mb p-0">
               <div className="copywriter-custom-text-turbokids-1">
                 {/* {projectSection6?.quote_1} */}
-                <b>Zszywanki, które cieszą</b><br/>wyjątkowe kolekcje dla wyjątkowych brzdąców.
+                {/* <b>Zszywanki, które cieszą</b><br/>wyjątkowe kolekcje dla wyjątkowych brzdąców. */}
+                <span className="turbokids-text-1">Zszywanki, które cieszą</span>
+                <br />
+                <span className="turbokids-text-2">Wyjątkowe kolekcje dla wyjątkowych brzdąców.
+                </span>
               </div>
-              <div className="copywriter-custom-subtext-turbokids-1">
-                {projectSection6?.quote_1_desc}
-              </div>
+              {/* <div className="copywriter-custom-subtext-turbokids-1">
+                {projectSection6?.quote_1_desc} fsdsd
+              </div> */}
             </div>
           </div>
         </div>

@@ -65,7 +65,7 @@ const Form = () => {
 
   return (
     <>
-      <div className="sendQuote">
+      <div className="sendQuote sentquote-form">
         <h2>
         Wypełnij i otrzymaj ofertę dopasowaną do Ciebie. Całkowicie bez zobowiązań.
         </h2>
@@ -93,11 +93,15 @@ const Form = () => {
             placeholder="Opowiedz nam o swoim projekcie. Czego potrzebujesz? Zajmiemy się resztą!"
           />
 
-          <div className="quoteBtn">
+          <div className="quoteBtn btn-hover">
             <button type="submit">Prześlijcie mi niezobowiązującą ofertę</button>
-            <img
+            {/* <img
               src="https://images.prismic.io/marketersi/ZfL0JUmNsf2sHk-N_Group1.png?auto=format,compress"
               alt=""
+            /> */}
+             <img
+              src="https://images.prismic.io/marketersi/Z49nEZbqstJ99q0V_shield.jpg?auto=format,compresshttps://images.prismic.io/marketersi/Z49pv5bqstJ99q2Z_shield.jpg?auto=format,compress"
+              alt="" 
             />
           </div>
         </form>

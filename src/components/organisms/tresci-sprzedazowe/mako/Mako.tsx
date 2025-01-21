@@ -27,11 +27,11 @@ const Mako = () => {
         <div className="container custom-container2">
           <div className="row">
             <div className="col-md-12 text-center">
-              <div className="names-client-name copywriter-black copywriter-green-underline copywriter-cname">
+              <div className="names-client-name copywriter-black copywriter-green-underline copywriter-cname uppercase">
               Piaseczno
               </div>
 
-              <div className="names-client-desc copywriter-client-desc-margin">
+              <div className="names-client-desc name-client-text-2 copywriter-client-desc-margin">
               Luksus w słowach: Jak „Rytuał Urody” podbił serca klientek?
               </div>
             </div>
@@ -62,7 +62,7 @@ const Mako = () => {
         <div className="container custom-container2 copywriter-after-img-2">
           <div className="row">
             <div className="col-md-12 p-0">
-              <div className="copywriter-custom-text-4">
+              <div className="copywriter-custom-text-4 turbokids-text-1 text-center">
               Rytuał Urody — luksus, który czuje się w każdej chwili.
               </div>
               {/* <div className="copywriter-custom-subtext-4">
@@ -80,7 +80,7 @@ const Mako = () => {
           />
         </div> */}
 
-        <div className="copywriter-custom-header-3 text-center copywriter-rwd-mtb-40">
+        <div className="copywriter-custom-header-3 text-center copywriter-rwd-mtb-40 turbokids-text-2">
           {/* {projectSection7?.bannar_img_title_2} */}
           Daj sobie chwilę, która podkreśli to, co w Tobie najpiękniejsze.
         </div>

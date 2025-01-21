@@ -1,6 +1,6 @@
-import React from 'react';
-import { Form } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
+import React from "react";
+import { Form } from "react-bootstrap";
+import { useSelector } from "react-redux";
 
 const Section5 = () => {
   const { screenData } = useSelector((state) => state.sales);
@@ -28,8 +28,8 @@ const Section5 = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center">
-              <div className="copywriter-custom-text-2">
+            <div className="col-md-12 text-center ">
+              <div className="copywriter-custom-text-2 main-title">
                 {steps?.main_title}
               </div>
             </div>
@@ -42,7 +42,7 @@ const Section5 = () => {
                 src={steps?.image_1}
                 title="Teksty reklamowe Owocnych to gwarancja sukcesu"
                 alt="Marketing, który osiąga zamierzony cel"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
 
@@ -53,7 +53,8 @@ const Section5 = () => {
               </div>
               <div className="copywriter-intro-description-right copywriter-rwd-mtb-40">
                 {/* {steps?.description_1} */}
-                Albo będziesz zadowolony z efektów, albo zwracamy Ci pieniądze. Liczy się to, co <span className="underlineText">zyskasz</span>, a nie liczba znaków.
+                Albo będziesz zadowolony z efektów, albo zwracamy Ci pieniądze.
+                Liczy się to, co zyskasz, a nie liczba znaków.
               </div>
             </div>
           </div>
@@ -62,11 +63,16 @@ const Section5 = () => {
               <div className="copywriter-intro-header-left">
                 {/* <strong>{steps?.title_2}</strong>
                 <p className='underlineText'>{steps?.sub_title_2}</p> */}
-                <strong>Opieramy się <br/> Na Sprawdzonych Zasadach </strong><p className="underlineText">Psychologii, perswazji i sprzedaży.</p>
+                <strong>
+                  Opieramy się <br /> Na Sprawdzonych Zasadach{" "}
+                </strong>
+                <p>Psychologii, perswazji i sprzedaży.</p>
               </div>
               <div className="copywriter-intro-description-left copywriter-rwd-mtb-40">
                 {/* {steps?.description_2} */}
-                Korzystamy z wiedzy psychologicznej i technik perswazyjnych, aby skutecznie przemawiać do Twoich klientów - zarówno do ich <span className="underlineText">rozumu</span>, jak i <span className="underlineText">emocji</span>.
+                Korzystamy z wiedzy psychologicznej i technik perswazyjnych, aby
+                skutecznie przemawiać do Twoich klientów - zarówno do ich{" "}
+                rozumu, jak i emocji.
               </div>
             </div>
 
@@ -75,7 +81,7 @@ const Section5 = () => {
                 src={steps?.image_2}
                 title="Skuteczny copywriting wymaga odpowiedniej wiedzy"
                 alt="Slogany reklamowe, które przyciągają użytkowników"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </div>
@@ -85,13 +91,15 @@ const Section5 = () => {
                 src={steps?.image_3}
                 title="Teksty reklamowe, które przekonają odbiorców do Twojej firmy"
                 alt="Pisanie oferty musi trafić w rozum i serce klienta"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
 
             <div className="col-lg-6 copywriter-intro-box">
               <div className="copywriter-intro-header-right">
-                <strong className='underlineText'>{steps?.title_3}</strong>
+                <strong>
+                  {steps?.title_3} 
+                </strong>
                 <p>{steps?.sub_title_3}</p>
               </div>
               <div className="copywriter-intro-description-right copywriter-rwd-mtb-40">
@@ -102,34 +110,34 @@ const Section5 = () => {
         </div>
         <div className="container copywriter-container-custom">
           <div className="row">
-          <div className="copywriting-white-text-cont col-md-6">
-            <div className="copywriting-bg-white-header">
-              <strong>{knowMoreSection?.title}</strong>
-            </div>
+            <div className="copywriting-white-text-cont col-md-6">
+              <div className="copywriting-bg-white-header">
+                <strong>{knowMoreSection?.title} </strong>
+              </div>
 
-            <div className="copywriting-bg-white-subheader">
-              {knowMoreSection?.para}
-            </div>
+              <div className="copywriting-bg-white-subheader">
+                {knowMoreSection?.para}
+              </div>
 
-            <div>
-              <a
-                className="copywriting-bg-white-subheader-link"
-                href="https://marketersi.cdn.prismic.io/marketersi/ZufO-bVsGrYSvYd5_Zabezpieczony-MARKETERSI-EbookYoutube.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {knowMoreSection?.bottom_text}
-              </a>
+              <div>
+                <a
+                  className="copywriting-bg-white-subheader-link"
+                  href="https://marketersi.cdn.prismic.io/marketersi/ZufO-bVsGrYSvYd5_Zabezpieczony-MARKETERSI-EbookYoutube.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {knowMoreSection?.bottom_text}
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="col-md-6">
-          <img
-            className="copywriter-ksiazka-img copywriter-rwd-mtb-40"
-            src={knowMoreSection?.bannar_image}
-            title="Przewodnik Owocnych, który tłumaczy, jak napisać tekst"
-            alt="Książka, którą przygotowali copywriterzy Owocnych"
-          />
-          </div>
+            <div className="col-md-6">
+              <img
+                className="copywriter-ksiazka-img copywriter-rwd-mtb-40"
+                src={knowMoreSection?.bannar_image}
+                title="Przewodnik Owocnych, który tłumaczy, jak napisać tekst"
+                alt="Książka, którą przygotowali copywriterzy Owocnych"
+              />
+            </div>
           </div>
         </div>
       </section>
