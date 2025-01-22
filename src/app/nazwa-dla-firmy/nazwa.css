@@ -109,7 +109,6 @@
 }
 .theme-desc {
   margin-bottom: 40px;
-
   font-weight: 300;
   font-size: 28px;
   line-height: 50px;
@@ -132,14 +131,14 @@ img.names-custom-image {
 .red-link {
   color:#00bbff;
   text-decoration: underline;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 50px;
+  line-height: 21px;
 }
 .optonsahgasds{
   font-size: 32px !important;
   font-weight: 400 !important;
-  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-family: Georgia, serif !important;
   line-height: 40px !important;
   margin-bottom: 30px !important;
 }
@@ -150,6 +149,16 @@ img.names-custom-image {
   color: #848484;
   letter-spacing: -0.025em;
 }
+
+.projects-custom-gray-text p{
+  color: rgb(132,132,132);
+  letter-spacing: -0.025em;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'roboto';
+  margin: 0px
+}
+
 .projects-custom-container1 {
   margin: 70px auto;
   max-width: 1100px;
@@ -203,6 +212,7 @@ padding-top: 10px;
 
 .names-list-info {
   list-style-type: disc !important;
+  text-align: center;
 }
 .pnazw-page .names-list-info {
   padding-left: 30%;
@@ -243,7 +253,7 @@ padding-top: 10px;
   max-width: 1100px;
   margin-bottom: 40px;
   line-height: 62px;
-  
+  font-weight: 700 !important;
 }
 .projects-push-content-top .theme-desc{
   margin-bottom: 40px;
@@ -251,6 +261,10 @@ padding-top: 10px;
   font-size: 26px;
   line-height: 33px;
   margin-inline: auto;
+  font-family:Georgia, serif;
+}
+.project-font-family{
+  font-family: Georgia, serif;
 }
 
 .names-client-desc-litery {
@@ -317,12 +331,17 @@ padding-top: 10px;
   overflow: hidden;
   text-align: center;
 }
-
+.descriptiob-bold{
+  font-weight: 600;
+}
 .new-wierzymy {
   position: relative;
-  max-width: 783px;
+  max-width: 1100px;
   margin: 0 auto;
   overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .projects-thematic-section-gray {
 
@@ -339,7 +358,6 @@ padding-top: 10px;
 .text-left{
   text-align: left;
 }
-
 
 .iglarki-section-main-header {
   font-size: 85px;
@@ -378,10 +396,12 @@ padding-top: 10px;
   font-size: 30px;
   font-weight: 900;
   padding-bottom: 40px;
-  
   color: #000;
   margin-bottom: 40px;
   line-height: 39px;
+}
+.cname-pb{
+  padding-bottom: 0px !important;
 }
 .names-client-name.iglarki-cname:after {
   background: var(--brand-blue);
@@ -391,7 +411,8 @@ padding-top: 10px;
   position: absolute;
   left: calc(50% - 84px);
   bottom: 15px;
-  top: 75px;
+  /* top: 75px; */
+  top: 45px;
 }
 
 .names-client-iglarki {
@@ -435,7 +456,7 @@ padding-top: 10px;
 }
 #sec2 .copywriter-intro-bg-5-label{
   font-size: 84px;
-  line-height: 84px;
+  line-height: 100px;
   font-weight: 500;
   max-width: 900px;
   margin: auto;
@@ -452,6 +473,7 @@ padding-top: 10px;
 }
 .custom-after-top-line {
   position: relative;
+  text-transform: uppercase;
 }
 .custom-after-top-line::after {
   content: "";

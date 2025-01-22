@@ -13,13 +13,13 @@ const ImplementationEx301 = () => {
       <div className="container names-custom-container projects-push-content-top" key={index}>
         <div className="row">
           <div className="col-md-12 text-center">
-            <div className="underline-down names-client-name copywriter-cname cname-big-mtop">
+            <div className="cname-pb underline-down names-client-name copywriter-cname cname-big-mtop">
               {item?.title}
             </div>
             <div className="names-client-desc">
               {item?.subtitle}
             </div>
-            <div className="container custom-container1 text-left">
+            <div className="container custom-container1 text-left georgia">
           <div className="row">
             <div className="col-md-12">
               <p className="theme-desc text-left">

@@ -16,9 +16,9 @@ const NazwaHero = () => {
   return (
     <section className="pnazw-page">
       <div className="nazwaContainer">
-        <div className="top-section-banner-text container-fluid1 UXBannerContainer">
+        <div className="top-section-banner-text container-fluid1 UXBannerContainer banner-nazwa">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-7">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
                 {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
                 Nazwij Swoją <span className="indent-20">
@@ -34,32 +34,21 @@ const NazwaHero = () => {
                 <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
                   Nazwij Swoją
                   <br />
-                  Przyszłość z
+                  Przyszłość
                   <br />
-                  Marketersi: Nazwy,
-                  <br />
-                  Które Definiują Sukces
+                  z Marketersi. <br /> Nazwy, Które <br /> Definiują Sukces.
                 </h1>
-                <h2 className="names-top-banner-long-text ">
-                  Nasze nazwy nie tylko przyciągają uwagę, ale{" "}
-                  <span className="indent-20">
-                    pozostają w pamięci na lata. Tworzymy nazwy,{" "}
-                  </span>
-                  <span className="indent-40">
-                    które opowiadają Twoją historię, budują zaufanie
-                  </span>
-                  <span className="indent-60">
-                    i otwierają drzwi do sukcesu.
-                  </span>
+                <h2 className="nazwa-heading">
+                  Nasze nazwy <br /> nie tylko przyciągają uwagę, <br /> ale
+                  pozostają w pamięci na lata.
                 </h2>
-                <h2 className="top-banner-long-text names-top-banner-long-text pnazw-second-maintext">
-                  Gwarantujemy 100% satysfakcji – tworzymy, aż Cię{" "}
-                  <span className="underlineText">zachwycimy</span>
+                <h2 className="nazwa-heading">
+                  Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy
                 </h2>
               </div>
-              <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
+              <div className="catalog-submit-button text-left projects-catalog-submit-buttom quoteBtn btn-hover">
                 <button
-                  className="download-catalog-button nazwaHeroBtn"
+                  className="download-catalog-button nazwaHeroBtn banner-btn"
                   type="button"
                   onClick={() => setIsModal(true)}
                 >
@@ -67,7 +56,7 @@ const NazwaHero = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               {/* <ReactPlayer
                 url={heroSection?.background_video}
                 playing={true}

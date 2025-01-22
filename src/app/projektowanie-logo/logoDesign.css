@@ -24,7 +24,7 @@ h6 {
 
 .top-banner-title {
   display: block;
-  font-weight: 500;
+  font-weight: 700;
   margin: 20px 0px;
   line-height: 85px;
   font-size: 85px;
@@ -56,22 +56,24 @@ h6 {
 
 .top-banner-long-text {
   display: block;
-  text-indent: -20px; /* Negative indent for the first line */
   padding-left: 80px; /* Padding to align the rest of the lines */
   line-height: 44px;
   font-size: 29px;
   font-weight: 300;
   padding-right: 50px;
 }
-
+.remove-p{
+  padding: 0px !important;
+}
 .top-banner-text p {
   line-height: 44px;
   font-size: 29px;
   font-weight: 300;
   padding-right: 50px;
   clear: both;
-  padding-left: 100px;
-text-indent: -20px;
+  font-style: italic;
+  /* padding-left: 100px; */
+/* text-indent: -20px; */
   margin-top: 20px;
 }
 

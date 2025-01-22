@@ -1,13 +1,11 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React from "react";
+import { useSelector } from "react-redux";
 
 const AnatomyGuide = () => {
   const { isLoading, screenData } = useSelector((state) => state.anatomy);
   const { anatomy_guide } = screenData || {};
   return (
     <section id="sec0">
-      
-
       <div className="container custom-container-4 custom-margin-bottom-30">
         <div className="row">
           <div className="col-lg-3 stats-image-cont p-0">
@@ -19,7 +17,10 @@ const AnatomyGuide = () => {
 
           <div className="col-lg-9">
             <p className="theme-desc projects-theme-desc-p projects-mq-book-fix custom-margin-bottom-20">
-              {anatomy_guide?.paragraph2}
+              {/* {anatomy_guide?.paragraph2}  */}W badaniu przeprowadzonym
+              przez London School of Economics stwierdzono, że skuteczna nazwa
+              marki może podnieść cenę sprzedaży produktu lub usługi średnio o
+              60%, co bezpośrednio wpływa na dochodowość firmy.
             </p>
           </div>
         </div>
@@ -53,13 +54,13 @@ const AnatomyGuide = () => {
                   />
                   {/* to be deleted */}
                   <p className="projects-mq-book-fix projects-custom-gray-text projects-hide-810 text-center PDF-d-book">
-                  
+                 <p> Pobierz darmowy egzemplarz</p>
                     <a
                       href="https://marketersi.cdn.prismic.io/marketersi/ZufO-bVsGrYSvYd5_Zabezpieczony-MARKETERSI-EbookYoutube.pdf"
                       className="red-link d-block"
                       target="_blank"
                     >
-                    Pobierz darmowy egzemplarz – kliknij tutaj.
+                      Kliknij tutaj (PDF)
                     </a>
                   </p>
                 </div>

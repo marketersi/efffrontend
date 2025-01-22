@@ -21,7 +21,10 @@ const LogoAccordion: React.FC<AccordionProps> = ({ items, title, image }) => {
 
   return (
     <div id="sec2">
-      <div className="copywriter-intro-bg-5-label text-center">{title}</div>
+      <div className="copywriter-intro-bg-5-label text-center">
+        {/* {title} */}
+      Odpowiedź jest zawsze jedna
+      </div>
 
       <img src={image} className="img-background-logop" alt="tak_image" />
 

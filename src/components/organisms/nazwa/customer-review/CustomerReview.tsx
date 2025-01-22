@@ -26,7 +26,7 @@ const CustomerReview = () => {
                   src={example1?.image_4}
                   title="Kobieta zadowolona z efektu tworzenia nazwy dla firm"
                   alt="Klientka zadowolona z procesu jakim jest tworzenie nazw"
-                />
+                /> 
               </div>
              
               <div className="opinion-box-content opinion-box-content-left projects-opinion-1 naming-opinion-text">
@@ -36,7 +36,7 @@ const CustomerReview = () => {
                 <div className="opinion-box-text">
                   {example1?.customer_description}
                 </div>
-
+                <div className="quoteBtn btn-hover">
                 <button
                   className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
                   type="button"
@@ -44,6 +44,7 @@ const CustomerReview = () => {
                 >
                   Brzmi świetnie. Wyślijcie mi ofertę
                 </button>
+                </div>
               </div>
               <div className="clearfix"></div>
             </div>

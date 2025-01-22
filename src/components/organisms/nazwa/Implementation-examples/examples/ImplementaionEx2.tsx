@@ -1,5 +1,5 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React from "react";
+import { useSelector } from "react-redux";
 
 const ImplementationExample2 = () => {
   const { screenData } = useSelector((state) => state.anatomy);
@@ -9,7 +9,7 @@ const ImplementationExample2 = () => {
     <section className="projects-thematic-section-gray">
       <div className="container custom-container1">
         <div className="row">
-          <div className="col-md-12 projects-push-content-top">
+          <div className="col-md-12 projects-push-content-top project-font-family">
             <p className="theme-desc">{example1?.para_1}</p>
 
             <p className="theme-desc projects-margin-bottom-10">
@@ -28,9 +28,9 @@ const ImplementationExample2 = () => {
 
             <p className="theme-desc">{example1?.para_3}</p>
 
-            <p className="theme-desc projects-margin-bottom-10">
+            {/* <p className="theme-desc projects-margin-bottom-10">
               {example1?.para_4}
-            </p>
+            </p> */}
 
             {/* to be deleted */}
             {/* <div className="custom-text-align-center">
@@ -42,7 +42,7 @@ const ImplementationExample2 = () => {
               />
             </div> */}
 
-            <p className="theme-desc">{example1?.para_5}</p>
+            {/* <p className="theme-desc">{example1?.para_5}</p> */}
           </div>
         </div>
       </div>
@@ -53,6 +53,11 @@ const ImplementationExample2 = () => {
           title="Przykład tego jak stworzyć dobrą nazwę"
           alt="Projektowanie logo dla Iglarek"
         />
+        <p className="theme-desc projects-margin-top">
+          {example1?.para_4}
+        </p>
+
+        <p className="theme-desc projects-margin-top">{example1?.para_5}</p>
       </div>
 
       <div className="clearfix"></div>

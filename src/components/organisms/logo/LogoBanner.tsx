@@ -15,26 +15,19 @@ const LogoBanner = ({ openModal }) => {
             <div className="col-md-7 projects-top-banner-container">
               <div className="top-banner-text projects-top-banner-text">
                 <h1 className="top-banner-title projects-top-banner-title projects-top-title-mright">
-                  Tworzymy
-                  <span className="indent-20">Które Zapada w</span>
-                  <span className="indent-40">Pamięć i Buduje</span>
-                  <span className="indent-60">Zaufanie</span>
+                  Tworzymy Logo <br /> Które Zapada <br /> w Pamięć <br /> i
+                  Buduje Zaufanie
                 </h1>
 
-                <h2 className="top-banner-long-text projects-top-banner-long-text">
-                  <span className="underlineText">
-                    Gwarantujemy 100% satysfakcji
-                  </span>{" "}
-                  – tworzymy, aż Cię zachwycimy
-                </h2>
                 <p>
-                  "
-                  <span className="underlineText">
-                    Twoje logo jest wizytówką
-                  </span>{" "}
-                  Twojej marki. Powinno inspirować zaufanie od pierwszego
-                  spojrzenia." - Laura Busche
+                  "Twoje logo jest wizytówką Twojej marki. <br /> Powinno
+                  inspirować zaufanie <br /> od pierwszego spojrzenia." - Laura
+                  Busche
                 </p>
+
+                <h2 className="top-banner-long-text projects-top-banner-long-text remove-p">
+                  Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy
+                </h2>
 
                 <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
                   <button

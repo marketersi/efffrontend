@@ -3,11 +3,10 @@ import { useSelector } from "react-redux";
 import { ModalForm } from "../../tresci-sprzedazowe/ModalForm";
 
 const CustomerReview4 = () => {
-  const {  screenData } = useSelector((state) => state.anatomy);
+  const { screenData } = useSelector((state) => state.anatomy);
   const { implementation } = screenData || {};
   const { example2 } = implementation || {};
   console.log(implementation);
-  
 
   const [isModal, setIsModal] = useState(false);
 
@@ -28,22 +27,23 @@ const CustomerReview4 = () => {
                   alt="Klientka zadowolona z procesu jakim jest tworzenie nazw"
                 />
               </div>
-             
+
               <div className="opinion-box-content opinion-box-content-left projects-opinion-2 naming-opinion-text">
                 <p className="theme-desc projects-client-opinion-p text-center">
                   <strong>{example2?.[0].customer_quote}</strong>
                 </p>
                 <div className="opinion-box-text">
-                  {example2?.[0].customer_description}
+                "{example2?.[0].customer_description}"
                 </div>
-
-                <button
-                  className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
-                  type="button"
-                  onClick={() => setIsModal(true)}
-                >
-                  Brzmi świetnie. Wyślijcie mi ofertę
-                </button>
+                <div className="quoteBtn btn-hover">
+                  <button
+                    className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
+                    type="button"
+                    onClick={() => setIsModal(true)}
+                  >
+                    Brzmi świetnie. Wyślijcie mi ofertę
+                  </button>
+                </div>
               </div>
               <div className="clearfix"></div>
             </div>
@@ -57,5 +57,3 @@ const CustomerReview4 = () => {
 };
 
 export default CustomerReview4;
-
-

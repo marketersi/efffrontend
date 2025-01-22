@@ -3,7 +3,7 @@ import { ModalForm } from "../../tresci-sprzedazowe/ModalForm";
 import { useSelector } from "react-redux";
 
 const CustomerReview3 = () => {
-  const {  screenData } = useSelector((state) => state.anatomy);
+  const { screenData } = useSelector((state) => state.anatomy);
   const { implementation } = screenData || {};
   const { customer_review } = implementation?.example4 || {};
 
@@ -26,21 +26,23 @@ const CustomerReview3 = () => {
                   alt="Mężczyzna i stolarstwo"
                 />
               </div>
-              
+
               <div className="opinion-box-content projects-opinion-5 projects-opinion-1-new naming-opinion-text naming-opinion-img">
                 <p className="theme-desc projects-client-opinion-p text-center">
                   <strong>{customer_review?.customer_quote}</strong>
                 </p>
                 <div className="opinion-box-text">
-                 {customer_review?.customer_description}
+                  {customer_review?.customer_description}
                 </div>
-                <button
-                  className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
-                  type="button"
-                  onClick={() => setIsModal(true)}
-                >
-                  {customer_review?.review_buttonText}
-                </button>
+                <div className="quoteBtn btn-hover">
+                  <button
+                    className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
+                    type="button"
+                    onClick={() => setIsModal(true)}
+                  >
+                    {customer_review?.review_buttonText}
+                  </button>
+                </div>
               </div>
               <div className="clearfix"></div>
             </div>

@@ -757,8 +757,9 @@ section.profit-sec {
 }
 
 .btn-hover button:hover {
-  transition: 1s;
+  transition: .5s;
   box-shadow: none;
+  outline: none;
 }
 
 .quoteBtn {
