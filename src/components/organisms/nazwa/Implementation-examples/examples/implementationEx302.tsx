@@ -47,9 +47,7 @@ const ImplementationEx302 = () => {
               <p className="theme-desc text-left">
                 Rytuał” przywołuje na myśl głęboki relaks i dopracowane detale,
                 które stanowią integralną część każdego zabiegu, zapewniając
-                klientom pełne odprężenie i luksusowe doświadczenie.Rytuał Urody
-                jest krótką, łatwą do zapamiętania nazwą, która podkreśla
-                wyjątkowość oferowanych usług.
+                klientom pełne odprężenie i luksusowe doświadczenie.
               </p>
               <p className="theme-desc text-left">{item?.para_2}</p>
             </div>
