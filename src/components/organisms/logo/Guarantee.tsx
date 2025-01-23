@@ -15,7 +15,7 @@ const Guarantee = ({ openModal }) => {
           {subtitle && <div className="projects-big-text100">{subtitle}</div>}
 
           <button
-            className="download-catalog-button-2 projects-download-catalog-button projects-button-margin send-offer-button js--triggerAnimation"
+            className="download-catalog-button-2 projects-download-catalog-button send-offer-button js--triggerAnimation"
             type="button"
             fdprocessedid="jeqyl"
             onClick={openModal}

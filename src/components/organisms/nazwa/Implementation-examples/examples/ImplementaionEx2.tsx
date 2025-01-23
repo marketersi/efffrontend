@@ -54,7 +54,7 @@ const ImplementationExample2 = () => {
           alt="Projektowanie logo dla Iglarek"
         />
         <p className="theme-desc projects-margin-top">
-          {example1?.para_4}
+          {example1?.para_4} 
         </p>
 
         <p className="theme-desc projects-margin-top">{example1?.para_5}</p>

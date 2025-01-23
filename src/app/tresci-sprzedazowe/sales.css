@@ -771,10 +771,12 @@ img.copywriter-owocni {
 }
 
 .download-catalog-button {
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  border-radius: 5px;
   background: var(--brand-blue);
   border: transparent;
   padding: 10px 15px;
-  color: black;
+  color: white;
   font-weight: 400;
   font-size: 30px;
   bottom: 4px;
@@ -782,6 +784,10 @@ img.copywriter-owocni {
   z-index: 10;
   display: inline;
   line-height: 40px;
+}
+.download-catalog-button:hover{
+  box-shadow: none;
+  transition: .5s;
 }
 
 section#sec1 {

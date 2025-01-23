@@ -32,7 +32,7 @@ const UXAccordion = () => {
 
   return (
     <>
-      <div className="faqContainer">
+      <div className="faqContainer ">
         <div className="header__top__left">
           <h2
             className="textAnimation"

@@ -39,7 +39,7 @@ const OptionBox2 = ({ optionBox2 }) => {
                     {/* {description} */}
                     Nie obiecujemy Ci tylko słów - obiecujemy rezultaty. Gwarantujemy, że nasze treści przyniosą wymierne efekty, albo zwrócimy Ci 100% inwestycji. Tak, jesteśmy aż tak pewni skuteczności naszych tekstów.
                   </div>
-                  <div className='quoteBtn btn-hover'>
+          
                   <button
                     onClick={() => setIsModal(true)}
                     className=" download-catalog-button projects-opinion-button copywriter-blue-background copywriter-new-btn copywriter-standard-mt-10 send-offer-button js--triggerAnimation"
@@ -48,7 +48,7 @@ const OptionBox2 = ({ optionBox2 }) => {
                     {/* <strong>{btn_title}</strong> */}
                     Brzmi świetnie. Wyślijcie mi ofertę.
                   </button>
-                  </div>
+                
                 </div>
                 <div className="clearfix"></div>
               </div>

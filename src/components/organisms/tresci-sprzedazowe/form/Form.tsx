@@ -99,9 +99,10 @@ const Form = () => {
               src="https://images.prismic.io/marketersi/ZfL0JUmNsf2sHk-N_Group1.png?auto=format,compress"
               alt=""
             /> */}
-             <img
-              src="https://images.prismic.io/marketersi/Z49nEZbqstJ99q0V_shield.jpg?auto=format,compresshttps://images.prismic.io/marketersi/Z49pv5bqstJ99q2Z_shield.jpg?auto=format,compress"
-              alt="" 
+           
+            <img 
+             src="https://images.prismic.io/marketersi/Z5IHqJbqstJ99xbM_shield.jpg?auto=format,compress"
+             alt="shield"
             />
           </div>
         </form>

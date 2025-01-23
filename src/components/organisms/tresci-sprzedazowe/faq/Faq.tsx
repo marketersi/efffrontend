@@ -28,7 +28,7 @@ const Faq: React.FC<AccordionProps> = ({ faq }) => {
     <div>
       <div className="copywriter-intro-bg-5-label text-center text-change">
         {/* {faq?.main_title}  */}
-        Odpowiedź jest zawsze jedna
+        Odpowiedź jest zawsze jedna 
       </div>
       <div className="copywriter-text-center copywriter-standard-mtb-40">
         <img

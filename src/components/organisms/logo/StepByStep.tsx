@@ -27,9 +27,13 @@ const StepByStep = () => {
             <div className="col-md-12">
               <h3 className="projects-krok-po-kroku no-after p-bottom-10">
                 {/* {title && title} */}
-                Galeria realizacji. <span className="underlineText">
-                Tworzymy to, co zapada w pamięć
-                </span>
+                Przykładowe realizacje. 
+                <br/>
+                Tworzymy To,
+                <br/>
+                Co Zapada w Pamięć.
+
+                
               </h3>
 
               <p className="theme-desc text-center p-0 projects-under-big-header3">

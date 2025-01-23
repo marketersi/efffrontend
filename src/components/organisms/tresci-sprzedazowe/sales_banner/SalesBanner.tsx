@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { ModalForm } from "../ModalForm";
 import ReactPlayer from "react-player";
+import useOsClass from "@/components/molecules/useOsClass";
 
 const SalesBanner = () => {
   const { screenData } = useSelector((state) => state.sales);
   const { heroSection } = screenData || {};
+
+  const osClass = useOsClass();
 
   const [isModal, setIsModal] = useState(false);
 
@@ -58,7 +61,7 @@ const SalesBanner = () => {
                   playing={true}
                   loop={true}
                   width="100%"
-                  height="auto"
+                  height="100%"
                   muted={true}
                   pip={false}
                   playsinline
@@ -75,3 +78,4 @@ const SalesBanner = () => {
 };
 
 export default SalesBanner;
+

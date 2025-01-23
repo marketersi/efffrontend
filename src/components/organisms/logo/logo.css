@@ -7,7 +7,10 @@
 }
 button.download-catalog-button-2.projects-download-catalog-button.send-offer-button.js--triggerAnimation:hover {
   /* background: #d4aa28; */
-  background-color: #009ad2;
+  /* background-color: #009ad2; */
+  background-color: #00bbff;
+  box-shadow: none;
+  border-radius: 5px;
 }
 
 .image-810 img {

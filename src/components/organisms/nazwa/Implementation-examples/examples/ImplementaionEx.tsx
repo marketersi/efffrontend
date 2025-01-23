@@ -29,7 +29,7 @@ const ImplementationExample1 = () => {
 
       <div className=" names-client-name copywriter-cname names-iglarki-name iglarki-cname">
         {/* GDYNIA */}
-        {example1?.title}
+        {example1?.title} 
       </div>
 
       <div className="names-client-desc names-client-iglarki">

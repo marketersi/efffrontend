@@ -92,7 +92,7 @@ const Sales = () => {
         <div className="copywriter-ending-1 text-center">
           {/* Zróbmy razem <br />
           coś fajnego */}
-          Przekształćmy Twoje wizje <br />w sukcesy!
+          Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />
       </section>

@@ -13,13 +13,9 @@ const ImplementationEx4 = () => {
             <div className="row">
               <div className="col-md-12 text-center">
                 <div className="cname-pb names-client-name copywriter-cname custom-after-top-line cname-big-mtop">
-                  {item.title} 
-                  {/* ŁÓDŹ */}
+                  {item.title}
                 </div>
-                <div className="names-client-desc">
-                  {item.subtitle}
-                  {/* Nazwa dla sklepu internetowego ze zdrową żywnością Ekowita */}
-                </div>
+                <div className="names-client-desc">{item.subtitle}</div>
               </div>
             </div>
 
@@ -36,15 +32,8 @@ const ImplementationEx4 = () => {
                 <div className="col-md-12">
                   <h5 className="theme-quote signed-quote signed-quote-image names-quote-fsize names-quote-fsize-2">
                     {item.quote}
-                    {/* ”Chcieliśmy, aby nasza nazwa była odzwierciedleniem tego, w
-                    co wierzymy: zdrowego, świadomego stylu życia, który czerpie
-                    z natury to, co najlepsze. Nazwa, która nie tylko opisuje
-                    nasz asortyment, ale też budzi zaufanie i spokój.” */}
                   </h5>
-                  <p className="signature newsignmargin">
-                    {item.quote_name}
-                    {/* - Magdalena Wiśniewska, właścicielka */}
-                  </p>
+                  <p className="signature newsignmargin">{item.quote_name}</p>
                 </div>
               </div>
             </div>

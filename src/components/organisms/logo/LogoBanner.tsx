@@ -26,12 +26,14 @@ const LogoBanner = ({ openModal }) => {
                 </p>
 
                 <h2 className="top-banner-long-text projects-top-banner-long-text remove-p">
-                  Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy
+                  {/* Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy */}
+                  Gwarantujemy 100% satysfakcji – <br />
+                  tworzymy, aż Cię zachwycimy
                 </h2>
 
                 <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
                   <button
-                    className="download-catalog-button-2 projects-download-catalog-button send-offer-button js--triggerAnimation"
+                    className="download-catalog-button-2 projects-download-catalog-button send-offer-button js--triggerAnimation "
                     type="button"
                     fdprocessedid="k9dho"
                     onClick={openModal}

@@ -11,7 +11,7 @@ const ImplementationEx5 = () => {
         <div className="row">
           <div className="col-md-12 text-center">
             <div className="names-client-name copywriter-cname cname-big-mtop underline-down">
-              {example4?.title}
+              {example4?.title} 
             </div>
             <div className="names-client-desc">
               {example4?.subtitle}
