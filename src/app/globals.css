@@ -474,6 +474,8 @@ body{
 
 .faqContainer .accordion-item {
   position: relative;
+  max-width: 900px;
+  margin: auto;
 }
 
 .faqContainer .accordion-item:hover:before {

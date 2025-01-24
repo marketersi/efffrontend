@@ -47,6 +47,10 @@ const StepByStep = () => {
               <h5 className="theme-subtitle projects-clients-theme-subtitle">
               PRIMADENT<br/> MILANÓWEK
               </h5>
+
+              <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
+                {imageSubTitle && imageSubTitle}
+              </h3>
             </div>
           </div>
         </div>
@@ -62,11 +66,11 @@ const StepByStep = () => {
 
         <div className="container custom-container1">
           <div className="row">
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {imageSubTitle && imageSubTitle}
               </h3>
-            </div>
+            </div> */}
 
             <div className="col-md-12 projects-push-content-top">
               <p className="theme-desc projects-theme-desc-p projects-push-top-50">

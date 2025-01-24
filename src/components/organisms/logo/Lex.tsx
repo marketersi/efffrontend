@@ -11,12 +11,11 @@ const Aico = () => {
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd">
-              LEX PARTNERS <br/> PRAWNICY POZNAŃ
+                LEX PARTNERS <br /> PRAWNICY POZNAŃ
               </h5>
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {LaxPartnersData?.subtitle}
               </h3>
-              
             </div>
           </div>
         </div>
@@ -32,14 +31,17 @@ const Aico = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-            <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
                 {LaxPartnersData?.text1}
               </p>
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top">
-                {LaxPartnersData?.text2}
+                {/* {LaxPartnersData?.text2} */}
+                To logo to nie tylko znak – to wizualne wyrażenie wartości
+                kancelarii i zobowiązanie do zapewniania najwyższej jakości
+                usług prawniczych. Dzięki niemu Lex Partners buduje
+                rozpoznawalność i zaufanie wśród klientów poszukujących
+                rzetelnych partnerów w zakresie w prawa.
               </p>
-              
-              
             </div>
           </div>
         </div>

@@ -20,12 +20,7 @@ const Restaurant = () => {
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {RestaurantData?.subtitle}
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
-                {RestaurantData?.text1}
-              </p>
-              <p className="theme-desc projects-theme-desc-p">
-                {RestaurantData?.text2}
-              </p>
+             
             </div>
           </div>
         </div>
@@ -46,6 +41,12 @@ const Restaurant = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
+            <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
+                {RestaurantData?.text1}
+              </p>
+              <p className="theme-desc projects-theme-desc-p">
+                {RestaurantData?.text2}
+              </p>
               <p className="theme-desc projects-theme-desc-p projects-custom-m0-top">
               {RestaurantData?.text3}
               </p>

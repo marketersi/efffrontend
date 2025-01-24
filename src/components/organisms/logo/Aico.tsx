@@ -17,9 +17,9 @@ const Aico = () => {
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {AicoData?.subtitle}
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
+              {/* <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
                 {AicoData?.text1}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -35,6 +35,9 @@ const Aico = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
+            <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
+                {AicoData?.text1}
+              </p>
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top">
                 {AicoData?.text2}
               </p>

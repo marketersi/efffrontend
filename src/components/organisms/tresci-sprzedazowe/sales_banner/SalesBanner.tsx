@@ -22,7 +22,7 @@ const SalesBanner = () => {
         <div className="container-fluid">
           <div className="top-section-banner-text">
             <div className="row align-items-center">
-              <div className="col-md-5 names-top-banner-container">
+              <div className="col-md-6 names-top-banner-container">
                 <div className="top-banner-text projects-top-banner-text">
                   <h1 className="top-banner-title copywriter-top-banner-title">
                     {/* {heroSection?.main_title}  */}
@@ -48,7 +48,7 @@ const SalesBanner = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-6">
                 {/* <img
               style={{ maxWidth: '100%' }}
               src={heroSection?.image}

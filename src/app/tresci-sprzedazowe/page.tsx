@@ -90,8 +90,7 @@ const Sales = () => {
       {/* <Profit /> */}
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-          {/* Zróbmy razem <br />
-          coś fajnego */}
+        
           Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />

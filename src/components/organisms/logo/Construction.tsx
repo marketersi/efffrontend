@@ -1,10 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-
 const Construction = () => {
-  const {isLoading, screenData} = useSelector((state) => state.logo);
-  const{ConstructionData} = screenData || {} ;
+  const { isLoading, screenData } = useSelector((state) => state.logo);
+  const { ConstructionData } = screenData || {};
   return (
     <>
       <section className="thematic-section projects-gray-background">
@@ -13,17 +12,12 @@ const Construction = () => {
             <div className="col-md-12 projects-custom-espace"></div>
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle projects-theme-subtitle-rwd">
-              ZSZYWANKI <br/> WARSZAWA
+                ZSZYWANKI <br /> WARSZAWA
               </h5>
 
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc projects-custom-mright">
                 {ConstructionData?.subtitle}
               </h3>
-
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
-                {ConstructionData?.text1}
-              </p>
-             
             </div>
           </div>
         </div>
@@ -39,11 +33,19 @@ const Construction = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
+              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc">
+                {ConstructionData?.text1}
+              </p>
+
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
-              {ConstructionData?.text2}
+                {ConstructionData?.text2}
               </p>
               <p className="theme-desc projects-theme-desc-p">
-              {ConstructionData?.text3}
+                {ConstructionData?.text3}
+              </p>
+
+              <p className="theme-desc projects-theme-desc-p">
+                {ConstructionData?.text4}
               </p>
             </div>
           </div>
@@ -58,7 +60,6 @@ const Construction = () => {
               alt="Nowy branding zapewni firmie Core nowych klientów"
               style={{ position: "relative", maxWidth: "none" }}
             />
-            
           </div>
         </div>
         <div className="container">
@@ -75,9 +76,6 @@ const Construction = () => {
           <div className="row">
             <div className="col-md-12">
               <p className="signature">{ConstructionData?.quoteAuthor}</p>
-              <p className="theme-desc projects-theme-desc-p">
-                {ConstructionData?.text4}
-              </p>
             </div>
           </div>
         </div>

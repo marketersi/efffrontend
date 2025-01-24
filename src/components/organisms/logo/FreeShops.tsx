@@ -20,7 +20,7 @@ const FreeShops = () => {
                 BUDMAN <br/> KRAKÓW
               </h5>
               <h3 className="projects-theme-title-2 text-left ErupaSubTItle">
-                {subtitle && subtitle}
+                {subtitle && subtitle}  
               </h3>
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-push-top-td projects-custom-margin-2">
                 {FreeShopsData?.mainImageText1}
