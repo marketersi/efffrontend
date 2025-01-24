@@ -7,7 +7,7 @@ export default function InviteCustomer() {
   return (
     <>
       <div className="InviteCustomer_Title feature">
-        Jaką perspektywę <br /> zyskują klienci, <br /> gdy wchodzą w interakcję
+        Jaką perspektywę <br /> zyskują klienci, <br /> gdy wchodzą <br/> w interakcję <br/>
         z Twoją marką?
       </div>
       <div className="InviteCustomer WidthContent">

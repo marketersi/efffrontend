@@ -38,14 +38,14 @@
   font-weight: 700;
   line-height: 77px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .MainHeading_Content {
   font-size: 29px;
   font-weight: 300;
   line-height: 44px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .MainHeading button {
   background-color: var(--brand-blue);
@@ -55,7 +55,7 @@
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -346,6 +346,8 @@ img.strategyImg {
 }
 
 .Testimonial_Card_Content_Button {
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  border-radius: 5px;
   background-color: var(--brand-blue);
   color: #fff;
   cursor: pointer;
@@ -358,7 +360,9 @@ img.strategyImg {
   margin: 30px auto 15px;
   display: block;
 }
-
+.Testimonial_Card_Content_Button:hover{
+  box-shadow: none;
+}
 /* 8. ResultMax */
 .ResultMax {
   margin-bottom: 70px;
@@ -570,14 +574,14 @@ img.strategyImg {
 
 .Analysis1_GridItem2 {
   flex: 0 0 calc(42% - 10px);
-  background-color: #aee151;
+  background-color: #cfcfd5;
   padding: 30px;
   color: white;
 }
 
 .Analysis1_GridItem3 {
   flex: 0 0 calc(42% - 10px);
-  background-color: #0fa25d;
+  background-color: #aaaaba;
   padding: 30px;
   color: white;
 }
@@ -1257,11 +1261,17 @@ img.strategyImg {
   margin-bottom: 20px;
 }
 
+.Price_Card_Main_Button:hover{
+  box-shadow: none;
+}
+
 .Price_Card_Main_Button {
   background-color: var(--brand-blue);
   border: 2px solid var(--brand-blue);
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px; */
   color: #ffffff;
   cursor: pointer;
   font-weight: 700;

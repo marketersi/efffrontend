@@ -57,7 +57,7 @@ export default function WhatRecieve() {
       <div className="WhatRecieve_Title_Three">
         Wyobraź sobie, że stoisz <br />
         na rozstajach dróg
-        <br /> Twojego biznesowego sukcesu.
+        <br /> Twojego biznesowego <br/> sukcesu.
       </div>
       <div className="WhatRecieve WidthContent">
         <div className="WhatRecieve_Content_Three_One">

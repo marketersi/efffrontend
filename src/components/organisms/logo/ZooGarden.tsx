@@ -48,7 +48,7 @@ const ZooGarden = () => {
 
         <div className="custom-container1-image">
           <img
-            className="w-100"
+            className="image-810"
             src={ZooGardenData?.image_1}
             alt="Zmiana starego znaku firmowego poprzez projektowanie logo firmy"
             title="Prezentacja, jak projektowanie logo firmy może odmienić stary znak firmowy"
