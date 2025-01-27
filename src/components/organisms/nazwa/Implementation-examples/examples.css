@@ -113,16 +113,21 @@
 }
 
 .download-catalog-button {
+  box-shadow: 0px 4px 0 #009ad2;
   background: var(--brand-blue);
   border: transparent;
   padding: 8px 20px;
-  color: black;
+  color: white;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   z-index: 10;
   display: inline;
-  
+  border-radius: 5px;
+}
+.download-catalog-button:hover{
+  box-shadow:none;
+  transition: .5s;
 }
 
 /* section */

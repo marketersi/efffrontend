@@ -35,7 +35,7 @@ const CustomerReview2 = () => {
                 <div className="opinion-box-text">
                   {customer_review?.customer_description}
                 </div>
-                <div className="quoteBtn btn-hover">
+                {/* <div className="quoteBtn btn-hover"> */}
                   <button
                     className="download-catalog-button names-new-btn send-offer-button js--triggerAnimation pnazw-opinion-btn"
                     type="button"
@@ -43,7 +43,7 @@ const CustomerReview2 = () => {
                   >
                     {customer_review?.review_buttonText}
                   </button>
-                </div>
+                {/* </div> */}
               </div>
               <div className="clearfix"></div>
             </div>

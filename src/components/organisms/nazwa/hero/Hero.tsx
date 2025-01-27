@@ -46,7 +46,7 @@ const NazwaHero = () => {
                   Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy
                 </h2>
               </div>
-              <div className="catalog-submit-button text-left projects-catalog-submit-buttom quoteBtn btn-hover">
+              <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
                 <button
                   className="download-catalog-button nazwaHeroBtn banner-btn"
                   type="button"

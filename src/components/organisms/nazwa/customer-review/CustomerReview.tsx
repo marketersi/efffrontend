@@ -36,7 +36,7 @@ const CustomerReview = () => {
                 <div className="opinion-box-text">
                   {example1?.customer_description}
                 </div>
-                <div className="quoteBtn btn-hover">
+                <div className="">
                 <button
                   className="download-catalog-button names-new-btn send-offer-button  js--triggerAnimation pnazw-opinion-btn"
                   type="button"
