@@ -2984,7 +2984,7 @@ video.mobileVideo {
 
 /* ----------------------------------------goodProcess------------------------------ */
 section.goodProcess {
-  display: contents;
+  
   grid-template-columns: 100%;
   margin-block: 100px;
   padding: 0 8vw;
@@ -3006,6 +3006,86 @@ section.goodProcess {
   margin: 10px 0 18px 0;
   
 }
+.goodProcess svg{
+  position: absolute;
+  left: 60%;
+  margin-top: 220px;
+  z-index: -1;
+}
+.cricleBox{
+  
+  left: 300px;
+  position: relative;
+  top: 265px;
+}
+
+/* .numberimage{
+  position: relative;
+}
+.numberimage::after{
+  content: "";
+  position: absolute;
+  width: 900px;
+  height: 1020px;
+  top: 250px;
+  left:27%;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+  border-right: 15px solid transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+  border-image-repeat: round;
+  border-image-slice: 10;
+  border-image-source:url(https://marketersi.cdn.prismic.io/marketersi/Z5dmR5bqstJ993yH_arrow.svg);
+}
+.numberimage2{
+  position: relative;
+}
+.numberimage2::after{
+  content: "";
+  position: absolute;
+  width: 894px;
+  height: 1127px;
+  top: 147px;
+  left: 24%;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+  border-left: 4px dashed #00bfff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+}
+.numberimage3{
+  position: relative;
+}
+.numberimage3::after{
+  content: "";
+  position: absolute;
+  width: 910px;
+  height: 1088px;
+  top: 147px;
+  left: 25%;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+  border-right: 4px dashed #00bfff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+} */
+
 
 .two .subtitle {
   
@@ -3046,17 +3126,17 @@ section.goodProcess {
 
 
 .afterImage{
-  width: 463px;
+  
   font-size: 85px;
   line-height: 77px;
   font-weight: 700;
   text-align: center;
-  margin: 0px auto 0;
+  margin:40px auto 80px;
   position: relative;
+  background-color: #f4f4f4;
+  padding: 10px 50px;
   /* top: 126px; */
-  background: #f4f4f4;
-  padding: 50px;
-
+ 
 }
 
 .imgs img {
