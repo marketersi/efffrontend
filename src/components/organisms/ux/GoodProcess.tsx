@@ -17,41 +17,51 @@ const GoodProcess = () => {
 
   useEffect(() => {
     const path = document.getElementById("mypath");
+    if (!path) return;
+  
     const pathLength = path.getTotalLength();
-    const spacing = 40; // Distance between circles
+    const spacing = 40;
     const numberOfCircles = Math.floor(pathLength / spacing);
-    const leftOffset = 90;
-
+    const leftOffset = 70;
+  
     let positions = [];
     for (let i = 0; i <= numberOfCircles; i++) {
       const distance = i * spacing;
       const point = path.getPointAtLength(distance);
-      positions.push({ left: point.x + leftOffset, top: point.y  });
+      positions.push({ left: point.x + leftOffset, top: point.y });
     }
-
+  
     setCirclePositions(positions);
-
-    // GSAP Animations
-    const goodProcessSection = sectionRef.current;
-
-    gsap.utils.toArray(".circle").forEach((circle) => {
-      gsap.fromTo(
-        circle,
-        { scale: 1, opacity: 0.8 },
-        {
-          scale: 1.1,
-          opacity: 1,
+  
+    setTimeout(() => {
+      const circles = document.querySelectorAll(".circle");
+  
+      if (circles.length > 0) {
+        const tl = gsap.timeline({
           scrollTrigger: {
-            trigger: goodProcessSection, // Use the goodProcess section
-            start: "top top", // Start when the section is in view
-            end: "bottom bottom", // End when the section is out of view
+            trigger: sectionRef.current,
+            start: "top 20%",
+            end: "bottom top",
             scrub: true,
-            containerAnimation: goodProcessSection, // Use the section as the container
+            markers: true,
           },
-        }
-      );
-    });
+        });
+  
+        tl.fromTo(
+          circles,
+          { scale: 0.3, opacity: 0 },
+          {
+            scale: 2.2,
+            opacity: 1,
+            duration: 1,
+            stagger: 0.5, // Delay between each circle animation
+          }
+        );
+      }
+    }, 500);
   }, []);
+  
+  
 
   return (
     <section
@@ -61,40 +71,43 @@ const GoodProcess = () => {
     >
       {/* Hidden SVG Path */}
       <svg
-        style={{ display: "none" }}
-        width="563"
-        height="1870"
-        viewBox="0 0 563 2070"
+        width="100"
+        height="3200"
+        viewBox="0 0 200 3200"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        style={{ visibility: "hidden", position: "absolute" }}
       >
         <path
           id="mypath"
-          d="M390.62 0.110352C390.62 363.73 1098.15 885.79 390.62 1789.42C235.19 1981.3 -401.86 2681.68 390.62 3460.72C1139.92 4210.02"
+          d="
+          M100 0
+          S550 800, 100 1000 
+          S-550 2000, 100 2250 
+          S550 3200, 100 3400 
+        "
           stroke="black"
+          fill="none"
           stroke-miterlimit="10"
-        ></path>
+        />
       </svg>
 
       <div className="cricleBox">
         {/* Circles */}
-      {circlePositions.map((position, index) => (
-        <div
-          key={index}
-          className="circle"
-          style={{
-            position: "absolute",
-            left: `${position.left}px`,
-            top: `${position.top}px`,
-            width: "20px",
-            height: "20px",
-            backgroundColor: "#00BFFF",
-            borderRadius: "50%",
-            transform: "scale(1)",
-            opacity: 0.8,
-          }}
-        ></div>
-      ))}
+        {circlePositions.map((position, index) => (
+          <img
+            key={index}
+            src="https://marketersi.cdn.prismic.io/marketersi/Z5dmR5bqstJ993yH_arrow.svg"
+            className="circle"
+            style={{
+              position: "absolute",
+              left: `${position.left}px`,
+              top: `${position.top}px`,
+          
+              
+            }}
+          ></img>
+        ))}
       </div>
 
       {/* GoodProcess Content */}

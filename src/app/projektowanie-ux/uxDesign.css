@@ -3014,7 +3014,7 @@ section.goodProcess {
 }
 .cricleBox{
   
-  left: 300px;
+  left: 630px;
   position: relative;
   top: 265px;
 }
@@ -3085,7 +3085,12 @@ section.goodProcess {
   -o-border-radius: 50%;
   z-index: -1;
 } */
-
+.cricleBox img{
+  width:30px;
+  object-fit: contain;
+  height: auto;
+  padding: 10px;
+}
 
 .two .subtitle {
   
@@ -3113,13 +3118,14 @@ section.goodProcess {
 .number {
  display: flex; 
  justify-content: center;
+ margin-bottom: 150px;
   
 }
 .two .number{
-  margin: 70px 0;
+  margin: 150px 0 ;
 }
 .three .number{
-  margin: 70px 0;
+  margin: 150px 0;
 }
 
 
