@@ -43,7 +43,7 @@ const GoodProcess = () => {
             start: "top 20%",
             end: "bottom top",
             scrub: true,
-            markers: true,
+            markers: false,
           },
         });
   
