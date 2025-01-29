@@ -25,15 +25,17 @@ const Video = () => {
         element,
         { scale: 1, skewY: -10 },
         {
-          scale: 2.3,
+          scale: 2,
           skewY: 0,
-          duration: 5,
+          duration:5.5,
           ease: "sine.out",
           scrollTrigger: {
             trigger: element,
             start: "top 60%", // Starts when the top of the element hits 80% of the viewport
-            end: "top 10%", // Ends when the top of the element hits 30% of the viewport
+            end: "top 5%",
+
             scrub: 1, // Smooth animation while scrolling
+            
           },
         }
       );

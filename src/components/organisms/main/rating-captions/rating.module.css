@@ -1,6 +1,6 @@
 .rating {
   padding: 70px 0;
-  max-width: 1000px;
+  
   margin: auto;
   width: 100%;
   position: relative;
@@ -47,9 +47,9 @@
 }
 
 .ratingMainImg img {
-  width: 100%;
+  width: 85%;
   height: auto;
-  margin: -190px auto -90px;
+  margin: -530px auto -90px;
   display: block;
 }
 
@@ -171,7 +171,7 @@
   }
 
   .ratingMainImg img {
-    margin: -120px 0 -90px;
+    margin: -265px 0 -90px;
   }
   .ratingMainImg p span {
     font-size: 12px;

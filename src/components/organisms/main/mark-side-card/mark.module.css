@@ -43,7 +43,14 @@
   border-radius: 100px;
   padding: 0 0 0px 10px;
 }
-
+.mark img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 300px;
+  object-fit: scale-down;
+  object-position: bottom;
+}
 .markCard a {
   text-decoration: none;
   color: #333333;
@@ -61,21 +68,18 @@
   width: 15px;
   margin: 3px auto;
   display: block;
+  height: auto;
 }
 .midColumn{
   
 }
-.mark img {
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-}
+
 .markVideo video {
   width: 100% !important;
   margin-inline: auto;
   
   display: block;
-  height: 250px!important;
+  height: 300px!important;
 }
 
 .win-player video {
@@ -118,6 +122,7 @@
     margin: 40px auto 0;
     display: block;
     width: 95% !important;
+    height: 250px;
   }
   .markCard {
     width: 100%;
@@ -125,8 +130,17 @@
   }
   .markImg1 {
     width: 90% !important;
+    height: 250px;
   }
   .markCard h3 {
     font-size: 40px;
+  }
+  .gapRowCol, .midColumn{
+    width: 100%;
+    max-width: 100%;
+  }
+  .gapRow{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
   }
 }

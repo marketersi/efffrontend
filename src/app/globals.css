@@ -9,6 +9,7 @@
 body {
   background-color: #f4f4f4 !important;
   font-family: "Poppins", sans-serif !important;
+  overflow-x: hidden;
 }
 .georgia{
   font-family: "Georgia", serif;
@@ -199,6 +200,9 @@ body{
 
   
 }
+.OurClients_Slide_Content{
+  position: relative;
+}
 .OurClients_Slide_Media {
   /* display: grid;
   grid-template-columns: 40% 1fr; */
@@ -215,7 +219,9 @@ body{
   text-align: center;
   justify-content: flex-end;
   margin-top: 30px;
-  margin-right: -10px;
+  right:0px;
+  position: absolute;
+  bottom: 0;
 }
 .OurClients_Slide_Title {
   font-size: 33.28px;
@@ -442,6 +448,7 @@ body{
 .OurClients_Slide_Title.desktop_title {
   display: block;
   margin-bottom: 0px;
+  
 }
 .mobile {
   display: none;
@@ -572,6 +579,7 @@ body{
   }
   .OurClients_Slide_Button {
     margin: 10px 0 0 0;
+    right:10px;
   }
   .OurClients_Slide_Media {
     display: block !important;
@@ -770,8 +778,16 @@ video {
     /* -webkit-filter: contrast(0.979); */
     filter: contrast(0.999);
   }
-  .WidthContent{
+  .WidthContent, .WidthContent1{
     margin: 0 10px;
+  }
+  .OurClients_Marquee .rfm-marquee-container{
+    overflow-x: hidden!important;
+  }
+  .windos video{
+    margin: auto;
+    width: 90vw!important;
+    max-width: 100%;
   }
 }
 

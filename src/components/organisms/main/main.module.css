@@ -4,7 +4,7 @@
 }
 
 .Content {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
@@ -344,9 +344,16 @@ img.hardImg {
   .Content h2 {
     font-size: 35px !important;
     margin: 20px 0 10px 0px;
+    line-height: 32px;
   }
   .Content h4{
     font-weight: 700;
+    line-height: 36px;
+  }
+  .fontSmall{
+    font-size: 36px;
+    line-height: 36px;
+    
   }
 
   .Content h3 {
@@ -396,10 +403,23 @@ img.hardImg {
   .order .orderImg img {
     border-radius: 0 0 50px 50px;
   }
-
+  .girlImage {
+    width: 90vw!important;
+    height: auto;
+    margin: auto;
+    
+  }
+  .contentFont{
+    font-size: 32px!important;
+    line-height: 34px!important;
+    font-weight:700!important;
+    max-width: 900px;
+    margin: auto;
+  }
   .hardResult h4 {
     font-size: 28px;
     text-align: center !important;
+    line-height: 36px;
   }
   .Content p {
     font-size: 22px;

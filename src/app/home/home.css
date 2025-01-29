@@ -141,10 +141,8 @@
 }
 .bannerVideoMain{
   position: relative;
-  width: 30vw!important;
+  width: 36vw!important;
   margin: auto;
- 
-  
 }
 
 
@@ -209,4 +207,12 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+@media screen and (max-width:767px){
+  .bannerVideoMain{
+    position: relative;
+    width: 80vw!important;
+    margin: auto;
+  }
 }
