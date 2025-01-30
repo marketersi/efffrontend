@@ -2987,7 +2987,7 @@ section.goodProcess {
   
   grid-template-columns: 100%;
   margin-block: 100px;
-  padding: 0 8vw;
+  padding: 0;
   position: relative;
 }
 
@@ -3012,12 +3012,25 @@ section.goodProcess {
   margin-top: 220px;
   z-index: -1;
 }
-.cricleBox{
-  
-  left: 630px;
-  position: relative;
+.circleBox{
+  position: absolute;
   top: 265px;
+  left: 39%;
+  transform: translate(-50%, -50%);
 }
+
+
+/* .circle {
+  transform-origin: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 2000px;-
+  -webkit-border-radius: 2000px;
+  -moz-border-radius: 2000px;
+  -ms-border-radius: 2000px;
+  -o-border-radius: 2000px;
+  background-color: #00bfff;
+} */
 
 /* .numberimage{
   position: relative;

@@ -56,7 +56,7 @@ line-height: 34px;
 
 
 .faqContainer .accordion-item:nth-child(1):before {
-  background-color: #ffc700;
+  background-color: #00c0fe;
 }
 .faqContainer .accordion-item:before {
   content: "";

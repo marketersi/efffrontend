@@ -19,6 +19,7 @@
   width: 100%;
   top: -120px;
   z-index: -1;
+  left: 0;
 }
 
 .ratingImg img {
@@ -47,9 +48,9 @@
 }
 
 .ratingMainImg img {
-  width: 85%;
+  width: 75%;
   height: auto;
-  margin: -530px auto -90px;
+  margin: -230px auto -90px;
   display: block;
 }
 

@@ -57,9 +57,7 @@
 /* ---------------------media screen ------------ */
 @media screen and (max-width: 1500px) {
   .mainVideoDiv video {
-    left: 20%;
-    top: -60px;
-    width: 60% !important;
+    
   }
   
 }

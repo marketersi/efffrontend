@@ -1,6 +1,6 @@
 /* ==============================sales banner========================== */
 section.sales_banner {
-  padding: 50px;
+  padding: 0 50px 50px;
 }
 
 .top-section.desktop > .container {
@@ -112,7 +112,7 @@ section.sales_banner {
 /* ==============================sales banner-bottom-text========================== */
 .copywriter-page .copyuwriter-custom-push-1 {
   margin: auto;
-  max-width: 1100px;
+  max-width: 900px;
 }
 
 .copywriter-custom-margin-1 {
@@ -206,7 +206,7 @@ section.business_tools {
   font-size: 85px;
   font-weight: 700;
   line-height: 77px;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -280,7 +280,7 @@ section.business_tools {
   width: 78%;
 }
 .main-title {
-  width: 60.7%;
+  width: 900px;
 }
 
 .copywriter-custom-text-2 {
@@ -358,7 +358,7 @@ strong {
 .copywriter-container-custom {
   margin-top: 70px;
   margin-bottom: 70px;
-  max-width: 1100px;
+ max-width: 1280px;
 }
 
 .copywriting-white-text-cont {
@@ -408,7 +408,7 @@ strong {
 }
 
 .copywriter-custom-container-2 {
-  max-width: 1100px;
+  max-width:900px;
   background-color: white;
   margin-bottom: 80px;
   margin-top: 70px;
@@ -519,10 +519,10 @@ img.copywriter-owocni {
 
 .copywriter-custom-header-2 {
   font-size: 85px;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 30px;
   line-height: 77px;
-  max-width: 1100px;
+  max-width: 900px;
 
   margin: 70px auto 60px;
 }
@@ -531,7 +531,7 @@ img.copywriter-owocni {
   font-size: 28px;
   line-height: 50px;
   font-weight: 300;
-  max-width: 1100px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
@@ -557,7 +557,7 @@ img.copywriter-owocni {
 }
 
 .custom-container2 {
-  max-width: 1100px;
+  max-width: 900px;
   margin-inline: auto;
 }
 .cutom-margibgs {
@@ -792,6 +792,7 @@ img.copywriter-owocni {
 
 section#sec1 {
   margin-inline: auto;
+  max-width: 1280px;
 }
 
 /* ----------------------------------------------------------midea screen ------------------------------------- */

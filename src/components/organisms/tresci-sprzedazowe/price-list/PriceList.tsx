@@ -6,7 +6,8 @@ const PriceList = () => {
   const { pricingSection } = screenData || {};
   return (
     <>
-      <div className="container">
+      <div className="WidthContent">
+      <div className="WidthContent">
         <div className="copywriter-custom-headerOne text-center">
           {pricingSection?.title}
         </div>
@@ -60,6 +61,7 @@ const PriceList = () => {
             />
           </div>
         </div>
+      </div>
       </div>
       {/* to be deleted */}
       {/* <div className="copywriter-wierzymy-container">

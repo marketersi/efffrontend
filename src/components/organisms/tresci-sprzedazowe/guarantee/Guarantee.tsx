@@ -6,7 +6,7 @@ const Guarantee = () => {
   const {policySection} = screenData || {};
   return (
     <>
-    <div className="container copywriter-custom-container-2">
+    <div className="WidthContent copywriter-custom-container-2">
           <div className="row">
             <div className="col-md-12">
               <div className="copywriter-custom-header copywriter-custom-push-2 text-center teeTitle">

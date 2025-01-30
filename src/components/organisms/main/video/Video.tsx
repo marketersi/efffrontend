@@ -2,13 +2,14 @@
 import React, { useState, useRef, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { gsap } from "gsap";
+import { useGSAP } from '@gsap/react';
 import ScrollTrigger from "gsap/ScrollTrigger";
 import style from "./video.module.css";
 import { useSelector } from "react-redux";
 import useOsClass from "@/components/molecules/useOsClass";
 
 // Register the ScrollTrigger plugin
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const Video = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
@@ -17,7 +18,7 @@ const Video = () => {
   const [isPopupOpen, setPopupOpen] = useState(false);
   const videoRef = useRef(null);
 
-  useEffect(() => {
+  useGSAP(() => {
     const element = videoRef.current;
 
     if (element) {
@@ -25,15 +26,14 @@ const Video = () => {
         element,
         { scale: 1, skewY: -10 },
         {
-          scale: 2,
+          scale: 2.2,
           skewY: 0,
-          duration:5.5,
+          duration:3.5,
           ease: "sine.out",
           scrollTrigger: {
             trigger: element,
-            start: "top 60%", // Starts when the top of the element hits 80% of the viewport
+            start: "top 40%", // Starts when the top of the element hits 80% of the viewport
             end: "top 5%",
-
             scrub: 1, // Smooth animation while scrolling
             
           },

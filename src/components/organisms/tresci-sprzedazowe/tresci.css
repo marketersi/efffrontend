@@ -365,7 +365,7 @@ contact-inputs textarea {
   margin-top: 50px;
 }
 .banner-title {
-  max-width: 1200px !important;
+  max-width: 900px !important;
 }
 .turbokids-text-1 {
   font-weight: 400 !important;
@@ -495,7 +495,7 @@ contact-inputs textarea {
   z-index: -1;
 } */
 .lingu {
-  max-width: 1100px !important;
+  max-width: 900px !important;
   width: 100%;
   margin: 20px auto 0;
   display: block;
@@ -507,7 +507,7 @@ contact-inputs textarea {
   line-height: 48px;
   color: #353434;
   margin-bottom: 30px;
-  max-width: 1100px;
+  max-width: 900px;
   margin-inline: auto;
   font-weight: 400;
 }
@@ -530,7 +530,7 @@ contact-inputs textarea {
   line-height: 74px;
   color: #353434;
   margin-top: 30px;
-  max-width: 1000px;
+  max-width: 900px;
   margin-inline: auto;
   margin-bottom: 50px;
 }
@@ -618,11 +618,11 @@ section.profit-sec {
 }
 
 .copywriter-ending-1 {
-  font-size: 129px;
+  font-size: 85px;
   font-family: "Playfair Display", serif;
-  font-weight: 900;
-  line-height: 123px;
-  letter-spacing: -0.025em;
+  font-weight: 700;
+  line-height: 97px;
+  margin-top: 70px;
   color: black;
   margin-bottom: 50px;
 }
@@ -688,9 +688,9 @@ section.profit-sec {
 
 /* -----------form------------ */
 .sendQuote {
-  max-width: 610px;
+  max-width: 630px;
   background: white;
-  padding: 20px;
+  padding: 40px;
   margin-inline: auto;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.15), 0 0 0 0 #fff,
     inset 2px 2px 2px 0 #fff, inset -2px -2px 2px 0 #c7c7c7;

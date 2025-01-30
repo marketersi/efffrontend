@@ -4,8 +4,9 @@ import { useSelector } from "react-redux";
 import React, { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const GoodProcess = () => {
   const { screenData } = useSelector((state) => state.ux);
@@ -14,8 +15,9 @@ const GoodProcess = () => {
   const osClass = useOsClass();
   const [circlePositions, setCirclePositions] = useState([]);
   const sectionRef = useRef(null);
+  const numbercircle = 21;
 
-  useEffect(() => {
+  useGSAP(() => {
     const path = document.getElementById("mypath");
     if (!path) return;
   
@@ -40,21 +42,23 @@ const GoodProcess = () => {
         const tl = gsap.timeline({
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 20%",
+            start: "top 70%",
             end: "bottom top",
             scrub: true,
             markers: false,
+            
           },
         });
   
         tl.fromTo(
           circles,
-          { scale: 0.3, opacity: 0 },
+          { scale: 0.3, opacity: 0, },
           {
             scale: 2.2,
             opacity: 1,
-            duration: 1,
-            stagger: 0.5, // Delay between each circle animation
+            duration: 1.5,
+            stagger: 0.5, 
+            ease: "power3.in",
           }
         );
       }
@@ -82,7 +86,7 @@ const GoodProcess = () => {
           id="mypath"
           d="
           M100 0
-          S550 800, 100 1000 
+          S750 800, 100 1000 
           S-550 2000, 100 2250 
           S550 3200, 100 3400 
         "
@@ -92,21 +96,22 @@ const GoodProcess = () => {
         />
       </svg>
 
-      <div className="cricleBox">
+      <div className="circleBox">
         {/* Circles */}
         {circlePositions.map((position, index) => (
-          <img
-            key={index}
-            src="https://marketersi.cdn.prismic.io/marketersi/Z5dmR5bqstJ993yH_arrow.svg"
-            className="circle"
-            style={{
-              position: "absolute",
-              left: `${position.left}px`,
-              top: `${position.top}px`,
-          
-              
-            }}
-          ></img>
+           <div
+           key={index}
+           className="circle"
+           style={{
+             position: "absolute",
+             left: `${position.left}px`,
+             top: `${position.top}px`,
+             width: "12px",
+             height: "12px",
+             backgroundColor: "#00BFFF",
+             borderRadius: "50%",
+           }}
+         ></div>
         ))}
       </div>
 

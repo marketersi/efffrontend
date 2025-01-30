@@ -140,9 +140,12 @@
   font-size: x-large;
 }
 .bannerVideoMain{
-  position: relative;
+  position: absolute;
   width: 36vw!important;
   margin: auto;
+  transform-origin: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
