@@ -78,6 +78,8 @@ const LogoDesignScreen = () => {
       <ProjectValue />
       <Gallery openModal={openModal} />
       <StepByStep />
+      <section className="logo-stef">
+      
       <FreeShops />
       <Enexo />
       <Daco />
@@ -87,11 +89,12 @@ const LogoDesignScreen = () => {
       <Restaurant />
       <Park />
       <Lex />
+      </section>
       {/* <GPN /> */}
-      <NewCompany />
+      {/* <NewCompany /> */}
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-        Stwórzmy coś, <br/> co robi wrażenie.
+        Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />
       </section>

@@ -78,7 +78,7 @@ const ImplementationExamples = () => {
 
       <section className="black-sec-form">
         <div className="copywriter-ending-1 text-center">
-        Stwórzmy coś, <br/>co robi wrażenie
+        Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />
       </section>

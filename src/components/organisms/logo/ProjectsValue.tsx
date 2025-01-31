@@ -24,9 +24,9 @@ const ProjectsValue = ({openModal}) => {
   return (
     <>
       <section>
-        <div className="container projects-opinion-box-container">
+        <div className="container projects-opinion-box-container2">
           <div className="row">
-            <div className="col-md-12"></div>
+            
             <div className="col-md-12">
               <h3 className="projects-theme-title3 no-after p-bottom-10">
                 {title && title}
@@ -38,7 +38,7 @@ const ProjectsValue = ({openModal}) => {
           </div>
         </div>
       </section>
-      <section className="container custom-container2 thematic-project thematic-section projects-gray-background">
+      <section className="container thematic-project thematic-section projects-gray-background">
         {/* <div className="projects-wierzymy-container"> */}
           
         {/* </div> */}
@@ -49,7 +49,7 @@ const ProjectsValue = ({openModal}) => {
           alt="Logo projekt wizytówki"
           title="Logo - projekt z napisem “wierzymy”"
         />
-        <div className="projects-custom-container3 col-md-7">
+        <div className="projects-custom-container3 col-md-6">
           <div className="projects-container-textright projects-rwd-tcenter">
             {/* <h5 className="projects-custom-h5">{imageTitle && imageTitle}</h5> */}
 

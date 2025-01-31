@@ -19,11 +19,7 @@ const LogoBanner = ({ openModal }) => {
                   Buduje Zaufanie
                 </h1>
 
-                <p>
-                  "Twoje logo jest wizytówką Twojej marki. <br /> Powinno
-                  inspirować zaufanie <br /> od pierwszego spojrzenia." - Laura
-                  Busche
-                </p>
+                
 
                 <h2 className="top-banner-long-text projects-top-banner-long-text remove-p">
                   {/* Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy */}

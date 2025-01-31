@@ -416,15 +416,19 @@ body{
   text-decoration: underline;
 }
 .UXBannerContainer {
-  width: 95%;
+  width: 100%;
   margin-inline: auto;
-  padding-block: 0px 0 50px;
+  padding: 0px 50px 50px;
 }
 .WidthContent{
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
 
+}
+.sheildPng{
+  width:46px;
+  height: auto;
 }
 .WidthContent1{
   max-width: 900px;

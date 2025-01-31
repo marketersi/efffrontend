@@ -107,8 +107,9 @@ const Form = () => {
             /> */}
 
             <img
-              src="https://images.prismic.io/marketersi/Z5IHqJbqstJ99xbM_shield.jpg?auto=format,compress"
+              src="https://images.prismic.io/marketersi/Z5xxjpbqstJ9-Emr_NEWSHIELDGRAPHIC.png?auto=format,compress"
               alt="shield"
+              className="sheildPng"
             />
           </div>
         </form>

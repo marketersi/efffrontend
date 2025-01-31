@@ -95,12 +95,14 @@ const Video = () => {
               playing={true}
               loop={true}
               muted={true}
-              width="100%"
+              width="70%"
               height="auto"
               className="popupVideo"
-              style={{ borderRadius: "30px" }}
+              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429", borderBottomWidth: "0", borderRightWidth: "5px"}}
               pip={false}
+              controls={true}
               playsinline
+              
             />
             <button className="close-btn" onClick={closePopup}>
               X

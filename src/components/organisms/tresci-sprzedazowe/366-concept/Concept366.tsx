@@ -120,7 +120,7 @@ const Concept366 = () => {
 
         </div> */}
 
-        <br />
+       
 
         {/* <div className="copywriter-text-center copywriter-standard-mt-40">
           <img

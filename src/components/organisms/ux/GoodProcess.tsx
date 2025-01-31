@@ -24,7 +24,7 @@ const GoodProcess = () => {
     const pathLength = path.getTotalLength();
     const spacing = 40;
     const numberOfCircles = Math.floor(pathLength / spacing);
-    const leftOffset = 70;
+    const leftOffset = 40;
   
     let positions = [];
     for (let i = 0; i <= numberOfCircles; i++) {
@@ -76,8 +76,8 @@ const GoodProcess = () => {
       {/* Hidden SVG Path */}
       <svg
         width="100"
-        height="3200"
-        viewBox="0 0 200 3200"
+        height="2800"
+        viewBox="0 0 200 2830"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         style={{ visibility: "hidden", position: "absolute" }}
@@ -86,9 +86,8 @@ const GoodProcess = () => {
           id="mypath"
           d="
           M100 0
-          S750 800, 100 1000 
-          S-550 2000, 100 2250 
-          S550 3200, 100 3400 
+          S850 900, 100 1050 
+          S-450 2500, 100 2430  
         "
           stroke="black"
           fill="none"
@@ -116,6 +115,7 @@ const GoodProcess = () => {
       </div>
 
       {/* GoodProcess Content */}
+      <div className="numberOne">
       <div className="one numberimage">
         <div className="number">
           <img
@@ -139,7 +139,9 @@ const GoodProcess = () => {
           <p>{stage_1?.description}</p>
         </div>
       </div>
+      </div>
 
+      <div className="numberTwo">
       <div className="two numberimage2">
         <div className="number">
           <img
@@ -163,6 +165,8 @@ const GoodProcess = () => {
           <p>{stage_2?.description}</p>
         </div>
       </div>
+      </div>
+      <div className="numberThree">
       <div className="three numberimage3">
         <div className="number">
           <img
@@ -178,6 +182,7 @@ const GoodProcess = () => {
           <p className="subtitle">{stage_3?.subtitle}</p>
           <p>{stage_3?.description}</p>
         </div>
+      </div>
       </div>
       <h1 className="afterImage">
         Przykłady <br /> Realizacji

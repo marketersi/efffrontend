@@ -31,14 +31,14 @@ const PDFCopy = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12 projects-push-content-top">
-              <p className="theme-desc projects-theme-desc-p projects-mq-book-fix">
+              <p className="theme-desc projects-mq-book-fix">
                 {normalText && normalText}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="container">
+        <div className="container custom-container1">
           <div className="row align-items-center additional-gap">
             <div className="col-xl-6 projects-lprasa-container">
               {image && (
@@ -73,7 +73,7 @@ const PDFCopy = () => {
                     style={{ textDecoration: 'none' }}
                   >
                     <span className="orange-link">
-                      <strong>{imageLinkText}</strong>
+                      <strong>Kliknij tutaj (PDF)</strong>
                     </span>
                   </a>
                 )}

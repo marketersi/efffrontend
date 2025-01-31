@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .optonsahgasds {
   font-size: 32px !important;
   font-weight: 400 !important;
@@ -199,8 +203,10 @@ contact-inputs textarea {
 
 /* =============optios============== */
 .opinion-box {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .projects-client-opinion-p {
@@ -261,9 +267,7 @@ contact-inputs textarea {
   top: -250px;
 }
 
-.copywriter-standard-mt-40 {
-  margin-top: 60px;
-}
+
 
 .copywriter-bg-10 {
   background: none;
@@ -306,7 +310,7 @@ contact-inputs textarea {
 }
 
 .copywriter-standard-mb-80 {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .copywriter-page .new-mt-2 {
@@ -372,6 +376,7 @@ contact-inputs textarea {
   font-family: Georgia !important;
   font-size: 61px !important;
   line-height: 74px !important ;
+  margin-bottom: 0px;
 }
 
 .turbokids-text-2 {
@@ -385,11 +390,11 @@ contact-inputs textarea {
 .copywriter-custom-text-turbokids-1 {
   color: #333;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
   font-size: 44px;
   font-weight: 400;
   line-height: 48px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .copywriter-custom-subtext-turbokids-1 {
@@ -460,7 +465,7 @@ contact-inputs textarea {
 .copywriter-after-img-2 {
   position: relative;
   z-index: 2;
-  margin-bottom: 70px;
+  margin-bottom: 55px;
 }
 /* Font: Georgia, weight 400 (bolded), size 61px, line-height 74px */
 
@@ -497,7 +502,7 @@ contact-inputs textarea {
 .lingu {
   max-width: 900px !important;
   width: 100%;
-  margin: 20px auto 0;
+  margin: 0px auto 0;
   display: block;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -506,7 +511,6 @@ contact-inputs textarea {
   text-align: center;
   line-height: 48px;
   color: #353434;
-  margin-bottom: 30px;
   max-width: 900px;
   margin-inline: auto;
   font-weight: 400;
@@ -622,7 +626,7 @@ section.profit-sec {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   line-height: 97px;
-  margin-top: 70px;
+  margin-top: 20px;
   color: black;
   margin-bottom: 50px;
 }
@@ -690,7 +694,7 @@ section.profit-sec {
 .sendQuote {
   max-width: 630px;
   background: white;
-  padding: 40px;
+  padding: 34px;
   margin-inline: auto;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.15), 0 0 0 0 #fff,
     inset 2px 2px 2px 0 #fff, inset -2px -2px 2px 0 #c7c7c7;

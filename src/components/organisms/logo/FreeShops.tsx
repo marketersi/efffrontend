@@ -36,7 +36,7 @@ const FreeShops = () => {
         </div>
 
         <div className="custom-container1-image">
-          <div className="mb-4 image-810">
+          <div className="image-810">
             <img
           className="w-100"
             src={FreeShopsData?.mainImage}

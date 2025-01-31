@@ -22,7 +22,7 @@ const StepByStep = () => {
   return (
     <>
       <section className="thematic-section projects-gray-background" id="sec4">
-        <div className="container projects-custom-container1 menu-target">
+        <div className="container menu-target">
           <div className="row">
             <div className="col-md-12">
               <h3 className="projects-krok-po-kroku no-after p-bottom-10">
@@ -41,7 +41,7 @@ const StepByStep = () => {
               </p>
             </div>
           </div>
-          <div className="container custom-container1"></div>
+          <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
               <h5 className="theme-subtitle projects-clients-theme-subtitle">
@@ -53,6 +53,7 @@ const StepByStep = () => {
               </h3>
             </div>
           </div>
+        </div>
         </div>
 
         {/* {image && (
@@ -76,7 +77,7 @@ const StepByStep = () => {
               <p className="theme-desc projects-theme-desc-p projects-push-top-50">
                 {secondaryImageTitle && secondaryImageTitle}
               </p>
-              <div className="mb-4 image-810">
+              <div className="image-810">
                 {secondaryImage && (
                   <img
                     src={secondaryImage}

@@ -62,9 +62,7 @@ const InkBook = () => {
 
         </div>
 
-        <div className="copywriter-custom-header-4 text-center">
-          {/* {qualities?.title} */}
-        </div>
+       
 
         {/* <div className="container text-center copywriter-reading-container copywriter-standard-mb-80">
           <div className="row">

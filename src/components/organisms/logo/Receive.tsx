@@ -33,7 +33,7 @@ const Receive = () => {
           </div>
         </div>
 
-        <div className="custom-container2 mid-space-container">
+        <div className="mid-space-container">
           <div className="row">
             <div className="col-md-12">
               <p className="projets-custom-theme-desc projects-co-otrzymasz-sub2 text-center projects-margin-b-60">

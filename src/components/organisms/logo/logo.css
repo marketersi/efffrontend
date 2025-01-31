@@ -16,3 +16,7 @@ button.download-catalog-button-2.projects-download-catalog-button.send-offer-but
 .image-810 img {
   width: 100%;
 }
+.col-md-7.projects-top-banner-container{
+  position: relative;
+  left: 15px;
+}

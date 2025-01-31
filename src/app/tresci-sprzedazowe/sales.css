@@ -151,10 +151,10 @@ section.sales_option_box {
 }
 
 .opinion-box-image {
-  position: absolute;
+  
   z-index: 1;
   height: auto;
-  /* width: 52%; */
+ 
   width: 57%;
 }
 
@@ -171,19 +171,19 @@ section.sales_option_box {
   margin: 55px 0px 50px 0px;
 }
 
-.opinion-box-content {
+.projects-gray-opinion-2 .opinion-box-content {
   padding: 50px 25px;
   width: 55%;
   background-color: white;
-  float: right;
-  margin: 50px 0px 0px 0px;
+  position: absolute;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
   z-index: 2;
   min-height: 440px;
   text-align: center;
-  position: relative;
+  right: 0!important;
+  margin: 0;
 }
 
 .opinion-box-text {
@@ -433,7 +433,7 @@ strong {
 }
 
 .theme-desc {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   color: #333;
   font-size: 26px;
   line-height: 33px;
@@ -441,7 +441,7 @@ strong {
   font-family: Georgia;
 }
 .theme-desc1 {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   color: #333;
   font-size: 28px;
   line-height: 50px;
@@ -533,6 +533,7 @@ img.copywriter-owocni {
   font-weight: 300;
   max-width: 900px;
   margin-inline: auto;
+  margin-bottom: 60px;
 }
 
 /* ==============================sales Orange========================== */
@@ -564,11 +565,11 @@ img.copywriter-owocni {
   margin-top: 0px;
 }
 .thematic-section {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .copywriter-cname {
   margin-top: 0px;
-  padding-bottom: 55px;
+  padding-bottom: 70px;
 }
 
 .copywriter-white-text {
@@ -659,7 +660,7 @@ img.copywriter-owocni {
 
 .copywriter-cname {
   margin-top: 0px;
-  padding-bottom: 55px;
+  padding-bottom: 70px;
 }
 
 .copywriter-black {

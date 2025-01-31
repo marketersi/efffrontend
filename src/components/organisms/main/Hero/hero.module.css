@@ -1,9 +1,10 @@
 .hero {
   background: transparent;
-  padding: 50px 0 168px;
+  padding: 100px 0 270px;
   /* position: relative; */
   overflow: hidden;
-  max-height: 750px;
+  max-height: 850px;
+  margin-bottom: 140px;
 }
 
 .hero h1 {
