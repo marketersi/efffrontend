@@ -98,7 +98,7 @@ const Video = () => {
               width="70%"
               height="auto"
               className="popupVideo"
-              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429", borderBottomWidth: "0", borderRightWidth: "5px"}}
+              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429", borderTopWidth: "15px",  borderBottomWidth: "5px", borderRightWidth: "10px"}}
               pip={false}
               controls={true}
               playsinline
