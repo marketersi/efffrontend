@@ -2986,7 +2986,19 @@ section.goodProcess {
   padding: 0;
   position: relative;
 }
+.goodProcess svg {
+  
+  overflow: visible;
+  
+  /* Fix Safari rendering bug */
+  transform: translateZ(0);
+}
 
+.goodProcess path {
+  stroke-width:2;
+  stroke: #00bfff;
+  
+}
 .goodProcess h3 {
   font-size: 58px;
   
@@ -3002,16 +3014,21 @@ section.goodProcess {
   margin: 10px 0 18px 0;
   
 }
+.number img{
+  background-color: #f4f4f4;
+}
 .goodProcess svg{
   position: absolute;
-  left: 60%;
-  margin-top: 220px;
+  left: 0%;
+  margin-top: 0px;
   z-index: -1;
+  top: 6%;
+ 
 }
 .circleBox{
   position: absolute;
-  top: 265px;
-  left: 39%;
+  margin-top: 260px;
+  left: 43%;
   transform: translate(-50%, -50%);
 }
 
@@ -3134,7 +3151,7 @@ section.goodProcess {
   margin: 150px 0 ;
 }
 .three .number{
-  margin: 150px 0;
+  margin: 250px 0 150px;
 }
 
 

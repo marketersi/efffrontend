@@ -105,6 +105,7 @@ const Video = () => {
               
             />
             <button className="close-btn" onClick={closePopup}>
+              
               X
             </button>
           </div>

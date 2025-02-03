@@ -1,10 +1,11 @@
 .bannerVideo {
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: -1;
-  top: 0;
-  overflow: hidden;
+  margin-top: -130px;
+  
 }
+
 .WidthContent{
   max-width:900px;
   margin: 0 auto;;
@@ -13,9 +14,7 @@
 .bannerContent {
   
 }
-.zespolVideo {
-  min-height: 100vh;
-}
+
 .bannerHeading{
   margin-top: 70px;
   margin-bottom: 70px;
@@ -68,9 +67,6 @@
   
   margin: 40px auto;
 }
-.imagebox{
-  width: 46%;
-}
 
 
 
@@ -95,7 +91,7 @@
 }
 
 .bannerBottomContent h2 {
-  font-size: 71px;
+  font-size: 70px;
   font-weight: 500;
   line-height: 72px;
   margin: 0 0px;
@@ -128,17 +124,14 @@
 }
 
 .overlay {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   position: absolute;
   background-color: #00000026;
   top: 0;
   z-index: -1;
 }
-.bannerBottomContent{
-  max-width: 1200px;
-  margin: auto;
-}
+
 
 /* ============personal card============= */
 .personalCard {
@@ -248,7 +241,7 @@
   font-weight: 500;
   color: black;
   background: var(--brand-blue);
-  margin: 50px auto 0;
+  margin: 70px auto 0;
   display: block;
   line-height: 30px;
   box-shadow: 0 0 0 0 black, 0em 0.2em 0 0 black;
@@ -614,10 +607,7 @@ text-align: center;
   margin: 70px 0 0px !important;
 }
 
-.banner {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-}
+
 
 /* -------------------------------------media screen -------------------------------- */
 @media only screen and (max-width: 1360px) {

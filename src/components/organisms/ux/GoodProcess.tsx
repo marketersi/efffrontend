@@ -24,7 +24,7 @@ const GoodProcess = () => {
     const pathLength = path.getTotalLength();
     const spacing = 40;
     const numberOfCircles = Math.floor(pathLength / spacing);
-    const leftOffset = 40;
+    const leftOffset = 0;
   
     let positions = [];
     for (let i = 0; i <= numberOfCircles; i++) {
@@ -42,10 +42,10 @@ const GoodProcess = () => {
         const tl = gsap.timeline({
           scrollTrigger: {
             trigger: sectionRef.current,
-            start: "top 70%",
-            end: "bottom top",
+            start: "top 50%",
+            end: "bottom 100%",
             scrub: true,
-            markers: false,
+            markers: true,
             
           },
         });
@@ -56,9 +56,9 @@ const GoodProcess = () => {
           {
             scale: 2.2,
             opacity: 1,
-            duration: 1.5,
-            stagger: 0.5, 
-            ease: "power3.in",
+            duration: 2.5,
+            stagger: 0.2, 
+            ease: "power1.in",
           }
         );
       }
@@ -75,19 +75,21 @@ const GoodProcess = () => {
     >
       {/* Hidden SVG Path */}
       <svg
-        width="100"
-        height="2800"
-        viewBox="0 0 200 2830"
+        width="60
+0"
+        height="2400"
+        viewBox="0 0 210 2430"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        style={{ visibility: "hidden", position: "absolute" }}
+        style={{visibility: "hidden"}}
+
       >
         <path
           id="mypath"
           d="
           M100 0
-          S850 900, 100 1050 
-          S-450 2500, 100 2430  
+          S850 300, 100 1000, 
+          S-700 2100, 100 2400  
         "
           stroke="black"
           fill="none"

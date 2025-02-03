@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../team.module.css";
 import { useSelector } from "react-redux";
+import { Col, Row } from "react-bootstrap";
 
 const Support = () => {
   
@@ -9,19 +10,19 @@ const Support = () => {
 
   return (
     <>
-      <section className="WidthContent">
-      <div className={style.Support}>
-        <div className={style.teamContent}>
+      <section className="container">
+      <Row className={style.Support}>
+        <Col md={7} className={style.teamContent}>
           <h4>
-          {section2?.section_two_title}
+          Każdy projekt <br/>realizujemy kompleksowo.
           </h4>
           
-        </div>
-        <div className={style.imagebox}>
+        </Col>
+        <Col md={5} className={style.imagebox}>
           <img src={section2?.section_two_image} alt="" />
 
-        </div>
-      </div>
+        </Col>
+      </Row>
       </section>
     </>
   );

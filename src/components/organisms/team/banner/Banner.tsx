@@ -16,20 +16,20 @@ const  osClass = useOsClass();
   return (
     <div className={style.banner}>
       <div className={style.zespolVideo}>
-        <div className={osClass}>
-         <ReactPlayer
-          url={herosection?.background_video}
-          playing={true}
-          loop={true}
-          muted={true}
-          width="100%"
-          height="auto"
-          playsinline-
-          className={style.bannerVideo}
-        /> 
-        </div>
+      <div className={`${osClass} banner-videoextra`}>
+  <ReactPlayer
+    url={herosection?.background_video}
+    playing={true}
+    loop={true}
+    muted={true}
+    width="100%"
+    height="auto"
+    playsinline
+    className={style.bannerVideo}
+  />
+</div>
       </div>
-      <div className={style.overlay}></div>
+      
 
       <Container className='WidthContent'>
         <div className={style.bannerHeading}>
@@ -39,15 +39,15 @@ const  osClass = useOsClass();
           <img src={herosection?.left_image} alt="" />
         </div> */}
         <div className={`${style.bannerBottomContent} display-block`}>
-          <Row>
-            <Col xxl={6} lg={7} className="order-lg-1 order-2">
+          <Row className='align-items-center'>
+            <Col xxl={7} lg={7} className="order-lg-1 order-2">
               <div className={style.BannerBotHeading}>
                 <h4>{herosection?.sub_title}</h4>
                 <h2>{herosection?.title_2}</h2>
               </div>
             </Col>
             {/* to be deleted */}
-            <Col xxl={6} lg={5} className="order-lg-2 order-1">
+            <Col xxl={5} lg={5} className="order-lg-2 order-1">
               <div className={style.BannerBotImg}>
                 {/* <img src={herosection?.right_image} alt="" /> */}
                 <img src={herosection?.left_image} alt="" />
