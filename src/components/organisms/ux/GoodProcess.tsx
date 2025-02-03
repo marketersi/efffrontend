@@ -45,7 +45,7 @@ const GoodProcess = () => {
             start: "top 50%",
             end: "bottom 100%",
             scrub: true,
-            markers: true,
+            markers: false,
             
           },
         });
@@ -56,8 +56,8 @@ const GoodProcess = () => {
           {
             scale: 2.2,
             opacity: 1,
-            duration: 2.5,
-            stagger: 0.2, 
+            duration: 1.2,
+            stagger: 0.1, 
             ease: "power1.in",
           }
         );
