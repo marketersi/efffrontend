@@ -1,0 +1,105 @@
+.nazwa_footer_bottom {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 8px;
+}
+.nazwa_footer_bottom_left {
+  display: flex;
+  gap: 20px;
+}
+.nazwa_footer_bottom_left a {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #aeacae;
+  cursor: pointer;
+  display: inline;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: left;
+}
+.nazwa_footer_bottom_btn {
+  background-color: #aa2e2d;
+  border: 0.666667px solid #aa2e2d;
+  box-shadow: #c1c1c1 5px 5px 0px -1px;
+  cursor: pointer;
+  padding: 4px 15px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+}
+.nazwa_footer_bottom .activeLink {
+  color: black;
+  /* border-bottom: 2px solid black; */
+  padding-bottom: 10px;
+}
+.nazwa_footer_bottom .activeLink button {
+  color: black;
+}
+.nazwa_footer_bottom_left button {
+  border: none;
+  background: transparent;
+  padding: 0px 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #474747;
+}
+.nazwa_footer_bottom_right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nazwa_footer_bottom_right button {
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 4px 4px 0 gray;
+}
+button.nazwa_footer_bottom_PDF {
+  background: white;
+}
+button.nazwa_footer_bottom_Offer {
+  /* background: #ddbd54; */
+  background-color: var(--brand-blue);
+}
+
+/* --------------------modal--------------------- */
+.ReactModal__Content.ReactModal__Content--after-open {
+  background-color: transparent !important;
+  padding: 0 !important;
+  inset: 0 !important;
+  border: none !important;
+  z-index: 11111111 !important;
+  display: flex;
+  align-items: center;
+}
+.ReactModalPortal {
+  position: relative;
+  z-index: 1111;
+}
+.ReactModalPortal .modalCloseBtn {
+  position: absolute;
+  right: 50px;
+  top: -10px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 26px;
+}
+.logo-form-container {
+  width: 750px;
+  margin: 0 auto;
+  /* background: gray; */
+  position: relative;
+}

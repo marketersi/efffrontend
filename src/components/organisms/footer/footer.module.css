@@ -1,0 +1,122 @@
+.footer {
+  background: #141414;
+  padding: 70px 0 50px 40px;
+}
+
+.footerRow {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.footerRightMenu h3 {
+  font-size: 18px;
+  color: white;
+  margin: 0 0 20px;
+}
+
+.footerRightMenu a {
+  display: block;
+  text-decoration: none;
+  color: lightgray;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 15px;
+}
+
+.footerRightMenu a:hover {
+  translate: 5px;
+  transition-duration: 0.2s;
+  color: var(--brand-blue);
+}
+
+.footerLogo img {
+  margin: 0 0 0px;
+  width: 96%;
+}
+
+.footerBrandLogo {
+  width: 90%;
+}
+
+.footerBrandLogo img {
+  width: 100%;
+  height: auto;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0 0;
+}
+
+.copyrightText p,
+.copyrightMenu p {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.copyrightMenu p a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+.copyrightMenu p a:hover {
+  text-decoration: none;
+  color: #00bfff;
+}
+
+/* -------------------------------media screen---------------------- */
+@media screen and (max-width: 1024px) {
+  .footerRow {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .footerLogo img {
+    width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .footerBrandLogo {
+    margin: 0 0 60px;
+  }
+
+  .footerRightMenu {
+    margin: 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footerRightMenu {
+    margin: 0 0 40px;
+  }
+
+  .copyright {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footerCennik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .CennikBrn {
+    border: 1px solid #00bfff !important;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #00bfff !important;
+  }
+  .mobileRightMenu {
+    text-align: right;
+  }
+  .footer {
+    background: #141414;
+    padding: 40px 20px 40px 20px;
+  }
+  .footerBrandLogo {
+    width: 100%;
+  }
+}

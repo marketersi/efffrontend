@@ -1,0 +1,147 @@
+.faqContainer {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+.accordion-item {
+  /* border-bottom: 2px solid #b9b9b9;git */
+  
+}
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.accordion-content {
+  padding: 24px;
+}
+.accordion-content h3{
+font-weight: 600;
+color: #000;
+margin-bottom: 15px;
+}
+.accordion-content p{
+font-size: 20px;
+margin-bottom: 20px;
+font-weight: 400;
+line-height: 34px;
+}
+.accordion-content a{
+  color: #00bfff;
+  font-weight: 500;
+}
+.accordion-content p:last-child{
+ 
+  margin-bottom: 20px;
+  
+ 
+  }
+
+.faqContainer .accordion-item {
+  position: relative;
+}
+
+.faqContainer .accordion-item:hover:before {
+  width: 100%;
+}
+
+
+
+
+.faqContainer .accordion-item:nth-child(1):before {
+  background-color: #00c0fe;
+}
+.faqContainer .accordion-item:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00c0fe;
+  pointer-events: none;
+  z-index: -1;
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.faqContainer .accordion-item::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00c0fe;
+  pointer-events: none;
+  z-index: -1;
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+/* unwanted css */
+
+.faqContainer .send-offer-button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 70px;
+    text-decoration: none;
+    border-radius:6px ;
+    border: 0px solid #00bfff;
+    padding: 8px 12px;
+    display: inline-flex;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: #00bfff;
+
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+    box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none;
+}
+.faqContainer .send-offer-button:hover{
+  box-shadow: none;
+  outline: none;
+}
+
+h2.textAnimation {
+  font-size: 84px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 50px;
+  line-height: 84px;
+  font-family: 'Poppins';
+}
+.takImages{
+  width: 30%;
+  object-fit: cover;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.accordion-item {
+  max-width: 900px;
+  margin-inline: auto;
+}
+.faqContainer p .mailidys{
+  margin-top: 0;
+  margin-bottom: 30px;
+  color:#000;
+  border: none;
+  padding: 0;
+  text-align: center-;
+}

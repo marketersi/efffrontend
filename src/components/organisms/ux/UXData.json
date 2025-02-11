@@ -1,0 +1,97 @@
+{
+    "UxBannerData": {
+        "title1": "Makieta",
+        "titleStyle": "UX",
+        "title2": "wykonawcza",
+        "description1": "To klikalny prototyp projektu strony.",
+        "description2": "Przemyślany, by wygrać konkurencję.",
+        "description3": [
+            "Dla tych, co",
+            "myślą",
+            "przyszłościowo"
+        ],
+        "description4": "na temat obecności firmy w internecie.",
+        "video": "https://copywriting.pl/files/resources/Projekt-Makiety-UX.mp4",
+    },
+
+
+
+    "CounterData": {
+        "Counter": [
+            {
+                "image": "https://example.com/image1.png",
+                "description": "Description for image 1."
+            },
+            {
+                "image": "https://example.com/image2.png",
+                "description": "Description for image 2."
+            },
+            {
+                "image": "https://example.com/image3.png",
+                "description": "Description for image 3."
+            },
+            {
+                "image": "https://example.com/image4.png",
+                "description": "Description for image 4."
+            }
+        ]
+    },
+
+
+    "CompetitionsData": {
+        "title": "Konkurencja w wersji ",
+        "titleStyle": "hiper",
+        "image": "https://propozycje.owocni.pl/ux/Podkreslenie-konkurencja.0db36d83.png",
+        "description1": "Oto internet. Tu walutą jest ludzka uwaga. Walczy o nią",
+        "description2": "Oto internet. Tu walutą jest ludzka uwaga. Walczy o nią",
+        "description3": "Oto internet. Tu walutą jest ludzka uwaga. Walczy o nią",
+        
+    },
+
+        "IgnoreSitesData": {
+          "image": "https://propozycje.owocni.pl/ux/Maciej-Projektant-UX-Designer.5591062d.webp",
+          "title": "Ludzie ignorują strony, które ignorują ludzi...",
+          "description1": "descriptions",
+          "description2": "descriptions"
+        },
+
+        "ComplexData": {
+            "title": "title",
+            "description1": "description",
+            "DStyle1": ["description", "description"],
+            "description2": "description",
+            "DStyle2": ["description", "description", "description"],
+            "description3": "description",
+            "DStyle3": ["description", "description"]
+          },
+
+          "SystemicallyData": {
+            "hand1Img": "images",
+            "title": "title",
+            "description": "description",
+            "hand2Img": "images"
+          },
+
+          "UXVideoData": {
+            "title": "UX Video",
+            "description1": "UX Video",
+            "description2": ["firmy", "firmy", "firmy", "dfghjk"],
+            "image": "images/",
+            "tabVideo1": "video/",
+            "tabVideo2": "video/",
+            "tabVideo3": "video/",
+            "tabTitle1": "title1",
+            "tabTitle2": "title2",
+            "tabTitle3": "title3",
+            "imgSprings": "http",
+            "dotImg1": "http://",
+            "dotImg2": "http://",
+            "dotImg3": "http://",
+            "dotImg4": "http://",
+            "description4": "http://",
+            "description5": "http://",
+            "description6": "http://"
+          }
+        
+      
+}

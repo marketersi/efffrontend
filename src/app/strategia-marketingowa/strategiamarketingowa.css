@@ -1,0 +1,2553 @@
+/* 1. MainHeading */
+.MainHeading {
+  margin: 30px 60px 70px;
+}
+
+.MainHeading_Container {
+  display: flex;
+  justify-content: center;
+  padding-inline: 50px;
+  align-items: center;
+}
+.indent-20 {
+  text-indent: 20px;
+  display: block;
+}
+.MainHeading_Title {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 110px;
+  text-align: left;
+}
+.MainHeading_Image img {
+  width: 100%;
+  height: auto;
+}
+.mainHeadingContent {
+  padding: 40px 0;
+}
+.MainHeading_Title span {
+  background-image: linear-gradient(90deg, #00bfff, #00bfff1f);
+  background-repeat: no-repeat;
+  background-size: 100% 52px;
+  background-position: 0px 75px;
+}
+
+.MainHeading_SecondTitle {
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.MainHeading_Content {
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+.MainHeading button {
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-top: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: none;
+}
+.MainHeading button:hover {
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 799px) {
+  .MainHeading_Container {
+    flex-direction: column-reverse;
+  }
+}
+
+/* 2. MainContentOne */
+.MainContentOne {
+  margin-bottom: 30px;
+}
+
+.MainContentOne_Container {
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+
+  text-align: center;
+}
+.MainContentOne .extra-text {
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 47px;
+  margin-bottom: 0;
+}
+/* 3. MainNumber */
+.MainContentTwo_Container {
+}
+
+.MainNumber_Container {
+  display: flex;
+  gap: 40px;
+}
+
+.MainNumber_One {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.MainNumber_One_Content {
+  font-size: 18px;
+  line-height: 24.75px;
+  text-align: center;
+  color: #515151;
+}
+
+.MainNumber_Two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.MainNumber_Two_Content {
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  font-weight: 400;
+}
+.MainNumber_Two img {
+  width: 170% !important;
+  margin-left: -120px;
+}
+.main-content-row {
+  justify-content: center;
+  padding: 50px 50px 0;
+}
+.imagboxmainhead img {
+  height: auto;
+  width: 100%;
+}
+
+/* 4. MainContentTwo */
+/* .MainContentTwo {
+  margin-bottom: 80px;
+  background-image: url(https://images.prismic.io/marketersi/Z4pKlZbqstJ99kIC_Zo0UOR5LeNNTw7vb_Untitleddesign-1-.png?auto=format,compress);
+  background-position: 136% 83%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width:1500px) and (max-width:1750px){
+  .MainContentTwo{
+    background-position: 208% 88%;
+  }
+}
+@media screen and (min-width:1751px) and (max-width:1950px){
+  .MainContentTwo{
+    background-position: 208% 83%;
+  }
+} */
+.MainNumber_Two_Footer p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 0 0 30px;
+}
+.MainContentTwo_Container p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 0 0 20px;
+}
+
+.MainNumber_image_box p {
+  display: flex;
+  gap: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  font-size: 12px;
+  color: #515151;
+  text-align: center;
+  justify-content: center;
+}
+
+/* 5. ResultTable */
+.ResultTable {
+  margin-bottom: 100px;
+}
+
+.ResultTable_Title {
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  margin-bottom: 90px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.ResultTable_Table {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.52) 0px 0px 28px 0px;
+
+  padding: 40px 40px 20px;
+}
+
+.ResultTable_Table_Row {
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px 20px;
+}
+
+.ResultTable_Table_Row:nth-child(1) {
+  border-bottom: 1.5px solid black;
+  margin: 0 0 30px;
+}
+
+.ResultTable_Table_Row:nth-child(2) {
+  border-bottom: 1.5px solid black;
+  margin: 0 0 30px;
+}
+
+.ResultTable_Table_Row_Content {
+  font-size: 24px;
+  line-height: 27px;
+  max-width: 24ch;
+}
+
+.ResultTable_Table_Row_Button {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 10px 30px;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ResultTable_Table_Row_Button:hover {
+  background-color: #282828;
+  color: #e3e3e3;
+}
+
+/* 6. Strategy */
+
+.Strategy {
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1200px;
+}
+
+.Strategy_Title {
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  color: #333333;
+  margin: auto;
+  margin-bottom: 120px;
+  max-width: 900px;
+}
+
+.Strategy_Cards {
+  display: flex;
+  gap: 3em;
+}
+
+.Strategy_Card {
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Strategy_Card_Title {
+  color: #333;
+  font-size: 33px;
+  line-height: 37px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.Strategy_Card_Title_Number {
+  font-weight: 900;
+  color: rgb(208 208 208);
+  font-size: 150px;
+}
+img.strategyImg {
+  width: 80% !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.Strategy_Card_Content_One {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Strategy_Card_Content_Two {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* 7. Testimonial */
+.Testimonial {
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 1200px;
+}
+
+.Testimonial_Card {
+  display: flex;
+}
+
+.Testimonial_Card_Content {
+  background-color: white;
+  padding: 40px;
+  margin-left: -150px;
+  margin-block: 110px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.38) 0px 0px 50px 0px;
+  height: fit-content;
+}
+
+.Testimonial_Card_Content_Title {
+  color: #010101;
+  font-family: Georgia;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Testimonial_Card_Content_Button {
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  border-radius: 5px;
+  background-color: var(--brand-blue);
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  padding: 8px 20px;
+  border: none;
+  margin: 30px auto 15px;
+  display: block;
+}
+.Testimonial_Card_Content_Button:hover{
+  box-shadow: none;
+}
+/* 8. ResultMax */
+.ResultMax {
+  margin-bottom: 70px;
+}
+
+.ResultMax_Title {
+  color: #333333;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.ResultMax_Content_One {
+  color: #333333;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 47px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.ResultMax_Content_Two {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* 9. Analysis */
+.WidthContent2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.Analysis {
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.Analysis_Card {
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.Analysis_Card_Content_Odd {
+  text-align: right;
+}
+.Analysis_Card img {
+  width: 100%;
+  height: auto;
+}
+
+.Analysis_Card_Content_Title {
+  color: #333;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.Analysis_Card_Content_Text {
+  font-size: 26px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-family: Georgia;
+}
+
+.Analysis_Card_Content_Table {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.Analysis_Card_Content_Table_Odd {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  justify-content: flex-end;
+}
+
+.Analysis_Card_Content_Table_Column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.Analysis_Card_Content_Button {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 10px 20px;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  background-color: transparent;
+  border: 2px solid black;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.Analysis_Card_Content_Button_Clicked {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 10px 20px;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  color: #333;
+  background-color: #00bfff;
+  border: 2px solid #00bfff;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.Analysis_Card_Content_Button:hover {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+/* Analysis Dropdown */
+.Analysis1_Dropdown_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
+}
+
+.Analysis1_Dropdown_Image {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.Analysis1_Dropdown_Text1 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis1_Dropdown_Text2 {
+  color: #333333;
+  display: inline;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 50px;
+
+  text-align: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.Analysis1_Dropdown_Text3 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.Analysis1_Grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+.AnalysisCardDes {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.AnalysisCardDes:last-child {
+  margin: 0;
+}
+
+.Analysis1_GridItem1 {
+  flex: 0 0 calc(42% - 10px);
+  background-color: #00bfff;
+  padding: 30px;
+  color: white;
+}
+
+.Analysis1_GridItem2 {
+  flex: 0 0 calc(42% - 10px);
+  background-color: #cfcfd5;
+  padding: 30px;
+  color: white;
+}
+
+.Analysis1_GridItem3 {
+  flex: 0 0 calc(42% - 10px);
+  background-color: #aaaaba;
+  padding: 30px;
+  color: white;
+}
+
+.Analysis1_GridItem4 {
+  flex: 0 0 calc(42% - 10px);
+  background-color: #3e5575;
+  padding: 30px;
+  color: white;
+}
+
+.Analysis2_Dropdown_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
+}
+
+.Analysis2_Dropdown_Text1 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis2_Dropdown_Text2 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis2_Dropdown_Text3 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis2_Dropdown_Text4 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis2_Dropdown_Image1 {
+  overflow: hidden;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.Analysis2_Dropdown_Image2 {
+  overflow: hidden;
+  margin-bottom: 30px;
+  align-self: flex-end;
+}
+
+.Analysis3_Dropdown_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
+}
+
+.Analysis3_Dropdown_Text1 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis3_Dropdown_Text2 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis3_Dropdown_Text3 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+
+  margin-bottom: 30px;
+}
+
+.Analysis3_Dropdown_Image1 {
+  overflow: hidden;
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.Analysis3_Grid {
+  display: grid;
+  gap: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Analysis3_GridItem1 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Analysis3_GridItem2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Analysis3_GridItem3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Analysis3_GridItemNumber {
+  color: #b6b6b6;
+  font-size: 127px;
+  font-weight: 900;
+  line-height: 127px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Analysis3_GridItemTitle {
+  color: #333333;
+  font-size: 32px;
+  line-height: 61px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Analysis3_GridItemContent {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  max-width: 400px;
+}
+
+.Analysis4_Dropdown_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  margin: 20px 0 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
+  gap: 50px;
+}
+
+.Analysis4_Panel {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40% 60%;
+  gap: 50px;
+}
+
+.Analysis4_PanelImage {
+  overflow: hidden;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.Analysis4_PanelTextTitle {
+  color: #333333;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 60.8px;
+  max-width: 1088px;
+  margin-bottom: 0px;
+}
+
+.Analysis4_PanelTextContent {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  max-width: 1088px;
+  margin-bottom: 20px;
+}
+.card4Img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  display: block;
+}
+
+/* 10. WhatRecieve */
+.WhatRecieve {
+  margin-bottom: 50px;
+}
+
+.WhatRecieve_Title_One {
+  color: #333333;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.WhatRecieve_Content_One {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 60px;
+  /* text-align: center; */
+}
+
+.WhatRecieve_Title_Two {
+  color: #333333;
+  font-size: 32px;
+  line-height: 61px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.WhatRecieve_Content_Two {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 53.2px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.WhatRecieve_Title_Three {
+  color: #333333;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.WhatRecieve_Content_Three_One {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+
+.WhatRecieve_Content_Three_Tow {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+
+.Analysis_Card_Content_Button_Container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.WhatRecieve_Table {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.WhatRecieve_Table_Column {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #515151;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.WhatRecieve_Dropdown {
+  margin-top: -20px;
+}
+
+.WhatRecieve_Dropdown_TitleOne {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+
+  margin-bottom: 50px;
+}
+
+.WhatRecieve_Dropdown_TitleTwo {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+
+  margin-bottom: 50px;
+}
+
+.WhatRecieve_Dropdown_ContentOne {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.WhatRecieve_Dropdown_ContentTwo {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+/* 11. ImageAdvantage */
+.ImageAdvantage {
+  margin-bottom: 100px;
+}
+
+.ImageAdvantage_Title {
+  color: #333333;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ImageAdvantage_Content {
+  color: #333333;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 60.8px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ImageAdvantage_Table {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ImageAdvantage_Table_Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.ImageAdvantage_Button_Container {
+  text-align: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.ImageAdvantage_Button {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 25px;
+  padding: 8px 20px;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  background-color: transparent;
+  border: 2px solid black;
+  width: fit-content;
+  font-size: 17px;
+}
+.Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column {
+  align-items: end;
+  text-align: right;
+}
+
+.ImageAdvantage_Button_Clicked {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 8px 20px;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  color: #fff;
+  background-color: #00bfff;
+  border: 2px solid #00bfff;
+  width: fit-content;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.ImageAdvantage_Button:hover {
+  background-color: #00bfff;
+  color: #fff;
+  width: fit-content;
+  border-color: #00bfff;
+}
+
+.ImageAdvantage_Dropdown {
+  margin: 30px 0;
+  padding: 25px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.ImageAdvantage_Dropdown_ContentOne {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.ImageAdvantage_Dropdown_ContentTwo {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+/* 12. InviteCustomer */
+.InviteCustomer {
+  margin-bottom: 70px;
+}
+
+.InviteCustomer_Title {
+  color: #333333;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 77px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.InviteCustomer_Content {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* 13. QuoteOne */
+.QuoteOne {
+  margin-bottom: 100px;
+}
+
+.QuoteOne_Image {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.QuoteOne_Text {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: center;
+}
+
+/* 14. Branding */
+.Branding {
+  display: flex;
+  margin-bottom: 130px;
+}
+
+.Branding_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60vw;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.Branding_Content_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Branding_Title {
+  color: #c6c6c6;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 55.8px;
+  margin-bottom: 50px;
+}
+
+.Branding_Text {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  max-width: 90%;
+}
+
+/* 15. QuoteTwo */
+.QuoteTwo {
+  margin-bottom: 80px;
+}
+
+.QuoteTwo_Title {
+  color: #333333;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.QuoteTwo_TextOne {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+.QuoteTwo_TextTwo {
+  color: #333333;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.QuoteTwo_Image {
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.clientReviewHeading h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 300;
+  margin: 80px 0 0;
+  line-height: 47px;
+}
+/* 16. OurClients */
+
+/* 17. Price */
+.Price {
+  margin-bottom: 100px;
+  margin-top: 530px;
+}
+
+.Price_Title {
+  color: #333333;
+  font-size: 74px;
+  font-weight: 900;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.Price_Container {
+  padding-inline: 0px;
+}
+
+.Price_Card_Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.Price_Card {
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 33.33%;
+}
+
+.Price_Card_Number {
+  color: #b6b6b6;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 192px;
+  text-align: center;
+  margin-bottom: -45px;
+}
+
+.Price_Card_Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  flex: 1;
+}
+
+.Price_Card_Main_Title {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Price_Card_Main_TextOne {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Price_Card_Main_ContentOne {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Price_Card_Main_TextTwo {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Price_Card_Main_ContentTwo {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Price_Card_Main_Footer {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Price_Card_Main_Button:hover{
+  box-shadow: none;
+}
+
+.Price_Card_Main_Button {
+  background-color: var(--brand-blue);
+  border: 2px solid var(--brand-blue);
+  box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px; */
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 0.8;
+  padding: 8px 20px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-size: 16px;
+}
+
+/* 18. StrategyAction */
+.StrategyAction {
+  margin-bottom: 150px;
+  padding: 0 50px;
+}
+
+.StrategyAction_Container {
+}
+
+.StrategyAction_Content_Title {
+  color: #333333;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.StrategyAction_Content_TextOne {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.StrategyAction_Content_TextTwo {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+/* 19. AnswerAll */
+.AnswerAll_Title {
+  color: #333333;
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 84px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* 20. Accordion */
+.Accordion {
+  margin-bottom: 200px;
+}
+
+[hidden] {
+  display: none;
+}
+
+.accordion {
+  padding: 20px;
+}
+
+.accordion__heading {
+  cursor: pointer;
+  font-size: 22.5px;
+  line-height: 33.75px;
+}
+
+.accordion__panel {
+  padding-inline: 30px;
+  animation: fadein 0.35s ease-in;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.accordion__item + .accordion__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  padding-inline: 30px;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+
+.accordion__button:hover {
+  background-color: #ddd;
+}
+
+.accordion__button:before {
+  display: inline-block;
+  content: "+";
+  height: 10px;
+  width: 10px;
+  margin-right: 12px;
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  content: "−";
+}
+
+/* * */
+.content {
+  --gap: clamp(1rem, 6vw, 3rem);
+  --content: min(80ch, 100% - var(--gap) * 2);
+  --popout: minmax(0, 2rem);
+  --feature: minmax(0, 5rem);
+  --full: minmax(var(--gap), 1fr);
+  display: grid;
+  grid-template-columns:
+    [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(
+      --popout
+    )
+    [content-start] var(--content) [content-end] var(--popout) [popout-end] var(
+      --feature
+    )
+    [feature-end] var(--full) [full-end];
+}
+
+.content > * {
+  grid-column: content;
+}
+
+.popout {
+  grid-column: popout;
+}
+
+.feature {
+  grid-column: feature;
+}
+
+.full {
+  grid-column: full;
+}
+
+/* Modal */
+.Modal {
+  position: absolute;
+  width: 650px;
+  background-color: #161616;
+  border: none;
+  outline: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #161616;
+}
+
+.ModalTitle {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1.15px;
+  line-height: 45px;
+  text-align: center;
+  padding-inline: 30px;
+  margin-top: 50px;
+}
+
+.ModalContent {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px 0;
+  padding-inline: 50px;
+}
+.ModalCard p {
+  text-align: center;
+}
+
+.component-two_section textarea {
+  border-radius: 20px;
+  border-color: #cecece;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.ModalCard {
+  max-width: 1280px;
+  min-height: auto;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 15px 0px, #ffffff 0px 0px 0px 0px,
+    #ffffff 2px 2px 2px 0px inset, #c7c7c7 -2px -2px 2px 0px inset;
+  padding: 40px 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ModalCard > div {
+  width: 100%;
+}
+.ModalCard .componentThree_input-container {
+  padding: 20px 0 0;
+}
+
+.formTwo {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.componentThree_section h2 {
+  text-align: center;
+}
+
+.ModalDropdownTitleOne {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.contact {
+  right: -290px;
+}
+.contact h5 {
+  color: white;
+  text-align: center;
+}
+.contact p {
+  color: white;
+}
+.contact a {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.ModalDropdownTitleTwo {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.ModalDropdown {
+  margin-bottom: 10px;
+}
+.ModalCard .componentThree_input-container input,
+.ModalCard .componentThree_input-container .cennikBtn,
+.ModalCard .select-input {
+  width: 100%;
+}
+
+.ModalSubmitButton {
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 0.3em;
+  padding: 6px 20px;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 0.05s cubic-bezier(0.5, 1, 0.7, 0.7),
+    box-shadow 0.05s cubic-bezier(0.5, 1, 0.7, 0.7),
+    border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7);
+  border: 2px solid #981a04;
+  background-color: #d21e00;
+  display: inline-block;
+  border-radius: 20em;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateY(0.15em);
+  box-shadow: 0 0 0 0 #981a04, 0 0.2em 0 0 #981a04;
+  transform: matrix(1, 0, 0, 1, 0, 3);
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.05s, 0.05s, 0.05s;
+  transition-property: transform, box-shadow, border;
+  transition-timing-function: cubic-bezier(0.5, 1, 0.7, 0.7),
+    cubic-bezier(0.5, 1, 0.7, 0.7), cubic-bezier(0.5, 1, 0.7, 0.7);
+}
+
+.ModalSubmitButton:hover {
+  box-shadow: none;
+}
+
+.ModalCloseButton {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: x-large;
+}
+.card-heading {
+  text-align: center;
+}
+
+/* *** */
+
+/* .OurClients_Slide_Last {
+  padding-inline: 180px;
+  padding-block: 110px;
+} */
+
+.OurClients_Slide_Container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.OurClients_Slide_Media {
+}
+
+.OurClients_Slide_Title {
+  font-size: 33.28px;
+  font-weight: 600;
+  line-height: 39.936px;
+  padding-block: 30px;
+}
+
+.OurClients_Slide_Media_Rating {
+  display: flex;
+  gap: 10px;
+}
+.OurClients {
+  position: relative;
+  margin-bottom: 80px;
+}
+.OurClients .OurClients_Marquee {
+  position: absolute;
+  bottom: 0;
+}
+
+.OurClients_Slide_Star_Reviewer {
+  font-size: 10.624px;
+  font-weight: 600;
+  line-height: 10.624px;
+}
+
+.OurClients_Slide_Star_Company {
+  font-size: 10.624px;
+  font-weight: 300;
+  line-height: 10.624px;
+}
+
+.OurClients_Slide_Button {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 25.6px;
+  font-weight: 600;
+  line-height: 34.432px;
+  text-align: center;
+}
+
+.OurClients_Slide_ButtonNext {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 25.6px;
+  font-weight: 600;
+  line-height: 34.432px;
+  text-align: center;
+  justify-content: end;
+  padding-bottom: 40px;
+  padding-inline: 50px;
+}
+
+.OurClients_Slide_Button_Text {
+  cursor: pointer;
+  font-size: 25.6px;
+  font-weight: 600;
+  line-height: 34.432px;
+  text-align: center;
+}
+
+.ArrowButton {
+  display: flex;
+  height: 2.5em;
+  width: 2.5em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.52em;
+  border-radius: 5.21em;
+  background-color: var(--brand-blue);
+  padding: 0.52em;
+  font-weight: bold;
+  box-shadow: 0px 0.15em black;
+  transition: transform 0.05s cubic-bezier(0.5, 1, 0.7, 0.7),
+    box-shadow 0.05s cubic-bezier(0.5, 1, 0.7, 0.7),
+    border 0.05s cubic-bezier(0.5, 1, 0.7, 0.7);
+  border: 0.1em solid #000000;
+}
+.AnswerAll_Image img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ArrowButton:hover {
+  /* update */
+  /* transform: translateY(0.3em); */
+  box-shadow: none;
+}
+
+.ArrowButton_Arrow {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.YellowMarkSlide {
+  background-image: linear-gradient(90deg, #ffd042, #ffdc74);
+  border-radius: 8.67942px;
+  display: inline-block;
+  font-size: 33.28px;
+  font-weight: 600;
+  line-height: 29.952px;
+}
+
+/* Carousel */
+.embla {
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+  --slide-height: 19rem;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+  position: relative;
+}
+
+.embla__slide__img {
+  display: block;
+  height: var(--slide-height);
+  width: 100%;
+  object-fit: cover;
+}
+
+.embla__slide__number {
+  width: 4.6rem;
+  height: 4.6rem;
+  z-index: 1;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  border-radius: 50%;
+  background-color: rgba(var(--background-site-rgb-value), 0.85);
+  line-height: 4.6rem;
+  font-weight: 900;
+  text-align: center;
+  pointer-events: none;
+}
+
+.embla__slide__number > span {
+  color: var(--brand-primary);
+  background-image: linear-gradient(
+    45deg,
+    var(--brand-primary),
+    var(--brand-secondary)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.WhatRecieveImage1 img {
+  width: 100%;
+  object-fit: contain;
+}
+.StrategyActionImage img {
+  width: 100%;
+  height: auto;
+}
+/* -----------------------------------------media screen ------------------------------------------------- */
+@media only screen and (max-width: 1360px) {
+  .MainHeading_Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainHeadingContent {
+    order: 2;
+  }
+
+  .MainHeading_Image img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .MainHeading_Title {
+    text-align: center;
+  }
+
+  .MainHeading_SecondTitle {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .MainHeading_Content {
+    text-align: center;
+    margin: 50px auto 20px;
+  }
+
+  .Testimonial_Card {
+    display: block;
+  }
+
+  .Testimonial_Card.feature img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Testimonial_Card_Content {
+    margin-left: 0;
+    margin-block: 0px;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+
+  .Analysis_Card {
+    flex-direction: column;
+  }
+
+  .Analysis_Card .Analysis_Card_img_order {
+    order: 1;
+  }
+
+  .Analysis_Card .Analysis_Card_img_order img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .Analysis_Card .Analysis_Card_Content {
+    order: 2;
+  }
+
+  .Analysis_Card {
+    padding: 30px 160px 50px;
+  }
+
+  .ResultMax {
+    margin-bottom: 40px;
+  }
+
+  .Analysis1_Dropdown_Image img {
+    width: 90%;
+  }
+
+  .analysis_card_img2 img {
+    margin: 50px 0;
+  }
+
+  .Analysis_Card_Content_Title {
+    text-align: left;
+  }
+
+  .Analysis_Card_Content_Text {
+    text-align: left;
+  }
+
+  .Analysis_Card_Content_Table_Odd {
+    justify-content: flex-start;
+  }
+
+  .StrategyAction_Container {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Analysis_Card {
+    padding: 30px 0px 50px;
+  }
+
+  .Analysis {
+    padding: 0 50px;
+  }
+
+  .Analysis3_Dropdown_Image img {
+    width: 100%;
+  }
+
+  .WhatRecieveImage1 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .feature img {
+    width: 60% !important;
+  }
+
+  .QuoteOne_Image img {
+    width: 100%;
+  }
+
+  .Branding_Container {
+    display: block;
+  }
+
+  .MainHeading_Image {
+    margin-left: 0px;
+  }
+
+  .MainHeading_SecondTitle {
+    max-width: 100%;
+  }
+
+  .Strategy_Cards {
+    gap: 5em;
+    flex-direction: column;
+  }
+
+  .Strategy_Card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .Analysis3_Grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Analysis4_Panel {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .QuoteOne_Image {
+    margin-bottom: 50px;
+  }
+
+  .Branding {
+    margin-bottom: 70px;
+  }
+
+  .OurClients {
+    margin-bottom: 70px;
+  }
+
+  .cartAnimation {
+    margin: -390px 0 0 -200px;
+  }
+
+  .Price_Card_Container {
+    flex-direction: column;
+  }
+
+  .Price_Card {
+    margin: 0 auto;
+  }
+
+  .faqContainer {
+    padding: 70px 30px;
+  }
+  .OurClients {
+    margin-bottom: 70px;
+  }
+  .StrategyAction_Container {
+    grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .MainHeading_Image img {
+    width: 100%;
+    height: auto;
+  }
+  .MainHeading button {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px auto 10px;
+  }
+  .MainHeading {
+    margin: 0px 0px 30px;
+  }
+  .MainHeading_Title {
+    margin-top: 30px;
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .MainHeading_Content {
+    margin: 0px auto 0px;
+  }
+  .during-page-offer {
+    display: flex;
+    justify-content: center;
+  }
+  .MainHeading_Title span {
+    background-size: 100% 0.15em;
+    background-position: 0 1lh;
+    background-repeat: no-repeat;
+  }
+
+  .MainHeading_SecondTitle {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .MainHeading_Content {
+    font-size: 22px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .MainContentOne_Container {
+    font-size: 44px;
+    line-height: 48px;
+  }
+  .MainContentOne .extra-text {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 25px;
+    line-height: 36px;
+  }
+  .MainNumber_Two_Content {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0;
+  }
+  .WidthContent {
+    margin: 0 10px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .MainNumber_Container {
+    flex-direction: column;
+  }
+  .MainContentTwo_Container {
+    margin-top: 30px;
+  }
+
+  .MainContentTwo_Container p {
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  .ResultTable_Title {
+    font-size: 44px;
+    margin-bottom: 30px;
+    line-height: 48px;
+  }
+
+  .MainContentTwo {
+    margin-bottom: 0px;
+    padding-bottom: 400px;
+  }
+  .MainContentTwo {
+    background-position: 82% 94%;
+    background-size: 800px;
+  }
+  .ResultTable_Table_Row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Strategy_Title {
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+  }
+  .Strategy_Card_Content_One {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  .Strategy_Card_Content_Two {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+  }
+  .ResultTable_Table_Row_Content {
+    text-align: center;
+  }
+  .ResultTable_Table_Row_Button {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 8px 20px;
+  }
+  .ResultTable_Table {
+    padding: 30px 20px;
+  }
+
+  .feature img {
+    height: auto;
+    width: 100% !important;
+  }
+
+  .Testimonial_Card_Content {
+    padding: 20px;
+  }
+
+  .Testimonial_Card_Content_Title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .Testimonial_Card_Content_Button {
+    font-size: 20px;
+  }
+
+  .ResultMax_Title {
+    font-size: 44px;
+    word-wrap: break-word;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+
+  .ResultMax_Content_One {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .ResultMax_Content_Two {
+    font-size: 22px;
+    line-height: 40.2px;
+    text-align: center;
+  }
+
+  .Analysis4_Panel {
+    display: block;
+  }
+
+  .Analysis_Card_img_order img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Analysis_Card_Content_Title {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .Analysis_Card_Content_Text {
+    font-size: 20px;
+    line-height: 33px;
+    text-align: left;
+  }
+
+  .Analysis_Card_Content_Table {
+    flex-direction: column;
+  }
+  .Analysis_Card_Content_Table_Column {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Analysis_Card {
+    padding: 30px 0px 0px;
+    margin-bottom: 0;
+  }
+  .analysis_card_img2 img {
+    margin: 0px 0;
+  }
+  .Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .ImageAdvantage_Button_Clicked {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .float-right {
+    float: left;
+  }
+  .ImageAdvantage_Button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .Analysis1_Dropdown_Text1 {
+    font-size: 18px;
+    text-align: left;
+    line-height: 34px;
+  }
+
+  .Analysis1_Dropdown_Text3 {
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+  }
+  .Analysis1_Dropdown_Text2 {
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  .Analysis1_Dropdown_Image img {
+    width: 90%;
+    height: auto;
+  }
+
+  .Analysis1_GridItem1,
+  .Analysis1_GridItem2,
+  .Analysis1_GridItem3,
+  .Analysis1_GridItem4 {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+  .AnalysisCardDes {
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+  }
+
+  .analysis_card_img2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Analysis_Card_Content_Table_Odd {
+    flex-direction: column;
+  }
+  .Analysis2_Dropdown_Container {
+    padding: 20px 0;
+    margin: 20px 0 20px;
+  }
+  .Analysis4_Dropdown_Container {
+    padding: 20px 0;
+    margin: 20px 0 20px;
+    gap: 0;
+  }
+  .Analysis4_Dropdown_Container {
+    padding: 20px 0;
+    margin: 20px 0 20px;
+  }
+
+  .Analysis2_Dropdown_Text1,
+  .Analysis2_Dropdown_Text2,
+  .Analysis2_Dropdown_Text3,
+  .Analysis2_Dropdown_Text4,
+  .Analysis3_Dropdown_Text1,
+  .Analysis3_Dropdown_Text2,
+  .Analysis3_Dropdown_Text3 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .Analysis2_Dropdown_Image1 img,
+  .Analysis2_Dropdown_Image2 img,
+  .Analysis_Card img,
+  .Analysis3_Dropdown_Image img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .Analysis2_Dropdown_Image2 {
+    align-self: baseline;
+  }
+
+  .Analysis3_GridItemContent,
+  .Analysis4_PanelTextContent {
+    text-align: left;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+  }
+
+  .Analysis4_PanelImage img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Analysis4_PanelTextTitle {
+    line-height: 40.8px;
+  }
+
+  .WhatRecieve_Title_One {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .WhatRecieve_Content_One {
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .WhatRecieve_Title_Two {
+    line-height: 48px;
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+
+  .WhatRecieve_Table {
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 auto 50px auto;
+    justify-content: baseline;
+  }
+
+  .WhatRecieveImage1 img {
+    height: auto;
+  }
+
+  .WhatRecieve_Title_Three {
+    line-height: 48px;
+    font-size: 44px;
+    margin-bottom: 30px;
+  }
+
+  .WhatRecieve_Content_Three_One,
+  .WhatRecieve_Content_Three_Tow {
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .Analysis_Card_Content_Button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .ImageAdvantage_Title {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+
+  .ImageAdvantage_Content {
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+  .ImageAdvantage_Table_Column {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .Testimonial {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .Analysis3_GridItemTitle {
+    font-size: 28px;
+    line-height: 40.2px;
+  }
+
+  .WhatRecieve {
+    margin-bottom: 30px;
+  }
+
+  .ImageAdvantage_Table {
+    flex-direction: column;
+  }
+
+  .InviteCustomer_Title {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+
+  .InviteCustomer_Content {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .QuoteOne_Text {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 30px 0;
+  }
+
+  .Branding_Container {
+    padding-inline: 0px;
+  }
+
+  .Branding_Title {
+    font-size: 45px;
+    line-height: 50.8px;
+    text-align: center;
+  }
+
+  .Branding_Content_Container {
+    padding: 0 20px;
+  }
+
+  .Branding_Image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .QuoteTwo_Title {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
+  }
+
+  .QuoteTwo_TextOne {
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+  }
+
+  .QuoteTwo_TextTwo {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .QuoteTwo_Image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Price_Title {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .Price_Container {
+    padding-inline: 15px;
+  }
+  .Price_Card_Main_Button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .StrategyAction_Container {
+    padding: 0;
+    grid-template-columns: 100%;
+  }
+
+  .StrategyAction_Content_Title {
+    font-size: 44px;
+    line-height: 48px;
+    margin-top: 40px;
+  }
+  .StrategyAction_Content_TextOne,
+  .StrategyAction_Content_TextTwo {
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .StrategyActionImage img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .AnswerAll_Image img {
+    margin: 0;
+  }
+
+  .AnswerAll_Title {
+    font-size: 45px;
+    line-height: 45.8px;
+  }
+
+  .StrategyAction {
+    margin-bottom: 70px;
+  }
+
+  .MainHeading_Container {
+    padding-inline: 20px;
+  }
+
+  .Analysis {
+    padding: 0 0px;
+  }
+
+  .Analysis4_Dropdown_Container {
+    padding-inline: 0px;
+  }
+
+  .ImageAdvantage_Table {
+    align-items: flex-start;
+  }
+
+  .WhatRecieve_Dropdown_TitleTwo {
+    padding-inline: 0px;
+  }
+  .yes_accordion_animated_text {
+    display: none;
+  }
+  .WhatRecieve_Dropdown_TitleOne {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-inline: 0px;
+  }
+  .Modal {
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    left: 0;
+    right: 0;
+  }
+  .ModalContent {
+    padding-inline: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .ModalCard {
+    margin-top: 20px;
+  }
+  .ModalTitle {
+    padding-inline: 0;
+  }
+  .CenikModal {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .QuoteOne_Image img {
+    width: 90vw;
+  }
+  .faqContainer {
+    padding: 5px 30px;
+  }
+  .clientReviewHeading h2 {
+    font-size: 22px;
+    margin: 40px 0 0;
+    line-height: 32px;
+  }
+  .WhatRecieve_Content_Two {
+    font-size: 22px;
+    line-height: 33.2px;
+  }
+  .faqContainer {
+    padding: 0 !important;
+  }
+  .accordion-title {
+    padding: 20px 10px !important;
+  }
+}

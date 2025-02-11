@@ -1,0 +1,22 @@
+.sampleLogo {
+  padding: 70px 0;
+}
+
+.receive {
+  padding: 0px 0 70px;
+}
+button.download-catalog-button-2.projects-download-catalog-button.send-offer-button.js--triggerAnimation:hover {
+  /* background: #d4aa28; */
+  /* background-color: #009ad2; */
+  background-color: #00bbff;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.image-810 img {
+  width: 100%;
+}
+.col-md-7.projects-top-banner-container{
+  position: relative;
+  left: 15px;
+}

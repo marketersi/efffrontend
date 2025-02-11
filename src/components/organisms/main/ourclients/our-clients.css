@@ -1,0 +1,112 @@
+.OurClients_Slide_Title {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+  padding-block: 0px;
+  font-family: Georgia, serif;
+}
+.part {
+  display: flex;
+  justify-content: start;
+}
+.OurClints_Slide_Image {
+  flex: 4;
+  overflow: hidden;
+}
+
+.OurClients_Slide_Img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  max-width: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.OurClients_Slide:hover .OurClients_Slide_Img{
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.OurClients_Slide_Content {
+  flex-direction: column;
+  flex: 6;
+  align-items: baseline;
+  margin-left: 50px;
+}
+.ClinetsHead {
+  font-size: 85px;
+  line-height: 77px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.ClinetsPara {
+  font-size: 22px;
+  text-align: center;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+
+.OurClients_Slide:hover .OurClients_Slide_Image {
+  filter: grayscale(0%) !important;
+}
+
+.cartAnimation {
+  margin: -390px 0 0 -320px;
+}
+
+.cartAnimation img {
+  width: 350px;
+}
+
+.OurClients_Slide_Media_Video {
+  width: 150px;
+}
+
+.OurClients_Slide_Media_Video img {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .rating_image {
+    margin-inline: auto;
+    display: block;
+    margin-bottom: 25px;
+    object-fit: cover;
+  }
+  .OurClients_Card_Two_Content {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .mobile-mt {
+    margin-top: 8rem !important;
+  }
+  /* .OurClients.WidthContent.mobile-mt {
+    margin-top: 15rem !important;
+  } */
+  .ClinetsHead {
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .ClinetsPara {
+    font-size: 22px;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  .OurClients_Slide_Img{
+    height:200px;
+  }
+  .OurClients_Slide_Content{
+    margin-left:0;
+  }
+  .OurClients_Slide_Media_Video img {
+    width: 90px;
+}
+}
