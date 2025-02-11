@@ -34,14 +34,14 @@ const Footer = () => {
                 <Col sm={4} xs={6}>
                   <div className={style.footerRightMenu}>
                     <h3>BĄDŹ widoczny</h3>
-                    <Link href="/projektowanie-ux">
+                    <Link href="/tworzenie-stron-i-design-ux">
                       Tworzenie stron i design UX
                     </Link>
-                    <Link href="/profesjonalne-nagrywanie-filmow">
+                    <Link href="/video-marketing">
                       {" "}
-                      Video marketing
+                      Wideo marketing
                     </Link>
-                    <Link href="/Kreatywny-montaz-video">
+                    <Link href="/kreatywny-montaz-wideo">
                       Kreatywny montaż wideo
                     </Link>
                   </div>
@@ -51,7 +51,7 @@ const Footer = () => {
                     className={`${style.footerRightMenu} ${style.mobileRightMenu}`}
                   >
                     <h3>ZOSTAŃ zapamiętany</h3>
-                    <Link href="/tresci-sprzedazowe">
+                    <Link href="/tresci-i-hasla-sprzedazowe">
                       Treści i hasła sprzedażowe
                     </Link>
                     <Link href="/nazwa-dla-firmy">Nazwa dla firmy</Link>
@@ -64,7 +64,7 @@ const Footer = () => {
                     <Link href="/strategia-marketingowa">
                       Strategia marketingowa
                     </Link>
-                    <Link href="/konsultacje">Konsultacja marketingu</Link>
+                    <Link href="/konsultacja-marketingu">Konsultacja marketingu</Link>
                     <Link href="/">Marketing międzynarodowy</Link>
                   </div>
                 </Col>
@@ -85,10 +85,10 @@ const Footer = () => {
                 <Col sm={9}>
                   <div className={style.footerRightMenu}>
                     <h3>Przydatne rzeczy</h3>
-                    <Link href="/czy-oplaca-sie-agencja-marketingowa">
+                    <Link href="/policz-czy-ci-sie-to-oplaca">
                       Policz czy Ci się to opłaca?
                     </Link>
-                    <Link href="/zamow">Zamów bezpłatne badanie</Link>
+                    <Link href="/zamow-bezplatne-badanie">Zamów bezpłatne badanie</Link>
                   </div>
                 </Col>
               </Row>
@@ -97,7 +97,7 @@ const Footer = () => {
           <div className={style.copyright}>
             <div className={style.copyrightText}>
               <p>
-                &copy; {currentYear} - marketersi.pl | Marketing, który działa! Regulamin | Polityka prywatności.
+                &copy; {currentYear} - marketersi.pl | Marketing, który działa! Regulamin | Polityka prywatności
               </p>
             </div>
             {/* <div className={style.copyrightMenu}>

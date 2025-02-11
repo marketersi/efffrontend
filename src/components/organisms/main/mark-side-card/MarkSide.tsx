@@ -18,18 +18,18 @@ const MarkSide = () => {
   const osClass = useOsClass();
 
   const links1 = [
-    { label: "Tworzenie stron i design UX", path: "/projektowanie-ux" },
-    { label: "Video marketing", path: "/profesjonalne-nagrywanie-filmow" },
+    { label: "Tworzenie stron i design UX", path: "/tworzenie-stron-i-design-ux" },
+    { label: "Wideo marketing", path: "/video-marketing" },
     { label: "Kreatywny montaż video", path: "/Kreatywny-montaz-video" },
   ];
   const links2 = [
-    { label: "Treści i hasła sprzedażowe", path: "/tresci-sprzedazowe" },
+    { label: "Treści i hasła sprzedażowe", path: "/tresci-i-hasla-sprzedazowe" },
     { label: "Projektowanie logo", path: "/projektowanie-logo" },
     { label: "Nazwa dla firmy", path: "/nazwa-dla-firmy" },
   ];
   const links3 = [
     { label: "Strategia marketingowa", path: "/strategia-marketingowa" },
-    { label: "Konsultacja marketingu", path: "/konsultacje" },
+    { label: "Konsultacja marketingu", path: "/konsultacja-marketingu" },
     { label: "Marketing międzynarodowy", path: "/" },
   ];
 

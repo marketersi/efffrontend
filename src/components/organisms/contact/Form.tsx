@@ -88,7 +88,7 @@ const ContactForm = () => {
           {...register('email', { required: true })}
         />
         <input
-          placeholder="Telefon"
+          placeholder="Nr. tel i dogodna pora kontaktu"
           className="form_inputs"
           pattern="\d{7,15}"
           {...register('telephone')}

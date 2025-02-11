@@ -1,0 +1,147 @@
+.zamow-hero h1 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 65px;
+  margin: 0 0 40px;
+}
+
+.zamow-hero.col {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 70px 0px 30px;
+}
+
+.zamow-hero p {
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgb(45 45 45);
+  font-size: 25px;
+  margin: 0 0 40px;
+}
+
+.custom-color {
+  color: #d21e00;
+  font-weight: 700;
+}
+
+.input-container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.zemow-hero-input {
+  font-weight: 300;
+  border-radius: 30px;
+  padding: 12px 18px;
+  width: 100%;
+  border: none;
+  font-size: 22px;
+}
+
+.zemow-hero-input:focus {
+  outline: 2px solid #981a05;
+}
+
+.zamow-hero-btn {
+  position: absolute;
+  padding: 11px 18px;
+  font-size: 22px;
+  border-radius: 30px;
+  right: 0;
+  top: 0;
+  color: #fff;
+  text-decoration: none;
+  background: var(--brand-blue);
+  border: 2px solid var(--brand-blue-hover);
+  box-shadow: 0 0 0 0 var(--brand-blue-hover), 0 4px 0 0 var(--brand-blue-hover);
+}
+
+.zamow-hero-btn:hover {
+  box-shadow: 0 2px 0 0 var(--brand-blue-hover);
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000;
+  margin-left: 10px;
+}
+
+/* progress bar */
+.progress-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(249, 146, 23) 0%,
+    rgb(249, 54, 0) 100%
+  );
+}
+
+.back-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: none;
+  border: none;
+  color: white;
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .zamow-hero-btn {
+    position: static;
+    margin: 20px 0 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .zamow-hero h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .zamow-hero p {
+    font-size: 22px;
+  }
+
+  .input-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .zamow-hero-btn {
+    position: static;
+    margin: 20px 0 0;
+  }
+  .zh_next_btn_container p {
+    display: none;
+  }
+
+  .zemow-hero-input::placeholder {
+    font-size: 16px;
+  }
+
+  .zemow-hero-input {
+    font-size: 16;
+  }
+}

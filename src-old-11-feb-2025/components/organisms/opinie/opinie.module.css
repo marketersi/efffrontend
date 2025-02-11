@@ -1,0 +1,956 @@
+.opinionBanner {
+  padding: 50px 0;
+  background: #f5f5f5;
+}
+
+.opinionBanner img {
+  width: 100%;
+}
+
+.opinionBnnaerImg {
+  margin: -60px 00 0;
+}
+
+.opinionContent h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+/* ===================job=============== */
+.brilliant {
+  background: white;
+  padding: 100px 0 50px;
+}
+
+.job {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.jobImg img {
+  width: 100%;
+}
+
+.jobContent h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #3e3e3e;
+}
+
+.jobContent h3 span {
+  background-image: linear-gradient(90deg, #ffd042, #ffdc74);
+  border-radius: 20px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.jobReview {
+  margin: 30px 0;
+}
+
+.jobRating h6 {
+  font-weight: 600;
+  margin: 15px 0 5px;
+}
+
+/* ========================review======================== */
+.review {
+  background: white;
+  padding: 100px 0;
+}
+
+.opinionContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cardReview {
+  width: 100%;
+}
+
+.reviewMainImg {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.cardReview:hover .reviewMainImg {
+  filter: grayscale(0%);
+}
+
+.reviewLogoImg {
+  width: 70%;
+  margin: 20px auto 10px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.cardReview:hover .reviewLogoImg {
+  filter: grayscale(0%);
+}
+
+.cardReview .star {
+  display: flex;
+  align-items: center;
+}
+
+.cardReview .star div h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 0px;
+}
+
+.cardReview p {
+  font-size: 15px;
+}
+
+.cardReview p span {
+  font-weight: 600;
+  background-image: linear-gradient(90deg, #ffd042, #ffdc74);
+  border-radius: 20px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+/* ===========================teams================== */
+.teams {
+  background: white;
+  padding: 50px 0 100px;
+}
+
+.teamsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.teamsCard {
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  border-radius: 30px 30px 30px 0;
+  position: relative;
+  min-height: 853px;
+}
+
+.teamsTopContent {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: end;
+  position: relative;
+}
+
+.teamsTopContent h2 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0 0 40px;
+  line-height: 80px;
+  color: #000;
+  max-width: 700px;
+  padding-left: 30px;
+}
+
+.teamsTopContent img {
+  position: absolute;
+  bottom: -93px;
+  right: 60px;
+  z-index: 1;
+}
+
+.maleImg {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.femaleImg {
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 310px;
+}
+
+.teamLeftContent {
+  margin: 250px 0 0 250px;
+  color: var(--brand-blue);
+  font-size: 35px;
+  text-align: right;
+  line-height: 50px;
+}
+
+.teamLeftContent span {
+  font-weight: 700;
+}
+
+.teamsCardContent {
+  padding: 50px 0 0 100px;
+}
+
+.teamsCardContent h5 {
+  margin: 50px 0 20px;
+  font-size: 35px;
+  color: white;
+  font-weight: 800;
+}
+
+.teamsCardContent h5 span {
+  color: var(--brand-blue);
+}
+
+.teamsCardContent p {
+  font-size: 28px;
+  line-height: 40px;
+  color: lightgray;
+  font-weight: 300;
+  margin: 0 0 50px;
+  padding: 0 100px 0 0;
+}
+
+/* ================================brand========================================= */
+.brands {
+  background: white;
+  padding: 0px 0 1px;
+}
+
+.brands h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0 0 100px;
+}
+
+.brands h2 span {
+  /* font-weight: 600; */
+  background-image: linear-gradient(90deg, #ffd042, #ffdc74);
+  border-radius: 20px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.brandSlide {
+  margin: 0 0 200px;
+}
+
+.brandSlide h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 70px;
+}
+
+.brandSlideItem img {
+  width: 100%;
+}
+
+/* =======================rating=================== */
+
+.rating {
+  background: white;
+  position: relative;
+  padding: 0 0 100px;
+}
+
+.ratingContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ratingBlackCard {
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  border-radius: 30px;
+  position: relative;
+  min-height: 650px;
+}
+
+.face {
+  position: absolute;
+  left: 50px;
+  top: -68px;
+  z-index: 1;
+  display: none;
+}
+
+.faceMotion {
+  min-height: 150px;
+  position: relative;
+}
+
+.eyes {
+  /* position: absolute;
+  z-index: 1;
+  left: 45px;
+  top: -280px; */
+
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: -225px;
+}
+
+.ratingBlackCard img {
+  width: 80%;
+  margin: 50px auto 0;
+  display: block;
+}
+
+.ratingBlackCard h6 {
+  font-size: 20px;
+  color: var(--brand-blue);
+  margin: 50px 0 25px;
+}
+
+.ratingBlackCard p {
+  font-size: 28px;
+  color: #ffffffc9;
+  font-weight: 300;
+}
+
+.ratingCardContent {
+  position: relative;
+}
+
+.ratingCardContent::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: white;
+}
+
+.topBtn {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.topBtn h4 {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.topBtn p {
+  color: white;
+  background: var(--brand-blue);
+  font-weight: 500;
+  font-size: 28px;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+
+.accordion {
+  background-color: white;
+  padding: 50px 0;
+}
+
+/* ================google review==================================== */
+.google {
+  background: white;
+}
+
+.googleReviewBanner img {
+  margin-inline: auto;
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-block: 50px;
+}
+
+.google h2 {
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0 0 50px;
+  color: #3e3e3e;
+}
+
+.google h2 span {
+  background-image: linear-gradient(90deg, #ffd042, #ffdc74);
+  border-radius: 20px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.googleMenu ul {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.googleMenu ul li {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.googleMenu ul li .playBG {
+  width: 40px;
+  height: 40px;
+  background-color: var(--brand-blue);
+  border-radius: 100%;
+  text-align: center;
+}
+
+.googleMenu ul li .playBG img {
+  width: 70%;
+}
+
+.googleHover {
+  position: relative;
+  display: inline-block;
+  color: #5f5f5f;
+}
+
+.hoverMenu {
+  display: none;
+  position: absolute;
+  width: 600px;
+  z-index: 1;
+  color: #5f5f5f;
+  background: white;
+  padding: 10px;
+}
+
+.hoverMenu a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  color: #5f5f5f;
+  font-size: 20px;
+}
+
+.hoverMenu a:hover {
+  color: #ffca14;
+}
+
+.googleHover:hover .hoverMenu {
+  display: block;
+}
+
+.googleCard {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px 30px;
+  box-shadow: 0 0 10px lightgray;
+  margin: 8px;
+}
+
+.googleCard .profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.googleCard .profile h6 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.googleCard .profile p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.googleCard .comment p {
+  font-size: 16px;
+  margin: 15px 0 20px;
+}
+
+.googleCard .comment button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  background: white;
+}
+
+/* ====================reference===================== */
+.opinionContent h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--brand-blue);
+}
+
+.opinionContent h4 {
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+  line-height: 55px;
+  padding: 0 0 50px;
+}
+
+.opinionContent h4 span {
+  background: var(--brand-blue);
+  font-weight: 800;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+.tesco {
+  padding: 40px 0;
+}
+
+.tesco h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.tesco p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.tesco img {
+  width: 85%;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.referenceCard {
+  width: 90%;
+  margin: 0 auto 80px auto;
+}
+
+.referenceCard .cardTop {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.referenceCard .cardTop h6 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.referenceCard .cardTop p {
+  font-size: 13px;
+}
+.cardTop svg{
+  font-size: 15px;
+}
+.referenceCard p {
+  font-size: 16px;
+}
+
+.referenceCard p span {
+  background: var(--brand-blue);
+  padding: 0 10px;
+  border-radius: 20px;
+  display: block;
+  font-weight: 600;
+}
+
+.referenceCardSec {
+  margin: 40px 0 0;
+  padding: 0 0 40px;
+}
+
+/* ======================personally===================== */
+.Personally {
+  background: white;
+  padding: 50px 0;
+  position: relative;
+}
+
+.personallyContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.personallyCard {
+  width: 100%;
+  background-color: black;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.personallyCard h2 {
+  font-size: 65px;
+  font-weight: 800;
+  color: white;
+  margin: 0 0 50px;
+}
+
+.personallyCard p {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.608);
+  margin: 0 0 50px;
+}
+
+.personallyCard .contact h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.personallyCard .contact p {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  margin: 0 0 10px;
+}
+
+.personallyCard .contact a {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--brand-blue);
+}
+
+.personallMan {
+  /* position: absolute;
+  width: 400px;
+  z-index: 1;
+  left: 0; */
+
+  position: absolute;
+  width: 550px;
+  z-index: 1;
+  left: -10px;
+  top: 20%;
+  border-radius: 10px;
+}
+
+.personallHand {
+  position: absolute;
+  width: 400px;
+  bottom: 160px;
+  z-index: 0;
+  left: 0;
+}
+
+/* ==========================expert=============================== */
+.expert {
+  /* background-image: linear-gradient(180deg, #fcfcfc 53%, #e3e3e3); */
+  padding: 100px 0;
+}
+
+.expertContent h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #3e3e3e;
+  text-align: center;
+}
+
+.expertLogo {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showAllbtn {
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+}
+
+.googlePlay {
+  width: 35px;
+  height: 35px;
+  background: var(--brand-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.googlePlay img {
+  width: 20px;
+}
+
+.mt95 {
+  margin-top: -95px;
+}
+
+.opinionBanner img {
+  width: 90%;
+  height: 80%;
+}
+img.opinionBnnaerImg {
+  margin-top: 0px;
+}
+
+.emoFace {
+  position: relative;
+}
+
+.expertLogo img {
+  width: 100%;
+}
+
+/* ------------------------------media screen ------------------------------- */
+@media only screen and (max-width: 1024px) {
+  .opinionContent h1 {
+    font-size: 50px;
+  }
+
+  .customer_replies_container {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .job {
+    max-width: 90%;
+  }
+
+  .job {
+    max-width: 90%;
+  }
+
+  .opinionContainer {
+    max-width: 90%;
+  }
+
+  .teamsTopContent h2 {
+    margin-bottom: 300px;
+    max-width: 90%;
+  }
+
+  .maleImg {
+    max-width: 70%;
+    margin-top: 70px;
+  }
+
+  .femaleImg {
+    width: 250px;
+    top: auto;
+    bottom: 0;
+  }
+
+  .teamLeftContent {
+    margin: 20px 0 0 0px;
+    text-align: center;
+  }
+
+  .teamsCardContent {
+    padding: 0 0 0 180px;
+  }
+
+  .animatedCar {
+    width: 250px !important;
+    margin: -200px 0 0 -80px !important;
+  }
+
+  .ratingBlackCard p {
+    font-size: 25px;
+  }
+
+  .rating {
+    background: white;
+    position: relative;
+    padding: 0 0 50px;
+  }
+
+  .google h2 {
+    font-size: 50px;
+  }
+
+  .opinionContent h4 {
+    line-height: 45px;
+  }
+
+  .personallMan {
+    position: absolute;
+    width: 400px;
+    z-index: 1;
+    left: 0;
+    display: none;
+  }
+
+  .personallHand {
+    width: 400px;
+    bottom: 0px;
+    left: auto;
+    right: 0;
+  }
+
+  .expertLogo {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .expertLogo img {
+    margin-inline: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .emoFace {
+    width: 200px;
+  }
+  .opinionBanner img {
+    width: 70%;
+    margin-inline: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .opinionContent h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .teamsTopContent h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .teamsTopContent img {
+    bottom: -48px;
+    width: 60%;
+  }
+
+  .teamsTopContent h2 {
+    margin-bottom: 160px;
+    max-width: 90%;
+  }
+
+  .teamsCard {
+    padding: 20px;
+  }
+
+  .teamLeftContent {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .teamsCardContent {
+    padding: 0 0 0 0px;
+    margin-bottom: 300px;
+  }
+
+  .teamsCardContent p {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 50px;
+    padding: 0 0px 0 0;
+  }
+
+  .femaleImg {
+    width: 200px;
+  }
+
+  .animatedCar {
+    width: 200px !important;
+    margin: -200px 0 0 80px !important;
+  }
+
+  .brands h2 {
+    font-size: 40px;
+  }
+
+  .face {
+    left: 50px;
+    top: 47px;
+    width: 50%;
+  }
+
+  .brandSlide {
+    margin: 0 0 100px;
+  }
+
+  .ratingCardConten::before {
+    display: none;
+  }
+
+  .ratingBlackCard {
+    padding: 20px;
+  }
+
+  .ratingBlackCard p {
+    font-size: 22px;
+  }
+
+  .accordion {
+    padding: 20px 0 50px;
+  }
+
+  .google h2 {
+    font-size: 30px;
+  }
+  .googleMenu ul li {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .googleMenu ul li .playBG img {
+    width: 60%;
+  }
+  .hoverMenu {
+    width: 100%;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  .mt95 {
+    margin-top: 0px;
+  }
+  .brand_Slide_ButtonNext {
+    padding-right: 0;
+  }
+  .showAllbtn {
+    justify-content: flex-end;
+  }
+  .personallyCard {
+    padding: 30px;
+    position: relative;
+  }
+  .personallyCard p {
+    font-size: 22px;
+  }
+  .personallyCard h2 {
+    font-size: 40px;
+  }
+  .personallHand {
+    width: 300px;
+    transform: translateX(-50px) translateY(50px);
+  }
+  .contact {
+    margin-bottom: 150px;
+  }
+  .expertLogo {
+    margin: 0px;
+  }
+  .expertContent h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #3e3e3e;
+    text-align: center;
+  }
+
+  .expertLogo img {
+    width: inherit;
+  }
+
+  .Personally {
+    z-index: 1;
+  }
+
+  .personallyContainer {
+    margin-top: 350px;
+  }
+
+  .personallMan {
+    display: block;
+    top: -400px;
+    z-index: -1;
+    width: -webkit-fill-available;
+  }
+
+  .eyes {
+    top: -268px;
+    left: 0px;
+    width: 200px;
+    max-width: 450px;
+  }
+}

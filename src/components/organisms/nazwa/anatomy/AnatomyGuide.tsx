@@ -60,7 +60,7 @@ const AnatomyGuide = () => {
                       className="red-link d-block"
                       target="_blank"
                     >
-                      Kliknij tutaj (PDF)
+                      Kliknij tutaj, aby pobrać (PDF)
                     </a>
                   </p>
                 </div>
@@ -71,17 +71,7 @@ const AnatomyGuide = () => {
                     title="Książka o tym jak nazwać firmę"
                     alt="Książka przydatna przy tworzeniu nazwy"
                   />
-                  {/* to be deleted */}
-                  {/* <p className="projects-mq-book-fix projects-custom-gray-text projects-hide-810 text-center PDF-m-book">
-                    Jeśli chcesz możesz pobrać darmowy egzemplarz.
-                    <a
-                      href="/files/resources/Broszura-NazwaB.pdf"
-                      className="red-link"
-                      target="_blank"
-                    >
-                      Kliknij tutaj (PDF)
-                    </a>
-                  </p> */}
+                 
                 </div>
               </div>
             </div>

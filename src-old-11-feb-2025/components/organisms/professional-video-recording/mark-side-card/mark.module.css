@@ -1,0 +1,102 @@
+.markCard{
+    background: #f6f6f6;
+    width: 420px;
+    padding: 30px;
+    margin: 65px auto 30px;
+    border-radius: 20px;
+    box-shadow: 4px 0px 10px lightgray;
+}
+
+.markCard h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: #333333;
+}
+.markCard p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 42px;
+    color: #333333;
+    margin: 20px 0;
+}
+.markCard ul{
+    list-style: none;
+    padding: 0;
+}
+.markCard li{
+    margin: 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 0 0 10px; */
+}
+.markCard li:hover{
+    background: #00bfff;
+    border-radius: 100px;
+    padding: 0 0 0px 10px;
+}
+
+.markCard a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+}
+.playIcon{
+    width: 30px;
+    height: 30px;
+    background: #00bfff;
+    border-radius: 100%;
+    padding: 5px;
+}
+.playIcon img{
+    width: 15px;
+    margin: 3px auto;
+    display: block;
+}
+.mark img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+.markVideo video {
+    width: 80% !important;
+    margin-inline: auto;
+    margin-top: 30px;
+    display: block;
+}
+/* .markImg1{
+    width: 65% !important;
+} */
+/* -------------------------------media screen---------------------- */
+@media screen and (max-width: 1024px) {
+    .mark img{
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .markVideo video {
+        margin: 40px auto 0;
+        display: block;
+        width: 60% !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mark img{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .markVideo video {
+        margin: 40px auto 0;
+        display: block;
+        width: 95% !important;
+    }
+    .markCard{
+        width: 100%;
+    }
+    .markImg1{
+        width: 90% !important;
+    }
+}

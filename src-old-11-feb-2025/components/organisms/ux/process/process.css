@@ -1,0 +1,53 @@
+.circleBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Ensures the circles start from the top */
+    width: 98vw;
+    margin-top: 0px;
+    display: none;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#00bfff;
+    position: absolute;
+    animation: blinkAndZoom 2s infinite;
+}
+.bottomImg {
+    position: absolute;
+    top: calc(100% - -4500px);
+    transform: rotate(210deg);
+    width: calc(5% + 100px);
+    left: calc(55% - 150px);
+}
+@keyframes blinkAndZoom {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .circleBox{
+        display: none;
+    }
+}

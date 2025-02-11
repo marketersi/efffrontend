@@ -126,7 +126,8 @@ const Section5 = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {knowMoreSection?.bottom_text}
+                  {/* {knowMoreSection?.bottom_text} */}
+                  Kliknij tutaj, aby pobrać (PDF)
                 </a>
               </div>
             </div>

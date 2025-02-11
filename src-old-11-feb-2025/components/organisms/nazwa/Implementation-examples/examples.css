@@ -1,0 +1,432 @@
+.projects-gray-opinion-1 {
+  height: auto;
+  z-index: -2;
+}
+.projects-opinion-4.naming-opinion-text{
+  margin: 0;
+}
+
+
+.opinion-box:nth-child(odd) .opinion-box-image {
+  left: 0px;
+  right: auto;
+}
+
+.custom-text-align-right {
+  text-align: right !important;
+}
+
+.opinion-box-image-right {
+  right: 0px !important;
+  left: auto !important;
+}
+
+.opinion-box-image {
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  /* width: 52%; */
+  width: 57%;
+}
+
+.opinion-box-inside-image {
+  height: auto;
+  
+}
+
+.opinion-box:nth-child(odd) .opinion-box-content {
+  float: right;
+}
+
+@media (min-width: 992px) {
+  .rwd-opinion-image {
+    display: none;
+  }
+}
+
+.naming-opinion-img {
+  min-height: 0px !important;
+  height: auto !important;
+}
+
+.naming-no-bg {
+  background-image: none;
+  padding: 0px !important;
+}
+
+.opinion-client-bg-iglarki {
+  background-image: url(https://cdn.owocni.pl/img/projektowanie-logo-img/k-iglarki.jpg);
+  background-color: #cccccc;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.opinion-box-content {
+  padding: 50px 25px;
+  /* width: 64%; */
+  width: 50%;
+  background-color: white;
+  float: right;
+  margin: 37px 0px 37px 0px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.38);
+  z-index: 2;
+  min-height: 440px;
+  text-align: center;
+  position: relative;
+}
+
+.naming-opinion-text {
+  min-height: 0px !important;
+  height: auto !important;
+}
+
+.projects-opinion-1 {
+  margin: 92px 0px 92px 0px;
+}
+.projects-opinion-2 {
+  margin: 45px 0px 45px 0px;
+}
+
+.opinion-box-content-left {
+  float: left !important;
+}
+
+
+
+
+.opinion-box-text {
+  font-size: 35px;
+  font-family: 'Georgia';
+ 
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pnazw-page .pnazw-opinion-btn {
+  background-color: white;
+  color: #2b2b2b;
+  border: 3px solid #282828;
+}
+
+.download-catalog-button {
+  box-shadow: 0px 4px 0 #009ad2;
+  background: var(--brand-blue);
+  border: transparent;
+  padding: 8px 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  z-index: 10;
+  display: inline;
+  border-radius: 5px;
+}
+.download-catalog-button:hover{
+  box-shadow:none;
+  transition: .5s;
+}
+
+/* section */
+
+.names-custom-container {
+  margin: 0 auto;
+}
+
+.pnazw-page .cname-big-mtop {
+  margin-top: 210px;
+}
+
+.pnazw-page .copywriter-cname {
+  padding-bottom: 95px;
+}
+
+
+
+.names-client-desc {
+  font-size: 72px;
+  font-weight: 900 !important;
+  margin-bottom: 50px;
+  line-height: 94px;
+  margin-bottom: 50px;
+}
+
+.naming-seo-img {
+  text-align: center;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.naming-seo-img img {
+  max-width: 100%;
+  /* added */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+}
+
+.pnazw-page .pnazw-names-quote-margin {
+  margin-top: 26px;
+}
+
+.pnazw-page .names-quote-fsize {
+  font-size: 43px;
+  line-height: 46px;
+}
+
+.names-quote-fsize {
+  font-size: 60px;
+  letter-spacing: -0.03px;
+}
+
+.signed-quote-image {
+  font-family: 'Playfair Display', serif;
+  font-style: Italic;
+  letter-spacing: -0.025em;
+}
+
+.theme-quote {
+  font-size: 41px;
+  font-family: "Georgia", serif;
+  color: #000000;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: 40px 0;
+  line-height: 45px;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.pnazw-page .signature.newsignmargin {
+  margin-top: 30px;
+}
+
+.signature {
+  text-align: center;
+  margin-bottom: 70px;
+  font-family: 'Georgia', serif;
+  font-style: Italic;
+  font-size: 19px;
+  line-height: 25px;
+  
+}
+
+.names-client-name {
+  font-family: 'Arial';
+  font-size: 30px;
+  font-weight: 900;
+  padding-bottom: 10px;
+  letter-spacing: -0.025em;
+  color: #fff;
+  margin: 50px 0 70px;
+}
+
+.names-custom-push-container {
+  margin-top: 30px;
+}
+
+.custom-container1 {
+  max-width: 810px;
+  margin: auto;
+}
+
+/* section 7 */
+.opinion-box {
+  
+  position: relative;
+}
+
+.opinion-client-bg-core {
+  background-image: url(https://cdn.owocni.pl/img/projektowanie-logo-img/k-robiszto.jpg);
+  background-color: #cccccc;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.naming-no-bg img {
+  width: 100%;
+}
+
+.projects-opinion-1-new {
+  margin: 80px 0px 80px 0px;
+}
+
+.projects-opinion-5 {
+  margin: 95px 0px 50px 0px;
+}
+
+.projects-opinion-1-new .projects-client-opinion-p {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.names-new-btn {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 10px 15px;
+  width: auto;
+  background-color: var(--brand-blue);
+  
+}
+
+/* section 8 */
+.names-custom-container {
+  max-width: 1100px;
+}
+
+
+.pnazw-page .cname-big-mtop-2 {
+  margin-top: 50px;
+}
+
+.projects-bow-1 {
+  width: 100%;
+  margin-bottom: -1px;
+}
+
+/* 9 */
+.names-thematic-section-purple {
+  /* asked to remove */
+  /* background-color: #160209; */
+  padding-bottom: 150px;
+}
+
+.pnazw-page .custom-cname-small-margin {
+  margin-top: 70px;
+}
+
+.names-color-white {
+  color: white;
+}
+
+.names-custom-gray-text {
+  margin-right: -125px;
+  margin-left: -125px;
+  font-size: 46px;
+  font-style: italic;
+  line-height: 47px;
+}
+
+.names-color-purple {
+  color: #8d1749;
+}
+
+.names-color-dark {
+  color: #414141;
+  font-style: initial !important;
+}
+
+.margin-bottom-whitespace-fix {
+  margin-bottom: -5px !important;
+}
+
+.names-color-purple-med {
+  color: #75133d;
+}
+
+.names-color-light-dark {
+  color: #747474;
+}
+
+.signed-quote {
+  margin: 0px auto 30px;
+  
+}
+
+.names-color-purple-dark {
+  color: #4e0c28;
+}
+
+.pnazw-page .pnazw-custom-margin-3 {
+  margin-bottom: 130px;
+}
+
+.names-custom-font-2 {
+  font-size: 25px;
+}
+
+/* 10 */
+.names-thematic-section-black {
+  /* background-color: #000000; */
+  margin-top: -50px;
+}
+
+.pnazw-page .names-client-name {
+  position: relative;
+}
+
+.pnazw-page .new-margin-gray {
+  margin-bottom: 100px;
+}
+
+.names-color-grey {
+  color: #b7bcc1;
+}
+
+.pnazw-page .pnazw-new-custom-margin {
+  margin-top: 100px;
+}
+
+.names-color-grey-med {
+  color: #747474;
+}
+
+.names-color-grey-dark {
+  color: #515151;
+}
+
+.underline-down {
+  position: relative;
+}
+
+.underline-down:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 84px);
+  width: 170px;
+  border-bottom: 6px solid var(--brand-blue);
+}
+
+.nazwa_cardone_color {
+  color: #75133d;
+}
+
+.theme-desc.names-color-light-dark.names-color-purple.names-custom-font-2.text-center.pnazw-custom-margin-3.nazwa_cardone_color {
+  color: #75133d;
+}
+
+.nazwa_cardtwo_quote {
+  color: #747474;
+}
+
+.nazwa_cardtwo_quoteauthor {
+  color: #515151;
+}
+
+.theme-desc.names-color-light-dark.names-color-grey.nazwa_cardtwo_text {
+  color: #b7bcc1;
+}
+
+.nazwa_cardtwo_text {
+  color: #b7bcc1;
+}
+
+@media (max-width: 768px) {
+  .naming-seo-img img {
+    margin-bottom: 30px;
+  }
+  .theme-quote{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .opinion-box-content{
+    padding: 25px 20px;
+  }
+ 
+}

@@ -12,21 +12,21 @@ const HeaderDropDown1 = () => {
             <Col sm={4}>
               <div className={style.headerMenu}>
                 <h3>BĄDŹ widoczny</h3>
-                <Link href="/projektowanie-ux">
+                <Link href="/tworzenie-stron-i-design-ux">
                   Tworzenie stron i design UX
                 </Link>
-                <Link href="/profesjonalne-nagrywanie-filmow">
-                  Video marketing
+                <Link href="/video-marketing">
+                  Wideo marketing
                 </Link>
-                <Link href="/Kreatywny-montaz-video">
-                  Kreatywny montaż video
+                <Link href="/kreatywny-montaz-wideo">
+                  Kreatywny montaż wideo
                 </Link>
               </div>
             </Col>
             <Col sm={4}>
               <div className={style.headerMenu}>
                 <h3>ZOSTAŃ zapamiętany</h3>
-                <Link href="/tresci-sprzedazowe">
+                <Link href="/tresci-i-hasla-sprzedazowe">
                   Treści i hasła sprzedażowe
                 </Link>
                 <Link href="/projektowanie-logo">Projektowanie logo</Link>
@@ -39,7 +39,7 @@ const HeaderDropDown1 = () => {
                 <Link href="/strategia-marketingowa">
                   Strategia marketingowa
                 </Link>
-                <Link href="/konsultacje">Konsultacja marketingu</Link>
+                <Link href="/konsultacja-marketingu">Konsultacja marketingu</Link>
                 <Link href="/">Marketing międzynarodowy</Link>
               </div>
             </Col>

@@ -49,7 +49,7 @@ const MarkSide = () => {
     },
     {
       label: 'Konsultacja marketingu',
-      path: '/konsultacje',
+      path: '/konsultacja-marketingu',
     },
   ];
 

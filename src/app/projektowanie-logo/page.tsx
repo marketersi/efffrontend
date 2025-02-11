@@ -75,7 +75,7 @@ const LogoDesignScreen = () => {
       <Receive />
       <Guarantee openModal={openModal} />
       <LogoAccordion items={accordionData} title={title} image={description} />
-      <ProjectValue />
+      <ProjectValue openModal={openModal} />
       <Gallery openModal={openModal} />
       <StepByStep />
       <section className="logo-stef">

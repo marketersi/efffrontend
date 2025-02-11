@@ -94,7 +94,7 @@ const Video = () => {
               url={brandSection?.banner_video}
               playing={true}
               loop={true}
-              muted={true}
+              muted={false}
               width="70%"
               height="auto"
               className="popupVideo"

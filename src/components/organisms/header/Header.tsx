@@ -148,7 +148,7 @@ const Header = () => {
                   </Nav.Link>
                 </Nav>
                 <Button className={style.headerRightBtn}>
-                  <Link href="/zamow">Zamów bezpłatne badanie</Link>
+                  <Link href="/zamow-bezplatne-badanie">Zamów bezpłatne badanie</Link>
                 </Button>
               </div>
             </Col>
@@ -201,7 +201,7 @@ const Header = () => {
                       <div className={style.menuItem}>
                         <Link
                           onClick={handleMenuItemClick}
-                          href="/projektowanie-ux"
+                          href="/tworzenie-stron-i-design-ux"
                         >
                           Tworzenie stron i design UX
                         </Link>
@@ -209,15 +209,15 @@ const Header = () => {
                       <div className={style.menuItem}>
                         <Link
                           onClick={handleMenuItemClick}
-                          href="/profesjonalne-nagrywanie-filmow"
+                          href="/video-marketing"
                         >
-                          Video marketing
+                          Wideo marketing
                         </Link>
                       </div>
                       <div className={style.menuItem}>
                         <Link
                           onClick={handleMenuItemClick}
-                          href="/Kreatywny-montaz-video"
+                          href="/kreatywny-montaz-wideo"
                         >
                           Kreatywny montaż wideo
                         </Link>
@@ -225,7 +225,7 @@ const Header = () => {
                       <div className={style.menuItem}>
                         <Link
                           onClick={handleMenuItemClick}
-                          href="/tresci-sprzedazowe"
+                          href="/tresci-i-hasla-sprzedazowe"
                         >
                           Treści i hasła sprzedażowe
                         </Link>
@@ -255,7 +255,7 @@ const Header = () => {
                       </div>
 
                       <div className={style.menuItem}>
-                        <Link onClick={handleMenuItemClick} href="/konsultacje">
+                        <Link onClick={handleMenuItemClick} href="/konsultacja-marketingu">
                           Konsultacja marketingu
                         </Link>
                       </div>
@@ -299,7 +299,7 @@ const Header = () => {
                       <div className={style.menuItem}>
                         <Link
                           onClick={handleMenuItemClick}
-                          href="/czy-oplaca-sie-agencja-marketingowa"
+                          href="/policz-czy-ci-sie-to-oplaca"
                         >
                           Policz czy Ci się to opłaca?
                         </Link>

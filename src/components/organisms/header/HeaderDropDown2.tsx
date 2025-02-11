@@ -20,7 +20,7 @@ const HeaderDropDown2 = () => {
             <Col sm={4}>
               <div className={style.headerMenu}>
                 <h3>Narzędzia</h3>
-                <Link href="/czy-oplaca-sie-agencja-marketingowa">
+                <Link href="/policz-czy-ci-sie-to-oplaca">
                   Policz czy Ci się to opłaca?
                 </Link>
                 {/* <a href="/">Test skuteczności strony (Krótki)</a> */}

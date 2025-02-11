@@ -1,0 +1,372 @@
+/* ================================================== enter================================= */
+.enter {
+  padding: 0px 0 100px;
+}
+
+.Content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.enter img {
+  margin: 0 auto;
+  display: block;
+}
+
+.Content h2 {
+  font-size: 85px;
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 70px -50px;
+}
+
+.Content h3 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 70px -50px;
+}
+
+.Content h4 {
+  font-size: 35px;
+  text-align: left;
+  font-weight: 500;
+  color: #333333;
+  margin: 0 0 50px 0px;
+  
+}
+
+.Content h4 span {
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), #ffc602);
+  padding: 0 10px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.Content p .gradient {
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), #ffc602);
+  padding: 0 10px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.Content p {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 300;
+  color: #333333;
+  line-height: 50px;
+  margin: 0 0 40px;
+}
+
+.Content p span {
+  font-weight: 500;
+}
+
+/* ================================================== number================================= */
+.numbers {
+  padding: 0px 0 100px;
+}
+
+.numbers h2 span {
+  font-weight: 800;
+  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), #ffc602);
+  padding: 0 10px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.numberMB {
+  margin-bottom: 15px !important;
+}
+
+/* ================================================== hard Result================================= */
+.ratingLogoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 40px 0 0px;
+}
+
+.gradientBG {
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), #ffc602);
+  padding: 0 10px;
+  border-radius: 100px;
+  display: inline-block;
+  width: 77%;
+  margin: 20px auto 0!important;
+}
+
+.hardMB {
+  margin-bottom: 10px !important;
+}
+
+.hardResult h4 {
+  font-size: 45px;
+  text-align: left;
+  font-weight: 500;
+  color: #333333;
+  font-weight: 50px;
+  margin: 0 0 50px 0px;
+  line-height: normal;
+}
+
+.hardResult h4 span {
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgba(255, 198, 2, 0), #ffc602);
+  padding: 0 10px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.hardBottomContent {
+  font-size: 40px !important;
+  font-weight: 300 !important;
+}
+
+img.hardImg {
+  margin: 0 0 50px;
+}
+
+/* ================================================== order================================= */
+.order {
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 0 50px;
+}
+
+.order .orderContent {
+  background: #141414;
+  border-radius: 50px 0 0 50px;
+  padding: 90px;
+}
+
+.order .orderContent h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 0 60px;
+}
+
+.order .orderContent p {
+  color: lightgray;
+  font-size: 28px;
+  margin: 0 0 60px;
+  font-weight: 400;
+}
+
+.order .orderContent button {
+  width: 100%;
+  padding: 10px;
+  background: #d21e00;
+  font-size: 28px;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 6px 0px #d21e006e;
+}
+
+.order .orderContent button:hover {
+  box-shadow: none;
+  transition: box-shadow 0.5s ease-out;
+}
+
+.order .orderImg {
+  border-radius: 0px 50px 50px 0px;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #d79126, #a56118);
+}
+
+.order .orderImg img {
+  width: 100%;
+}
+
+.ratingContent {
+  margin-top: -300px;
+  padding: 50px;
+}
+
+.ratingContent p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.ratingContent .rating {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingContent .star img {
+  width: 30px;
+}
+
+.ratingContent .star {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ratingNumber p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.ratingNumber p span {
+  font-weight: 600;
+}
+
+.pinkBG {
+  padding: 50px 0;
+  background-image: linear-gradient(173deg, #f5f5f5 53%, #fbb1b6);
+}
+
+.socialVideo video {
+  width: 800px !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.brandingHeading {
+  font-size: 35px !important;
+}
+.fontSmall{
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+/* -------------------------------media screen---------------------- */
+@media screen and (max-width: 1024px) {
+  .enter img {
+    width: 80%;
+  }
+
+  .Content h2 {
+    font-size: 70px;
+  }
+
+  img.hardImg {
+    width: 80%;
+  }
+
+  .Content h3 {
+    font-size: 40px;
+  }
+
+  .hardResult h4 {
+    font-size: 40px;
+    margin: 30px 0 0;
+  }
+
+  .ratingLogoImg img {
+    width: 35%;
+  }
+
+  .order {
+    grid-template-columns: 100%;
+  }
+
+  .order .orderContent {
+    border-radius: 50px 50px 0 0px;
+    padding: 70px;
+  }
+
+  .order .orderImg {
+    border-radius: 0px 0px 50px 50px;
+    overflow: hidden;
+  }
+
+  .socialVideo video {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Content h2 {
+    font-size: 35px !important;
+    margin: 0 0 40px 0px;
+  }
+
+  .Content h3 {
+    font-size: 20px;
+    margin: 0 0 70px 0px;
+  }
+
+  img.hardImg {
+    width: 90%;
+  }
+  .pinkBG {
+    padding: 0px 0;
+    
+  }
+
+  .ratingLogoImg {
+    display: block;
+    margin-bottom: 0 !important;
+  }
+
+  .ratingLogoImg img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+
+  .order .orderContent h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 0 40px;
+  }
+
+  .order .orderContent p {
+    font-size: 20px;
+    margin: 0 0 40px;
+  }
+
+  .order .orderContent {
+    padding: 30px;
+  }
+
+  .order .orderContent button {
+    font-size: 20px;
+  }
+
+  .ratingContent {
+    margin-top: -200px;
+    padding: 50px;
+  }
+
+  .order .orderImg img {
+    border-radius: 0 0 50px 50px;
+  }
+
+  .hardResult h4 {
+    font-size: 28px;
+    text-align: center !important;
+  }
+  .Content p {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .hardBottomContent {
+    font-size: 35px !important;
+  }
+  .numbers {
+    padding: 0px 0 50px;
+  }
+  .enter {
+    padding: 0px 0 50px;
+  }
+}
