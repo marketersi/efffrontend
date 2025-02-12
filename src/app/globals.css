@@ -202,6 +202,8 @@ body{
 }
 .OurClients_Slide_Content{
   position: relative;
+  padding-bottom:60px;
+  margin-left:20px !important;
 }
 .OurClients_Slide_Media {
   /* display: grid;
@@ -218,7 +220,6 @@ body{
   line-height: 34.432px;
   text-align: center;
   justify-content: flex-end;
-  margin-top: 30px;
   right:0px;
   position: absolute;
   bottom: 0;

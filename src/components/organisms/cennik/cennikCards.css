@@ -361,6 +361,8 @@ input[type='range']:focus::-webkit-slider-thumb {
     width: 49%;
     
 }
+
+.radio-container label p strong{color:#000;}
 .checked-radio {
   background-color: lightgreen; /* light green background when checked */
   border-color: lightgreen; /* light green border when checked */
@@ -492,6 +494,7 @@ input[type='range']:focus::-webkit-slider-thumb {
 }
 
 .contact h5 {
+  color:'#000';
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0px;

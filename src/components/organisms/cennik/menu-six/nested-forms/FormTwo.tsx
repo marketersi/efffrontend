@@ -22,6 +22,11 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     setIsModalOpen(false);
   };
 
+  
+    // Count the number of letters (excluding spaces) in the textarea and input field
+    const textAreaLetterCount = textAreaValue.replace(/\s+/g, '').length;
+    const inputLetterCount = inputValue.replace(/\s+/g, '').length;
+
   const handleNext = (e) => {
     e.preventDefault();
     const payload = {
@@ -29,11 +34,11 @@ const FeedbackSection = ({ setCurrentComponent }) => {
       formTwoInputValue: inputValue,
     };
 
-    if (textAreaValue && inputValue) {
+    if (textAreaLetterCount < 50 || inputLetterCount < 10) {
+      setIsModalOpen(true);
+    } else {
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
-    } else {
-      setIsModalOpen(true);
     }
   };
 

@@ -24,7 +24,7 @@
   height: auto;
 }
 .mainHeadingContent {
-  padding: 40px 0;
+  padding:0 0 40px 0;
 }
 .MainHeading_Title span {
   background-image: linear-gradient(90deg, #00bfff, #00bfff1f);
@@ -69,6 +69,12 @@
 .MainHeading button:hover {
   box-shadow: none;
   outline: none;
+}
+
+.price-card-title-image {
+  max-height: 150px;
+  align-self: anchor-center;
+  margin-bottom: -30px;
 }
 
 @media screen and (max-width: 799px) {
@@ -291,13 +297,13 @@
 }
 
 .Strategy_Card_Title_Number {
-  font-weight: 900;
-  color: rgb(208 208 208);
+  font-weight: 600;
+  color:#00bbff;
   font-size: 150px;
 }
 img.strategyImg {
-  width: 80% !important;
-  margin: 0 auto;
+  width: 150px !important;
+  margin: 0 auto -35px;
   display: block;
 }
 

@@ -12,12 +12,10 @@ export default function Strategy() {
         {strategy?.featureList?.map((item) => (
           <div className="Strategy_Card" key={item.id}>
             <div className="Strategy_Card_Title">
-              <div className="Strategy_Card_Title_Number">
+              {/* <div className="Strategy_Card_Title_Number">
                 {item.item_number}
-              </div>
-              <div>{item.title}</div>
-            </div>
-            {/* <div>
+              </div> */}
+                <div>
             <img
              className="strategyImg"
               src={item.image_url}
@@ -27,7 +25,10 @@ export default function Strategy() {
                 height: 'auto',
               }}
             />
-          </div> */}
+          </div>
+              <div>{item.title}</div>
+            </div>
+          
             <div className="Strategy_Card_Content_One">{item.paragraph_1}</div>
             <div className="Strategy_Card_Content_Two">{item.paragraph_2}</div>
           </div>

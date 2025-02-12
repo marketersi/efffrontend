@@ -10,7 +10,7 @@ export default function ImageAdvantage() {
     useState(true);
 
   return (
-    <div className="ImageAdvantage WidthContent">
+    <div className="ImageAdvantage WidthContent mb-4 pb-1">
       <div className="ImageAdvantage_Title feature">
         {imagesAdvantage?.title}
       </div>

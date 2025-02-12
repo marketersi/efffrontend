@@ -7,7 +7,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import Select, { components } from "react-select";
 import Image from "next/image";
 
-const FeedbackSection = ({ setCurrentComponent }) => {
+const FeedbackSection = ({ setCurrentComponent}) => {
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { formThree } = screenData?.cardMenu?.menuThree || "";
   const { modalInfo } = formThree?.metadata || "";
@@ -15,6 +15,11 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [inputValue, setInputValue] = useState("");
+
+
+
+  
 
   const dispatch = useDispatch();
 
@@ -51,18 +56,23 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     setSelectedOption(option);
   };
 
+    // Count the number of letters (excluding spaces) in the textarea and input field
+    const textAreaLetterCount = textAreaValue.replace(/\s+/g, '').length;
+    const inputLetterCount = inputValue.replace(/\s+/g, '').length;
+
   const handleNext = (e) => {
     e.preventDefault();
 
-    if (textAreaValue && selectedOption) {
+    if (textAreaLetterCount < 50 || inputLetterCount < 10 || selectedOption) {
+      setIsModalOpen(true);
+     
+    } else {
       const payload = {
         formTwoTextAreaValue: textAreaValue,
         formTwoDropdownValue: selectedOption.value,
       };
       dispatch(savePriceListFormData(payload));
       setCurrentComponent(3);
-    } else {
-      setIsModalOpen(true);
     }
   };
 
@@ -135,23 +145,24 @@ const FeedbackSection = ({ setCurrentComponent }) => {
         </button>
       </form>
 
-      <Modal
-        isOpen={isModalOpen}
-        onRequestClose={closeModal}
-        contentLabel="Example Modal"
-        className="CenikModal"
-        overlayClassName="Overlay"
-      >
-        <h4></h4>
-        <p>{modalInfo?.form3_modal_info}</p>
-        <div className="cenikBtnDiv">
-          <button onClick={closeModal}>{modalInfo?.form3_modal_buttonText}</button>
-        </div>
-
-        <div className="close" onClick={closeModal}>
-          <FontAwesomeIcon icon={faXmark} />
-        </div>
-      </Modal>
+       <Modal
+            isOpen={isModalOpen}
+            onRequestClose={closeModal}
+            contentLabel="Example Modal"
+            className="CenikModal"
+            overlayClassName="Overlay"
+          >
+            <p>
+              {modalInfo?.form3_modal_info}
+            </p>
+            <div className="cenikBtnDiv">
+              <button onClick={closeModal}>{modalInfo?.form3_modal_buttonText}</button>
+            </div>
+    
+            <div className="close" onClick={closeModal}>
+              <FontAwesomeIcon icon={faXmark} />
+            </div>
+          </Modal>
     </div>
   );
 };
