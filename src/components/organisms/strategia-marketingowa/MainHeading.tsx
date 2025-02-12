@@ -26,7 +26,7 @@ const MainHeading = () => {
           Twój kompas <br/>   w świecie <br/>sprzedaży
           </div>
           <div className="MainHeading_Content ">
-          Twoja firma jest ważna, <span className="">zróbmy ją skuteczniejszą.</span>
+          Twoja firma jest ważna, <span className="d-block">zróbmy ją skuteczniejszą.</span>
           </div>
           <div className="catalog-submit-button projects-catalog-submit-buttom logo-button-box">
           <button

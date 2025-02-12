@@ -6,6 +6,8 @@ export default function Price() {
   const { isLoading, screenData } = useSelector((state) => state.strategy);
   const { priceSection } = screenData;
 
+  console.log(priceSection , 'priceSection@1213456')
+
   const [showModal, setShowModal] = useState(false);
   const handleOpenModal = () => {
     setShowModal(true);
@@ -21,13 +23,16 @@ export default function Price() {
 
   return (
     <div className="Price WidthContent2">
-      <div className="Price_Title popout">{priceSection?.title}</div>
+    
+   
       <div className="Price_Container full">
         <div className="Price_Card_Container">
           {/* Card 1 */}
           {priceSection?.priceCard.map((item) => (
+         
             <div className="Price_Card" key={item.id}>
-              <div className="Price_Card_Number">{item.background_text}</div>
+                 <img src={item.background_text} alt="" className="price-card-title-image" />
+           
               <div className="Price_Card_Main">
                 <div>
                   <div className="Price_Card_Main_Title">{item.title}</div>
