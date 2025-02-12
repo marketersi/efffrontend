@@ -24,16 +24,16 @@ const Video = () => {
     if (element) {
       gsap.fromTo(
         element,
-        { scale: 1, skewY: -10 },
+        { scale: 1, skewY: -5 },
         {
           scale: 2.2,
           skewY: 0,
-          duration:3.5,
+          duration:2.5,
           ease: "sine.out",
           scrollTrigger: {
             trigger: element,
-            start: "top 40%", // Starts when the top of the element hits 80% of the viewport
-            end: "top 5%",
+            start: "top 100%", // Starts when the top of the element hits 80% of the viewport
+            end: "top 35%",
             scrub: 1, // Smooth animation while scrolling
             
           },
@@ -64,7 +64,7 @@ const Video = () => {
               url={brandSection?.banner_video}
               playing={true}
               loop={true}
-              muted={true}
+              muted={false}
               width="100%"
               height="auto"
               pip={false}
@@ -98,7 +98,7 @@ const Video = () => {
               width="70%"
               height="auto"
               className="popupVideo"
-              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429", borderTopWidth: "15px",  borderBottomWidth: "5px", borderRightWidth: "10px"}}
+              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429"}}
               pip={false}
               controls={true}
               playsinline
@@ -112,7 +112,7 @@ const Video = () => {
         </div>
       )}
 
-      <style jsx>{`
+<style jsx>{`
         .popup-overlay {
           position: fixed;
           top: 0;
@@ -128,12 +128,13 @@ const Video = () => {
 
         .popup-content {
           overflow: auto;
+          position:relative;
         }
 
         .close-btn {
           position: absolute;
-          top: 10px;
-          right: 10px;
+          top: 0px;
+          right:11%;
           background: #00bfff;
           color: white;
           border: none;

@@ -4,7 +4,7 @@
   /* position: relative; */
   overflow: hidden;
   max-height: 850px;
-  margin-bottom: 140px;
+  margin-bottom: 240px;
 }
 
 .hero h1 {
@@ -188,6 +188,13 @@
   .subtitleContainer {
     width: 45%;
     margin: 10px auto 0 auto;
+  }
+
+  .hero{margin-bottom:170px;}
+  .hero h1 {
+    font-size:4.2rem;
+    line-height:4.2rem;
+    width:90%;
   }
 }
 
