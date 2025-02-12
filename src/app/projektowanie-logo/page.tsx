@@ -78,7 +78,7 @@ const LogoDesignScreen = () => {
       <ProjectValue openModal={openModal} />
       <Gallery openModal={openModal} />
       <StepByStep />
-      <section className="logo-stef">
+      <section className="logo-stef mb-4">
       
       <FreeShops />
       <Enexo />
@@ -93,7 +93,7 @@ const LogoDesignScreen = () => {
       {/* <GPN /> */}
       {/* <NewCompany /> */}
       <section className="black-sec-form">
-        <div className="copywriter-ending-1 text-center">
+        <div className="copywriter-ending-1 text-center mt-0">
         Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />

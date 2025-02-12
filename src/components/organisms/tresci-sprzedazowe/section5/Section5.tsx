@@ -110,7 +110,7 @@ const Section5 = () => {
         </div>
         <div className="container copywriter-container-custom">
           <div className="row">
-            <div className="copywriting-white-text-cont col-md-6">
+            <div className="copywriting-white-text-cont col-md-7">
               <div className="copywriting-bg-white-header">
                 <strong>{knowMoreSection?.title} </strong>
               </div>
@@ -131,7 +131,7 @@ const Section5 = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <img
                 className="copywriter-ksiazka-img copywriter-rwd-mtb-40"
                 src={knowMoreSection?.bannar_image}

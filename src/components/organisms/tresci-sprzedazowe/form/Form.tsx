@@ -94,7 +94,7 @@ const Form = () => {
             placeholder="Opowiedz nam o swoim projekcie. Czego potrzebujesz? Zajmiemy się resztą!"
           />
 
-          <div className="d-flex wrapper-btn">
+          <div className="d-flex wrapper-btn justify-content-between align-items-center">
             <button
               type="submit"
               className="mi-btn download-catalog-button projects-opinion-button copywriter-blue-background copywriter-new-btn copywriter-standard-mt-10 send-offer-button js--triggerAnimation"

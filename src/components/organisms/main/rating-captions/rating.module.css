@@ -17,17 +17,21 @@
   padding: 0 50px;
   position: relative;
   width: 100%;
-  top: 0px;
+  top: 130px;
   z-index: -1;
   left: 0;
 }
 
 .ratingImg img {
   width: 250px;
+  position: relative;
+  left:-200px;
 }
 
 .ratingImg :nth-child(2) {
   width: 300px;
+  left: auto;
+  right:-200px;
 }
 
 .ratingLogoImg {
@@ -48,10 +52,12 @@
 }
 
 .ratingMainImg img {
-  width: 100%;
+  width: auto;
   height: auto;
-  margin: -310px auto -90px;
+  margin: -100px auto -90px;
   display: block;
+  max-height:702px;
+  max-width:100%;
 }
 
 .ratingMainImg p {
@@ -113,7 +119,13 @@
 .mobile {
   display: none;
 }
+
 /* -------------------------------media screen---------------------- */
+@media screen and (max-width: 1520px) {
+  .rating{margin-top:250px;}
+  .ratingImg {top:60%; max-width:97%; margin:0 auto;}
+}
+
 @media screen and (max-width: 1024px) {
   .ratingImg img {
     width: 200px;

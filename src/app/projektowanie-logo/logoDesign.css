@@ -223,8 +223,8 @@ p.projects-under-big-header {
 }
 
 .orange-link {
-  color: #009ad2;
-  border-bottom: 2px #009ad2 solid;
+  color: #00BFFF;
+  border-bottom: 2px #00BFFF solid;
   cursor: pointer;
   margin-top: 30px;
   font-size: 24px;
@@ -372,6 +372,13 @@ p.projects-under-big-header {
   font-size: 34px;
   line-height: 47px;
   font-weight: 300;
+
+  min-width: 1090px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  
 }
 
 .projects-theme-desc-p {
@@ -453,9 +460,8 @@ p.projects-under-big-header {
 }
 
 .projects-big-sub100 {
-  font-size: 179px;
-
-  line-height: 179px;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: 900;
   margin-bottom: 50px;
 }
@@ -667,7 +673,7 @@ margin: auto;
   font-size: 30px;
   text-align: center;
   font-weight: 900;
-  margin-top: 60px;
+  margin-top: 15px;
   margin-bottom: 70px;
 }
 .projects-clients-theme-subtitle:after{
@@ -747,7 +753,7 @@ margin: auto;
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  margin: 0px 0 40px;
+  margin: 0px 0 25px;
   line-height: 45px;
   max-width: 900px;
   margin-inline: auto;

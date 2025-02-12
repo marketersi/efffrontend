@@ -19,10 +19,10 @@ const Daco = () => {
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {DacoData?.subtitle}
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td">
+              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td mb-4">
                 {DacoData?.text1}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
               {DacoData?.text2}
               </p>
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">

@@ -4,7 +4,7 @@ import HomeScreen from './home/page';
 import styles from './page.module.css';
 
 export default function Home() {
-  const { isError } = useSelector((state) => state.home);
+  const { isError } = useSelector((state) => state?.home);
 
   return (
     <main>

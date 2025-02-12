@@ -25,7 +25,7 @@ const StepByStep = () => {
         <div className="container menu-target">
           <div className="row">
             <div className="col-md-12">
-              <h3 className="projects-krok-po-kroku no-after p-bottom-10">
+              <h3 className="projects-krok-po-kroku  no-after p-bottom-10 text-start">
                 {/* {title && title} */}
                 Przykładowe realizacje. 
                 <br/>
@@ -74,7 +74,7 @@ const StepByStep = () => {
             </div> */}
 
             <div className="col-md-12 projects-push-content-top">
-              <p className="theme-desc projects-theme-desc-p projects-push-top-50">
+              <p className="theme-desc projects-theme-desc-p projects-push-top-50 ">
                 {secondaryImageTitle && secondaryImageTitle}
               </p>
               <div className="image-810">
@@ -88,7 +88,7 @@ const StepByStep = () => {
                 )}
               </div>
 
-              <p className="theme-desc projects-theme-desc-p">
+              <p className="theme-desc projects-theme-desc-p mb-4">
                 {secondaryImageSubtitle && secondaryImageSubtitle}
               </p>
               <p className="theme-desc projects-theme-desc-p">

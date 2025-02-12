@@ -1,13 +1,15 @@
 .mainVideoDiv {
   position: relative;
+  margin-top:-4vw;
 }
 
 
 .mainVideoDiv video {
   margin: 0 auto;
-  border-radius: 50px;
-  width: 100%;
+  border-radius:0.9vw;
+  width: 50%;
   z-index: 0;
+  display: block;
 }
 
 .youtubeIcon {
@@ -41,6 +43,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .popup-content {
   background: white;
