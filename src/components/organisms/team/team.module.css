@@ -8,7 +8,7 @@
 
 .WidthContent{
   max-width:900px;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .bannerContent {
@@ -17,7 +17,7 @@
 
 .bannerHeading{
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 86px;
 }
 .textContentBg{
   background: #6d7278;
@@ -59,10 +59,7 @@
   margin: -340px 0 0 -230px;
 }
 
-.teamContent {
-  max-width: 900px;
-  margin: 70px auto;
-}
+.teamContent{max-width: 900px; margin: 70px auto 45px;}
 .teamContent1 {
   
   margin: 40px auto;
@@ -349,19 +346,15 @@ align-items: center;
     width: 115% !important;
 } */
 
-.caring {
-  padding: 0 0 0px;
-  width: 100%;
-  overflow: hidden;
-}
+
+.caring {padding: 0 0 0px; width: 100%; overflow: hidden;}
+.caring .cartRow{max-width: 1050px; margin:0 auto;}
 
 .caringCard {
-  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px #fff,
-    2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
-  width: 300px;
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px #fff, 2px 2px 2px 0px #fff inset, -2px -2px 2px 0px #c7c7c7 inset;
   border-radius: 20px;
   padding: 30px;
-  margin: 50px auto 0px;
+  margin: 50px 15px 15px;
   background: white;
 }
 
@@ -471,7 +464,7 @@ text-align: center;
 
 /* =======================Good Time===================== */
 .goodHeadingMain {
-  margin: 70px 0;
+  margin: 70px 0 85px;
 }
 
 .cardDataSpace {
@@ -610,6 +603,10 @@ text-align: center;
 
 
 /* -------------------------------------media screen -------------------------------- */
+@media only screen and (max-width: 1450px) {
+  .Support h4 {font-size:46px;}
+}
+
 @media only screen and (max-width: 1360px) {
   .bannerBottomContent img {
     margin: 0;
@@ -621,7 +618,7 @@ text-align: center;
   }
 
   .bannerHeading {
-    padding: 0px 100px 200px;
+    padding: 0px 100px 0px;
   }
 
   .overlay {
@@ -655,6 +652,8 @@ text-align: center;
   .cardCup {
     background-position: 165% -50px;
   }
+
+  
 }
 
 @media only screen and (max-width: 1024px) {

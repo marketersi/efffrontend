@@ -63,7 +63,7 @@ const FeedbackSection = ({ setCurrentComponent}) => {
   const handleNext = (e) => {
     e.preventDefault();
 
-    if (textAreaLetterCount < 50 || inputLetterCount < 10 || selectedOption) {
+    if (textAreaLetterCount < 50) {
       setIsModalOpen(true);
      
     } else {
@@ -81,8 +81,9 @@ const FeedbackSection = ({ setCurrentComponent}) => {
   return (
     <div className="feedback_section">
       <form onSubmit={handleNext}>
-        <h2 className="mb-2">{formThree?.form3_textareaTitle}</h2>
+        <h2 className="mb-3">{formThree?.form3_textareaTitle}</h2>
         {/* <p>{formThree?.form3_textareaSubtitle}</p> */}
+   
         <textarea
           rows="5"
           cols="50"

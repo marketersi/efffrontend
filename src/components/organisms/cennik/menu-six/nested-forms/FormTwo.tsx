@@ -71,7 +71,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
             outline: inputValue.length > 10 ? "none" : "",
           }}
         />
-        <button type="submit"  onClick={handleNext} className="cennikBtn">
+        <button type="submit"  className="cennikBtn">
         Ostatni krok
         </button>
       </form>

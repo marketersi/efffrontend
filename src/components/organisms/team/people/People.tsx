@@ -90,7 +90,7 @@ const People = () => {
             }}
             href="#"
           >
-            Umów bezpłatną konsultację.
+            Umów bezpłatną konsultację
             
           </a>
         </div>
