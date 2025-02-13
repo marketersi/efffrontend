@@ -6,9 +6,11 @@
   
 }
 
-.WidthContent{
-  max-width:900px;
-  margin: 0 auto;
+@media(min-width:1451px){
+  .WidthContent{
+    max-width:900px;
+    margin: 0 auto;
+  } 
 }
 
 .bannerContent {
@@ -605,6 +607,7 @@ text-align: center;
 /* -------------------------------------media screen -------------------------------- */
 @media only screen and (max-width: 1450px) {
   .Support h4 {font-size:46px;}
+  .bannerBottomContent h2 {font-size:58px;}
 }
 
 @media only screen and (max-width: 1360px) {
