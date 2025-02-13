@@ -44,17 +44,18 @@ const FormZero = ({ setCurrentComponent }) => {
 
   const handleSelectChange = (selectedOption) => {
     setSelectedOption(selectedOption);
-    if (
-      selectedOption &&
-      selectedOption.value === dropdown[dropdown.length - 1].value
-    ) {
-      setIsModalOpen(true);
-    }
+    // if (
+    //   selectedOption &&
+    //   selectedOption.value === dropdown[dropdown.length - 1].value
+    // )
+    //  {
+    //   setIsModalOpen(true);
+    // }
   };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  // const closeModal = () => {
+  //   setIsModalOpen(false);
+  // };
 
   const dispatch = useDispatch();
 
@@ -139,7 +140,7 @@ const FormZero = ({ setCurrentComponent }) => {
       </motion.button>
 
       {/* Modal */}
-      <CennikModal isOpen={isModalOpen} onRequestClose={closeModal} />
+      {/* <CennikModal isOpen={isModalOpen} onRequestClose={closeModal} /> */}
     </div>
   );
 };

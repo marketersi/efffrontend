@@ -42,7 +42,7 @@ const  osClass = useOsClass();
           <Row className='align-items-center'>
             <Col xxl={7} lg={7} className="order-lg-1 order-2">
               <div className={style.BannerBotHeading}>
-                <h4>{herosection?.sub_title}</h4>
+                <h4 className='mt-0'>{herosection?.sub_title}</h4>
                 <h2>{herosection?.title_2}</h2>
               </div>
             </Col>

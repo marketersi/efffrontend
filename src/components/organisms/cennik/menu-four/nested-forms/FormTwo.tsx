@@ -21,8 +21,34 @@ const FeedbackSection = ({ setCurrentComponent }) => {
   const [textAreaValue, setTextAreaValue] = useState("");
   const [dropdownValue, setDropdownValue] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+ const [inputValue, setInputValue] = useState("");
   const dispatch = useDispatch();
+
+     // Count the number of letters (excluding spaces) in the textarea and input field
+ const textAreaLetterCount = textAreaValue.replace(/\s+/g, '').length;
+ const inputLetterCount = inputValue.replace(/\s+/g, '').length;
+
+  const handleNext = (e) => {
+
+    e.preventDefault();
+
+    const payload = {
+      formTwoTextAreaValue: textAreaValue,
+      formTwoDropdownValue: selectedOption?.value,
+    };
+console.log(payload , 'payloadpayload')
+
+    if (textAreaLetterCount < 50) {
+      setIsModalOpen(true);
+      console.log('sdasdasds'  ,textAreaLetterCount)
+    } 
+    else {
+     
+      dispatch(savePriceListFormData(payload));
+      setCurrentComponent(3);
+    }
+  };
+
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -55,20 +81,6 @@ const FeedbackSection = ({ setCurrentComponent }) => {
     setSelectedOption(option);
   };
 
-  const handleNext = (e) => {
-    e.preventDefault();
-
-    if (textAreaValue && selectedOption) {
-      const payload = {
-        formTwoTextAreaValue: textAreaValue,
-        formTwoDropdownValue: selectedOption.value,
-      };
-      dispatch(savePriceListFormData(payload));
-      setCurrentComponent(3);
-    } else {
-      setIsModalOpen(true);
-    }
-  };
 
   
 
@@ -130,7 +142,7 @@ const FeedbackSection = ({ setCurrentComponent }) => {
           />
         </div>
         </div>
-        <button type="submit" className="cennikBtn">
+        <button type="submit"  className="cennikBtn">
         Ostatni krok
         </button>
       </form>
