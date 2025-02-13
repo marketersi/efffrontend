@@ -50,6 +50,7 @@ const NazwaDlaFirmy = () => {
       <ImplementationExamples />
 
       <NazwaFooter />
+      
       <ToastContainer />
     </>
   );

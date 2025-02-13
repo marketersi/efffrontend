@@ -18,7 +18,7 @@ const NazwaHero = () => {
       <div className="nazwaContainer">
         <div className="top-section-banner-text container-fluid1 UXBannerContainer banner-nazwa">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-6">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
                 {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
                 Nazwij Swoją <span className="indent-20">
@@ -32,18 +32,24 @@ const NazwaHero = () => {
                 </span>
                 </h1> */}
                 <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
-                  Nazwij Swoją
+                  {/* Nazwij Swoją
                   <br />
                   Przyszłość
+                  <br /> */}
+                  Stwórzmy nazwę, która
                   <br />
-                  z Marketersi. <br /> Nazwy, Które <br /> Definiują Sukces.
+                  wyrazi charakter Twojej firmy.
+                  {/* z Marketersi. <br /> Nazwy, Które <br /> Definiują Sukces. */}
                 </h1>
                 <h2 className="nazwa-heading">
-                  Nasze nazwy <br /> nie tylko przyciągają uwagę, <br /> ale
-                  pozostają w pamięci na lata.
+                Nazwy, które realnie wspierają wzrost marki.
+                Nasze propozycje pozostają w pamięci na lata.
                 </h2>
                 <h2 className="nazwa-heading">
-                  Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy
+                Gwarantujemy 100% satysfakcji –
+                <br/>
+                tworzymy, aż Cię zachwycimy.
+
                 </h2>
               </div>
               <div className="catalog-submit-button text-left projects-catalog-submit-buttom">
@@ -56,7 +62,8 @@ const NazwaHero = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-6">
+          
               {/* <ReactPlayer
                 url={heroSection?.background_video}
                 playing={true}

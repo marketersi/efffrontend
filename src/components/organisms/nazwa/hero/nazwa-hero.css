@@ -8,12 +8,14 @@
 .nazwa-heading {
   font-weight: 300;
   margin-top: 30px;
+  font-size: 24px;
+  line-height: 32px;
 }
 .banner-btn {
   margin-left: 0px !important;
 }
 .banner-nazwa {
-  padding: 0px 1.5rem;
+  padding: 0px 50px;
 }
 .projects-custom-container1 {
   max-width: 900px !important;

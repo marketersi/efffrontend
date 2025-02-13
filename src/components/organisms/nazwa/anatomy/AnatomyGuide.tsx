@@ -47,7 +47,7 @@ const AnatomyGuide = () => {
                   </p>
 
                   <img
-                    className="projects-logotypy-prasa custom-bottom-margin2"
+                    className="projects-logotypy-prasa custom-bottom-margin2 widthsmaller"
                     src={anatomy_guide?.banner_url}
                     title="Logotypy prasy, opinie o firmie Owocni"
                     alt="Jak nazwać firmę? Prasa o naszych efektach"
