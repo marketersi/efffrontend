@@ -53,7 +53,7 @@ const ImplementationExample2 = () => {
           title="Przykład tego jak stworzyć dobrą nazwę"
           alt="Projektowanie logo dla Iglarek"
         />
-        <p className="theme-desc projects-margin-top">
+        <p className="theme-desc changefont projects-margin-top">
           {example1?.para_4} 
         </p>
 

@@ -42,7 +42,7 @@ const ImplementationEx3 = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <h5 className="theme-quote theme-desc text-left signed-quote signed-quote-image names-quote-fsize pnazw-names-quote-margin">
+                  <h5 className="theme-quote theme-desc text-left signed-quote signed-quote-image names-quote-fsize pnazw-names-quote-margin removeItalic">
                     {/* {item?.quote} */}
                     Avron doskonale uosabia ambicje firmy Pana Michała – mocny
                     fundament, gotowy na globalną ekspansję. To nie tylko nazwa,

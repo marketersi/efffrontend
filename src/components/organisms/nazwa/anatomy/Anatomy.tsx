@@ -9,7 +9,7 @@ const Anatomy = () => {
       <div className="container projects-custom-container1">
         <div className="row">
           <div className="col-md-12">
-            <h2 className="projects-big-header custom-projects-margin-top custom-font-size">
+            <h2 className="projects-big-header custom-projects-margin-top custom-font-size text-center">
               {/* {anatomy?.title} */}
              
               Twoja marka <br/> to więcej niż tylko biznes - <br/> to opowieść, <br/> która czeka, <br/> aby zostać opowiedziana.

@@ -14,20 +14,11 @@ const ProjectValue = () => {
                 className="projects-custom-container-gray menu-target"
                 id="sec2"
               >
-                <h1 className="names-big-header naming-padding-valuation pnazw-custom-header">
+                <h1 className="names-big-header naming-padding-valuation pnazw-custom-header mb-3">
                   {project_value?.title}
                 </h1>
               </div>
-              <p className="theme-desc projects-theme-desc-p names-left-padding projects-thematic-section-background-index">
-                {/* {project_value?.description} */}
-                <span className="descriptiob-bold">
-                  {" "}
-                  Nazwę, która inspiruje:
-                </span>{" "}
-                Przekształcimy Twoje wartości i wizję w nazwę, która będzie
-                inspirować i motywować do działania, stając się siłą napędową
-                Twojej marki.
-              </p>
+            
             </div>
           </div>
         </div>
@@ -35,7 +26,7 @@ const ProjectValue = () => {
         <div className="projects-custom-container-gray new-wierzymy">
 
         <div>
-            <p className="theme-desc text-center projects-gray-section-custom-font projects-gray-section-valuation projects-thematic-section-background-index projecs-big-wierzymy-label">
+            <p className="theme-desc text-left projects-gray-section-custom-font projects-gray-section-valuation projects-thematic-section-background-index projecs-big-wierzymy-label">
               {/* {project_value?.offer_title} */}
               <span className="descriptiob-bold">
                 {" "}
@@ -45,7 +36,18 @@ const ProjectValue = () => {
               długoterminowy sukces i rozwój na rynku.
             </p>
 
-            <p className="theme-desc projects-theme-desc-p names-left-padding projects-thematic-section-background-index d-sm-block d-none">
+            <p className="theme-desc text-left projects-theme-desc-p names-left-padding projects-thematic-section-background-index">
+                {/* {project_value?.description} */}
+                <span className="descriptiob-bold">
+                  {" "}
+                  Nazwę, która inspiruje:
+                </span>{" "}
+                Przekształcimy Twoje wartości i wizję w nazwę, która będzie
+                inspirować i motywować do działania, stając się siłą napędową
+                Twojej marki.
+              </p>
+
+            <p className="theme-desc text-left projects-theme-desc-p names-left-padding projects-thematic-section-background-index d-sm-block d-none">
               <span className="descriptiob-bold">Gwarancję Zadowolenia:</span>
               Nie ustajemy, dopóki nie znajdziemy tej perfekcyjnej nazwy, która
               spełni wszystkie Twoje oczekiwania.

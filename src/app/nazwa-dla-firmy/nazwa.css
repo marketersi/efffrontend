@@ -16,8 +16,8 @@
   display: block;
   font-weight: 700;
   margin: 0px 0px 20px;
-  line-height: 85px;
-  font-size: 85px;
+  line-height: 46px;
+  font-size: 36px;
   color: #333;
 }
 .indent-20 {
@@ -336,7 +336,7 @@ padding-top: 10px;
 }
 .new-wierzymy {
   position: relative;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   overflow: visible;
   display: flex;
@@ -362,11 +362,10 @@ padding-top: 10px;
 .iglarki-section-main-header {
   font-size: 85px;
   line-height: 77px;
-  
   padding-bottom: 70px;
- 
+  font-weight:700;
   color: #333;
-  text-align: center;
+  text-align:start;
   position: relative;
   margin-top: 70px;
   max-width: 1100px;
@@ -406,7 +405,7 @@ padding-top: 10px;
 .names-client-name.iglarki-cname:after {
   background: var(--brand-blue);
   width: 168px;
-  height: 10px;
+  height: 6px;
   content: "";
   position: absolute;
   left: calc(50% - 84px);
@@ -456,7 +455,7 @@ padding-top: 10px;
 }
 #sec2 .copywriter-intro-bg-5-label{
   font-size: 84px;
-  line-height: 100px;
+  line-height: 84px;
   font-weight: 500;
   max-width: 900px;
   margin: auto;
@@ -528,6 +527,8 @@ section.projects-gray-opinion-4 {
 .projects-empty-opinion-box {
   display: none;
 }
+
+.custom-font-size.text-center{text-align: center !important;}
 /* ------------------------------------media screen------------------------------- */
 @media only screen and (max-width: 1024px) {
   .nazwa_footer_Time_btn {
@@ -976,3 +977,9 @@ section.projects-gray-opinion-4 {
   padding: 0 10px;
 }
 }
+
+.widthsmaller{max-width:75%; margin:0 auto; display: block;}
+.removeItalic{font-style: normal;}
+.names-list-info.theme-desc{list-style-type:none !important;}
+.names-list-info.theme-desc li:before{content: ''; display: inline-block; width: 10px; height: 10px; background: #212529; border-radius: 10px; margin: 0 9px 5px 0;}
+.names-list-info.theme-desc li::marker{display: none !important;}

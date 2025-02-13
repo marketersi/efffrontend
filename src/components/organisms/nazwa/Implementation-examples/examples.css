@@ -38,6 +38,10 @@
   float: right;
 }
 
+.projects-opinion-2, .projects-opinion-4{left:50%;}
+.opinion-box-content-left.projects-opinion-2, .opinion-box-content-left.projects-opinion-4{left:0;}
+
+
 @media (min-width: 992px) {
   .rwd-opinion-image {
     display: none;
@@ -416,6 +420,13 @@
 .nazwa_cardtwo_text {
   color: #b7bcc1;
 }
+
+.theme-desc.changefont {
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 400;
+}
+
 
 @media (max-width: 768px) {
   .naming-seo-img img {
