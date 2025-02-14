@@ -392,6 +392,8 @@ strong {
   text-decoration: none;
 }
 
+.copywriter-container-custom .copywriting-bg-white-subheader-link {font-size:16px; line-height:21px; font-family:'Roboto';}
+
 .copywriter-ksiazka-img {
   width: 100%;
 }
@@ -526,6 +528,11 @@ img.copywriter-owocni {
   max-width: 635px;
 
   margin: 70px auto 60px;
+}
+
+.prywidthManage {
+  max-width: 1050px;
+  text-align: center;
 }
 
 .copywriter-custom-subheader-2 {

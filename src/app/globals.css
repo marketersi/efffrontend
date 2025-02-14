@@ -621,8 +621,12 @@ margin-bottom: 40px;
   }
   .OurClients_Slide_Title {
     font-size: 24px !important;
-    line-height: 30px !important;
+    line-height: 24px !important;
     padding-top: 0 !important;
+    margin-bottom:40px;
+  }
+  .OurClients_Slide_Button_Text {
+    font-size:20px;
   }
   .OurClients_Slide {
     margin-bottom: 0;
@@ -708,6 +712,7 @@ video {
 .win video {
   -webkit-filter: contrast(0.999);
   filter: contrast(0.999);
+  display: block;
 }
 .windos video{
   margin-left: -30px;
@@ -794,6 +799,15 @@ video {
     width: 90vw!important;
     max-width: 100%;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .header_menuIcon__1Ry8m{font-size:2rem !important;}
+  .header_menuIcon__1Ry8m span{display: inline-block; vertical-align: middle; font-size:16px !important; margin:-3px -2px 0 0;}
+  .header_mobileMenuList__oB1gu li{border-radius:30px !important;}
+  .header_MobileDropdownBtn__frA0g, .header_mobileMenuList__oB1gu li a{font-size:clamp(1px,5vw,24px) !important;}
+  .WidthContent, .WidthContent1, .container{width:92vw !important; max-width:92vw !important; margin:0 auto !important;}
+  
 }
 
 

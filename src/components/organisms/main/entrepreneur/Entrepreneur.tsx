@@ -33,7 +33,7 @@ const Entrepreneur = () => {
             <p>{section1?.paragraph_1}</p>
 
             <p>{section1?.paragraph_2}</p>
-            <p>{section1?.paragraph_3}</p>
+            <p className="text-semibold">{section1?.paragraph_3}</p>
             <h4>{section1?.subtitle_2}</h4>
             <p>{section1?.paragraph_4}</p>
             <p>{section1?.paragraph_5}</p>

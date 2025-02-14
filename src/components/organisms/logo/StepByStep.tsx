@@ -25,7 +25,7 @@ const StepByStep = () => {
         <div className="container menu-target">
           <div className="row">
             <div className="col-md-12">
-              <h3 className="projects-krok-po-kroku  no-after p-bottom-10 text-start">
+              <h3 className="projects-krok-po-kroku  no-after p-bottom-10">
                 {/* {title && title} */}
                 Przykładowe realizacje. 
                 <br/>
@@ -100,7 +100,7 @@ const StepByStep = () => {
           </div>
           <div className="container">
           <div className="col-md-12">
-            <h5 className="theme-quote signed-quote signed-quote-image">
+            <h5 className="theme-quote signed-quote signed-quote-image mb-4">
             „Logo stworzone dla nas to kwintesencja profesjonalizmu i dbałości o detale. Subtelne, nowoczesne i eleganckie – dokładnie tak, jak chcemy być postrzegani przez naszych pacjentów. Jesteśmy zachwyceni!”
             </h5>
             <p className="signature">– Kaja Barciś, właścicielka gabinetu

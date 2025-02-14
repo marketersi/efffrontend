@@ -67,7 +67,7 @@ const Sales = () => {
       <PriceList />
       <Form />
       <div
-        className="copywriter-custom-header-2 text-left copywriter-cmargin-4 menu-target"
+        className="copywriter-custom-header-2 text-left copywriter-cmargin-4 menu-target prywidthManage"
         id="sec2"
       >
         {/* {projectSection1?.title} */}

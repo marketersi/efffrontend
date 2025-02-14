@@ -40,7 +40,7 @@ useEffect(() => {
 
   return (
     <div className="ResultTable WidthContent">
-      <div className="ResultTable_Title mt-0">Nasze strategie<br/> napędzają biznesy<br/> – zobacz je w akcji:</div>
+      <div className="ResultTable_Title mt-0 manage-space">Nasze strategie<br/> napędzają biznesy<br/> – zobacz je w akcji:</div>
       <div className="ResultTable_Table feature">
         {ResultTable?.resultCard.map((item) => (
           <div className="ResultTable_Table_Row" key={item.id}>

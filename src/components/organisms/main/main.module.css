@@ -73,6 +73,8 @@
   margin: 40px 0 40px;
 }
 
+
+
 .Content p span {
   font-weight: 500;
 }
@@ -84,6 +86,7 @@
 .videoContainer{
   width:950px;
   margin: auto;
+  max-width:100%;
 }
 
 
@@ -342,8 +345,8 @@ img.hardImg {
 
 @media screen and (max-width: 767px) {
   .Content h2 {
-    font-size: 35px !important;
-    margin: 20px 0 10px 0px;
+    font-size: 33px !important;
+    margin: 40px 0 10px 0px;
     line-height: 32px;
   }
   .Content h4{
@@ -426,6 +429,7 @@ img.hardImg {
     line-height: 32px;
     margin-bottom: 20px;
   }
+  .Content p.text-semibold{font-weight: 500; margin-bottom: 28px;}
   .Content p:first-child{
     margin-top: 20px;
   }
@@ -441,4 +445,7 @@ img.hardImg {
   .pinkBG{
     padding-top: 0;
   }
+
+  .WidthContent, .WidthContent1{margin:0;}
+  
 }

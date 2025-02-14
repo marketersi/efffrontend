@@ -11,6 +11,8 @@ export default function SurveyModal(props) {
 
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { Form } = screenData?.cardMenu?.MenuTwo || {};
+  console.log(Form , 'Form-dsaaaaaaaaaaaaaaaaa')
+  console.log(screenData?.cardMenu?.MenuTwo , 'Form-dsaaaaaaaaaaaaaaaaaddddddddddddddd')
 
   return (
     <ReactModal

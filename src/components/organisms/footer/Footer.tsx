@@ -39,7 +39,7 @@ const Footer = () => {
                     </Link>
                     <Link href="/video-marketing">
                       {" "}
-                      Wideo marketing
+                      Video marketing
                     </Link>
                     <Link href="/kreatywny-montaz-wideo">
                       Kreatywny montaż wideo

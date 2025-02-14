@@ -46,7 +46,7 @@
 .ClinetsPara {
   font-size: 22px;
   text-align: center;
-  line-height: 42px;
+  line-height: 22px;
   margin-bottom: 40px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .OurClients_Slide_Media_Video img {
-  width: 150px;
+  width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -97,7 +97,7 @@
   .ClinetsPara {
     font-size: 22px;
     text-align: center;
-    line-height: 42px;
+    line-height: 22px;
     margin-bottom: 20px;
   }
   .OurClients_Slide_Img{
@@ -107,6 +107,12 @@
     margin-left:0;
   }
   .OurClients_Slide_Media_Video img {
-    width: 90px;
+    width: 150px;
 }
+}
+@media (max-width: 767px) {
+  .WidthContent, .WidthContent1{margin:0;}
+}
+@media (max-width: 600px) {
+
 }
