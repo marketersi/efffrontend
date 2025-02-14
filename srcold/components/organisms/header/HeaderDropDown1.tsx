@@ -16,10 +16,10 @@ const HeaderDropDown1 = () => {
                   Tworzenie stron i design UX
                 </Link>
                 <Link href="/profesjonalne-nagrywanie-filmow">
-                  Video marketing
+                  Wideo marketing
                 </Link>
                 <Link href="/Kreatywny-montaz-video">
-                  Kreatywny montaż video
+                  Kreatywny montaż Wideo
                 </Link>
               </div>
             </Col>

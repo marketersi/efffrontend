@@ -25,7 +25,7 @@ const Daco = () => {
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
               {DacoData?.text2}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
               {DacoData?.text3}
               </p>
             </div>
@@ -46,7 +46,7 @@ const Daco = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74">
+              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74 mb-4">
                 {DacoData?.quote}
               </h5>
             </div>
@@ -57,7 +57,7 @@ const Daco = () => {
           <div className="row">
             <div className="col-md-12">
               <p className="signature">{DacoData?.quoteAuthor}</p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mt-0 mb-4">
                 {DacoData?.quoteText}
               </p>
             </div>

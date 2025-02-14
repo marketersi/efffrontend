@@ -198,16 +198,16 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
   .hero h1 {
-    font-size: 60px;
-    line-height: 70px;
-    width: 80%;
+    font-size: 50px;
+    line-height: 60px;
+    width: 90%;
   }
 
   .heroVideo {
     background: #f4f4f4;
-    padding: 170px 0 200px;
+    padding: 0 0 30px;
   }
 
   .heroImg1 {
@@ -237,23 +237,45 @@
   }
 
   .heroBtn {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
+    margin: 30px auto 0;
+    width:100%;
+    text-align: center;
   }
   .heroBtn button {
     padding: 10px 40px;
     font-size: 16px;
   }
 
+  .heroBtn a span {
+    font-size: 16px;
+  }
+
   .heroBtn a {
-    padding: 0px 0 20px 0px;
+    padding: 0px;
+    margin:0;
     justify-content: center;
+    display: inline-flex;
+    align-items: center;
   }
 
   .hero {
-    max-height: 650px;
+    max-height:620px;
+    padding-bottom:150px;
   }
+  
+  .heroVideo{min-height:100vh; overflow: hidden;}
+  .heroVideo:before{display: none;}
+  .heroVideo video{height:100% !important; min-height:100vh !important; object-fit: cover;}
+  .bannerVideoMain{margin:0 15px;}
+}
+
+@media screen and (max-width: 991px) {
+  .heroVideo{padding-top:0;}
+  .hero h1{font-size:36px; line-height:46px;}
+  .hero h6{font-size:24px; line-height:32px; margin-top:10px;}
+  .subtitleContainer{margin-top:0;}
+
+  .hero {max-height:none; min-height:100vh;}
 }
 
 @media screen and (max-width: 767px) {
@@ -277,7 +299,7 @@
 
   .hero h1 {
     font-size: 35px;
-    line-height: 45px;
+    line-height: 35px;
     width: 100%;
   }
 
@@ -355,9 +377,17 @@
     width: 180px;
   }
   .heroVideo {
-    padding: 180px 0 340px;
+    padding: 180px 0 0;
   }
   .hero {
     max-height: 580px;
+    margin-bottom:0;
+    padding-bottom:0;
   }
+  .heroBtn{display:block;}
+  .heroBtn a{margin-bottom:12px;}
+  .heroBtn a button, .heroBtn .umow {border-width:4px; padding:2px 20px; font-size:16px;}
+
+  
+  
 }

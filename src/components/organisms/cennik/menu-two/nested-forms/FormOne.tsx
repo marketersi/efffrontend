@@ -190,6 +190,7 @@ const FormOne = ({ setCurrentComponent, form }) => {
           />
           <CustomModal isOpen={isModalOpen} onRequestClose={closeModal} />
         </div>
+        
         <motion.button
           className="cennikBtn"
           whileHover={{ translateY: 5 }}

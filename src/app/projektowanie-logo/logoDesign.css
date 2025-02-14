@@ -223,8 +223,8 @@ p.projects-under-big-header {
 }
 
 .orange-link {
-  color: #00BFFF;
-  border-bottom: 2px #00BFFF solid;
+  color: #009ad2;
+  border-bottom: 2px #009ad2 solid;
   cursor: pointer;
   margin-top: 30px;
   font-size: 24px;
@@ -674,12 +674,12 @@ margin: auto;
   text-align: center;
   font-weight: 900;
   margin-top: 15px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .projects-clients-theme-subtitle:after{
   background: var(--brand-blue);
   width: 240px;
-  height: 10px;
+  height: 6px;
   content: "";
   position: absolute;
   left: calc(50% - 115px);
@@ -710,11 +710,11 @@ margin: auto;
   margin-bottom: 60px;
   font-family: "Playfair Display", serif;
   padding: 0px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .projects-theme-title-2.text-left.projects-custom-theme-desc{
   max-width: 900px;
-  margin: 50px auto 60px;
+  margin: 30px auto 60px;
 }
 
 .z-index-2 {

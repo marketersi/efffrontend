@@ -126,8 +126,12 @@ const Section5 = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {/* {knowMoreSection?.bottom_text} */}
-                  Kliknij tutaj, aby pobrać (PDF)
+                 <span className="orange-link" style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '21px' , color:'#00BFFF' }}>
+                    <strong>
+                      Kliknij tutaj, aby pobrać (PDF)
+                     </strong>
+
+                    </span>1
                 </a>
               </div>
             </div>

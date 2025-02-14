@@ -4,9 +4,14 @@ import FormTwo from "./nested-forms/FormTwo";
 import FormThree from "./nested-forms/FormThree";
 import "../cennikCards.css";
 import FormZero from "./nested-forms/FormZero";
+import { useSelector } from "react-redux";
 
 const CardTwo = ({ form }) => {
   const { Section1, Section2, Section3, Section4 } = form || {};
+
+  const { isLoading, screenData } = useSelector((state) => state.priceList);
+  const { Form1 } = screenData?.cardMenu?.MenuTwo || {};
+  console.log(Form1 , 'Form1Form1')
 
   const [currentComponent, setCurrentComponent] = useState(0);
 

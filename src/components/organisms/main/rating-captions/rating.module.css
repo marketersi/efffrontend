@@ -19,19 +19,20 @@
   width: 100%;
   top: 130px;
   z-index: -1;
+  
   min-width: 1680px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .ratingImg img {
-  width: 250px;
+  width: 310px;
   position: relative;
   /* left:-200px; */
 }
 
 .ratingImg :nth-child(2) {
-  width: 300px;
+  width: 440px;
   left: auto;
   /* right:-200px; */
 }
@@ -58,8 +59,7 @@
   height: auto;
   margin: -100px auto -90px;
   display: block;
-  max-height:702px;
-  max-width:100%;
+  max-width:1039px;
 }
 
 .ratingMainImg p {
@@ -103,7 +103,7 @@
 
 .ratingCOntent p {
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   color: #333333;
   line-height: 50px;
@@ -125,13 +125,19 @@
 /* -------------------------------media screen---------------------- */
 @media screen and (max-width: 1520px) {
   .rating{margin-top:250px;}
-  .ratingImg {top:60%; max-width:97%; margin:0 auto;}
+  .ratingImg {top:70%; max-width:97%; margin:0 auto; min-width:1366px; padding:0;}
+  .ratingMainImg img {margin-top:-180px;}
+  .ratingLogoImg img{width:70%;}  
+  
 }
+
 
 @media screen and (max-width: 1024px) {
   .ratingImg img {
     width: 200px;
   }
+
+  .ratingImg{min-width:1024px;}
 
   .ratingImg :nth-child(2) {
     width: 250px;
@@ -150,7 +156,15 @@
     padding: 100px 0 0;
   }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width:991px) {
+  .ratingImg{top:40%; min-width:1px; width:100%; margin-top:-50px;}
+  .ratingCOntent h2{font-size:45px; margin-bottom:0;}
+  .ratingCOntent p{font-size:22px; line-height:32px; margin-bottom:0;}
+  .rating{margin-bottom:0px;}
+}
+
+  @media screen and (max-width: 767px) {
   .mobile {
     display: block;
   }
@@ -182,7 +196,7 @@
   }
   .ratingCOntent h2 {
     font-size: 40px;
-    line-height: 55px;
+    line-height: 40px;
   }
 
   .ratingMainImg img {
@@ -192,4 +206,10 @@
     font-size: 12px;
     padding: 5px 10px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .rating {margin-top: 110px; margin-bottom:0;}
+  .rating h2{font-size:30px; line-height:26px; margin-bottom:15px;}
+  .ratingCOntent p {text-align: left;}
 }

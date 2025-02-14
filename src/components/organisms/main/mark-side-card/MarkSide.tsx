@@ -37,7 +37,7 @@ const MarkSide = () => {
     <div>
       <Container>
         <Row className={style.gapRow}>
-          <Col md={4} className={style.gapRowCol}>
+          <Col lg={4} md={12} className={style.gapRowCol}>
             <ReactPlayer
               url={companySection?.image_2}
               playing={true}
@@ -51,7 +51,7 @@ const MarkSide = () => {
             />
             <Card data={companyCard[0]} links={links1} />
           </Col>
-          <Col md={4} className={style.midColumn}>
+          <Col lg={4} md={12} className={style.midColumn}>
             <div className={style.mark}>
               <Image
                 className={`${osClass} additional-class`}
@@ -63,7 +63,7 @@ const MarkSide = () => {
             </div>
             <Card data={companyCard[1]} links={links2} />
           </Col>
-          <Col md={4} className={`${style.gapRowCol}`}>
+          <Col lg={4} md={12} className={`${style.gapRowCol}`}>
             <div className={style.mark}>
               <Image
                 src={companySection?.image_3}

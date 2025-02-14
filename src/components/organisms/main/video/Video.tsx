@@ -134,19 +134,22 @@ const Video = () => {
         .close-btn {
           position: absolute;
           top: 0px;
-          right:11%;
-          background: #00bfff;
+          right:12.5%;
+          background:transparent;
           color: white;
           border: none;
           border-radius: 5px;
-          padding: 10px 15px;
+          padding:5px;
           cursor: pointer;
           font-weight: 900;
+          display:none;
         }
 
         .close-btn:hover {
-          background: darkred;
+          background:transparent;
         }
+
+        .popup-content:hover .close-btn{display:block}
       `}</style>
     </>
   );

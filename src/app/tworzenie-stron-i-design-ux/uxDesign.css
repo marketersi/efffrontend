@@ -2608,18 +2608,31 @@ video.mobileVideo {
 
 
 /* ----------------------------------media screen ----------------------- */
+@media only screen and (min-width: 1451px) {
+  .col-xxl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .col-xxl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1450px) {
 }
 
 @media only screen and (max-width: 1366px) {
   .UXheroVideo {
-    width: 80% !important;
+    width:100% !important;
     margin-inline: auto;
   }
 
   #header > div div .titleHead {
-    padding-left: 130px;
+    padding-left: 0;
+    margin-bottom:15px;
+    font-size:60px;
+    line-height:60px;
   }
 
   #header > div div .titleHead .UX {
@@ -2630,14 +2643,13 @@ video.mobileVideo {
     margin-left: 0px;
   }
 
-  #header > div div .subitle {
-    margin-left: 140px;
-  }
 
   #header > div div .subitle:nth-child(3) {
     padding-left: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top:10px;
   }
+  .buttonux{margin-top:15px;}
 }
 
 @media only screen and (max-width: 1024px) {

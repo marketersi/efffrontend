@@ -85,8 +85,9 @@ const Form = () => {
             />
             <input
               placeholder="Nr. tel i dogodna pora kontaktu"
-              pattern="\d{7,15}"
+            //  pattern="\d{7,15}"
               {...register("phone")}
+              
             />
           </div>
           <textarea

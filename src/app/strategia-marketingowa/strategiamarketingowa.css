@@ -1,6 +1,6 @@
 /* 1. MainHeading */
 .MainHeading {
-  margin: 30px 60px 70px;
+  margin: 0px 75px 70px;
 }
 
 .MainHeading_Container {
@@ -71,11 +71,6 @@
   outline: none;
 }
 
-.price-card-title-image {
-  max-height: 150px;
-  align-self: anchor-center;
-  margin-bottom: -30px;
-}
 
 @media screen and (max-width: 799px) {
   .MainHeading_Container {
@@ -192,6 +187,10 @@
   justify-content: center;
 }
 
+.OurClients_Slide_Content{
+  min-height:532px;
+}
+
 /* 5. ResultTable */
 .ResultTable {
   margin-bottom: 100px;
@@ -201,7 +200,7 @@
   font-size: 85px;
   font-weight: 700;
   line-height: 77px;
-  margin-bottom: 90px;
+  margin-bottom: 85px;
   text-align: center;
   margin-top: 70px;
 }
@@ -1793,7 +1792,15 @@ img.strategyImg {
   height: auto;
 }
 /* -----------------------------------------media screen ------------------------------------------------- */
+@media(max-width:1500px)
+{
+  .manage-space {
+    margin-top:50px !important;
+  }
+}
 @media only screen and (max-width: 1360px) {
+
+
   .MainHeading_Container {
     display: flex;
     flex-direction: column;

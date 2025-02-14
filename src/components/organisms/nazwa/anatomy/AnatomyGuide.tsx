@@ -60,7 +60,12 @@ const AnatomyGuide = () => {
                       className="red-link d-block"
                       target="_blank"
                     >
+                      <span className="orange-link" style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '21px' , color:'#00BFFF' }}>
+                    <strong>
                       Kliknij tutaj, aby pobrać (PDF)
+                     </strong>
+
+                    </span>
                     </a>
                   </p>
                 </div>
