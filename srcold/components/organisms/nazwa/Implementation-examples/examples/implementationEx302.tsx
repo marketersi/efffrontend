@@ -13,8 +13,8 @@ const ImplementationEx302 = () => {
             className="container names-custom-container projects-push-content-top"
             key={index}
           >
-            <div className="row">
-              <div className="col-md-12 text-center">
+            <div className="naming-seo-img">
+              <div className="text-center">
                 <div className="underline-down names-client-name copywriter-cname cname-big-mtop cname-pb">
                   {item?.title}
                 </div>

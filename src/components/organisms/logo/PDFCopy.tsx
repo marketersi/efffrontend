@@ -72,7 +72,7 @@ const PDFCopy = () => {
                     target='_blank'
                     style={{ textDecoration: 'none' }}
                   >
-                    <span className="orange-link" style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '21px' , color:'#00BFFF' }}>
+                    <span className="orange-link" style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '21px' , color:'#00BFFF',borderColor:'#00BFFF' }}>
                     <strong>
                       Kliknij tutaj, aby pobrać (PDF)
                      </strong>

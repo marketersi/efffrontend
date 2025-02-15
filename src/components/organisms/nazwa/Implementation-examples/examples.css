@@ -392,8 +392,8 @@
   content: '';
   position: absolute;
   bottom: -5px;
-  left: calc(50% - 84px);
-  width: 170px;
+  left: calc(50% - 120px);
+  width: 240px;
   border-bottom: 6px solid var(--brand-blue);
 }
 

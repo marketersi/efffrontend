@@ -7,7 +7,7 @@ const ImplementationExample1 = () => {
   const { example1 } = implementation || {};
   return (
     <section className="projects-thematic-section-gray menu-target" id="sec3">
-      <div className="iglarki-section-main-header  pnazw-custom-lineheight text-left">
+      <div className="iglarki-section-main-header  pnazw-custom-lineheight text-center">
         <span className="">
           {/* <strong>{bnc_implementation?.title}</strong> */}
           Przykładowe realizacje. Tworzymy to, co zapada w pamięć

@@ -106,7 +106,6 @@
     margin: 10px auto;
   }
 
-  .mainVideoDiv{
-    transform:translate3d(0px, 0px, 0px) skew(0deg, 0deg) scale(1, 1) !important;
-  }
+  .popupVideo{width:90% !important; border-width: 8px !important; border-radius:12px !important;}
+
 }

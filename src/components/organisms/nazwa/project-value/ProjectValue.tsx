@@ -36,7 +36,7 @@ const ProjectValue = () => {
               długoterminowy sukces i rozwój na rynku.
             </p>
 
-            <p className="theme-desc text-left projects-theme-desc-p names-left-padding projects-thematic-section-background-index">
+            <p className="theme-desc text-left projects-gray-section-custom-font projects-gray-section-valuation projects-thematic-section-background-index projecs-big-wierzymy-label">
                 {/* {project_value?.description} */}
                 <span className="descriptiob-bold">
                   {" "}
@@ -48,7 +48,7 @@ const ProjectValue = () => {
               </p>
 
             <p className="theme-desc text-left projects-theme-desc-p names-left-padding projects-thematic-section-background-index d-sm-block d-none">
-              <span className="descriptiob-bold">Gwarancję Zadowolenia:</span>
+              <span className="descriptiob-bold">Gwarancję Zadowolenia:</span>{" "}
               Nie ustajemy, dopóki nie znajdziemy tej perfekcyjnej nazwy, która
               spełni wszystkie Twoje oczekiwania.
             </p>

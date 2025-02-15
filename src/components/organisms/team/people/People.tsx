@@ -19,9 +19,9 @@ const People = () => {
   const navigateToPriceListStrone = () => {
     router.push('/cennik?type=Strone');
   };
-  const navigateToPriceListDziałania = () => {
-    router.push('/cennik?type=Działania');
-  };
+  // const navigateToPriceListDziałania = () => {
+  //   router.push('/cennik?type=Działania');
+  // };
   const osClass = useOsClass();
 
   return (
@@ -74,21 +74,21 @@ const People = () => {
         <div className={style.peopleVideoContent}>
           <a
             className={style.projectBtn}
-            onClick={(e) => {
-              e.preventDefault();
-              navigateToPriceListStrone();
-            }}
-            href="#"
+            // onClick={(e) => {
+            //   e.preventDefault();
+            //   navigateToPriceListStrone();
+            // }}
+            href="/cennik"
           >
             {section11?.section11_button_text}
           </a>
           <a
             className={style.scheduleBtn}
-            onClick={(e) => {
-              e.preventDefault();
-              navigateToPriceListDziałania();
-            }}
-            href="#"
+            // onClick={(e) => {
+            //   e.preventDefault();
+            //   navigateToPriceListDziałania();
+            // }}
+            href="/konsultacja-marketingu"
           >
             Umów bezpłatną konsultację
             
