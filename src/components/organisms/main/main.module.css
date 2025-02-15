@@ -137,11 +137,13 @@
 
 .hardResult h4 {
   font-size: 45px;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   line-height: 52px;
   margin: 0 auto 0px;
 }
+.hardResult h4 br{display: block; clear: both; margin-bottom:30px;}
+
 .contentFont{
   font-size: 50px!important;
   line-height: 50px!important;
@@ -345,23 +347,26 @@ img.hardImg {
 
 @media screen and (max-width: 767px) {
   .Content h2 {
-    font-size: 33px !important;
-    margin: 40px 0 10px 0px;
-    line-height: 32px;
+    font-size:clamp(10px,7vw,50px) !important;
+    margin: 36px 0 10px 0px;
+    line-height:clamp(10px,7vw,50px) !important;
   }
   .Content h4{
     font-weight: 700;
-    line-height: 36px;
+    font-size:22px;
+    line-height: 24px;
+    margin-top:40px;
+
   }
   .fontSmall{
-    font-size: 36px;
-    line-height: 36px;
-    
+    font-size:clamp(10px,7vw,50px);
+    line-height:clamp(10px,7vw,50px);
+    margin-top:35px;
   }
 
   .Content h3 {
     font-size: 20px;
-    margin: 0 0 20px 0px;
+    margin: 0 0 0px 0px;
   }
 
   img.hardImg {
@@ -413,17 +418,22 @@ img.hardImg {
     
   }
   .contentFont{
-    font-size: 32px!important;
-    line-height: 34px!important;
+    /* font-size: 32px!important; */
+    font-size: clamp(10px,7vw,50px) !important;
+    line-height:clamp(10px,7vw,50px) !important;
     font-weight:700!important;
     max-width: 900px;
     margin: auto;
   }
   .hardResult h4 {
     font-size: 28px;
-    text-align: center !important;
-    line-height: 36px;
+    text-align: left !important;
+    line-height: 28px;
+    margin:20px 0;
   }
+
+  
+
   .Content p {
     font-size: 22px;
     line-height: 32px;
@@ -434,7 +444,8 @@ img.hardImg {
     margin-top: 20px;
   }
   .hardBottomContent {
-    font-size: 35px !important;
+    font-size:24px !important;
+    line-height:24px !important;
   }
   .numbers {
     padding: 0px 0 0px;
@@ -445,7 +456,6 @@ img.hardImg {
   .pinkBG{
     padding-top: 0;
   }
+  .WidthContent, .WidthContent1{margin:0;}  
 
-  .WidthContent, .WidthContent1{margin:0;}
-  
 }

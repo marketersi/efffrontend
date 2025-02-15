@@ -104,7 +104,7 @@
     height:200px;
   }
   .OurClients_Slide_Content{
-    margin-left:0;
+    margin-left:0 !important;
   }
   .OurClients_Slide_Media_Video img {
     width: 150px;

@@ -250,6 +250,11 @@
   font-weight: 500;
   font-size: 14px;
 }
+.mobileLeftBtn:hover, .mobileLeftBtn:hover{
+  background:#00BFFF !important;
+  border-color:#00BFFF !important;
+  box-shadow:0 4px 0px 0 #006f97;
+}
 
 .mobileLeftBtn a {
   color: black;

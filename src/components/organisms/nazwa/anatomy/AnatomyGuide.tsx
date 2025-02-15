@@ -28,7 +28,7 @@ const AnatomyGuide = () => {
 
       <div className="container custom-container1">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-lg-9 offset-lg-3">
             <p className="theme-desc projects-theme-desc-p projects-mq-book-fix">
               {anatomy_guide?.paragraph3}
             </p>

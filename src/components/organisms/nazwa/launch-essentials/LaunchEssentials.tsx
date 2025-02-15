@@ -32,7 +32,7 @@ const LaunchEssentials = () => {
             <div className="container custom-container1">
               <div className="row">
                 <div className="col-md-12">
-                  <p className="theme-desc projects-theme-desc-p projects-mq-book-fix after-li-ctext">
+                  <p className="theme-desc projects-theme-desc-p projects-mq-book-fix after-li-ctext text-center">
                     {launch_essentials?.section_paragraph}
                   </p>
                 </div>
