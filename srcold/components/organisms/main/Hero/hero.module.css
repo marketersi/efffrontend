@@ -337,7 +337,7 @@
     font-size: 18px !important;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .heroImg3 {
     margin: -170px 0 0 180px;
     width: 180px;
