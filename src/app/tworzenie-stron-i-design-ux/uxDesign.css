@@ -143,7 +143,6 @@ font-weight: 400;
 
 #messagesSection h2 {
   font-size: 85px;
-  
   font-weight: 700;
   line-height: 77px;
   color: #333;
@@ -2717,6 +2716,7 @@ video.mobileVideo {
 
   #maciej .contentText h2 {
     font-size: 65px;
+    list-style:65px;
   }
 
   #maciej .contentText .btn-neon {
@@ -2889,6 +2889,7 @@ video.mobileVideo {
   }
   #messagesSection h2 {
     font-size: 40px;
+    line-height:40px;
   }
   #header > div div {
     left: 2px;
@@ -2908,6 +2909,9 @@ video.mobileVideo {
 
   #maciej .contentText h2 {
     font-size: 35px;
+    line-height:35px;
+    margin-bottom:0;
+    padding-bottom:0;
   }
 
   #messagesSection {
@@ -2922,6 +2926,7 @@ video.mobileVideo {
   #messagesSection .text2 > p,
   #messagesSection .text2 > div {
     font-size: clamp(16px, 22px, 40px);
+    line-height: clamp(26px, 32px, 50px);
   }
 
   .projects-custom-typed-text {
@@ -3387,6 +3392,7 @@ section.goodProcess {
   #guarantee .rowD p {
     margin-top: 0px;
     font-size: min(4vw, 24px);
+    line-height: min(5.5vw, 42px);
     max-width: 700px;
   }
 
@@ -3400,6 +3406,7 @@ section.goodProcess {
 
   #maciej .contentText p {
     font-size: 20px;
+    line-height:36px;
     margin-top: 40px;
   }
 
@@ -3483,4 +3490,25 @@ section.goodProcess {
     width: 100%;
   }
  
+}
+
+@media only screen and (max-width: 600px) {
+  .UXBannerContainer{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding:0;}
+  #header > div div .titleHead{line-height: min(10vw, 100px);}
+  #header > div{gap:20px;}
+  .buttonux{font-size: 22px; line-height: 30px;}
+  #numbers{grid-template-columns: repeat(1,1fr);}
+  
+  .flipCardContainer{display: block !important;}
+  .card{max-width:100% !important;}
+  #maciej .contentText .btn-neon{margin-top:20px; font-size:22px; line-height:28px;}
+  section.arrowContainer{margin-top:60px;}
+  
+  #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p{font-size: 22px !important; line-height: 32px !important; margin-bottom: 20px  !important; padding:0;}
+
+  #textArrow h2{font-size:37px; line-height:37px; margin-bottom:0;}
+  #textArrow .rowD{margin:30px 0 0;}
+  #guarantee .rowD h2{font-size:42px; line-height:40px; width:100%; margin-bottom:30px;}
+  #guarantee .rowD p, #WhatGet p{font-size: 28px; line-height: 40px;}
+  #WhatGet p.textAnimation:first-child{margin-top:20px;}
 }

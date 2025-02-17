@@ -35,7 +35,7 @@ const UxBanner = () => {
               </h1>
               {/* <p className="subitle">{HeroSection.description1}</p> */}
               <p className="subitle">
-                Tworzymy strony i design UX, które 
+                Tworzymy strony i design UX, <br /> które 
                 przekładają się na sukces.
               </p>
               <p className="subitle">{HeroSection.description2} </p>
