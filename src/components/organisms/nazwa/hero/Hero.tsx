@@ -17,7 +17,7 @@ const NazwaHero = () => {
     <section className="pnazw-page">
       <div className="nazwaContainer">
         <div className="top-section-banner-text container-fluid1 UXBannerContainer banner-nazwa">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-md-6">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
                 {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
