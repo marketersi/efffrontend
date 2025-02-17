@@ -12,6 +12,8 @@ const Entrepreneur = () => {
   const imageswithdescription = screenData?.imageswithdescription;
   const { section4, section5, section6, section7 } =
     imageswithdescription || {};
+
+    console.log(section5 , 'section5section5')
   const osClass = useOsClass();
   return (
     <div>
@@ -26,9 +28,34 @@ const Entrepreneur = () => {
           </div>
 
           <Row className="mb-3">
-            <Col lg={12}>
-              <h4 dangerouslySetInnerHTML={{ __html: section5?.quote }} />
-            </Col>
+
+          <Col lg={12}>
+  <h4
+    dangerouslySetInnerHTML={{
+      __html: section5?.quote
+        ?.replace("produkt,", "produkt,<br />")
+        .replace("pokochali,", "pokochali,<br />")
+        .replace("wie.", "wie.<br /><br />")
+        .replace("ofertę,", "ofertę,<br />")  
+        .replace("zauważy,", "zauważy,<br />")  
+        .replace("zmieni.", "zmieni.<br /><br />")
+  
+        // Remove all <br /> tags if needed
+        
+    }}
+  />
+</Col>
+
+
+
+ 
+
+
+
+  
+
+
+
             <Col lg={12} className={osClass}>
               <ReactPlayer
                 url={section5?.video_url}
