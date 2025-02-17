@@ -64,7 +64,7 @@ const Video = () => {
               url={brandSection?.banner_video}
               playing={true}
               loop={true}
-              muted={false}
+              muted={true}
               width="100%"
               height="auto"
               pip={false}
