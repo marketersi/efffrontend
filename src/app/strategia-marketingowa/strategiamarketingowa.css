@@ -1791,6 +1791,25 @@ img.strategyImg {
   width: 100%;
   height: auto;
 }
+
+
+.download-catalog-button {
+  box-shadow: 0 4px 0 #009ad2;
+  background: var(--brand-blue);
+  border: transparent;
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  z-index: 10;
+  display: inline;
+  border-radius: 5px;
+}
+
+
+
+
 /* -----------------------------------------media screen ------------------------------------------------- */
 @media(max-width:1500px)
 {
