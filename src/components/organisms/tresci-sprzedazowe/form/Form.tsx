@@ -84,10 +84,10 @@ const Form = () => {
               {...register("email", { required: true })}
             />
             <input
-              placeholder="Nr. tel i dogodna pora kontaktu"
+              placeholder="Nr telefonu"
             //  pattern="\d{7,15}"
               {...register("phone")}
-              
+              Nr telefonu
             />
           </div>
           <textarea

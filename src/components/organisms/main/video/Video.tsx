@@ -69,6 +69,7 @@ const Video = () => {
               height="auto"
               pip={false}
               playsinline
+             // controlsList="nodownload"
             />
             <div className={style.youtubeIcon} onClick={openPopup}>
               <svg
@@ -102,6 +103,7 @@ const Video = () => {
               pip={false}
               controls={true}
               playsinline
+              //controlsList="nodownload"
               
             />
             <button className="close-btn" onClick={closePopup}>
