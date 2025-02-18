@@ -28,8 +28,8 @@ const AnatomyGuide = () => {
 
       <div className="container custom-container1">
         <div className="row">
-          <div className="col-lg-9 offset-lg-3">
-            <p className="theme-desc projects-theme-desc-p projects-mq-book-fix">
+          <div className="col-lg-12">
+            <p className="theme-desc  projects-mq-book-fix new-same-text">
               {anatomy_guide?.paragraph3}
             </p>
           </div>

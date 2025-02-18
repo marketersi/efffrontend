@@ -17,7 +17,7 @@ const NazwaHero = () => {
     <section className="pnazw-page">
       <div className="nazwaContainer">
         <div className="top-section-banner-text container-fluid1 UXBannerContainer banner-nazwa">
-          <div className="row align-items-center">
+          <div className="row align-items-start">
             <div className="col-md-6">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
                 {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
@@ -42,7 +42,7 @@ const NazwaHero = () => {
                   {/* z Marketersi. <br /> Nazwy, Które <br /> Definiują Sukces. */}
                 </h1>
                 <h2 className="nazwa-heading">
-                Nazwy, które realnie wspierają wzrost marki.
+                Nazwy, które realnie wspierają wzrost marki.<br/>
                 Nasze propozycje pozostają w pamięci na lata.
                 </h2>
                 <h2 className="nazwa-heading">

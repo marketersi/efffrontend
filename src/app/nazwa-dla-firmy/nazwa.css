@@ -213,6 +213,8 @@ padding-top: 10px;
 .names-list-info {
   list-style-type: disc !important;
   /* text-align: center; */
+
+  margin-left:96px;
 }
 .pnazw-page .names-list-info {
   padding-left: 30%;
@@ -533,7 +535,11 @@ section.projects-gray-opinion-4 {
   display: none;
 }
 
-.custom-font-size.text-center{text-align: center !important;}
+
+.text-center{text-align:left !important;}
+.custom-container1 .projects-theme-desc-p.new-same-text{line-height:50px;}
+
+
 /* ------------------------------------media screen------------------------------- */
 @media only screen and (max-width: 1024px) {
   .nazwa_footer_Time_btn {
