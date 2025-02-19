@@ -36,13 +36,13 @@ const AnatomyGuide = () => {
         </div>
       </div>
 
-      <div className="container custom-container1">
+      <div className="container custom-container1 paddbottom">
         <div className="row">
           <div className="col-md-12 projects-custom-container-second-prasa">
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-6 p-sm-0">
-                  <p className="theme-desc projects-mq-book-fix">
+                  <p className="theme-desc projects-mq-book-fix mb-1">
                     {anatomy_guide?.paragraph4}
                   </p>
 

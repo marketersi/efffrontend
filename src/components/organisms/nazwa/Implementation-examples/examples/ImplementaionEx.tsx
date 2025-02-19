@@ -10,7 +10,8 @@ const ImplementationExample1 = () => {
       <div className="iglarki-section-main-header  pnazw-custom-lineheight text-center">
         <span className="">
           {/* <strong>{bnc_implementation?.title}</strong> */}
-          Przykładowe realizacje. Tworzymy to, co zapada w pamięć
+        
+          Przykładowe realizacje. <br />Tworzymy to, <br />co zapada w pamięć
         </span>
         <br />
         <div className="iglarki-section-submain">

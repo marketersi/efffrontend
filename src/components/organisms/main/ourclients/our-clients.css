@@ -70,6 +70,8 @@
   width: 200px;
 }
 
+.overflow-div{overflow-x: hidden;}
+
 @media (max-width: 768px) {
   .rating_image {
     margin-inline: auto;

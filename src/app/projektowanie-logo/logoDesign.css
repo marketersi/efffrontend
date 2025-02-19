@@ -1177,14 +1177,14 @@ contact-inputs textarea {
 }
 
 .orange-link:hover {
-  color: #009ad2;
-  border-bottom: 2px #009ad2 dotted;
+  color: #00bbff;
+  border-bottom: 2px #00bbff dotted;
   cursor: pointer;
 }
 
 .download-catalog-button-2:hover {
   /* background: #d9ad29; */
-  background-color: #009ad2;
+  background-color: #00bbff;
   box-shadow: none;
 }
 
