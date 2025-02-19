@@ -391,6 +391,7 @@ strong {
   letter-spacing: -0.025em;
   text-decoration: none;
 }
+.copywriting-bg-white-subheader-link .orange-link{border-bottom:2px solid #00bbff;}
 
 .copywriter-container-custom .copywriting-bg-white-subheader-link {font-size:16px; line-height:21px; font-family:'Roboto';}
 

@@ -35,6 +35,7 @@ export default function OurClients() {
 
   return (
     <>
+    <div className="overflow-div">
     <section className="WidthContent1">
       <h2 className="ClinetsHead">Jak wygląda współpraca z Marketersi?</h2>
       <p className="ClinetsPara">Zapytaliśmy setkę naszych klientów i oto, co usłyszeliśmy:</p>
@@ -237,6 +238,7 @@ export default function OurClients() {
       </motion.div> */}
     </div>
     </section>
+    </div>
     </>
   );
 }
@@ -257,6 +259,7 @@ export const SlideOne = (props) => {
       {/* Slide 1 */}
       <div className="OurClients_Slide">
         <div className="OurClients_Slide_Title mobile_title">{review}</div>
+        
         <div className="OurClients_Slide_Container">
           
             <div className="OurClints_Slide_Image part">

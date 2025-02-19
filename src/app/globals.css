@@ -374,6 +374,10 @@ body{
   padding-bottom: 40px;
   padding-inline: 50px;
   margin: 50px 0 0;
+
+  position: absolute;
+  bottom:0;
+  right:0;
 }
 /* -------------- */
 .review {
@@ -722,6 +726,11 @@ video {
   -webkit-filter: contrast(0.979);
   filter: contrast(0.979);
 }
+
+.OurClients_Slide_Content {
+  min-height: 600px !important;
+}
+
 @media only screen and (max-width: 1024px) {
   .brandImgBtn {
     margin: 30px 0 0;

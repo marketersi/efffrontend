@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import React, { createContext, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { SlideFour, SlideOne } from "./OurClients";
 
@@ -8,10 +8,15 @@ const CarouselContext = createContext({
 });
 
 const ClientCarousel = ({ slides, options }) => {
+
+  console.log(slides , 'slides-------------------')
   const [emblaRef, embla] = useEmblaCarousel(options);
+ // const[store,dispatch] = useCallback('data')
+
   const handleNext = () => {
     embla && embla.scrollNext();
   };
+
 
   const handlePrev = () => {
     embla && embla.scrollPrev();

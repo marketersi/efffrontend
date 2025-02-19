@@ -6,7 +6,7 @@ const Anatomy = () => {
   const { isLoading, screenData } = useSelector((state) => state.anatomy);
   const { anatomy, anatomy_guide } = screenData || {};
   return (
-    <section className="top-section-ending projects-over-hid second-section">
+    <section className="top-section-ending projects-over-hid second-section paddtopbotom">
       <div className="container projects-custom-container1">
         <div className="row">
           <div className="col-md-12">
@@ -16,11 +16,11 @@ const Anatomy = () => {
               Twoja marka to więcej niż <br/>tylko biznes - to opowieść, <br/>która czeka, <br/>aby zostać opowiedziana.
             </h2>
 
-            <p className="text-center p-0 projects-under-big-header2 ">
+            <p className="text-center p-0 projects-under-big-header2">
               {anatomy?.description1}
             </p>
 
-            <p className="text-center p-0 projects-under-big-header">
+            <p className="text-center p-0 projects-under-big-header mb-5">
             {anatomy_guide?.paragraph1}
             </p>
 

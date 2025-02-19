@@ -536,11 +536,15 @@ section.projects-gray-opinion-4 {
 }
 
 
-.text-center{text-align:left !important;}
 .custom-container1 .projects-theme-desc-p.new-same-text{line-height:50px;}
-
+.paddtopbotom{padding:90px 0 0;}
+.paddbottom{padding-bottom:80px;}
 
 /* ------------------------------------media screen------------------------------- */
+@media only screen and (max-width: 1520px) {
+  .nazwa-heading{font-size:26px;}
+}
+
 @media only screen and (max-width: 1024px) {
   .nazwa_footer_Time_btn {
     display: block;

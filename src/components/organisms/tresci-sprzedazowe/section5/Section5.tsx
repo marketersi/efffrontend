@@ -131,7 +131,7 @@ const Section5 = () => {
                       Kliknij tutaj, aby pobrać (PDF)
                      </strong>
 
-                    </span>1
+                    </span>
                 </a>
               </div>
             </div>
