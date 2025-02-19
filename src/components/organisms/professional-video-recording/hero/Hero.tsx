@@ -39,7 +39,7 @@ const Hero = () => {
               <button>Wyceń usługę</button>
             </Link>
             <div className={style.heroBtn2}>
-              <Link href="/konsultacje">
+              <Link href="/konsultacja-marketingu">
                 <span>Umów konsultację</span>
                 <div className={style.heroPlay}>
                   <Image
