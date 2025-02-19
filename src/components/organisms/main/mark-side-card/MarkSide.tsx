@@ -109,7 +109,8 @@ const Card = ({ data, links }) => {
         {links.map((e, i) => {
           return (
             <li key={i}>
-              <Link href={e.path}>{e.label}</Link>
+              <Link href={e.path}>
+              <span>{e.label}</span>
               <div className={style.playIcon}>
                 <Image
                   src="/assets/images/play_arrow.svg"
@@ -118,6 +119,7 @@ const Card = ({ data, links }) => {
                   height="auto"
                 />
               </div>
+              </Link>
             </li>
           );
         })}

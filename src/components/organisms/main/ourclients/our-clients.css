@@ -116,5 +116,10 @@
   .WidthContent, .WidthContent1{margin:0;}
 }
 @media (max-width: 600px) {
-
+  .OurClients_Slide_Content{min-height:1px !important; position: static; padding-bottom:0px;}
+  .OurClients_Slide{position: relative; min-height:500px;}
+  .OurClients_Slide_Button{bottom:15px;}
+  .OurClients_Slide_Title.mobile_title{min-height: 168px; margin-bottom: 25px;}
+  .OurClients_Slide_Media_Video{width:auto;}
+  .OurClients_Slide_Media_Video img{max-width:100%; max-height:85px; width: auto;}
 }

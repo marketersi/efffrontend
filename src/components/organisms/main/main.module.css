@@ -16,11 +16,12 @@
 
 .Content h2 {
   font-size: 85px;
+  line-height: 77px;
   text-align: center;
   font-weight: 700;
   color: #333333;
   margin: 40px 0 40px 0px;
-  line-height: 77px;
+  
 }
 .Content_h2{
   font-size: 85px;
@@ -347,9 +348,9 @@ img.hardImg {
 
 @media screen and (max-width: 767px) {
   .Content h2 {
-    font-size:clamp(10px,7vw,50px) !important;
+    font-size:clamp(10px,7vw,50px);
     margin: 36px 0 10px 0px;
-    line-height:clamp(10px,7vw,50px) !important;
+    line-height:clamp(10px,7vw,50px);
   }
   .Content h4{
     font-weight: 700;
@@ -458,4 +459,11 @@ img.hardImg {
   }
   .WidthContent, .WidthContent1{margin:0;}  
 
+}
+
+
+@media screen and (max-width: 600px) {
+  .hardResult h4{font-size: 20px; line-height: 20px;}
+  .Content h2 {font-size:34px; line-height:34px; font-weight:600;}
+  .Content h3 {font-size:34px; line-height:34px; font-weight:800;}
 }
