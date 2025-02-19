@@ -7,7 +7,7 @@ const Anatomy = () => {
   const { anatomy, anatomy_guide } = screenData || {};
   return (
     <section className="top-section-ending projects-over-hid second-section paddtopbotom">
-      <div className="container projects-custom-container1">
+      <div className="container">
         <div className="row">
           <div className="col-md-12">
             <h2 className="projects-big-header custom-projects-margin-top custom-font-size text-center">

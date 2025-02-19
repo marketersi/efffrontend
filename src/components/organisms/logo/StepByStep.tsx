@@ -81,7 +81,7 @@ const StepByStep = () => {
                 {secondaryImage && (
                   <img
                     src={secondaryImage}
-                    className="appetime-img-p appetime-img w-100"
+                    className="appetime-img-p appetime-img w-100 mb-0"
                     alt="Wykonanie specjalnego projektu logo"
                     title="Przykłady tego, co potrafi projektowanie graficzne w przypadku logo"
                   />

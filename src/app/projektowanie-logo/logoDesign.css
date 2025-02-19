@@ -388,8 +388,11 @@ p.projects-under-big-header {
   line-height: 33px;
   font-family: Georgia;
 }
+
+.projects-theme-desc-p.mb-4{margin-bottom:40px !important;}
+
 .custom-container1 .projects-theme-desc-p {
-  margin: 0px 0 60px;
+  margin: 0px 0 40px;
   font-size: 26px;
   font-weight: 400;
   line-height: 33px;
@@ -739,7 +742,8 @@ margin: auto;
 .image-810 {
   width: 100%;
   margin: auto;
-  margin-bottom: 60px;
+  margin-bottom:50px;
+  margin-top:15px;
 }
 .projects-push-content-top{
   max-width: 900px;
@@ -753,7 +757,7 @@ margin: auto;
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  margin: 0px 0 25px;
+  margin: 0px 0 15px;
   line-height: 45px;
   max-width: 900px;
   margin-inline: auto;
@@ -765,7 +769,8 @@ margin: auto;
   font-family: "Georgia", serif;
   font-style: Italic;
   font-size: 19px;
-  line-height: 25px-;
+  line-height: 25px;
+  margin-bottom:60px;
 }
 
 .image-810-container {
@@ -834,6 +839,8 @@ margin: auto;
   position: relative;
   z-index: 2;
 }
+
+.sheildPng{margin-top:2px !important;}
 
 @media (min-width: 1115px) {
   .projects-thematic-section-blue {

@@ -98,7 +98,14 @@
     width: 65% !important;
 } */
 /* -------------------------------media screen---------------------- */
+@media screen and (max-width: 1520px) {
+  .markCard h3 {
+    font-size:45px;
+    line-height:45px;
+  }
 
+  
+}
 @media screen and (max-width: 1360px) {
   .markCard {
     width: 380px;

@@ -21,7 +21,7 @@ const UxBanner = () => {
       <section>
         <div id="header" className="UXBannerContainer">
           <div className="row m-0">
-            <div className="col-xl-6 col-xxl-7">
+            <div className="col-xl-5 col-xxl-6">
               {/* <h1 className="titleHead">
                 <span>
                   {HeroSection?.title1}
@@ -44,7 +44,7 @@ const UxBanner = () => {
                 Brzmi świetnie. Wyślijcie mi ofertę.
               </button>
             </div>
-            <div className={`col-xl-6 col-xxl-5 ${osClass}`}>
+            <div className={`col-xl-7 col-xxl-6 ${osClass}`}>
               <ReactPlayer
                 muted={true}
                 playing={true}
