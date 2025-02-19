@@ -13,6 +13,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const Video = () => {
   const { isLoading, screenData } = useSelector((state) => state.home);
+  const [showCloseBtn, setShowCloseBtn] = useState(false);
   const { brandSection } = screenData;
 
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -102,14 +103,17 @@ const Video = () => {
               style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429"}}
               pip={false}
               controls={true}
+              onMouseEnter={() => setShowCloseBtn(true)}
+          onMouseLeave={() => setShowCloseBtn(false)}
               playsinline
               //controlsList="nodownload"
               
             />
-            <button className="close-btn" onClick={closePopup}>
-              
-              X
-            </button>
+             {showCloseBtn && (
+          <button className="close-btn" onClick={closePopup}>
+            X
+          </button>
+        )}
           </div>
         </div>
       )}
@@ -147,9 +151,6 @@ const Video = () => {
           display:none;
         }
 
-        .close-btn:hover {
-          background:transparent;
-        }
 
         .popup-content:hover .close-btn{display:block}
       `}</style>

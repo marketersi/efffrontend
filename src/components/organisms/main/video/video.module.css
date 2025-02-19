@@ -107,5 +107,13 @@
   }
 
   .popupVideo{width:90% !important; border-width: 8px !important; border-radius:12px !important;}
+  
 
+}
+
+@media screen and (max-width: 600px) {
+  .bannerVideoMain {
+    width: 80% !important;
+    max-width: 80% !important;
+  }
 }

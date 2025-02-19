@@ -9,7 +9,7 @@ const RatingCaption = () => {
 
   return (
     <div className={style.rating}>
-      <Container className="WidthContent">
+      <Container className="">
         <div className={style.ratingImg}>
           <Image
             src={brandSection?.brand_image1}
