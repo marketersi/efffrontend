@@ -25,14 +25,14 @@ const Daco = () => {
               <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
               {DacoData?.text2}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
               {DacoData?.text3}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="image-810-container">
+        <div className="image-810-container mt-0">
           <div className="image-810">
             <img
               className="position-relative"

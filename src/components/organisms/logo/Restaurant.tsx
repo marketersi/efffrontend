@@ -57,7 +57,7 @@ const Restaurant = () => {
           </div>
         </div>
 
-        <div className="image-810-container position-relative">
+        <div className="image-810-container position-relative mt-0">
           <div className="image-810">
             <a href="https://www.youtube.com/watch?v=9C-ZNDm0Ziw" data-lity="">
               <img

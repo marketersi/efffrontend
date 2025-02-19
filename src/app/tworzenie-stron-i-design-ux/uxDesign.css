@@ -3258,6 +3258,10 @@ section.goodProcess {
     font-size: min(5vw, 28px);
   }
 } */
+@media only screen and (max-width: 1520px) {
+#header > div div .subitle{font-size:26px;}
+.buttonux{font-size:26px;}
+}
 
 @media only screen and (max-width: 1360px) {
   .desktop {
