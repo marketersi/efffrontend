@@ -141,11 +141,18 @@
 }
 .bannerVideoMain{
   position: absolute;
-  
+  /* max-width: 800px; */
+  width: 550px;
   margin: auto;
   transform-origin: center;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 600px) {
+  .bannerVideoMain {
+    width: 80% !important;
+    max-width: 80% !important;
+  }
 }
 
 

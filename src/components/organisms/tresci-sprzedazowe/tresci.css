@@ -219,6 +219,24 @@ contact-inputs textarea {
 .copywriter-blue-background {
   background-color: var(--brand-blue);
   color: white !important;
+  margin-top: 0px;
+    text-decoration: none;
+    background-color: #00bfff;
+    cursor: pointer;
+    padding: 8px 20px;
+    display: inline-flex;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    box-shadow: 0 4px 0 0 var(--brand-blue-hover);
+    transition: color .15sease-in-out, background-color .15sease-in-out, border-color .15sease-in-out, box-shadow .15sease-in-out;
+    border: none;
 }
 
 /* =============concept 366============== */
