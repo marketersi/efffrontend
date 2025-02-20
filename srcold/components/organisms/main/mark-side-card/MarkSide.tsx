@@ -20,7 +20,7 @@ const MarkSide = () => {
   const links1 = [
     { label: "Tworzenie stron i design UX", path: "/projektowanie-ux" },
     { label: "Video marketing", path: "/profesjonalne-nagrywanie-filmow" },
-    { label: "Kreatywny montaż video", path: "/Kreatywny-montaz-wideo" },
+    { label: "Kreatywny montaż video", path: "/kreatywny-montaz-wideo" },
   ];
   const links2 = [
     { label: "Treści i hasła sprzedażowe", path: "/tresci-sprzedazowe" },
