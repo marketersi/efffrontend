@@ -3504,8 +3504,8 @@ section.goodProcess {
   #header > div div .titleHead br:first-child{display: none;}
   .subitle{text-align: center;}
   #header > div{gap:20px;}
-  .buttonux, #maciej .contentText .btn-neon, #WhatGet a{font-size: 15px; line-height:20px; margin-left: auto; margin-right: auto; display: block; text-align: center;}
-  .faqContainer .send-offer-button{font-size:15px !important; line-height:20px !important; margin:20px 0 !important}
+  .buttonux, #maciej .contentText .btn-neon, #WhatGet a{font-size: 15px; line-height:20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width:100%;}
+  .faqContainer .send-offer-button{font-size:15px !important; line-height:20px !important; margin:20px 0 !important; width:92vw; justify-content: center;}
   #maciej .contentText .btn-neon{margin-top:20px;}
   #numbers{grid-template-columns: repeat(1,1fr);}
   #numbers div{padding:0;}
@@ -3520,13 +3520,15 @@ section.goodProcess {
   
   #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p, .uxVideoPara, #highResult p{font-size: 22px !important; line-height:32px !important; margin-bottom: 15px  !important; padding:0; margin:30px 0;}
 
+  #numbers div p, .typingEffect{font-weight:300 !important;}
+
   #guarantee .rowD p{text-align: center;}
   #WhatGet p.textAnimation{text-align: center;}
 
   #textArrow h2{font-size:30px; line-height:26px; margin-bottom:0;}
   #textArrow .rowD{margin:30px 0 0;}
   #guarantee{margin-bottom:0; margin-top:20px;}
-  #guarantee .rowD h2{font-size:26px; line-height:30px; width:100%; margin-bottom:30px; text-align: center; max-width:65%; margin-left: auto;  margin-right: auto;}
+  #guarantee .rowD h2{font-size:30px; line-height:26px; width:100%; margin-bottom:30px; text-align: center; max-width:100%; margin-left: auto;  margin-right: auto; font-weight:700;}
   #guarantee .rowD p, #WhatGet p{font-size: 28px; line-height: 40px;}
   #WhatGet p.textAnimation:first-child{margin-top:20px;}
   #numbers div img, .flipCardContainer img{max-width:60%;}
@@ -3538,10 +3540,10 @@ section.goodProcess {
   .number img{max-width:100%;}
   .circleBox{display: none;}
   .processVideo{height: 190px !important;}
-  .goodProcess h3{font-size: 26px; line-height:30px; margin-top:15px;}
+  .goodProcess h3{font-size:22px; line-height:32px; font-weight:300; margin-top:15px; margin-bottom:10px; text-align: center;}
   #videoSection > :nth-child(1) h2{margin-bottom:25px;}
-  .goodProcess .subtitle{font-size: 17px; line-height:18px; margin-top:5px; margin-bottom:10px;}
-  .goodProcess p{font-size: 16px; line-height: 17px;}
+  .goodProcess .subtitle{font-size:22px; line-height:32px; font-weight:300; text-align: center; margin-top:5px; margin-bottom:10px;}
+  .goodProcess p{font-size:22px; line-height:32px; font-weight:300; text-align: center;}
   .two .number, .three .number{margin:0 auto;}
   .process1, .process2{margin:10px 0;}
   .afterImage{font-size:30px; line-height:26px; margin-bottom:10px;}
@@ -3550,8 +3552,8 @@ section.goodProcess {
   #highResult{margin-top:50px !important;}
   #highResult h2{line-height:26px; font-size:30px; max-width:90%; margin-left:auto; margin-right: auto;}
   #highResult .row{margin:0 -12px;}
-  h2.textAnimation{font-size:30px !important; margin: 0 0 40px !important; line-height:26px !important; font-weight:700;}
-  .takImages{width: 20% !important; margin-bottom:20px !important;}
+  h2.textAnimation{font-size:30px !important; margin: 0 0 40px !important; line-height:26px !important; font-weight:700 !important;}
+  .takImages{width:32% !important; margin-bottom:20px !important;}
   #messagesSection h2 span img{right: 52px; bottom: -10px;}
   #messagesSection .text2{padding-top:0;}
   #maciej{margin-top:30px; margin-bottom:0px;}
@@ -3572,4 +3574,5 @@ section.goodProcess {
   .UXheroVideo video{width: 100% !important;}
   .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px;}
   .faqContainer .mailidys{font-size: 18px; margin-bottom: 6px; line-height: 20px;}
+  #textArrow .rowD p{text-align: left;}
 }
