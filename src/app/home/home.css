@@ -214,7 +214,7 @@
 
 
 .rating_ratingCOntent__1q2Wg p, .main_hardResult__kAoMV h4{text-align: center !important;}
-
+.overflow-fulldiv{overflow: hidden;}
 @media screen and (max-width:1520px){
 .hero_hero__EOOa3 h1{max-width:72%;}
 }
