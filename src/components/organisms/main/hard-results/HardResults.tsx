@@ -13,7 +13,7 @@ const Entrepreneur = () => {
   const { section4, section5, section6, section7 } =
     imageswithdescription || {};
 
-    console.log(section5 , 'section5section5')
+    console.log(section6 , 'section5section5')
   const osClass = useOsClass();
   return (
     <div>

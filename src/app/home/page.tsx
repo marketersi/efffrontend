@@ -44,9 +44,12 @@ const HomeScreen = () => {
         </div>
       ) : (
         <div>
-          <Hero />
+          <div className='overflow-fulldiv'>
+            <Hero />
           <Video />
           <RatingCaption />
+          </div>
+      
           <MarkSide />
           <OurClients />
           <Entrepreneur />

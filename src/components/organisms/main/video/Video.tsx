@@ -16,6 +16,23 @@ const Video = () => {
   const [showCloseBtn, setShowCloseBtn] = useState(false);
   const { brandSection } = screenData;
 
+  const [width, setWidth] = useState('100%');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setWidth('70%');
+      } else {
+        setWidth('90%');
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial call to set the width
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const [isPopupOpen, setPopupOpen] = useState(false);
   const videoRef = useRef(null);
 
@@ -44,6 +61,7 @@ const Video = () => {
   }, []);
 
   const openPopup = () => {
+    console.log("callledddddddd")
     setPopupOpen(true);
   };
 
@@ -92,23 +110,23 @@ const Video = () => {
       {isPopupOpen && (
         <div className="popup-overlay" onClick={closePopup}>
           <div className={`popup-content ${osClass}`}>
-            <ReactPlayer
-              url={brandSection?.banner_video}
-              playing={true}
-              loop={true}
-              muted={false}
-              width="70%"
-              height="auto"
-              className="popupVideo"
-              style={{ borderRadius: "30px", margin: "auto", border: "20px solid #0ca2d429"}}
-              pip={false}
-              controls={true}
-              onMouseEnter={() => setShowCloseBtn(true)}
-          onMouseLeave={() => setShowCloseBtn(false)}
-              playsinline
-              //controlsList="nodownload"
-              
-            />
+            
+
+          <ReactPlayer
+      url={brandSection?.banner_video}
+      playing={true}
+      loop={true}
+      muted={false}
+      width={width}
+      height="auto"
+      className="popupVideo"
+      style={{ borderRadius: "12.7687px", margin: "auto", border: "0", overflow:"hidden"}}
+      pip={false}
+      controls={true}
+      onMouseEnter={() => setShowCloseBtn(true)}
+      onMouseLeave={() => setShowCloseBtn(false)}
+      playsinline
+    />
              {showCloseBtn && (
               <>  <button className="close-btn" onClick={closePopup}>
               X
@@ -154,7 +172,45 @@ const Video = () => {
           display:none;
         }
 
-        .closebtn-div{position: absolute;
+        
+
+        .popup-content:hover .close-btn{display:block}
+        
+        @media (max-width: 1520px) {
+        .bannerVideoMain{width:495px !important; max-width: 495px !important;}
+        }
+
+        @media (max-width: 600px) {
+          .bannerVideoMain{width: 160px !important; max-width: 160px !important; height:auto; left:0; right:0; transform: translate(0, 0);}
+          .hero_heroVideo__Mgtsk video{display:block;}
+          .popupVideo{border-radius:15px !important; border: 1px solid #fff !important; width: 90% !important;}
+          
+        }
+        .close-btn{
+        top: -9px;
+          right:-4px;
+        background:transparent;
+          color: white;
+          border: block;
+          border-radius: 5px;
+          padding:5px;
+          width:30px;
+          height:30px;
+          cursor: pointer;
+          font-weight:500;}
+
+        /* Default width for mobile view */
+        .video-container {
+          width: 100%;
+        }
+        /* Width for web view (screen width greater than 768px) */
+        @media (min-width: 768px) {
+          .video-container {
+            width: 70%;
+            margin: auto; /* Center the video player */
+          }
+
+          .closebtn-div{position: absolute;
           top: 0px;
           right:12.5%;
           background:transparent;
@@ -167,21 +223,9 @@ const Video = () => {
           cursor: pointer;
           font-weight: 900;
           }
-
-
-        .popup-content:hover .close-btn{display:block}
-
-        @media (max-width: 600px) {
-          .bannerVideoMain {
-            width: 160px !important;
-            max-width: 160px !important;
-            height:auto;
-            left:0;
-            right:0;
-            transform: translate(0, 0);
-          }
-          .hero_heroVideo__Mgtsk video{display:block;}
         }
+
+        
 
       `}</style>
     </>
