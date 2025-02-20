@@ -3512,7 +3512,7 @@ section.goodProcess {
   
   .flipCardContainer{display: block !important;}
   .card{max-width:100% !important; padding:0 !important; margin-left:auto !important;  margin-right:auto !important;}
-  /* #maciej .contentText .btn-neon{margin-top:20px; font-size:22px; line-height:28px;} */
+  / #maciej .contentText .btn-neon{margin-top:20px; font-size:22px; line-height:28px;} /
   section.arrowContainer{margin-top:60px;}
   #WhatGet{padding:0 12px;}
 
@@ -3548,7 +3548,7 @@ section.goodProcess {
   .slider-container{margin-left:auto !important; margin-right:auto !important;}
   .slider-container .slick-slide{padding-right:0 !important;}
   #highResult{margin-top:50px !important;}
-  #highResult h2{line-height:26px; font-size:30px; max-width:80%; margin-left:auto; margin-right: auto;}
+  #highResult h2{line-height:26px; font-size:30px; max-width:90%; margin-left:auto; margin-right: auto;}
   #highResult .row{margin:0 -12px;}
   h2.textAnimation{font-size:30px !important; margin: 0 0 40px !important; line-height:26px !important; font-weight:700;}
   .takImages{width: 20% !important; margin-bottom:20px !important;}
@@ -3558,16 +3558,18 @@ section.goodProcess {
   #maciej .contentText h2{font-size:30px; line-height:26px; margin-bottom:40px; max-width:90%; margin-left:auto;  margin-right:auto;}
 
   .faqContainer .accordion-item{padding:0 !important;}
-  .accordion-title{gap:15px !important; padding:15px !important; font-size:18px !important; line-height:28px !important;}
+  .accordion-title{gap:15px !important; padding:15px !important; font-size:15px !important; line-height:22px !important;}
   .accordion-content{padding:15px !important;}
   .faqContainer .accordion-item{margin-bottom:0 !important;}
   .faqContainer{padding-bottom:10px !important; padding-top:0 !important;}
   .processVideo video{width:100%; height: auto;}
   .goodProcess svg{display: none;}
-  .accordion-content p{font-size:18px !important; line-height:30px !important;}
+  .accordion-content p{font-size:14px !important; line-height:18px !important;}
   #guaranteeWrapper{padding-bottom:0 !important;}
   #guarantee > img{margin:0 auto 10px; max-width:80%;}
   section.arrowContainer{margin-top:10px !important; margin-bottom:0;}
   #numbers div{margin-bottom:20px;}
   .UXheroVideo video{width: 100% !important;}
+  .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px;}
+  .faqContainer .mailidys{font-size: 18px; margin-bottom: 6px; line-height: 20px;}
 }
