@@ -167,17 +167,17 @@
 }
 
   @media screen and (max-width: 767px) {
-  .mobile {
+  /* .mobile {
     display: block;
-  }
-  .desktop {
+  } */
+  /* .desktop {
     display: none;
-  }
+  } */
   /* .rating {
     background-color: #f4f4f4;
   } */
   .ratingImg img {
-    width: 100px;
+    width:100px;
   }
   .ratingCOntent p {
     font-size: 22px;
@@ -185,7 +185,8 @@
   }
 
   .ratingImg :nth-child(2) {
-    width: 150px;
+    width: auto;
+    height: 90px;
   }
 
   .ratingLogoImg {
@@ -217,5 +218,5 @@
   .ratingCOntent p {text-align: left; margin-bottom:20px;}
 
   .ratingMainImg img{margin-top:-30px;}
-  .ratingImg{margin-bottom:15px;  min-width: 360px}
+  .ratingImg{margin-bottom:15px;  min-width: 360px; padding:100px 0 0;}
 }

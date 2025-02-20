@@ -160,15 +160,15 @@ const Video = () => {
 
         .close-btn {
           position: absolute;
-          top: 0px;
-          right:12.5%;
+          top: -8px;
+          right:0.5%;
           background:transparent;
           color: white;
           border: none;
           border-radius: 5px;
           padding:5px;
           cursor: pointer;
-          font-weight: 900;
+          font-weight: 500;
           display:none;
         }
 
@@ -210,6 +210,20 @@ const Video = () => {
             width: 70%;
             margin: auto; /* Center the video player */
           }
+
+           .close-btn {
+          position: absolute;
+          top: 0px;
+          right:12.5%;
+          background:transparent;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding:5px;
+          cursor: pointer;
+          font-weight: 500;
+          display:none;
+        }
 
          
         }
