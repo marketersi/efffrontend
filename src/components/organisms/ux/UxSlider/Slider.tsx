@@ -15,6 +15,7 @@ const CoverFlowSlider = () => {
   const settings = {
     className: "center",
     centerMode: true,
+ 
     infinite: true,
     centerPadding: "0",
     slidesToShow: 3,
@@ -30,6 +31,7 @@ const CoverFlowSlider = () => {
         breakpoint: 1024, 
         settings: {
           slidesToShow: 1,
+          
           slidesToScroll: 1,
         },
       },
