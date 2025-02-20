@@ -110,10 +110,13 @@ const Video = () => {
               
             />
              {showCloseBtn && (
-          <button className="close-btn" onClick={closePopup}>
-            X
-          </button>
+              <>  <button className="close-btn" onClick={closePopup}>
+              X
+            </button>
+            </>
+        
         )}
+        <div className="closebtn-div" onMouseEnter ={() => {console.log("Hertyugujhgyufgu");setShowCloseBtn(true)}} onMouseLeave={() => setShowCloseBtn(false)}></div>
           </div>
         </div>
       )}
@@ -151,8 +154,35 @@ const Video = () => {
           display:none;
         }
 
+        .closebtn-div{position: absolute;
+          top: 0px;
+          right:12.5%;
+          background:transparent;
+          color: white;
+          border: block;
+          border-radius: 5px;
+          padding:5px;
+          width:30px;
+          height:30px;
+          cursor: pointer;
+          font-weight: 900;
+          }
+
 
         .popup-content:hover .close-btn{display:block}
+
+        @media (max-width: 600px) {
+          .bannerVideoMain {
+            width: 160px !important;
+            max-width: 160px !important;
+            height:auto;
+            left:0;
+            right:0;
+            transform: translate(0, 0);
+          }
+          .hero_heroVideo__Mgtsk video{display:block;}
+        }
+
       `}</style>
     </>
   );

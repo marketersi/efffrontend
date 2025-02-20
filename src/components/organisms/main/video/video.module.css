@@ -107,13 +107,10 @@
   }
 
   .popupVideo{width:90% !important; border-width: 8px !important; border-radius:12px !important;}
+  .popupVideo video{display: block;}
+  .hero_heroVideo__Mgtsk video{display: block;}
   
 
 }
 
-@media screen and (max-width: 600px) {
-  .bannerVideoMain {
-    width: 80% !important;
-    max-width: 80% !important;
-  }
-}
+

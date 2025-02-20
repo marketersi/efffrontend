@@ -265,7 +265,7 @@
   
   .heroVideo{min-height:100vh; overflow: hidden;}
   .heroVideo:before{display: none;}
-  .heroVideo video{height:100% !important; min-height:100vh !important; object-fit: cover;}
+  .heroVideo video{height:100% !important; min-height:100vh !important; object-fit: cover; display: block;}
   .bannerVideoMain{margin:0 15px;}
 }
 
