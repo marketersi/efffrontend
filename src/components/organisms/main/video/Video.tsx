@@ -186,31 +186,7 @@ const Video = () => {
           .popupVideo{border-radius:15px !important; border: 1px solid #fff !important; width: 90% !important;}
           
         }
-        .close-btn{
-        top: -9px;
-          right:-4px;
-        background:transparent;
-          color: white;
-          border: block;
-          border-radius: 5px;
-          padding:5px;
-          width:30px;
-          height:30px;
-          cursor: pointer;
-          font-weight:500;}
-
-        /* Default width for mobile view */
-        .video-container {
-          width: 100%;
-        }
-        /* Width for web view (screen width greater than 768px) */
-        @media (min-width: 768px) {
-          .video-container {
-            width: 70%;
-            margin: auto; /* Center the video player */
-          }
-
-          .closebtn-div{position: absolute;
+         .closebtn-div{position: absolute;
           top: 0px;
           right:12.5%;
           background:transparent;
@@ -223,6 +199,19 @@ const Video = () => {
           cursor: pointer;
           font-weight: 900;
           }
+
+        /* Default width for mobile view */
+        .video-container {
+          width: 100%;
+        }
+        /* Width for web view (screen width greater than 768px) */
+        @media (min-width: 768px) {
+          .video-container {
+            width: 70%;
+            margin: auto; /* Center the video player */
+          }
+
+         
         }
 
         
