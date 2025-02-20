@@ -3512,7 +3512,7 @@ section.goodProcess {
   
   .flipCardContainer{display: block !important;}
   .card{max-width:100% !important; padding:0 !important; margin-left:auto !important;  margin-right:auto !important;}
-  / #maciej .contentText .btn-neon{margin-top:20px; font-size:22px; line-height:28px;} /
+  /* #maciej .contentText .btn-neon{margin-top:20px; font-size:22px; line-height:28px;} */
   section.arrowContainer{margin-top:60px;}
   #WhatGet{padding:0 12px;}
 
