@@ -91,7 +91,7 @@ const UserInfoForm = ({ formFour }) => {
          
           <input
             type="text"
-            placeholder="Nr telefonu"
+            placeholder="Nr telefonu i pora kontaktu"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             
