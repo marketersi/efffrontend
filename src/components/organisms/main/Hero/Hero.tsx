@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <div>
       <div className={style.HerVideoOverlay}></div>
-      <ReactPlayer
+      {/* <ReactPlayer
         url={heroSection?.background_video}
         playing={true}
         loop={true}
@@ -46,7 +46,25 @@ const Hero = () => {
         muted={true}
         pip={false}
         playsinline
-      />
+      /> */}
+      <ReactPlayer
+  url={heroSection?.background_video}
+  playing={true}
+  loop={true}
+  width="100%"
+  height="auto"
+  className={`${style.heroVideo} ${style.desktop}`}
+  muted={true}
+  pip={false}
+  playsinline
+  config={{
+    file: {
+      attributes: {
+        preload: 'auto'
+      }
+    }
+  }}
+/>
       <ReactPlayer
         url={heroSection?.mobile_video}
         // url="https://marketersi.cdn.prismic.io/marketersi/ZvZWHrVsGrYSwD0c_hero-mobile-2.mp4"

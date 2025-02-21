@@ -226,3 +226,6 @@
     margin: auto;
   }
 }
+@media screen and (max-width:600px){
+  .main_brandingHeading__RY148{font-size:30px !important; line-height:26px !important;}
+}
