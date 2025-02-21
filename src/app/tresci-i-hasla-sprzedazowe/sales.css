@@ -805,7 +805,12 @@ section#sec1 {
   max-width: 1280px;
 }
 
+.copywriter-custom-text-2.para-2{margin-left:auto !important; margin-right: auto !important;}
+
 /* ----------------------------------------------------------midea screen ------------------------------------- */
+@media only screen and (max-width: 1520px) {
+  .copywriter-intro-header-right strong, .copywriter-intro-header-left strong{font-size:54px; line-height:54px;}
+}
 
 @media only screen and (max-width: 1024px) {
   .copywriter-top-section-banner img {
@@ -1520,8 +1525,71 @@ section#sec1 {
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .copywriter-page .old-btn a.btn {
-    width: 100%;
-  }
+@media only screen and (max-width: 600px) {
+  .container-fluid, .container, .text-change, .copywriter-standard-mtb-40, .faqContainer, .copywriter-custom-header-2.prywidthManage, .copywriter-custom-subheader-2, .copywriter-standard-mt-40, .copywriter-standard-mt-80, .copywriter-standard-mb-80{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+  .copywriter-page .old-btn a.btn{width: 100%;}
+  section.sales_banner{padding-top:10px;}
+
+  .top-banner-title, .copywriter-big-header, .copywriter-big-header-2, .copywriter-custom-gray-header-1, .copywriter-intro-header-right strong, .copywriter-intro-header-left strong, .copywriting-bg-white-header, .copywriter-intro-bg-5-label, .copywriter-custom-header, .copywriter-custom-headerOne, .sendQuote h2, .copywriter-custom-header-2{font-size: 30px; line-height: 26px; font-weight:700; text-align: center; margin-bottom: 0;}
+
+  .turbokids-text-1, .turbokids-text-2{font-weight:700 !important; font-size:30px !important; line-height:26px !important;}
+  .optonsahgasds{font-size: 30px !important; line-height: 26px !important; font-weight:700 !important; font-family:"Poppins", sans-serif !important;}
+  .copywriter-big-header-2{margin:10px 0 30px;}
+  .copywriter-custom-text-turbokids-1{font-size: 30px; line-height: 26px;}
+
+  .top-banner-long-text, .copywriter-page .copywriter-big-subheader, .opinion-box-text, .copywriter-custom-text-1, .copywriter-intro-description-right, .copywriter-intro-description-left, .copywriting-bg-white-subheader, .theme-desc, .copywriter-intro-sm-text, .theme-desc1, .theme-desc2, .copywriter-custom-subheader-2{font-size: 22px !important; line-height: 32px; font-weight:300; padding: 0; margin: 30px 0; font-family:"Poppins", sans-serif !important;}
+
+  .copywriter-page .copywriter-big-subheader{display: block;}
+  .copywriter-custom-text-1, .para-2, .copywriter-custom-gray-header-1, .main-title{width:100%;}
+  .para-2, .main-title{margin:30px 0 !important;}
+  
+
+  .copywriter-page .old-btn .btn.btn-green, .download-catalog-button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
+  .projects-gray-opinion-2 .opinion-box-content{position: static; padding:20px 15px; width:100%; float: none;}
+  .opinion-box{display: block; margin-top:12px;}
+  .copywriter-custom-container-1{display: block;}
+  .copywriter-image-label{margin-bottom:20px;}
+  .copywriter-cmargin-3{margin-top:0;}
+  .copywriter-intro-whatwedo-container .row > div:nth-child(1){padding-right:12px !important;}
+  .copywriter-intro-whatwedo-container .row > div:nth-child(2){padding-left:12px !important;}
+  .copywriter-intro-header-right p, .copywriter-intro-header-left p{margin:12px 0 0; font-size:22px; line-height:22px;}
+  .copywriter-intro-header-right{margin:30px 0 0;}
+  .copywriter-intro-whatwedo-container .row{margin-bottom:0;}
+  .copywriter-intro-header-left{margin-bottom:30px;}
+
+  .copywriter-intro-header-left strong{margin-top:15px;}
+  .copywriting-white-text-cont{max-width:100%; margin-top:30px;}
+  .accordion-title{gap: 15px !important; padding: 15px !important; font-size: 15px !important; line-height: 22px !important;}
+  .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px;}
+  .copywriter-custom-header{margin-top:15px;}
+  .copywriter-custom-container-2{margin-bottom:32px !important;}
+  .copywriter-intro-bg-5-label.text-center.text-change{margin-top:40px !important;}
+  .sendQuote h2{margin-bottom:30px;}
+  .theme-desc1, .theme-desc2{text-align: center;}
+  .theme-desc2 strong{font-weight: 300;}
+  .mi-btn{font-size:15px !important;}
+  .copywriter-what-we-do{margin-top: 0;}
+  .copywriter-what-we-do:nth-child(1){padding-right:12px;}
+  
+  .copywriter-text-center.copywriter-standard-mtb-40{margin-bottom: 0;}
+  .copywriter-custom-headerOne.text-center{margin-top: 50px !important;}
+  .copywriter-what-we-do, .copywriter-intro-sm-text, .copywriter-custom-text-turbokids-1{margin-top: 0;}
+  .copywriter-intro-sm-text b{font-weight:600;}
+
+  .copywriter-custom-subheader{font-size:24px;}
+  .copywriter-intro-sm-text.copywriter-intro-sm-mright{margin-bottom: 0;}
+  .sendQuote{width:92vw; padding:20px 15px 15px; margin-bottom:30px;}
+  .copywriter-custom-subheader-2{margin:0 auto 40px;}
+  .names-client-name{padding-bottom: 50px; font-size: 30px; line-height: 26px;}
+  .names-client-name:after{width: 140px; height: 6px; left: calc(50% - 70px); top: 35px;}
+  .names-client-desc, .copywriter-custom-text-akuku, .copywriter-custom-subtext-akuku, .names-client-text{font-size: 30px; line-height:26px; margin-bottom:0px;}
+  .theme-desc{text-align: center;}
+  .copywriter-standard-mtb-40.natura-text{margin-top:40px;}
+  .copywriter-standard-mtb-40.natura-text + .copywriter-custom-subtext-akuku{margin-bottom:30px;}
+  .copywriter-after-img-2 .copywriter-custom-text-4.turbokids-text-1.text-center{margin-top: 10px;}
+  .copywriter-custom-header-3.text-center.copywriter-rwd-mtb-40.turbokids-text-2{margin-bottom: 30px;}  
+  section.black-sec-form{background-color:transparent; padding:0 0 10px;}
+  .copywriter-ending-1{font-size: 30px; line-height: 26px; margin-bottom: 40px; margin-top:0;}
+  .projects-gray-opinion-2 .container.projects-opinion-box-container .opinion-box{margin-bottom:50px;}
+  .tersci_footer_bottom_btn{font-size: 14px;}
 }

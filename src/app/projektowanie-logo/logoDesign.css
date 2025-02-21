@@ -1849,3 +1849,74 @@ img.zooImage.position-relative {
     line-height: 36px;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .UXBannerContainer, .mid-space-container, div#sec2, .custom-container1-image{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+  .col-md-7.projects-top-banner-container{left:0 !important;}
+
+  .top-banner-title, .theme-title1, .projects-co-otrzymasz, #sec2 .copywriter-intro-bg-5-label, .projects-theme-title3, .projects-custom-h5, .projects-krok-po-kroku, .projects-theme-title-2, .theme-quote, .sendQuote h2{font-size: 30px !important; line-height: 26px !important; font-weight:700; text-align: center; margin-bottom: 0;}
+
+  .projects-custom-h5{font-size:30px !important; line-height:26px !important;}
+  .top-banner-long-text, p.projects-under-big-header, .theme-desc, .opinion-box-text, .projets-custom-theme-desc, .projects-big-text100{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center;}
+  .projects-includes-li{font-size: 22px !important; line-height: 32px; font-weight:300;}
+
+  .download-catalog-button-2, .logo-button-box button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
+
+  .theme-title1{padding-bottom:0px;}
+  .blue-eyes{margin-top:20px;}
+  p.theme-desc.text-center.p-0.projects-under-big-header.mb-5{margin-bottom: 0 !important;}
+  .additional-gap{margin-top: 10px; margin-bottom: 0px;}
+  img.projects-ksiazka-projektowanie-logo{margin-bottom: 0px;}
+  p.projects-custom-lineheight.projects-prasa-margin{display: none;}
+  .one-box-opinion-cont .opinion-box{display: block;}
+  .opinion-box-image, .projects-opinion-1{width:100%;}
+  .one-box-opinion-cont .opinion-box{display: block; margin: 5px 0 0 0 !important;}
+  .opinion-box-content{position: static;}
+  .opinion-box .opinion-box-text{margin-top:0 !important; margin-bottom:0 !important;}
+  .projects-opinion-1{margin-bottom:40px;}
+  .projets-custom-theme-desc{min-width:1px;}
+  .projects-co-otrzymasz{padding-bottom:0;}
+  .projects-big-sub100{font-size: 25px; line-height: 25px; font-weight:700;}
+  p.projets-custom-theme-desc.projects-co-otrzymasz-sub2.text-center.projects-margin-b-60{margin-bottom: 0;}
+  .receive{padding: 0px 0 30px !important;}
+  div#sec2{padding-top:40px;}
+  .accordion-title {gap: 15px !important; padding: 15px !important; font-size: 15px !important; line-height: 22px !important;}
+  .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px;}
+  .faqContainer{padding-top:0 !important;}
+  .projects-theme-title3{margin:0 0 30px;}
+  .thematic-project{display: block;}
+  .projects-custom-container3{margin-top: 40px;}
+  .projects-wierzymy-img{height: auto;}
+  .projects-wierzymy{margin: 40px 0 0; text-align: center;}
+  .projects-krok-po-kroku{padding:30px 0;}
+
+  .projects-clients-theme-subtitle{padding-bottom: 0px; font-size: 30px; line-height: 26px; margin:40px 0 50px;}
+  .projects-clients-theme-subtitle:after{width: 140px; height: 6px; left: calc(50% - 70px);}
+  .projects-theme-title-2.text-left.projects-custom-theme-desc{margin-bottom:30px;}
+  .custom-container1 .projects-theme-desc-p{font-family:"Poppins", sans-serif; font-weight:300; margin-bottom:30px !important;}
+  img.image-810{margin-bottom:0;}
+  .custom-container1-image, .image-810{margin-bottom:40px;}
+  .projects-theme-title-2{margin-bottom:30px !important;}
+  .image-810-container.projects-image-810-container.projects-mb-30{width: 92vw;}
+  .image-810-container.mt-0{width:92vw;}
+  .signature{margin-bottom: 15px;}
+  p.theme-desc.projects-theme-desc-p.projects-custom-theme-desc.mt-0.mb-4{margin-bottom: 0 !important;}
+  h5.theme-quote.signed-quote.signed-quote-image.margin-right-74.mb-4{margin-bottom: 0px !important;}
+  .projects-theme-desc-p.mb-4{margin-bottom: 30px !important;}
+
+  .sendQuote{width: 92vw; padding: 20px 15px 15px !important; margin-bottom:30px !important;}
+  .sendQuote h2{font-weight:700 !important;}
+  .copywriter-ending-1{font-size: 30px !important; line-height: 26px !important; margin-bottom: 40px; margin-top: 0;}
+  .black-sec-form{margin-bottom: 40px;}
+  .copywriter-page .old-btn .btn.btn-green, .download-catalog-button {
+    font-size: 15px  !important;
+    line-height: 20px  !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.mi-btn.download-catalog-button{font-size: 15px !important;}
+}

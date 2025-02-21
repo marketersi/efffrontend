@@ -3498,13 +3498,14 @@ section.goodProcess {
 }
 
 @media only screen and (max-width: 600px) {
-  .UXBannerContainer, #messagesSection, .uxVideoTitle, .uxVideoPara, section.goodProcess, #maciej .contentText, .card, .numberContainer, section.arrowContainer, #guarantee .rowD, #videoSection, .img-block, .slider-container, #highResult, .faqContainer .accordion-item, .flipCardContainer{width:92vw; max-width:92vw; margin: 0 auto 30px; padding:0 12px;}
+  .UXBannerContainer, #messagesSection, .uxVideoTitle, .uxVideoPara, section.goodProcess, #maciej .contentText, .card, .numberContainer, section.arrowContainer, #guarantee .rowD, #videoSection, .img-block, .slider-container, #highResult, .faqContainer, .flipCardContainer{width:92vw; max-width:92vw; margin: 0 auto 30px; padding:0 12px;}
   .uxVideoTitle{margin-top:50px; padding-left:0; padding-right:0;}
   #header > div div .titleHead{font-size:30px; line-height:26px; text-align: center; margin-bottom:0;}
   #header > div div .titleHead br:first-child{display: none;}
   .subitle{text-align: center;}
   #header > div{gap:20px;}
   .buttonux, #maciej .contentText .btn-neon, #WhatGet a{font-size: 15px; line-height:20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width:100%;}
+  .faqContainer{max-width:92vw !important; padding-left:12px !important; padding-right:12px !important;}
   .faqContainer .send-offer-button{font-size:15px !important; line-height:20px !important; margin:20px 0 !important; width:92vw; justify-content: center;}
   #maciej .contentText .btn-neon{margin-top:20px;}
   #numbers{grid-template-columns: repeat(1,1fr);}
@@ -3518,7 +3519,7 @@ section.goodProcess {
 
   .UXBannerContainer .row.m-0{margin-left:-12px !important; margin-right:-12px !important;}
   
-  #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p, .uxVideoPara, #highResult p{font-size: 22px !important; line-height:32px !important; margin-bottom: 15px  !important; padding:0; margin:30px 0;}
+  #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p, .uxVideoPara, #highResult p, .copywriter-custom-subheader{font-size: 22px !important; line-height:32px !important; margin-bottom: 15px  !important; padding:0; margin:30px 0;}
 
   #numbers div p, .typingEffect{font-weight:300 !important;}
 
@@ -3540,9 +3541,9 @@ section.goodProcess {
   .number img{max-width:100%;}
   .circleBox{display: none;}
   .processVideo{height: 190px !important;}
-  .goodProcess h3{font-size:22px; line-height:32px; font-weight:300; margin-top:15px; margin-bottom:10px; text-align: center;}
+  .goodProcess h3{font-size:30px; line-height:26px; font-weight:700; margin-top:15px; margin-bottom:10px; text-align: center;}
   #videoSection > :nth-child(1) h2{margin-bottom:25px;}
-  .goodProcess .subtitle{font-size:22px; line-height:32px; font-weight:300; text-align: center; margin-top:5px; margin-bottom:10px;}
+  .goodProcess .subtitle{font-size:22px; line-height:32px; font-weight:500; text-align: center; margin-top:5px; margin-bottom:10px;}
   .goodProcess p{font-size:22px; line-height:32px; font-weight:300; text-align: center;}
   .two .number, .three .number{margin:0 auto;}
   .process1, .process2{margin:10px 0;}
@@ -3559,10 +3560,9 @@ section.goodProcess {
   #maciej{margin-top:30px; margin-bottom:0px;}
   #maciej .contentText h2{font-size:30px; line-height:26px; margin-bottom:40px; max-width:90%; margin-left:auto;  margin-right:auto;}
 
-  .faqContainer .accordion-item{padding:0 !important;}
   .accordion-title{gap:15px !important; padding:15px !important; font-size:15px !important; line-height:22px !important;}
   .accordion-content{padding:15px !important;}
-  .faqContainer .accordion-item{margin-bottom:0 !important;}
+  .faqContainer .accordion-item{margin-bottom:0 !important; padding:0 !important;}
   .faqContainer{padding-bottom:10px !important; padding-top:0 !important;}
   .processVideo video{width:100%; height: auto;}
   .goodProcess svg{display: none;}
@@ -3575,4 +3575,11 @@ section.goodProcess {
   .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px;}
   .faqContainer .mailidys{font-size: 18px; margin-bottom: 6px; line-height: 20px;}
   #textArrow .rowD p{text-align: left;}
+  .copywriter-text-center.copywriter-standard-mtb-40{margin-bottom: 0;}
+  .copywriter-custom-headerOne.text-center{margin-top: 50px !important;}
+  .copywriter-what-we-do{margin-top:0;}
+  .copywriter-intro-sm-text{margin-top: 0;}
+  .copywriter-intro-sm-text b{font-weight:600;}
+  
+  
 }

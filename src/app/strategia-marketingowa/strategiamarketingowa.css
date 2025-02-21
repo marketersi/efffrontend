@@ -2583,3 +2583,28 @@ img.strategyImg {
     padding: 20px 10px !important;
   }
 }
+
+@media(max-width:600px){
+  .MainHeading, .MainContentTwo, .Strategy, .Testimonial, .Analysis.WidthContent2{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+  .WidthContent, .WidthContent1, .container{padding:0 12px;}
+
+  .MainHeading_Title, .MainHeading_SecondTitle, .MainContentOne_Container, .ResultTable_Title, .Strategy_Title, .ResultMax_Title, .Analysis_Card_Content_Title{font-size: 30px !important; line-height: 26px !important; font-weight:700; text-align: center; margin-bottom: 0;}
+
+  .MainHeading_Content, .MainContentOne .extra-text, .MainNumber_Two_Footer p, .MainContentTwo_Container p, .ResultTable_Table_Row_Content, .Strategy_Card_Content_One, .ResultTable_Table_Row_Content, .Strategy_Card_Content_Two, .ResultMax_Content_One, .ResultMax_Content_Two, .Analysis_Card_Content_Text, .Analysis_Card_Content_Table_Column, .Analysis_Card_Content_Table_Column{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center;}
+
+  .MainHeading button, .Testimonial_Card_Content_Button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
+
+  .MainHeading_Title span{background-position:0 27px;}
+  .mainHeadingContent{padding:0 12px;}
+  .MainNumber_Two img{width: 60% !important; margin: 0 auto; display: block;}
+  .main-content-row{padding:0;}
+  .MainContentTwo_Container{margin-top:0;}
+  .MainContentTwo .MainContentTwo_Container p:first-child{margin-top:0;}
+  .MainNumber_image_box p{font-size:16px;}
+  .ResultTable_Title{margin-bottom:30px;}
+  .Strategy_Card img{width:60px !important;}
+  img.strategyImg{margin-bottom:-20px;}
+  .Strategy_Card_Title{font-size:25px; line-height:25px; font-weight:600;}
+  .Strategy_Card_Content_One, .Strategy_Card_Content_Two{margin-bottom:0;}
+  .Testimonial_Card_Content_Title{margin-top:0;}
+}
