@@ -15,7 +15,9 @@ const CardOne = () => {
 
   return (
     <>
-    
+      {currentComponent === 0 && (
+        <FormZero setCurrentComponent={setCurrentComponent} form={formOne} />
+      )}
       {currentComponent === 1 && (
         <SliderForm
           setCurrentComponent={setCurrentComponent}
