@@ -883,10 +883,10 @@ section.projects-gray-opinion-4 {
   img.Naming {
     width: 90%;
   }
-  .row {
+  /* .row {
     margin: 0;
     padding: 0;
-  }
+  } */
   .sendQuote {
     padding: 25px;
     width: 95%;
@@ -998,3 +998,74 @@ section.projects-gray-opinion-4 {
 /* .names-list-info.theme-desc{list-style-type:none !important;}
 .names-list-info.theme-desc li:before{content: ''; display: inline-block; width: 10px; height: 10px; background: #212529; border-radius: 10px; margin: 0 9px 5px 0;}
 .names-list-info.theme-desc li::marker{display: none !important;} */
+
+@media only screen and (max-width: 600px) {
+  .WidthContent, .WidthContent1, .container{padding:0 12px;}
+
+  .nazwaContainer, .projects-over-hid .naming-seo-img, .custom-container-4, .projects-thematic-section-gray .container, .projects-custom-container-gray.new-wierzymy, .projects-thematic-section-gray.menu-target{width: 92vw !important; max-width: 92vw !important; margin: 0 auto 30px; padding: 0 12px !important;}
+
+  .UXBannerContainer .row{margin:0 -12px;}
+
+  .pnazw-page .pnazw-topbanner-title, .projects-big-header, .optonsahgasds, .projects-theme-title2, .pnazw-page .names-client-desc-litery, #sec2 .copywriter-intro-bg-5-label, .pnazw-custom-header, .names-client-desc, .names-client-name, .iglarki-section-main-header, .sendQuote h2{font-size: 30px !important; line-height: 26px !important; font-weight:700 !important; text-align: center !important; margin-bottom: 0;}
+
+  .nazwa-heading, .second-section .projects-under-big-header2, .second-section .projects-under-big-header, #sec0 .projects-mq-book-fix, .opinion-box-text, .projects-theme-subtitle1, .theme-desc, .pnazw-ctext-size, .iglarki-section-submain, .projects-push-content-top .theme-desc{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center; font-family:"Poppins", sans-serif !important;}
+
+  .pnazw-page .catalog-submit-button .download-catalog-button, .download-catalog-button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
+
+  .banner-nazwa{padding: 0;}
+  .pnazw-page .pnazw-topbanner-title{padding-top:30px;}
+  .projects-under-big-header.mb-5{margin-bottom:30px !important;}
+  #sec0 .projects-mq-book-fix{padding:0;}
+  .projects-opinion-box-container .opinion-box{display: block;}
+  .projects-opinion-2, .projects-opinion-4{left:0;}
+  .names-list-info{margin-left:0; font-size:22px; line-height:32px; font-weight:300;}
+  .custom-container-4 .row{margin-top:0; margin-bottom:0;}
+  .container.custom-container1 p:first-child{margin-top:0 !important;}
+  .projects-custom-container-second-prasa{margin-top:0 !important;}
+  .projects-custom-container-second-prasa p:first-child{margin-top:0 !important;}
+  .projects-gray-opinion-2 .row{margin-left:-12px; margin-right:-12px;}
+  .projects-custom-container1 .projects-theme-title2{margin-top:40px;}
+  .stats-image-cont img{margin-bottom:0; width:60%;}
+  .names-list-info{text-align: left; margin-left:20px;}
+  .names-container-Litery{padding: 20px; margin: 10px 0 45px;}
+  .names-container-Litery p{margin-bottom:0px;}
+
+  .accordion-title{gap: 15px !important; padding: 15px !important; font-size: 15px !important; line-height: 22px !important; border-bottom-color:lightgray;}
+  .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px; padding: 10px !important;}
+  .faqContainer{margin-bottom:0; padding-top:0; padding-left:0;  padding-right:0;}
+  .new-wierzymy{display: block; height: auto; margin-bottom:0 !important;}
+  .container div#sec2{width:100%; max-width:none; margin-bottom:0; padding:0;}
+  .pnazw-custom-header, .naming-seo-img{margin-bottom:0 !important;}
+  .iglarki-section-main-header{margin-bottom:0;}
+  .opinion-box-text, .projects-push-content-top .theme-desc{font-family:"Poppins", sans-serif !important;}
+  div#sec2, .naming-seo-img{width: 92vw; margin: 0 auto; padding:0 12px;}
+  section.projects-thematic-section-gray.projects-thematic-section-background-index{margin-top: 6px;}
+  .iglarki-section-main-header{padding-bottom:0;}
+  .naming-seo-img img{margin-bottom:0;}
+  .opinion-box-content{padding: 15px 15px;}
+  .opinion-box p.theme-desc.projects-client-opinion-p.text-center{font-size: 30px !important; line-height: 26px !important; font-weight: 700 !important; margin: 10px 0 0;}
+  .names-client-name.iglarki-cname:after, .underline-down:after{height: 5px; top: 36px; width: 140px; height: 6px; left: calc(50% - 70px);}
+  .underline-down:after{bottom: -5px;}
+  .names-client-name{font-size: 30px; margin-bottom:0;}
+  .container.names-custom-container.projects-push-content-top .names-client-name{margin-bottom:40px;}
+  .projects-thematic-section-gray .container .container{width:100% !important; max-width: none !important; padding:0 !important; margin:0 !important;}
+
+  .names-custom-container.projects-push-content-top .names-client-desc{margin-bottom: 40px;}
+  .img-wierzymy{width: 100%; margin-top: 0;}
+  .iglarki-section-main-header{margin-top:10px;}
+  .additional-gap2{margin-bottom: 50px;}
+  .container.names-custom-container.projects-push-content-top .naming-seo-img{padding: 0; width: 100%;}
+  .theme-quote{font-size: 30px; line-height: 26px; margin-bottom: 10px;}
+  .naming-seo-img.btgapebox{margin-bottom: 40px !important;}
+  .primadentdiv .custom-after-top-line::after{bottom: -10px !important;}
+  .primadentdiv .naming-seo-img{margin: 40px 0 !important;}
+  .primadentdiv .names-client-name{margin-bottom: 40px;}
+  .primadentdiv .naming-seo-img{padding: 0; width: 100%;}
+  .primadentdiv .signature{margin-bottom: 30px;}
+  .black-sec-form{margin-bottom: 40px;}
+  .copywriter-ending-1{font-size: 30px !important; line-height: 26px !important; margin-bottom: 40px; margin-top:10px;}
+  .sendQuote h2{margin-bottom:30px;}
+  .sendQuote{width: 92vw; padding: 20px 15px 15px !important; margin-bottom: 30px !important;}
+  .mi-btn.download-catalog-button{font-size: 15px !important;}
+  
+}

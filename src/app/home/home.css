@@ -228,4 +228,17 @@
 }
 @media screen and (max-width:600px){
   .main_brandingHeading__RY148{font-size:30px !important; line-height:26px !important;}
+
+  /* Similer Css 22Feb2025 */
+  .hero_hero__EOOa3 h1, .main_Content__WgAOL h2, .mark_markCard__FV5ZX h3, .main_order__wvudO .main_orderContent__2Cm6q h2, .ClinetsHead{font-size:30px; line-height:26px; text-align: center;}
+  .rating_ratingCOntent__1q2Wg h2{margin-bottom: 30px;}
+  .mark_markCard__FV5ZX{padding-top:30px;}
+  .main_Content__WgAOL p, .main_Content__WgAOL h4{text-align: center;}
+  .main_Content__WgAOL h3{font-size: 22px; line-height: 32px; font-weight:700;}
+  .main_hardResult__kAoMV h4, .main_order__wvudO .main_orderContent__2Cm6q p, .main_Content__WgAOL h4{font-size: 22px; line-height: 32px; text-align: center;}
+  .main_order__wvudO .main_orderContent__2Cm6q{border-radius: 12px 12px 0 0px; padding: 15px;}
+  .main_order__wvudO .main_orderImg__haEXl{border-radius: 0 0px 12px 12px;}
+  .main_order__wvudO{margin-bottom:0;}
+  .main_socialVideo__4wXCi video{margin-top:0;}
+  .main_ratingContent__2Hrvo{margin-top: 00px; padding: 25px 15px 20px;}
 }
