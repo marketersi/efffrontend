@@ -1071,3 +1071,31 @@ text-align: center;
     min-height: 250px;
   }
 }
+
+
+
+@media only screen and (max-width: 600px){
+  .bannerHeading h1, .bannerBottomContent1 h2, .MainTitle, .mainHeading h2, .teamContent h2, .Support h4, .ClinetsHead, .goodHeadingMain{font-size:30px !important; line-height:26px !important; font-weight:700 !important;}
+
+  .teamContent p, .personalCard h6, .teamContent p, .peopleCard h3{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center;}
+
+  .zespolVideo{min-height:1px !important;}
+  .bannerHeading{padding:40px 0 0;}
+  .BannerBotHeading, .Support h4{text-align: center;}
+  
+
+  .Support .teamContent{margin-top:0;}
+  .teamContent{padding-left:0; padding-right:0;}
+
+  .creativePara{margin-bottom:45px !important;}
+  .personalCard{padding:30px 15px 0px;}
+  .personalCard h4, .caringCard h4, .caringCard p, .cultureCard h2, .cultureCard h3{font-size:22px; line-height:32px;}
+  .creative .creative h2{margin-top:0;}
+  .caring .cartRow{max-width:100%;}
+  .caringCard{width: 100%; margin: 0 0 30px;}
+  .caring{padding-bottom:0;}
+  .teamContent1{margin-top:15px;}
+  .peopleCard{margin: 40px auto 0px;}
+  .peopleVideoContent .projectBtn{width:100%;}
+  .OurClients{margin-top: 60px;}
+}

@@ -46,7 +46,7 @@ const Aico = () => {
           </div>
         </div>
 
-        <div className="image-810-container mt-0">
+        <div className="image-810-container mt-0  mobilemp0">
           <div className="image-810">
             <img
               className="desktop-810 position-relative"

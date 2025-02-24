@@ -1592,4 +1592,9 @@ section#sec1 {
   .copywriter-ending-1{font-size: 30px; line-height: 26px; margin-bottom: 40px; margin-top:0;}
   .projects-gray-opinion-2 .container.projects-opinion-box-container .opinion-box{margin-bottom:50px;}
   .tersci_footer_bottom_btn{font-size: 14px;}
+
+  .tersci_footer_bottom_btn{
+    font-size: 16px !important;
+    line-height: 21.2px !important;
+}
 }

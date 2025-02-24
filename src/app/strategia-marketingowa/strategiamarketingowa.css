@@ -62,8 +62,7 @@
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   box-shadow: 0 4px 0 0 var(--brand-blue-hover);
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border: none;
 }
 .MainHeading button:hover {
@@ -2585,14 +2584,14 @@ img.strategyImg {
 }
 
 @media(max-width:600px){
-  .MainHeading, .MainContentTwo, .Strategy, .Testimonial, .Analysis.WidthContent2{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+  .MainHeading, .MainContentTwo, .Strategy, .Testimonial, .Analysis.WidthContent2, .WhatRecieve_Title_Three, .StrategyAction.container-fluid{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
   .WidthContent, .WidthContent1, .container{padding:0 12px;}
 
-  .MainHeading_Title, .MainHeading_SecondTitle, .MainContentOne_Container, .ResultTable_Title, .Strategy_Title, .ResultMax_Title, .Analysis_Card_Content_Title{font-size: 30px !important; line-height: 26px !important; font-weight:700; text-align: center; margin-bottom: 0;}
+  .MainHeading_Title, .MainHeading_SecondTitle, .MainContentOne_Container, .ResultTable_Title, .Strategy_Title, .ResultMax_Title, .Analysis_Card_Content_Title, .WhatRecieve_Title_One, .ImageAdvantage_Title, .InviteCustomer_Title, .QuoteTwo_Title, .WhatRecieve_Title_Two, .Analysis3_GridItemTitle, .StrategyAction_Content_Title, .AnswerAll_Title, .OurClients_Card_One_Title{font-size: 30px !important; line-height: 26px !important; font-weight:700; text-align: center; margin-bottom: 0;}
 
-  .MainHeading_Content, .MainContentOne .extra-text, .MainNumber_Two_Footer p, .MainContentTwo_Container p, .ResultTable_Table_Row_Content, .Strategy_Card_Content_One, .ResultTable_Table_Row_Content, .Strategy_Card_Content_Two, .ResultMax_Content_One, .ResultMax_Content_Two, .Analysis_Card_Content_Text, .Analysis_Card_Content_Table_Column, .Analysis_Card_Content_Table_Column{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center;}
+  .MainHeading_Content, .MainContentOne .extra-text, .MainNumber_Two_Footer p, .MainContentTwo_Container p, .ResultTable_Table_Row_Content, .Strategy_Card_Content_One, .ResultTable_Table_Row_Content, .Strategy_Card_Content_Two, .ResultMax_Content_One, .ResultMax_Content_Two, .Analysis_Card_Content_Text, .Analysis_Card_Content_Table_Column, .Analysis_Card_Content_Table_Column, .Testimonial_Card_Content_Title, .Analysis1_Dropdown_Text1, .Analysis1_Dropdown_Text2, .Analysis1_Dropdown_Text3, .AnalysisCardDes, .WhatRecieve_Content_One, .WhatRecieve_Content_Two, .WhatRecieve_Title_Three, .WhatRecieve_Content_Three_One, .WhatRecieve_Content_Three_Tow, .ImageAdvantage_Content, .ImageAdvantage_Table_Column, .InviteCustomer_Content, .QuoteOne_Text, .QuoteTwo_TextOne, .QuoteTwo_TextTwo, .clientReviewHeading h2, .Analysis2_Dropdown_Text1, .Analysis2_Dropdown_Text2, .Analysis2_Dropdown_Text3, .Analysis2_Dropdown_Text4, .Analysis3_Dropdown_Text1, .Analysis3_Dropdown_Text2, .Analysis3_Dropdown_Text3, .Analysis3_GridItemContent, .Analysis4_PanelTextContent, .WhatRecieve_Dropdown_TitleOne, .WhatRecieve_Dropdown_ContentOne, .WhatRecieve_Dropdown_TitleTwo, .WhatRecieve_Dropdown_ContentTwo, .ImageAdvantage_Dropdown_ContentOne, .ImageAdvantage_Dropdown_ContentTwo, .StrategyAction_Content_TextOne, .StrategyAction_Content_TextTwo{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; padding: 0; margin: 30px 0 ; text-align: center;}
 
-  .MainHeading button, .Testimonial_Card_Content_Button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
+  .MainHeading button, .Testimonial_Card_Content_Button, .Price_Card_Main_Button{font-size: 15px; line-height: 20px; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
 
   .MainHeading_Title span{background-position:0 27px;}
   .mainHeadingContent{padding:0 12px;}
@@ -2601,10 +2600,76 @@ img.strategyImg {
   .MainContentTwo_Container{margin-top:0;}
   .MainContentTwo .MainContentTwo_Container p:first-child{margin-top:0;}
   .MainNumber_image_box p{font-size:16px;}
-  .ResultTable_Title{margin-bottom:30px;}
+  .ResultTable_Title{margin-bottom:30px; margin-top:0 !important;}
   .Strategy_Card img{width:60px !important;}
   img.strategyImg{margin-bottom:-20px;}
   .Strategy_Card_Title{font-size:25px; line-height:25px; font-weight:600;}
   .Strategy_Card_Content_One, .Strategy_Card_Content_Two{margin-bottom:0;}
   .Testimonial_Card_Content_Title{margin-top:0;}
+  .ResultTable_Table_Row_Content{margin:0 !important;}
+  .Strategy_Cards{gap: 40px; margin-top:40px;}
+  .ResultMax_Content_One{font-style: normal;}
+  .Analysis_Card_Content_Text{font-family:"Poppins", sans-serif !important;}
+  .Analysis_Card_Content_Table{gap:0;}
+  .Analysis_Card_Content_Table .Analysis_Card_Content_Table_Column{margin-bottom:0px !important;}
+  .Analysis_Card_Content_Table .Analysis_Card_Content_Table_Column:first-child{margin-top:0 !important;}
+  .Analysis1_Dropdown_Text1{margin-top:0;}
+  .Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column{text-align: center; align-items: center;}
+  .Analysis1_Dropdown_Text2{margin-bottom:0;}
+  .Analysis1_GridItem1 .AnalysisCardDes, .Analysis1_GridItem2 .AnalysisCardDes, .Analysis1_GridItem3 .AnalysisCardDes, .Analysis1_GridItem4 .AnalysisCardDes{margin-top:0;}
+  .Analysis_Card_Content_Odd .Analysis_Card_Content_Text{margin-bottom: 0;}
+  .ImageAdvantage_Button_Container.float-right{float: none;}
+  .ImageAdvantage_Button, .ImageAdvantage_Button_Clicked, .Analysis_Card_Content_Button, .Analysis_Card_Content_Button_Clicked{font-size: 18px; line-height:20px; padding:10px 5px; width: 100% !important; text-align: center;}
+  .Analysis_Card{margin: 0 -12px; padding-top:0;}
+  .Analysis_Card_Content_Table_Column{margin-bottom: 0;}
+  .Analysis_Card_Content_Table_Odd, .Analysis_Card_Content_Table_Column, .Analysis_Card_Content_Table_Odd .Analysis_Card_Content_Table_Column{gap: 0;}
+  .WhatRecieve_Content_One, .WhatRecieve_Content_Two, .WhatRecieve_Title_Three{margin-bottom:30px;}
+  .WhatRecieve_Title_Two{line-height: 26px; font-size: 30px; margin-bottom: 30px;} 
+  .Analysis2_Dropdown_Text1, .Analysis2_Dropdown_Text2, .Analysis2_Dropdown_Text3, .Analysis2_Dropdown_Text4, .Analysis3_Dropdown_Text1, .Analysis3_Dropdown_Text2, .Analysis3_Dropdown_Text3{margin-top:0;}
+  .Analysis3_GridItemNumber{font-size: 60px; line-height: 60px; margin-bottom: 30px;}
+  .Analysis3_GridItem1, .Analysis3_GridItem2, .Analysis3_GridItem3{padding:0;}
+  .Analysis4_PanelImage{margin-bottom:20px;}
+  .Analysis4_PanelTextTitle{text-align: center;}
+  .WhatRecieve_Content_One, .WhatRecieve_Content_Two, .WhatRecieve_Title_Three{margin-left: auto; margin-right: auto;}
+
+  .ImageAdvantage_Table_Column{margin: 0; gap: 0; width: 100%;}
+  .ImageAdvantage_Dropdown{padding:30px 0;}
+  .ImageAdvantage_Dropdown .ImageAdvantage_Dropdown_ContentOne{margin-top: 0;}
+  .ImageAdvantage_Dropdown .ImageAdvantage_Dropdown_ContentTwo{margin-bottom: 0;}
+  .ImageAdvantage.WidthContent.mb-4.pb-1{margin-bottom: 0 !important;}
+  .QuoteOne.WidthContent.mb-5.pb-4{margin-bottom: 0 !important; padding-bottom: 10px !important;}
+  .InviteCustomer_Title.feature{margin-top: 0;}
+  .OurClients .OurClients_Marquee{position:relative;}
+  .OurClients.WidthContent.mobile-mt{width: 100% !important; padding: 0;}
+  .overflow-div section.WidthContent1{padding: 0;}
+  .OurClients_Slide_Title.mobile_title{padding-bottom: 0;}
+  .overflow-div .OurClients_Slide_Container{align-items: start;}
+  .OurClients_Slide_Star_Reviewer{font-size: 14px; line-height: 20px;}
+  .OurClients_Slide_Star_Company{font-size: 13px; line-height: 15px;}
+  .ArrowButton{height: 1.5em; width: 1.5em;}
+  .OurClients_Slide_Button_Text{font-size: 20px;}
+  .OurClients_Slide_Button{gap:15px;}
+  .ArrowButton_Arrow{font-size: 2rem;}
+  .Price.WidthContent2{margin-top:0; margin-bottom:0px;}
+  .Price_Card{width: 100%; max-width: none;}
+  img.price-card-title-image{max-height: 100px; margin: 0 auto;}
+  .Price_Card_Main_TextOne, .Price_Card_Main_TextTwo, .Price_Card_Main_Footer{font-size:22px; line-height:32px; font-weight:700;}
+  .Price_Card_Main_ContentOne, .Price_Card_Main_ContentTwo{font-size:22px; line-height:32px; font-weight:300;}
+  .StrategyAction.container-fluid{padding:0 12px;}  
+  .Price_Card_Container{gap:0;}
+  .OurClients.WidthContent .OurClients_Card_Two {margin-bottom:0;}
+  .accordion-title{gap: 15px !important; padding: 15px !important; font-size: 15px !important; line-height: 22px !important;}
+  .accordion-title svg{font-size: 14px; line-height: 14px; height: 15px; width: 15px; min-width: 15px; padding:10px !important;}
+  .faqContainer{margin-bottom:20px; max-width: 92vw !important; padding-left: 12px !important; padding-right: 12px !important; padding-bottom: 10px !important; padding-top: 0 !important;}
+  .accordion-item:not(:first-of-type){border:0;}
+  .StrategyAction_Container.full.row .StrategyActionImage img{margin-top: 0 !important;}
+  .Price_Card_Main{padding:15px 15px 30px;}
+  .Price_Card_Main_Title{margin-bottom:5px;}
+  .OurClients_Card_Two{margin-top:60px;}
+  .WhatRecieve_Title_One{padding-top: 7px;}
+  .Testimonial_Card_Content_Title{font-family:"Poppins", sans-serif !important;}
+  .Analysis_Card_Content_Button_Container{margin-bottom:40px;}
+  .WhatRecieve.WidthContent .feature img{margin-bottom: 50px !important;}
+  .Analysis.WidthContent2 .Analysis_Card.full img{margin-top:0px;}
+  .Price_Container{width:92vw; margin:0 auto;}
 }

@@ -122,6 +122,9 @@
   .OurClients_Slide_Title.mobile_title{min-height: 168px; margin-bottom: 25px;}
   .OurClients_Slide_Media_Video{width:auto;}
   .OurClients_Slide_Media_Video img{max-width:100%; max-height:85px; width: auto;}
+
   .OurClients_Slide_Star_Reviewer{font-size:14px; line-height:20px;}
   .OurClients_Slide_Star_Company{font-size:13px; line-height:15px;}
-}
+
+  .ClinetsHead{font-size:30px !important; line-height:26px !important; font-weight:700 !important;}
+}  

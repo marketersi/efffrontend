@@ -34,7 +34,7 @@ const ImplementationEx301 = () => {
           </div>
         </div>
       
-        <div className="naming-seo-img">
+        <div className="naming-seo-img btgapebox">
           <img
             className="custom-image-margin"
             src={item?.image}

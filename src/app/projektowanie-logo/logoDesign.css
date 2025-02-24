@@ -1852,7 +1852,8 @@ img.zooImage.position-relative {
 
 
 @media only screen and (max-width: 600px) {
-  .UXBannerContainer, .mid-space-container, div#sec2, .custom-container1-image{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+  .UXBannerContainer, .mid-space-container, div#sec2, .custom-container1-image, .image-810-container.projects-image-810-container.projects-mb-30, .thematic-section.projects-gray-background .image-810-container{width: 92vw; max-width: 92vw; margin: 0 auto 30px; padding: 0 12px;}
+
   .col-md-7.projects-top-banner-container{left:0 !important;}
 
   .top-banner-title, .theme-title1, .projects-co-otrzymasz, #sec2 .copywriter-intro-bg-5-label, .projects-theme-title3, .projects-custom-h5, .projects-krok-po-kroku, .projects-theme-title-2, .theme-quote, .sendQuote h2{font-size: 30px !important; line-height: 26px !important; font-weight:700; text-align: center; margin-bottom: 0;}
@@ -1909,14 +1910,8 @@ img.zooImage.position-relative {
   .sendQuote h2{font-weight:700 !important;}
   .copywriter-ending-1{font-size: 30px !important; line-height: 26px !important; margin-bottom: 40px; margin-top: 0;}
   .black-sec-form{margin-bottom: 40px;}
-  .copywriter-page .old-btn .btn.btn-green, .download-catalog-button {
-    font-size: 15px  !important;
-    line-height: 20px  !important;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
+  .copywriter-page .old-btn .btn.btn-green, .download-catalog-button{font-size: 15px  !important; line-height: 20px  !important; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
 .mi-btn.download-catalog-button{font-size: 15px !important;}
+.nazwa_footer_bottom_right button{font-size: 16px !important;line-height: 21.2px !important;}
+.image-810-container.mt-0.mobilemp0{margin-bottom: 0;}
 }
