@@ -20,7 +20,7 @@ const GoodTime = () => {
 
   return (
     <>
-      <section className="WidthContent1">
+      <section className="WidthContent1 container">
       <div className={`${style.teamContent}`}>
         <h1 className={style.goodHeadingMain}>
           {section8?.section8_title?.split(" ").slice(0, 2).join(" ")}{" "}

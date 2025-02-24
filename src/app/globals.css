@@ -818,7 +818,15 @@ video {
   .WidthContent, .WidthContent1, .container{width:92vw !important; max-width:92vw !important; margin:0 auto !important;}
   .container .container{width:100% !important; max-width:100% !important; padding:0;}
 
+  .OurClients_Card_Two{margin-top:60px; padding:15px !important;}
+  .overflow-div .WidthContent1 .WidthContent{width:100% !important; max-width:100% !important;}
+  
+  .mobilepd-0 .col-lg-4{padding: 0;}
+  .mobile-padlr{padding: 0 12px;}
+  
   /* .footer_footer__IaZdr{padding:0;} */
+
+
   
 }
 

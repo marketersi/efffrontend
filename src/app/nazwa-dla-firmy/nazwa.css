@@ -1067,5 +1067,7 @@ section.projects-gray-opinion-4 {
   .sendQuote h2{margin-bottom:30px;}
   .sendQuote{width: 92vw; padding: 20px 15px 15px !important; margin-bottom: 30px !important;}
   .mi-btn.download-catalog-button{font-size: 15px !important;}
+
+  .faqContainer{padding-left:0; padding-right:0;}
   
 }

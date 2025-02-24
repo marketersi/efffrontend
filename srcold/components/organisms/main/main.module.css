@@ -168,6 +168,11 @@ img.hardImg {
 }
 .helmetVideo {
   margin: 0 auto;
+  /* height: 810px; */
+}
+
+.helmetVideo video {
+  object-fit: cover;
 }
 
 /* ================================================== order================================= */

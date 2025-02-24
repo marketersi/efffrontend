@@ -78,18 +78,22 @@ const Entrepreneur = () => {
 
         <Row className="helmet mb-md-0 mb-sm-2">
           <Col lg={12} className={osClass}>
+
+       
+           <div className={style.helmetVideo}>
             <ReactPlayer
               url={section6?.video_url}
               playing={true}
               loop={true}
-              width="100%"
-              height="auto"
+              //width="100%"
               muted={true}
               pip={false}
               playsinline
-              className="helmetVideo"
-              style={{ margin: "0 auto" }}
+              //className="helmetVideo"
+              //style={{height:'810px'}}
             />
+
+             </div>
           </Col>
         </Row>
 
