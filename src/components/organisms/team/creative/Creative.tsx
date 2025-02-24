@@ -11,9 +11,9 @@ const Creative = () => {
 
   return (
     <>
-      <section className={`${style.creative} WidthContent`}>
+      <section className={`${style.creative} WidthContent mobile-padlr`}>
         <div className={style.teamContent}>
-          <h2>{section5?.section_five_title}</h2>
+          <h2 className="mt-0">{section5?.section_five_title}</h2>
           {/* to be deleted */}
           {/* <motion.div
               className={style.orangeBG} 

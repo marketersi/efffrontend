@@ -9,7 +9,7 @@ const Culture = () => {
 
   return (
     <>
-     <div className="WidthContent1">
+     <div className="WidthContent1 container">
      <div className={`${style.teamContent1} additionalSpace`}>
         <p className={style.textContentBg}>
         Marketersi wybrały firmy, które osiągają sukcesy.

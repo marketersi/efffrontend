@@ -126,7 +126,7 @@ export default function OurClients() {
         <div className="OurClients_Card_One">
           <ClientCarousel slides={ClientFeedback} />
         </div>
-        <div className="OurClients_Card_Two">
+        <div className="OurClients_Card_Two mb-0">
           <div>
             <Image
               src={RatingCard?.rating_image}

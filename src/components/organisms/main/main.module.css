@@ -90,6 +90,30 @@
   max-width:100%;
 }
 
+.helmetVideo{
+  height: 567px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .helmetVideo  {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10.1
+  }
+}
+
+.helmetVideo > div {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.helmetVideo video {
+  object-fit: cover;
+}
+
 
 .numbers h2 span {
   font-weight: 800;
@@ -172,9 +196,7 @@
 img.hardImg {
   margin: 0 0 50px;
 }
-.helmetVideo {
-  margin: 0 auto;
-}
+
 
 /* ================================================== order================================= */
 .order {

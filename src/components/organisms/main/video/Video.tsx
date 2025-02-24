@@ -139,7 +139,7 @@ const Video = () => {
         </div>
       )}
 
-<style jsx>{`
+       <style jsx>{`
         .popup-overlay {
           position: fixed;
           top: 0;
@@ -231,6 +231,8 @@ const Video = () => {
         
 
       `}</style>
+
+      
     </>
   );
 };

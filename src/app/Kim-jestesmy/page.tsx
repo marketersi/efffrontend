@@ -37,13 +37,13 @@ const Team = () => {
       <OurClients />
       <section className={`{style.Customers} WidthContent1`}>
         <div className={`${style.teamContent}`}>
-          <p className={style.customersPara}>
+          <p className={'{style.customersPara}'} >
             <span>{section3?.section_three_header}</span>
             {section3?.section_three_subheader}
           </p>
         </div>
         <TeamComponents.PersonalCard {...card2} />
-        <div className={style.teamContent}>
+        <div className={`${style.teamContent} mobilePadfont`}>
           <p className={style.customersPara1}><strong className={style.FontWieght}>To wytrwałość,</strong> a nie przypadek kreuje efekty – każdy detal ma znaczenie, a my dbamy o każdy z nich.</p>
         </div>
       </section>

@@ -487,4 +487,5 @@
 @media (max-width: 600px) {
   .mobileLeftBtn{border-width:3px; font-size: 16px; padding: 2px 16px; box-shadow: 0 4px 0px 0 #00bbff;}
   .header{padding:5px 0 0; width: 90vw; margin: 0 auto;}
+ 
 }

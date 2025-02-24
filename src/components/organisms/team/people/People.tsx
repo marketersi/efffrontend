@@ -26,7 +26,7 @@ const People = () => {
 
   return (
     <>
-     <section className="WidthContent1">
+     <section className="WidthContent1 container">
      <div className={`${style.teamContent}`}>
         <h2 className={style.peopleTitle}>{section10?.section10_title}</h2>
         <p className={`${style.peoplePara} text-center`}>{section10?.section10_subtitle}</p>
