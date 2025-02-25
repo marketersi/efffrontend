@@ -1866,6 +1866,7 @@ img.zooImage.position-relative {
 
   .theme-title1{padding-bottom:0px;}
   .blue-eyes{margin-top:20px;}
+  img.img-background-logop.blue-eyes{max-width:92vw; padding:0 12px; margin:0 auto;}
   p.theme-desc.text-center.p-0.projects-under-big-header.mb-5{margin-bottom: 0 !important;}
   .additional-gap{margin-top: 10px; margin-bottom: 0px;}
   img.projects-ksiazka-projektowanie-logo{margin-bottom: 0px;}
@@ -1913,5 +1914,7 @@ img.zooImage.position-relative {
   .copywriter-page .old-btn .btn.btn-green, .download-catalog-button{font-size: 15px  !important; line-height: 20px  !important; margin-left: auto; margin-right: auto; display: block; text-align: center; width: 100%;}
 .mi-btn.download-catalog-button{font-size: 15px !important;}
 .nazwa_footer_bottom_right button{font-size: 16px !important;line-height: 21.2px !important;}
+.custom-container1-image, .image-810-container.projects-image-810-container.projects-mb-30, .thematic-section.projects-gray-background .image-810-container.mt-0{margin-bottom:0;}
+.thematic-section.projects-gray-background:nth-child(5) .custom-container1-image{margin-bottom:30px;}
 .image-810-container.mt-0.mobilemp0{margin-bottom: 0;}
 }

@@ -187,4 +187,5 @@
   .markCard a:hover{padding-left:12px;}
   .markCard h3{word-break:break-word;}
   .playIcon{top:3px;}
+  .markVideo video{margin-top:-20px;}
 }
