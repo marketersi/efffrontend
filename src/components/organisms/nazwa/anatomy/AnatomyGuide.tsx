@@ -26,7 +26,7 @@ const AnatomyGuide = () => {
         </div>
       </div>
 
-      <div className="container custom-container1">
+      <div className="container custom-container1 max-1100">
         <div className="row">
           <div className="col-lg-12">
             <p className="theme-desc  projects-mq-book-fix new-same-text">
@@ -36,7 +36,7 @@ const AnatomyGuide = () => {
         </div>
       </div>
 
-      <div className="container custom-container1 paddbottom">
+      <div className="container custom-container1 paddbottom max-1100">
         <div className="row">
           <div className="col-md-12 projects-custom-container-second-prasa">
             <div className="container-fluid">

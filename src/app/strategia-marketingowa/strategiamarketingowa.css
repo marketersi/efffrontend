@@ -1166,7 +1166,13 @@ img.strategyImg {
 /* 17. Price */
 .Price {
   margin-bottom: 100px;
-  margin-top: 530px;
+  /* margin-top: 530px; */
+}
+
+.Price_Card img.price-card-title-image {
+    max-width: 100%;
+    height: 190px;
+    object-fit: contain;
 }
 
 .Price_Title {
@@ -1622,10 +1628,10 @@ img.strategyImg {
   position: relative;
   margin-bottom: 80px;
 }
-.OurClients .OurClients_Marquee {
+/* .OurClients .OurClients_Marquee {
   position: absolute;
   bottom: 0;
-}
+} */
 
 .OurClients_Slide_Star_Reviewer {
   font-size: 10.624px;

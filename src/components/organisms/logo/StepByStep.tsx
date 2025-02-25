@@ -44,7 +44,7 @@ const StepByStep = () => {
           <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-              <h5 className="theme-subtitle projects-clients-theme-subtitle">
+              <h5 className="theme-subtitle projects-clients-theme-subtitle morespacetop">
               PRIMADENT<br/> MILANÓWEK
               </h5>
 

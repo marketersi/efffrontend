@@ -33,8 +33,17 @@ const Video = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+    const video = document.createElement("video");
+    video.src = brandSection?.banner_video;
+    video.preload = "auto";
+    video.oncanplaythrough = () => setVideoUrl(video.src);
+  }, [brandSection?.banner_video]);
+  
+
   const [isPopupOpen, setPopupOpen] = useState(false);
   const videoRef = useRef(null);
+  const [videoUrl, setVideoUrl] = useState(null);
 
   useGSAP(() => {
     const element = videoRef.current;
@@ -79,17 +88,16 @@ const Video = () => {
           ref={videoRef}
         >
           <div className={`${osClass} bannerVideoMain`}>
-            <ReactPlayer
-              url={brandSection?.banner_video}
-              playing={true}
-              loop={true}
-              muted={true}
-              width="100%"
-              height="auto"
-              pip={false}
-              playsinline
-             // controlsList="nodownload"
-            />
+          <ReactPlayer
+    url={videoUrl || brandSection?.banner_video}
+    playing={true}
+    loop={true}
+    muted={true}
+    width="100%"
+    height="auto"
+    pip={false}
+    playsinline
+  />
             <div className={style.youtubeIcon} onClick={openPopup}>
               <svg
                 className="h-[60%] w-full"

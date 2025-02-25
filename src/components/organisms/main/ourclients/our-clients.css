@@ -72,6 +72,8 @@
 
 .overflow-div{overflow-x: hidden;}
 
+/* .ClinetsHead.bottommorespace{margin-bottom:52px !important;} */
+
 @media (max-width: 768px) {
   .rating_image {
     margin-inline: auto;
@@ -127,4 +129,5 @@
   .OurClients_Slide_Star_Company{font-size:13px; line-height:15px;}
 
   .ClinetsHead{font-size:30px !important; line-height:26px !important; font-weight:700 !important;}
+  
 }  

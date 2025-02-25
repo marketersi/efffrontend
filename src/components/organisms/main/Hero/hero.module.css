@@ -8,7 +8,8 @@
 }
 
 .hero h1 {
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
   font-size: 5.4rem;
   font-weight: 900;
   line-height: 75px;
@@ -16,7 +17,8 @@
   color: white;
 
   /* mods after api */
-  width: 68%;
+  /* width: 68%; */
+  width:865px;
   margin: 0 auto;
 }
 
@@ -194,7 +196,7 @@
   .hero h1 {
     font-size:4.2rem;
     line-height:4.2rem;
-    width:90%;
+    width:680px;
   }
 }
 
@@ -388,7 +390,7 @@
   .heroBtn a{margin-bottom:12px;}
   .heroBtn a button, .heroBtn .umow {border-width:4px; padding:2px 20px; font-size:clamp(10px,5vw,28px); min-width:230px;}
   .heroBtn .umow span{font-size: inherit;}
-  .hero h1{font-size:32px; line-height:32px; margin-bottom:25px; max-width:100% !important;}
+  .hero h1{font-size:32px; line-height:32px; margin-bottom:25px; max-width:100% !important; text-align: left !important;}
   
   
 }
