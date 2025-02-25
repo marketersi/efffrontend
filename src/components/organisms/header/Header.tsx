@@ -211,7 +211,7 @@ const Header = () => {
                           onClick={handleMenuItemClick}
                           href="/video-marketing"
                         >
-                          Wideo marketing
+                          Video marketing
                         </Link>
                       </div>
                       <div className={style.menuItem}>
