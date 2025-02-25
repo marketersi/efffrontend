@@ -1,25 +1,25 @@
 .lottieContainer {
-    width: 450px;
-    height: 100px;
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 1440px) {
-    .lottieContainer {
-        width: 425px;
-        height: 90px;
-      }
-  }
-  @media (max-width: 768px) {
-    .lottieContainer {
-      width: 200px;
-      height: 65px;
+  width: 450px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .lottieContainer {
+      width: 280px;
+      height: 80px;
     }
+}
+@media (max-width: 768px) {
+  .lottieContainer {
+    width: 200px;
+    height: 55px;
   }
-  
-  @media (max-width: 480px) {
-    .lottieContainer {
-      width: 150px;
-      height: 40px;
-    }
+}
+
+@media (max-width: 480px) {
+  .lottieContainer {
+    width: 150px;
+    height: 40px;
   }
+}
