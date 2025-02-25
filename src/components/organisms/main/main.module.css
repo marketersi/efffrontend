@@ -485,7 +485,7 @@ img.hardImg {
 
 
 @media screen and (max-width: 600px) {
-  .hardResult h4{font-size: 20px; line-height: 20px;}
+  .hardResult h4{font-size: 22px; line-height: 22px;}
   .Content h2 {font-size:34px; line-height:34px; font-weight:600;}
   .Content h3 {font-size:34px; line-height:34px; font-weight:800;}
 }

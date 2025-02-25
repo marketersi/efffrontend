@@ -47,7 +47,7 @@ const Hero = () => {
         pip={false}
         playsinline
       /> */}
-      <ReactPlayer
+<ReactPlayer
   url={heroSection?.background_video}
   playing={true}
   loop={true}
@@ -60,11 +60,14 @@ const Hero = () => {
   config={{
     file: {
       attributes: {
-        preload: 'auto'
+        preload: 'auto',
+        controlsList: "nodownload", 
+        disablePictureInPicture: true,
       }
     }
   }}
 />
+
       <ReactPlayer
         url={heroSection?.mobile_video}
         // url="https://marketersi.cdn.prismic.io/marketersi/ZvZWHrVsGrYSwD0c_hero-mobile-2.mp4"

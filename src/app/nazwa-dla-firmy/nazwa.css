@@ -215,6 +215,7 @@ padding-top: 10px;
   /* text-align: center; */
 
   margin-left:96px;
+  margin-right:96px;
 }
 .pnazw-page .names-list-info {
   padding-left: 30%;
@@ -236,9 +237,12 @@ padding-top: 10px;
   margin: 20px -15px;
 }
 .custom-container1 {
-  max-width: 1100px;
+  max-width: 900px;
   margin: auto;
 }
+
+.max-1100{max-width:1100px !important; margin-left:auto; margin-right:auto;}
+
 .names-container-Litery {
   background-color: #fff;
   position: relative;
@@ -252,7 +256,7 @@ padding-top: 10px;
   font-family: "Playfair Display";
   font-size: 48px;
   margin: auto;
-  max-width: 1100px;
+  max-width: 900px;
   margin-bottom: 40px;
   line-height: 62px;
   font-weight: 700 !important;
@@ -539,6 +543,8 @@ section.projects-gray-opinion-4 {
 .custom-container1 .projects-theme-desc-p.new-same-text{line-height:50px;}
 .paddtopbotom{padding:90px 0 0;}
 .paddbottom{padding-bottom:80px;}
+.max-900{max-width: 900px; margin-left: auto; margin-right: auto;}
+
 
 /* ------------------------------------media screen------------------------------- */
 @media only screen and (max-width: 1520px) {

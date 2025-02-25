@@ -94,3 +94,35 @@
 .cennik-modal-content1 .buttonBox{
   width: 100%;
 }
+
+.additional-input-container {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 20px 0px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.additional-input-container h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 18px;
+  white-space: nowrap;
+}
+.additional-input-container input {
+  padding: 8px 16px;
+  outline-color: var(--brand-blue);
+  border: none;
+  border-color: hsl(0, 0%, 80%);
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  width: 57%;
+}
+
+@media only screen and (max-width: 767px){
+ .additional-input-container{flex-direction: column; gap: 15px;}
+ .additional-input-container input{width:100%;}
+}

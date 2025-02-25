@@ -15,8 +15,8 @@
   justify-content: space-between;
 }
 .markCard h3 {
-  font-size:clamp(11.666666666666666px,8.75vw,70px);
-  line-height:clamp(11.666666666666666px,8.75vw,70px);
+  font-size:62px;
+  line-height:62px;
   text-align: center;
   font-weight: 600;
   color: #333333;
@@ -26,7 +26,7 @@
 .markCard p {
   font-size: 22px;
   font-weight: 300;
-  line-height: 42px;
+  line-height: 32px;
   color: #333333;
   margin: 20px 0;
 }
@@ -112,10 +112,10 @@
 } */
 /* -------------------------------media screen---------------------- */
 @media screen and (max-width: 1520px) {
-  .markCard h3 {
+  /* .markCard h3 {
     font-size:45px;
     line-height:45px;
-  }
+  } */
 
   /* .markCard a {font-size:18px;} */
 
@@ -166,10 +166,10 @@
     width: 90% !important;
     height: 250px;
   }
-  .markCard h3 {
+  /* .markCard h3 {
     font-size: 40px;
     line-height:40px;
-  }
+  } */
   .gapRowCol, .midColumn{
     width: 100%;
     max-width: 100%;
@@ -183,9 +183,11 @@
 @media screen and (max-width: 600px) {
   .gapRow{margin-bottom:0;}
 
-  .markCard a{border-radius:18px; font-size:18px;}
+  .markCard a{border-radius:20px; font-size:20px;}
   .markCard a:hover{padding-left:12px;}
   .markCard h3{word-break:break-word;}
-  .playIcon{top:3px;}
+  .playIcon{top:5px;}
   .markVideo video{margin-top:-20px;}
+  .markCard p {font-size:20px; line-height:30px;}
 }
+
