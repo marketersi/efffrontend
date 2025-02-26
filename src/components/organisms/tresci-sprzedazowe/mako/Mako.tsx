@@ -37,7 +37,7 @@ const Mako = () => {
             </div>
 
             <div className="col-md-12">
-              <p className="theme-desc copywriter-custom-mright">
+              <p className="theme-desc copywriter-custom-mright mobileLefttext">
               Pani Kamila pragnęła, by jej salon wyróżniał się na tle konkurencji jako miejsce, gdzie elegancja spotyka się z perfekcją. Powierzyła nam misję stworzenia tekstów, które nie tylko opiszą usługi, ale staną się ich przedłużeniem – pełnym luksusu i niezapomnianych emocji. Efekt? Wyjątkowe treści, które podkreśliły prestiż marki, przyciągnęły nowe klientki i na nowo zdefiniowały pojęcie holistycznego piękna. Rytuał Urody stał się nie tylko salonem, ale symbolem doświadczenia, które pozostaje w pamięci na długo.
               </p>
             </div>

@@ -37,7 +37,7 @@ const InkBook = () => {
             </div>
 
             <div className="col-md-12">
-              <p className="theme-desc copywriter-custom-mright copywriter-rwd-mtb-40">
+              <p className="theme-desc copywriter-custom-mright copywriter-rwd-mtb-40 mobileLefttext">
                 {projectSection8?.description}
               </p>
             </div>
@@ -57,7 +57,7 @@ const InkBook = () => {
 
         <div className="copywriter-custom-header-3 copywriter-standard-mt-80 banner-title">
           {/* {projectSection8?.bannar_image_1_title} */}
-          <p className='turbokids-text-1'>Lingusfera </p>
+          <p className='turbokids-text-1 mobileBgap'>Lingusfera </p>
           <p className='turbokids-text-2'>- Twój bilet do międzynarodowej kariery</p>
 
         </div>

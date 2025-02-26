@@ -44,9 +44,9 @@ const PriceList = () => {
       <div className="container custom-container1">
         <div className="row">
           <div className="col-md-12 copywriter-custom-smaller">
-            <p className="theme-desc1">{pricingSection?.para_1}</p>
+            <p className="theme-desc1 mobileTextLayout">{pricingSection?.para_1}</p>
 
-            <p className="theme-desc1">{pricingSection?.para_2}</p>
+            <p className="theme-desc1 mobileTextLayout2">{pricingSection?.para_2}</p>
 
             <p className="theme-desc2">
               <strong>{pricingSection?.bottom_text}</strong>

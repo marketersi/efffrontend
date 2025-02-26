@@ -80,8 +80,11 @@ const NazwaHero = () => {
                 className="nazwaHeroImg"
               />
             </div>
+          </div>
 
-            <div className="col-md-12 part-sec"></div>
+          <div className="row align-items-start">
+
+              <div className="col-md-12 part-sec"></div>
 
             <div className="clearfix"></div>
           </div>

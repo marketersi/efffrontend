@@ -15,6 +15,8 @@ const GoodProcess = () => {
   const [circlePositions, setCirclePositions] = useState([]);
   const sectionRef = useRef(null);
 
+  console.log(stage_1 , 'stage_1')
+
   useEffect(() => {
     const path = document.getElementById("mypath");
     if (!path) return;
@@ -118,7 +120,7 @@ const GoodProcess = () => {
             />
           </div>
         </div>
-        <div className="process1">
+        <div className="process1 processVideoOne">
           <div className={`one ${osClass}`}>
             <ReactPlayer
               url={stage_1?.video_url}

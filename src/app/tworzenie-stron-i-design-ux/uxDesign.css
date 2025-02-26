@@ -3258,6 +3258,11 @@ section.goodProcess {
     font-size: min(5vw, 28px);
   }
 } */
+
+
+.processVideoOne .processVideo{height: 402px !important;}
+.processVideoOne .win video{object-fit: cover;}
+
 @media only screen and (max-width: 1520px) {
 #header > div div .subitle{font-size:26px;}
 .buttonux{font-size:26px;}
@@ -3519,7 +3524,7 @@ section.goodProcess {
 
   .UXBannerContainer .row.m-0{margin-left:-12px !important; margin-right:-12px !important;}
   
-  #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p, .uxVideoPara, #highResult p, .copywriter-custom-subheader{font-size: 22px !important; line-height:32px !important; margin-bottom: 15px  !important; padding:0; margin:30px 0;}
+  #header > div div .subitle, #numbers div p, #messagesSection .text2 > p, #messagesSection .text2 > div, .typingEffect, #maciej .contentText p, #textArrow .rowD p, #guarantee .rowD p b, #guarantee .rowD p, #WhatGet p, #videoSection > :nth-child(1) p, .uxVideoPara, #highResult p, .copywriter-custom-subheader{font-size: 22px !important; line-height:32px !important; margin-bottom: 15px  !important; padding:0; margin:30px 0; color:#333;}
 
   #numbers div p, .typingEffect{font-weight:300 !important;}
 
@@ -3581,6 +3586,8 @@ section.goodProcess {
   .copywriter-intro-sm-text{margin-top: 0;}
   .copywriter-intro-sm-text b{font-weight:600;}
   #textArrow .rowD p{text-align: center;}
-  
+ 
+  .mobilelefttext #textArrow .rowD p{text-align: left;}
+  .processVideoOne .processVideo{height: 204px !important;}
   
 }

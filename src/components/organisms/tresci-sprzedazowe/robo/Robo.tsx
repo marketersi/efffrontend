@@ -29,7 +29,7 @@ const Robo = () => {
             </div>
 
             <div className="col-md-12">
-              <p className="theme-desc copywriter-custom-mright">
+              <p className="theme-desc copywriter-custom-mright mobileLefttext">
                 {projectSection6?.description}
               </p>
             </div>

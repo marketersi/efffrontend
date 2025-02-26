@@ -15,13 +15,13 @@
   justify-content: space-between;
 }
 .markCard h3 {
-  font-size:62px;
-  line-height:62px;
+  font-size:50px;
+  line-height:50px;
   text-align: center;
   font-weight: 600;
   color: #333333;
-  white-space: normal;
-  word-break: break-all;
+  /* white-space: normal;
+  word-break: break-all; */
 }
 .markCard p {
   font-size: 22px;
@@ -36,7 +36,6 @@
 }
 .markCard li {
   margin: 0 0 15px;
-  /* padding: 0 0 0 10px; */
 }
 
 .mark img {
@@ -50,46 +49,37 @@
 .markCard a {
   text-decoration: none;
   color: #000;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
-
-  display:inline-flex;
+  display:flex;
   align-items: center;
+  justify-content: space-between;
   gap:12px;
-  position: relative;
-  padding:1px 32px 1px 5px;
-  border-radius:25px;
-  overflow: hidden;
   transition-duration: .15s;
 }
-.markCard a:hover{padding-left:18px; padding-right:42px;}
-.markCard a:after{content:''; position: absolute; left:100%; top:0; bottom:0; background: #00bfff; width:100%; transition-duration: .15s; z-index:-1;}
-.markCard a:hover:after{left:0;}
 
 .playIcon {
-  width: 23px;
-  min-width: 23px;
-  height: 23px;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
   background: #00bfff;
   border-radius: 100%;
   padding: 5px;
-  position: absolute; 
-  top:5px;
-  right:0;
   transition-duration: .15s;
 }
 
 .markCard a:hover .playIcon{right:6px;}
 .playIcon img {
-  width: 10px;
-  margin: 2px auto;
+  width: 15px;
+  margin: 3px auto;
   display: block;
   height: auto;
 }
-.midColumn{
-  
+.markCard li:hover {
+  background: #00bfff;
+  border-radius: 100px;
+  padding: 0 0 0 10px;
 }
-
 .markVideo video {
   width: 100% !important;
   margin-inline: auto;
@@ -183,10 +173,8 @@
 @media screen and (max-width: 600px) {
   .gapRow{margin-bottom:0;}
 
-  .markCard a{border-radius:20px; font-size:20px;}
-  .markCard a:hover{padding-left:12px;}
-  .markCard h3{word-break:break-word;}
-  .playIcon{top:5px;}
+  .markCard a{border-radius:10px; font-size:20px;}
+  .markCard h3{font-size:40px; line-height:40px; word-break:break-word;}
   .markVideo video{margin-top:-20px;}
   .markCard p {font-size:20px; line-height:30px;}
 }

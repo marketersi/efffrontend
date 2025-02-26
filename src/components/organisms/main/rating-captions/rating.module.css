@@ -126,7 +126,7 @@
 
 /* -------------------------------media screen---------------------- */
 @media screen and (max-width: 1520px) {
-  .rating{margin-top:0px;}
+  .rating{margin-top:250px;}
   .ratingImg {top:-90px; max-width:97%; margin:0 auto; min-width:1300px; padding:0;}
   .ratingMainImg img {margin-top:-180px;}
   .ratingLogoImg img{width:70%;}  
@@ -212,11 +212,12 @@
 }
 
 @media screen and (max-width: 600px) {
-  .rating{margin-top:-110px; margin-bottom:0; padding-top:0;}
+  .rating{margin-top:60px; margin-bottom:0; padding-top:0;}
   .rating h2{font-size:30px; line-height:26px; margin-bottom:15px;}
   .ratingCOntent h2{margin-bottom:50px;}
   .ratingCOntent p {text-align: left; margin-bottom:20px;}
 
   .ratingMainImg img{margin-top:-30px;}
-  .ratingImg{margin-bottom:15px;  min-width: 360px; padding:50px 0 0;}
+  .ratingImg{margin-bottom:15px;  min-width: 360px; padding:0; position: relative; top: -60px;}
+  
 }

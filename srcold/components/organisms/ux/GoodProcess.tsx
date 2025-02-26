@@ -15,6 +15,8 @@ const GoodProcess = () => {
   const [circlePositions, setCirclePositions] = useState([]);
   const sectionRef = useRef(null);
 
+  console.log(stage_1 , 'stage_1')
+
   useEffect(() => {
     const path = document.getElementById("mypath");
     if (!path) return;

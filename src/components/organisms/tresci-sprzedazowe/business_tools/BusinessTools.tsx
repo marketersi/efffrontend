@@ -102,12 +102,12 @@ const BusinessTools = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center copywriter-cmargin-3 ">
-              <div className="copywriter-custom-text-1 ">
+              <div className="copywriter-custom-text-1 mobileLefttext">
                 {/* {buisnessToolsSection?.para_1} */}
                 Zbyt wiele agencji liczy słowa, <br/> zapominając, że prawdziwą
                 wartość <br/> stanowi ich wpływ na Twoje cele biznesowe.
               </div>
-              <div className="copywriter-custom-text-2 para-2">
+              <div className="copywriter-custom-text-2 para-2 mobileLefttext">
                 {buisnessToolsSection?.para_2}
               </div>
             </div>

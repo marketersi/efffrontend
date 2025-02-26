@@ -16,10 +16,11 @@
   display: block;
   font-weight: 700;
   margin: 0px 0px 20px;
-  line-height: 46px;
-  font-size: 36px;
+  line-height: 85px;
+  font-size: 85px;
   color: #333;
 }
+.top-banner-title br{display: none;}
 .indent-20 {
   text-indent: 20px;
   display: block;
@@ -543,8 +544,10 @@ section.projects-gray-opinion-4 {
 .custom-container1 .projects-theme-desc-p.new-same-text{line-height:50px;}
 .paddtopbotom{padding:90px 0 0;}
 .paddbottom{padding-bottom:80px;}
-.max-900{max-width: 900px; margin-left: auto; margin-right: auto;}
-
+.max-900, .width900{max-width: 900px; margin-left: auto; margin-right: auto;}
+.width900 .custom-font-size{text-align: center !important;}
+.width900 .custom-font-size br{display: none;}
+.theme-desc.projects-mq-book-fix.new-same-text{margin-left: 50px;}
 
 /* ------------------------------------media screen------------------------------- */
 @media only screen and (max-width: 1520px) {
@@ -1076,5 +1079,7 @@ section.projects-gray-opinion-4 {
   .mi-btn.download-catalog-button{font-size: 15px !important;}
 
   .faqContainer{padding-left:0; padding-right:0;}
-  
+  .projects-custom-container-second-prasa{padding-left:12px; padding-right:12px;} 
+  .sendQuote{width:calc(92vw - 24px);}
+  .banner-nazwa .row{flex-direction: column-reverse;}
 }
