@@ -806,6 +806,8 @@ section#sec1 {
 }
 
 .copywriter-custom-text-2.para-2{margin-left:auto !important; margin-right: auto !important;}
+.mobileTextLayout br{display: none;}
+.mobileTextLayout b, .mobileTextLayout2 b{font-weight:300;}
 
 /* ----------------------------------------------------------midea screen ------------------------------------- */
 @media only screen and (max-width: 1520px) {
@@ -1532,7 +1534,7 @@ section#sec1 {
 
   .top-banner-title, .copywriter-big-header, .copywriter-big-header-2, .copywriter-custom-gray-header-1, .copywriter-intro-header-right strong, .copywriter-intro-header-left strong, .copywriting-bg-white-header, .copywriter-intro-bg-5-label, .copywriter-custom-header, .copywriter-custom-headerOne, .sendQuote h2, .copywriter-custom-header-2{font-size: 30px; line-height: 26px; font-weight:700; text-align: center; margin-bottom: 0;}
 
-  .turbokids-text-1, .turbokids-text-2{font-weight:700 !important; font-size:30px !important; line-height:26px !important;}
+  .turbokids-text-1, .turbokids-text-2{font-weight:400 !important; font-size:30px !important; line-height:26px !important;}
   .optonsahgasds{font-size: 30px !important; line-height: 26px !important; font-weight:700 !important; font-family:"Poppins", sans-serif !important;}
   .copywriter-big-header-2{margin:10px 0 30px;}
   .copywriter-custom-text-turbokids-1{font-size: 30px; line-height: 26px;}
@@ -1584,17 +1586,23 @@ section#sec1 {
   .names-client-name:after{width: 140px; height: 6px; left: calc(50% - 70px); top: 35px;}
   .names-client-desc, .copywriter-custom-text-akuku, .copywriter-custom-subtext-akuku, .names-client-text{font-size: 30px; line-height:26px; margin-bottom:0px;}
   .theme-desc{text-align: center;}
-  .copywriter-standard-mtb-40.natura-text{margin-top:40px;}
+  .copywriter-standard-mtb-40.natura-text{margin-top:40px; margin-bottom:30px;}
   .copywriter-standard-mtb-40.natura-text + .copywriter-custom-subtext-akuku{margin-bottom:30px;}
   .copywriter-after-img-2 .copywriter-custom-text-4.turbokids-text-1.text-center{margin-top: 10px;}
-  .copywriter-custom-header-3.text-center.copywriter-rwd-mtb-40.turbokids-text-2{margin-bottom: 30px;}  
+  .copywriter-custom-header-3.text-center.copywriter-rwd-mtb-40.turbokids-text-2{margin-bottom: 30px; margin-top:30px;}  
   section.black-sec-form{background-color:transparent; padding:0 0 10px;}
   .copywriter-ending-1{font-size: 30px; line-height: 26px; margin-bottom: 40px; margin-top:0;}
   .projects-gray-opinion-2 .container.projects-opinion-box-container .opinion-box{margin-bottom:50px;}
   .tersci_footer_bottom_btn{font-size: 14px;}
 
-  .tersci_footer_bottom_btn{
-    font-size: 16px !important;
-    line-height: 21.2px !important;
-}
+  .tersci_footer_bottom_btn{font-size: 16px !important; line-height: 21.2px !important;}
+  .copywriter-custom-container-2.mobileLRspace, .sendQuote{width: calc(92vw - 24px) !important; max-width:calc(92vw - 24px) !important;}
+  .container.custom-container2.copywriter-after-img-2 .row .col-md-12.p-0{padding-left:12px !important; padding-right:12px !important;}
+  .top-section-banner-text .row{flex-direction: column-reverse;}
+  .copywriter-page .top-section-banner-text .part-sec{margin-bottom:0 !important;}
+  .turbokids-text-1{margin-bottom: 8px; display: block;}
+  .mobilechangeFont{font-family:"Poppins", sans-serif !important; color:#222;}
+  .mobileLefttext{text-align: left;}
+  .mobileTextLayout br{display:block;}
+  .mobileTextLayout b, .mobileTextLayout2 b{font-weight: 600; display: block;}
 }

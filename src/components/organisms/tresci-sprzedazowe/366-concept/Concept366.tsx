@@ -143,7 +143,7 @@ const Concept366 = () => {
             </div>
 
             <div className="col-md-12">
-              <p className="theme-desc">{projectSection5?.description}</p>
+              <p className="theme-desc mobileLefttext">{projectSection5?.description}</p>
             </div>
           </div>
         </div>

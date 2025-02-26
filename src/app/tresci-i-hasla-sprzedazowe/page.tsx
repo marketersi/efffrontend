@@ -89,7 +89,7 @@ const Sales = () => {
       <OptionBox2 optionBox2={customerReview} />
       {/* <Profit /> */}
       <section className="black-sec-form">
-        <div className="copywriter-ending-1 text-center">
+        <div className="copywriter-ending-1 text-center mobilechangeFont">
         
           Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>

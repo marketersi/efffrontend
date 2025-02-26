@@ -8,7 +8,7 @@ const Complex = () => {
 
   return (
     <>
-      <section className="arrowContainer">
+      <section className="arrowContainer mobilelefttext">
         <div id="textArrow">
           <h2>
             {complex.title}

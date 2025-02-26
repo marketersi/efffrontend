@@ -23,6 +23,8 @@ const FormOne = ({ setCurrentComponent, form }) => {
     label: option.value,
   }));
 
+  console.log(optionsTwo , 'optionsTwooptionsTwo')
+
   const handleSelectChange = (selectedOption) => {
     setSelectedOption(selectedOption);
   };
@@ -152,7 +154,8 @@ const FormOne = ({ setCurrentComponent, form }) => {
         </p> 
         <div style={{ textAlign: "left" }} className="select-input">
           <Select
-            options={optionsTwo}
+           // options={optionsTwo}
+           options={optionsTwo.slice(0, 4)} // Pehle 4 elements le raha hai
             placeholder="Wybierz"
             isSearchable={false}
             components={{ DropdownIndicator }}
