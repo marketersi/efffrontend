@@ -7,7 +7,7 @@ const AnatomyGuide = () => {
   return (
     <section id="sec0">
       <div className="container custom-container-4 custom-margin-bottom-30">
-        <div className="row">
+        <div className="row revers-divmobile">
           <div className="col-lg-3 stats-image-cont p-0">
             <img
               src={anatomy_guide?.percentage_image_url}

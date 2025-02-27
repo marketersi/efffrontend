@@ -14,7 +14,7 @@ const ImplementationExample1 = () => {
           Przykładowe realizacje. <br />Tworzymy to, <br />co zapada w pamięć
         </span>
         <br />
-        <div className="iglarki-section-submain">
+        <div className="iglarki-section-submain mobileBreduce">
           {bnc_implementation?.subtitle}
         </div>
       </div>
