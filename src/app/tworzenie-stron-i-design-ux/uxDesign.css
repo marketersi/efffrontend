@@ -3546,9 +3546,10 @@ section.goodProcess {
   .number img{max-width:100%;}
   .circleBox{display: none;}
   .processVideo{height: 190px !important;}
-  .goodProcess h3{font-size:30px; line-height:26px; font-weight:700; margin-top:15px; margin-bottom:10px; text-align: center;}
+  /* .goodProcess h3{font-size:30px; line-height:26px; font-weight:700; margin-top:15px; margin-bottom:10px; text-align: center;} */
   #videoSection > :nth-child(1) h2{margin-bottom:25px;}
-  .goodProcess .subtitle{font-size:22px; line-height:32px; font-weight:500; text-align: center; margin-top:5px; margin-bottom:10px;}
+  .goodProcess .subtitle, .goodProcess h3{font-size:22px; line-height:32px; font-weight:300; text-align: center; margin-top:5px; margin-bottom:10px;}
+  
   .goodProcess p{font-size:22px; line-height:32px; font-weight:300; text-align: center;}
   .two .number, .three .number{margin:0 auto;}
   .process1, .process2{margin:10px 0;}

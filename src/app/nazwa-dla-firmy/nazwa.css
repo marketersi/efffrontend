@@ -1088,4 +1088,8 @@ section.projects-gray-opinion-4 {
 
   .mobilechangeFont{font-family: "Poppins", sans-serif !important; color: #222;}
   .mobilelefttext{text-align: left !important;}
+
+  .revers-divmobile{flex-direction: column-reverse; margin-bottom:30px !important;}
+  .mobileBreduce{margin-bottom:15px;}
+  .mobilespacereduce{margin-bottom:55px;}
 }

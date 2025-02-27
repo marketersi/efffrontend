@@ -49,7 +49,7 @@ const ProjectsValue = ({openModal}) => {
           alt="Logo projekt wizytówki"
           title="Logo - projekt z napisem “wierzymy”"
         />
-        <div className="projects-custom-container3 col-md-6">
+        <div className="projects-custom-container3 col-md-6 spacemanagemobile">
           <div className="projects-container-textright projects-rwd-tcenter">
             {/* <h5 className="projects-custom-h5">{imageTitle && imageTitle}</h5> */}
 

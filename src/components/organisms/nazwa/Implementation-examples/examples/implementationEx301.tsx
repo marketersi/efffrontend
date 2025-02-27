@@ -50,7 +50,7 @@ const ImplementationEx301 = () => {
               <h5 className="theme-quote signed-quote signed-quote-image names-quote-fsize pnazw-names-quote-margin">
                 {item?.quote}
               </h5>
-              <p className="signature newsignmargin">{item?.quote_name}</p>
+              <p className="signature newsignmargin mobilespacereduce">{item?.quote_name}</p>
             </div>
           </div>
         </div> 
