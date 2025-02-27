@@ -7,7 +7,7 @@ const ImplementationExample1 = () => {
   const { example1 } = implementation || {};
   return (
     <section className="projects-thematic-section-gray menu-target" id="sec3">
-      <div className="iglarki-section-main-header  pnazw-custom-lineheight text-center">
+      <div className="iglarki-section-main-header  pnazw-custom-lineheight text-center mbrediuce">
         <span className="">
           {/* <strong>{bnc_implementation?.title}</strong> */}
         
@@ -28,7 +28,7 @@ const ImplementationExample1 = () => {
         />
       </div> */}
 
-      <div className=" names-client-name copywriter-cname names-iglarki-name iglarki-cname">
+      <div className=" names-client-name copywriter-cname names-iglarki-name iglarki-cname mbrediuce2">
         {/* GDYNIA */}
         {example1?.title} 
       </div>

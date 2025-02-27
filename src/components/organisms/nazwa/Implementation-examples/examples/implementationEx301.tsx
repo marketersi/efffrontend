@@ -22,10 +22,10 @@ const ImplementationEx301 = () => {
             <div className="container custom-container1 text-left georgia">
           <div className="row">
             <div className="col-md-12">
-              <p className="theme-desc text-left">
+              <p className="theme-desc text-left mobilelefttext">
                 {item?.para_1}
               </p>
-              <p className="theme-desc text-left">
+              <p className="theme-desc text-left mobilelefttext">
                 {item?.para_2}
               </p>
             </div>

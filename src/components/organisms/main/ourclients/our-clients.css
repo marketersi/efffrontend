@@ -120,11 +120,12 @@
 @media (max-width: 600px) {
   .OurClients_Slide_Content{min-height:1px !important; position: static; padding-bottom:0px;}
   .OurClients_Slide{position: relative; min-height:500px;}
-  .OurClients_Slide_Button{bottom:15px;}
-  .OurClients_Slide_Title.mobile_title{min-height: 168px; margin-bottom: 25px;}
+  .OurClients_Slide_Button{bottom:38px;}
+  .OurClients_Slide_Title.mobile_title{min-height:200px; margin-bottom: 25px;}
   .OurClients_Slide_Media_Video{width:auto;}
   .OurClients_Slide_Media_Video img{max-width:80%; max-height:85px; width: auto;}
-
+  .OurClients_Slide_Button_Text{font-size: 17px;}
+  .ArrowButton{height: 1.2em; width: 1.2em;}
   .OurClients_Slide_Star_Reviewer{font-size:14px; line-height:20px;}
   .OurClients_Slide_Star_Company{font-size:13px; line-height:15px;}
 

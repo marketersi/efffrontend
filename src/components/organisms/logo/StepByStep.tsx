@@ -74,7 +74,7 @@ const StepByStep = () => {
             </div> */}
 
             <div className="col-md-12 projects-push-content-top">
-              <p className="theme-desc projects-theme-desc-p projects-push-top-50 ">
+              <p className="theme-desc projects-theme-desc-p projects-push-top-50 mobilelefttext ">
                 {secondaryImageTitle && secondaryImageTitle}
               </p>
               <div className="image-810">
@@ -88,10 +88,10 @@ const StepByStep = () => {
                 )}
               </div>
 
-              <p className="theme-desc projects-theme-desc-p mb-4">
+              <p className="theme-desc projects-theme-desc-p mb-4 mobilelefttext">
                 {secondaryImageSubtitle && secondaryImageSubtitle}
               </p>
-              <p className="theme-desc projects-theme-desc-p">
+              <p className="theme-desc projects-theme-desc-p mobilelefttext">
                 {secondaryImageSubtitle2 && secondaryImageSubtitle2}
               </p>
             </div>

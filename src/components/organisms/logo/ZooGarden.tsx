@@ -27,19 +27,19 @@ const ZooGarden = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc mb-4 ">
+              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-theme-desc mb-4 mobilelefttext">
                 {ZooGardenData?.text1} {ZooGardenData?.text2}
               </p>
 
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
                 {ZooGardenData?.text3} {ZooGardenData?.text4}
               </p>
 
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top mb-4 mobilelefttext">
                 {ZooGardenData?.text5}
               </p>
 
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mobilelefttext">
                 {ZooGardenData?.text6}
               </p>
             </div>

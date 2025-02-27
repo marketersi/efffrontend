@@ -93,7 +93,7 @@ const LogoDesignScreen = () => {
       {/* <GPN /> */}
       {/* <NewCompany /> */}
       <section className="black-sec-form">
-        <div className="copywriter-ending-1 text-center mt-0">
+        <div className="copywriter-ending-1 text-center mt-0 mobilechangeFont">
         Przekształćmy <br/> Twoje wizje <br />w sukcesy!
         </div>
         <Form />

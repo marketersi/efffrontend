@@ -41,7 +41,7 @@ const ImplementationEx4 = () => {
             <div className="container ">
               <div className="row">
                 <div className="col-md-12">
-                  <p className="theme-desc max-900">{item.para}</p>
+                  <p className="theme-desc max-900 mobilelefttext">{item.para}</p>
                 </div>
               </div>
             </div>
