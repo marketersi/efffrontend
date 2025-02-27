@@ -9,11 +9,11 @@ export default function MainContentTwo() {
     <div className="MainContentTwo container-fluid">
       <div className="row main-content-row">
         <div className="MainContentTwo_Container col-md-6">
-          <p>{MainContentTwo?.paragraph_1}</p>
-          <p>{MainContentTwo?.paragraph_2}</p>
-          <p>{MainContentTwo?.paragraph_3}</p>
+          <p className="mobilelefttext">{MainContentTwo?.paragraph_1}</p>
+          <p className="mobilelefttext">{MainContentTwo?.paragraph_2}</p>
+          <p className="mobilelefttext">{MainContentTwo?.paragraph_3}</p>
 
-          <p>
+          <p className="mobilelefttext">
             {MainContentTwo?.paragraph_4}
             <br />
             {MainContentTwo?.paragraph_5}

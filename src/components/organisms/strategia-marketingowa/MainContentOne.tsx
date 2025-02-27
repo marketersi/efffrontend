@@ -12,7 +12,7 @@ export default function MainContentOne() {
         {/* {MainContentOne?.description} */}
         Tworzymy skuteczne strategie, które przyciągają klientów i przynoszą zyski.
       </div>
-      <p className="extra-text">
+      <p className="extra-text mobilelefttext">
       Z nami Twój biznes rośnie, a Ty możesz cieszyć się realnymi efektami i trwałą przewagą na rynku!
       </p>
     </div>
