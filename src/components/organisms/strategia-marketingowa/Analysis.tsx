@@ -61,15 +61,15 @@ export default function Analysis() {
       {/* Dropdown 1 */}
       <div className="full" hidden={Analysis1_Dropdown_Show}>
         <div className="Analysis1_Dropdown_Container">
-          <div className="Analysis1_Dropdown_Text1">
+          <div className="Analysis1_Dropdown_Text1 mobilelefttext">
             {ButtonData?.description_1}
           </div>
-          <div className="Analysis1_Dropdown_Text2">
+          <div className="Analysis1_Dropdown_Text2 mobilelefttext">
             {ButtonData?.ButtonPoints?.map((e, index) => {
               return <div key={index}>{e}</div>;
             })}
           </div>
-          <div className="Analysis1_Dropdown_Text3">
+          <div className="Analysis1_Dropdown_Text3 mobilelefttext">
             {ButtonData?.description_2}
           </div>
           {/* <div className="Analysis1_Dropdown_Image">
@@ -166,10 +166,10 @@ export default function Analysis() {
       {/* Dropdown 2 */}
       <div className="full" hidden={Analysis2_Dropdown_Show}>
         <div className="Analysis2_Dropdown_Container">
-          <div className="Analysis2_Dropdown_Text1">
+          <div className="Analysis2_Dropdown_Text1 mobilelefttext">
             {Card2?.ButtonData?.description_1}
           </div>
-          <div className="Analysis2_Dropdown_Text2">
+          <div className="Analysis2_Dropdown_Text2 mobilelefttext">
             {Card2?.ButtonData?.description_2}
           </div>
           {/* <div className="Analysis2_Dropdown_Image1">
@@ -180,7 +180,7 @@ export default function Analysis() {
               width={835 * 0.9}
             />
           </div> */}
-          <div className="Analysis2_Dropdown_Text3">
+          <div className="Analysis2_Dropdown_Text3 mobilelefttext">
             {Card2?.ButtonData?.description_3}
           </div>
           {/* <div className="Analysis2_Dropdown_Image2">
@@ -191,7 +191,7 @@ export default function Analysis() {
               width={835 * 0.9}
             />
           </div> */}
-          <div className="Analysis2_Dropdown_Text4">
+          <div className="Analysis2_Dropdown_Text4 mobilelefttext">
             {Card2?.ButtonData?.description_4}
           </div>
         </div>
@@ -242,13 +242,13 @@ export default function Analysis() {
       {/* Dropdown 3 */}
       <div className="full" hidden={Analysis3_Dropdown_Show}>
         <div className="Analysis3_Dropdown_Container">
-          <div className="Analysis3_Dropdown_Text1">
+          <div className="Analysis3_Dropdown_Text1 mobilelefttext">
             {Card3?.ButtonData?.description_1}
           </div>
-          <div className="Analysis3_Dropdown_Text2">
+          <div className="Analysis3_Dropdown_Text2 mobilelefttext">
             {Card3?.ButtonData?.description_2}
           </div>
-          <div className="Analysis3_Dropdown_Text3">
+          <div className="Analysis3_Dropdown_Text3 mobilelefttext">
             {Card3?.ButtonData?.description_3}
           </div>
           {/* <div className="Analysis3_Dropdown_Image">

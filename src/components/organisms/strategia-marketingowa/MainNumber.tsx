@@ -30,7 +30,7 @@ export default function MainNumber() {
         </div> */}
         <div className="MainNumber_Two">
         
-          <div className="row">
+          <div className="row revers-divmobile">
           <div className="MainNumber_image_box col-md-3">
             <Image
               src={MainNumber?.percentage_image_2}

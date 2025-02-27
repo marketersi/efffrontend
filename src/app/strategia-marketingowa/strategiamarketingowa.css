@@ -2678,4 +2678,11 @@ img.strategyImg {
   .WhatRecieve.WidthContent .feature img{margin-bottom: 50px !important;}
   .Analysis.WidthContent2 .Analysis_Card.full img{margin-top:0px;}
   .Price_Container{width:92vw; margin:0 auto;}
+
+  .mobilecreatetitle{font-size: 30px !important; line-height: 26px !important; font-weight: 700 !important;}
+  .mobilecreatetitle br{display: none;}
+  .mobilelefttext{text-align: left !important;}
+  .revers-divmobile{flex-direction: column-reverse; margin-bottom:30px;}
+  .revers-divmobile .MainNumber_Two_Footer p{margin-top:0;}
+  .overflow-div > .WidthContent1{padding: 0 12px !important;}
 }

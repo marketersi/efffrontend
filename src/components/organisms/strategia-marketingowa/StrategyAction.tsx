@@ -12,10 +12,10 @@ export default function StrategyAction() {
           <div className="StrategyAction_Content_Title">
             {StrategyAction?.title}
           </div>
-          <div className="StrategyAction_Content_TextOne">
+          <div className="StrategyAction_Content_TextOne mobilelefttext">
             {StrategyAction?.description_1}
           </div>
-          <div className="StrategyAction_Content_TextTwo">
+          <div className="StrategyAction_Content_TextTwo mobilelefttext">
             {StrategyAction?.description_2}
           </div>
         </div>

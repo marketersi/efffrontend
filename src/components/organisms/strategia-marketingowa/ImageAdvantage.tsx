@@ -49,10 +49,10 @@ export default function ImageAdvantage() {
         className="ImageAdvantage_Dropdown"
         hidden={ImageAdvantage_Dropdown_Show}
       >
-        <div className="ImageAdvantage_Dropdown_ContentOne">
+        <div className="ImageAdvantage_Dropdown_ContentOne mobilelefttext">
           {imagesAdvantage?.paragraph_1}
         </div>
-        <div className="ImageAdvantage_Dropdown_ContentTwo">
+        <div className="ImageAdvantage_Dropdown_ContentTwo mobilelefttext">
           {imagesAdvantage?.paragraph_2}
         </div>
       </div>

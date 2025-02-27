@@ -17,12 +17,12 @@ export default function WhatRecieve() {
           Rozpocznij
           <br /> Podróż z Marketersi <br />w znane
         </div>
-        <div className="WhatRecieve_Content_One">
+        <div className="WhatRecieve_Content_One mobilelefttext">
           {WhatReceive?.description_1}
         </div>
         {/* Two */}
         <div className="WhatRecieve_Title_Two">{WhatReceive?.subtitle}</div>
-        <div className="WhatRecieve_Content_Two">
+        <div className="WhatRecieve_Content_Two mobilelefttext">
           {WhatReceive?.description_2}
         </div>
         {/* Table */}
@@ -54,16 +54,16 @@ export default function WhatRecieve() {
       </div> */}
       </div>
       {/* Three */}
-      <div className="WhatRecieve_Title_Three">
+      <div className="WhatRecieve_Title_Three mobilecreatetitle">
         Wyobraź sobie, że stoisz <br />
         na rozstajach dróg
         <br /> Twojego biznesowego <br/> sukcesu.
       </div>
       <div className="WhatRecieve WidthContent">
-        <div className="WhatRecieve_Content_Three_One">
+        <div className="WhatRecieve_Content_Three_One mobilelefttext">
           {WhatReceive?.description_4}
         </div>
-        <div className="WhatRecieve_Content_Three_Tow">
+        <div className="WhatRecieve_Content_Three_Tow mobilelefttext">
           {WhatReceive?.description_5}
         </div>
         {/* Button */}
@@ -88,16 +88,16 @@ export default function WhatRecieve() {
           className="WhatRecieve_Dropdown"
           hidden={WhatRecieve_Dropdown_Show}
         >
-          <div className="WhatRecieve_Dropdown_TitleOne">
+          <div className="WhatRecieve_Dropdown_TitleOne mobilelefttext">
             {WhatReceive?.description_6}
           </div>
-          <div className="WhatRecieve_Dropdown_ContentOne">
+          <div className="WhatRecieve_Dropdown_ContentOne mobilelefttext">
             {WhatReceive?.description_7}
           </div>
-          <div className="WhatRecieve_Dropdown_TitleTwo">
+          <div className="WhatRecieve_Dropdown_TitleTwo mobilelefttext">
             {WhatReceive?.description_8}
           </div>
-          <div className="WhatRecieve_Dropdown_ContentTwo">
+          <div className="WhatRecieve_Dropdown_ContentTwo mobilelefttext">
             {WhatReceive?.description_9}
           </div>
         </div>
