@@ -25,11 +25,11 @@ const GoodBusiness = () => {
                 {/* {title && title} */}
                 Co łączy loga <br/> McDonald's, Apple <br/> i Chanel, <br/> które rozpoznajesz <br/> w mgnieniu oka?
               </h1>
-              <p className="theme-desc text-center p-0 projects-under-big-header mb-5">
+              <p className="theme-desc text-center p-0 projects-under-big-header mb-5 mobilelefttext">
                 {subtitle && subtitle}
                 
               </p>
-              <p className="theme-desc text-center p-0 projects-under-big-header">
+              <p className="theme-desc text-center p-0 projects-under-big-header mobilelefttext">
               {text && text}
                 
               </p>

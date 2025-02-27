@@ -22,7 +22,7 @@ const ImplementationEx302 = () => {
                 <div className="container custom-container1 text-left">
                   <div className="row">
                     <div className="col-md-12">
-                      <p className="theme-desc text-left">
+                      <p className="theme-desc text-left mobilelefttext">
                         {/* {item?.para_1} */}
                         Rytuał Urody jest krótką, łatwą do zapamiętania nazwą,
                         która podkreśla wyjątkowość oferowanych usług.
@@ -44,12 +44,12 @@ const ImplementationEx302 = () => {
                 alt="Hasła reklamowe są dobre dla Nevel"
               />
 
-              <p className="theme-desc text-left">
+              <p className="theme-desc text-left mobilelefttext">
                 Rytuał” przywołuje na myśl głęboki relaks i dopracowane detale,
                 które stanowią integralną część każdego zabiegu, zapewniając
                 klientom pełne odprężenie i luksusowe doświadczenie.
               </p>
-              <p className="theme-desc text-left">{item?.para_2}</p>
+              <p className="theme-desc text-left mobilelefttext">{item?.para_2}</p>
             </div>
 
             {/* <div className="container">

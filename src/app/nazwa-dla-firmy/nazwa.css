@@ -549,6 +549,9 @@ section.projects-gray-opinion-4 {
 .width900 .custom-font-size br{display: none;}
 .theme-desc.projects-mq-book-fix.new-same-text{margin-left: 50px;}
 
+.iglarki-section-main-header.mbrediuce{padding-bottom:40px;}
+.names-client-name.mbrediuce2{margin-bottom: 0px;}
+
 /* ------------------------------------media screen------------------------------- */
 @media only screen and (max-width: 1520px) {
   .nazwa-heading{font-size:26px;}
@@ -1082,4 +1085,7 @@ section.projects-gray-opinion-4 {
   .projects-custom-container-second-prasa{padding-left:12px; padding-right:12px;} 
   .sendQuote{width:calc(92vw - 24px);}
   .banner-nazwa .row{flex-direction: column-reverse;}
+
+  .mobilechangeFont{font-family: "Poppins", sans-serif !important; color: #222;}
+  .mobilelefttext{text-align: left !important;}
 }

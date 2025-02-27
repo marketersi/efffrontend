@@ -17,7 +17,7 @@ const Park = () => {
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {ParkData?.subtitle}
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-margin-2">
+              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td projects-custom-margin-2 mobilelefttext">
                 {ParkData?.text}
               </p>
             </div>

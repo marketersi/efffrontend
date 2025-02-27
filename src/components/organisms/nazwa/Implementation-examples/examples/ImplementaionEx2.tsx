@@ -10,9 +10,9 @@ const ImplementationExample2 = () => {
       <div className="container custom-container1">
         <div className="row">
           <div className="col-md-12 projects-push-content-top project-font-family">
-            <p className="theme-desc">{example1?.para_1}</p>
+            <p className="theme-desc mobilelefttext">{example1?.para_1}</p>
 
-            <p className="theme-desc projects-margin-bottom-10">
+            <p className="theme-desc projects-margin-bottom-10 mobilelefttext">
               {example1?.para_2}
             </p>
 
@@ -26,7 +26,7 @@ const ImplementationExample2 = () => {
               />
             </div> */}
 
-            <p className="theme-desc">{example1?.para_3}</p>
+            <p className="theme-desc mobilelefttext">{example1?.para_3}</p>
 
             {/* <p className="theme-desc projects-margin-bottom-10">
               {example1?.para_4}
@@ -53,11 +53,11 @@ const ImplementationExample2 = () => {
           title="Przykład tego jak stworzyć dobrą nazwę"
           alt="Projektowanie logo dla Iglarek"
         />
-        <p className="theme-desc changefont projects-margin-top">
+        <p className="theme-desc changefont projects-margin-top mobilelefttext">
           {example1?.para_4} 
         </p>
 
-        <p className="theme-desc projects-margin-top">{example1?.para_5}</p>
+        <p className="theme-desc projects-margin-top mobilelefttext">{example1?.para_5}</p>
       </div>
 
       <div className="clearfix"></div>

@@ -31,10 +31,10 @@ const Aico = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
                 {LaxPartnersData?.text1}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top mobilelefttext">
                 {/* {LaxPartnersData?.text2} */}
                 To logo to nie tylko znak – to wizualne wyrażenie wartości
                 kancelarii i zobowiązanie do zapewniania najwyższej jakości

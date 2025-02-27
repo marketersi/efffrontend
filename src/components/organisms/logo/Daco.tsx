@@ -19,13 +19,13 @@ const Daco = () => {
               <h3 className="projects-theme-title-2 text-left projects-custom-theme-desc">
                 {DacoData?.subtitle}
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-push-top-td mb-4 mobilelefttext">
                 {DacoData?.text1}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
               {DacoData?.text2}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mobilelefttext">
               {DacoData?.text3}
               </p>
             </div>
@@ -46,7 +46,7 @@ const Daco = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74 mb-4">
+              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74 mb-4 mobilelefttext">
                 {DacoData?.quote}
               </h5>
             </div>

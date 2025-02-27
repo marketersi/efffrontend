@@ -22,13 +22,13 @@ const FreeShops = () => {
               <h3 className="projects-theme-title-2 text-left ErupaSubTItle">
                 {subtitle && subtitle}  
               </h3>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-push-top-td projects-custom-margin-2 mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-push-top-td projects-custom-margin-2 mb-4 mobilelefttext">
                 {FreeShopsData?.mainImageText1}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
                 {FreeShopsData?.mainImageText2}
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-margin-2">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-margin-2 mobilelefttext">
                 {FreeShopsData?.mainImageText3}
               </p>
             </div>
@@ -49,19 +49,19 @@ const FreeShops = () => {
         <div className="container custom-container1">
           <div className="row">
             <div className="col-md-12">
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
                 {/* {FreeShopsData?.bannerImageTextAbove1} */}
                 Kształt domu w logo jasno nawiązuje do budownictwa, zapewniając natychmiastową rozpoznawalność.
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mb-4 mobilelefttext">
                 {/* {FreeShopsData?.bannerImageTextAbove2} */}
                 Przemyślany i prosty design sprawia, że logo jest niezapomniane i od razu wpada w oko.
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc projects-custom-m0-top mb-4 mobilelefttext">
                 {/* {FreeShopsData?.bannerImageTextBelow1} */}
                 Każde logo, które tworzymy, buduje zaufanie już od pierwszego spojrzenia, wyróżniając markę klienta.
               </p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mobilelefttext">
                 {/* {FreeShopsData?.bannerImageTextBelow2} */}
                 Projektując logo, tworzymy coś więcej niż znak – <span>budujemy fundamenty sukcesu</span> Twojej marki.
               </p>

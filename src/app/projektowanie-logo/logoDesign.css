@@ -1923,4 +1923,9 @@ img.zooImage.position-relative {
 .image-810-container.mt-0.mobilemp0{margin-bottom: 0;}
 
 .projects-clients-theme-subtitle.morespacetop{margin-top:38px;}
+.LogoBannerContainer{flex-direction: column-reverse;}
+.mobilechangeFont{font-family: "Poppins", sans-serif !important; color: #222; letter-spacing: normal;}
+.sendQuote{width: calc(92vw - 24px);}
+.theme-quote.signed-quote.signed-quote-image, h5.theme-quote.signed-quote.signed-quote-image.margin-right-74.mb-4{margin-bottom: 15px !important;}
+.mobilelefttext{text-align: left !important;}
 }
