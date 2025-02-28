@@ -11,7 +11,10 @@ import style from "./hero.module.css";
 
 const Hero = () => {
   const { screenData } = useSelector((state: RootState) => state.home);
+  
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
   const { heroSection } = screenData;
+  console.log(heroSection , 'heroSection')
 
   const controls = useAnimation();
   const [ref, inView] = useInView();
@@ -25,6 +28,15 @@ const Hero = () => {
     hidden: { opacity: 0.5, x: 200, y: 200, transition: { duration: 2 } },
   };
 
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   useEffect(() => {
     if (inView) {
       controls.start("visible");
@@ -49,6 +61,7 @@ const Hero = () => {
       /> */}
 <ReactPlayer
   url={heroSection?.background_video}
+ // url='https://www.youtube.com/watch?v=dQw4w9WgXcQ?vq=small'
   playing={true}
   loop={true}
   width="100%"
@@ -56,13 +69,16 @@ const Hero = () => {
   className={`${style.heroVideo} ${style.desktop}`}
   muted={true}
   pip={false}
-  playsinline
+  playsinline={true}
+  preload="auto"
+  controls={true}
   config={{
     file: {
       attributes: {
         preload: 'auto',
         controlsList: "nodownload", 
         disablePictureInPicture: true,
+         crossOrigin:"anonymous"
       }
     }
   }}
@@ -78,8 +94,21 @@ const Hero = () => {
         height="auto"
         className={`${style.heroVideo} ${style.mobile}`}
         muted={true}
-        pip={false}
-        playsinline
+        pip={true}
+       // playsinline
+        playsinline={true}
+        preload="auto"
+        controls={true}
+        config={{
+          file: {
+            attributes: {
+              preload: 'auto',
+              controlsList: "nodownload", 
+              disablePictureInPicture: true,
+               crossOrigin:"anonymous"
+            }
+          }
+        }}
       />
 
       <div className={style.hero}>
