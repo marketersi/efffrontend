@@ -65,7 +65,7 @@ const  osClass = useOsClass();
           <Row>
             <Col xxl={12} lg={12} className="order-lg-1 order-2">
               <div className={style.BannerBotHeading}>
-                <h4>{herosection?.sub_title}</h4>
+                <h4 className={style.mobilenormalfont}>{herosection?.sub_title}</h4>
                 <div className={style.BannerBotImg}>
                 {/* <img src={herosection?.right_image} alt="" /> */}
                 <img src={herosection?.left_image} alt="" />

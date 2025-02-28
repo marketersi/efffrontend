@@ -26,7 +26,7 @@ const People = () => {
 
   return (
     <>
-     <section className="WidthContent1 container">
+     <section className= {`${style.topmobilespace2} WidthContent1 container`}>
      <div className={`${style.teamContent}`}>
         <h2 className={style.peopleTitle}>{section10?.section10_title}</h2>
         <p className={`${style.peoplePara} text-center`}>{section10?.section10_subtitle}</p>
@@ -40,8 +40,8 @@ const People = () => {
           src={section10?.section10_card_image}
         />
       </div> */}
-      <div className={style.teamContent}>
-        <h2 style={{ margin: '0 0 40px' }}>{section11?.section11_title}</h2>
+      <div  className={style.teamContent}>
+        <h2 className= {`${style.topmobilespace3}`} style={{ margin: '0 0 40px' }}>{section11?.section11_title}</h2>
         <p style={{ textAlign: 'center' }}>{section11?.section11_subtitle}</p>
       </div>
       <div className={style.peopleVideo}>

@@ -37,8 +37,8 @@ const Team = () => {
       <OurClients />
       <section className={`{style.Customers} WidthContent1`}>
         <div className={`${style.teamContent}`}>
-          <p className={'{style.customersPara}'} >
-            <span>{section3?.section_three_header}</span>
+          <p className={`{style.customersPara}`} >
+            <span className={style.mobiletitlefont}>{section3?.section_three_header}</span>
             {section3?.section_three_subheader}
           </p>
         </div>

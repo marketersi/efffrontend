@@ -33,14 +33,14 @@ const GoodTime = () => {
           </div>
           {section8?.section8_title?.split(" ").slice(2).join(" ")}
         </h1>
-        <p>{section8?.section8_discription_1}</p>
-        <p>{section8?.section8_discription_2}</p>
+        <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_1}</p>
+        <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_2}</p>
       </div>
       <div className={style.cardDataSpace}>
         <PersonalCard {...card1} />
       </div>
       <div className={style.teamContent}>
-        <p>{section8?.section8_discription_3}</p>
+        <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_3}</p>
       </div>
       <div
         className={style.cardCup}
@@ -49,13 +49,13 @@ const GoodTime = () => {
         <PersonalCard {...card2} />
       </div>
       <div className={style.teamContent}>
-        <p>{section8?.section8_discription_4}</p>
+        <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_4}</p>
       </div>
       <div className={style.cardDataSpace}>
         <PersonalCard {...card3} />
       </div>
       <div className={style.teamContent}>
-        <p>{section8?.section8_discription_5}</p>
+        <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_5}</p>
       </div>
       <div
         className={style.hardWorkBG}
@@ -66,8 +66,8 @@ const GoodTime = () => {
         </div>
 
         <div className={style.teamContent}>
-          <p>{section8?.section8_discription_6}</p>
-          <p>{section8?.section8_discription_7}</p>
+          <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_6}</p>
+          <p className={`${style.mobilelefttext}`}>{section8?.section8_discription_7}</p>
         </div>
       </div>
       <div className={style.cardDataSpace1}>

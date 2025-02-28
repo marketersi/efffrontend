@@ -1107,5 +1107,14 @@ text-align: center;
   .cardDataSpace{margin-top:30px;}
   .OurClients_Card_Two{padding:15px}
 
+  .mobilenormalfont{font-weight:300;}
+  .textContentBg{font-size: 12px; padding: 5px 10px;}
+  /* .topmobilespace{margin-top:70px;} */
+  .topmobilespace{padding:5px 12px 0;}
+  .topmobilespace .free{padding:0;}
+  .topmobilespace .freePara{text-align: left;}
+  .topmobilespace2{padding-top:25px;}
+  .mobilelefttext{text-align: left !important;}
+  .topmobilespace3{margin-top:50px !important;}
   
 }
