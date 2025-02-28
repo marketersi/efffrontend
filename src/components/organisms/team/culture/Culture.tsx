@@ -24,15 +24,15 @@ const Culture = () => {
         {/* <img className={style.cultureImg} src={section7?.card7_image_2} alt="" /> */}
       </Container>
       <div className={`${style.teamContent} ${style.culturedContent}`}>
-        <p>
+        <p className={`${style.mobilelefttext}`}>
           <span className="d-inline-block me-2">{section7?.subtitle_1}</span>
           {section7?.paragraph_1}
         </p>
-        <p>
+        <p className={`${style.mobilelefttext}`}>
           <span className="d-inline-block me-2"> {section7?.subtitle_2}</span>
           {section7?.paragraph_2}
         </p>
-        <p>{section7?.paragraph_3}</p>
+        <p className={`${style.mobilelefttext}`}>{section7?.paragraph_3}</p>
       </div>
      </div>
     </>
