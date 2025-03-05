@@ -38,13 +38,13 @@ const Team = () => {
       <section className={`{style.Customers} WidthContent1`}>
         <div className={`${style.teamContent}`}>
           <p className={`{style.customersPara}`} >
-            <span className={style.mobiletitlefont}>{section3?.section_three_header}</span>
-            {section3?.section_three_subheader}
+            <span className={`${style.mobiletitlefont} titlefontweb`}>{section3?.section_three_header}</span>
+            <span className={`${style.normalfontweb}`}>{section3?.section_three_subheader}</span>
           </p>
         </div>
         <TeamComponents.PersonalCard {...card2} />
-        <div className={`${style.teamContent} mobilePadfont`}>
-          <p className={style.customersPara1}><strong className={style.FontWieght}>To wytrwałość,</strong> a nie przypadek kreuje efekty – każdy detal ma znaczenie, a my dbamy o każdy z nich.</p>
+        <div className={`${style.teamContent} mobilecustomtext`}>
+          <p className={style.customersPara1}>To wytrwałość, a nie przypadek kreuje efekty – każdy detal ma znaczenie, a my dbamy o każdy z nich.</p>
         </div>
       </section>
       <TeamComponents.Creative />

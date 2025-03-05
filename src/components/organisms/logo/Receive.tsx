@@ -36,7 +36,7 @@ const Receive = () => {
         <div className="mid-space-container">
           <div className="row">
             <div className="col-md-12">
-              <p className="projets-custom-theme-desc projects-co-otrzymasz-sub2 text-center projects-margin-b-60 mobilelefttext">
+              <p className="projets-custom-theme-desc projects-co-otrzymasz-sub2 text-center projects-margin-b-60">
                 {/* {subtitle && subtitle} */}
                 Każdy projekt logo w Marketersi <br /> to nie tylko unikalny
                 symbol Twojej marki, <br /> 

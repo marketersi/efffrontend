@@ -1929,4 +1929,9 @@ img.zooImage.position-relative {
 .theme-quote.signed-quote.signed-quote-image, h5.theme-quote.signed-quote.signed-quote-image.margin-right-74.mb-4{margin-bottom: 15px !important;}
 .mobilelefttext{text-align: left !important;}
 .projects-custom-container3.spacemanagemobile{margin-top:5px;}
+.top-banner-long-text.mobilefontchange{font-size: 20px !important; line-height: 30px !important;}
+.mobilenormalfont, .mobilenormalfont{font-size: 22px !important; line-height: 32px !important; font-weight:300 !important; text-align: left !important; font-family:"Poppins", sans-serif !important;}
+.mobilenormalfont{text-align:center !important;}
+.mobilespacereduce{margin-bottom: 0 !important;}
+.mobilespacereduce .LogoBannerContainer{margin-bottom: 8px;}
 }

@@ -154,8 +154,8 @@ const FormOne = ({ setCurrentComponent, form }) => {
         </p> 
         <div style={{ textAlign: "left" }} className="select-input">
           <Select
-           // options={optionsTwo}
-           options={optionsTwo.slice(0, 4)} // Pehle 4 elements le raha hai
+           options={optionsTwo}
+          // options={optionsTwo.slice(0, 4)} // Pehle 4 elements le raha hai
             placeholder="Wybierz"
             isSearchable={false}
             components={{ DropdownIndicator }}
@@ -187,6 +187,7 @@ const FormOne = ({ setCurrentComponent, form }) => {
               }),
               menu: (provided, state) => ({
                 ...provided,
+               // maxHeight: "150px", // Adjust the height as needed
                 backgroundColor: selectedOption2 ? "#effeeb" : "#fff",
               }),
             }}
