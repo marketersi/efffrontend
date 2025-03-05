@@ -2685,4 +2685,10 @@ img.strategyImg {
   .revers-divmobile{flex-direction: column-reverse; margin-bottom:30px;}
   .revers-divmobile .MainNumber_Two_Footer p{margin-top:0;}
   .overflow-div > .WidthContent1{padding: 0 12px !important;}
+
+  .mobiledesignchange .Analysis3_GridItemNumber{margin-bottom:-16px;}
+  .Strategy_Card img{width: 60px !important;}
+  .mobiledesignchange .Analysis3_GridItemTitle{font-size: 25px !important; line-height: 25px !important; font-weight: 600 !important; color:#333 !important;}
+
+  .Price_Card img.price-card-title-image{margin-bottom:-36px;}
 }

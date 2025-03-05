@@ -10,7 +10,7 @@ const LogoBanner = ({ openModal }) => {
   return (
     <>
       <section>
-        <div className="container1 UXBannerContainer">
+        <div className="container1 UXBannerContainer mobilespacereduce">
           <div className="LogoBannerContainer row">
             <div className="col-md-7 projects-top-banner-container">
               <div className="top-banner-text projects-top-banner-text">
@@ -21,7 +21,7 @@ const LogoBanner = ({ openModal }) => {
 
                 
 
-                <h2 className="top-banner-long-text projects-top-banner-long-text remove-p">
+                <h2 className="top-banner-long-text projects-top-banner-long-text remove-p mobilefontchange">
                   {/* Gwarantujemy 100% satysfakcji – tworzymy, aż Cię zachwycimy */}
                   Gwarantujemy 100% satysfakcji – <br />
                   tworzymy, aż Cię zachwycimy

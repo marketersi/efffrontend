@@ -102,18 +102,6 @@
 } */
 /* -------------------------------media screen---------------------- */
 @media screen and (max-width: 1520px) {
-
-  .markCard h3 {
-    font-size:45px;
-    line-height:45px;
-  }
-  /* .markCard h3 {
-    font-size:45px;
-    line-height:45px;
-  } */
-
-  /* .markCard a {font-size:18px;} */
-
   
 }
 @media screen and (max-width: 1360px) {
@@ -178,9 +166,10 @@
 @media screen and (max-width: 600px) {
   .gapRow{margin-bottom:0;}
 
-  .markCard a{border-radius:10px; font-size:20px;}
+  .markCard a{border-radius:10px; font-size:17px;}
   .markCard h3{font-size:40px; line-height:40px; word-break:break-word;}
   .markVideo video{margin-top:-20px;}
   .markCard p {font-size:20px; line-height:30px;}
+  .mark img{width: 75%; margin: 2px auto 0;}
 }
 

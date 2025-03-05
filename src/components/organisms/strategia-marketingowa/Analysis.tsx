@@ -259,7 +259,7 @@ export default function Analysis() {
               width={1438 * 0.8}
             />
           </div> */}
-          <div className="Analysis3_Grid">
+          <div className="Analysis3_Grid mobiledesignchange">
             {Card3?.ButtonData?.CardGrid.map((card, index) => (
               <div key={index} className={`Analysis3_GridItem${index + 1}`}>
                 <div className="Analysis3_GridItemNumber">

@@ -30,29 +30,24 @@ const Entrepreneur = () => {
           <Row className="mb-3">
 
           <Col lg={12}>
-  <h4
-    dangerouslySetInnerHTML={{
-      __html: section5?.quote
-        ?.replace("produkt,", "produkt,<br />")
-        .replace("pokochali,", "pokochali,<br />")
-        .replace("wie.", "wie.<br /><br />")
-        .replace("ofertę,", "ofertę,<br />")  
-        .replace("zauważy,", "zauważy,<br />")  
-        .replace("zmieni.", "zmieni.<br /><br />")
-  
-        // Remove all <br /> tags if needed
-        
-    }}
-  />
-</Col>
+          <div className={style.MobileCenter}>
+            <h4
+              dangerouslySetInnerHTML={{
+                __html: section5?.quote
+                  ?.replace("produkt,", "produkt,<br />")
+                  .replace("pokochali,", "pokochali,<br />")
+                  .replace("wie.", "wie.<br /><br />")
+                  .replace("ofertę,", "ofertę,<br />")  
+                  .replace("zauważy,", "zauważy,<br />")  
+                  .replace("zmieni.", "zmieni.<br /><br />")
+            
+                  // Remove all <br /> tags if needed
+                  
+              }}
+            />
+            </div>
+          </Col>
 
-
-
- 
-
-
-
-  
 
 
 
@@ -96,11 +91,14 @@ const Entrepreneur = () => {
              </div>
           </Col>
         </Row>
-
+        {/* MobileCenter */}
         <div className={style.hardResult}>
           <Row className="helmet mb-md-5 mb-sm-2">
             <Col lg={12}>
-              <h4 className={style.contentFont}>{section6?.quote}</h4>
+              <div className={style.MobileCenter}>
+                <h4 className={style.contentFont}>{section6?.quote}</h4>
+              </div>
+         
             </Col>
           </Row>
 
@@ -173,7 +171,7 @@ const Entrepreneur = () => {
               playsinline
             /> */}
             <h6 className={style.fontSmall}>{section7?.bottom_title}</h6>
-            <h4 className={style.hardBottomContent}>
+            <h4 className={`${style.hardBottomContent} mobile-center`} >
               {section7?.quoted_title}
             </h4>
             <div className={`${style.ratingLogoImg}`}>

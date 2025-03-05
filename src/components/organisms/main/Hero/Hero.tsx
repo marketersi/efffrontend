@@ -71,7 +71,7 @@ const Hero = () => {
   pip={false}
   playsinline={true}
   preload="auto"
-  controls={true}
+  //controls={true}
   config={{
     file: {
       attributes: {
@@ -98,7 +98,7 @@ const Hero = () => {
        // playsinline
         playsinline={true}
         preload="auto"
-        controls={true}
+       // controls={true}
         config={{
           file: {
             attributes: {

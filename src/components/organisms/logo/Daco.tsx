@@ -46,7 +46,7 @@ const Daco = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74 mb-4 mobilelefttext">
+              <h5 className="theme-quote signed-quote signed-quote-image margin-right-74">
                 {DacoData?.quote}
               </h5>
             </div>
@@ -57,7 +57,7 @@ const Daco = () => {
           <div className="row">
             <div className="col-md-12">
               <p className="signature">{DacoData?.quoteAuthor}</p>
-              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mt-0 mb-4">
+              <p className="theme-desc projects-theme-desc-p projects-custom-theme-desc mt-0 mb-4 pt-3 mobilenormalfont">
                 {DacoData?.quoteText}
               </p>
             </div>

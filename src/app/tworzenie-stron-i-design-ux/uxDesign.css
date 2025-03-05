@@ -3589,6 +3589,6 @@ section.goodProcess {
   #textArrow .rowD p{text-align: center;}
  
   .mobilelefttext #textArrow .rowD p{text-align: left;}
-  .processVideoOne .processVideo{height: 204px !important;}
+  .processVideoOne .processVideo{height: auto !important; aspect-ratio: 16 / 10.1;}
   
 }
