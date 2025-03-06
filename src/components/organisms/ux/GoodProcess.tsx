@@ -47,8 +47,8 @@ const GoodProcess = () => {
             const tl = gsap.timeline({
               scrollTrigger: {
                 trigger: sectionRef.current,
-                start: "top 60%",
-                end: "bottom 120%",
+                start: "top 82%",
+                end: "bottom 160%",
                 scrub: true,
                 markers: false,
               },
@@ -59,7 +59,7 @@ const GoodProcess = () => {
               circles,
               { scale: 0.3, opacity: 0 },
               {
-                scale: 2.2,
+                scale: 1.8,
                 opacity: 1,
                 duration: 1.2,
                 stagger: 0.1,

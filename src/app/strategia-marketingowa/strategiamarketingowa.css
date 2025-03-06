@@ -1814,7 +1814,8 @@ img.strategyImg {
 
 
 
-
+.Price_Card img.price-card-title-image{margin-bottom:-58px;}
+.mobiledesignchange .Analysis3_GridItemNumber{line-height: 97px; margin-bottom: -48px; color: #00c0fe;}
 /* -----------------------------------------media screen ------------------------------------------------- */
 @media(max-width:1500px)
 {
@@ -2691,4 +2692,5 @@ img.strategyImg {
   .mobiledesignchange .Analysis3_GridItemTitle{font-size: 25px !important; line-height: 25px !important; font-weight: 600 !important; color:#333 !important;}
 
   .Price_Card img.price-card-title-image{margin-bottom:-36px;}
+  .mobiledesignchange .Analysis3_GridItemNumber{font-size: 90px; margin-bottom: -39px;}
 }

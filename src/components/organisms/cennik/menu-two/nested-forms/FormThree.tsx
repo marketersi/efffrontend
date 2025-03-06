@@ -72,7 +72,7 @@ const FormThree = ({ form }) => {
       >
         {form?.section_4_title}
       </h2>
-      <p style={{fontSize: "20px"}}>Podaj swoje dane, aby otrzymać dopasowaną ofertę.</p>
+      <p>Podaj swoje dane, aby otrzymać dopasowaną ofertę.</p>
       <div className="componentThree_input-container">
         <form onSubmit={handleSubmit}>
           <input

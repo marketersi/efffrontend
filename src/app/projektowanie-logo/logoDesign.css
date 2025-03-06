@@ -1934,4 +1934,6 @@ img.zooImage.position-relative {
 .mobilenormalfont{text-align:center !important;}
 .mobilespacereduce{margin-bottom: 0 !important;}
 .mobilespacereduce .LogoBannerContainer{margin-bottom: 8px;}
+
+.mobilenormalfont.mobilelefttextimp{text-align:left !important;} 
 }

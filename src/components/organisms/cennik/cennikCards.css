@@ -622,3 +622,8 @@ input[type='range']:focus::-webkit-slider-thumb {
     width: 100% !important;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .user-details_section p, .feedback_section p, .component-two_section p, .cennikFormCard .componentThree_section p, .card-subheading2{font-size:18px !important; line-height:28px;}
+  .user-details_section p, .cennikFormCard .componentThree_section p{width:90%;}
+}
