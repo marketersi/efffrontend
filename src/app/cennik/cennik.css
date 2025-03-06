@@ -197,7 +197,7 @@ textarea{resize: none;}
   .cennikFormCard{padding-top:10px !important; margin-bottom:0px !important;}
   .heading-style, .card-heading{font-size:20px; line-height:26px; font-weight:700;}
   .heading-style{margin-top:30px !important;}
-  .subheading, .card-subheading{font-size: 20px; line-height: 32px; padding: 0; margin: 30px 0;}
+  .subheading, .card-subheading{font-size:18px; line-height:28px; padding: 0; margin: 30px 0;}
   .card-subheading{margin-top:10px;}
   .BtnStyle{text-align: center;}
 }

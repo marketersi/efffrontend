@@ -98,9 +98,9 @@ const StepByStep = () => {
 
            
           </div>
-          <div className="container">
+          <div className="row">
           <div className="col-md-12">
-            <h5 className="theme-quote signed-quote signed-quote-image mb-4">
+            <h5 className="theme-quote signed-quote signed-quote-image">
             „Logo stworzone dla nas to kwintesencja profesjonalizmu i dbałości o detale. Subtelne, nowoczesne i eleganckie – dokładnie tak, jak chcemy być postrzegani przez naszych pacjentów. Jesteśmy zachwyceni!”
             </h5>
             <p className="signature">– Kaja Barciś, właścicielka gabinetu
