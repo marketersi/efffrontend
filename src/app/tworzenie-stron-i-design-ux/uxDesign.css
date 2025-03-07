@@ -3263,6 +3263,8 @@ section.goodProcess {
 .processVideoOne .processVideo{height: 402px !important;}
 .processVideoOne .win video{object-fit: cover;}
 
+
+
 @media only screen and (max-width: 1520px) {
 #header > div div .subitle{font-size:26px;}
 .buttonux{font-size:26px;}
@@ -3590,5 +3592,6 @@ section.goodProcess {
  
   .mobilelefttext #textArrow .rowD p{text-align: left;}
   .processVideoOne .processVideo{height: auto !important; aspect-ratio: 16 / 10.1;}
-  
+  .topgapestart{margin-top:30px;} 
+  .topgapestart .processVideo{margin-bottom:10px;}
 }

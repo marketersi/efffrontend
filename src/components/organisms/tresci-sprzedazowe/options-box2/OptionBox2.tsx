@@ -33,7 +33,7 @@ const OptionBox2 = ({ optionBox2 }) => {
                 <div className="opinion-box-content projects-opinion-2 copywriter-prawo-text">
                   <p className="text-center optonsahgasds review-card-text">
                     {/* {title} */}
-                    Gwarantowane rezultaty albo zwrot pieniędzy 
+                    <strong>Gwarantowane rezultaty albo zwrot pieniędzy</strong>
                   </p> 
                   <div className="opinion-box-text copywriter-opinion-box-text">
                     {/* {description} */}

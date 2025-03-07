@@ -1448,6 +1448,7 @@ img.strategyImg {
   right: 0;
   bottom: 0;
   background-color: #161616;
+  overflow-y: auto;
 }
 
 .ModalTitle {

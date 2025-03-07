@@ -137,7 +137,7 @@ const GoodProcess = () => {
         </div>
       </div>
 
-      <div className="numberTwo">
+      <div className="numberTwo topgapestart">
         <div className="two numberimage2">
           <div className="number">
             <img

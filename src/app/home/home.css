@@ -218,6 +218,9 @@
   overflow-x: hidden;
 }
 
+.webcentertext h4{text-align: center;}
+h4.webcentertext{text-align: center;}
+
 @media screen and (max-width:767px){
   .bannerVideoMain{
     position: relative;
