@@ -18,7 +18,7 @@ const NazwaHero = () => {
       <div className="nazwaContainer">
         <div className="top-section-banner-text container-fluid1 UXBannerContainer banner-nazwa">
           <div className="row align-items-center">
-            <div className="col-md-6">
+            <div className="col-md-7">
               <div className="top-banner-text projects-top-banner-text naming-top-banner-text">
                 {/* <h1 className="top-banner-title projects-top-banner-title pnazw-topbanner-title">
                 Nazwij Swoją <span className="indent-20">
@@ -36,7 +36,7 @@ const NazwaHero = () => {
                   <br />
                   Przyszłość
                   <br /> */}
-                  Stwórzmy nazwę, która <br /> wyrazi charakter Twojej firmy.
+                  Stwórzmy nazwę, <br />która wyrazi <br />charakter <br />Twojej firmy.
                   {/* z Marketersi. <br /> Nazwy, Które <br /> Definiują Sukces. */}
                 </h1>
                 <h2 className="nazwa-heading">
@@ -60,7 +60,7 @@ const NazwaHero = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
           
               {/* <ReactPlayer
                 url={heroSection?.background_video}

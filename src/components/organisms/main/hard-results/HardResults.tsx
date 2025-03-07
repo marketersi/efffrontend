@@ -30,7 +30,7 @@ const Entrepreneur = () => {
           <Row className="mb-3">
 
           <Col lg={12}>
-          <div className={style.MobileCenter}>
+          <div className={`${style.MobileCenter} webcentertext`}>
             <h4
               dangerouslySetInnerHTML={{
                 __html: section5?.quote
@@ -95,7 +95,7 @@ const Entrepreneur = () => {
         <div className={style.hardResult}>
           <Row className="helmet mb-md-5 mb-sm-2">
             <Col lg={12}>
-              <div className={style.MobileCenter}>
+              <div className={`${style.MobileCenter} webcentertext`}>
                 <h4 className={style.contentFont}>{section6?.quote}</h4>
               </div>
          
@@ -171,7 +171,7 @@ const Entrepreneur = () => {
               playsinline
             /> */}
             <h6 className={style.fontSmall}>{section7?.bottom_title}</h6>
-            <h4 className={`${style.hardBottomContent} mobile-center`} >
+            <h4 className={`${style.hardBottomContent} mobile-center webcentertext`} >
               {section7?.quoted_title}
             </h4>
             <div className={`${style.ratingLogoImg}`}>

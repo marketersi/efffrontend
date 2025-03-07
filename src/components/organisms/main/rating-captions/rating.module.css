@@ -27,14 +27,14 @@
 }
 
 .ratingImg img {
-  width: 310px;
+  width: 320px;
   position: relative;
   /* left:-200px; */
 }
 
 .ratingImg :nth-child(2) {
-  width: 250px;
-  height:250px;
+  width: 320px;
+  height:auto;
   left: auto;
   /* right:-200px; */
 }
@@ -111,6 +111,7 @@
   line-height: 50px;
   margin: 0 auto 40px;
   max-width:1100px;
+  text-align: center;
 }
 
 .ratingCOntent p span {

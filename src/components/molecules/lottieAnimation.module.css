@@ -4,12 +4,41 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1450px) {
+  .lottieContainer {
+      width: 280px;
+      height: 80px;
+    }
+}
+
 @media (max-width: 1440px) {
   .lottieContainer {
       width: 280px;
       height: 80px;
     }
 }
+
+@media (max-width: 1360px) {
+  .lottieContainer {
+      width: 250px;
+      height: 70px;
+    }
+}
+
+@media (max-width: 1311px) {
+  .lottieContainer {
+      width: 200px;
+      height: 54px;
+    }
+}
+
+@media (max-width: 1260px) {
+  .lottieContainer {
+      width: 130px;
+      height: 33px;
+    }
+}
+
 @media (max-width: 768px) {
   .lottieContainer {
     width: 200px;
