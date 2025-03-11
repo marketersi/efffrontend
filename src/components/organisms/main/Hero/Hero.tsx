@@ -60,6 +60,7 @@ const Hero = () => {
         playsinline
       /> */}
 <ReactPlayer
+key={new Date().toISOString()}
   url={heroSection?.background_video}
  // url='https://www.youtube.com/watch?v=dQw4w9WgXcQ?vq=small'
   playing={true}
