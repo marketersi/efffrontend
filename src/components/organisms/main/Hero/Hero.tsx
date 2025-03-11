@@ -59,7 +59,7 @@ const Hero = () => {
         pip={false}
         playsinline
       /> */}
-<ReactPlayer
+{/* <ReactPlayer
 key={new Date().toISOString()}
   url={heroSection?.background_video}
  // url='https://www.youtube.com/watch?v=dQw4w9WgXcQ?vq=small'
@@ -84,7 +84,19 @@ key={new Date().toISOString()}
       }
     }
   }}
-/>
+/> */}
+
+<video
+      src={heroSection?.background_video}
+      autoPlay
+      loop
+      muted
+      playsInline
+      preload="auto"
+      className={`${style.heroVideo} ${style.desktop}`}
+      onEnded={(e) => e.target.play()} // Ensures looping in Safari
+      controlsList="nodownload"
+    />
 
       <ReactPlayer
         url={heroSection?.mobile_video}
