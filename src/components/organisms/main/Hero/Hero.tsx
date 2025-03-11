@@ -86,17 +86,18 @@ key={new Date().toISOString()}
   }}
 /> */}
 
-<video
+        <video
       src={heroSection?.background_video}
       autoPlay
       loop
       muted
-      playsInline
+      playsinline
       preload="auto"
       className={`${style.heroVideo} ${style.desktop}`}
       onEnded={(e) => e.target.play()} // Ensures looping in Safari
       controlsList="nodownload"
-    />
+
+    ><source src={heroSection?.background_video} type="video/mp4"></source></video>
 
       <ReactPlayer
         url={heroSection?.mobile_video}
@@ -135,7 +136,7 @@ key={new Date().toISOString()}
           </div>
           <div className={style.heroBtn}>
             <Link href="/cennik">
-              <button>Wyceń usługę</button>
+              <button>Wyceń usługę @333333333333</button>
             </Link>
             <Link href="/konsultacja-marketingu" className={style.umow}>
               <span>Umów konsultację</span>
