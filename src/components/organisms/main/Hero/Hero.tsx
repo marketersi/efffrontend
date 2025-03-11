@@ -99,7 +99,7 @@ key={new Date().toISOString()}
         id='play'
      
       src={heroSection?.background_video}
-      autoPlay
+      //autoPlay
       loop
       muted
       playsinline
