@@ -3260,8 +3260,8 @@ section.goodProcess {
 } */
 
 
-.processVideoOne .processVideo{height: 402px !important;}
-.processVideoOne .win video{object-fit: cover;}
+.processVideoOne .processVideo{height:auto !important; width: auto !important; display: flex; justify-content: center;}
+.processVideoOne .win video{object-fit: cover; width:690px !important; height: 436px !important;}
 
 
 
@@ -3290,6 +3290,11 @@ section.goodProcess {
   #guarantee .rowD h2 {
     margin-top: 100px;
   }
+
+  .processVideoOne .win video {
+    width: 600px !important;
+    height: 380px !important;
+}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3366,6 +3371,8 @@ section.goodProcess {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .circleBox{display: none;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -3501,6 +3508,11 @@ section.goodProcess {
   .uxvideoImg {
     width: 100%;
   }
+
+  section.arrowContainer.mobilelefttext {
+    margin-top: 0;
+}
+
  
 }
 
@@ -3594,4 +3606,6 @@ section.goodProcess {
   .processVideoOne .processVideo{height: auto !important; aspect-ratio: 16 / 10.1;}
   .topgapestart{margin-top:30px;} 
   .topgapestart .processVideo{margin-bottom:10px;}
+
+  .processVideoOne .win video{width: 335px !important; height: 212px !important;}
 }

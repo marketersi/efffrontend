@@ -6,17 +6,11 @@
 
 @media (max-width: 1450px) {
   .lottieContainer {
-      width: 280px;
-      height: 80px;
+      width: 410px;
+      height: 106px;
     }
 }
 
-@media (max-width: 1440px) {
-  .lottieContainer {
-      width: 280px;
-      height: 80px;
-    }
-}
 
 @media (max-width: 1360px) {
   .lottieContainer {
