@@ -92,7 +92,8 @@ key={new Date().toISOString()}
       loop
       muted
       playsinline
-      preload="auto"
+      style={{userSelect:'none'}}
+      preload="metadata"
       className={`${style.heroVideo} ${style.desktop}`}
       onEnded={(e) => e.target.play()} // Ensures looping in Safari
       controlsList="nodownload"
