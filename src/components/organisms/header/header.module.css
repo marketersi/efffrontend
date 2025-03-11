@@ -411,6 +411,8 @@
    .navRightMenu{
     padding-right: 7px;
    }
+
+   .headerRightBtn a{max-width:260px; white-space: normal;}
 }
 @media screen and (max-width: 1360px) {
   /* .logo img {
