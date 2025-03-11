@@ -136,7 +136,7 @@ key={new Date().toISOString()}
           </div>
           <div className={style.heroBtn}>
             <Link href="/cennik">
-              <button>Wyceń usługę @333333333333</button>
+              <button>Wyceń usługę</button>
             </Link>
             <Link href="/konsultacja-marketingu" className={style.umow}>
               <span>Umów konsultację</span>
