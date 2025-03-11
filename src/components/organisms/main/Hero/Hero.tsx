@@ -77,9 +77,10 @@ key={new Date().toISOString()}
     file: {
       attributes: {
         preload: 'auto',
-        controlsList: "nodownload", 
+        controlsList: "nodownload",
         disablePictureInPicture: true,
-         crossOrigin:"anonymous"
+        crossOrigin: "anonymous",
+        autoPlay: true // Explicit autoplay attribute
       }
     }
   }}
