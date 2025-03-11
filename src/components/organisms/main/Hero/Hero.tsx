@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/home/page";
 import style from "./hero.module.css";
+import $ from "jquery"; // Import jQuery
 
 const Hero = () => {
   const { screenData } = useSelector((state: RootState) => state.home);
@@ -37,6 +38,14 @@ const Hero = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    // Ensure jQuery selects the element correctly and triggers play
+    $('#play').trigger('play');
+
+  }, []);
+
+
   useEffect(() => {
     if (inView) {
       controls.start("visible");
@@ -87,6 +96,8 @@ key={new Date().toISOString()}
 /> */}
 
         <video
+        id='play'
+     
       src={heroSection?.background_video}
       autoPlay
       loop
