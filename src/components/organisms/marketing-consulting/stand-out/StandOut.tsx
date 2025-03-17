@@ -4,9 +4,9 @@ import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
 
 const StandOut = () => {
-  const { isLoading, screenData } = useSelector((state) => state.consulting);
+  const { isLoading, screenData1 } = useSelector((state) => state.consulting);
 
-  const { WhyUs } = screenData || {};
+  const { WhyUs } = screenData1 || {};
   const {
     info_image_url_2,
     info_2,
@@ -23,6 +23,8 @@ const StandOut = () => {
     title,
   } = WhyUs || {};
 
+
+  console.log(title , 'title')
   const [mobile, setMobile] = useState(isMobile());
 
   useEffect(() => {
@@ -36,6 +38,7 @@ const StandOut = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  const titlee = "Marketersi:\nOdblokuj pełny\npotencjał\nswojej marki";
 
   function isMobile() {
     return typeof window !== "undefined" && window.innerWidth <= 768;
@@ -45,7 +48,11 @@ const StandOut = () => {
     <div className="so_sec">
       <Container className="text-center">
         <div className="so_header">
-          <h1>{title}</h1>
+       
+
+<h1 style={{ whiteSpace: "pre-line" }}>{titlee}</h1>
+
+
           <p>
             <em>{subtitle}</em>
           </p>
@@ -60,7 +67,7 @@ const StandOut = () => {
           </div>
         </div>
 
-        <div className="so_flex">
+        <div className="so_flex so_flexFirst">
           <div>
             <h2>{question_1}</h2>
             <p>{info_1}</p>
@@ -74,7 +81,7 @@ const StandOut = () => {
           </div>
         </div>
 
-        <div className="so_flex">
+        <div className="so_flex so_flexSecond">
           {!mobile && (
             <div>
               <img

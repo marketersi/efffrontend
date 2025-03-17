@@ -5,8 +5,8 @@ import "./expect.css";
 import { useSelector } from "react-redux";
 
 const WhatToExpect = () => {
-  const { isLoading, screenData } = useSelector((state) => state.consulting);
-  const { WhatToExpect } = screenData || {};
+  const { isLoading, screenData1 } = useSelector((state) => state.consulting);
+  const { WhatToExpect } = screenData1 || {};
 
   const {
     brand_logo,
@@ -34,8 +34,8 @@ const WhatToExpect = () => {
           alt="feather image left"
           className="leaf_img"
         />
-        <div className="w-sm-50 mx-sm-5">
-          <p>{paragraph_2}</p>
+        <div className="w-sm-50">
+          <p className="TextBold">{paragraph_2}</p>
           <p>{paragraph_3}</p>
         </div>
         <img
@@ -46,9 +46,9 @@ const WhatToExpect = () => {
       </div>
 
       <div className="wte_end">
-        <p>{paragraph_4}</p>
+        <p className="TextBold">{paragraph_4}</p>
         <p>{paragraph_5}</p>
-        <p className="my-5">{paragraph_6}</p>
+        <p className="my-5 TextBold">{paragraph_6}</p>
 
         <img src={brand_logo} alt="brand logo" className="logoImg" />
       </div>

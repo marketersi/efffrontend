@@ -6,16 +6,27 @@ import CardTwo from "../../cennik/menu-two/CardTwo";
 import { useSelector } from "react-redux";
 
 const PricingOption = () => {
-  const { isLoading, screenData } = useSelector((state) => state.consulting);
-  const { PricingOption } = screenData || {};
-  const { Form } = screenData?.PricingOption || {};
+  const {  screenData1 } = useSelector((state) => state.consulting);
+  console.log(screenData1 , 'screenData1@13')
+  
+    const { isLoading, screenData } = useSelector((state) => state.priceList);
+  const { PricingOption } = screenData1 || {};
+  const { Form1 } = screenData1?.PricingOption || {};
+  const { Form } = screenData?.cardMenu?.MenuTwo || {};
 
+  const titlee = "Odblokuj zyski z Marketersi:\npierwszy krok ku wielkim zmianom.";
+
+  
+  
   return (
     <section>
       <div className="container po_pricing_sec">
         <div className="row justify-content-center m-0">
-          <div>
-            <h2 className="po_title">{PricingOption?.title}</h2>
+          <div className="p-0">
+              <h2 style={{ whiteSpace: "pre-line" }} className="po_title">
+              {titlee}.
+              </h2>
+
             <div className="mt-3">
               <p className="po_subtitle">{PricingOption?.subtitle}</p>
             </div>
@@ -27,7 +38,9 @@ const PricingOption = () => {
         </div>
       </div>
 
-      <div className="po_brands">
+      <div className="po_brands po_brandsNew">
+        
+      <div className="po_brandsNewInner">
         <p>{PricingOption?.brand_quote}</p>
         <img
           src={PricingOption?.brand_image}
@@ -36,6 +49,7 @@ const PricingOption = () => {
         />
         {/* mobile image */}
         <img src={PricingOption?.brand_image_mobile} className="brand_mobile" />
+      </div>
       </div>
     </section>
   );

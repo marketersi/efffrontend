@@ -1,5 +1,6 @@
 .wte {
-  padding: 90px 0;
+  padding: 50px 12px;
+  max-width: 900px;
 }
 
 .wte_header {
@@ -9,8 +10,7 @@
 .wte_header h2 {
   font-weight: 700;
   font-size: 60px;
-  max-width: 750px;
-  margin: 0 auto 100px;
+  margin:0 auto 85px;
 }
 
 .wte_header p {
@@ -23,11 +23,15 @@
   font-size: 27px;
   margin: 20px auto;
   font-weight: 300;
-  max-width: 650px;
+  max-width:100%;
+  width:100%;
 }
 
+.wte p.TextBold{font-weight:bold;}
+
 .wte_end {
-  width: 65%;
+  max-width:900px;
+  padding:0 12px;
   margin: 0 auto;
 }
 
@@ -37,11 +41,17 @@
 
 .leaf_img {
   width: 200px;
+  margin-bottom:-76px;
+  margin-left:-150px;
 }
 
 .leaf_img_right {
   transform: scaleX(-1);
+  margin-left:0;
+  margin-right:-150px;
 }
+
+.toExpect{grid-gap: 14px;}
 
 @media only screen and (max-width: 1024px) {
   .wte_header p {
@@ -66,7 +76,8 @@
   }
   .wte_header h2 {
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 26px;
   }
   .wte_header p {
     width: 90%;
@@ -82,5 +93,11 @@
   .leaf_img_right {
 display: none;
   }
-  
+  .text-center.wte.container{padding: 40px 12px 30px;}  
+  .wte p{width:100%;}
+  .leaf_img{margin:0 auto;}
+  .wte_header{margin-bottom: 30px;}
+  .wte p.TextBold{margin-top:0px;}
+  .wte p.TextBold.my-5{margin-top:44px !important;}
+  .wte_end{margin-top:20px;}
 }

@@ -1,11 +1,20 @@
 .so_sec {
   background-color: #f4f4f4;
-  padding: 100px 0;
+  padding: 44px 0;
 }
 
 .so_image {
   width: 100%;
   height: 100%;
+  min-width:460px;
+}
+
+.so_flexFirst .so_image {
+  margin-right:-150px;
+}
+
+.so_flexSecond .so_image {
+  margin-left:-150px;
 }
 
 .so_flex {
@@ -15,7 +24,7 @@
   padding: 70px 0;
   text-align: left;
   gap: 50px;
-  max-width: 950px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -25,9 +34,11 @@
 }
 
 .so_flex p {
-  font-weight: 300;
   font-size: 28px;
+  line-height:50px;
+  font-weight: 300;
   margin-top: 12px;
+  font-family:"Poppins", sans-serif !important;
 }
 
 .so_header {
@@ -36,8 +47,10 @@
 }
 
 .so_header h1 {
-  font-size: 100px;
-  font-weight: 800;
+  font-size: 85px;
+  line-height:77px;
+  font-weight: 700;
+  font-family:"Poppins", sans-serif !important;
 }
 
 .so_header p {
@@ -46,14 +59,16 @@
 }
 
 .so_paras {
-  width: 60%;
+  max-width:900px;
   margin: 22px auto;
 }
 
 .so_paras p {
   font-size: 28px;
+  line-height:50px;
   font-weight: 300;
   margin: 28px auto;
+  font-family:"Poppins", sans-serif !important;
 }
 
 .so_img {
@@ -92,11 +107,19 @@
   .so_flex p {
     text-align: center;
   }
+
+  .so_flexFirst .so_image{margin-right:auto;}
+  .so_flexSecond .so_image{margin-left:auto;}
+  .po_brandsNew .brand_desktop{margin-right:0;}
+  .so_sec{padding-top:0 !important;}
+  .so_header{margin:1px 0;}
 }
 @media only screen and (max-width: 767px) {
   .so_header h1 {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 30px;
+    line-height:26px;
+    font-weight: 700;
+    margin-bottom:0;
   }
   .so_header p {
     font-size: 24px;
@@ -111,14 +134,32 @@
   }
   .so_flex h2 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
+    line-height:26px;
     text-align: center;
     margin: 30px 0 0;
   }
   .so_flex p {
     font-size: 22px;
     text-align: center;
-    line-height: 36px;
+    line-height: 32px;
     margin: 30px 0;
   }
+}
+@media only screen and (max-width: 600px) {
+  .po_pricing_sec{padding:10px 12px;}
+  .po_card_custom{margin-top: 30px; padding:24px 18px 44px;}
+  .po_brandsNewInner{display: block; max-width: 100%; padding: 0;}
+
+  .po_brands{width: 92vw; max-width: 92vw; padding-left:12px; padding-right:12px; margin:0 auto;}
+  .so_flexFirst .so_image{min-width:1px; max-width:100%;}
+  .so_paras{margin-top:0; margin-bottom:0;}
+  .so_paras p{margin:0px 0 23px;}
+  .so_header p, .so_paras p{font-size:22px; line-height:32px; font-weight:300;}
+  .so_header p{font-weight:400;}
+  .so_img{margin: 0px auto;}
+  .so_sec{padding-bottom:0;}
+  .so_flex.so_flexFirst{padding-top: 0; padding-bottom: 0;}
+  .so_flex.so_flexSecond{padding-top:0px; padding-bottom:0px;}
+  .so_flex.so_flexSecond p{margin-bottom:20px;}
 }
