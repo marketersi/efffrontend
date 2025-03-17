@@ -2,11 +2,12 @@
   text-align: center;
 }
 .sp_header h2 {
-  font-size: 100px;
+  font-size: 85px;
+  line-height:77px;
   text-align: center;
   font-weight: 700;
-  max-width: 900px;
-  margin: 100px auto 30px;
+  font-family:"Poppins", sans-serif !important;
+  margin:0px auto 30px;
 }
 .sp_header p {
   font-weight: 500;
@@ -15,26 +16,43 @@
 }
 
 .sp_card_right {
-  background-color: white;
+  background-color: #00b9ff;
+  color:#fff;
   padding: 50px;
-  width: 450px;
-  margin-left: -150px;
+  /* width: 446px; */
+  /* margin:0 -10px 0 -26px; */
+  z-index:-1;
 }
 
 .sp_card_left {
-  background-color: white;
+  background-color: #00b9ff;
+  color:#fff;
   padding: 50px;
-  width: 450px;
-  margin-right: -150px;
-  z-index: 1;
+  /* width: 446px; */
+  /* margin-right: -128px; */
+  z-index: -1;
+}
+
+.sp_card_left h2, .sp_card_right h2{
+  margin-bottom: 16px;
+}
+
+.sp_card_left div p:last-child, .sp_card_right div p:last-child {
+  margin-bottom: 0;
 }
 
 .sp_card_container {
-  margin: 100px 0;
+  margin: 100px auto;
 }
+
+.CustomContainer{max-width:1100px; margin-left: auto; margin-right: auto;}
+
 img.left-card-img {
   width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
 @media only screen and (max-width: 1024px) {
   .sp_header h2 {
     font-size: 70px;
@@ -50,10 +68,10 @@ img.left-card-img {
   }
   .sp_card_left {
     margin-right: 0;
-    width: 85%;
+    /* width: 85%; */
   }
   .sp_card_right {
-    width: 85%;
+    /* width: 85%; */
     margin-left: 0;
   }
 }
@@ -64,14 +82,17 @@ img.left-card-img {
   .sp_header p {
     font-size: 22px;
   }
-  .sp_card_left {
+  .sp_card_left, .sp_card_right {
     width: 100%;
     padding: 20px;
   }
   .left-card-img {
     width: 100%;
   }
-  .sp_card_right {
-    width: 100%;
-  }
+
+  .sp_header h2{margin-top:20px; font-size: 30px; line-height:26px; max-width: 270px;}
+  .sp_card_container{margin:30px 0;}
+  .sp_card_right{margin:0;}
+  .sp_card_left p, .sp_card_right p{margin-bottom: 0;}
+  .sp_card_left h2, .sp_card_right h2{margin-bottom:0;}
 }

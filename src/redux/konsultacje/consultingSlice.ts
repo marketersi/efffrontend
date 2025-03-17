@@ -4,7 +4,7 @@ const consultingSlice = createSlice({
   name: 'consulting',
   initialState: {
     isLoading: true,
-    screenData: {},
+    screenData1: {},
   },
   reducers: {
     // Action when starting to fetch consulting screen data
@@ -15,7 +15,7 @@ const consultingSlice = createSlice({
     // Action when fetching consulting screen data is successful
     fetchConsultingScreenSuccess: (state, { payload }) => {
       state.isLoading = false;
-      state.screenData = payload.response;
+      state.screenData1 = payload.response;
     },
 
     // Action when fetching consulting screen data is successful

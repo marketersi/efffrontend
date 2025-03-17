@@ -4,15 +4,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 
 const SelectedProjects = () => {
-  const { screenData } = useSelector((state) => state.consulting);
+  const { screenData1 } = useSelector((state) => state.consulting);
 
-  const { Projects } = screenData || {};
+  const { Projects } = screenData1 || {};
   const { subtitle, title, Cards } = Projects || {};
-
+    const titlee = "Nasze projekty\nw akcji"
   return (
     <Container className="sp_sec">
       <div className="sp_header">
-        <h2>{title}</h2>
+      <h2 style={{ whiteSpace: "pre-line" }}>{titlee}</h2>
         <p>
           <em>{subtitle}</em>
         </p>
@@ -34,9 +34,9 @@ const SelectedProjects = () => {
 
         if (index % 2 !== 0) {
           return (
-            <div className="my-5" key={index}>
-              <Row className="justify-content-center">
-                <Col lg={6}>
+            <div className="my-5 CustomContainer" key={index}>
+              <Row className="justify-content-center m-0">
+                <Col lg={7} className='p-0'>
                   <img
                     src={banner_image}
                     alt="project-banner-image"
@@ -44,8 +44,8 @@ const SelectedProjects = () => {
                   />
                 </Col>
                 <Col
-                  lg={4}
-                  className="d-flex justify-content-center align-items-center"
+                  lg={5}
+                  className="d-flex justify-content-center align-items-center p-0"
                 >
                   <div className="sp_card_right text-center">
                     <p>{title}</p>
@@ -66,11 +66,11 @@ const SelectedProjects = () => {
           );
         } else {
           return (
-            <div className="sp_card_container" key={index}>
-              <Row>
+            <div className="sp_card_container CustomContainer" key={index}>
+              <Row className='m-0'>
                 <Col
                   lg={5}
-                  className="d-flex justify-content-center align-items-center order-lg-1 order-2"
+                  className="d-flex justify-content-center align-items-center order-lg-1 order-2 p-0"
                 >
                   <div className="sp_card_left text-center">
                     <p>{title}</p>
@@ -86,7 +86,7 @@ const SelectedProjects = () => {
                     </div>
                   </div>
                 </Col>
-                <Col lg={6} className="order-lg-2 order-1">
+                <Col lg={7} className="order-lg-2 order-1 p-0">
                   <img
                     src={banner_image}
                     alt="project-banner-image"
