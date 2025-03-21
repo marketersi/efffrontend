@@ -35,26 +35,29 @@ const CalculatorScreen = () => {
             <Col className="text-center">
               <h1>
                 {screenData?.first_heading &&
-                  screenData?.first_heading.split(' ').slice(0, 6).join(' ')}
+                  screenData?.first_heading.split(' ').slice(0, 5).join(' ')}
               </h1>
-              <h1>
+              <p>
                 {screenData?.first_heading &&
-                  screenData?.first_heading.split(' ').slice(6).join(' ')}
-              </h1>
-              <p>{screenData?.sub_heading}</p>
+                  screenData?.first_heading.split(' ').slice(5).join(' ')}
+              </p>
+              <p className='BoldText'>{screenData?.sub_heading}</p>
             </Col>
           </Row>
 
           <Calculator />
 
-          <Row className="second-row">
+          <Row className="second-row MTBigSpace2">
             <Col className="text-center p-sm-5 p-4">
               <h1>
                 {screenData?.second_heading &&
-                  screenData?.second_heading.split(' ').slice(0, 4).join(' ')}
+                  screenData?.second_heading.split(' ').slice(0, 5).join(' ')} 
+
+                  &nbsp;
+                  
                 <span>
                   {screenData?.second_heading &&
-                    screenData?.second_heading.split(' ').slice(4).join(' ')}
+                    screenData?.second_heading.split(' ').slice(5).join(' ')}
                 </span>
               </h1>
               <div className="calculator_container" style={{ margin: 'auto' }}>
