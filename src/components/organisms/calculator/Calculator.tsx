@@ -43,17 +43,17 @@ const Calculator = () => {
 
   return (
     <>
-      <Row className="p-lg-5 mt-lg-5">
+      <Row className="MTBigSpace">
         <Col
-          xxl={6}
-          className="text-center d-flex flex-column align-items-center justify-content-center"
+          lg={6}
+          className="text-center d-flex flex-column align-items-center justify-content-center p-0"
         >
           <div className="first-card card shadow">
-            <Row className="mb-5">
+            <Row className="mb-5 align-items-start  mobileBottBDR">
               <Col sm={4}>
-                <p>Stronę odwiedza</p>
+                <p className="mb-0 topMarg">Stronę odwiedza</p>
               </Col>
-              <Col sm={4} className="CalTopInput">
+              <Col sm={4} className="CalTopInput colxsmobile">
                 <input
                   value={visitors}
                   onChange={handleVisitorsChange}
@@ -73,15 +73,15 @@ const Calculator = () => {
                 />
               </Col>
               <Col sm={4}>
-                <p>osób w miesiącu</p>
+                <p className="mb-0 topMarg">osób w miesiącu</p>
               </Col>
             </Row>
 
-            <Row>
+            <Row className="align-items-start">
               <Col sm={4}>
-                <p className="inputHeading">Średni zysk z zamówienia to</p>
+                <p className="inputHeading mb-0 topMarg">Średni zysk z zamówienia to</p>
               </Col>
-              <Col sm={4} className="CalBotInput">
+              <Col sm={4} className="CalBotInput colxsmobile">
                 <input
                   value={averageOrderValue}
                   onChange={handleOrderValueChange}
@@ -100,13 +100,13 @@ const Calculator = () => {
                 />
               </Col>
               <Col sm={4}>
-                <p>złotych</p>
+                <p className="mb-0 topMarg">złotych</p>
               </Col>
             </Row>
           </div>
         </Col>
 
-        <Col xxl={6}  className="car text-center p-sm-4 p-3 second-card ">
+        <Col lg={6}  className="car text-center p-sm-4 p-3 second-card p-0">
           <img
             src="https://images.prismic.io/marketersi/Zokfoh5LeNNTw2Je_Marketersi-1b.png?auto=format,compress"
             alt=""

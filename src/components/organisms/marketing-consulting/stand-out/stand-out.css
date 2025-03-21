@@ -42,7 +42,7 @@
 }
 
 .so_header {
-  margin: 36px auto;
+  margin: 36px auto 0;
   max-width: 900px;
 }
 
@@ -51,6 +51,7 @@
   line-height:77px;
   font-weight: 700;
   font-family:"Poppins", sans-serif !important;
+  margin-bottom:29px;
 }
 
 .so_header p {
@@ -119,7 +120,8 @@
     font-size: 30px;
     line-height:26px;
     font-weight: 700;
-    margin-bottom:0;
+    margin-bottom:30px;
+    margin-top:10px;
   }
   .so_header p {
     font-size: 24px;
@@ -148,13 +150,14 @@
 }
 @media only screen and (max-width: 600px) {
   .po_pricing_sec{padding:10px 12px;}
-  .po_card_custom{margin-top: 30px; padding:24px 18px 44px;}
+  .po_card_custom{margin-top: 20px; padding:24px 18px 44px; }
   .po_brandsNewInner{display: block; max-width: 100%; padding: 0;}
 
   .po_brands{width: 92vw; max-width: 92vw; padding-left:12px; padding-right:12px; margin:0 auto;}
   .so_flexFirst .so_image{min-width:1px; max-width:100%;}
   .so_paras{margin-top:0; margin-bottom:0;}
   .so_paras p{margin:0px 0 23px;}
+  .so_header{margin-bottom:23px;}
   .so_header p, .so_paras p{font-size:22px; line-height:32px; font-weight:300;}
   .so_header p{font-weight:400;}
   .so_img{margin: 0px auto;}
@@ -162,4 +165,5 @@
   .so_flex.so_flexFirst{padding-top: 0; padding-bottom: 0;}
   .so_flex.so_flexSecond{padding-top:0px; padding-bottom:0px;}
   .so_flex.so_flexSecond p{margin-bottom:20px;}
+  
 }

@@ -24,7 +24,7 @@ const PricingOption = () => {
         <div className="row justify-content-center m-0">
           <div className="p-0">
               <h2 style={{ whiteSpace: "pre-line" }} className="po_title">
-              {titlee}.
+              {titlee}
               </h2>
 
             <div className="mt-3">

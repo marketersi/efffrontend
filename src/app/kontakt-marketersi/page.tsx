@@ -18,6 +18,9 @@ const ContactScreen = () => {
     useSelector((state) => state.contact);
 
   const { project, contact_us, feedback } = screenData || {};
+
+  console.log(contact_us , 'kjsksakdksad')
+  
   const modifiedManual = contact_us?.manual.split(" ");
 
   const reversedProject = project?.slice().reverse();
@@ -70,9 +73,13 @@ const osClass = useOsClass();
                   />
                   </div>
                   <p className="first_sect_p">{contact_us?.sub_title}</p>
-                  <h1 className="first_heading_txt">
+                  {/* <h1 className="first_heading_txt">
                     {contact_us?.main_title}
+                  </h1> */}
+                  <h1 className="first_heading_txt">
+                  Przekształćmy <br /> Twoje Wizje <br /> w Sukcesy.
                   </h1>
+
                 </div>
                 <div className="col-lg-6 form_section">
                   <ContactForm />
@@ -113,36 +120,39 @@ const osClass = useOsClass();
               <div className="row">
                 <div className="col-lg-6 col-sm-12">
                   <p className="solid_bolds_text text-center">
-                    <span className="solid_bold">
-                      {modifiedManual && modifiedManual[0]}
-                      {modifiedManual && modifiedManual[1]}
+                  <span className="solid_bold">
+                      {/* {modifiedManual && modifiedManual[0]}
+                      {modifiedManual && modifiedManual[1]} */}
+                      100% skutecznie 
                     </span>
                     <span className="solid_tital">
-                      {modifiedManual && modifiedManual[2]}
+                      {/* {modifiedManual && modifiedManual[2]} */}
+                      
                     </span>
                   </p>
                   <div className="solid_bolld_botm_txt text-center">
-                    {contact_us?.bellow_to_manual}
+                  Działamy zdalnie
                   </div>
 
                   <div className="icons">
                     <Image src={contact_us?.social_media_content} alt="" />
                   </div>
+                  <div className="MiddDiv">
                   <div className="bottom">
                     <div className="botum">
                       <h3> {contact_us?.social_media_title} </h3>
-                      <div className="orders_number mobile">
+                      {/* <div className="orders_number mobile">
                         {" "}
                         <span style={{ fontWeight: "bold" }}>VAT-ID: </span>
                         {contact_us?.vat_id} <br />
                         <span style={{ fontWeight: "bold" }}>REGON: </span>
                         {contact_us?.regon}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 
                   <div className="botum_contents">
-                    <div className="orders_number desktop">
+                    <div className="orders_number">
                       {" "}
                       <span style={{ fontWeight: "bold" }}>VAT-ID: </span>
                       {contact_us?.vat_id} <br />
@@ -156,6 +166,8 @@ const osClass = useOsClass();
                       {contact_us?.co_work}
                     </div>
                   </div>
+                  </div>
+
                 </div>
                 <div className="col-lg-6 col-sm-12">
                   <div className="right_box_bottom">
