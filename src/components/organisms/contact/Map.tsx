@@ -65,7 +65,7 @@ const ContactMap = () => {
 
   const handleShowFeedback = (province) => {
     const matchedFeedback = feedback.find((item) => {
-      return item.provinces.toLowerCase() === province.toLowerCase();
+      return item.provinces.toLowerCase() === province?.toLowerCase();
     });
 
     if (matchedFeedback) {
@@ -271,6 +271,7 @@ const ContactMap = () => {
                 type="button"
                 className="MapsButtonsNormal"
                 aria-label="Następna opinia"
+                onClick={handleShowRandomFeedbacks} // Trigger the same function as map clicks
               >
                 <span>Zobacz kolejną</span>
                 <svg

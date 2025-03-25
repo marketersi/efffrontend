@@ -15,7 +15,11 @@ const Warranty = () => {
   return (
     <>
       <section className="warranty">
-        <h2>{warranty?.title}</h2>
+      <h2>
+  {warranty?.title?.split(' ').slice(0, 1).join(' ')} <br />
+  {warranty?.title?.split(' ').slice(1).join(' ')}
+</h2>
+
         <div className="warranty_card">
           <div className="warranty_card_content">
             <h3>{warranty?.card?.title}</h3>
