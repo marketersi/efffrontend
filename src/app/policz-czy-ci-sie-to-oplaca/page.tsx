@@ -41,7 +41,11 @@ const CalculatorScreen = () => {
                 {screenData?.first_heading &&
                   screenData?.first_heading.split(' ').slice(5).join(' ')}
               </p>
-              <p className='BoldText'>{screenData?.sub_heading}</p>
+              <p className="BoldText">
+  {screenData?.sub_heading?.split("suwaki.")[0]} suwaki. <br />
+  {screenData?.sub_heading?.split("suwaki.")[1]}
+</p>
+
             </Col>
           </Row>
 
