@@ -7,6 +7,7 @@ const Warranty = () => {
   const { warranty } = screenData;
 
   const router = useRouter();
+  console.log('rect-router')
 
   const navigateToPriceListStrony = () => {
     router.push("/cennik?type=Strone");
