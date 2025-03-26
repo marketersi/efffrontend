@@ -22,9 +22,12 @@ const Warranty = () => {
 
         <div className="warranty_card">
           <div className="warranty_card_content">
-            <h3>{warranty?.card?.title}</h3>
-            <p>{warranty?.card?.subtitle}</p>
+          
+           {/* <h3>{warranty?.card?.title}</h3>  */}
+            <h3>Skuteczniejsza strona, albo <br />100% zwrotu pieniędzy!</h3>
 
+            {/* <p>{warranty?.card?.subtitle}</p>  */}
+            <p>Wiemy, co działa, dlatego <br />bez wahania dajemy Ci <br />solidną gwarancję.</p>
             <a
               onClick={(e) => {
                 e.preventDefault();

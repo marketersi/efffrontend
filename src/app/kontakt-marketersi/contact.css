@@ -283,7 +283,7 @@ a.card_btn:hover {
 
 .solid_bolds_text {
   line-height: 0.9;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .solid_bold {
@@ -301,7 +301,9 @@ a.card_btn:hover {
 }
 
 .solid_bolld_botm_txt {
-  font-size: 25px;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
   margin-bottom: 2rem;
 }
 
@@ -384,6 +386,7 @@ a.card_btn:hover {
   font-weight: 700;
   color: white;
   margin: 0 0 10px;
+  text-transform: capitalize;
 }
 
 .map_content h4 {
@@ -668,7 +671,7 @@ div.glow {
 
 .project_dp {
   width: 130px;
-  height: 130x;
+  height: 130px;
   border-radius: 50%;
 }
 
@@ -970,8 +973,8 @@ div.glow {
     display: block;
   }
 
-  .solid_bold {
-    font-size: 8rem;
+  .solid_bold, .solid_bolld_botm_txt{
+    font-size: 3rem;
   }
 
   .solid_tital {
@@ -1174,9 +1177,7 @@ div.glow {
   .map_content h4 {
     font-size: 20px;
   }
-  .solid_bold {
-    font-size: 6rem;
-  }
+  
   .solid_tital {
     font-size: 60px;
   }
@@ -1260,7 +1261,7 @@ div.glow {
     left: 240px;
   }
 
-  .solid_bold{font-size: 2rem;}
+  .solid_bold, .solid_bolld_botm_txt{font-size: 2rem;}
   .first_sect_p{font-size:22px; line-height:32px; max-width:250px; margin-left: auto; margin-right: auto; margin-bottom:20px;}
   .first_heading_txt{font-size: 30px; line-height:34px; margin-top:0; margin-bottom:30px;}
   .form_sect{position: relative; background: #f4f4f4;}
@@ -1270,4 +1271,12 @@ div.glow {
   .MapsButtons{min-width:1px; width:100%; display: block; margin-bottom:30px; min-height: 44px; line-height: 38px; border-width:1px; font-size: 18px; box-shadow: 0 5px 0px 0 #008ebd;}
   .MapsButtonsNormal{font-size:18px;}
   .container_fluid_plus{padding-bottom:40px;}
+  .CountryFlag{width:2rem; left:-6px;}
+  .card{padding:1rem 1.6rem 1.6rem;}
+  .project_dp{width: 78px; height: 78px;}
+  .name_Image{margin: 0 auto 30px; grid-template-columns: 40% 60%; max-width: 200px;}
+  .name{font-size:20px;}
+  a.card_btn{font-size:24px; padding-top:0;  padding-bottom:5px;}
+  .card_btn span{font-size: 18px;}
+  .card .tital{font-size: 24px; line-height:30px; max-width:200px;}
 }
