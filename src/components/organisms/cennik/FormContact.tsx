@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useSelector } from "react-redux";
 
 const FormContact = () => {
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { formFour } = screenData?.cardMenu?.menuThree || "";
+
+  useEffect(() => {
+    console.log("Form contact called")
+  }, [])
   return (
     <>
       <div className="contact">
