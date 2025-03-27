@@ -373,7 +373,10 @@ a.card_btn:hover {
 
 .map_content {
   padding: 0px 50px 50px;
+  margin-top: -24px;
 }
+
+.MapContainerInner{position: relative;}
 
 .map_content p {
   color: #004761;
@@ -485,8 +488,8 @@ a.card_btn:hover {
 /* ==================================map plus===================== */
 .plus_icon_container {
   /* border: 1px solid #00BFFF; */
-  width: 25px;
-  height: 25px;
+  width: 29px;
+  height: 29px;
   border-radius: 100%;
   text-align: center;
   color: var(--brand-blue);
@@ -498,6 +501,8 @@ a.card_btn:hover {
   justify-content: center;
   z-index: 11;
 }
+
+.plus_icon_container svg{width:20px; height:20px;}
 
 /* .glow {
   animation: mymove 2s infinite;
@@ -521,8 +526,13 @@ a.card_btn:hover {
   background: white;
   border-radius: 100%;
   padding: 0 8px;
-  border: 1px solid var(--brand-blue);
+  /* border: 1px solid var(--brand-blue); */
   cursor: pointer;
+  width: 30px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div.glow {
@@ -571,93 +581,83 @@ div.glow {
 }
 
 .icon1 {
-  top: -50px;
-  left: 85px;
+  top: -36px;
+    left: 125px;
 }
 
 .icon2 {
-  /* top: -14%;
-  left: 46%; */
-  top: -98px;
-  left: 45%;
+  top: -81px;
+    left: 39%;
 }
 
 .icon3 {
-  /* top: -8%;
-  left: 63%; */
-  top: -47px;
-  left: 364px;
+  top: -54px;
+    left: 367px;
 }
 
 .icon4 {
-  /* top: 15%;
-  left: 24%; */
-  top: 100px;
-  left: 145px;
+  top: 68px;
+    left: 114px;
 }
 
 .icon5 {
-  /* top: 10%;
-  left: 28%; */
-  top: 69px;
-  left: 169px;
+  top: 68px;
+  left: 200px;
 }
 
 .icon6 {
-  /* top: 0%;
-  left: 43%; */
-  top: 2px;
-  left: 260px;
+  top: 6px;
+  left: 262px;
 }
 
 .icon7 {
-  top: 60px;
-  left: 395px;
+  top: 58px;
+    left: 384px;
 }
 
 .icon8 {
-  top: 25px;
-  left: 506px;
+  top: -11px;
+    left: 465px;
 }
 
 .icon9 {
-  top: 150px;
-  left: 187px;
+  top: 152px;
+    left: 163px;
 }
 
 .icon10 {
-  top: 100px;
-  left: 310px;
+  top: 118px;
+  left: 307px;
 }
 
 .icon11 {
-  top: 175px;
-  left: 240px;
+  top: 190px;
+    left: 235px;
 }
 
 .icon12 {
-  top: 205px;
-  left: 295px;
+  top: 215px;
+    left: 285px;
 }
 
 .icon13 {
-  top: 255px;
-  left: 340px;
+  top: 253px;
+    left: 349px;
 }
 
 .icon14 {
-  top: 178px;
-  left: 365px;
+  top: 184px;
+    left: 373px;
 }
 
 .icon15 {
-  top: 125px;
-  left: 450px;
+  top: 143px;
+  left: 468px;
 }
 
 .icon16 {
-  top: 260px;
-  left: 450px;
+  top: 237px;
+    left: 438px;
 }
 
 /* mod styles after dynamic data */
@@ -1178,37 +1178,43 @@ div.glow {
     font-size: 20px;
   }
   
+  .plus_icon_container svg {
+    width: 18px;
+    height: 18px;
+}
+.plus_icon_container span{width: 25px; height: 25px;}
+
   .solid_tital {
     font-size: 60px;
   }
   .icon1 {
-    top: -30px;
-    left: 25px;
+    top: -22px;
+    left: 52px;
   }
 
   .icon2 {
-    top: -58px;
-    left: 132px;
+    top: -48px;
+    left: 118px;
   }
 
   .icon3 {
-    top: -33px;
-    left: 185px;
+    top: -32px;
+        left: 195px;
   }
 
   .icon4 {
-    top: 55px;
-    left: 51px;
+    top: 42px;
+        left: 45px;
   }
 
   .icon5 {
-    top: 35px;
-    left: 74px;
+    top: 39px;
+    left: 94px;
   }
 
   .icon6 {
-    top: -0px;
-    left: 126px;
+    top: 5px;
+    left: 131px;
   }
 
   .icon7 {
@@ -1217,50 +1223,52 @@ div.glow {
   }
 
   .icon8 {
-    top: 10px;
-    left: 272px;
+    top: -2px;
+        left: 254px;
   }
 
   .icon9 {
-    top: 85px;
-    left: 88px;
+    top: 90px;
+        left: 75px;
   }
 
   .icon10 {
-    top: 60px;
-    left: 160px;
+    top: 70px;
+    left: 158px;
   }
 
   .icon11 {
-    top: 105px;
-    left: 116px;
+    top: 112px;
+        left: 115px;
   }
 
   .icon12 {
-    top: 112px;
-    left: 154px;
+    top: 129px;
+        left: 144px;
   }
 
   .icon13 {
-    top: 143px;
-    left: 170px;
+    top: 150px;
+    left: 185px;
   }
 
   .icon14 {
-    top: 104px;
-    left: 192px;
+    top: 108px;
+        left: 195px;
   }
 
   .icon15 {
-    top: 73px;
-    left: 244px;
+    top: 85px;
+    left: 254px;
   }
 
   .icon16 {
-    top: 150px;
-    left: 240px;
+    top: 144px;
+        left: 236px;
   }
 
+  .map_content h3{white-space: normal; word-wrap: break-word;}
+  .map_content{margin-top:0px;}
   .solid_bold, .solid_bolld_botm_txt{font-size: 2rem;}
   .first_sect_p{font-size:22px; line-height:32px; max-width:250px; margin-left: auto; margin-right: auto; margin-bottom:20px;}
   .first_heading_txt{font-size: 30px; line-height:34px; margin-top:0; margin-bottom:30px;}

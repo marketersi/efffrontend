@@ -81,6 +81,7 @@ const ContactMap = () => {
 
   return (
     <div className="map_container">
+      <div className="MapContainerInner">
       <Image src="/assets/images/contact/mapakontakt.avif" alt="" />
 
       <>
@@ -104,7 +105,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Pomorskie")}
         >
           <div className={`${glowIndex === 2 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -116,7 +117,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Warmińsko-Mazurskie")}
         >
           <div className={`${glowIndex === 3 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -126,7 +127,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Lubuskie")}
         >
           <div className={`${glowIndex === 4 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -136,7 +137,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Wielkopolskie")}
         >
           <div className={`${glowIndex === 5 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -148,7 +149,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Kujawsko-Pomorskie")}
         >
           <div className={`${glowIndex === 6 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -158,7 +159,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Mazowieckie")}
         >
           <div className={`${glowIndex === 7 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -168,7 +169,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Podlaskie")}
         >
           <div className={`${glowIndex === 8 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -178,7 +179,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Dolnośląskie")}
         >
           <div className={`${glowIndex === 9 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -188,7 +189,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Łódzkie")}
         >
           <div className={`${glowIndex === 10 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -198,7 +199,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Opolskie")}
         >
           <div className={`${glowIndex === 11 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -208,7 +209,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Śląskie")}
         >
           <div className={`${glowIndex === 12 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -218,7 +219,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Małopolskie")}
         >
           <div className={`${glowIndex === 13 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -228,7 +229,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Świętokrzyskie")}
         >
           <div className={`${glowIndex === 14 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -238,7 +239,7 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Lubelskie")}
         >
           <div className={`${glowIndex === 15 ? "glow" : ""}`}></div>
-          <span>+</span>
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
 
         <div
@@ -248,10 +249,12 @@ const ContactMap = () => {
           onClick={() => handleShowFeedback("Podkarpackie")}
         >
           <div className={`${glowIndex === 16 ? "glow" : ""}`}></div>
-          <span>+</span>
+          {/* <span>+</span> */}
+          <span><FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon" /></span>
         </div>
       </>
       {/* Icon container ends */}
+      </div>
 
       {selectedFeedback && (
         <div className="map_content">
