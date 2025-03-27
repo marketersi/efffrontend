@@ -106,7 +106,7 @@ textarea{resize: none;}
   }
   .po_brands {
     display: block;
-    text-align: start;
+    /* text-align: start; */
     padding: 50px 20px;
   }
   .po_brands p {
@@ -138,10 +138,10 @@ textarea{resize: none;}
     font-size: 20px;
   }
   .po_brands {
-    text-align: start;
+    /* text-align: start; */
   }
   .po_brands {
-    text-align: start;
+    /* text-align: start; */
     display: block;
     background-color: transparent;
     color: #808080;
