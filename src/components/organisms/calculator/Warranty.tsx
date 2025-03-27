@@ -40,7 +40,7 @@ const Warranty = () => {
             </a>
           </div>
           <div className="warranty_card_img">
-            <img src={warranty?.card?.image} alt="vb" />
+            <img src={warranty?.card?.image} alt="vb"/>
           </div>
         </div>
       </section>
