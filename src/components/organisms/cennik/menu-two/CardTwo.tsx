@@ -11,7 +11,7 @@ const CardTwo = ({ form }) => {
 
   const { isLoading, screenData } = useSelector((state) => state.priceList);
   const { Form1 } = screenData?.cardMenu?.MenuTwo || {};
-  console.log(Form1 , 'Form1Form1')
+  console.log(Form1 , 'Form1Form1qqqqqqqqqqq')
   console.log(Section2 , 'Section2Section2')
 
   const [currentComponent, setCurrentComponent] = useState(0);
