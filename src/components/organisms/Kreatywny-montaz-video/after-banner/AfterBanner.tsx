@@ -88,7 +88,7 @@ const AfterBanner = () => {
 
         </div>
       </div>
-
+{/* 
       <section className="container pb-5">
           <div  className="row justify-content-center">
             <div className="col-xl-8 text-center">
@@ -310,7 +310,7 @@ const AfterBanner = () => {
             </div>
           </div>
           <ToastContainer />
-        </section>
+        </section> */}
 
 
       {/* <div className={style.democontainer}>
