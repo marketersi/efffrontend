@@ -12,6 +12,7 @@ import HardResult from '@/components/organisms/Kreatywny-montaz-video/hard-resul
 import Numbers from '@/components/organisms/Kreatywny-montaz-video/numbers/Numbers';
 import Entrepreneur from '@/components/organisms/Kreatywny-montaz-video/entrepreneur/Entrepreneur';
 import OurClients from '@/components/organisms/main/ourclients/OurClients';
+import AfterBanner from '@/components/organisms/Kreatywny-montaz-video/after-banner/AfterBanner';
 
 const CreativeVideoEditingScreen = () => {
   const { isLoading, screenData } = useSelector((state) => state.videoEditing);
@@ -34,9 +35,11 @@ const CreativeVideoEditingScreen = () => {
   return (
     <>
       <Hero />
-      <Video />
+      {/* <Video /> */}
+      <AfterBanner />
       <RatingCaption />
-      <MarkSide />
+
+      {/* <MarkSide /> */}
       <OurClients />
       <Entrepreneur />
       <Numbers />

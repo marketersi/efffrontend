@@ -1,9 +1,47 @@
+.heroSection{
+  position: relative;
+  height: calc(100vh - -130px);
+  width: 100%;
+  margin-top:-130px;
+}
+
 .hero {
   background: transparent;
   padding: 50px 0 168px;
   /* position: relative; */
   overflow: hidden;
-  max-height: 685px;
+  /* max-height: 685px; */
+}
+
+.heroVideo video {
+  display: block;
+}
+
+.videoButtonFix{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+ 
+  text-align: center;
+}
+
+.youtubeIcon {
+  background: rgba(156,0,0,0.95);
+  width: 110px;
+  height: 60px;
+  border-radius: 12px;
+  
+  cursor: pointer;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.youtubeIcon svg {
+  width: 30px;
 }
 
 .hero h1 {

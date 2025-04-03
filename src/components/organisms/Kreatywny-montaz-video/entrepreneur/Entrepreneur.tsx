@@ -16,7 +16,7 @@ const Entrepreneur = () => {
       <Container>
         <div className={style.enter}>
         <div className={osClass}>
-        <ReactPlayer
+        {/* <ReactPlayer
             url={section1?.image_url}
             playing={true}
             loop={true}
@@ -26,7 +26,7 @@ const Entrepreneur = () => {
             className={style.socialVideo}
             pip={false}
             playsinline
-          />
+          /> */}
             </div>
           <div className={style.Content}>
             <h2>{section1?.title}</h2>

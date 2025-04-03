@@ -37,8 +37,8 @@ export default function OurClients() {
     <>
     <div className="overflow-div">
     <section className="WidthContent1">
-      <h2 className="ClinetsHead bottommorespace">Jak wygląda współpraca z Marketersi?</h2>
-      <p className="ClinetsPara">Zapytaliśmy setkę naszych klientów i oto, co usłyszeliśmy:</p>
+      {/* <h2 className="ClinetsHead bottommorespace">Jak wygląda współpraca z Marketersi?</h2>
+      <p className="ClinetsPara">Zapytaliśmy setkę naszych klientów i oto, co usłyszeliśmy:</p> */}
     <div className="OurClients WidthContent mobile-mt">
       <div className="OurClients_Marquee full mobile">
         <Marquee autoFill speed={175}>
