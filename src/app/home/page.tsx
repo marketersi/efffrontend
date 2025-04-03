@@ -33,6 +33,10 @@ const HomeScreen = () => {
   }
 
   useEffect(() => {
+    console.log("hellll@@@@@@@@@@")
+  }, []);
+
+  useEffect(() => {
     dispatch({ type: FETCH_HOME_SCREEN_DATA });
   }, [dispatch]);
 
