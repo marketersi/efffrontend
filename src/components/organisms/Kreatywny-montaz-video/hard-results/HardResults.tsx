@@ -20,7 +20,7 @@ const HardResult = () => {
           <div className={style.Content}>
             <h2 className={style.hardMB}>{section4?.title}</h2>
             <h3 className={style.gradientBG}>- {section4?.subtitle}</h3>
-            <img src={section4?.image_url} alt="" className={style.hardImg} />
+            {/* <img src={section4?.image_url} alt="" className={style.hardImg} /> */}
             <p>{section4?.paragraph_1}</p>
             <p>{section4?.paragraph_2}</p>
           </div>
@@ -31,7 +31,7 @@ const HardResult = () => {
             </Col>
             <Col lg={6} className="order-lg-2 order-1">
             <div className={osClass}>
-            <ReactPlayer
+            {/* <ReactPlayer
                 url={section5?.video_url}
                 playing={true}
                 loop={true}
@@ -40,7 +40,7 @@ const HardResult = () => {
                 muted={true}
                 pip={false}
                 playsinline
-              />
+              /> */}
             </div>
             </Col>
           </Row>
@@ -50,7 +50,7 @@ const HardResult = () => {
           </div>
           <Row className="mt-5 pt-5 mb-5 pb-5">
             <Col lg={7} className={osClass}>
-              <ReactPlayer
+              {/* <ReactPlayer
                 url={section6?.video_url}
                 playing={true}
                 loop={true}
@@ -59,7 +59,7 @@ const HardResult = () => {
                 muted={true}
                 pip={false}
                 playsinline
-              />
+              /> */}
             </Col>
             <Col lg={5}>
               <h4 className="text-end">{section6?.quote}</h4>
@@ -74,7 +74,7 @@ const HardResult = () => {
             </p>
             <p>{section6?.paragraph_2}</p>
             <p>{section6?.paragraph_3}</p>
-            <ReactPlayer
+            {/* <ReactPlayer
               url={section7?.video_url_1}
               playing={true}
               loop={true}
@@ -83,11 +83,11 @@ const HardResult = () => {
               muted={true}
               pip={false}
               playsinline
-            />
+            /> */}
             <h2 className={style.brandingHeading}>{section7?.title}</h2>
 
             <p>{section7?.paragraph_1}</p>
-            <ReactPlayer
+            {/* <ReactPlayer
               url={section7?.video_url_3}
               playing={true}
               loop={true}
@@ -96,7 +96,7 @@ const HardResult = () => {
               muted={true}
               pip={false}
               playsinline
-            />
+            /> */}
             <p>{section7?.paragraph_2}</p>
             <p>{section7?.paragraph_3}</p>
             {/* <ReactPlayer
@@ -120,10 +120,7 @@ const HardResult = () => {
               pip={false}
               playsinline
             /> */}
-            <h3>{section7?.bottom_title}</h3>
-            <h4 className={style.hardBottomContent}>
-              {section7?.quoted_title}
-            </h4>
+           
             <div className={`mb-5 pb-5  ${style.ratingLogoImg}`}>
               <Image
                 src={section7?.image_url_1}
