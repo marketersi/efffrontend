@@ -11,7 +11,9 @@ import OurClients from '@/components/organisms/main/ourclients/OurClients';
 import Entrepreneur from '@/components/organisms/professional-video-recording/entrepreneur/Entrepreneur';
 import Numbers from '@/components/organisms/professional-video-recording/numbers/Numbers';
 import HardResult from '@/components/organisms/professional-video-recording/hard-results/HardResults';
-import Order from '@/components/organisms/professional-video-recording/order/Order';
+//import Order from '@/components/organisms/professional-video-recording/order/Order';
+//import Order from '@/components/organisms/main/order/Order';
+import Order from '@/components/organisms/main/order/Order';
 
 const ProfessionalVideoRecording = () => {
   const { isLoading, screenData } = useSelector(
@@ -36,9 +38,9 @@ const ProfessionalVideoRecording = () => {
   return (
     <>
       <Hero />
-      <Video />
+      {/* <Video /> */}
       <RatingCaption />
-      <MarkSide />
+      {/* <MarkSide /> */}
       <OurClients />
       <Entrepreneur />
       <Numbers />

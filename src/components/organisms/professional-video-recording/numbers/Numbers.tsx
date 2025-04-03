@@ -27,7 +27,7 @@ const Numbers = () => {
             <p>{section2?.paragraph_3}</p>
             <p>{section2?.paragraph_4}</p>
             <div className={osClass}>
-           <ReactPlayer
+           {/* <ReactPlayer
               url={section3?.video_url}
               playing={true}
               loop={true}
@@ -37,7 +37,7 @@ const Numbers = () => {
               className={style.numberVideo}
               pip={false}
               playsinline
-            />
+            /> */}
            </div>
             <p>{section3?.paragraph_1}</p>
             <p>{section3?.paragraph_2}</p>

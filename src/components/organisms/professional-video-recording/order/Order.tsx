@@ -8,9 +8,7 @@ import { useSelector } from 'react-redux';
 import Stars from '@/components/molecules/Ratings';
 
 const Order = () => {
-  const { isLoading, screenData } = useSelector(
-    (state) => state.videoRecording
-  );
+  const { isLoading, screenData } = useSelector((state) => state.home);
   const { ratingSection } = screenData;
 
   return (
@@ -28,12 +26,12 @@ const Order = () => {
             </Link>
           </div>
           <div className={style.orderImg}>
-            {/* <Image
+            <img
               src={ratingSection?.image_url}
               alt="My Image"
               width="auto"
               height="auto"
-            /> */}
+            />
             <div className={style.ratingContent}>
               <p>{ratingSection?.subtitle_2}</p>
               <div className={style.rating}>
