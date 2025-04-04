@@ -1,9 +1,47 @@
+.heroSection{
+  position: relative;
+  height: calc(100vh - -130px);
+  width: 100%;
+  margin-top:-130px;
+}
+
 .hero {
   background: transparent;
   padding: 50px 0 168px;
   /* position: relative; */
   overflow: hidden;
-  max-height: 685px;
+  /* max-height: 685px; */
+}
+
+.heroVideo video {
+  display: block;
+}
+
+.videoButtonFix{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+ 
+  text-align: center;
+}
+
+.youtubeIcon {
+  background: rgba(156,0,0,0.95);
+  width: 110px;
+  height: 60px;
+  border-radius: 12px;
+  
+  cursor: pointer;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.youtubeIcon svg {
+  width: 30px;
 }
 
 .hero h1 {
@@ -50,8 +88,8 @@
   border: 3px solid #00bfff;
   padding: 10px 20px;
   border-radius: 100px;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 500;
   color: white;
   background: transparent;
 }
@@ -214,11 +252,11 @@
   .heroBtn {
     display: block;
     margin: 0 auto;
-    width: 270px;
+    width: 300px;
   }
 
   .heroBtn a {
-    padding: 0px 0 20px 20px;
+    padding: 0px 0 20px 0px;
     justify-content: center;
   }
 
@@ -229,7 +267,7 @@
 
 @media screen and (max-width: 767px) {
   .heroVideo {
-    padding: 180px 0 404px;
+    padding: 180px 0 170px;
   }
 
   .hero {
@@ -310,7 +348,7 @@
     width: 180px;
   }
   .heroVideo {
-    padding: 180px 0 507px;
+    padding: 180px 0 250px;
   }
   .hero {
     max-height: 580px;
