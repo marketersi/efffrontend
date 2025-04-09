@@ -33,7 +33,7 @@ const HomeScreen = () => {
   }
 
   useEffect(() => {
-    console.log("hellll@@@@@@@@@@")
+    console.log("hellll@@@@@@@@@@###########")
   }, []);
 
   useEffect(() => {
