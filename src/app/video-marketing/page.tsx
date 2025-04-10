@@ -14,7 +14,7 @@ import HardResult from '@/components/organisms/professional-video-recording/hard
 //import Order from '@/components/organisms/professional-video-recording/order/Order';
 //import Order from '@/components/organisms/main/order/Order';
 import Order from '@/components/organisms/main/order/Order';
-import AfterBanner from '@/components/organisms/professional-video-recording/after-banner/Afterbanner';
+import AfterBanner from '@/components/organisms/professional-video-recording/after-banner/AfterBanner';
 
 const ProfessionalVideoRecording = () => {
   const { isLoading, screenData } = useSelector(
