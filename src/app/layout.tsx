@@ -11,6 +11,8 @@ import store from "@/store/store";
 import { useEffect, useState } from "react";
 import BounceLoader from 'react-spinners/BounceLoader';
 //import { ReactLenis } from "@studio-freight/react-lenis";
+import ClientOnlyWrapper from '@/components/ClientOnlyWrapper';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className={inter.className}>
+      <ClientOnlyWrapper> 
       {loading ? (
         <div className="loader-container">
         <BounceLoader color="#00bfff" size={50} />
@@ -52,6 +55,7 @@ export default function RootLayout({
           <Footer />
         </>
       )}
+      </ClientOnlyWrapper> 
     </body>
   </html>
   );
