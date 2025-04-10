@@ -1,1 +1,0 @@
-export const FETCH_UX_SCREEN_DATA = "FETCH_UX_SCREEN_DATA";
